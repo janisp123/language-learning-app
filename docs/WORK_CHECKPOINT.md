@@ -7,7 +7,7 @@
 ## Verified state
 
 - Repository and initial README existed before setup.
-- Planning documents define product requirements, content boundaries, Codex collaboration, regression expectations and the ordered backlog.
+- Planning documents define product requirements, content boundaries, Codex collaboration, regression expectations and the ordered backlog. Initial setup [PR #1](https://github.com/janisp123/language-learning-app/pull/1) merged as `7b0ff0c6df6ff0fe3ccdc123c4655628b01ef825`; all nine documents were read back from `main` and checked for internal consistency/TD attribution.
 - **No executable Android app, browser learning experience, Pages deployment, CI pipeline, Play listing or release has been built or verified.**
 - New documentation is a handoff/plan, not an implementation.
 
