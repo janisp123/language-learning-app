@@ -1,6 +1,6 @@
 # Architecture and behavioral contract — planning specification
 
-**Status:** Proposed architecture and owner-decided behaviors, **not implemented**. Codex must complete L-001 before choosing platform frameworks. Keep two delivery surfaces compatible without introducing a remote backend.
+**Status:** Owner-decided behaviors and architecture planning, **not implemented**. The [L-001 architecture decision](decisions/L-001-platform-content-engine.md) proposes a shared TypeScript/Vite runtime with a Capacitor Android wrapper; it is pending owner review/integration. Existing accepted learning rules below remain authoritative. Keep two delivery surfaces compatible without introducing a remote backend.
 
 ## Product goals and boundaries
 
@@ -75,4 +75,4 @@ Only create directories when a small Codex task actually needs them. A lean impl
 
 ## Still requiring a deliberate technical decision
 
-The smallest appropriate cross-platform runtime (e.g. common core with wrappers vs portable web implementation with Android integration) and pronunciation delivery must be chosen in L-001. Do not assume a feature/hosting technique is approved merely because it appeared in an earlier brainstorming reply.
+The [L-001 decision](decisions/L-001-platform-content-engine.md) records the platform comparison, recommended runtime, canonical content/ID contracts, bundled optional pronunciation, storage/export boundaries and verification strategy. Its owner-decision table explicitly separates proposed direction/lifecycle/completion behavior from accepted rules. Review those decisions before L-002/L-003; do not assume a feature/hosting technique is approved merely because it appeared in an earlier brainstorming reply.

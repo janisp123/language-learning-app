@@ -27,6 +27,7 @@ This repository uses GitHub as the shared written handoff between the project ow
 | [AGENTS.md](AGENTS.md) | Mandatory agent operating rules |
 | [docs/TD.learn.md](docs/TD.learn.md) | The **only** approved implementation backlog for this repository |
 | [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | Product boundaries and proposed architecture |
+| [L-001 architecture decision](docs/decisions/L-001-platform-content-engine.md) | Codex technical proposal, pending owner review |
 | [docs/CONTENT_RULES.md](docs/CONTENT_RULES.md) | Curriculum and translation/content policy |
 | [docs/PROJECT_PLAYBOOK.md](docs/PROJECT_PLAYBOOK.md) | Reusable lessons from earlier work |
 | [docs/WORK_CHECKPOINT.md](docs/WORK_CHECKPOINT.md) | Current verified state and next action |

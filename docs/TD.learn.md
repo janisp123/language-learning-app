@@ -1,14 +1,15 @@
 # TD.learn — active approved tasks for the language-learning app
 
 **Repository:** `janisp123/language-learning-app` • **Branch of record:** `main`  
-**State:** Planning only. Tasks below are **not started**, and do not authorize background execution or publication. Codex starts only when the owner asks.
+**State:** Planning only. L-001 has a documentation proposal prepared by Codex at the owner's request, pending review/integration; all other implementation tasks are not started. Tasks do not authorize background execution or publication. Codex starts only when the owner asks.
 
 For each task: check `AGENTS.md` and `WORK_CHECKPOINT.md`, verify whether already delivered, identify dependencies, use a short-lived branch and checked PR, and update changelog + checkpoint after completing verified work. Preserve `Added by` attribution.
 
 ## Ordered implementation backlog (Codex)
 
 ### L-001 — Choose and document the simplest maintainable dual-platform implementation
-- **Status:** TODO
+- **Status:** IN REVIEW — documentation proposal prepared; not integrated or approved
+- **Proposal authored by:** Codex · [architecture decision](decisions/L-001-platform-content-engine.md); task attribution below is unchanged.
 - **Added by:** ChatGPT
 - **Implemented by:** Not yet
 - **Goal:** Inspect the empty repository and decide how the GitHub Pages browser experience and Android app will reuse **one canonical vocabulary/content source and one testable definition of learning behavior**. Compare a shared runtime implementation with small platform wrappers against alternatives; favor reliability/minimalism and Google Play compliance over architectural sophistication.

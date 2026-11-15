@@ -2,28 +2,33 @@
 
 **As of:** 2026-11-15 (Europe/Riga)  
 **Repository:** `janisp123/language-learning-app`  
-**Source of truth:** `main` after the initial documentation PR is merged.
+**Scope:** L-001 review branch `docs/l001-architecture-decision`; source baseline is main at `ae1be9361eb26dba0cdbe08eeb154172880a441d`. This branch is not evidence of integration into main.
 
 ## Verified state
 
-- Repository and initial README existed before setup.
-- Planning documents define product requirements, content boundaries, Codex collaboration, regression expectations and the ordered backlog. Initial setup [PR #1](https://github.com/janisp123/language-learning-app/pull/1) merged as `7b0ff0c6df6ff0fe3ccdc123c4655628b01ef825`; all nine documents were read back from `main` and checked for internal consistency/TD attribution.
-- **No executable Android app, browser learning experience, Pages deployment, CI pipeline, Play listing or release has been built or verified.**
-- New documentation is a handoff/plan, not an implementation.
+- Initial documentation PR #1 was independently confirmed merged as `7b0ff0c6df6ff0fe3ccdc123c4655628b01ef825`. Main was checked at the baseline above; no open PRs were returned at the start of L-001.
+- All nine baseline documents were inspected. No executable app, lesson pack, test tooling, CI pipeline, Pages deployment or Play release exists in the inspected source.
+- Owner requested the L-001 architecture decision PR after reviewing Codex's repository assessment.
+- **L-001: PARTIAL / prepared for review.** Codex authored [the architecture decision](decisions/L-001-platform-content-engine.md), with alternatives, build boundaries, canonical content/IDs, engine contracts, audio, native storage/backup and verification strategy. Architecture/README references and TD status identify it as a proposal.
+- No application code, dependencies, repository settings, saved progress, merge or public release is changed by this work.
 
 ## Current product decision
 
-First release = ten practical LV ↔ RU lessons for ages 10–17, with daily/fresh-session restart from lesson 1, 10 consecutive correct answers per lesson, wrong-answer step back, only Android's highest lesson retained, manual progress file transfer, anonymous unsaved browser experience, no ads or accounts.
+Ten practical LV ↔ RU lessons for ages 10–17. Every fresh session starts at lesson 1; ten consecutive correct answers complete a lesson; wrong answers step back one prompt. Only Android's highest lesson is retained, with manual file transfer. Browser learning is anonymous and unsaved; no ads or accounts.
+
+## Review and verification
+
+- Official Capacitor v8, Preferences, Vite Pages and Android document-access sources were read; references and toolchain caveats are in the decision.
+- Documentation checks/reviewer findings and exact commit/PR evidence belong in the associated PR. No runtime results are inferred from these documents.
+- App tests, browser/device runs, CI, deployment and Play checks: **NOT RUN — no application implemented**.
+- L-001 stays active until owner decisions and verified integration; completed history must be archived in CHANGELOG only after that integration.
 
 ## Blockers / owner decisions
 
-- L-001 must choose a sustainable cross-platform approach and pronunciation delivery before large coding work.
-- Final public app name and source-code/content licenses are undecided.
-- Google Play verification, required testing, listing assets and publication have not occurred.
-- Browser and Android delivery must be tested independently before release.
+- Review the L-001 technical recommendation and its explicitly proposed direction-change, initial-record, lesson-10, prompt-count, lifecycle and audio-coverage rules.
+- Final name/package identity and code/content/audio licenses remain undecided.
+- Real Android/browser testing and current Play requirements remain release gates; this architecture is not evidence of compliance.
 
 ## One next action
 
-**Owner starts Codex on L-001**: inspect the repository, propose the minimal platform/content/engine architecture, record decisions and tests; do not implement the full app or publish. After approved architecture, proceed with the next small TD item.
-
-**Documentation synchronization:** Treat this checkpoint as applying to `main` only after verifying the setup PR merged; until then, use the actual branch/PR state. Never infer a merge from this text.
+**Owner reviews the L-001 PR and resolves its decision table.** After authorized integration, request the next bounded L-002 engine/test slice explicitly. No full-app implementation, merge or publication is authorized by the presence of a TD task.
