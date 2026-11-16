@@ -29,6 +29,10 @@
 
 Owner requested 500 basic words/short phrases and no sentences in the first ten blocks. Implemented 50 blocks of ten with all three translations and localized titles. New course `basic-vocabulary-10-17` and permanent `vocab-*` / `basic-*` IDs avoid reusing old meanings. Original content is preserved under `archive/course-0.3/`; its identity digest is unchanged. A separate active 500-item lock catches text/answer drift. Catalog curriculum checks enforce target/distinct counts, short forms and sentence punctuation limits. No engine or learning-rule changes. Independent data/module reviews completed; fluent human review remains pending. Delivery continues in PR #6; not merged or published. See VOCABULARY_500.md.
 
+## Owner content priority — reuse before style
+
+Recorded in CONTENT_RULES.md and AGENTS.md: maximize reuse of taught words, phrases and patterns, even when style suffers. Prefer familiar expressions and recombinations over unnecessary synonyms; retain correct grammar, clear meanings and unambiguous answers. Documentation-only clarification; no vocabulary audit or content/runtime change claimed.
+
 ## Verification limits
 
 - Automated engine/content and minimal DOM-fixture event-wiring tests pass. Packager is deterministic; generated download and hosted lesson use the same bytes.

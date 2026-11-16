@@ -2,6 +2,12 @@
 
 The owner has revised the initial curriculum to **500 basic words and short phrases in 50 blocks of ten questions**, in Latvian, Russian and English, all six directed pairs, initially for ages 10–17. This supersedes the earlier ten-situation, sentence-based draft and its former limit on vocabulary count. The earlier draft remains archived, not active.
 
+## Reuse takes priority over style
+
+Owner priority: reuse already-taught words, short phrases and phrase patterns as much as possible across blocks and future sentence lessons, even when the result sounds repetitive or less elegant. Before introducing a synonym or alternative expression, prefer a familiar expression that communicates the same meaning. Introduce new vocabulary when it adds a useful meaning or is needed for understandable, grammatically correct communication. Recombine familiar component words into new phrases rather than introducing unnecessary alternatives.
+
+Repeated words within different useful phrases are encouraged; they do not require duplicate concept IDs for the same meaning or reduce answer-choice clarity. Keep existing permanent bindings intact. This principle guides content authoring and review; recording it does not claim that all 500 current entries have undergone a reuse audit.
+
 ## Current curriculum
 
 - The first ten blocks contain only simple words and short phrases, never sentences. All 500 current items follow the same short-form approach, with at most four whitespace-separated words in each translation and no sentence-ending punctuation.
@@ -24,7 +30,7 @@ The catalog curriculum policy enforces the target item count, distinct concept c
 ## Review every new item
 
 1. Is the meaning useful, concrete and distinct from existing items?
-2. Can a learner reuse it in everyday situations?
+2. Can this meaning be expressed with already-taught words or phrase patterns? Prefer their reuse over stylistic variety; add new words only for a useful meaning or necessary clarity.
 3. Is every translation natural, short and aligned with the same meaning?
 4. Is only one of the four choices defensibly correct in every direction?
 5. Is it appropriate and understandable for the intended age group?

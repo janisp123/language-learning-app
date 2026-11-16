@@ -47,7 +47,7 @@ Scope: **this repository only** (`janisp123/language-learning-app`). Do not edit
 - The complete learning UI follows the source language: Latvian for LV→RU/EN, Russian for RU→LV/EN, English for EN→LV/RU. Change controls, instructions, lesson titles, counters, feedback, errors and completion immediately when the direction changes. Prompt/options retain their actual language tags.
 - Author content through `content/catalog.json`, `content/concepts.json`, per-block files and per-language modules; follow `docs/CONTENT_MODULES.md`. Preserve permanent question/concept IDs, explicit correct-answer IDs and both active-vocabulary and archived original-content lock evidence. Do not edit generated downloads or bypass loader/UI-contract checks to silence an identity error. Keep engine/UI independent of total block/language counts.
 - Separate canonical content from platform UI and logic. Preserve stable course, lesson and prompt IDs; version any exported progress format.
-- Use `docs/CONTENT_RULES.md` to prefer clarity/reusability while keeping translations genuinely understandable and grammatically defensible.
+- Prioritize reusing taught words, phrases and phrase patterns across content, even if style becomes repetitive or less elegant. Avoid unnecessary synonyms and stylistic alternatives; introduce new words for useful meanings or necessary clarity. Keep translations understandable and grammatically defensible; follow `docs/CONTENT_RULES.md`.
 - Child safety: never ask for or transmit personal information; don't include tracking or unreviewed external content; respect basic accessibility, audio clarity, and small-screen usability.
 
 ## 6. Verification and release
