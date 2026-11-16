@@ -1,0 +1,77 @@
+const test = require('node:test');
+const assert = require('node:assert/strict');
+const path = require('node:path');
+const fs = require('node:fs');
+const enginePath = path.join(__dirname, '../core/engine.js');
+// A missing implementation is an explicit failed assertion, not an import error.
+test('learning engine implementation exists', () => assert.ok(fs.existsSync(enginePath), 'engine is not implemented'));
+const E = fs.existsSync(enginePath) ? require(enginePath) : null;
+const fixture = {
+  schemaVersion: 1, contentVersion: 'test', id: 'test-course', languages: ['lv','ru'], agePath: '10-17',
+  phrases: Array.from({length: 10}, (_, i) => ({id:`p${i}`, lv:`LV ${i}`, ru:`RU ${i}`})),
+  lessons: Array.from({length: 10}, (_, l) => ({id:`lesson-${l}`, title:`Lesson ${l}`, prompts:Array.from({length:10},(_, i)=>({id:`l${l}-q${i}`,phraseId:`p${i}`,distractorIds:[`p${(i+1)%10}`,`p${(i+3)%10}`,`p${(i+5)%10}`]}))}))
+};
+if (E) {
+  const advance = (s, correct=true) => {
+    const q=E.question(fixture,s,()=>0.2);
+    return E.answer(fixture,s,q,correct?q.correctId:q.options.find(x=>x.id!==q.correctId).id);
+  };
+  test('fresh sessions always begin at lesson one, with no persistence input',()=>{
+    assert.deepEqual(E.start(fixture,'lv-ru'),{courseId:'test-course',direction:'lv-ru',lessonIndex:0,promptIndex:0,consecutive:0,revision:0,phase:'learning'});
+    assert.equal(E.start(fixture,'ru-lv').direction,'ru-lv');
+    assert.throws(()=>E.start(fixture,'en-ru'));
+  });
+  test('correct advances; wrong moves backward and clears the run; wrong at first clamps',()=>{
+    let s=E.start(fixture,'lv-ru');
+    s=advance(s,false).state; assert.equal(s.promptIndex,0); assert.equal(s.consecutive,0);
+    s=advance(s).state; s=advance(s).state; assert.equal(s.promptIndex,2);
+    const r=advance(s,false); assert.equal(r.state.promptIndex,1); assert.equal(r.state.consecutive,0); assert.equal(r.feedback.correct,false);
+    s=r.state; for(let i=0;i<20;i++)s=advance(s,false).state;
+    assert.equal(s.promptIndex,0); assert.equal(s.lessonIndex,0);
+  });
+  test('only ten consecutive successes complete a lesson, even after earlier successes',()=>{
+    let s=E.start(fixture,'lv-ru');
+    for(let i=0;i<9;i++)s=advance(s).state;
+    assert.equal(s.lessonIndex,0); assert.equal(s.consecutive,9);
+    s=advance(s,false).state;
+    for(let i=0;i<9;i++)s=advance(s).state;
+    assert.equal(s.lessonIndex,0); assert.equal(s.consecutive,9);
+    s=advance(s).state; assert.equal(s.lessonIndex,1); assert.equal(s.promptIndex,0); assert.equal(s.consecutive,0);
+  });
+  test('correct wraps forward within lesson; wrong at its end steps back without wrapping',()=>{
+    let s={...E.start(fixture,'lv-ru'),promptIndex:9,consecutive:3};
+    let r=advance(s); assert.equal(r.state.promptIndex,0); assert.equal(r.state.consecutive,4); assert.equal(r.state.lessonIndex,0);
+    r=advance(s,false); assert.equal(r.state.promptIndex,8); assert.equal(r.state.consecutive,0);
+  });
+  test('all ten lessons complete without a lesson eleven; restart is a clean session',()=>{
+    let s=E.start(fixture,'ru-lv');
+    for(let i=0;i<100;i++)s=advance(s).state;
+    assert.equal(s.phase,'complete'); assert.equal(s.lessonIndex,9);
+    assert.throws(()=>E.question(fixture,s));
+    assert.equal(E.start(fixture,'ru-lv').lessonIndex,0);
+  });
+  test('question direction resolves source and target; shuffle is fresh and non-mutating',()=>{
+    const s=E.start(fixture,'lv-ru');
+    const before=JSON.stringify(fixture);
+    const a=E.question(fixture,s,()=>0);
+    const b=E.question(fixture,s,()=>0.999);
+    assert.equal(a.text,'LV 0'); assert.equal(a.options.find(x=>x.id==='p0').text,'RU 0');
+    assert.notDeepEqual(a.options.map(x=>x.id),b.options.map(x=>x.id));
+    const reverse=E.question(fixture,E.start(fixture,'ru-lv'),()=>0.5);
+    assert.equal(reverse.text,'RU 0'); assert.equal(reverse.options.find(x=>x.id==='p0').text,'LV 0');
+    assert.equal(JSON.stringify(fixture),before);
+  });
+  test('stale/double, foreign-direction and invalid answer events cannot advance state',()=>{
+    const s=E.start(fixture,'lv-ru'); const q=E.question(fixture,s,()=>0);
+    const next=E.answer(fixture,s,q,q.correctId).state;
+    assert.throws(()=>E.answer(fixture,next,q,q.correctId));
+    assert.throws(()=>E.answer(fixture,s,q,'missing'));
+    assert.throws(()=>E.answer(fixture,E.start(fixture,'ru-lv'),q,q.correctId));
+  });
+  test('invalid course data is rejected before a learner starts',()=>{
+    assert.equal(E.validateCourse(fixture),fixture);
+    for(const mutate of [c=>c.lessons.pop(),c=>c.phrases[1].id='p0',c=>c.lessons[0].prompts[0].distractorIds[0]='p0',c=>c.phrases[1].ru='RU 0',c=>c.lessons[0].prompts[0].phraseId='missing',c=>c.schemaVersion=2,c=>c.lessons[0].prompts=[]]){
+      const c=structuredClone(fixture);mutate(c);assert.throws(()=>E.validateCourse(c));
+    }
+  });
+}

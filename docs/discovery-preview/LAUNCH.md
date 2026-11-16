@@ -1,31 +1,25 @@
-# Language landing page
+# Browser test-build publication
 
-**Prepared by:** Codex, 2026-11-16, at the owner's explicit request.  
-**Scope:** L-004 landing-page slice only; browser learning, Android and publication are not completed.  
-**Source baseline:** `ae1be9361eb26dba0cdbe08eeb154172880a441d`.
+The owner-requested landing page was integrated via PR #5. This branch adds a real browser test app, generated from canonical data and engine/UI source; see [test-build instructions](../BROWSER_TEST_BUILD.md).
 
-## Structure and design
+The ordinary checks workflow runs engine/content/UI-wiring and packaging tests and uploads the standalone HTML artifact. The committed `downloads/language-learning-test.html` is an immediate offline testing route without hosting.
 
-Like the mental-health project's delivery structure, `index.html` is a self-contained static landing page in `docs/discovery-preview/`. It uses semantic HTML, inline CSS, system fonts and no JavaScript, dependencies, forms, tracking or storage. The language-app repository is its sole source; nothing in the mental-health repository is modified or copied as product content.
+The manual Pages workflow stages only:
+- `index.html`: the static landing page with a link to the test app.
+- `learn/index.html`: the generated self-contained browser app.
+- `language-learning-test.html`: the exact same generated app bytes for download.
 
-The page uses a warm paper background, forest-green typography and illustrative phrase cards. Navigation leads to the approach, ten planned themes and availability. Native HTML disclosure elements provide the FAQ. Real actions are page anchors and the repository link. Browser/Android availability is plain status text, not dead buttons or invented download links. The page has no final brand-name claim, fake testimonials or invented release dates.
+No docs tree, tests, source repository metadata or private files enter the Pages artifact. There are no remote runtime dependencies or saved browser progress. The landing page remains script-free; JavaScript in the app performs learning interactions locally.
 
-All application capabilities are labelled as planned. The illustrative phrase pair is not a reviewed lesson pack. No architecture dependency is selected or learning algorithm implemented here. This isolated page can be reviewed before L-001–L-003 are integrated; it does not satisfy the full L-004 acceptance criteria or authorize starting dependent learning work.
+## Publish only when authorized
 
-## Review and publication
+1. Review/merge the browser test-build PR with owner authorization.
+2. Owner enables GitHub Actions in Settings → Pages. The workflow uses `enablement: false` and does not enable hosting.
+3. Manually run the Pages workflow on main; merge alone does not deploy. It tests and packages the app before upload/deployment.
+4. Read the actual URL from the deployment result and verify the real landing, `learn/` route and downloaded HTML. Confirm deployed app/download bytes match the checked source build.
+5. Test narrow/desktop layout, keyboard/screen-reader/zoom, both directions and refresh reset in an actual browser. Record unrun physical-device and language-review checks separately.
+6. Only then describe a hosted URL as live or add a canonical. No live URL, indexing result or Android release is claimed by this branch.
 
-1. Review the HTML in a browser, including narrow/desktop widths, keyboard focus, FAQ controls, 200% zoom and contrast. Local file opening requires no server or build. GitHub's source viewer does not render the page as a website.
-2. Obtain owner authorization to merge and publish. Merging the prepared workflow does **not** deploy; it supports manual dispatch only, restricted to main. No workflow run is started by this task.
-3. After publication is authorized, an owner enables GitHub Actions under repository Settings → Pages. `configure-pages` uses `enablement: false`; the workflow does not enable hosting or change account settings.
-4. Run **Publish approved language landing page** on main. It uploads only `dist/landing/index.html`, copied from this source. Do not publish the entire docs tree. Set any desired deployment approval in the `github-pages` environment before dispatch.
-5. Read the actual URL from the deployment result; verify HTTPS, content, links and mobile/desktop behavior at that URL. Only then announce it as live or add a canonical based on that verified destination. No canonical, sitemap, indexing or live URL is claimed by this preparation task.
+## Current limits
 
-The workflow follows the reference project's established official Actions versions. No changes to that project's workflows or its existing publication are made. Hosting request handling is distinct from app progress storage.
-
-## Verification boundary
-
-Source checks cover HTML structure, unique IDs, valid fragment destinations, exactly ten themes, semantic language labels, no scripts/forms/remote assets/storage, and the workflow's manual-only trigger and isolated artifact. GitHub commit readback and PR scope are checked before handoff.
-
-Managed browser QA is unavailable in this environment because `cua_repl.js` is absent. Browser rendering, keyboard interaction, zoom, actual device use, public Pages deployment and live URL verification are **NOT RUN**; source inspection is not a substitute. No alternate browser-control path or preview server was started.
-
-**Next:** owner reviews the landing-page PR. L-004 remains active until the actual browser learning dependencies, implementation and full verification are completed.
+The downloadable HTML is prepared for testing. Automated tests are recorded in the browser-build guide. Managed browser tooling is unavailable, so real browser rendering/interaction, physical devices, deployment and public HTTPS checks remain NOT RUN. Draft course content needs fluent human review. A testable file is not evidence of public release readiness.

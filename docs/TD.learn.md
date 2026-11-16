@@ -1,35 +1,38 @@
 # TD.learn — active approved tasks for the language-learning app
 
 **Repository:** `janisp123/language-learning-app` • **Branch of record:** `main`  
-**State:** A standalone L-004 landing-page slice was requested by the owner and prepared for review; app implementation tasks remain unstarted. Tasks do not authorize background execution or publication. Codex starts only when the owner asks.
+**State:** The owner explicitly requested a runnable browser test build. Engine, draft course, browser UI and portable build are prepared on the review branch; Android, language review, hosted verification and final releases remain unfinished. Task presence alone never authorizes work or publication.
 
 For each task: check `AGENTS.md` and `WORK_CHECKPOINT.md`, verify whether already delivered, identify dependencies, use a short-lived branch and checked PR, and update changelog + checkpoint after completing verified work. Preserve `Added by` attribution.
 
 ## Ordered implementation backlog (Codex)
 
 ### L-001 — Choose and document the simplest maintainable dual-platform implementation
-- **Status:** TODO
+- **Status:** PARTIAL — dependency-free browser runtime decision implemented for this test build; broader Android decision PR #3 remains separate
+- **Browser test-build code/content authored by:** Codex · [implementation and verification](BROWSER_TEST_BUILD.md)
 - **Added by:** ChatGPT
 - **Implemented by:** Not yet
 - **Goal:** Inspect the empty repository and decide how the GitHub Pages browser experience and Android app will reuse **one canonical vocabulary/content source and one testable definition of learning behavior**. Compare a shared runtime implementation with small platform wrappers against alternatives; favor reliability/minimalism and Google Play compliance over architectural sophistication.
 - **Acceptance:** Short architecture decision describing build system, directory structure, source format/IDs, web/Android distribution, how learning rules remain identical, audio approach, storage boundary, and basic testing strategy. Flag any trade-off requiring owner approval **before** generating large application code. No future language packs or age paths implemented.
 
 ### L-002 — Define the learning state machine and deterministic tests
-- **Status:** TODO • **Depends on:** L-001
+- **Status:** IN REVIEW — pure engine and deterministic tests implemented on the browser test-build branch
+- **Browser test-build code/content authored by:** Codex · [implementation and verification](BROWSER_TEST_BUILD.md)
 - **Added by:** ChatGPT
 - **Implemented by:** Not yet
 - **Goal:** Translate the rules in `ARCHITECTURE.md` into a small, explicit engine and executable conformance tests. Confirm edge cases: wrong at first/last prompt, revisiting items, how a 10-item lesson cycles to achieve 10 consecutive successes, switching LV↔RU direction, shuffling, and first launch.
 - **Acceptance:** No off-by-one or soft-skip: correct moves forward; wrong moves back one prompt and breaks the consecutive run; only 10 in a row completes; returning to lesson 1 in every fresh session; new-highest notification only when exceeding previous record. Tests document exact boundaries, not just happy paths.
 
 ### L-003 — Author and validate the first ten practical lessons
-- **Status:** TODO • **Depends on:** L-001; can be prepared independently of UI
+- **Status:** PARTIAL — ten draft lessons / 100 prompts authored; fluent human review pending
+- **Browser test-build code/content authored by:** Codex · [implementation and verification](BROWSER_TEST_BUILD.md)
 - **Added by:** ChatGPT
 - **Implemented by:** Not yet
 - **Goal:** Create only the **10–17** LV ↔ RU content pack, using the ten situations in `CONTENT_RULES.md`. Reuse words, phrasing and patterns; teach concrete everyday communication, including what a child might *hear* as well as say. Keep stable IDs and distinct, plausible wrong answers.
 - **Acceptance:** Ten usable lessons, both translation directions, no duplicate or ambiguous correct choices, simple grammar/pronunciation review, no workplace/adult material, content validation tests. Mark human-language review as pending unless actually performed.
 
 ### L-004 — Build browser learning and the GitHub Pages landing page
-- **Status:** PARTIAL — landing-page slice prepared for review; not integrated or deployed; browser learning not started
+- **Status:** PARTIAL — landing page integrated via PR #5; runnable browser test build prepared for review; hosted/device verification pending
 - **Depends on:** L-001–L-003 for browser learning; owner explicitly requested the isolated static landing page ahead of those dependencies
 - **Landing-page slice authored by:** Codex · [source](discovery-preview/index.html) · [publication/verification notes](discovery-preview/LAUNCH.md)
 - **Added by:** ChatGPT
@@ -45,7 +48,8 @@ For each task: check `AGENTS.md` and `WORK_CHECKPOINT.md`, verify whether alread
 - **Acceptance:** Export/import works offline on two devices; corrupt/wrong-course/newer-version backups rejected with clear messages and no data loss; restore warns before replacing current highest; closing/reopening starts lesson 1 while preserving only the record. Test install/update/clear-data and document which actions erase progress.
 
 ### L-006 — Build verification and safe delivery automation
-- **Status:** TODO • **Depends on:** implementation tasks
+- **Status:** PARTIAL — automated engine/content/UI-wiring/build checks prepared; GitHub CI execution and cross-platform/release checks pending
+- **Browser test-build code/content authored by:** Codex · [implementation and verification](BROWSER_TEST_BUILD.md)
 - **Added by:** ChatGPT
 - **Implemented by:** Not yet
 - **Goal:** CI checks for content IDs, translation-option uniqueness, engine invariants and buildability, with release isolation; evidence logged per PR.

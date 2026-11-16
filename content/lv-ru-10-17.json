@@ -1,0 +1,1475 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "0.1.0-test",
+  "id": "lv-ru-10-17",
+  "languages": [
+    "lv",
+    "ru"
+  ],
+  "agePath": "10-17",
+  "reviewStatus": "draft-human-review-pending",
+  "phrases": [
+    {
+      "id": "essentials-phrase-01",
+      "lv": "Sveiki!",
+      "ru": "Здравствуйте!"
+    },
+    {
+      "id": "essentials-phrase-02",
+      "lv": "Jā.",
+      "ru": "Да."
+    },
+    {
+      "id": "essentials-phrase-03",
+      "lv": "Nē.",
+      "ru": "Нет."
+    },
+    {
+      "id": "essentials-phrase-04",
+      "lv": "Paldies!",
+      "ru": "Спасибо!"
+    },
+    {
+      "id": "essentials-phrase-05",
+      "lv": "Lūdzu!",
+      "ru": "Пожалуйста!"
+    },
+    {
+      "id": "essentials-phrase-06",
+      "lv": "Uz redzēšanos!",
+      "ru": "До свидания!"
+    },
+    {
+      "id": "essentials-phrase-07",
+      "lv": "Atvainojiet!",
+      "ru": "Извините!"
+    },
+    {
+      "id": "essentials-phrase-08",
+      "lv": "Labrīt!",
+      "ru": "Доброе утро!"
+    },
+    {
+      "id": "essentials-phrase-09",
+      "lv": "Ar labu nakti!",
+      "ru": "Спокойной ночи!"
+    },
+    {
+      "id": "essentials-phrase-10",
+      "lv": "Labi.",
+      "ru": "Хорошо."
+    },
+    {
+      "id": "communication-phrase-01",
+      "lv": "Es nesaprotu.",
+      "ru": "Я не понимаю."
+    },
+    {
+      "id": "communication-phrase-02",
+      "lv": "Atkārtojiet, lūdzu.",
+      "ru": "Повторите, пожалуйста."
+    },
+    {
+      "id": "communication-phrase-03",
+      "lv": "Runājiet lēnāk, lūdzu.",
+      "ru": "Говорите медленнее, пожалуйста."
+    },
+    {
+      "id": "communication-phrase-04",
+      "lv": "Vai jūs runājat latviski?",
+      "ru": "Вы говорите по-латышски?"
+    },
+    {
+      "id": "communication-phrase-05",
+      "lv": "Man vajag palīdzību.",
+      "ru": "Мне нужна помощь."
+    },
+    {
+      "id": "communication-phrase-06",
+      "lv": "Ko tas nozīmē?",
+      "ru": "Что это значит?"
+    },
+    {
+      "id": "communication-phrase-07",
+      "lv": "Parādiet, lūdzu.",
+      "ru": "Покажите, пожалуйста."
+    },
+    {
+      "id": "communication-phrase-08",
+      "lv": "Es nezinu.",
+      "ru": "Я не знаю."
+    },
+    {
+      "id": "communication-phrase-09",
+      "lv": "Es mazliet runāju krieviski.",
+      "ru": "Я немного говорю по-русски."
+    },
+    {
+      "id": "communication-phrase-10",
+      "lv": "Kā to pateikt krieviski?",
+      "ru": "Как это сказать по-русски?"
+    },
+    {
+      "id": "introductions-phrase-01",
+      "lv": "Kā tevi sauc?",
+      "ru": "Как тебя зовут?"
+    },
+    {
+      "id": "introductions-phrase-02",
+      "lv": "Mani sauc...",
+      "ru": "Меня зовут..."
+    },
+    {
+      "id": "introductions-phrase-03",
+      "lv": "Cik tev gadu?",
+      "ru": "Сколько тебе лет?"
+    },
+    {
+      "id": "introductions-phrase-04",
+      "lv": "Man ir vienpadsmit gadi.",
+      "ru": "Мне одиннадцать лет."
+    },
+    {
+      "id": "introductions-phrase-05",
+      "lv": "Es mācos skolā.",
+      "ru": "Я учусь в школе."
+    },
+    {
+      "id": "introductions-phrase-06",
+      "lv": "Es esmu no Latvijas.",
+      "ru": "Я из Латвии."
+    },
+    {
+      "id": "introductions-phrase-07",
+      "lv": "Prieks iepazīties!",
+      "ru": "Приятно познакомиться!"
+    },
+    {
+      "id": "introductions-phrase-08",
+      "lv": "Es gaidu mammu.",
+      "ru": "Я жду маму."
+    },
+    {
+      "id": "introductions-phrase-09",
+      "lv": "Es neteikšu savu adresi.",
+      "ru": "Я не скажу свой адрес."
+    },
+    {
+      "id": "introductions-phrase-10",
+      "lv": "Es tevi nepazīstu.",
+      "ru": "Я тебя не знаю."
+    },
+    {
+      "id": "places-phrase-01",
+      "lv": "Kur ir tualete?",
+      "ru": "Где туалет?"
+    },
+    {
+      "id": "places-phrase-02",
+      "lv": "Kur ir izeja?",
+      "ru": "Где выход?"
+    },
+    {
+      "id": "places-phrase-03",
+      "lv": "Kur ir skola?",
+      "ru": "Где школа?"
+    },
+    {
+      "id": "places-phrase-04",
+      "lv": "Kur ir pietura?",
+      "ru": "Где остановка?"
+    },
+    {
+      "id": "places-phrase-05",
+      "lv": "Kur ir veikals?",
+      "ru": "Где магазин?"
+    },
+    {
+      "id": "places-phrase-06",
+      "lv": "Kur ir ieeja?",
+      "ru": "Где вход?"
+    },
+    {
+      "id": "places-phrase-07",
+      "lv": "Kur ir aptieka?",
+      "ru": "Где аптека?"
+    },
+    {
+      "id": "places-phrase-08",
+      "lv": "Tas ir šeit.",
+      "ru": "Это здесь."
+    },
+    {
+      "id": "places-phrase-09",
+      "lv": "Tas ir tur.",
+      "ru": "Это там."
+    },
+    {
+      "id": "places-phrase-10",
+      "lv": "Tas ir blakus skolai.",
+      "ru": "Это рядом со школой."
+    },
+    {
+      "id": "school-phrase-01",
+      "lv": "Vai drīkst ienākt?",
+      "ru": "Можно войти?"
+    },
+    {
+      "id": "school-phrase-02",
+      "lv": "Vai drīkst iziet?",
+      "ru": "Можно выйти?"
+    },
+    {
+      "id": "school-phrase-03",
+      "lv": "Kur ir skolotājs?",
+      "ru": "Где учитель?"
+    },
+    {
+      "id": "school-phrase-04",
+      "lv": "Kas jādara?",
+      "ru": "Что нужно делать?"
+    },
+    {
+      "id": "school-phrase-05",
+      "lv": "Atver grāmatu.",
+      "ru": "Открой книгу."
+    },
+    {
+      "id": "school-phrase-06",
+      "lv": "Aizver durvis.",
+      "ru": "Закрой дверь."
+    },
+    {
+      "id": "school-phrase-07",
+      "lv": "Uzraksti atbildi.",
+      "ru": "Напиши ответ."
+    },
+    {
+      "id": "school-phrase-08",
+      "lv": "Izlasi, lūdzu.",
+      "ru": "Прочитай, пожалуйста."
+    },
+    {
+      "id": "school-phrase-09",
+      "lv": "Man nav pildspalvas.",
+      "ru": "У меня нет ручки."
+    },
+    {
+      "id": "school-phrase-10",
+      "lv": "Stunda ir beigusies.",
+      "ru": "Урок закончился."
+    },
+    {
+      "id": "friends-phrase-01",
+      "lv": "Spēlēsim kopā!",
+      "ru": "Давай играть вместе!"
+    },
+    {
+      "id": "friends-phrase-02",
+      "lv": "Pagaidi, lūdzu.",
+      "ru": "Подожди, пожалуйста."
+    },
+    {
+      "id": "friends-phrase-03",
+      "lv": "Tagad ir mana kārta.",
+      "ru": "Сейчас моя очередь."
+    },
+    {
+      "id": "friends-phrase-04",
+      "lv": "Vai es drīkstu pievienoties?",
+      "ru": "Можно мне присоединиться?"
+    },
+    {
+      "id": "friends-phrase-05",
+      "lv": "Apstājies!",
+      "ru": "Остановись!"
+    },
+    {
+      "id": "friends-phrase-06",
+      "lv": "Nāc šurp!",
+      "ru": "Иди сюда!"
+    },
+    {
+      "id": "friends-phrase-07",
+      "lv": "Ejam ārā!",
+      "ru": "Пойдём на улицу!"
+    },
+    {
+      "id": "friends-phrase-08",
+      "lv": "Vai tu gribi spēlēt?",
+      "ru": "Ты хочешь играть?"
+    },
+    {
+      "id": "friends-phrase-09",
+      "lv": "Es negribu.",
+      "ru": "Я не хочу."
+    },
+    {
+      "id": "friends-phrase-10",
+      "lv": "Tiekamies rīt!",
+      "ru": "Увидимся завтра!"
+    },
+    {
+      "id": "shops-phrase-01",
+      "lv": "Vai drīkst šo?",
+      "ru": "Можно это?"
+    },
+    {
+      "id": "shops-phrase-02",
+      "lv": "Ūdeni, lūdzu.",
+      "ru": "Воду, пожалуйста."
+    },
+    {
+      "id": "shops-phrase-03",
+      "lv": "Cik tas maksā?",
+      "ru": "Сколько это стоит?"
+    },
+    {
+      "id": "shops-phrase-04",
+      "lv": "Vai var maksāt ar karti?",
+      "ru": "Можно заплатить картой?"
+    },
+    {
+      "id": "shops-phrase-05",
+      "lv": "Nē, paldies.",
+      "ru": "Нет, спасибо."
+    },
+    {
+      "id": "shops-phrase-06",
+      "lv": "Man vajag maisiņu.",
+      "ru": "Мне нужен пакет."
+    },
+    {
+      "id": "shops-phrase-07",
+      "lv": "Kur ir kase?",
+      "ru": "Где касса?"
+    },
+    {
+      "id": "shops-phrase-08",
+      "lv": "Vienu, lūdzu.",
+      "ru": "Одну штуку, пожалуйста."
+    },
+    {
+      "id": "shops-phrase-09",
+      "lv": "Bez cukura, lūdzu.",
+      "ru": "Без сахара, пожалуйста."
+    },
+    {
+      "id": "shops-phrase-10",
+      "lv": "Man ir alerģija pret riekstiem.",
+      "ru": "У меня аллергия на орехи."
+    },
+    {
+      "id": "directions-phrase-01",
+      "lv": "Ejiet taisni.",
+      "ru": "Идите прямо."
+    },
+    {
+      "id": "directions-phrase-02",
+      "lv": "Pagriezieties pa kreisi.",
+      "ru": "Поверните налево."
+    },
+    {
+      "id": "directions-phrase-03",
+      "lv": "Pagriezieties pa labi.",
+      "ru": "Поверните направо."
+    },
+    {
+      "id": "directions-phrase-04",
+      "lv": "Tas ir tuvu.",
+      "ru": "Это близко."
+    },
+    {
+      "id": "directions-phrase-05",
+      "lv": "Tas ir tālu.",
+      "ru": "Это далеко."
+    },
+    {
+      "id": "directions-phrase-06",
+      "lv": "Pārejiet pāri ielai.",
+      "ru": "Перейдите улицу."
+    },
+    {
+      "id": "directions-phrase-07",
+      "lv": "Pagaidiet pie luksofora.",
+      "ru": "Подождите у светофора."
+    },
+    {
+      "id": "directions-phrase-08",
+      "lv": "Kur ir gājēju pāreja?",
+      "ru": "Где пешеходный переход?"
+    },
+    {
+      "id": "directions-phrase-09",
+      "lv": "Es meklēju šo ielu.",
+      "ru": "Я ищу эту улицу."
+    },
+    {
+      "id": "directions-phrase-10",
+      "lv": "Vai tas ir pareizais ceļš?",
+      "ru": "Это правильная дорога?"
+    },
+    {
+      "id": "transport-phrase-01",
+      "lv": "Vai šis autobuss brauc uz centru?",
+      "ru": "Этот автобус едет в центр?"
+    },
+    {
+      "id": "transport-phrase-02",
+      "lv": "Kur man jāizkāpj?",
+      "ru": "Где мне нужно выйти?"
+    },
+    {
+      "id": "transport-phrase-03",
+      "lv": "Nākamā pietura.",
+      "ru": "Следующая остановка."
+    },
+    {
+      "id": "transport-phrase-04",
+      "lv": "Man vajag biļeti.",
+      "ru": "Мне нужен билет."
+    },
+    {
+      "id": "transport-phrase-05",
+      "lv": "Cikos pienāk autobuss?",
+      "ru": "Во сколько приходит автобус?"
+    },
+    {
+      "id": "transport-phrase-06",
+      "lv": "Vai šī vieta ir brīva?",
+      "ru": "Это место свободно?"
+    },
+    {
+      "id": "transport-phrase-07",
+      "lv": "Es izkāpšu šeit.",
+      "ru": "Я выйду здесь."
+    },
+    {
+      "id": "transport-phrase-08",
+      "lv": "Kur ir autobuss ar numuru pieci?",
+      "ru": "Где автобус номер пять?"
+    },
+    {
+      "id": "transport-phrase-09",
+      "lv": "Autobuss kavējas.",
+      "ru": "Автобус опаздывает."
+    },
+    {
+      "id": "transport-phrase-10",
+      "lv": "Lūdzu, palaidiet mani garām.",
+      "ru": "Пожалуйста, пропустите меня."
+    },
+    {
+      "id": "safety-phrase-01",
+      "lv": "Es nevaru atrast ceļu.",
+      "ru": "Я не могу найти дорогу."
+    },
+    {
+      "id": "safety-phrase-02",
+      "lv": "Liec mani mierā!",
+      "ru": "Оставь меня в покое!"
+    },
+    {
+      "id": "safety-phrase-03",
+      "lv": "Palīgā!",
+      "ru": "На помощь!"
+    },
+    {
+      "id": "safety-phrase-04",
+      "lv": "Piezvaniet maniem vecākiem.",
+      "ru": "Позвоните моим родителям."
+    },
+    {
+      "id": "safety-phrase-05",
+      "lv": "Zvaniet uz numuru 112.",
+      "ru": "Позвоните по номеру 112."
+    },
+    {
+      "id": "safety-phrase-06",
+      "lv": "Man vajag ārstu.",
+      "ru": "Мне нужен врач."
+    },
+    {
+      "id": "safety-phrase-07",
+      "lv": "Neaiztiec mani!",
+      "ru": "Не трогай меня!"
+    },
+    {
+      "id": "safety-phrase-08",
+      "lv": "Es neiešu tev līdzi.",
+      "ru": "Я не пойду с тобой."
+    },
+    {
+      "id": "safety-phrase-09",
+      "lv": "Kur ir policija?",
+      "ru": "Где полиция?"
+    },
+    {
+      "id": "safety-phrase-10",
+      "lv": "Man ir bail.",
+      "ru": "Мне страшно."
+    }
+  ],
+  "lessons": [
+    {
+      "id": "essentials",
+      "title": "Essential words",
+      "prompts": [
+        {
+          "id": "essentials-prompt-01",
+          "phraseId": "essentials-phrase-01",
+          "distractorIds": [
+            "essentials-phrase-02",
+            "essentials-phrase-04",
+            "essentials-phrase-06"
+          ]
+        },
+        {
+          "id": "essentials-prompt-02",
+          "phraseId": "essentials-phrase-02",
+          "distractorIds": [
+            "essentials-phrase-03",
+            "essentials-phrase-05",
+            "essentials-phrase-07"
+          ]
+        },
+        {
+          "id": "essentials-prompt-03",
+          "phraseId": "essentials-phrase-03",
+          "distractorIds": [
+            "essentials-phrase-04",
+            "essentials-phrase-06",
+            "essentials-phrase-08"
+          ]
+        },
+        {
+          "id": "essentials-prompt-04",
+          "phraseId": "essentials-phrase-04",
+          "distractorIds": [
+            "essentials-phrase-05",
+            "essentials-phrase-07",
+            "essentials-phrase-09"
+          ]
+        },
+        {
+          "id": "essentials-prompt-05",
+          "phraseId": "essentials-phrase-05",
+          "distractorIds": [
+            "essentials-phrase-06",
+            "essentials-phrase-08",
+            "essentials-phrase-10"
+          ]
+        },
+        {
+          "id": "essentials-prompt-06",
+          "phraseId": "essentials-phrase-06",
+          "distractorIds": [
+            "essentials-phrase-07",
+            "essentials-phrase-09",
+            "essentials-phrase-01"
+          ]
+        },
+        {
+          "id": "essentials-prompt-07",
+          "phraseId": "essentials-phrase-07",
+          "distractorIds": [
+            "essentials-phrase-08",
+            "essentials-phrase-10",
+            "essentials-phrase-02"
+          ]
+        },
+        {
+          "id": "essentials-prompt-08",
+          "phraseId": "essentials-phrase-08",
+          "distractorIds": [
+            "essentials-phrase-09",
+            "essentials-phrase-01",
+            "essentials-phrase-03"
+          ]
+        },
+        {
+          "id": "essentials-prompt-09",
+          "phraseId": "essentials-phrase-09",
+          "distractorIds": [
+            "essentials-phrase-10",
+            "essentials-phrase-02",
+            "essentials-phrase-04"
+          ]
+        },
+        {
+          "id": "essentials-prompt-10",
+          "phraseId": "essentials-phrase-10",
+          "distractorIds": [
+            "essentials-phrase-01",
+            "essentials-phrase-03",
+            "essentials-phrase-05"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "communication",
+      "title": "Communication and help",
+      "prompts": [
+        {
+          "id": "communication-prompt-01",
+          "phraseId": "communication-phrase-01",
+          "distractorIds": [
+            "communication-phrase-02",
+            "communication-phrase-04",
+            "communication-phrase-06"
+          ]
+        },
+        {
+          "id": "communication-prompt-02",
+          "phraseId": "communication-phrase-02",
+          "distractorIds": [
+            "communication-phrase-03",
+            "communication-phrase-05",
+            "communication-phrase-07"
+          ]
+        },
+        {
+          "id": "communication-prompt-03",
+          "phraseId": "communication-phrase-03",
+          "distractorIds": [
+            "communication-phrase-04",
+            "communication-phrase-06",
+            "communication-phrase-08"
+          ]
+        },
+        {
+          "id": "communication-prompt-04",
+          "phraseId": "communication-phrase-04",
+          "distractorIds": [
+            "communication-phrase-05",
+            "communication-phrase-07",
+            "communication-phrase-09"
+          ]
+        },
+        {
+          "id": "communication-prompt-05",
+          "phraseId": "communication-phrase-05",
+          "distractorIds": [
+            "communication-phrase-06",
+            "communication-phrase-08",
+            "communication-phrase-10"
+          ]
+        },
+        {
+          "id": "communication-prompt-06",
+          "phraseId": "communication-phrase-06",
+          "distractorIds": [
+            "communication-phrase-07",
+            "communication-phrase-09",
+            "communication-phrase-01"
+          ]
+        },
+        {
+          "id": "communication-prompt-07",
+          "phraseId": "communication-phrase-07",
+          "distractorIds": [
+            "communication-phrase-08",
+            "communication-phrase-10",
+            "communication-phrase-02"
+          ]
+        },
+        {
+          "id": "communication-prompt-08",
+          "phraseId": "communication-phrase-08",
+          "distractorIds": [
+            "communication-phrase-09",
+            "communication-phrase-01",
+            "communication-phrase-03"
+          ]
+        },
+        {
+          "id": "communication-prompt-09",
+          "phraseId": "communication-phrase-09",
+          "distractorIds": [
+            "communication-phrase-10",
+            "communication-phrase-02",
+            "communication-phrase-04"
+          ]
+        },
+        {
+          "id": "communication-prompt-10",
+          "phraseId": "communication-phrase-10",
+          "distractorIds": [
+            "communication-phrase-01",
+            "communication-phrase-03",
+            "communication-phrase-05"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "introductions",
+      "title": "Introducing yourself",
+      "prompts": [
+        {
+          "id": "introductions-prompt-01",
+          "phraseId": "introductions-phrase-01",
+          "distractorIds": [
+            "introductions-phrase-02",
+            "introductions-phrase-04",
+            "introductions-phrase-06"
+          ]
+        },
+        {
+          "id": "introductions-prompt-02",
+          "phraseId": "introductions-phrase-02",
+          "distractorIds": [
+            "introductions-phrase-03",
+            "introductions-phrase-05",
+            "introductions-phrase-07"
+          ]
+        },
+        {
+          "id": "introductions-prompt-03",
+          "phraseId": "introductions-phrase-03",
+          "distractorIds": [
+            "introductions-phrase-04",
+            "introductions-phrase-06",
+            "introductions-phrase-08"
+          ]
+        },
+        {
+          "id": "introductions-prompt-04",
+          "phraseId": "introductions-phrase-04",
+          "distractorIds": [
+            "introductions-phrase-05",
+            "introductions-phrase-07",
+            "introductions-phrase-09"
+          ]
+        },
+        {
+          "id": "introductions-prompt-05",
+          "phraseId": "introductions-phrase-05",
+          "distractorIds": [
+            "introductions-phrase-06",
+            "introductions-phrase-08",
+            "introductions-phrase-10"
+          ]
+        },
+        {
+          "id": "introductions-prompt-06",
+          "phraseId": "introductions-phrase-06",
+          "distractorIds": [
+            "introductions-phrase-07",
+            "introductions-phrase-09",
+            "introductions-phrase-01"
+          ]
+        },
+        {
+          "id": "introductions-prompt-07",
+          "phraseId": "introductions-phrase-07",
+          "distractorIds": [
+            "introductions-phrase-08",
+            "introductions-phrase-10",
+            "introductions-phrase-02"
+          ]
+        },
+        {
+          "id": "introductions-prompt-08",
+          "phraseId": "introductions-phrase-08",
+          "distractorIds": [
+            "introductions-phrase-09",
+            "introductions-phrase-01",
+            "introductions-phrase-03"
+          ]
+        },
+        {
+          "id": "introductions-prompt-09",
+          "phraseId": "introductions-phrase-09",
+          "distractorIds": [
+            "introductions-phrase-10",
+            "introductions-phrase-02",
+            "introductions-phrase-04"
+          ]
+        },
+        {
+          "id": "introductions-prompt-10",
+          "phraseId": "introductions-phrase-10",
+          "distractorIds": [
+            "introductions-phrase-01",
+            "introductions-phrase-03",
+            "introductions-phrase-05"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "places",
+      "title": "Finding places",
+      "prompts": [
+        {
+          "id": "places-prompt-01",
+          "phraseId": "places-phrase-01",
+          "distractorIds": [
+            "places-phrase-02",
+            "places-phrase-04",
+            "places-phrase-06"
+          ]
+        },
+        {
+          "id": "places-prompt-02",
+          "phraseId": "places-phrase-02",
+          "distractorIds": [
+            "places-phrase-03",
+            "places-phrase-05",
+            "places-phrase-07"
+          ]
+        },
+        {
+          "id": "places-prompt-03",
+          "phraseId": "places-phrase-03",
+          "distractorIds": [
+            "places-phrase-04",
+            "places-phrase-06",
+            "places-phrase-08"
+          ]
+        },
+        {
+          "id": "places-prompt-04",
+          "phraseId": "places-phrase-04",
+          "distractorIds": [
+            "places-phrase-05",
+            "places-phrase-07",
+            "places-phrase-09"
+          ]
+        },
+        {
+          "id": "places-prompt-05",
+          "phraseId": "places-phrase-05",
+          "distractorIds": [
+            "places-phrase-06",
+            "places-phrase-08",
+            "places-phrase-10"
+          ]
+        },
+        {
+          "id": "places-prompt-06",
+          "phraseId": "places-phrase-06",
+          "distractorIds": [
+            "places-phrase-07",
+            "places-phrase-09",
+            "places-phrase-01"
+          ]
+        },
+        {
+          "id": "places-prompt-07",
+          "phraseId": "places-phrase-07",
+          "distractorIds": [
+            "places-phrase-08",
+            "places-phrase-10",
+            "places-phrase-02"
+          ]
+        },
+        {
+          "id": "places-prompt-08",
+          "phraseId": "places-phrase-08",
+          "distractorIds": [
+            "places-phrase-09",
+            "places-phrase-01",
+            "places-phrase-03"
+          ]
+        },
+        {
+          "id": "places-prompt-09",
+          "phraseId": "places-phrase-09",
+          "distractorIds": [
+            "places-phrase-10",
+            "places-phrase-02",
+            "places-phrase-04"
+          ]
+        },
+        {
+          "id": "places-prompt-10",
+          "phraseId": "places-phrase-10",
+          "distractorIds": [
+            "places-phrase-01",
+            "places-phrase-03",
+            "places-phrase-05"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "school",
+      "title": "At school",
+      "prompts": [
+        {
+          "id": "school-prompt-01",
+          "phraseId": "school-phrase-01",
+          "distractorIds": [
+            "school-phrase-02",
+            "school-phrase-04",
+            "school-phrase-06"
+          ]
+        },
+        {
+          "id": "school-prompt-02",
+          "phraseId": "school-phrase-02",
+          "distractorIds": [
+            "school-phrase-03",
+            "school-phrase-05",
+            "school-phrase-07"
+          ]
+        },
+        {
+          "id": "school-prompt-03",
+          "phraseId": "school-phrase-03",
+          "distractorIds": [
+            "school-phrase-04",
+            "school-phrase-06",
+            "school-phrase-08"
+          ]
+        },
+        {
+          "id": "school-prompt-04",
+          "phraseId": "school-phrase-04",
+          "distractorIds": [
+            "school-phrase-05",
+            "school-phrase-07",
+            "school-phrase-09"
+          ]
+        },
+        {
+          "id": "school-prompt-05",
+          "phraseId": "school-phrase-05",
+          "distractorIds": [
+            "school-phrase-06",
+            "school-phrase-08",
+            "school-phrase-10"
+          ]
+        },
+        {
+          "id": "school-prompt-06",
+          "phraseId": "school-phrase-06",
+          "distractorIds": [
+            "school-phrase-07",
+            "school-phrase-09",
+            "school-phrase-01"
+          ]
+        },
+        {
+          "id": "school-prompt-07",
+          "phraseId": "school-phrase-07",
+          "distractorIds": [
+            "school-phrase-08",
+            "school-phrase-10",
+            "school-phrase-02"
+          ]
+        },
+        {
+          "id": "school-prompt-08",
+          "phraseId": "school-phrase-08",
+          "distractorIds": [
+            "school-phrase-09",
+            "school-phrase-01",
+            "school-phrase-03"
+          ]
+        },
+        {
+          "id": "school-prompt-09",
+          "phraseId": "school-phrase-09",
+          "distractorIds": [
+            "school-phrase-10",
+            "school-phrase-02",
+            "school-phrase-04"
+          ]
+        },
+        {
+          "id": "school-prompt-10",
+          "phraseId": "school-phrase-10",
+          "distractorIds": [
+            "school-phrase-01",
+            "school-phrase-03",
+            "school-phrase-05"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "friends",
+      "title": "Activities and friends",
+      "prompts": [
+        {
+          "id": "friends-prompt-01",
+          "phraseId": "friends-phrase-01",
+          "distractorIds": [
+            "friends-phrase-02",
+            "friends-phrase-04",
+            "friends-phrase-06"
+          ]
+        },
+        {
+          "id": "friends-prompt-02",
+          "phraseId": "friends-phrase-02",
+          "distractorIds": [
+            "friends-phrase-03",
+            "friends-phrase-05",
+            "friends-phrase-07"
+          ]
+        },
+        {
+          "id": "friends-prompt-03",
+          "phraseId": "friends-phrase-03",
+          "distractorIds": [
+            "friends-phrase-04",
+            "friends-phrase-06",
+            "friends-phrase-08"
+          ]
+        },
+        {
+          "id": "friends-prompt-04",
+          "phraseId": "friends-phrase-04",
+          "distractorIds": [
+            "friends-phrase-05",
+            "friends-phrase-07",
+            "friends-phrase-09"
+          ]
+        },
+        {
+          "id": "friends-prompt-05",
+          "phraseId": "friends-phrase-05",
+          "distractorIds": [
+            "friends-phrase-06",
+            "friends-phrase-08",
+            "friends-phrase-10"
+          ]
+        },
+        {
+          "id": "friends-prompt-06",
+          "phraseId": "friends-phrase-06",
+          "distractorIds": [
+            "friends-phrase-07",
+            "friends-phrase-09",
+            "friends-phrase-01"
+          ]
+        },
+        {
+          "id": "friends-prompt-07",
+          "phraseId": "friends-phrase-07",
+          "distractorIds": [
+            "friends-phrase-08",
+            "friends-phrase-10",
+            "friends-phrase-02"
+          ]
+        },
+        {
+          "id": "friends-prompt-08",
+          "phraseId": "friends-phrase-08",
+          "distractorIds": [
+            "friends-phrase-09",
+            "friends-phrase-01",
+            "friends-phrase-03"
+          ]
+        },
+        {
+          "id": "friends-prompt-09",
+          "phraseId": "friends-phrase-09",
+          "distractorIds": [
+            "friends-phrase-10",
+            "friends-phrase-02",
+            "friends-phrase-04"
+          ]
+        },
+        {
+          "id": "friends-prompt-10",
+          "phraseId": "friends-phrase-10",
+          "distractorIds": [
+            "friends-phrase-01",
+            "friends-phrase-03",
+            "friends-phrase-05"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shops",
+      "title": "Canteen and shops",
+      "prompts": [
+        {
+          "id": "shops-prompt-01",
+          "phraseId": "shops-phrase-01",
+          "distractorIds": [
+            "shops-phrase-02",
+            "shops-phrase-04",
+            "shops-phrase-06"
+          ]
+        },
+        {
+          "id": "shops-prompt-02",
+          "phraseId": "shops-phrase-02",
+          "distractorIds": [
+            "shops-phrase-03",
+            "shops-phrase-05",
+            "shops-phrase-07"
+          ]
+        },
+        {
+          "id": "shops-prompt-03",
+          "phraseId": "shops-phrase-03",
+          "distractorIds": [
+            "shops-phrase-04",
+            "shops-phrase-06",
+            "shops-phrase-08"
+          ]
+        },
+        {
+          "id": "shops-prompt-04",
+          "phraseId": "shops-phrase-04",
+          "distractorIds": [
+            "shops-phrase-05",
+            "shops-phrase-07",
+            "shops-phrase-09"
+          ]
+        },
+        {
+          "id": "shops-prompt-05",
+          "phraseId": "shops-phrase-05",
+          "distractorIds": [
+            "shops-phrase-06",
+            "shops-phrase-08",
+            "shops-phrase-10"
+          ]
+        },
+        {
+          "id": "shops-prompt-06",
+          "phraseId": "shops-phrase-06",
+          "distractorIds": [
+            "shops-phrase-07",
+            "shops-phrase-09",
+            "shops-phrase-01"
+          ]
+        },
+        {
+          "id": "shops-prompt-07",
+          "phraseId": "shops-phrase-07",
+          "distractorIds": [
+            "shops-phrase-08",
+            "shops-phrase-10",
+            "shops-phrase-02"
+          ]
+        },
+        {
+          "id": "shops-prompt-08",
+          "phraseId": "shops-phrase-08",
+          "distractorIds": [
+            "shops-phrase-09",
+            "shops-phrase-01",
+            "shops-phrase-03"
+          ]
+        },
+        {
+          "id": "shops-prompt-09",
+          "phraseId": "shops-phrase-09",
+          "distractorIds": [
+            "shops-phrase-10",
+            "shops-phrase-02",
+            "shops-phrase-04"
+          ]
+        },
+        {
+          "id": "shops-prompt-10",
+          "phraseId": "shops-phrase-10",
+          "distractorIds": [
+            "shops-phrase-01",
+            "shops-phrase-03",
+            "shops-phrase-05"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "directions",
+      "title": "Street directions",
+      "prompts": [
+        {
+          "id": "directions-prompt-01",
+          "phraseId": "directions-phrase-01",
+          "distractorIds": [
+            "directions-phrase-02",
+            "directions-phrase-04",
+            "directions-phrase-06"
+          ]
+        },
+        {
+          "id": "directions-prompt-02",
+          "phraseId": "directions-phrase-02",
+          "distractorIds": [
+            "directions-phrase-03",
+            "directions-phrase-05",
+            "directions-phrase-07"
+          ]
+        },
+        {
+          "id": "directions-prompt-03",
+          "phraseId": "directions-phrase-03",
+          "distractorIds": [
+            "directions-phrase-04",
+            "directions-phrase-06",
+            "directions-phrase-08"
+          ]
+        },
+        {
+          "id": "directions-prompt-04",
+          "phraseId": "directions-phrase-04",
+          "distractorIds": [
+            "directions-phrase-05",
+            "directions-phrase-07",
+            "directions-phrase-09"
+          ]
+        },
+        {
+          "id": "directions-prompt-05",
+          "phraseId": "directions-phrase-05",
+          "distractorIds": [
+            "directions-phrase-06",
+            "directions-phrase-08",
+            "directions-phrase-10"
+          ]
+        },
+        {
+          "id": "directions-prompt-06",
+          "phraseId": "directions-phrase-06",
+          "distractorIds": [
+            "directions-phrase-07",
+            "directions-phrase-09",
+            "directions-phrase-01"
+          ]
+        },
+        {
+          "id": "directions-prompt-07",
+          "phraseId": "directions-phrase-07",
+          "distractorIds": [
+            "directions-phrase-08",
+            "directions-phrase-10",
+            "directions-phrase-02"
+          ]
+        },
+        {
+          "id": "directions-prompt-08",
+          "phraseId": "directions-phrase-08",
+          "distractorIds": [
+            "directions-phrase-09",
+            "directions-phrase-01",
+            "directions-phrase-03"
+          ]
+        },
+        {
+          "id": "directions-prompt-09",
+          "phraseId": "directions-phrase-09",
+          "distractorIds": [
+            "directions-phrase-10",
+            "directions-phrase-02",
+            "directions-phrase-04"
+          ]
+        },
+        {
+          "id": "directions-prompt-10",
+          "phraseId": "directions-phrase-10",
+          "distractorIds": [
+            "directions-phrase-01",
+            "directions-phrase-03",
+            "directions-phrase-05"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "transport",
+      "title": "Public transport",
+      "prompts": [
+        {
+          "id": "transport-prompt-01",
+          "phraseId": "transport-phrase-01",
+          "distractorIds": [
+            "transport-phrase-02",
+            "transport-phrase-04",
+            "transport-phrase-06"
+          ]
+        },
+        {
+          "id": "transport-prompt-02",
+          "phraseId": "transport-phrase-02",
+          "distractorIds": [
+            "transport-phrase-03",
+            "transport-phrase-05",
+            "transport-phrase-07"
+          ]
+        },
+        {
+          "id": "transport-prompt-03",
+          "phraseId": "transport-phrase-03",
+          "distractorIds": [
+            "transport-phrase-04",
+            "transport-phrase-06",
+            "transport-phrase-08"
+          ]
+        },
+        {
+          "id": "transport-prompt-04",
+          "phraseId": "transport-phrase-04",
+          "distractorIds": [
+            "transport-phrase-05",
+            "transport-phrase-07",
+            "transport-phrase-09"
+          ]
+        },
+        {
+          "id": "transport-prompt-05",
+          "phraseId": "transport-phrase-05",
+          "distractorIds": [
+            "transport-phrase-06",
+            "transport-phrase-08",
+            "transport-phrase-10"
+          ]
+        },
+        {
+          "id": "transport-prompt-06",
+          "phraseId": "transport-phrase-06",
+          "distractorIds": [
+            "transport-phrase-07",
+            "transport-phrase-09",
+            "transport-phrase-01"
+          ]
+        },
+        {
+          "id": "transport-prompt-07",
+          "phraseId": "transport-phrase-07",
+          "distractorIds": [
+            "transport-phrase-08",
+            "transport-phrase-10",
+            "transport-phrase-02"
+          ]
+        },
+        {
+          "id": "transport-prompt-08",
+          "phraseId": "transport-phrase-08",
+          "distractorIds": [
+            "transport-phrase-09",
+            "transport-phrase-01",
+            "transport-phrase-03"
+          ]
+        },
+        {
+          "id": "transport-prompt-09",
+          "phraseId": "transport-phrase-09",
+          "distractorIds": [
+            "transport-phrase-10",
+            "transport-phrase-02",
+            "transport-phrase-04"
+          ]
+        },
+        {
+          "id": "transport-prompt-10",
+          "phraseId": "transport-phrase-10",
+          "distractorIds": [
+            "transport-phrase-01",
+            "transport-phrase-03",
+            "transport-phrase-05"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "safety",
+      "title": "Safety and emergencies",
+      "prompts": [
+        {
+          "id": "safety-prompt-01",
+          "phraseId": "safety-phrase-01",
+          "distractorIds": [
+            "safety-phrase-02",
+            "safety-phrase-04",
+            "safety-phrase-06"
+          ]
+        },
+        {
+          "id": "safety-prompt-02",
+          "phraseId": "safety-phrase-02",
+          "distractorIds": [
+            "safety-phrase-03",
+            "safety-phrase-05",
+            "safety-phrase-07"
+          ]
+        },
+        {
+          "id": "safety-prompt-03",
+          "phraseId": "safety-phrase-03",
+          "distractorIds": [
+            "safety-phrase-04",
+            "safety-phrase-06",
+            "safety-phrase-08"
+          ]
+        },
+        {
+          "id": "safety-prompt-04",
+          "phraseId": "safety-phrase-04",
+          "distractorIds": [
+            "safety-phrase-05",
+            "safety-phrase-07",
+            "safety-phrase-09"
+          ]
+        },
+        {
+          "id": "safety-prompt-05",
+          "phraseId": "safety-phrase-05",
+          "distractorIds": [
+            "safety-phrase-06",
+            "safety-phrase-08",
+            "safety-phrase-10"
+          ]
+        },
+        {
+          "id": "safety-prompt-06",
+          "phraseId": "safety-phrase-06",
+          "distractorIds": [
+            "safety-phrase-07",
+            "safety-phrase-09",
+            "safety-phrase-01"
+          ]
+        },
+        {
+          "id": "safety-prompt-07",
+          "phraseId": "safety-phrase-07",
+          "distractorIds": [
+            "safety-phrase-08",
+            "safety-phrase-10",
+            "safety-phrase-02"
+          ]
+        },
+        {
+          "id": "safety-prompt-08",
+          "phraseId": "safety-phrase-08",
+          "distractorIds": [
+            "safety-phrase-09",
+            "safety-phrase-01",
+            "safety-phrase-03"
+          ]
+        },
+        {
+          "id": "safety-prompt-09",
+          "phraseId": "safety-phrase-09",
+          "distractorIds": [
+            "safety-phrase-10",
+            "safety-phrase-02",
+            "safety-phrase-04"
+          ]
+        },
+        {
+          "id": "safety-prompt-10",
+          "phraseId": "safety-phrase-10",
+          "distractorIds": [
+            "safety-phrase-01",
+            "safety-phrase-03",
+            "safety-phrase-05"
+          ]
+        }
+      ]
+    }
+  ]
+}

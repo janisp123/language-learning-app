@@ -1,37 +1,24 @@
 # Current working checkpoint
 
-**As of:** 2026-11-15 (Europe/Riga)  
+**As of:** 2026-11-16  
 **Repository:** `janisp123/language-learning-app`  
-**Source of truth:** `main` after the initial documentation PR is merged.
+**Scope:** `feat/testable-browser-app`, based on main `0eca17305e695e53e72f2bf1ab6f72fa3e04ddb6`.
 
 ## Verified state
 
-- Repository and initial README existed before setup.
-- Planning documents define product requirements, content boundaries, Codex collaboration, regression expectations and the ordered backlog. Initial setup [PR #1](https://github.com/janisp123/language-learning-app/pull/1) merged as `7b0ff0c6df6ff0fe3ccdc123c4655628b01ef825`; all nine documents were read back from `main` and checked for internal consistency/TD attribution.
-- **No executable Android app, browser learning experience, Pages deployment, CI pipeline, Play listing or release has been built or verified.**
-- New documentation is a handoff/plan, not an implementation.
+- Landing-page PR #5 merged as the baseline above; its HTML was read back from main.
+- Owner explicitly requested a testable app, not more brainstorming. Codex implemented a portable browser test build: pure JavaScript engine, canonical LV ↔ RU draft course (ten lessons / 100 prompts), real choice/feedback/Continue UI, direction selection, reset and completion.
+- `downloads/language-learning-test.html` is generated from canonical sources and can be opened offline. No account, network request or progress storage is used by the lessons. UI language is English; phrase and answer languages follow the chosen direction.
+- **L-002–L-004: PARTIAL / code prepared for review**, not a verified public release. Sixteen Node tests and three Python packaging tests passed locally; actual GitHub integration, CI and publication require their own evidence.
+- Engine rules: correct advances; wrong backs up one prompt with a clamp at the first and resets the run; ten consecutive correct completes a lesson. Wrap within a lesson, start every fresh session at lesson one, no skip controls. Direction change starts a new session. Completing lesson ten ends quietly without lesson eleven.
+- No audio, Android app, native persistence/backup, Play listing or license adoption. Architecture proposal PR #3 and lessons PR #4 remain separate; no unrequested merge of them.
 
-## Current product decision
+## Verification limits
 
-First release = ten practical LV ↔ RU lessons for ages 10–17, with daily/fresh-session restart from lesson 1, 10 consecutive correct answers per lesson, wrong-answer step back, only Android's highest lesson retained, manual progress file transfer, anonymous unsaved browser experience, no ads or accounts.
+- Automated engine/content and minimal DOM-fixture event-wiring tests pass. Packager is deterministic; generated download and hosted lesson use the same bytes.
+- Real browser rendering, physical devices, keyboard/screen-reader/zoom, fluent-language review, public Pages URL and Android: **NOT RUN**. Managed browser control is unavailable; DOM fixtures are not a real browser.
+- Ordinary CI checks and downloadable artifacts are prepared. Pages remains manual-only, main-only, owner-enabled; no publication has been performed by this branch.
 
-## Blockers / owner decisions
+## One next action
 
-- L-001 must choose a sustainable cross-platform approach and pronunciation delivery before large coding work.
-- Final public app name and source-code/content licenses are undecided.
-- Google Play verification, required testing, listing assets and publication have not occurred.
-- Browser and Android delivery must be tested independently before release.
-
-## One next action (baseline main; see current branch note below)
-
-**Owner starts Codex on L-001**: inspect the repository, propose the minimal platform/content/engine architecture, record decisions and tests; do not implement the full app or publish. After approved architecture, proceed with the next small TD item.
-
-**Documentation synchronization:** Treat this checkpoint as applying to `main` only after verifying the setup PR merged; until then, use the actual branch/PR state. Never infer a merge from this text.
-
-## 2026-11-16 — Owner-requested landing-page review branch
-
-**Scope:** `feat/language-landing-page`, based on main `ae1be9361eb26dba0cdbe08eeb154172880a441d`; not evidence of integration.
-**Status:** PARTIAL — Codex prepared the standalone L-004 landing page in `docs/discovery-preview/index.html`, matching the mental-health project's source/delivery structure. Prepared manual-only Pages workflow uploads just that HTML; no workflow was run and no settings changed.
-**Product state:** No browser learning, Android app or Play listing. Source labels those capabilities as planned. Existing architecture PR #3 and lessons PR #4 remain separate, unmerged work.
-**Verification:** HTML/link/privacy/workflow source checks and GitHub readback are recorded in the PR. Browser/device/zoom/live-site checks are NOT RUN because managed browser tooling is unavailable; no app checks are claimed.
-**Next action:** owner reviews the landing-page PR. Merge/publication require authorization; full L-004 remains incomplete. Preserve the separate PRs' checkpoint/TD changes when integrating them.
+Owner opens the generated HTML file and tests the lesson flow, then reviews the browser-app PR. Record wording/layout issues using lesson/phrase details and no private information. After authorized integration/deployment, verify the actual public Pages URL before claiming hosted availability. Keep TD tasks active until their full acceptance is verified.

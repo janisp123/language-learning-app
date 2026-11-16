@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#183f36">
+  <title>Practice Latvian ↔ Russian · Test build</title>
+  <!--STYLE-->
+</head>
+<body>
+  <a class="skip" href="#main">Skip to practice</a>
+  <header class="header"><span class="brand"><span aria-hidden="true">↔</span> Language learning</span><span class="badge">Test build 0.1</span></header>
+  <main id="main" tabindex="-1">
+    <p class="draft">Draft lessons · translations await fluent human review · no audio yet</p>
+    <p id="error" class="error" role="alert" hidden></p>
+    <section id="setup" aria-labelledby="welcome">
+      <p class="eyebrow"><span lang="lv">Latviešu</span> ↔ <span lang="ru">Русский</span> · Ages 10–17</p>
+      <h1 id="welcome">A little practice.<br><em>Start with the essentials.</em></h1>
+      <p class="lead">Ten short lessons for everyday situations. Choose a direction and try the first lesson.</p>
+      <label for="direction">Practice direction</label>
+      <select id="direction"><option value="lv-ru">Latvian → Russian</option><option value="ru-lv">Russian → Latvian</option></select>
+      <button class="primary start" id="start" type="button">Start practice <span aria-hidden="true">→</span></button>
+      <div class="rules"><h2>How it works</h2><ul><li>Choose one of four answers. Their positions are reshuffled each time.</li><li>Ten correct answers in a row complete a lesson.</li><li>A mistake takes you back one prompt and resets the consecutive count.</li><li>A fresh session starts at lesson one. Browser progress is not saved.</li></ul></div>
+      <details class="course-outline"><summary>Explore the ten lesson themes</summary><ol id="lesson-list"></ol><p class="small">Lessons are reached in order through practice. This list does not skip ahead.</p></details>
+    </section>
+    <section id="practice" aria-labelledby="lesson-title" hidden>
+      <div class="lesson-top"><p class="eyebrow" id="lesson-label"></p><span id="direction-label" class="small"></span></div>
+      <h1 id="lesson-title"></h1>
+      <div class="progress-row"><label for="progress" id="progress-label">Consecutive correct: 0 of 10</label><progress id="progress" max="10" value="0">0 of 10</progress></div>
+      <article class="question-card" aria-labelledby="question">
+        <p id="instruction" class="eyebrow"></p><h2 id="question" tabindex="-1"></h2>
+        <div id="choices" class="choices" aria-label="Translation choices"></div>
+      </article>
+      <div id="feedback" class="feedback" role="status" aria-live="polite" aria-atomic="true"></div>
+      <div class="practice-actions"><button id="next" class="primary" type="button" hidden>Continue <span aria-hidden="true">→</span></button><button id="restart" class="quiet" type="button">Restart from lesson 1</button><button id="change" class="quiet" type="button">Change direction</button></div>
+      <p class="small help">Your choices and progress stay in this page's memory. Closing or refreshing starts over.</p>
+    </section>
+    <section id="finished" aria-labelledby="finished-title" hidden>
+      <p class="eyebrow">Practice complete</p><h1 id="finished-title" tabindex="-1">You’ve practiced all ten lessons.</h1><p class="lead">Come back to the essentials whenever you want another round.</p><button id="again" class="primary" type="button">Start again from lesson 1</button><button id="choose" class="quiet" type="button">Choose another direction</button>
+    </section>
+    <noscript><p class="error">JavaScript is needed to run the lessons. No account or internet connection is needed for the downloaded HTML file.</p></noscript>
+  </main>
+  <footer><p>Free test build · No account, ads or saved browser progress</p><a href="https://github.com/janisp123/language-learning-app">Source and feedback on GitHub</a><p class="small">Don’t put personal information in public GitHub issues.</p></footer>
+  <script type="application/json" id="course-data"><!--COURSE--></script>
+  <!--ENGINE-->
+  <!--APP-->
+</body>
+</html>

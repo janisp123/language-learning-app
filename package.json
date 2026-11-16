@@ -1,0 +1,11 @@
+{
+  "name": "language-learning-test-build",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Portable browser test build for Latvian and Russian practice",
+  "scripts": {
+    "test": "node --test --test-isolation=none tests/*.test.cjs",
+    "build": "python tools/build_browser.py"
+  },
+  "engines": {"node": ">=24"}
+}
