@@ -7,6 +7,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / 'tools'))
 BUILDER = ROOT / 'tools/build_browser.py'
 
 class Page(HTMLParser):
@@ -43,6 +44,9 @@ class BuildTests(unittest.TestCase):
             self.assertNotIn('<!--UI-->',html)
             self.assertNotIn('<!--TEXT:',html)
             self.assertNotIn('<!--TITLE-->',html)
+            self.assertNotIn('<!--DIRECTIONS-->',html)
+            self.assertNotIn('<!--DEFAULT-LANGUAGE-->',html)
+            self.assertNotIn('<!--NOSCRIPT-->',html)
             for forbidden in ['localStorage','sessionStorage','indexedDB','document.cookie','fetch(','XMLHttpRequest','<iframe','<form']:
                 self.assertNotIn(forbidden,html)
             self.assertTrue('lang="lv"' in html, 'Latvian language label missing')

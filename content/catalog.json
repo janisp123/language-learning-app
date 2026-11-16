@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "lv-ru-10-17",
+  "contentVersion": "0.3.0-test",
+  "agePath": "10-17",
+  "reviewStatus": "draft-human-review-pending",
+  "defaultDirection": "lv-ru",
+  "conceptsFile": "concepts.json",
+  "languages": [
+    {
+      "id": "lv",
+      "file": "languages/lv.json"
+    },
+    {
+      "id": "ru",
+      "file": "languages/ru.json"
+    },
+    {
+      "id": "en",
+      "file": "languages/en.json"
+    }
+  ],
+  "blocks": [
+    {
+      "id": "essentials",
+      "file": "blocks/essentials.json"
+    },
+    {
+      "id": "communication",
+      "file": "blocks/communication.json"
+    },
+    {
+      "id": "introductions",
+      "file": "blocks/introductions.json"
+    },
+    {
+      "id": "places",
+      "file": "blocks/places.json"
+    },
+    {
+      "id": "school",
+      "file": "blocks/school.json"
+    },
+    {
+      "id": "friends",
+      "file": "blocks/friends.json"
+    },
+    {
+      "id": "shops",
+      "file": "blocks/shops.json"
+    },
+    {
+      "id": "directions",
+      "file": "blocks/directions.json"
+    },
+    {
+      "id": "transport",
+      "file": "blocks/transport.json"
+    },
+    {
+      "id": "safety",
+      "file": "blocks/safety.json"
+    }
+  ]
+}

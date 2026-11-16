@@ -1,0 +1,405 @@
+{
+  "schemaVersion": 1,
+  "concepts": [
+    {
+      "id": "essentials-phrase-01",
+      "meaning": "Hello!"
+    },
+    {
+      "id": "essentials-phrase-02",
+      "meaning": "Yes."
+    },
+    {
+      "id": "essentials-phrase-03",
+      "meaning": "No."
+    },
+    {
+      "id": "essentials-phrase-04",
+      "meaning": "Thank you!"
+    },
+    {
+      "id": "essentials-phrase-05",
+      "meaning": "Please!"
+    },
+    {
+      "id": "essentials-phrase-06",
+      "meaning": "Goodbye!"
+    },
+    {
+      "id": "essentials-phrase-07",
+      "meaning": "Excuse me!"
+    },
+    {
+      "id": "essentials-phrase-08",
+      "meaning": "Good morning!"
+    },
+    {
+      "id": "essentials-phrase-09",
+      "meaning": "Good night!"
+    },
+    {
+      "id": "essentials-phrase-10",
+      "meaning": "Okay."
+    },
+    {
+      "id": "communication-phrase-01",
+      "meaning": "I don't understand."
+    },
+    {
+      "id": "communication-phrase-02",
+      "meaning": "Please repeat."
+    },
+    {
+      "id": "communication-phrase-03",
+      "meaning": "Please speak more slowly."
+    },
+    {
+      "id": "communication-phrase-04",
+      "meaning": "Do you speak Latvian?"
+    },
+    {
+      "id": "communication-phrase-05",
+      "meaning": "I need help."
+    },
+    {
+      "id": "communication-phrase-06",
+      "meaning": "What does that mean?"
+    },
+    {
+      "id": "communication-phrase-07",
+      "meaning": "Please show me."
+    },
+    {
+      "id": "communication-phrase-08",
+      "meaning": "I don't know."
+    },
+    {
+      "id": "communication-phrase-09",
+      "meaning": "I speak a little Russian."
+    },
+    {
+      "id": "communication-phrase-10",
+      "meaning": "How do you say that in Russian?"
+    },
+    {
+      "id": "introductions-phrase-01",
+      "meaning": "What is your name?"
+    },
+    {
+      "id": "introductions-phrase-02",
+      "meaning": "My name is..."
+    },
+    {
+      "id": "introductions-phrase-03",
+      "meaning": "How old are you?"
+    },
+    {
+      "id": "introductions-phrase-04",
+      "meaning": "I'm eleven years old."
+    },
+    {
+      "id": "introductions-phrase-05",
+      "meaning": "I go to school."
+    },
+    {
+      "id": "introductions-phrase-06",
+      "meaning": "I'm from Latvia."
+    },
+    {
+      "id": "introductions-phrase-07",
+      "meaning": "Nice to meet you!"
+    },
+    {
+      "id": "introductions-phrase-08",
+      "meaning": "I'm waiting for my mum."
+    },
+    {
+      "id": "introductions-phrase-09",
+      "meaning": "I won't tell you my address."
+    },
+    {
+      "id": "introductions-phrase-10",
+      "meaning": "I don't know you."
+    },
+    {
+      "id": "places-phrase-01",
+      "meaning": "Where is the toilet?"
+    },
+    {
+      "id": "places-phrase-02",
+      "meaning": "Where is the exit?"
+    },
+    {
+      "id": "places-phrase-03",
+      "meaning": "Where is the school?"
+    },
+    {
+      "id": "places-phrase-04",
+      "meaning": "Where is the bus stop?"
+    },
+    {
+      "id": "places-phrase-05",
+      "meaning": "Where is the shop?"
+    },
+    {
+      "id": "places-phrase-06",
+      "meaning": "Where is the entrance?"
+    },
+    {
+      "id": "places-phrase-07",
+      "meaning": "Where is the pharmacy?"
+    },
+    {
+      "id": "places-phrase-08",
+      "meaning": "It's here."
+    },
+    {
+      "id": "places-phrase-09",
+      "meaning": "It's there."
+    },
+    {
+      "id": "places-phrase-10",
+      "meaning": "It's next to the school."
+    },
+    {
+      "id": "school-phrase-01",
+      "meaning": "May I come in?"
+    },
+    {
+      "id": "school-phrase-02",
+      "meaning": "May I go out?"
+    },
+    {
+      "id": "school-phrase-03",
+      "meaning": "Where is the teacher?"
+    },
+    {
+      "id": "school-phrase-04",
+      "meaning": "What do I need to do?"
+    },
+    {
+      "id": "school-phrase-05",
+      "meaning": "Open the book."
+    },
+    {
+      "id": "school-phrase-06",
+      "meaning": "Close the door."
+    },
+    {
+      "id": "school-phrase-07",
+      "meaning": "Write the answer."
+    },
+    {
+      "id": "school-phrase-08",
+      "meaning": "Please read."
+    },
+    {
+      "id": "school-phrase-09",
+      "meaning": "I don't have a pen."
+    },
+    {
+      "id": "school-phrase-10",
+      "meaning": "The lesson is over."
+    },
+    {
+      "id": "friends-phrase-01",
+      "meaning": "Let's play together!"
+    },
+    {
+      "id": "friends-phrase-02",
+      "meaning": "Please wait."
+    },
+    {
+      "id": "friends-phrase-03",
+      "meaning": "It's my turn."
+    },
+    {
+      "id": "friends-phrase-04",
+      "meaning": "May I join in?"
+    },
+    {
+      "id": "friends-phrase-05",
+      "meaning": "Stop!"
+    },
+    {
+      "id": "friends-phrase-06",
+      "meaning": "Come here!"
+    },
+    {
+      "id": "friends-phrase-07",
+      "meaning": "Let's go outside!"
+    },
+    {
+      "id": "friends-phrase-08",
+      "meaning": "Do you want to play?"
+    },
+    {
+      "id": "friends-phrase-09",
+      "meaning": "I don't want to."
+    },
+    {
+      "id": "friends-phrase-10",
+      "meaning": "See you tomorrow!"
+    },
+    {
+      "id": "shops-phrase-01",
+      "meaning": "May I have this?"
+    },
+    {
+      "id": "shops-phrase-02",
+      "meaning": "Water, please."
+    },
+    {
+      "id": "shops-phrase-03",
+      "meaning": "How much does this cost?"
+    },
+    {
+      "id": "shops-phrase-04",
+      "meaning": "Can I pay by card?"
+    },
+    {
+      "id": "shops-phrase-05",
+      "meaning": "No, thank you."
+    },
+    {
+      "id": "shops-phrase-06",
+      "meaning": "I need a bag."
+    },
+    {
+      "id": "shops-phrase-07",
+      "meaning": "Where is the checkout?"
+    },
+    {
+      "id": "shops-phrase-08",
+      "meaning": "One, please."
+    },
+    {
+      "id": "shops-phrase-09",
+      "meaning": "Without sugar, please."
+    },
+    {
+      "id": "shops-phrase-10",
+      "meaning": "I'm allergic to nuts."
+    },
+    {
+      "id": "directions-phrase-01",
+      "meaning": "Go straight."
+    },
+    {
+      "id": "directions-phrase-02",
+      "meaning": "Turn left."
+    },
+    {
+      "id": "directions-phrase-03",
+      "meaning": "Turn right."
+    },
+    {
+      "id": "directions-phrase-04",
+      "meaning": "It's nearby."
+    },
+    {
+      "id": "directions-phrase-05",
+      "meaning": "It's far away."
+    },
+    {
+      "id": "directions-phrase-06",
+      "meaning": "Cross the street."
+    },
+    {
+      "id": "directions-phrase-07",
+      "meaning": "Wait at the traffic lights."
+    },
+    {
+      "id": "directions-phrase-08",
+      "meaning": "Where is the pedestrian crossing?"
+    },
+    {
+      "id": "directions-phrase-09",
+      "meaning": "I'm looking for this street."
+    },
+    {
+      "id": "directions-phrase-10",
+      "meaning": "Is this the right way?"
+    },
+    {
+      "id": "transport-phrase-01",
+      "meaning": "Does this bus go to the centre?"
+    },
+    {
+      "id": "transport-phrase-02",
+      "meaning": "Where do I need to get off?"
+    },
+    {
+      "id": "transport-phrase-03",
+      "meaning": "The next stop."
+    },
+    {
+      "id": "transport-phrase-04",
+      "meaning": "I need a ticket."
+    },
+    {
+      "id": "transport-phrase-05",
+      "meaning": "What time does the bus arrive?"
+    },
+    {
+      "id": "transport-phrase-06",
+      "meaning": "Is this seat free?"
+    },
+    {
+      "id": "transport-phrase-07",
+      "meaning": "I'll get off here."
+    },
+    {
+      "id": "transport-phrase-08",
+      "meaning": "Where is bus number five?"
+    },
+    {
+      "id": "transport-phrase-09",
+      "meaning": "The bus is late."
+    },
+    {
+      "id": "transport-phrase-10",
+      "meaning": "Please let me through."
+    },
+    {
+      "id": "safety-phrase-01",
+      "meaning": "I can't find my way."
+    },
+    {
+      "id": "safety-phrase-02",
+      "meaning": "Leave me alone!"
+    },
+    {
+      "id": "safety-phrase-03",
+      "meaning": "Help!"
+    },
+    {
+      "id": "safety-phrase-04",
+      "meaning": "Call my parents."
+    },
+    {
+      "id": "safety-phrase-05",
+      "meaning": "Call 112."
+    },
+    {
+      "id": "safety-phrase-06",
+      "meaning": "I need a doctor."
+    },
+    {
+      "id": "safety-phrase-07",
+      "meaning": "Don't touch me!"
+    },
+    {
+      "id": "safety-phrase-08",
+      "meaning": "I won't go with you."
+    },
+    {
+      "id": "safety-phrase-09",
+      "meaning": "Where are the police?"
+    },
+    {
+      "id": "safety-phrase-10",
+      "meaning": "I'm scared."
+    }
+  ]
+}

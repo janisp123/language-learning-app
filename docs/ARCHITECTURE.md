@@ -81,7 +81,11 @@ Only create directories when a small Codex task actually needs them. A lean impl
 
 ## Three-language browser content
 
-The owner added English to the same ten-lesson/100-prompt pack. Every phrase has LV/RU/EN text and all six source→target directions are supported. Keep the existing course/lesson/phrase/prompt IDs and the legacy `content/lv-ru-10-17.json` source path stable; use its explicit `languages` field rather than inferring support from its name. Direction-specific target instructions and source-language UI come from the three interface packs. Any future Android record must still be scoped to its course/language pair and age path; a shared content-bank ID alone is not a cross-pair progress key. No native persistence is implemented here.
+The owner added English to the same ten-lesson/100-prompt pack. Every phrase has LV/RU/EN text and all six source→target directions are supported. Keep the existing course/lesson/phrase/prompt IDs stable. Canonical sources now live in the catalog, concept registry, per-block files and per-language modules; the old combined file is removed. Use catalog language/block references, not filenames or hardcoded totals, to build the runtime. Direction-specific target instructions and source-language UI come from the three interface packs. Any future Android record must still be scoped to its course/language pair and age path; a shared content-bank ID alone is not a cross-pair progress key. No native persistence is implemented here.
+
+## Modular content and binding contract
+
+The owner requested data-only extension with existing questions/answers preserved. [Content modules](CONTENT_MODULES.md) define the catalog, concepts, blocks, language/UI modules and fixed UI application contract. Every question explicitly binds `phraseId` to the same `correctAnswerId`; translations repeat their concept ID and canonical meaning. Runtime question/answer ID, text, language, block and revision checks reject mixed presentations. The source loader fails on duplicates, missing/unknown IDs, incomplete translations or UI keys/placeholders, and ambiguous choices. A baseline digest verifies all original question/answer/translation bindings unchanged. More blocks and languages require data and translations, not engine whitelists or handwritten direction controls. Per-block size and learning rules remain fixed at the approved ten-question/three-mistake contract.
 
 ## Still requiring a deliberate technical decision
 

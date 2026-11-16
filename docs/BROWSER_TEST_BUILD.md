@@ -1,4 +1,4 @@
-# Browser test build 0.2
+# Browser test build 0.3
 
 Implemented by Codex on 2026-11-16 at the owner's explicit request for a testable app. Based on main `0eca17305e695e53e72f2bf1ab6f72fa3e04ddb6`. This is a review/test build, not a verified public release or Android app.
 
@@ -16,11 +16,11 @@ The build contains ten themes and 100 draft prompts translated into all three la
 
 All six directions are supported. Starting from Latvian uses Latvian UI; starting from Russian uses Russian UI; starting from English uses English UI. The selector changes the interface immediately, before Start. This includes all controls, rules, lesson titles, counters, feedback, completion, errors, accessible choice labels, document title and root language tag. Questions and options keep their actual source/target language tags. The default direction is Latvian → Russian, so the packaged fallback UI is Latvian; disabled-JavaScript instructions are trilingual. Interface translations are drafts pending fluent review.
 
-`web/locales.json` is the separate canonical UI source, embedded alongside the course. No third-party translation request, saved preference or independent UI-language selector is added. Direction changes still create a fresh learning session. Error UI can switch language even after invalid course data prevents startup.
+Each `content/languages/<code>.json` module contains its translations and separate UI pack, assembled and embedded alongside the course. No third-party translation request, saved preference or independent UI-language selector is added. Direction changes still create a fresh learning session. Error UI can switch language even after invalid course data prevents startup.
 
 ## Source and technical decision for this test build
 
-- `content/lv-ru-10-17.json`: canonical stable course/lesson/phrase/prompt IDs, translations and explicit distractor references; marked draft.
+- `content/catalog.json`, `concepts.json`, `blocks/` and `languages/`: canonical permanent IDs, explicit question/correct-answer/distractor bindings, meaning definitions, translations and UI packs; marked draft.
 - `core/engine.js`: dependency-free pure JavaScript engine shared by unit tests and the browser. No DOM or persistence. It handles validation, direction, shuffle, cursor, consecutive count and stale answer rejection.
 - `web/`: semantic HTML template, CSS and DOM event handling. No framework, network requests or storage.
 - `tools/build_browser.py`: standard-library build that embeds the canonical data, engine and UI into one HTML file. Inline JSON escapes HTML-sensitive characters; interface text uses `textContent`.
@@ -37,7 +37,7 @@ python tools/build_browser.py
 
 Tooling: Node 24+, Python 3.12+. Tests use Node's built-in runner with process isolation disabled for this execution environment; no downloaded test framework. Build output is deterministic and has no external runtime assets. To refresh the committed download after source changes, copy the built file to `downloads/language-learning-test.html` and verify equality.
 
-The existing canonical content filename and stable IDs are retained for compatibility. English text is added to the same 100 phrase records; `languages` now lists `lv`, `ru`, `en`. The engine validates target-language choice uniqueness and rejects missing English text before practice.
+The original combined source files are replaced by validated modules; all existing course/block/question/concept IDs, translations and answer choices remain unchanged, verified by a baseline digest. The catalog currently enables LV/RU/EN and ten blocks; an eleventh block or fourth language can be added by data alone. See [the module guide](CONTENT_MODULES.md). Runtime schema 2 requires explicit correct-answer identity.
 
 ## GitHub delivery
 
@@ -55,6 +55,6 @@ For the new three-mistake rule, test from a later lesson: make two mistakes sepa
 
 ## Verification performed
 
-Twenty-eight Node tests pass, including traversing all ten lessons in all six engine directions, UI event flow through all 100 prompts, execution of the committed HTML's embedded scripts/data in the DOM fixture, exact 499/500 ms timing, and cancellation of pending/stale transitions on restart or direction changes. Three Python build tests pass, checking deterministic self-contained output, required controls, language labels, absence of external assets/storage and isolated site/download parity. An independent review found one emergency-number wording correction; the corrected LV/RU phrases are pinned by a regression test observed failing before the correction and passing afterward. Localization coverage includes matching pack keys/placeholders, all ten lesson titles, source-language rules/feedback/counters/completion and switching error language after a load failure. Independent localization review found that failed bootstrap initially missed direction changes; a regression was observed failing and passed after registering failure-safe language switching. JavaScript syntax checks pass. Browser rendering, real keyboard/screen-reader behavior, physical devices, GitHub Actions execution, Pages hosting and Android checks remain NOT RUN in this environment.
+Thirty Node tests pass, including traversing all ten lessons in all six engine directions, UI event flow through all 100 prompts, execution of the committed HTML's embedded scripts/data in the DOM fixture, exact 499/500 ms timing, and cancellation of pending/stale transitions on restart or direction changes. Nine Python build/module tests pass, checking deterministic self-contained output, required controls, language labels, absence of external assets/storage and isolated site/download parity. An independent review found one emergency-number wording correction; the corrected LV/RU phrases are pinned by a regression test observed failing before the correction and passing afterward. Localization coverage includes matching pack keys/placeholders, all ten lesson titles, source-language rules/feedback/counters/completion and switching error language after a load failure. Independent localization review found that failed bootstrap initially missed direction changes; a regression was observed failing and passed after registering failure-safe language switching. Module tests cover original content digest parity, data-only extension, mislabeled translations, explicit answer IDs, duplicate JSON keys, unknown references and an independent UI key/placeholder contract. Review identified that matching packs could all omit a UI key; a RED→GREEN test now rejects common omissions and placeholder errors. JavaScript syntax checks pass. Browser rendering, real keyboard/screen-reader behavior, physical devices, GitHub Actions execution, Pages hosting and Android checks remain NOT RUN in this environment.
 
 The owner asked for a runnable app rather than further brainstorming; this record documents the implemented browser defaults. It does not remove unfinished release, language-review, Android or licensing tasks from TD.

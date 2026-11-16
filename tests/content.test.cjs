@@ -2,25 +2,25 @@ const test=require('node:test');
 const assert=require('node:assert/strict');
 const fs=require('node:fs');
 const path=require('node:path');
-const file=path.join(__dirname,'../content/lv-ru-10-17.json');
-test('ten-lesson canonical draft course exists',()=>assert.ok(fs.existsSync(file),'course content is not authored'));
+const file=path.join(__dirname,'../downloads/language-learning-test.html');
+test('modular course has a compiled downloadable runtime',()=>assert.ok(fs.existsSync(file),'course is not built'));
 if(fs.existsSync(file)){
-  const course=JSON.parse(fs.readFileSync(file,'utf8'));
+  const {course}=require('./runtime.cjs');
   test('emergency number phrase uses explicit phone-number wording',()=>{
     const phrase=course.phrases.find(p=>p.id==='safety-phrase-05');
     assert.equal(phrase.lv,'Zvaniet uz numuru 112.');
     assert.equal(phrase.ru,'Позвоните по номеру 112.');
   });
-  test('draft course has ten stable lessons and 100 prompts in all six directions between three languages',()=>{
+  test('all registered blocks and language directions compile and complete',()=>{
     const E=require('../core/engine.js'); E.validateCourse(course);
     assert.equal(course.reviewStatus,'draft-human-review-pending');
-    assert.equal(course.lessons.length,10);
-    assert.equal(course.lessons.reduce((n,l)=>n+l.prompts.length,0),100);
-    assert.deepEqual(course.languages,['lv','ru','en']);
+    assert.ok(course.lessons.length>=10);
+    assert.equal(course.lessons.reduce((n,l)=>n+l.prompts.length,0),course.lessons.length*10);
+    assert.ok(['lv','ru','en'].every(language=>course.languages.includes(language)));
     for(const phrase of course.phrases)assert.ok(typeof phrase.en==='string'&&phrase.en.trim(),phrase.id);
-    for(const direction of ['lv-ru','ru-lv','lv-en','en-lv','ru-en','en-ru']){
+    for(const direction of course.languages.flatMap(source=>course.languages.filter(target=>target!==source).map(target=>`${source}-${target}`))){
       let s=E.start(course,direction);
-      for(let i=0;i<100;i++){
+      for(let i=0;i<course.lessons.length*10;i++){
         const q=E.question(course,s,()=>0.4);
         assert.equal(q.options.length,4); assert.equal(new Set(q.options.map(x=>x.text)).size,4);
         const [source,target]=direction.split('-');
@@ -37,7 +37,7 @@ if(fs.existsSync(file)){
     const missing=structuredClone(course);delete missing.phrases[0].en;assert.throws(()=>E.validateCourse(missing));
     const ambiguous=structuredClone(course);ambiguous.phrases[1].en=ambiguous.phrases[0].en;assert.throws(()=>E.validateCourse(ambiguous));
     const duplicate=structuredClone(course);duplicate.languages.push('en');assert.throws(()=>E.validateCourse(duplicate));
-    for(const direction of ['en-en','en-de','lv-lv','en-ru-extra'])assert.throws(()=>E.start(course,direction));
+    for(const direction of ['en-en','en-123','lv-lv','en-ru-extra'])assert.throws(()=>E.start(course,direction));
   });
   test('step-back and third-mistake reset stay identical in all six directions',()=>{
     const E=require('../core/engine.js');

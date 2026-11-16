@@ -39,6 +39,7 @@ For each task: check `AGENTS.md` and `WORK_CHECKPOINT.md`, verify whether alread
 - **Added by:** ChatGPT
 - **Implemented by:** Not yet
 - **Source-language UI update authored by:** Codex at owner request — LV interface for LV→RU/EN; RU interface for RU→LV/EN; EN interface for EN→LV/RU, including all controls, feedback/errors and lesson titles; review and device checks pending
+- **Modularity update authored by:** Codex at owner request — catalog, concept/question/correct-answer IDs, per-block and per-language modules, source/runtime validators and unchanged-original-content regression; data-only extension is tested
 - **Goal:** Minimal child-friendly learning screen, four reshuffled choices, clear feedback, optional re-playable pronunciation if supported, direct **Learn** action from a professional landing page; public GitHub Pages hosting.
 - **Acceptance:** Both translation directions work; same tested lesson/engine behavior; browser stores **no** progress (including localStorage/cookies); refresh starts from lesson 1; no account, tracking or dead buttons. Test on mobile and desktop, including actual published URL. Do not display an invented Google Play link.
 

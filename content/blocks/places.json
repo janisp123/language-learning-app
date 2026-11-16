@@ -1,0 +1,106 @@
+{
+  "id": "places",
+  "title": "Finding places",
+  "prompts": [
+    {
+      "id": "places-prompt-01",
+      "phraseId": "places-phrase-01",
+      "distractorIds": [
+        "places-phrase-02",
+        "places-phrase-04",
+        "places-phrase-06"
+      ],
+      "correctAnswerId": "places-phrase-01"
+    },
+    {
+      "id": "places-prompt-02",
+      "phraseId": "places-phrase-02",
+      "distractorIds": [
+        "places-phrase-03",
+        "places-phrase-05",
+        "places-phrase-07"
+      ],
+      "correctAnswerId": "places-phrase-02"
+    },
+    {
+      "id": "places-prompt-03",
+      "phraseId": "places-phrase-03",
+      "distractorIds": [
+        "places-phrase-04",
+        "places-phrase-06",
+        "places-phrase-08"
+      ],
+      "correctAnswerId": "places-phrase-03"
+    },
+    {
+      "id": "places-prompt-04",
+      "phraseId": "places-phrase-04",
+      "distractorIds": [
+        "places-phrase-05",
+        "places-phrase-07",
+        "places-phrase-09"
+      ],
+      "correctAnswerId": "places-phrase-04"
+    },
+    {
+      "id": "places-prompt-05",
+      "phraseId": "places-phrase-05",
+      "distractorIds": [
+        "places-phrase-06",
+        "places-phrase-08",
+        "places-phrase-10"
+      ],
+      "correctAnswerId": "places-phrase-05"
+    },
+    {
+      "id": "places-prompt-06",
+      "phraseId": "places-phrase-06",
+      "distractorIds": [
+        "places-phrase-07",
+        "places-phrase-09",
+        "places-phrase-01"
+      ],
+      "correctAnswerId": "places-phrase-06"
+    },
+    {
+      "id": "places-prompt-07",
+      "phraseId": "places-phrase-07",
+      "distractorIds": [
+        "places-phrase-08",
+        "places-phrase-10",
+        "places-phrase-02"
+      ],
+      "correctAnswerId": "places-phrase-07"
+    },
+    {
+      "id": "places-prompt-08",
+      "phraseId": "places-phrase-08",
+      "distractorIds": [
+        "places-phrase-09",
+        "places-phrase-01",
+        "places-phrase-03"
+      ],
+      "correctAnswerId": "places-phrase-08"
+    },
+    {
+      "id": "places-prompt-09",
+      "phraseId": "places-phrase-09",
+      "distractorIds": [
+        "places-phrase-10",
+        "places-phrase-02",
+        "places-phrase-04"
+      ],
+      "correctAnswerId": "places-phrase-09"
+    },
+    {
+      "id": "places-prompt-10",
+      "phraseId": "places-phrase-10",
+      "distractorIds": [
+        "places-phrase-01",
+        "places-phrase-03",
+        "places-phrase-05"
+      ],
+      "correctAnswerId": "places-phrase-10"
+    }
+  ]
+}

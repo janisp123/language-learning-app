@@ -2,14 +2,13 @@ const test=require('node:test');
 const assert=require('node:assert/strict');
 const fs=require('node:fs');
 const path=require('node:path');
-const file=path.join(__dirname,'../web/locales.json');
-test('Latvian, Russian and English interface packs exist',()=>assert.ok(fs.existsSync(file),'source-language interface packs are missing'));
+const file=path.join(__dirname,'../content/catalog.json');
+test('language modules are declared in the catalog',()=>assert.ok(fs.existsSync(file),'content catalog is missing'));
 if(fs.existsSync(file)){
-  const packs=JSON.parse(fs.readFileSync(file,'utf8'));
-  const course=require('../content/lv-ru-10-17.json');
+  const {locales:packs,course}=require('./runtime.cjs');
   const html=fs.readFileSync(path.join(__dirname,'../web/index.html'),'utf8');
-  test('all three interface packs cover identical controls, messages, placeholders and all lesson titles',()=>{
-    assert.deepEqual(Object.keys(packs).sort(),['en','lv','ru']);
+  test('all registered interface packs cover controls, messages, names and block titles',()=>{
+    assert.deepEqual(Object.keys(packs).sort(),[...course.languages].sort());
     for(const group of ['static','messages','lessons']){
       assert.deepEqual(Object.keys(packs.lv[group]).sort(),Object.keys(packs.ru[group]).sort());
       assert.deepEqual(Object.keys(packs.lv[group]).sort(),Object.keys(packs.en[group]).sort());
@@ -22,5 +21,6 @@ if(fs.existsSync(file)){
     }
     for(const key of Object.keys(packs.lv.static))assert.ok(html.includes(`id="${key}"`),`control missing: ${key}`);
     assert.deepEqual(Object.keys(packs.lv.lessons).sort(),course.lessons.map(l=>l.id).sort());
+    for(const pack of Object.values(packs))assert.deepEqual(Object.keys(pack.names).sort(),[...course.languages].sort());
   });
 }

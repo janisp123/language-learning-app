@@ -24,6 +24,7 @@
 - [ ] Owner explicitly approves public release; live listing URL independently confirmed before enabling Play download button.
 
 ## Before marking a task DONE
+- [ ] Modular content loader, independent UI contract, runtime answer-binding checks and original-content identity digest pass; authored modules are the only editable content source.
 - [ ] Relevant TD item references a PR/commit and the tests that were actually run.
 - [ ] Changelog records implementation/verification attribution accurately.
 - [ ] Work checkpoint reflects the exact tested or published state and one next action.

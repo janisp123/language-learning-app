@@ -5,7 +5,6 @@
   else root.LanguageEngine = api;
 })(typeof globalThis !== 'undefined' ? globalThis : this, function () {
   'use strict';
-  const supportedLanguages = ['lv', 'ru', 'en'];
   const validDirection = (course, direction) => {
     if (typeof direction !== 'string') return false;
     const parts = direction.split('-');
@@ -16,21 +15,22 @@
   const normalized = value => value.normalize('NFC').trim().toLocaleLowerCase();
 
   function validateCourse(course) {
-    if (!course || course.schemaVersion !== 1 || !text(course.id) || !text(course.contentVersion) || course.agePath !== '10-17') fail('Unsupported course format.');
-    if (!Array.isArray(course.languages) || course.languages.length < 2 || course.languages.length > 3 || new Set(course.languages).size !== course.languages.length || course.languages.some(language => !supportedLanguages.includes(language))) fail('Unsupported or duplicate course languages.');
-    if (!Array.isArray(course.phrases) || !Array.isArray(course.lessons) || course.lessons.length !== 10) fail('Expected ten lessons and a phrase bank.');
+    if (!course || course.schemaVersion !== 2 || !text(course.id) || !text(course.contentVersion) || course.agePath !== '10-17') fail('Unsupported course format.');
+    if (!Array.isArray(course.languages) || course.languages.length < 2 || new Set(course.languages).size !== course.languages.length || course.languages.some(language => typeof language !== 'string' || !/^[a-z]{2,3}$/.test(language))) fail('Unsupported or duplicate course languages.');
+    if (!Array.isArray(course.phrases) || !Array.isArray(course.lessons) || !course.lessons.length) fail('Expected blocks and a phrase bank.');
     const bank = new Map();
     for (const phrase of course.phrases) {
       if (!phrase || !text(phrase.id) || course.languages.some(language => !text(phrase[language])) || bank.has(phrase.id)) fail('Invalid or duplicate phrase.');
       bank.set(phrase.id, phrase);
     }
-    const ids = new Set();
+    const ids = new Set(bank.keys());
     for (const lesson of course.lessons) {
       if (!lesson || !text(lesson.id) || !text(lesson.title) || ids.has(lesson.id) || !Array.isArray(lesson.prompts) || lesson.prompts.length !== 10) fail('Expected a unique lesson with a ten-question block.');
       ids.add(lesson.id);
       for (const prompt of lesson.prompts) {
         if (!prompt || !text(prompt.id) || ids.has(prompt.id) || !Array.isArray(prompt.distractorIds) || prompt.distractorIds.length !== 3) fail('Invalid prompt.');
         ids.add(prompt.id);
+        if (prompt.correctAnswerId !== prompt.phraseId) fail('Question and correct answer must identify the same concept.');
         const choices = [prompt.phraseId, ...prompt.distractorIds];
         if (new Set(choices).size !== 4 || choices.some(id => !bank.has(id))) fail('Invalid answer references.');
         for (const language of course.languages) {
@@ -66,13 +66,24 @@
       const j = Math.floor(value * (i + 1));
       [options[i], options[j]] = [options[j], options[i]];
     }
-    return {courseId:course.id, promptId:prompt.id, direction:state.direction, revision:state.revision, source, target, text:bank.get(prompt.phraseId)[source], correctId:prompt.phraseId, options};
+    return {courseId:course.id, lessonId:course.lessons[state.lessonIndex].id, promptId:prompt.id, conceptId:prompt.phraseId, direction:state.direction, revision:state.revision, source, target, text:bank.get(prompt.phraseId)[source], correctId:prompt.correctAnswerId, options};
+  }
+
+  function checkAnswerBinding(course, state, prompt, shown, selectedId) {
+    const [source, target] = state.direction.split('-');
+    const bank = new Map(course.phrases.map(phrase => [phrase.id, phrase]));
+    const expectedIds = [prompt.correctAnswerId, ...prompt.distractorIds];
+    if (!shown || shown.courseId !== course.id || shown.lessonId !== course.lessons[state.lessonIndex].id || shown.promptId !== prompt.id || shown.conceptId !== prompt.phraseId || shown.correctId !== prompt.correctAnswerId || shown.revision !== state.revision) fail('Question identity or correct-answer ID does not match the active question.');
+    if (shown.direction !== state.direction || shown.source !== source || shown.target !== target || shown.text !== bank.get(prompt.phraseId)[source]) fail('Question language or displayed text does not match its concept ID.');
+    if (!Array.isArray(shown.options) || shown.options.length !== 4 || new Set(shown.options.map(option => option.id)).size !== 4) fail('Expected four distinct answer IDs.');
+    if (shown.options.some(option => !expectedIds.includes(option.id) || option.text !== bank.get(option.id)[target])) fail('Answer IDs or displayed translations do not match this question.');
+    if (!shown.options.some(option => option.id === selectedId)) fail('Selected answer ID is not an option for this question.');
   }
 
   function answer(course, state, shown, selectedId) {
     const prompt = current(course, state);
-    if (!shown || shown.courseId !== course.id || shown.direction !== state.direction || shown.promptId !== prompt.id || shown.revision !== state.revision || !shown.options.some(option => option.id === selectedId)) fail('This answer is no longer valid.');
-    const correct = selectedId === prompt.phraseId;
+    checkAnswerBinding(course, state, prompt, shown, selectedId);
+    const correct = selectedId === prompt.correctAnswerId;
     const next = {...state, revision:state.revision + 1};
     let lessonChanged = false;
     let restarted = false;
@@ -93,7 +104,7 @@
       } else next.promptIndex = (state.promptIndex + 1) % course.lessons[state.lessonIndex].prompts.length;
     }
     const target = state.direction.split('-')[1];
-    return {state:next, feedback:{correct, correctText:course.phrases.find(p => p.id === prompt.phraseId)[target]}, lessonChanged, restarted, completed:next.phase === 'complete'};
+    return {state:next, feedback:{correct, correctText:course.phrases.find(p => p.id === prompt.correctAnswerId)[target]}, lessonChanged, restarted, completed:next.phase === 'complete'};
   }
   return Object.freeze({validateCourse, start, question, answer});
 });

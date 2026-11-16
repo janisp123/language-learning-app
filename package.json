@@ -1,6 +1,6 @@
 {
   "name": "language-learning-test-build",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "description": "Portable browser test build for Latvian, Russian and English practice",
   "scripts": {

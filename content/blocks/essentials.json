@@ -1,0 +1,106 @@
+{
+  "id": "essentials",
+  "title": "Essential words",
+  "prompts": [
+    {
+      "id": "essentials-prompt-01",
+      "phraseId": "essentials-phrase-01",
+      "distractorIds": [
+        "essentials-phrase-02",
+        "essentials-phrase-04",
+        "essentials-phrase-06"
+      ],
+      "correctAnswerId": "essentials-phrase-01"
+    },
+    {
+      "id": "essentials-prompt-02",
+      "phraseId": "essentials-phrase-02",
+      "distractorIds": [
+        "essentials-phrase-03",
+        "essentials-phrase-05",
+        "essentials-phrase-07"
+      ],
+      "correctAnswerId": "essentials-phrase-02"
+    },
+    {
+      "id": "essentials-prompt-03",
+      "phraseId": "essentials-phrase-03",
+      "distractorIds": [
+        "essentials-phrase-04",
+        "essentials-phrase-06",
+        "essentials-phrase-08"
+      ],
+      "correctAnswerId": "essentials-phrase-03"
+    },
+    {
+      "id": "essentials-prompt-04",
+      "phraseId": "essentials-phrase-04",
+      "distractorIds": [
+        "essentials-phrase-05",
+        "essentials-phrase-07",
+        "essentials-phrase-09"
+      ],
+      "correctAnswerId": "essentials-phrase-04"
+    },
+    {
+      "id": "essentials-prompt-05",
+      "phraseId": "essentials-phrase-05",
+      "distractorIds": [
+        "essentials-phrase-06",
+        "essentials-phrase-08",
+        "essentials-phrase-10"
+      ],
+      "correctAnswerId": "essentials-phrase-05"
+    },
+    {
+      "id": "essentials-prompt-06",
+      "phraseId": "essentials-phrase-06",
+      "distractorIds": [
+        "essentials-phrase-07",
+        "essentials-phrase-09",
+        "essentials-phrase-01"
+      ],
+      "correctAnswerId": "essentials-phrase-06"
+    },
+    {
+      "id": "essentials-prompt-07",
+      "phraseId": "essentials-phrase-07",
+      "distractorIds": [
+        "essentials-phrase-08",
+        "essentials-phrase-10",
+        "essentials-phrase-02"
+      ],
+      "correctAnswerId": "essentials-phrase-07"
+    },
+    {
+      "id": "essentials-prompt-08",
+      "phraseId": "essentials-phrase-08",
+      "distractorIds": [
+        "essentials-phrase-09",
+        "essentials-phrase-01",
+        "essentials-phrase-03"
+      ],
+      "correctAnswerId": "essentials-phrase-08"
+    },
+    {
+      "id": "essentials-prompt-09",
+      "phraseId": "essentials-phrase-09",
+      "distractorIds": [
+        "essentials-phrase-10",
+        "essentials-phrase-02",
+        "essentials-phrase-04"
+      ],
+      "correctAnswerId": "essentials-phrase-09"
+    },
+    {
+      "id": "essentials-prompt-10",
+      "phraseId": "essentials-phrase-10",
+      "distractorIds": [
+        "essentials-phrase-01",
+        "essentials-phrase-03",
+        "essentials-phrase-05"
+      ],
+      "correctAnswerId": "essentials-phrase-10"
+    }
+  ]
+}

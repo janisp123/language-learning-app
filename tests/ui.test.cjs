@@ -6,8 +6,7 @@ const fs=require('node:fs');
 const path=require('node:path');
 const root=path.join(__dirname,'..');
 const E=require('../core/engine.js');
-const course=JSON.parse(fs.readFileSync(path.join(root,'content/lv-ru-10-17.json'),'utf8'));
-const localePath=path.join(root,'web/locales.json');
+const {course,locales,html:builtHtml}=require('./runtime.cjs');
 function mount(data=course,bundle=null,initialDirection='lv-ru'){
   const elements=new Map();
   const timers=new Map();let now=0;let timerId=0;
@@ -23,13 +22,14 @@ function mount(data=course,bundle=null,initialDirection='lv-ru'){
     click(){if(!this.disabled)this.handlers.click?.();}
     focus(){document.activeElement=this;}
   }
-  const html=bundle || fs.readFileSync(path.join(root,'web/index.html'),'utf8');
+  const html=bundle || builtHtml;
   for(const match of html.matchAll(/<[^>]+\bid="([^"]+)"[^>]*>/g)){
     const e=new Element();e.hidden=/\shidden[\s>]/.test(match[0]);elements.set(match[1],e);
   }
   elements.get('direction').value=initialDirection;
+  elements.get('direction').options=[...html.matchAll(/<option id="([^"]+)" value="([^"]+)"[^>]*>/g)].map(match=>{const option=elements.get(match[1]);option.value=match[2];return option;});
   elements.get('course-data').textContent=bundle ? html.match(/id="course-data">([\s\S]*?)<\/script>/)[1] : JSON.stringify(data);
-  if(elements.has('ui-data'))elements.get('ui-data').textContent=bundle ? html.match(/id="ui-data">([\s\S]*?)<\/script>/)[1] : fs.readFileSync(localePath,'utf8');
+  if(elements.has('ui-data'))elements.get('ui-data').textContent=bundle ? html.match(/id="ui-data">([\s\S]*?)<\/script>/)[1] : JSON.stringify(locales);
   document={documentElement:{lang:'en'},title:'',getElementById:id=>elements.get(id),createElement:()=>new Element(),createTextNode:text=>String(text),activeElement:null};
   const context=vm.createContext({document,LanguageEngine:E,
     setTimeout:(callback,delay)=>{const id=++timerId;timers.set(id,{callback,at:now+delay});return id;},
@@ -72,7 +72,7 @@ test('all interface text follows source language on direction selection, practic
   assert.match($('rule-mistakes').textContent,/Trešā kļūda/);
   $('direction').value='ru-lv';$('direction').handlers.change();
   assert.equal($.language(),'ru');assert.equal($('start').textContent,'Начать обучение');
-  assert.match($.title(),/латышск/i);assert.equal($('lesson-list').children[0].textContent,'Основные слова');
+  assert.equal($.title(),locales.ru.messages.pageTitle);assert.equal($('lesson-list').children[0].textContent,'Основные слова');
   $('start').click();assert.equal($('lesson-title').textContent,'Основные слова');
   assert.equal($('instruction').textContent,'Выберите перевод на латышский язык');
   assert.equal($('question').lang,'ru');assert.ok($('choices').children.every(b=>b.lang==='lv'));
@@ -80,13 +80,13 @@ test('all interface text follows source language on direction selection, practic
   assert.match($('feedback').textContent,/Неверно/);assert.equal($('feedback').children[0].lang,'lv');$.tick(500);
   $('restart').click();
   for(const lesson of course.lessons)for(const prompt of lesson.prompts){choose($,prompt.phraseId);$.tick(500);}
-  assert.equal($('finished').hidden,false);assert.equal($('finished-title').textContent,'Вы прошли все десять уроков.');
+  assert.equal($('finished').hidden,false);assert.equal($('finished-title').textContent,'Вы прошли все уроки.');
   assert.equal($('again').textContent,'Снова начать с урока 1');
   $('choose').click();$('direction').value='lv-ru';$('direction').handlers.change();
   assert.equal($.language(),'lv');assert.equal($('start').textContent,'Sākt mācīties');
   $('start').click();assert.equal($('instruction').textContent,'Izvēlies tulkojumu krievu valodā');
 });
-test('real UI traverses 100 answers to completion and starts a fresh session',()=>{
+test('real UI traverses all registered blocks to completion and starts a fresh session',()=>{
   const $=mount();$('start').click();
   for(const lesson of course.lessons)for(const prompt of lesson.prompts){choose($,prompt.phraseId);$.tick(500);}
   assert.equal($('finished').hidden,false);assert.equal($('practice').hidden,true);

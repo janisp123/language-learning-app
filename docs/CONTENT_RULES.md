@@ -34,6 +34,10 @@
 
 These are content categories rather than a claim about exact dialogue frequency or verified age-specific statistics. Exact prompts and distractors are authored and tested under L-003.
 
+## Canonical modular authoring
+
+Use `catalog.json`, `concepts.json`, `blocks/<id>.json` and `languages/<code>.json` as described in [CONTENT_MODULES.md](CONTENT_MODULES.md). A question refers to stable concepts by ID and declares the correct concept explicitly; never align languages by array position or grade by visible text. Translation records repeat their concept ID and canonical meaning. The loader and original-content lock reject accidental ID/answer/translation drift. The initial pack still has ten blocks; additional approved blocks/languages are data extensions, not engine changes.
+
 ## Vocabulary economy review
 
 For every proposed new word or phrase ask:

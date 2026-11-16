@@ -22,6 +22,10 @@
       document.documentElement.lang = source;
       document.title = t('pageTitle');
       for (const [id, value] of Object.entries(messages.static)) $(id).textContent = value;
+      for (const option of $('direction').options) {
+        const [from, to] = option.value.split('-');
+        option.textContent = `${messages.names[from].label} → ${messages.names[to].label}`;
+      }
       $('choices').setAttribute('aria-label', t('choices'));
       $('lesson-list').replaceChildren();
       if (course) for (const lesson of course.lessons) {
@@ -63,8 +67,8 @@
       shown = E.question(course, state);
       $('lesson-label').textContent = t('lesson', {n:state.lessonIndex + 1, total:course.lessons.length});
       $('lesson-title').textContent = messages.lessons[lesson.id];
-      $('direction-label').textContent = messages.static[`direction-${state.direction}`];
-      $('instruction').textContent = t(`instruction-${shown.target}`);
+      $('direction-label').textContent = `${messages.names[shown.source].label} → ${messages.names[shown.target].label}`;
+      $('instruction').textContent = t('instruction', {language:messages.names[shown.target].target});
       $('question').textContent = shown.text; $('question').lang = shown.source;
       $('progress').value = state.consecutive;
       $('progress').textContent = t('progressValue', {n:state.consecutive});

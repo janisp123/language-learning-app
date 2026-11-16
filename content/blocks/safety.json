@@ -1,0 +1,106 @@
+{
+  "id": "safety",
+  "title": "Safety and emergencies",
+  "prompts": [
+    {
+      "id": "safety-prompt-01",
+      "phraseId": "safety-phrase-01",
+      "distractorIds": [
+        "safety-phrase-02",
+        "safety-phrase-04",
+        "safety-phrase-06"
+      ],
+      "correctAnswerId": "safety-phrase-01"
+    },
+    {
+      "id": "safety-prompt-02",
+      "phraseId": "safety-phrase-02",
+      "distractorIds": [
+        "safety-phrase-03",
+        "safety-phrase-05",
+        "safety-phrase-07"
+      ],
+      "correctAnswerId": "safety-phrase-02"
+    },
+    {
+      "id": "safety-prompt-03",
+      "phraseId": "safety-phrase-03",
+      "distractorIds": [
+        "safety-phrase-04",
+        "safety-phrase-06",
+        "safety-phrase-08"
+      ],
+      "correctAnswerId": "safety-phrase-03"
+    },
+    {
+      "id": "safety-prompt-04",
+      "phraseId": "safety-phrase-04",
+      "distractorIds": [
+        "safety-phrase-05",
+        "safety-phrase-07",
+        "safety-phrase-09"
+      ],
+      "correctAnswerId": "safety-phrase-04"
+    },
+    {
+      "id": "safety-prompt-05",
+      "phraseId": "safety-phrase-05",
+      "distractorIds": [
+        "safety-phrase-06",
+        "safety-phrase-08",
+        "safety-phrase-10"
+      ],
+      "correctAnswerId": "safety-phrase-05"
+    },
+    {
+      "id": "safety-prompt-06",
+      "phraseId": "safety-phrase-06",
+      "distractorIds": [
+        "safety-phrase-07",
+        "safety-phrase-09",
+        "safety-phrase-01"
+      ],
+      "correctAnswerId": "safety-phrase-06"
+    },
+    {
+      "id": "safety-prompt-07",
+      "phraseId": "safety-phrase-07",
+      "distractorIds": [
+        "safety-phrase-08",
+        "safety-phrase-10",
+        "safety-phrase-02"
+      ],
+      "correctAnswerId": "safety-phrase-07"
+    },
+    {
+      "id": "safety-prompt-08",
+      "phraseId": "safety-phrase-08",
+      "distractorIds": [
+        "safety-phrase-09",
+        "safety-phrase-01",
+        "safety-phrase-03"
+      ],
+      "correctAnswerId": "safety-phrase-08"
+    },
+    {
+      "id": "safety-prompt-09",
+      "phraseId": "safety-phrase-09",
+      "distractorIds": [
+        "safety-phrase-10",
+        "safety-phrase-02",
+        "safety-phrase-04"
+      ],
+      "correctAnswerId": "safety-phrase-09"
+    },
+    {
+      "id": "safety-prompt-10",
+      "phraseId": "safety-phrase-10",
+      "distractorIds": [
+        "safety-phrase-01",
+        "safety-phrase-03",
+        "safety-phrase-05"
+      ],
+      "correctAnswerId": "safety-phrase-10"
+    }
+  ]
+}

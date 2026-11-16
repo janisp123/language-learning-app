@@ -1,0 +1,106 @@
+{
+  "id": "friends",
+  "title": "Activities and friends",
+  "prompts": [
+    {
+      "id": "friends-prompt-01",
+      "phraseId": "friends-phrase-01",
+      "distractorIds": [
+        "friends-phrase-02",
+        "friends-phrase-04",
+        "friends-phrase-06"
+      ],
+      "correctAnswerId": "friends-phrase-01"
+    },
+    {
+      "id": "friends-prompt-02",
+      "phraseId": "friends-phrase-02",
+      "distractorIds": [
+        "friends-phrase-03",
+        "friends-phrase-05",
+        "friends-phrase-07"
+      ],
+      "correctAnswerId": "friends-phrase-02"
+    },
+    {
+      "id": "friends-prompt-03",
+      "phraseId": "friends-phrase-03",
+      "distractorIds": [
+        "friends-phrase-04",
+        "friends-phrase-06",
+        "friends-phrase-08"
+      ],
+      "correctAnswerId": "friends-phrase-03"
+    },
+    {
+      "id": "friends-prompt-04",
+      "phraseId": "friends-phrase-04",
+      "distractorIds": [
+        "friends-phrase-05",
+        "friends-phrase-07",
+        "friends-phrase-09"
+      ],
+      "correctAnswerId": "friends-phrase-04"
+    },
+    {
+      "id": "friends-prompt-05",
+      "phraseId": "friends-phrase-05",
+      "distractorIds": [
+        "friends-phrase-06",
+        "friends-phrase-08",
+        "friends-phrase-10"
+      ],
+      "correctAnswerId": "friends-phrase-05"
+    },
+    {
+      "id": "friends-prompt-06",
+      "phraseId": "friends-phrase-06",
+      "distractorIds": [
+        "friends-phrase-07",
+        "friends-phrase-09",
+        "friends-phrase-01"
+      ],
+      "correctAnswerId": "friends-phrase-06"
+    },
+    {
+      "id": "friends-prompt-07",
+      "phraseId": "friends-phrase-07",
+      "distractorIds": [
+        "friends-phrase-08",
+        "friends-phrase-10",
+        "friends-phrase-02"
+      ],
+      "correctAnswerId": "friends-phrase-07"
+    },
+    {
+      "id": "friends-prompt-08",
+      "phraseId": "friends-phrase-08",
+      "distractorIds": [
+        "friends-phrase-09",
+        "friends-phrase-01",
+        "friends-phrase-03"
+      ],
+      "correctAnswerId": "friends-phrase-08"
+    },
+    {
+      "id": "friends-prompt-09",
+      "phraseId": "friends-phrase-09",
+      "distractorIds": [
+        "friends-phrase-10",
+        "friends-phrase-02",
+        "friends-phrase-04"
+      ],
+      "correctAnswerId": "friends-phrase-09"
+    },
+    {
+      "id": "friends-prompt-10",
+      "phraseId": "friends-phrase-10",
+      "distractorIds": [
+        "friends-phrase-01",
+        "friends-phrase-03",
+        "friends-phrase-05"
+      ],
+      "correctAnswerId": "friends-phrase-10"
+    }
+  ]
+}

@@ -22,11 +22,15 @@ python tools/build_browser.py
 
 Requires Node 24+ and Python 3.12+. No dependency installation is needed. The generated file is `dist/language-learning-test.html`; the committed download is generated from the same canonical sources and checked for parity in CI.
 
-- `content/`: canonical phrase/lesson data and stable IDs.
+- `content/`: catalog, permanent concepts, separate ten-question block files and per-language translation/UI modules.
 - `core/`: platform-independent learning behavior.
-- `web/`: accessible browser template, CSS, Latvian/Russian/English interface packs and UI event handling.
+- `web/`: generic accessible browser template, CSS and UI event handling; directions are generated from the catalog.
 - `tools/`: deterministic standalone/browser-site packaging.
 - `tests/`: engine/content/UI-wiring and build checks.
+
+## Add blocks or languages later
+
+See [the content module guide](docs/CONTENT_MODULES.md). New blocks/languages are registered through data files, not engine edits. Explicit question/concept/correct-answer IDs, meaning checks, strict UI contracts and a digest of the original questions/answers prevent silent binding changes. Existing course content is unchanged by the modular migration.
 
 ## Collaboration and delivery
 

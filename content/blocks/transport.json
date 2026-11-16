@@ -1,0 +1,106 @@
+{
+  "id": "transport",
+  "title": "Public transport",
+  "prompts": [
+    {
+      "id": "transport-prompt-01",
+      "phraseId": "transport-phrase-01",
+      "distractorIds": [
+        "transport-phrase-02",
+        "transport-phrase-04",
+        "transport-phrase-06"
+      ],
+      "correctAnswerId": "transport-phrase-01"
+    },
+    {
+      "id": "transport-prompt-02",
+      "phraseId": "transport-phrase-02",
+      "distractorIds": [
+        "transport-phrase-03",
+        "transport-phrase-05",
+        "transport-phrase-07"
+      ],
+      "correctAnswerId": "transport-phrase-02"
+    },
+    {
+      "id": "transport-prompt-03",
+      "phraseId": "transport-phrase-03",
+      "distractorIds": [
+        "transport-phrase-04",
+        "transport-phrase-06",
+        "transport-phrase-08"
+      ],
+      "correctAnswerId": "transport-phrase-03"
+    },
+    {
+      "id": "transport-prompt-04",
+      "phraseId": "transport-phrase-04",
+      "distractorIds": [
+        "transport-phrase-05",
+        "transport-phrase-07",
+        "transport-phrase-09"
+      ],
+      "correctAnswerId": "transport-phrase-04"
+    },
+    {
+      "id": "transport-prompt-05",
+      "phraseId": "transport-phrase-05",
+      "distractorIds": [
+        "transport-phrase-06",
+        "transport-phrase-08",
+        "transport-phrase-10"
+      ],
+      "correctAnswerId": "transport-phrase-05"
+    },
+    {
+      "id": "transport-prompt-06",
+      "phraseId": "transport-phrase-06",
+      "distractorIds": [
+        "transport-phrase-07",
+        "transport-phrase-09",
+        "transport-phrase-01"
+      ],
+      "correctAnswerId": "transport-phrase-06"
+    },
+    {
+      "id": "transport-prompt-07",
+      "phraseId": "transport-phrase-07",
+      "distractorIds": [
+        "transport-phrase-08",
+        "transport-phrase-10",
+        "transport-phrase-02"
+      ],
+      "correctAnswerId": "transport-phrase-07"
+    },
+    {
+      "id": "transport-prompt-08",
+      "phraseId": "transport-phrase-08",
+      "distractorIds": [
+        "transport-phrase-09",
+        "transport-phrase-01",
+        "transport-phrase-03"
+      ],
+      "correctAnswerId": "transport-phrase-08"
+    },
+    {
+      "id": "transport-prompt-09",
+      "phraseId": "transport-phrase-09",
+      "distractorIds": [
+        "transport-phrase-10",
+        "transport-phrase-02",
+        "transport-phrase-04"
+      ],
+      "correctAnswerId": "transport-phrase-09"
+    },
+    {
+      "id": "transport-prompt-10",
+      "phraseId": "transport-phrase-10",
+      "distractorIds": [
+        "transport-phrase-01",
+        "transport-phrase-03",
+        "transport-phrase-05"
+      ],
+      "correctAnswerId": "transport-phrase-10"
+    }
+  ]
+}

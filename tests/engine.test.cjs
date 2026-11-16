@@ -7,9 +7,9 @@ const enginePath = path.join(__dirname, '../core/engine.js');
 test('learning engine implementation exists', () => assert.ok(fs.existsSync(enginePath), 'engine is not implemented'));
 const E = fs.existsSync(enginePath) ? require(enginePath) : null;
 const fixture = {
-  schemaVersion: 1, contentVersion: 'test', id: 'test-course', languages: ['lv','ru'], agePath: '10-17',
+  schemaVersion: 2, contentVersion: 'test', id: 'test-course', languages: ['lv','ru'], agePath: '10-17',
   phrases: Array.from({length: 10}, (_, i) => ({id:`p${i}`, lv:`LV ${i}`, ru:`RU ${i}`})),
-  lessons: Array.from({length: 10}, (_, l) => ({id:`lesson-${l}`, title:`Lesson ${l}`, prompts:Array.from({length:10},(_, i)=>({id:`l${l}-q${i}`,phraseId:`p${i}`,distractorIds:[`p${(i+1)%10}`,`p${(i+3)%10}`,`p${(i+5)%10}`]}))}))
+  lessons: Array.from({length: 10}, (_, l) => ({id:`lesson-${l}`, title:`Lesson ${l}`, prompts:Array.from({length:10},(_, i)=>({id:`l${l}-q${i}`,phraseId:`p${i}`,correctAnswerId:`p${i}`,distractorIds:[`p${(i+1)%10}`,`p${(i+3)%10}`,`p${(i+5)%10}`]}))}))
 };
 if (E) {
   const advance = (s, correct=true) => {
@@ -70,7 +70,7 @@ if (E) {
   });
   test('invalid course data is rejected before a learner starts',()=>{
     assert.equal(E.validateCourse(fixture),fixture);
-    for(const mutate of [c=>c.lessons.pop(),c=>c.phrases[1].id='p0',c=>c.lessons[0].prompts[0].distractorIds[0]='p0',c=>c.phrases[1].ru='RU 0',c=>c.lessons[0].prompts[0].phraseId='missing',c=>c.schemaVersion=2,c=>c.lessons[0].prompts=[]]){
+    for(const mutate of [c=>c.lessons=[],c=>c.phrases[1].id='p0',c=>c.lessons[0].prompts[0].distractorIds[0]='p0',c=>c.phrases[1].ru='RU 0',c=>c.lessons[0].prompts[0].phraseId='missing',c=>c.schemaVersion=99,c=>c.lessons[0].prompts=[]]){
       const c=structuredClone(fixture);mutate(c);assert.throws(()=>E.validateCourse(c));
     }
   });
@@ -105,5 +105,18 @@ if (E) {
     assert.equal(r.restarted,true);assert.equal(r.state.promptIndex,0);assert.equal(r.state.mistakes,0);
     for(const mistakes of [-1,3,1.5,undefined])assert.throws(()=>E.question(fixture,{...s,mistakes}));
     const c=structuredClone(fixture);c.lessons[0].prompts.pop();assert.throws(()=>E.validateCourse(c));
+  });
+  test('additional blocks and languages work without engine changes',()=>{
+    const c=structuredClone(fixture);c.languages.push('zz');for(const p of c.phrases)p.zz='ZZ '+p.lv;
+    const extra=structuredClone(c.lessons[0]);extra.id='extra';extra.prompts.forEach((p,i)=>p.id=`extra-q${i}`);c.lessons.push(extra);
+    let s=E.start(c,'zz-lv');for(let i=0;i<110;i++){const q=E.question(c,s,()=>0.3);s=E.answer(c,s,q,q.correctId).state;}
+    assert.equal(s.phase,'complete');assert.equal(s.lessonIndex,10);
+  });
+  test('explicit correct-answer identity and question/option bindings cannot be mixed up',()=>{
+    const bad=structuredClone(fixture);bad.lessons[0].prompts[0].correctAnswerId='p1';assert.throws(()=>E.validateCourse(bad));
+    const s=E.start(fixture,'lv-ru');const q=E.question(fixture,s,()=>0);
+    for(const mutate of [q=>q.correctId='p1',q=>q.text='another question',q=>q.lessonId='lesson-1',q=>q.options[0].text='wrong displayed translation']){
+      const changed=structuredClone(q);mutate(changed);assert.throws(()=>E.answer(fixture,s,changed,changed.options[0].id));
+    }
   });
 }
