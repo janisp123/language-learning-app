@@ -12,6 +12,12 @@ The build contains ten themes and 100 draft prompt pairs. Lessons unlock sequent
 
 **Review pending:** fluent Latvian/Russian review, distractor ambiguity/context review, actual browser/physical-device interaction, keyboard/screen-reader/zoom/layout and public HTTPS deployment. Do not call the translations human-reviewed or the UI browser-verified. Automated checks establish structure and transitions, not pedagogical effectiveness or semantic correctness.
 
+## Interface language
+
+Latvian → Russian uses Latvian interface text; Russian → Latvian uses Russian interface text. The selector changes the interface immediately, before Start. This includes all controls, rules, lesson titles, counters, feedback, completion, errors, accessible choice labels, document title and root language tag. Questions and options keep their actual source/target language tags. The default direction is Latvian → Russian, so the packaged fallback UI is Latvian; disabled-JavaScript instructions are bilingual. Interface translations are drafts pending fluent review.
+
+`web/locales.json` is the separate canonical UI source, embedded alongside the course. No third-party translation request, saved preference or independent UI-language selector is added. Direction changes still create a fresh learning session. Error UI can switch language even after invalid course data prevents startup.
+
 ## Source and technical decision for this test build
 
 - `content/lv-ru-10-17.json`: canonical stable course/lesson/phrase/prompt IDs, translations and explicit distractor references; marked draft.
@@ -37,7 +43,7 @@ The ordinary checks workflow validates the app, rebuilds it, compares the downlo
 
 ## Suggested first test
 
-1. Start in each direction and confirm the prompt/answers use the expected languages.
+1. Start in each direction and confirm the entire interface uses the source language, prompts use the source language, and answer choices use the target language. Switch directions before Start and after returning to setup.
 2. Answer correctly twice, make a mistake, and confirm the correction and automatic backward step after 0.5 seconds.
 3. Reach ten correct in a row and check the next lesson begins at its first prompt.
 4. Restart, change direction, refresh and reopen; each fresh session should begin at lesson one.
@@ -47,6 +53,6 @@ For the new three-mistake rule, test from a later lesson: make two mistakes sepa
 
 ## Verification performed
 
-Twenty-two Node tests pass, including traversing all ten lessons in both engine directions, UI event flow through all 100 prompts, execution of the committed HTML's embedded scripts/data in the DOM fixture, exact 499/500 ms timing, and cancellation of pending/stale transitions on restart or direction changes. Three Python build tests pass, checking deterministic self-contained output, required controls, language labels, absence of external assets/storage and isolated site/download parity. An independent review found one emergency-number wording correction; the corrected LV/RU phrases are pinned by a regression test observed failing before the correction and passing afterward. JavaScript syntax checks pass. Browser rendering, real keyboard/screen-reader behavior, physical devices, GitHub Actions execution, Pages hosting and Android checks remain NOT RUN in this environment.
+Twenty-five Node tests pass, including traversing all ten lessons in both engine directions, UI event flow through all 100 prompts, execution of the committed HTML's embedded scripts/data in the DOM fixture, exact 499/500 ms timing, and cancellation of pending/stale transitions on restart or direction changes. Three Python build tests pass, checking deterministic self-contained output, required controls, language labels, absence of external assets/storage and isolated site/download parity. An independent review found one emergency-number wording correction; the corrected LV/RU phrases are pinned by a regression test observed failing before the correction and passing afterward. Localization coverage includes matching pack keys/placeholders, all ten lesson titles, source-language rules/feedback/counters/completion and switching error language after a load failure. Independent localization review found that failed bootstrap initially missed direction changes; a regression was observed failing and passed after registering failure-safe language switching. JavaScript syntax checks pass. Browser rendering, real keyboard/screen-reader behavior, physical devices, GitHub Actions execution, Pages hosting and Android checks remain NOT RUN in this environment.
 
 The owner asked for a runnable app rather than further brainstorming; this record documents the implemented browser defaults. It does not remove unfinished release, language-review, Android or licensing tasks from TD.

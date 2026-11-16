@@ -8,7 +8,7 @@ A free language-learning project for practical Latvian ↔ Russian communication
 
 This test build contains ten draft lessons and 100 prompt pairs. Choose Latvian → Russian or Russian → Latvian, then Start practice. Tap one of four reshuffled choices: feedback appears immediately, then the next prompt opens automatically after 0.5 seconds. No Continue button is needed. Ten correct answers in a row complete a lesson; a mistake steps back one prompt and resets the run. Each lesson is a ten-question block. The third mistake in the same block restarts at lesson one, question one, even when correct answers came between mistakes. The mistake count resets on entering a new block or restarting. Fresh sessions start at lesson one. There is no saved browser progress, tracking, ads, XP, lives or daily streaks.
 
-**Draft, not a finished release:** fluent human language review, real browser/device/accessibility verification and hosted deployment remain pending. The interface is in English. No pronunciation audio, Android download or Google Play listing exists yet. Do not describe the test build as publicly deployed without actual deployment evidence.
+**Draft, not a finished release:** fluent human language review, real browser/device/accessibility verification and hosted deployment remain pending. The interface follows the source language: Latvian when learning Russian from Latvian, and Russian when learning Latvian from Russian. Changing direction switches the UI immediately. No pronunciation audio, Android download or Google Play listing exists yet. Do not describe the test build as publicly deployed without actual deployment evidence.
 
 [Testing guide, architecture and verification limits](docs/BROWSER_TEST_BUILD.md).
 
@@ -24,7 +24,7 @@ Requires Node 24+ and Python 3.12+. No dependency installation is needed. The ge
 
 - `content/`: canonical phrase/lesson data and stable IDs.
 - `core/`: platform-independent learning behavior.
-- `web/`: accessible browser template, CSS and UI event handling.
+- `web/`: accessible browser template, CSS, Latvian/Russian interface packs and UI event handling.
 - `tools/`: deterministic standalone/browser-site packaging.
 - `tests/`: engine/content/UI-wiring and build checks.
 

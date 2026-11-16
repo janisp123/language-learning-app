@@ -7,7 +7,8 @@ const path=require('node:path');
 const root=path.join(__dirname,'..');
 const E=require('../core/engine.js');
 const course=JSON.parse(fs.readFileSync(path.join(root,'content/lv-ru-10-17.json'),'utf8'));
-function mount(data=course,bundle=null){
+const localePath=path.join(root,'web/locales.json');
+function mount(data=course,bundle=null,initialDirection='lv-ru'){
   const elements=new Map();
   const timers=new Map();let now=0;let timerId=0;
   let document;
@@ -18,6 +19,7 @@ function mount(data=course,bundle=null){
     append(...children){this.children.push(...children);}
     replaceChildren(...children){this._text='';this.children=[...children];}
     addEventListener(name,handler){this.handlers[name]=handler;}
+    setAttribute(name,value){this[name]=value;}
     click(){if(!this.disabled)this.handlers.click?.();}
     focus(){document.activeElement=this;}
   }
@@ -25,9 +27,10 @@ function mount(data=course,bundle=null){
   for(const match of html.matchAll(/<[^>]+\bid="([^"]+)"[^>]*>/g)){
     const e=new Element();e.hidden=/\shidden[\s>]/.test(match[0]);elements.set(match[1],e);
   }
-  elements.get('direction').value='lv-ru';
+  elements.get('direction').value=initialDirection;
   elements.get('course-data').textContent=bundle ? html.match(/id="course-data">([\s\S]*?)<\/script>/)[1] : JSON.stringify(data);
-  document={getElementById:id=>elements.get(id),createElement:()=>new Element(),createTextNode:text=>String(text),activeElement:null};
+  if(elements.has('ui-data'))elements.get('ui-data').textContent=bundle ? html.match(/id="ui-data">([\s\S]*?)<\/script>/)[1] : fs.readFileSync(localePath,'utf8');
+  document={documentElement:{lang:'en'},title:'',getElementById:id=>elements.get(id),createElement:()=>new Element(),createTextNode:text=>String(text),activeElement:null};
   const context=vm.createContext({document,LanguageEngine:E,
     setTimeout:(callback,delay)=>{const id=++timerId;timers.set(id,{callback,at:now+delay});return id;},
     clearTimeout:id=>timers.delete(id)
@@ -40,6 +43,8 @@ function mount(data=course,bundle=null){
   const $=id=>elements.get(id);
   $.tick=milliseconds=>{const end=now+milliseconds;while(true){const entry=[...timers].sort((a,b)=>a[1].at-b[1].at).find(([,t])=>t.at<=end);if(!entry)break;now=entry[1].at;timers.delete(entry[0]);entry[1].callback();}now=end;};
   $.queuedCallback=()=>[...timers.values()][0]?.callback;
+  $.language=()=>document.documentElement.lang;
+  $.title=()=>document.title;
   return $;
 }
 function choose($,id){const button=$('choices').children.find(b=>b.dataset.optionId===id);assert.ok(button);button.click();}
@@ -49,26 +54,50 @@ test('answer locks immediately, advances only at 500ms, then wrong steps back au
   $('start').click();assert.equal($('practice').hidden,false);assert.equal($('choices').children.length,4);
   assert.equal($('question').lang,'lv');
   choose($,course.lessons[0].prompts[0].phraseId);
-  assert.match($('feedback').textContent,/Correct/);assert.ok($('choices').children.every(b=>b.disabled));
+  assert.match($('feedback').textContent,/Pareizi/);assert.ok($('choices').children.every(b=>b.disabled));
   choose($,course.lessons[0].prompts[0].phraseId);
   $.tick(499);assert.equal($('progress').value,0);assert.equal($('question').textContent,course.phrases[0].lv);
   $.tick(1);assert.equal($('progress').value,1);assert.equal($('next'),undefined);
   const wrong=$('choices').children.find(b=>b.dataset.optionId!==course.lessons[0].prompts[1].phraseId);
-  wrong.click();wrong.click();assert.match($('feedback').textContent,/Not quite/);
+  wrong.click();wrong.click();assert.match($('feedback').textContent,/Nav pareizi/);
   $.tick(500);assert.equal($('progress').value,0);assert.equal($('question').textContent,course.phrases[0].lv);
-  assert.match($('feedback').textContent,/Not quite/);
+  assert.match($('feedback').textContent,/Nav pareizi/);
   $('restart').click();assert.equal($('progress').value,0);
   $('change').click();assert.equal($('setup').hidden,false);assert.equal($('practice').hidden,true);
   $('direction').value='ru-lv';$('start').click();assert.equal($('question').lang,'ru');assert.equal($('question').textContent,course.phrases[0].ru);
+});
+test('all interface text follows source language on direction selection, practice, errors and completion',()=>{
+  const $=mount();assert.equal($.language(),'lv');assert.equal($('start').textContent,'Sākt mācīties');
+  assert.equal($('restart').textContent,'Sākt no 1. nodarbības');
+  assert.match($('rule-mistakes').textContent,/Trešā kļūda/);
+  $('direction').value='ru-lv';$('direction').handlers.change();
+  assert.equal($.language(),'ru');assert.equal($('start').textContent,'Начать обучение');
+  assert.match($.title(),/латышск/i);assert.equal($('lesson-list').children[0].textContent,'Основные слова');
+  $('start').click();assert.equal($('lesson-title').textContent,'Основные слова');
+  assert.equal($('instruction').textContent,'Выберите перевод на латышский язык');
+  assert.equal($('question').lang,'ru');assert.ok($('choices').children.every(b=>b.lang==='lv'));
+  const wrong=$('choices').children.find(b=>b.dataset.optionId!==course.lessons[0].prompts[0].phraseId);wrong.click();
+  assert.match($('feedback').textContent,/Неверно/);assert.equal($('feedback').children[0].lang,'lv');$.tick(500);
+  $('restart').click();
+  for(const lesson of course.lessons)for(const prompt of lesson.prompts){choose($,prompt.phraseId);$.tick(500);}
+  assert.equal($('finished').hidden,false);assert.equal($('finished-title').textContent,'Вы прошли все десять уроков.');
+  assert.equal($('again').textContent,'Снова начать с урока 1');
+  $('choose').click();$('direction').value='lv-ru';$('direction').handlers.change();
+  assert.equal($.language(),'lv');assert.equal($('start').textContent,'Sākt mācīties');
+  $('start').click();assert.equal($('instruction').textContent,'Izvēlies tulkojumu krievu valodā');
 });
 test('real UI traverses 100 answers to completion and starts a fresh session',()=>{
   const $=mount();$('start').click();
   for(const lesson of course.lessons)for(const prompt of lesson.prompts){choose($,prompt.phraseId);$.tick(500);}
   assert.equal($('finished').hidden,false);assert.equal($('practice').hidden,true);
-  $('again').click();assert.equal($('practice').hidden,false);assert.equal($('progress').value,0);assert.match($('lesson-label').textContent,/Lesson 1 of 10/);
+  $('again').click();assert.equal($('practice').hidden,false);assert.equal($('progress').value,0);assert.match($('lesson-label').textContent,/Nodarbība 1 no 10/);
 });
 test('invalid embedded content produces a visible error and disables start',()=>{
   const $=mount({});assert.equal($('error').hidden,false);assert.equal($('start').disabled,true);assert.equal($('practice').hidden,true);
+  assert.match($('error').textContent,/Neizdevās/);
+  $('direction').value='ru-lv';assert.equal(typeof $('direction').handlers.change,'function');$('direction').handlers.change();
+  assert.equal($.language(),'ru');assert.match($('error').textContent,/Не удалось/);assert.equal($('start').disabled,true);
+  const ru=mount({},null,'ru-lv');assert.equal(ru.language(),'ru');assert.match(ru('error').textContent,/Не удалось/);
 });
 test('committed standalone HTML executes its embedded data, engine and UI',()=>{
   const html=fs.readFileSync(path.join(root,'downloads/language-learning-test.html'),'utf8');
@@ -91,16 +120,16 @@ test('restart and direction change cancel pending transitions, including already
 test('third wrong answer shows restart feedback and returns to lesson one after 500ms',()=>{
   const $=mount();$('start').click();
   for(const prompt of course.lessons[0].prompts){choose($,prompt.phraseId);$.tick(500);}
-  assert.match($('lesson-label').textContent,/Lesson 2 of 10/);
+  assert.match($('lesson-label').textContent,/Nodarbība 2 no 10/);
   for(let miss=1;miss<=3;miss++){
     const wrong=$('choices').children.find(b=>b.dataset.optionId!==course.lessons[1].prompts[0].phraseId);
-    wrong.click();$.tick(499);assert.match($('lesson-label').textContent,/Lesson 2 of 10/);
-    if(miss===3)assert.match($('feedback').textContent,/[Tt]hird mistake/);
+    wrong.click();$.tick(499);assert.match($('lesson-label').textContent,/Nodarbība 2 no 10/);
+    if(miss===3)assert.match($('feedback').textContent,/Trešā kļūda/);
     $.tick(1);
-    if(miss<3){assert.equal($('mistakes').textContent,`Mistakes in this block: ${miss} of 3`);assert.match($('lesson-label').textContent,/Lesson 2 of 10/);}
+    if(miss<3){assert.equal($('mistakes').textContent,`Kļūdas šajā blokā: ${miss} no 3`);assert.match($('lesson-label').textContent,/Nodarbība 2 no 10/);}
   }
-  assert.match($('lesson-label').textContent,/Lesson 1 of 10/);assert.equal($('question').textContent,course.phrases[0].lv);
-  assert.equal($('mistakes').textContent,'Mistakes in this block: 0 of 3');assert.equal($('progress').value,0);
+  assert.match($('lesson-label').textContent,/Nodarbība 1 no 10/);assert.equal($('question').textContent,course.phrases[0].lv);
+  assert.equal($('mistakes').textContent,'Kļūdas šajā blokā: 0 no 3');assert.equal($('progress').value,0);
 });
 test('wrong on question seven returns to question six of the same block, retaining its mistake count',()=>{
   const $=mount();$('start').click();
@@ -111,8 +140,8 @@ test('wrong on question seven returns to question six of the same block, retaini
   assert.equal($('question').textContent,phrase(middle.phraseId));
   const wrong=$('choices').children.find(b=>b.dataset.optionId!==middle.phraseId);wrong.click();
   $.tick(499);assert.equal($('question').textContent,phrase(middle.phraseId));
-  $.tick(1);assert.match($('lesson-label').textContent,/Lesson 2 of 10/);
+  $.tick(1);assert.match($('lesson-label').textContent,/Nodarbība 2 no 10/);
   assert.equal($('question').textContent,phrase(course.lessons[1].prompts[5].phraseId));
-  assert.equal($('progress').value,0);assert.equal($('mistakes').textContent,'Mistakes in this block: 1 of 3');
-  assert.match($('feedback').textContent,/[Mm]oving back one prompt/);
+  assert.equal($('progress').value,0);assert.equal($('mistakes').textContent,'Kļūdas šajā blokā: 1 no 3');
+  assert.match($('feedback').textContent,/Atgriežamies vienu jautājumu atpakaļ/);
 });

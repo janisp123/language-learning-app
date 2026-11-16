@@ -4,7 +4,7 @@
 
 ## Before publishing the browser version
 - [ ] Real `Learn` button opens a functioning lesson from the actual GitHub Pages public URL.
-- [ ] LV → RU and RU → LV tested with human-readable, checked content.
+- [ ] LV → RU and RU → LV tested with human-readable, checked content. Entire UI switches to Latvian for LV→RU and Russian for RU→LV, including load-error direction changes, completion and accessible labels; prompt/answer language tags remain correct.
 - [ ] Correct goes forward, incorrect one prompt back, **ten consecutive correct** completes a lesson; answer locations reshuffle. Each block has ten questions; the third cumulative mistake in one block restarts at lesson 1/question 1. Check nonconsecutive mistakes and count reset on block completion.
 - [ ] Close/reload starts at lesson 1; no saved browser progress, analytics, cookies, IndexedDB or server calls.
 - [ ] Mobile layouts, large touch targets, readable language/audio, keyboard behavior and screen-reader basics checked.

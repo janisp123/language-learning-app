@@ -1,24 +1,49 @@
 (function () {
   'use strict';
   const $ = id => document.getElementById(id);
+  let messages;
+  let loadFailed = false;
   try {
     const E = globalThis.LanguageEngine;
-    const course = E.validateCourse(JSON.parse($('course-data').textContent));
-    const languages = {lv:'Latvian', ru:'Russian'};
+    const locales = JSON.parse($('ui-data').textContent);
+    let course = null;
     let state = null;
     let shown = null;
     let pending = null;
     let advanceTimer = null;
     let generation = 0;
 
+    function t(key, values = {}) {
+      return messages.messages[key].replace(/\{(\w+)\}/g, (_, name) => String(values[name]));
+    }
+    function localize() {
+      const source = $('direction').value.split('-')[0];
+      messages = locales[source];
+      document.documentElement.lang = source;
+      document.title = t('pageTitle');
+      for (const [id, value] of Object.entries(messages.static)) $(id).textContent = value;
+      $('choices').setAttribute('aria-label', t('choices'));
+      $('lesson-list').replaceChildren();
+      if (course) for (const lesson of course.lessons) {
+        const item = document.createElement('li'); item.textContent = messages.lessons[lesson.id]; $('lesson-list').append(item);
+      }
+    }
+    localize();
+    $('direction').addEventListener('change', () => {
+      setup(); localize();
+      if (loadFailed) $('error').textContent = t('error');
+    });
+    course = E.validateCourse(JSON.parse($('course-data').textContent));
+    for (const locale of ['lv', 'ru']) for (const lesson of course.lessons) {
+      if (!locales[locale].lessons[lesson.id]) throw new Error('Missing lesson translation.');
+    }
+    localize();
+
     function cancelAdvance() {
       if (advanceTimer !== null) clearTimeout(advanceTimer);
       advanceTimer = null; generation++; pending = null;
     }
 
-    for (const lesson of course.lessons) {
-      const item = document.createElement('li'); item.textContent = lesson.title; $('lesson-list').append(item);
-    }
     function screen(id) {
       for (const name of ['setup','practice','finished']) $(name).hidden = name !== id;
     }
@@ -29,21 +54,22 @@
     }
     function begin() {
       cancelAdvance();
+      localize();
       state = E.start(course, $('direction').value);
       pending = null; screen('practice'); render();
     }
     function render(clearFeedback = true) {
       const lesson = course.lessons[state.lessonIndex];
       shown = E.question(course, state);
-      $('lesson-label').textContent = `Lesson ${state.lessonIndex + 1} of ${course.lessons.length}`;
-      $('lesson-title').textContent = lesson.title;
-      $('direction-label').textContent = `${languages[shown.source]} → ${languages[shown.target]}`;
-      $('instruction').textContent = `Choose the ${languages[shown.target]} translation`;
+      $('lesson-label').textContent = t('lesson', {n:state.lessonIndex + 1, total:course.lessons.length});
+      $('lesson-title').textContent = messages.lessons[lesson.id];
+      $('direction-label').textContent = messages.static[`direction-${state.direction}`];
+      $('instruction').textContent = t('instruction');
       $('question').textContent = shown.text; $('question').lang = shown.source;
       $('progress').value = state.consecutive;
-      $('progress').textContent = `${state.consecutive} of 10`;
-      $('progress-label').textContent = `Consecutive correct: ${state.consecutive} of 10`;
-      $('mistakes').textContent = `Mistakes in this block: ${state.mistakes} of 3`;
+      $('progress').textContent = t('progressValue', {n:state.consecutive});
+      $('progress-label').textContent = t('progress', {n:state.consecutive});
+      $('mistakes').textContent = t('mistakes', {n:state.mistakes});
       if (clearFeedback) { $('feedback').textContent = ''; $('feedback').className = 'feedback'; }
       $('choices').replaceChildren();
       for (const option of shown.options) {
@@ -67,14 +93,12 @@
       feedback.className = 'feedback';
       if (!pending.feedback.correct) {
         feedback.className = 'feedback wrong';
-        feedback.textContent = 'Not quite. Correct translation: ';
+        feedback.textContent = t('wrong');
         const translation = document.createElement('span'); translation.lang = shown.target; translation.textContent = pending.feedback.correctText;
-        feedback.append(translation, document.createTextNode(pending.restarted
-          ? ' Third mistake in this block. Starting again at lesson 1, question 1.'
-          : ' Moving back one prompt; the consecutive count resets.'));
-      } else if (pending.completed) feedback.textContent = 'Correct. You have completed the final lesson.';
-      else if (pending.lessonChanged) feedback.textContent = `Correct. Next: ${course.lessons[pending.state.lessonIndex].title}.`;
-      else feedback.textContent = 'Correct. Moving to the next prompt.';
+        feedback.append(translation, document.createTextNode(t(pending.restarted ? 'reset' : 'back')));
+      } else if (pending.completed) feedback.textContent = t('completed');
+      else if (pending.lessonChanged) feedback.textContent = t('nextLesson', {title:messages.lessons[course.lessons[pending.state.lessonIndex].id]});
+      else feedback.textContent = t('correct');
       const ticket = ++generation;
       advanceTimer = setTimeout(() => {
         if (ticket !== generation || !pending) return;
@@ -88,7 +112,8 @@
     for (const id of ['change','choose']) $(id).addEventListener('click', setup);
     screen('setup');
   } catch (error) {
-    $('error').textContent = 'The lesson data could not be loaded. Please download a fresh test build or report the problem on GitHub.';
+    loadFailed = true;
+    $('error').textContent = messages?.messages.error || 'Neizdevās ielādēt mācību materiālu. Lejupielādē failu vēlreiz.';
     $('error').hidden = false;
     $('start').disabled = true;
     for (const id of ['practice','finished']) $(id).hidden = true;

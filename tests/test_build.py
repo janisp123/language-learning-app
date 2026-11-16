@@ -35,11 +35,14 @@ class BuildTests(unittest.TestCase):
             self.assertEqual(page.remote,[])
             self.assertTrue('LanguageEngine' in html, 'engine missing from build')
             self.assertTrue('draft-human-review-pending' in html, 'draft content status missing')
-            for name in ['setup','practice','finished','start','choices','restart','direction','course-data','feedback','progress']:
+            for name in ['setup','practice','finished','start','choices','restart','direction','course-data','ui-data','feedback','progress']:
                 self.assertIn(name,page.ids)
             self.assertNotIn('next',page.ids)
             self.assertNotIn('<!--ENGINE-->',html)
             self.assertNotIn('<!--APP-->',html)
+            self.assertNotIn('<!--UI-->',html)
+            self.assertNotIn('<!--TEXT:',html)
+            self.assertNotIn('<!--TITLE-->',html)
             for forbidden in ['localStorage','sessionStorage','indexedDB','document.cookie','fetch(','XMLHttpRequest','<iframe','<form']:
                 self.assertNotIn(forbidden,html)
             self.assertTrue('lang="lv"' in html, 'Latvian language label missing')

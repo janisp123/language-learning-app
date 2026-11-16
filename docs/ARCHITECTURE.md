@@ -39,6 +39,8 @@ Keep reusable phrases/words referenced by stable IDs. Avoid accidental distinct 
 
 **Owner interaction update (2026-11-16):** In the browser test build, selecting an answer locks choices and shows feedback immediately. After 500 ms, apply the answer transition automatically; there is no Continue button. Preserve the last correction after transition until the next answer so it remains readable. Restarting or changing direction cancels the timer and invalidates stale callbacks. This timing changes UI interaction only, not the correct/incorrect navigation or ten-consecutive rule above.
 
+**Owner interface-language update:** The complete learning UI follows the selected source language: LV→RU uses Latvian, RU→LV uses Russian. Apply immediately on direction selection, including instructions, controls, lesson titles, progress/mistake labels, feedback, errors, completion, accessible labels and document language/title. Keep prompt/option text and language tags in their actual source/target languages. UI strings live separately from canonical learning content.
+
 **Question display:** A compact progress cue is optional; never turn internal consecutive-correct logic into an XP/score feature. Avoid noisy animations/celebrations. Audio should support functional comprehension rather than rewards; L-001 should choose reliable Android/browser playback without requiring user accounts or network services.
 
 ## Two delivery surfaces

@@ -38,6 +38,7 @@ For each task: check `AGENTS.md` and `WORK_CHECKPOINT.md`, verify whether alread
 - **Landing-page slice authored by:** Codex · [source](discovery-preview/index.html) · [publication/verification notes](discovery-preview/LAUNCH.md)
 - **Added by:** ChatGPT
 - **Implemented by:** Not yet
+- **Source-language UI update authored by:** Codex at owner request — LV interface for LV→RU; RU interface for RU→LV, including all controls, feedback/errors and lesson titles; review and device checks pending
 - **Goal:** Minimal child-friendly learning screen, four reshuffled choices, clear feedback, optional re-playable pronunciation if supported, direct **Learn** action from a professional landing page; public GitHub Pages hosting.
 - **Acceptance:** Both translation directions work; same tested lesson/engine behavior; browser stores **no** progress (including localStorage/cookies); refresh starts from lesson 1; no account, tracking or dead buttons. Test on mobile and desktop, including actual published URL. Do not display an invented Google Play link.
 
