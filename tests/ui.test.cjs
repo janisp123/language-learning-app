@@ -43,7 +43,7 @@ function mount(data=course,bundle=null){
   return $;
 }
 function choose($,id){const button=$('choices').children.find(b=>b.dataset.optionId===id);assert.ok(button);button.click();}
-test('answer locks immediately, advances only at 500ms, then wrong restarts the block automatically',()=>{
+test('answer locks immediately, advances only at 500ms, then wrong steps back automatically',()=>{
   const $=mount();assert.equal($('setup').hidden,false);assert.equal($('error').hidden,true);
   assert.equal($('lesson-list').children.length,10);
   $('start').click();assert.equal($('practice').hidden,false);assert.equal($('choices').children.length,4);
@@ -102,17 +102,17 @@ test('third wrong answer shows restart feedback and returns to lesson one after 
   assert.match($('lesson-label').textContent,/Lesson 1 of 10/);assert.equal($('question').textContent,course.phrases[0].lv);
   assert.equal($('mistakes').textContent,'Mistakes in this block: 0 of 3');assert.equal($('progress').value,0);
 });
-test('wrong answer in the middle of a later block returns to that block first question, retaining its mistake count',()=>{
+test('wrong on question seven returns to question six of the same block, retaining its mistake count',()=>{
   const $=mount();$('start').click();
   for(const prompt of course.lessons[0].prompts){choose($,prompt.phraseId);$.tick(500);}
-  for(const prompt of course.lessons[1].prompts.slice(0,5)){choose($,prompt.phraseId);$.tick(500);}
+  for(const prompt of course.lessons[1].prompts.slice(0,6)){choose($,prompt.phraseId);$.tick(500);}
   const phrase=id=>course.phrases.find(p=>p.id===id).lv;
-  const middle=course.lessons[1].prompts[5];
+  const middle=course.lessons[1].prompts[6];
   assert.equal($('question').textContent,phrase(middle.phraseId));
   const wrong=$('choices').children.find(b=>b.dataset.optionId!==middle.phraseId);wrong.click();
   $.tick(499);assert.equal($('question').textContent,phrase(middle.phraseId));
   $.tick(1);assert.match($('lesson-label').textContent,/Lesson 2 of 10/);
-  assert.equal($('question').textContent,phrase(course.lessons[1].prompts[0].phraseId));
+  assert.equal($('question').textContent,phrase(course.lessons[1].prompts[5].phraseId));
   assert.equal($('progress').value,0);assert.equal($('mistakes').textContent,'Mistakes in this block: 1 of 3');
-  assert.match($('feedback').textContent,/[Rr]estarting this block/);
+  assert.match($('feedback').textContent,/[Mm]oving back one prompt/);
 });

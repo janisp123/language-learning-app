@@ -71,7 +71,7 @@
         const translation = document.createElement('span'); translation.lang = shown.target; translation.textContent = pending.feedback.correctText;
         feedback.append(translation, document.createTextNode(pending.restarted
           ? ' Third mistake in this block. Starting again at lesson 1, question 1.'
-          : ' Restarting this block at question 1; the consecutive count resets.'));
+          : ' Moving back one prompt; the consecutive count resets.'));
       } else if (pending.completed) feedback.textContent = 'Correct. You have completed the final lesson.';
       else if (pending.lessonChanged) feedback.textContent = `Correct. Next: ${course.lessons[pending.state.lessonIndex].title}.`;
       else feedback.textContent = 'Correct. Moving to the next prompt.';

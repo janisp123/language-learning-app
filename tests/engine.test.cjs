@@ -21,11 +21,11 @@ if (E) {
     assert.equal(E.start(fixture,'ru-lv').direction,'ru-lv');
     assert.throws(()=>E.start(fixture,'en-ru'));
   });
-  test('correct advances; wrong restarts the current block and clears the run',()=>{
+  test('correct advances; wrong moves backward and clears the run; wrong at first clamps',()=>{
     let s=E.start(fixture,'lv-ru');
     s=advance(s,false).state; assert.equal(s.promptIndex,0); assert.equal(s.consecutive,0);
     s=advance(s).state; s=advance(s).state; assert.equal(s.promptIndex,2);
-    const r=advance(s,false); assert.equal(r.state.promptIndex,0); assert.equal(r.state.consecutive,0); assert.equal(r.feedback.correct,false);
+    const r=advance(s,false); assert.equal(r.state.promptIndex,1); assert.equal(r.state.consecutive,0); assert.equal(r.feedback.correct,false);
     s=r.state; for(let i=0;i<20;i++)s=advance(s,false).state;
     assert.equal(s.promptIndex,0); assert.equal(s.lessonIndex,0);
   });
@@ -38,10 +38,10 @@ if (E) {
     assert.equal(s.lessonIndex,0); assert.equal(s.consecutive,9);
     s=advance(s).state; assert.equal(s.lessonIndex,1); assert.equal(s.promptIndex,0); assert.equal(s.consecutive,0);
   });
-  test('correct wraps forward within lesson; wrong at its end restarts that block',()=>{
+  test('correct wraps forward within lesson; wrong at its end steps back without wrapping',()=>{
     let s={...E.start(fixture,'lv-ru'),promptIndex:9,consecutive:3};
     let r=advance(s); assert.equal(r.state.promptIndex,0); assert.equal(r.state.consecutive,4); assert.equal(r.state.lessonIndex,0);
-    r=advance(s,false); assert.equal(r.state.promptIndex,0); assert.equal(r.state.consecutive,0); assert.equal(r.state.lessonIndex,0);
+    r=advance(s,false); assert.equal(r.state.promptIndex,8); assert.equal(r.state.consecutive,0);
   });
   test('all ten lessons complete without a lesson eleven; restart is a clean session',()=>{
     let s=E.start(fixture,'ru-lv');
@@ -78,10 +78,10 @@ if (E) {
     for(const direction of ['lv-ru','ru-lv']){
       let s={...E.start(fixture,direction),lessonIndex:4,promptIndex:6};
       let r=advance(s,false);s=r.state;
-      assert.equal(s.promptIndex,0);assert.equal(s.mistakes,1);assert.equal(s.lessonIndex,4);assert.equal(r.restarted,false);
+      assert.equal(s.promptIndex,5);assert.equal(s.mistakes,1);assert.equal(s.lessonIndex,4);assert.equal(r.restarted,false);
       s=advance(s).state;assert.equal(s.mistakes,1);
       r=advance(s,false);s=r.state;
-      assert.equal(s.promptIndex,0);assert.equal(s.mistakes,2);assert.equal(s.lessonIndex,4);assert.equal(r.restarted,false);
+      assert.equal(s.promptIndex,5);assert.equal(s.mistakes,2);assert.equal(s.lessonIndex,4);assert.equal(r.restarted,false);
       s=advance(s).state;
       const old=E.question(fixture,s,()=>0);
       r=E.answer(fixture,s,old,old.options.find(o=>o.id!==old.correctId).id);
