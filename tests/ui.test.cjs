@@ -98,6 +98,7 @@ test('invalid embedded content produces a visible error and disables start',()=>
   $('direction').value='ru-lv';assert.equal(typeof $('direction').handlers.change,'function');$('direction').handlers.change();
   assert.equal($.language(),'ru');assert.match($('error').textContent,/Не удалось/);assert.equal($('start').disabled,true);
   const ru=mount({},null,'ru-lv');assert.equal(ru.language(),'ru');assert.match(ru('error').textContent,/Не удалось/);
+  const en=mount({},null,'en-lv');assert.equal(en.language(),'en');assert.match(en('error').textContent,/could not be loaded/);
 });
 test('committed standalone HTML executes its embedded data, engine and UI',()=>{
   const html=fs.readFileSync(path.join(root,'downloads/language-learning-test.html'),'utf8');
@@ -144,4 +145,18 @@ test('wrong on question seven returns to question six of the same block, retaini
   assert.equal($('question').textContent,phrase(course.lessons[1].prompts[5].phraseId));
   assert.equal($('progress').value,0);assert.equal($('mistakes').textContent,'Kļūdas šajā blokā: 1 no 3');
   assert.match($('feedback').textContent,/Atgriežamies vienu jautājumu atpakaļ/);
+});
+test('six learning directions use the right source-language UI and target-language choices',()=>{
+  for(const direction of ['lv-ru','ru-lv','lv-en','en-lv','ru-en','en-ru']){
+    const $=mount();$('direction').value=direction;$('direction').handlers.change();
+    const [source,target]=direction.split('-');
+    assert.equal($.language(),source);$('start').click();assert.equal($('error').hidden,true);
+    assert.equal($('question').lang,source);assert.equal($('question').textContent,course.phrases[0][source]);
+    assert.ok($('choices').children.every(b=>b.lang===target));
+    const correct=$('choices').children.find(b=>b.dataset.optionId===course.phrases[0].id);
+    assert.equal(correct.textContent,course.phrases[0][target]);
+    if(source==='en'){assert.equal($('restart').textContent,'Restart from lesson 1');assert.equal($('lesson-title').textContent,'Essential words');}
+    const wrong=$('choices').children.find(b=>b.dataset.optionId!==course.phrases[0].id);wrong.click();$.tick(500);
+    assert.equal($('progress').value,0);
+  }
 });

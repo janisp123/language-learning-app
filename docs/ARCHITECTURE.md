@@ -5,7 +5,7 @@
 ## Product goals and boundaries
 
 - **First audience:** 10–17-year-old learners; early focus is a child living in Latvia who needs practical spoken Russian in day-to-day encounters.
-- **First course:** Latvian ↔ Russian; both directions tested with the same curated content. **Ten lessons only** for the first public release.
+- **First course (owner-expanded):** Latvian, Russian and English; all six directed pairs use the same canonical content. **Ten lessons only** for the first public release.
 - **Long term:** Separate age paths (5–9, 10–17, 18+) and more language pairs/lessons can be added **as content**, without changing the central learning rules. Do not build selection UIs or extra packs in v1.
 - **Reason for being:** Learning by mandatory cumulative repetition from lesson 1, not by collecting finished-lesson badges.
 
@@ -39,7 +39,7 @@ Keep reusable phrases/words referenced by stable IDs. Avoid accidental distinct 
 
 **Owner interaction update (2026-11-16):** In the browser test build, selecting an answer locks choices and shows feedback immediately. After 500 ms, apply the answer transition automatically; there is no Continue button. Preserve the last correction after transition until the next answer so it remains readable. Restarting or changing direction cancels the timer and invalidates stale callbacks. This timing changes UI interaction only, not the correct/incorrect navigation or ten-consecutive rule above.
 
-**Owner interface-language update:** The complete learning UI follows the selected source language: LV→RU uses Latvian, RU→LV uses Russian. Apply immediately on direction selection, including instructions, controls, lesson titles, progress/mistake labels, feedback, errors, completion, accessible labels and document language/title. Keep prompt/option text and language tags in their actual source/target languages. UI strings live separately from canonical learning content.
+**Owner interface-language update:** The complete learning UI follows the selected source language: LV→RU/EN uses Latvian, RU→LV/EN uses Russian, EN→LV/RU uses English. Apply immediately on direction selection, including instructions, controls, lesson titles, progress/mistake labels, feedback, errors, completion, accessible labels and document language/title. Keep prompt/option text and language tags in their actual source/target languages. UI strings live separately from canonical learning content.
 
 **Question display:** A compact progress cue is optional; never turn internal consecutive-correct logic into an XP/score feature. Avoid noisy animations/celebrations. Audio should support functional comprehension rather than rewards; L-001 should choose reliable Android/browser playback without requiring user accounts or network services.
 
@@ -78,6 +78,10 @@ Only create directories when a small Codex task actually needs them. A lean impl
 - One course initially, but future records must not conflate language pairs or age paths. A record from another course must not silently set the current course's highest lesson.
 - Content and UI use explicit translation direction, not assumptions such as “all prompts are Russian”.
 - Defer features beyond the first ten lessons until **both** public web learning and Play download work reliably.
+
+## Three-language browser content
+
+The owner added English to the same ten-lesson/100-prompt pack. Every phrase has LV/RU/EN text and all six source→target directions are supported. Keep the existing course/lesson/phrase/prompt IDs and the legacy `content/lv-ru-10-17.json` source path stable; use its explicit `languages` field rather than inferring support from its name. Direction-specific target instructions and source-language UI come from the three interface packs. Any future Android record must still be scoped to its course/language pair and age path; a shared content-bank ID alone is not a cross-pair progress key. No native persistence is implemented here.
 
 ## Still requiring a deliberate technical decision
 

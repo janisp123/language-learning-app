@@ -20,7 +20,7 @@ For each task: check `AGENTS.md` and `WORK_CHECKPOINT.md`, verify whether alread
 - **Browser test-build code/content authored by:** Codex · [implementation and verification](BROWSER_TEST_BUILD.md)
 - **Added by:** ChatGPT
 - **Implemented by:** Not yet
-- **Goal:** Translate the rules in `ARCHITECTURE.md` into a small, explicit engine and executable conformance tests. Confirm edge cases: wrong at first/last prompt, revisiting items, how a 10-item lesson cycles to achieve 10 consecutive successes, switching LV↔RU direction, shuffling, and first launch.
+- **Goal:** Translate the rules in `ARCHITECTURE.md` into a small, explicit engine and executable conformance tests. Confirm edge cases: wrong at first/last prompt, revisiting items, how a 10-item lesson cycles to achieve 10 consecutive successes, switching among all six LV/RU/EN directions, shuffling, and first launch.
 - **Acceptance:** No off-by-one or soft-skip: correct moves forward; wrong moves back one prompt and breaks the consecutive run; the third cumulative mistake in a ten-question block restarts at lesson 1/question 1 with cleared counters; correct answers do not clear block mistakes, but completing a block does; only 10 in a row completes; returning to lesson 1 in every fresh session; new-highest notification only when exceeding previous record. Tests document exact boundaries, not just happy paths.
 
 ### L-003 — Author and validate the first ten practical lessons
@@ -28,8 +28,8 @@ For each task: check `AGENTS.md` and `WORK_CHECKPOINT.md`, verify whether alread
 - **Browser test-build code/content authored by:** Codex · [implementation and verification](BROWSER_TEST_BUILD.md)
 - **Added by:** ChatGPT
 - **Implemented by:** Not yet
-- **Goal:** Create only the **10–17** LV ↔ RU content pack, using the ten situations in `CONTENT_RULES.md`. Reuse words, phrasing and patterns; teach concrete everyday communication, including what a child might *hear* as well as say. Keep stable IDs and distinct, plausible wrong answers.
-- **Acceptance:** Ten usable lessons, both translation directions, no duplicate or ambiguous correct choices, simple grammar/pronunciation review, no workplace/adult material, content validation tests. Mark human-language review as pending unless actually performed.
+- **Goal:** Create only the **10–17** Latvian/Russian/English content pack, using the ten situations in `CONTENT_RULES.md`. Reuse words, phrasing and patterns; teach concrete everyday communication, including what a child might *hear* as well as say. Keep stable IDs and distinct, plausible wrong answers.
+- **Acceptance:** Ten usable lessons, all six translation directions, no duplicate or ambiguous correct choices, simple grammar/pronunciation review, no workplace/adult material, content validation tests. Mark human-language review as pending unless actually performed.
 
 ### L-004 — Build browser learning and the GitHub Pages landing page
 - **Status:** PARTIAL — landing page integrated via PR #5; runnable browser test build prepared for review; hosted/device verification pending
@@ -38,7 +38,7 @@ For each task: check `AGENTS.md` and `WORK_CHECKPOINT.md`, verify whether alread
 - **Landing-page slice authored by:** Codex · [source](discovery-preview/index.html) · [publication/verification notes](discovery-preview/LAUNCH.md)
 - **Added by:** ChatGPT
 - **Implemented by:** Not yet
-- **Source-language UI update authored by:** Codex at owner request — LV interface for LV→RU; RU interface for RU→LV, including all controls, feedback/errors and lesson titles; review and device checks pending
+- **Source-language UI update authored by:** Codex at owner request — LV interface for LV→RU/EN; RU interface for RU→LV/EN; EN interface for EN→LV/RU, including all controls, feedback/errors and lesson titles; review and device checks pending
 - **Goal:** Minimal child-friendly learning screen, four reshuffled choices, clear feedback, optional re-playable pronunciation if supported, direct **Learn** action from a professional landing page; public GitHub Pages hosting.
 - **Acceptance:** Both translation directions work; same tested lesson/engine behavior; browser stores **no** progress (including localStorage/cookies); refresh starts from lesson 1; no account, tracking or dead buttons. Test on mobile and desktop, including actual published URL. Do not display an invented Google Play link.
 
@@ -73,7 +73,7 @@ For each task: check `AGENTS.md` and `WORK_CHECKPOINT.md`, verify whether alread
 
 ## Out of scope for v1 (not backlog tasks)
 
-Additional languages, 5–9 and 18+ paths, more than ten lessons, user accounts, cloud sync, servers, leaderboards, monetization, AI tutors, advanced pronunciation scoring, Apple App Store. These need an explicit new owner decision, not automatic addition.
+Languages beyond the approved Latvian/Russian/English set, 5–9 and 18+ paths, more than ten lessons, user accounts, cloud sync, servers, leaderboards, monetization, AI tutors, advanced pronunciation scoring, Apple App Store. These need an explicit new owner decision, not automatic addition.
 
 ## Coordination with the questionnaire project
 

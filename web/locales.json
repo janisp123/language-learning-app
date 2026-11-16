@@ -3,9 +3,9 @@
     "static": {
       "skip": "Pāriet uz uzdevumiem",
       "brand-name": "Valodu mācīšanās",
-      "badge": "Izmēģinājuma versija 0.1",
+      "badge": "Izmēģinājuma versija 0.2",
       "draft": "Mācību materiāls vēl jāpārbauda valodu pratējiem · skaņas pagaidām nav",
-      "audience": "Latviešu ↔ krievu · 10–17 gadiem",
+      "audience": "Latviešu, krievu un angļu · 10–17 gadiem",
       "welcome": "Mazliet prakses. Sāc ar pamatiem.",
       "intro": "Desmit īsas nodarbības ikdienas situācijām. Izvēlies mācību virzienu un sāc pirmo nodarbību.",
       "direction-caption": "Mācību virziens",
@@ -29,15 +29,18 @@
       "choose": "Izvēlēties citu mācību virzienu",
       "footer-caption": "Bezmaksas izmēģinājuma versija · bez konta, reklāmām un saglabāta progresa pārlūkā",
       "source-link": "Pirmkods un atsauksmes GitHub",
-      "privacy-note": "Publiskajās GitHub atsauksmēs neraksti personas datus."
+      "privacy-note": "Publiskajās GitHub atsauksmēs neraksti personas datus.",
+      "direction-lv-en": "Latviešu → angļu",
+      "direction-en-lv": "Angļu → latviešu",
+      "direction-ru-en": "Krievu → angļu",
+      "direction-en-ru": "Angļu → krievu"
     },
     "messages": {
-      "pageTitle": "Latviešu ↔ krievu — izmēģinājuma versija",
+      "pageTitle": "Latviešu, krievu un angļu — izmēģinājuma versija",
       "lesson": "Nodarbība {n} no {total}",
       "progress": "Pareizas atbildes pēc kārtas: {n} no 10",
       "progressValue": "{n} no 10",
       "mistakes": "Kļūdas šajā blokā: {n} no 3",
-      "instruction": "Izvēlies tulkojumu krievu valodā",
       "choices": "Tulkojuma varianti",
       "wrong": "Nav pareizi. Pareizais tulkojums: ",
       "back": " Atgriežamies vienu jautājumu atpakaļ; pareizo atbilžu virkne sākas no jauna.",
@@ -45,7 +48,10 @@
       "correct": "Pareizi. Pārejam pie nākamā jautājuma.",
       "nextLesson": "Pareizi. Nākamā tēma: {title}.",
       "completed": "Pareizi. Pēdējā nodarbība ir pabeigta.",
-      "error": "Neizdevās ielādēt mācību materiālu. Lejupielādē izmēģinājuma versiju vēlreiz vai ziņo par problēmu GitHub."
+      "error": "Neizdevās ielādēt mācību materiālu. Lejupielādē izmēģinājuma versiju vēlreiz vai ziņo par problēmu GitHub.",
+      "instruction-lv": "Izvēlies tulkojumu latviešu valodā",
+      "instruction-ru": "Izvēlies tulkojumu krievu valodā",
+      "instruction-en": "Izvēlies tulkojumu angļu valodā"
     },
     "lessons": {
       "essentials": "Svarīgākie vārdi",
@@ -64,9 +70,9 @@
     "static": {
       "skip": "Перейти к заданиям",
       "brand-name": "Изучение языков",
-      "badge": "Тестовая версия 0.1",
+      "badge": "Тестовая версия 0.2",
       "draft": "Учебные материалы ещё должны проверить носители языка · звука пока нет",
-      "audience": "Латышский ↔ русский · 10–17 лет",
+      "audience": "Латышский, русский и английский · 10–17 лет",
       "welcome": "Немного практики. Начните с основ.",
       "intro": "Десять коротких уроков для повседневных ситуаций. Выберите направление и начните первый урок.",
       "direction-caption": "Направление обучения",
@@ -90,15 +96,18 @@
       "choose": "Выбрать другое направление",
       "footer-caption": "Бесплатная тестовая версия · без аккаунта, рекламы и сохранения прогресса в браузере",
       "source-link": "Исходный код и отзывы на GitHub",
-      "privacy-note": "Не публикуйте личные данные в открытых обсуждениях GitHub."
+      "privacy-note": "Не публикуйте личные данные в открытых обсуждениях GitHub.",
+      "direction-lv-en": "Латышский → английский",
+      "direction-en-lv": "Английский → латышский",
+      "direction-ru-en": "Русский → английский",
+      "direction-en-ru": "Английский → русский"
     },
     "messages": {
-      "pageTitle": "Латышский ↔ русский — тестовая версия",
+      "pageTitle": "Латышский, русский и английский — тестовая версия",
       "lesson": "Урок {n} из {total}",
       "progress": "Правильных ответов подряд: {n} из 10",
       "progressValue": "{n} из 10",
       "mistakes": "Ошибок в этом блоке: {n} из 3",
-      "instruction": "Выберите перевод на латышский язык",
       "choices": "Варианты перевода",
       "wrong": "Неверно. Правильный перевод: ",
       "back": " Возвращаемся на один вопрос назад; серия правильных ответов начинается заново.",
@@ -106,7 +115,10 @@
       "correct": "Верно. Переходим к следующему вопросу.",
       "nextLesson": "Верно. Следующая тема: {title}.",
       "completed": "Верно. Последний урок завершён.",
-      "error": "Не удалось загрузить учебные материалы. Скачайте тестовую версию ещё раз или сообщите о проблеме на GitHub."
+      "error": "Не удалось загрузить учебные материалы. Скачайте тестовую версию ещё раз или сообщите о проблеме на GitHub.",
+      "instruction-lv": "Выберите перевод на латышский язык",
+      "instruction-ru": "Выберите перевод на русский язык",
+      "instruction-en": "Выберите перевод на английский язык"
     },
     "lessons": {
       "essentials": "Основные слова",
@@ -119,6 +131,73 @@
       "directions": "Как пройти",
       "transport": "Общественный транспорт",
       "safety": "Безопасность и экстренные ситуации"
+    }
+  },
+  "en": {
+    "static": {
+      "skip": "Skip to practice",
+      "brand-name": "Language learning",
+      "badge": "Test build 0.2",
+      "draft": "Draft lessons · translations await fluent human review · no audio yet",
+      "audience": "Latvian, Russian and English · Ages 10–17",
+      "welcome": "A little practice. Start with the essentials.",
+      "intro": "Ten short lessons for everyday situations. Choose a direction and try the first lesson.",
+      "direction-caption": "Practice direction",
+      "direction-lv-ru": "Latvian → Russian",
+      "direction-ru-lv": "Russian → Latvian",
+      "direction-lv-en": "Latvian → English",
+      "direction-en-lv": "English → Latvian",
+      "direction-ru-en": "Russian → English",
+      "direction-en-ru": "English → Russian",
+      "start": "Start practice",
+      "rules-title": "How it works",
+      "rule-options": "Choose one of four answers. Feedback appears immediately and the next prompt appears after 0.5 seconds. Answer positions change each time.",
+      "rule-complete": "Each lesson is a ten-question block. Ten correct answers in a row complete it.",
+      "rule-mistakes": "A mistake takes you back one question and resets the consecutive count. The third mistake in the same block restarts at lesson 1, question 1, even if correct answers came between the mistakes.",
+      "rule-reset": "A new block or restart clears the mistake count. Browser progress is not saved.",
+      "outline-summary": "Explore the ten lesson themes",
+      "outline-note": "Lessons are reached in order through practice. This list does not skip ahead.",
+      "restart": "Restart from lesson 1",
+      "change": "Change direction",
+      "help": "Your choices and progress stay in this page's memory. Closing or refreshing starts over.",
+      "finished-caption": "Practice complete",
+      "finished-title": "You have practiced all ten lessons.",
+      "finished-intro": "Come back to the essentials whenever you want another round.",
+      "again": "Start again from lesson 1",
+      "choose": "Choose another direction",
+      "footer-caption": "Free test build · No account, ads or saved browser progress",
+      "source-link": "Source and feedback on GitHub",
+      "privacy-note": "Do not put personal information in public GitHub issues."
+    },
+    "messages": {
+      "pageTitle": "Latvian, Russian and English — Test build",
+      "lesson": "Lesson {n} of {total}",
+      "progress": "Consecutive correct: {n} of 10",
+      "progressValue": "{n} of 10",
+      "mistakes": "Mistakes in this block: {n} of 3",
+      "choices": "Translation choices",
+      "wrong": "Not quite. Correct translation: ",
+      "back": " Moving back one question; the consecutive count resets.",
+      "reset": " Third mistake in this block. Starting again at lesson 1, question 1.",
+      "correct": "Correct. Moving to the next question.",
+      "nextLesson": "Correct. Next: {title}.",
+      "completed": "Correct. You have completed the final lesson.",
+      "error": "The lesson data could not be loaded. Please download a fresh test build or report the problem on GitHub.",
+      "instruction-lv": "Choose the Latvian translation",
+      "instruction-ru": "Choose the Russian translation",
+      "instruction-en": "Choose the English translation"
+    },
+    "lessons": {
+      "essentials": "Essential words",
+      "communication": "Communication and help",
+      "introductions": "Introducing yourself",
+      "places": "Finding places",
+      "school": "At school",
+      "friends": "Activities and friends",
+      "shops": "Canteen and shops",
+      "directions": "Street directions",
+      "transport": "Public transport",
+      "safety": "Safety and emergencies"
     }
   }
 }

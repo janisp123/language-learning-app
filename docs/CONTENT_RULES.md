@@ -4,7 +4,7 @@
 
 ## V1 content boundaries
 
-- First course: **Latvian ↔ Russian**, **ages 10–17**, ten short lessons only.
+- First course: **Latvian, Russian and English** (all six directed pairs), **ages 10–17**, ten short lessons only.
 - Build every prompt around a real situation a child in Latvia might encounter. Prioritize what another person may **say to the child**, as well as what the child needs to say.
 - Avoid irrelevant topics (work, office, dating, business, soup opinions, decorative vocabulary).
 - Reuse high-utility patterns: *Где...?* (Where ...?), *Можно...?* (May I...?), *Мне нужно...* (I need...), *Я не понимаю* (I don't understand).
@@ -15,7 +15,7 @@
 - Safety phrases need to be explicit even if they require one-off vocabulary; teach seeking trusted help, not complying with unknown adults.
 - Numbers, prices, bus identifiers and basic addresses are introduced only insofar as necessary for the first ten situations. No arbitrary 500-word quota.
 - Distractors must be plausible, unique and unambiguously wrong for the question; avoid near-synonyms that could also be correct.
-- Validate both directions and pronunciation. Human fluent-language review should occur before public release; record whether it happened.
+- Validate all six directions and pronunciation. Human fluent-language review should occur before public release; record whether it happened.
 
 ## First ten situation themes
 
@@ -40,7 +40,7 @@ For every proposed new word or phrase ask:
 1. Does a realistic situation in the first ten lessons require it?
 2. Could a word or request pattern already taught express the same need understandably?
 3. Will it help with **multiple** other scenarios?
-4. Is the translation sensible in context both ways (LV→RU and RU→LV)?
+4. Is the translation sensible in context in every supported direction (LV↔RU, LV↔EN, RU↔EN)?
 5. Is it appropriate, safe, pronounceable, and unambiguous for an 11-year-old?
 
 Prefer less content, tested well, over more content that is never recalled. Strict repetition and the ten-correct rule live in the **engine**, not embedded as special logic in each lesson.

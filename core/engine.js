@@ -5,18 +5,23 @@
   else root.LanguageEngine = api;
 })(typeof globalThis !== 'undefined' ? globalThis : this, function () {
   'use strict';
-  const directions = ['lv-ru', 'ru-lv'];
+  const supportedLanguages = ['lv', 'ru', 'en'];
+  const validDirection = (course, direction) => {
+    if (typeof direction !== 'string') return false;
+    const parts = direction.split('-');
+    return parts.length === 2 && parts[0] !== parts[1] && parts.every(language => course.languages.includes(language));
+  };
   const fail = message => { throw new Error(message); };
   const text = value => typeof value === 'string' && value.trim().length > 0;
   const normalized = value => value.normalize('NFC').trim().toLocaleLowerCase();
 
   function validateCourse(course) {
     if (!course || course.schemaVersion !== 1 || !text(course.id) || !text(course.contentVersion) || course.agePath !== '10-17') fail('Unsupported course format.');
-    if (JSON.stringify(course.languages) !== '["lv","ru"]') fail('Expected Latvian and Russian.');
+    if (!Array.isArray(course.languages) || course.languages.length < 2 || course.languages.length > 3 || new Set(course.languages).size !== course.languages.length || course.languages.some(language => !supportedLanguages.includes(language))) fail('Unsupported or duplicate course languages.');
     if (!Array.isArray(course.phrases) || !Array.isArray(course.lessons) || course.lessons.length !== 10) fail('Expected ten lessons and a phrase bank.');
     const bank = new Map();
     for (const phrase of course.phrases) {
-      if (!phrase || !text(phrase.id) || !text(phrase.lv) || !text(phrase.ru) || bank.has(phrase.id)) fail('Invalid or duplicate phrase.');
+      if (!phrase || !text(phrase.id) || course.languages.some(language => !text(phrase[language])) || bank.has(phrase.id)) fail('Invalid or duplicate phrase.');
       bank.set(phrase.id, phrase);
     }
     const ids = new Set();
@@ -28,7 +33,7 @@
         ids.add(prompt.id);
         const choices = [prompt.phraseId, ...prompt.distractorIds];
         if (new Set(choices).size !== 4 || choices.some(id => !bank.has(id))) fail('Invalid answer references.');
-        for (const language of ['lv', 'ru']) {
+        for (const language of course.languages) {
           if (new Set(choices.map(id => normalized(bank.get(id)[language]))).size !== 4) fail('Ambiguous displayed options.');
         }
       }
@@ -38,12 +43,12 @@
 
   function start(course, direction) {
     validateCourse(course);
-    if (!directions.includes(direction)) fail('Unsupported translation direction.');
+    if (!validDirection(course, direction)) fail('Unsupported translation direction.');
     return {courseId:course.id, direction, lessonIndex:0, promptIndex:0, consecutive:0, mistakes:0, revision:0, phase:'learning'};
   }
 
   function current(course, state) {
-    if (!state || state.courseId !== course.id || !directions.includes(state.direction) || state.phase !== 'learning') fail('No active learning session.');
+    if (!state || state.courseId !== course.id || !validDirection(course, state.direction) || state.phase !== 'learning') fail('No active learning session.');
     if (!Number.isInteger(state.lessonIndex) || state.lessonIndex < 0 || state.lessonIndex >= course.lessons.length) fail('Invalid lesson.');
     const lesson = course.lessons[state.lessonIndex];
     if (!Number.isInteger(state.promptIndex) || state.promptIndex < 0 || state.promptIndex >= lesson.prompts.length || !Number.isInteger(state.consecutive) || state.consecutive < 0 || state.consecutive > 9 || !Number.isInteger(state.mistakes) || state.mistakes < 0 || state.mistakes > 2 || !Number.isSafeInteger(state.revision) || state.revision < 0) fail('Invalid session state.');

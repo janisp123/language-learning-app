@@ -34,7 +34,7 @@
       if (loadFailed) $('error').textContent = t('error');
     });
     course = E.validateCourse(JSON.parse($('course-data').textContent));
-    for (const locale of ['lv', 'ru']) for (const lesson of course.lessons) {
+    for (const locale of course.languages) for (const lesson of course.lessons) {
       if (!locales[locale].lessons[lesson.id]) throw new Error('Missing lesson translation.');
     }
     localize();
@@ -64,7 +64,7 @@
       $('lesson-label').textContent = t('lesson', {n:state.lessonIndex + 1, total:course.lessons.length});
       $('lesson-title').textContent = messages.lessons[lesson.id];
       $('direction-label').textContent = messages.static[`direction-${state.direction}`];
-      $('instruction').textContent = t('instruction');
+      $('instruction').textContent = t(`instruction-${shown.target}`);
       $('question').textContent = shown.text; $('question').lang = shown.source;
       $('progress').value = state.consecutive;
       $('progress').textContent = t('progressValue', {n:state.consecutive});
