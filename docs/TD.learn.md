@@ -1,7 +1,7 @@
 # TD.learn — active approved tasks for the language-learning app
 
 **Repository:** `janisp123/language-learning-app` • **Branch of record:** `main`  
-**State:** Planning only. Tasks below are **not started**, and do not authorize background execution or publication. Codex starts only when the owner asks.
+**State:** A standalone L-004 landing-page slice was requested by the owner and prepared for review; app implementation tasks remain unstarted. Tasks do not authorize background execution or publication. Codex starts only when the owner asks.
 
 For each task: check `AGENTS.md` and `WORK_CHECKPOINT.md`, verify whether already delivered, identify dependencies, use a short-lived branch and checked PR, and update changelog + checkpoint after completing verified work. Preserve `Added by` attribution.
 
@@ -29,7 +29,9 @@ For each task: check `AGENTS.md` and `WORK_CHECKPOINT.md`, verify whether alread
 - **Acceptance:** Ten usable lessons, both translation directions, no duplicate or ambiguous correct choices, simple grammar/pronunciation review, no workplace/adult material, content validation tests. Mark human-language review as pending unless actually performed.
 
 ### L-004 — Build browser learning and the GitHub Pages landing page
-- **Status:** TODO • **Depends on:** L-001–L-003
+- **Status:** PARTIAL — landing-page slice prepared for review; not integrated or deployed; browser learning not started
+- **Depends on:** L-001–L-003 for browser learning; owner explicitly requested the isolated static landing page ahead of those dependencies
+- **Landing-page slice authored by:** Codex · [source](discovery-preview/index.html) · [publication/verification notes](discovery-preview/LAUNCH.md)
 - **Added by:** ChatGPT
 - **Implemented by:** Not yet
 - **Goal:** Minimal child-friendly learning screen, four reshuffled choices, clear feedback, optional re-playable pronunciation if supported, direct **Learn** action from a professional landing page; public GitHub Pages hosting.
