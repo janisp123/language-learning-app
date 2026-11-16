@@ -1,54 +1,32 @@
-# Content rules — practical language first
+# Content rules — basic words and short phrases
 
-**Purpose:** Let a learner handle realistic everyday situations using as few reusable words and structures as possible. This is **not** an encyclopedic vocabulary course or a formal grammar textbook.
+The owner has revised the initial curriculum to **500 basic words and short phrases in 50 blocks of ten questions**, in Latvian, Russian and English, all six directed pairs, initially for ages 10–17. This supersedes the earlier ten-situation, sentence-based draft and its former limit on vocabulary count. The earlier draft remains archived, not active.
 
-## V1 content boundaries
+## Current curriculum
 
-- First course: **Latvian, Russian and English** (all six directed pairs), **ages 10–17**, ten short lessons only.
-- Build every prompt around a real situation a child in Latvia might encounter. Prioritize what another person may **say to the child**, as well as what the child needs to say.
-- Avoid irrelevant topics (work, office, dating, business, soup opinions, decorative vocabulary).
-- Reuse high-utility patterns: *Где...?* (Where ...?), *Можно...?* (May I...?), *Мне нужно...* (I need...), *Я не понимаю* (I don't understand).
-- Prefer one common, understandable way of communicating a meaning. Avoid introducing multiple synonyms merely for stylistic variety.
-- Keep Russian grammar and Latvian meaning defensible and comprehensible. "Simple" must **not** mean deliberately incorrect speech.
-- Teach functional short phrases alongside meaningful component words. Content should allow later recombination.
-- Use polite adult-facing `Вы` forms when talking to strangers, and age-appropriate `ты` with peers, without spending an entire lesson on formalities.
-- Safety phrases need to be explicit even if they require one-off vocabulary; teach seeking trusted help, not complying with unknown adults.
-- Numbers, prices, bus identifiers and basic addresses are introduced only insofar as necessary for the first ten situations. No arbitrary 500-word quota.
-- Distractors must be plausible, unique and unambiguously wrong for the question; avoid near-synonyms that could also be correct.
-- Validate all six directions and pronunciation. Human fluent-language review should occur before public release; record whether it happened.
-
-## First ten situation themes
-
-| Order | Theme | Likely interactions |
-| --- | --- | --- |
-| 1 | Essential words | Hello, yes/no, thank you, please, goodbye |
-| 2 | Communication and help | I don't understand, repeat, slowly, do you speak Latvian? |
-| 3 | Identifying yourself | Name, age, questions from peers/adults, safe boundaries |
-| 4 | Finding places | Where is the toilet, exit, school, stop, shop? |
-| 5 | School | May I enter/leave, where is the teacher, what to do? |
-| 6 | Activities and friends | Play together, wait, my turn, stop, join |
-| 7 | Canteen and shops | May I have this, water, how much, by card, no thanks |
-| 8 | Street directions | Straight, left, right, near, far |
-| 9 | Public transport | Bus, stop, does this go to centre, when to exit? |
-| 10 | Safety and emergencies | I'm lost, leave me alone, help, call parent, 112 |
-
-These are content categories rather than a claim about exact dialogue frequency or verified age-specific statistics. Exact prompts and distractors are authored and tested under L-003.
+- The first ten blocks contain only simple words and short phrases, never sentences. All 500 current items follow the same short-form approach, with at most four whitespace-separated words in each translation and no sentence-ending punctuation.
+- Teach reusable everyday meanings, including greetings, people, numbers, places, food, school, directions, safety and question words first. Later blocks expand household, health, shopping, time, nature, actions and descriptive vocabulary.
+- First ten blocks, in order: Greetings; People; Numbers one to ten; Useful words; Essential places; Basic food and drinks; In the classroom; Directions; Safety; Question words.
+- Do not confuse 500 learning items with 500 distinct dictionary lemmas or a verified frequency ranking. Short phrases and useful forms are included. See [VOCABULARY_500.md](VOCABULARY_500.md) for scope and review limits.
+- Prefer one common, understandable translation for a precise meaning. Avoid padding the list with synonyms, duplicate meanings or multiple superficially different versions of the same item.
+- Keep translations grammatically defensible and understandable. Never shorten into incorrect language merely to meet a word limit. Use a different short meaning if necessary.
+- Keep material safe and appropriate for young learners. No private information, adult/workplace topics or prompts encouraging unsafe compliance.
+- Distractors must be distinct and unambiguously wrong in all six directions. ID checks and distinct strings cannot establish semantic correctness; fluent human review of meanings and distractors remains pending before public release.
 
 ## Canonical modular authoring
 
-Use `catalog.json`, `concepts.json`, `blocks/<id>.json` and `languages/<code>.json` as described in [CONTENT_MODULES.md](CONTENT_MODULES.md). A question refers to stable concepts by ID and declares the correct concept explicitly; never align languages by array position or grade by visible text. Translation records repeat their concept ID and canonical meaning. The loader and original-content lock reject accidental ID/answer/translation drift. The initial pack still has ten blocks; additional approved blocks/languages are data extensions, not engine changes.
+Use `content/catalog.json`, `concepts.json`, `blocks/<id>.json` and `languages/<code>.json` as described in [CONTENT_MODULES.md](CONTENT_MODULES.md). Each question declares a permanent concept ID and explicit matching correct-answer ID; never align languages by array position or grade by visible text. Translation records repeat their concept ID and meaning. Do not repurpose old IDs when changing a meaning.
 
-## Vocabulary economy review
+The active course uses `vocab-0001` through `vocab-0500` and `basic-01` through `basic-50`. The original course remains under `archive/course-0.3/content/`, protected by its unchanged original baseline. A separate 0.4 vocabulary baseline protects all active meanings, translations, question IDs and answer/distractor bindings. Canonical authored modules are the source; generated HTML is never hand-edited.
 
-For every proposed new word or phrase ask:
-1. Does a realistic situation in the first ten lessons require it?
-2. Could a word or request pattern already taught express the same need understandably?
-3. Will it help with **multiple** other scenarios?
-4. Is the translation sensible in context in every supported direction (LV↔RU, LV↔EN, RU↔EN)?
-5. Is it appropriate, safe, pronounceable, and unambiguous for an 11-year-old?
+The catalog curriculum policy enforces the target item count, distinct concept coverage, form tags and short text limits. Increase the approved target when adding more vocabulary blocks; do not disable the policy to conceal incomplete coverage. New blocks/languages require data and translations, not engine edits. Every block still has ten questions, and the existing repetition/mistake rules remain unchanged.
 
-Prefer less content, tested well, over more content that is never recalled. Strict repetition and the ten-correct rule live in the **engine**, not embedded as special logic in each lesson.
+## Review every new item
 
-## Future paths (architecture only)
+1. Is the meaning useful, concrete and distinct from existing items?
+2. Can a learner reuse it in everyday situations?
+3. Is every translation natural, short and aligned with the same meaning?
+4. Is only one of the four choices defensibly correct in every direction?
+5. Is it appropriate and understandable for the intended age group?
 
-Possible paths: **5–9**, **10–17**, **18+**. Adult courses can use work/service conversations without forcing adult learners through school-specific material. Shared vocabulary should be referenced rather than copied; no future course is created until the owner approves it.
+Other age paths and languages remain future possibilities requiring an owner decision.

@@ -6,10 +6,10 @@ const file=path.join(__dirname,'../downloads/language-learning-test.html');
 test('modular course has a compiled downloadable runtime',()=>assert.ok(fs.existsSync(file),'course is not built'));
 if(fs.existsSync(file)){
   const {course}=require('./runtime.cjs');
-  test('emergency number phrase uses explicit phone-number wording',()=>{
-    const phrase=course.phrases.find(p=>p.id==='safety-phrase-05');
-    assert.equal(phrase.lv,'Zvaniet uz numuru 112.');
-    assert.equal(phrase.ru,'Позвоните по номеру 112.');
+  test('emergency number vocabulary uses number wording rather than telephone hardware',()=>{
+    const phrase=course.phrases.find(p=>p.en==='emergency number');
+    assert.equal(phrase.lv,'ārkārtas palīdzības izsaukuma numurs');
+    assert.equal(phrase.ru,'экстренный номер');
   });
   test('all registered blocks and language directions compile and complete',()=>{
     const E=require('../core/engine.js'); E.validateCourse(course);

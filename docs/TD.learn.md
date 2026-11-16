@@ -23,13 +23,13 @@ For each task: check `AGENTS.md` and `WORK_CHECKPOINT.md`, verify whether alread
 - **Goal:** Translate the rules in `ARCHITECTURE.md` into a small, explicit engine and executable conformance tests. Confirm edge cases: wrong at first/last prompt, revisiting items, how a 10-item lesson cycles to achieve 10 consecutive successes, switching among all six LV/RU/EN directions, shuffling, and first launch.
 - **Acceptance:** No off-by-one or soft-skip: correct moves forward; wrong moves back one prompt and breaks the consecutive run; the third cumulative mistake in a ten-question block restarts at lesson 1/question 1 with cleared counters; correct answers do not clear block mistakes, but completing a block does; only 10 in a row completes; returning to lesson 1 in every fresh session; new-highest notification only when exceeding previous record. Tests document exact boundaries, not just happy paths.
 
-### L-003 — Author and validate the first ten practical lessons
-- **Status:** PARTIAL — ten draft lessons / 100 prompts authored; fluent human review pending
+### L-003 — Author and validate 500 basic words and short phrases
+- **Status:** PARTIAL — 50 draft blocks / 500 vocabulary items authored; fluent human review pending
 - **Browser test-build code/content authored by:** Codex · [implementation and verification](BROWSER_TEST_BUILD.md)
 - **Added by:** ChatGPT
 - **Implemented by:** Not yet
-- **Goal:** Create only the **10–17** Latvian/Russian/English content pack, using the ten situations in `CONTENT_RULES.md`. Reuse words, phrasing and patterns; teach concrete everyday communication, including what a child might *hear* as well as say. Keep stable IDs and distinct, plausible wrong answers.
-- **Acceptance:** Ten usable lessons, all six translation directions, no duplicate or ambiguous correct choices, simple grammar/pronunciation review, no workplace/adult material, content validation tests. Mark human-language review as pending unless actually performed.
+- **Goal:** Create only the **10–17** Latvian/Russian/English content pack, using the owner-approved words/short-phrases curriculum in `CONTENT_RULES.md` and `VOCABULARY_500.md`. Reuse words, phrasing and patterns; teach concrete everyday communication, including what a child might *hear* as well as say. Keep stable IDs and distinct, plausible wrong answers.
+- **Acceptance:** Fifty usable ten-question blocks, 500 distinct learning items, no sentences in the first ten blocks, all six translation directions, no duplicate or ambiguous correct choices, simple grammar/pronunciation review, no workplace/adult material, content validation tests. Mark human-language review as pending unless actually performed.
 
 ### L-004 — Build browser learning and the GitHub Pages landing page
 - **Status:** PARTIAL — landing page integrated via PR #5; runnable browser test build prepared for review; hosted/device verification pending
@@ -74,7 +74,7 @@ For each task: check `AGENTS.md` and `WORK_CHECKPOINT.md`, verify whether alread
 
 ## Out of scope for v1 (not backlog tasks)
 
-Languages beyond the approved Latvian/Russian/English set, 5–9 and 18+ paths, more than ten lessons, user accounts, cloud sync, servers, leaderboards, monetization, AI tutors, advanced pronunciation scoring, Apple App Store. These need an explicit new owner decision, not automatic addition.
+Languages beyond the approved Latvian/Russian/English set, 5–9 and 18+ paths, user accounts, cloud sync, servers, leaderboards, monetization, AI tutors, advanced pronunciation scoring, Apple App Store. These need an explicit new owner decision, not automatic addition.
 
 ## Coordination with the questionnaire project
 

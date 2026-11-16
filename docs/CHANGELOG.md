@@ -1,12 +1,4 @@
-# Development changelog — language-learning-app
 
-Chronological history of **verified completed changes**, separate from active tasks in `docs/TD.learn.md`. Record date, author/implementer, affected files, actual commit/PR, checks performed (including NOT RUN), and next action.
+## 2026-11-16 — 500-item basic vocabulary draft (PR #6, not merged)
 
-## 2026-11-15 — Initial documentation and Codex planning handoff
-
-**Added by / implemented by:** ChatGPT (repository documentation only).  
-**Scope:** Project description; agent rules; approved TD backlog; architecture and curriculum boundaries; reusable playbook; checkpoint; release checklist.  
-**Verified integration:** [PR #1](https://github.com/janisp123/language-learning-app/pull/1) merged into `main` as commit `7b0ff0c6df6ff0fe3ccdc123c4655628b01ef825`; all nine planning files read back from GitHub and document consistency/attribution checks passed. **No app code, runtime tests, Pages publication, or Play release**.  
-**Next action:** Codex evaluates L-001 only when the owner explicitly asks it to.
-
-> Do not treat this entry as evidence that the app is built. Later code/release milestones must carry their own test results and exact references.
+Owner requested 500 basic words/short phrases and no sentences in the first ten blocks. Implemented by Codex: 50 ten-question blocks, 500 distinct concepts, 1,500 LV/RU/EN translations and 150 localized block titles; all six directions use the existing engine. New course/concept/block/question IDs avoid overwriting old meanings; original 0.3 content archived with unchanged identity lock, plus a new active 500-item lock. Loader validates curriculum counts, form tags, short translations and no sentence punctuation. Independent review corrected a duplicate meaning and wording mismatches. Thirty Node and thirteen Python checks pass, including full-course traversal in all six directions and generated artifact parity. Fluent human review, actual browser/device checks, deployment and Android remain NOT RUN. Authored source and generated portable HTML are prepared for PR #6; no merge/publication performed.

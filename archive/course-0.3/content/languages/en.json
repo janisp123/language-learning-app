@@ -1,0 +1,580 @@
+{
+  "schemaVersion": 1,
+  "id": "en",
+  "translations": {
+    "essentials-phrase-01": {
+      "conceptId": "essentials-phrase-01",
+      "meaning": "Hello!",
+      "text": "Hello!"
+    },
+    "essentials-phrase-02": {
+      "conceptId": "essentials-phrase-02",
+      "meaning": "Yes.",
+      "text": "Yes."
+    },
+    "essentials-phrase-03": {
+      "conceptId": "essentials-phrase-03",
+      "meaning": "No.",
+      "text": "No."
+    },
+    "essentials-phrase-04": {
+      "conceptId": "essentials-phrase-04",
+      "meaning": "Thank you!",
+      "text": "Thank you!"
+    },
+    "essentials-phrase-05": {
+      "conceptId": "essentials-phrase-05",
+      "meaning": "Please!",
+      "text": "Please!"
+    },
+    "essentials-phrase-06": {
+      "conceptId": "essentials-phrase-06",
+      "meaning": "Goodbye!",
+      "text": "Goodbye!"
+    },
+    "essentials-phrase-07": {
+      "conceptId": "essentials-phrase-07",
+      "meaning": "Excuse me!",
+      "text": "Excuse me!"
+    },
+    "essentials-phrase-08": {
+      "conceptId": "essentials-phrase-08",
+      "meaning": "Good morning!",
+      "text": "Good morning!"
+    },
+    "essentials-phrase-09": {
+      "conceptId": "essentials-phrase-09",
+      "meaning": "Good night!",
+      "text": "Good night!"
+    },
+    "essentials-phrase-10": {
+      "conceptId": "essentials-phrase-10",
+      "meaning": "Okay.",
+      "text": "Okay."
+    },
+    "communication-phrase-01": {
+      "conceptId": "communication-phrase-01",
+      "meaning": "I don't understand.",
+      "text": "I don't understand."
+    },
+    "communication-phrase-02": {
+      "conceptId": "communication-phrase-02",
+      "meaning": "Please repeat.",
+      "text": "Please repeat."
+    },
+    "communication-phrase-03": {
+      "conceptId": "communication-phrase-03",
+      "meaning": "Please speak more slowly.",
+      "text": "Please speak more slowly."
+    },
+    "communication-phrase-04": {
+      "conceptId": "communication-phrase-04",
+      "meaning": "Do you speak Latvian?",
+      "text": "Do you speak Latvian?"
+    },
+    "communication-phrase-05": {
+      "conceptId": "communication-phrase-05",
+      "meaning": "I need help.",
+      "text": "I need help."
+    },
+    "communication-phrase-06": {
+      "conceptId": "communication-phrase-06",
+      "meaning": "What does that mean?",
+      "text": "What does that mean?"
+    },
+    "communication-phrase-07": {
+      "conceptId": "communication-phrase-07",
+      "meaning": "Please show me.",
+      "text": "Please show me."
+    },
+    "communication-phrase-08": {
+      "conceptId": "communication-phrase-08",
+      "meaning": "I don't know.",
+      "text": "I don't know."
+    },
+    "communication-phrase-09": {
+      "conceptId": "communication-phrase-09",
+      "meaning": "I speak a little Russian.",
+      "text": "I speak a little Russian."
+    },
+    "communication-phrase-10": {
+      "conceptId": "communication-phrase-10",
+      "meaning": "How do you say that in Russian?",
+      "text": "How do you say that in Russian?"
+    },
+    "introductions-phrase-01": {
+      "conceptId": "introductions-phrase-01",
+      "meaning": "What is your name?",
+      "text": "What is your name?"
+    },
+    "introductions-phrase-02": {
+      "conceptId": "introductions-phrase-02",
+      "meaning": "My name is...",
+      "text": "My name is..."
+    },
+    "introductions-phrase-03": {
+      "conceptId": "introductions-phrase-03",
+      "meaning": "How old are you?",
+      "text": "How old are you?"
+    },
+    "introductions-phrase-04": {
+      "conceptId": "introductions-phrase-04",
+      "meaning": "I'm eleven years old.",
+      "text": "I'm eleven years old."
+    },
+    "introductions-phrase-05": {
+      "conceptId": "introductions-phrase-05",
+      "meaning": "I go to school.",
+      "text": "I go to school."
+    },
+    "introductions-phrase-06": {
+      "conceptId": "introductions-phrase-06",
+      "meaning": "I'm from Latvia.",
+      "text": "I'm from Latvia."
+    },
+    "introductions-phrase-07": {
+      "conceptId": "introductions-phrase-07",
+      "meaning": "Nice to meet you!",
+      "text": "Nice to meet you!"
+    },
+    "introductions-phrase-08": {
+      "conceptId": "introductions-phrase-08",
+      "meaning": "I'm waiting for my mum.",
+      "text": "I'm waiting for my mum."
+    },
+    "introductions-phrase-09": {
+      "conceptId": "introductions-phrase-09",
+      "meaning": "I won't tell you my address.",
+      "text": "I won't tell you my address."
+    },
+    "introductions-phrase-10": {
+      "conceptId": "introductions-phrase-10",
+      "meaning": "I don't know you.",
+      "text": "I don't know you."
+    },
+    "places-phrase-01": {
+      "conceptId": "places-phrase-01",
+      "meaning": "Where is the toilet?",
+      "text": "Where is the toilet?"
+    },
+    "places-phrase-02": {
+      "conceptId": "places-phrase-02",
+      "meaning": "Where is the exit?",
+      "text": "Where is the exit?"
+    },
+    "places-phrase-03": {
+      "conceptId": "places-phrase-03",
+      "meaning": "Where is the school?",
+      "text": "Where is the school?"
+    },
+    "places-phrase-04": {
+      "conceptId": "places-phrase-04",
+      "meaning": "Where is the bus stop?",
+      "text": "Where is the bus stop?"
+    },
+    "places-phrase-05": {
+      "conceptId": "places-phrase-05",
+      "meaning": "Where is the shop?",
+      "text": "Where is the shop?"
+    },
+    "places-phrase-06": {
+      "conceptId": "places-phrase-06",
+      "meaning": "Where is the entrance?",
+      "text": "Where is the entrance?"
+    },
+    "places-phrase-07": {
+      "conceptId": "places-phrase-07",
+      "meaning": "Where is the pharmacy?",
+      "text": "Where is the pharmacy?"
+    },
+    "places-phrase-08": {
+      "conceptId": "places-phrase-08",
+      "meaning": "It's here.",
+      "text": "It's here."
+    },
+    "places-phrase-09": {
+      "conceptId": "places-phrase-09",
+      "meaning": "It's there.",
+      "text": "It's there."
+    },
+    "places-phrase-10": {
+      "conceptId": "places-phrase-10",
+      "meaning": "It's next to the school.",
+      "text": "It's next to the school."
+    },
+    "school-phrase-01": {
+      "conceptId": "school-phrase-01",
+      "meaning": "May I come in?",
+      "text": "May I come in?"
+    },
+    "school-phrase-02": {
+      "conceptId": "school-phrase-02",
+      "meaning": "May I go out?",
+      "text": "May I go out?"
+    },
+    "school-phrase-03": {
+      "conceptId": "school-phrase-03",
+      "meaning": "Where is the teacher?",
+      "text": "Where is the teacher?"
+    },
+    "school-phrase-04": {
+      "conceptId": "school-phrase-04",
+      "meaning": "What do I need to do?",
+      "text": "What do I need to do?"
+    },
+    "school-phrase-05": {
+      "conceptId": "school-phrase-05",
+      "meaning": "Open the book.",
+      "text": "Open the book."
+    },
+    "school-phrase-06": {
+      "conceptId": "school-phrase-06",
+      "meaning": "Close the door.",
+      "text": "Close the door."
+    },
+    "school-phrase-07": {
+      "conceptId": "school-phrase-07",
+      "meaning": "Write the answer.",
+      "text": "Write the answer."
+    },
+    "school-phrase-08": {
+      "conceptId": "school-phrase-08",
+      "meaning": "Please read.",
+      "text": "Please read."
+    },
+    "school-phrase-09": {
+      "conceptId": "school-phrase-09",
+      "meaning": "I don't have a pen.",
+      "text": "I don't have a pen."
+    },
+    "school-phrase-10": {
+      "conceptId": "school-phrase-10",
+      "meaning": "The lesson is over.",
+      "text": "The lesson is over."
+    },
+    "friends-phrase-01": {
+      "conceptId": "friends-phrase-01",
+      "meaning": "Let's play together!",
+      "text": "Let's play together!"
+    },
+    "friends-phrase-02": {
+      "conceptId": "friends-phrase-02",
+      "meaning": "Please wait.",
+      "text": "Please wait."
+    },
+    "friends-phrase-03": {
+      "conceptId": "friends-phrase-03",
+      "meaning": "It's my turn.",
+      "text": "It's my turn."
+    },
+    "friends-phrase-04": {
+      "conceptId": "friends-phrase-04",
+      "meaning": "May I join in?",
+      "text": "May I join in?"
+    },
+    "friends-phrase-05": {
+      "conceptId": "friends-phrase-05",
+      "meaning": "Stop!",
+      "text": "Stop!"
+    },
+    "friends-phrase-06": {
+      "conceptId": "friends-phrase-06",
+      "meaning": "Come here!",
+      "text": "Come here!"
+    },
+    "friends-phrase-07": {
+      "conceptId": "friends-phrase-07",
+      "meaning": "Let's go outside!",
+      "text": "Let's go outside!"
+    },
+    "friends-phrase-08": {
+      "conceptId": "friends-phrase-08",
+      "meaning": "Do you want to play?",
+      "text": "Do you want to play?"
+    },
+    "friends-phrase-09": {
+      "conceptId": "friends-phrase-09",
+      "meaning": "I don't want to.",
+      "text": "I don't want to."
+    },
+    "friends-phrase-10": {
+      "conceptId": "friends-phrase-10",
+      "meaning": "See you tomorrow!",
+      "text": "See you tomorrow!"
+    },
+    "shops-phrase-01": {
+      "conceptId": "shops-phrase-01",
+      "meaning": "May I have this?",
+      "text": "May I have this?"
+    },
+    "shops-phrase-02": {
+      "conceptId": "shops-phrase-02",
+      "meaning": "Water, please.",
+      "text": "Water, please."
+    },
+    "shops-phrase-03": {
+      "conceptId": "shops-phrase-03",
+      "meaning": "How much does this cost?",
+      "text": "How much does this cost?"
+    },
+    "shops-phrase-04": {
+      "conceptId": "shops-phrase-04",
+      "meaning": "Can I pay by card?",
+      "text": "Can I pay by card?"
+    },
+    "shops-phrase-05": {
+      "conceptId": "shops-phrase-05",
+      "meaning": "No, thank you.",
+      "text": "No, thank you."
+    },
+    "shops-phrase-06": {
+      "conceptId": "shops-phrase-06",
+      "meaning": "I need a bag.",
+      "text": "I need a bag."
+    },
+    "shops-phrase-07": {
+      "conceptId": "shops-phrase-07",
+      "meaning": "Where is the checkout?",
+      "text": "Where is the checkout?"
+    },
+    "shops-phrase-08": {
+      "conceptId": "shops-phrase-08",
+      "meaning": "One, please.",
+      "text": "One, please."
+    },
+    "shops-phrase-09": {
+      "conceptId": "shops-phrase-09",
+      "meaning": "Without sugar, please.",
+      "text": "Without sugar, please."
+    },
+    "shops-phrase-10": {
+      "conceptId": "shops-phrase-10",
+      "meaning": "I'm allergic to nuts.",
+      "text": "I'm allergic to nuts."
+    },
+    "directions-phrase-01": {
+      "conceptId": "directions-phrase-01",
+      "meaning": "Go straight.",
+      "text": "Go straight."
+    },
+    "directions-phrase-02": {
+      "conceptId": "directions-phrase-02",
+      "meaning": "Turn left.",
+      "text": "Turn left."
+    },
+    "directions-phrase-03": {
+      "conceptId": "directions-phrase-03",
+      "meaning": "Turn right.",
+      "text": "Turn right."
+    },
+    "directions-phrase-04": {
+      "conceptId": "directions-phrase-04",
+      "meaning": "It's nearby.",
+      "text": "It's nearby."
+    },
+    "directions-phrase-05": {
+      "conceptId": "directions-phrase-05",
+      "meaning": "It's far away.",
+      "text": "It's far away."
+    },
+    "directions-phrase-06": {
+      "conceptId": "directions-phrase-06",
+      "meaning": "Cross the street.",
+      "text": "Cross the street."
+    },
+    "directions-phrase-07": {
+      "conceptId": "directions-phrase-07",
+      "meaning": "Wait at the traffic lights.",
+      "text": "Wait at the traffic lights."
+    },
+    "directions-phrase-08": {
+      "conceptId": "directions-phrase-08",
+      "meaning": "Where is the pedestrian crossing?",
+      "text": "Where is the pedestrian crossing?"
+    },
+    "directions-phrase-09": {
+      "conceptId": "directions-phrase-09",
+      "meaning": "I'm looking for this street.",
+      "text": "I'm looking for this street."
+    },
+    "directions-phrase-10": {
+      "conceptId": "directions-phrase-10",
+      "meaning": "Is this the right way?",
+      "text": "Is this the right way?"
+    },
+    "transport-phrase-01": {
+      "conceptId": "transport-phrase-01",
+      "meaning": "Does this bus go to the centre?",
+      "text": "Does this bus go to the centre?"
+    },
+    "transport-phrase-02": {
+      "conceptId": "transport-phrase-02",
+      "meaning": "Where do I need to get off?",
+      "text": "Where do I need to get off?"
+    },
+    "transport-phrase-03": {
+      "conceptId": "transport-phrase-03",
+      "meaning": "The next stop.",
+      "text": "The next stop."
+    },
+    "transport-phrase-04": {
+      "conceptId": "transport-phrase-04",
+      "meaning": "I need a ticket.",
+      "text": "I need a ticket."
+    },
+    "transport-phrase-05": {
+      "conceptId": "transport-phrase-05",
+      "meaning": "What time does the bus arrive?",
+      "text": "What time does the bus arrive?"
+    },
+    "transport-phrase-06": {
+      "conceptId": "transport-phrase-06",
+      "meaning": "Is this seat free?",
+      "text": "Is this seat free?"
+    },
+    "transport-phrase-07": {
+      "conceptId": "transport-phrase-07",
+      "meaning": "I'll get off here.",
+      "text": "I'll get off here."
+    },
+    "transport-phrase-08": {
+      "conceptId": "transport-phrase-08",
+      "meaning": "Where is bus number five?",
+      "text": "Where is bus number five?"
+    },
+    "transport-phrase-09": {
+      "conceptId": "transport-phrase-09",
+      "meaning": "The bus is late.",
+      "text": "The bus is late."
+    },
+    "transport-phrase-10": {
+      "conceptId": "transport-phrase-10",
+      "meaning": "Please let me through.",
+      "text": "Please let me through."
+    },
+    "safety-phrase-01": {
+      "conceptId": "safety-phrase-01",
+      "meaning": "I can't find my way.",
+      "text": "I can't find my way."
+    },
+    "safety-phrase-02": {
+      "conceptId": "safety-phrase-02",
+      "meaning": "Leave me alone!",
+      "text": "Leave me alone!"
+    },
+    "safety-phrase-03": {
+      "conceptId": "safety-phrase-03",
+      "meaning": "Help!",
+      "text": "Help!"
+    },
+    "safety-phrase-04": {
+      "conceptId": "safety-phrase-04",
+      "meaning": "Call my parents.",
+      "text": "Call my parents."
+    },
+    "safety-phrase-05": {
+      "conceptId": "safety-phrase-05",
+      "meaning": "Call 112.",
+      "text": "Call 112."
+    },
+    "safety-phrase-06": {
+      "conceptId": "safety-phrase-06",
+      "meaning": "I need a doctor.",
+      "text": "I need a doctor."
+    },
+    "safety-phrase-07": {
+      "conceptId": "safety-phrase-07",
+      "meaning": "Don't touch me!",
+      "text": "Don't touch me!"
+    },
+    "safety-phrase-08": {
+      "conceptId": "safety-phrase-08",
+      "meaning": "I won't go with you.",
+      "text": "I won't go with you."
+    },
+    "safety-phrase-09": {
+      "conceptId": "safety-phrase-09",
+      "meaning": "Where are the police?",
+      "text": "Where are the police?"
+    },
+    "safety-phrase-10": {
+      "conceptId": "safety-phrase-10",
+      "meaning": "I'm scared.",
+      "text": "I'm scared."
+    }
+  },
+  "ui": {
+    "static": {
+      "skip": "Skip to practice",
+      "brand-name": "Language learning",
+      "badge": "Test build 0.3",
+      "draft": "Draft lessons · translations await fluent human review · no audio yet",
+      "audience": "Everyday languages · Ages 10–17",
+      "welcome": "A little practice. Start with the essentials.",
+      "intro": "Short lessons for everyday situations. Choose a direction and try the first lesson.",
+      "direction-caption": "Practice direction",
+      "start": "Start practice",
+      "rules-title": "How it works",
+      "rule-options": "Choose one of four answers. Feedback appears immediately and the next prompt appears after 0.5 seconds. Answer positions change each time.",
+      "rule-complete": "Each lesson is a ten-question block. Ten correct answers in a row complete it.",
+      "rule-mistakes": "A mistake takes you back one question and resets the consecutive count. The third mistake in the same block restarts at lesson 1, question 1, even if correct answers came between the mistakes.",
+      "rule-reset": "A new block or restart clears the mistake count. Browser progress is not saved.",
+      "outline-summary": "Explore the lesson themes",
+      "outline-note": "Lessons are reached in order through practice. This list does not skip ahead.",
+      "restart": "Restart from lesson 1",
+      "change": "Change direction",
+      "help": "Your choices and progress stay in this page's memory. Closing or refreshing starts over.",
+      "finished-caption": "Practice complete",
+      "finished-title": "You have practiced every lesson.",
+      "finished-intro": "Come back to the essentials whenever you want another round.",
+      "again": "Start again from lesson 1",
+      "choose": "Choose another direction",
+      "footer-caption": "Free test build · No account, ads or saved browser progress",
+      "source-link": "Source and feedback on GitHub",
+      "privacy-note": "Do not put personal information in public GitHub issues."
+    },
+    "messages": {
+      "pageTitle": "Language learning — Test build",
+      "lesson": "Lesson {n} of {total}",
+      "progress": "Consecutive correct: {n} of 10",
+      "progressValue": "{n} of 10",
+      "mistakes": "Mistakes in this block: {n} of 3",
+      "choices": "Translation choices",
+      "wrong": "Not quite. Correct translation: ",
+      "back": " Moving back one question; the consecutive count resets.",
+      "reset": " Third mistake in this block. Starting again at lesson 1, question 1.",
+      "correct": "Correct. Moving to the next question.",
+      "nextLesson": "Correct. Next: {title}.",
+      "completed": "Correct. You have completed the final lesson.",
+      "error": "The lesson data could not be loaded. Please download a fresh test build or report the problem on GitHub.",
+      "instruction": "Choose the {language} translation",
+      "noscript": "Enable JavaScript to run the lessons. The downloaded HTML file needs no account or internet."
+    },
+    "lessons": {
+      "essentials": "Essential words",
+      "communication": "Communication and help",
+      "introductions": "Introducing yourself",
+      "places": "Finding places",
+      "school": "At school",
+      "friends": "Activities and friends",
+      "shops": "Canteen and shops",
+      "directions": "Street directions",
+      "transport": "Public transport",
+      "safety": "Safety and emergencies"
+    },
+    "names": {
+      "lv": {
+        "label": "Latvian",
+        "target": "Latvian"
+      },
+      "ru": {
+        "label": "Russian",
+        "target": "Russian"
+      },
+      "en": {
+        "label": "English",
+        "target": "English"
+      }
+    }
+  }
+}

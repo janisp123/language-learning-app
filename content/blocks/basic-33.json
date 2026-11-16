@@ -1,0 +1,106 @@
+{
+  "id": "basic-33",
+  "title": "Months January to October",
+  "prompts": [
+    {
+      "id": "basic-33-prompt-01",
+      "phraseId": "vocab-0321",
+      "correctAnswerId": "vocab-0321",
+      "distractorIds": [
+        "vocab-0322",
+        "vocab-0324",
+        "vocab-0326"
+      ]
+    },
+    {
+      "id": "basic-33-prompt-02",
+      "phraseId": "vocab-0322",
+      "correctAnswerId": "vocab-0322",
+      "distractorIds": [
+        "vocab-0323",
+        "vocab-0325",
+        "vocab-0327"
+      ]
+    },
+    {
+      "id": "basic-33-prompt-03",
+      "phraseId": "vocab-0323",
+      "correctAnswerId": "vocab-0323",
+      "distractorIds": [
+        "vocab-0324",
+        "vocab-0326",
+        "vocab-0328"
+      ]
+    },
+    {
+      "id": "basic-33-prompt-04",
+      "phraseId": "vocab-0324",
+      "correctAnswerId": "vocab-0324",
+      "distractorIds": [
+        "vocab-0325",
+        "vocab-0327",
+        "vocab-0329"
+      ]
+    },
+    {
+      "id": "basic-33-prompt-05",
+      "phraseId": "vocab-0325",
+      "correctAnswerId": "vocab-0325",
+      "distractorIds": [
+        "vocab-0326",
+        "vocab-0328",
+        "vocab-0330"
+      ]
+    },
+    {
+      "id": "basic-33-prompt-06",
+      "phraseId": "vocab-0326",
+      "correctAnswerId": "vocab-0326",
+      "distractorIds": [
+        "vocab-0327",
+        "vocab-0329",
+        "vocab-0321"
+      ]
+    },
+    {
+      "id": "basic-33-prompt-07",
+      "phraseId": "vocab-0327",
+      "correctAnswerId": "vocab-0327",
+      "distractorIds": [
+        "vocab-0328",
+        "vocab-0330",
+        "vocab-0322"
+      ]
+    },
+    {
+      "id": "basic-33-prompt-08",
+      "phraseId": "vocab-0328",
+      "correctAnswerId": "vocab-0328",
+      "distractorIds": [
+        "vocab-0329",
+        "vocab-0321",
+        "vocab-0323"
+      ]
+    },
+    {
+      "id": "basic-33-prompt-09",
+      "phraseId": "vocab-0329",
+      "correctAnswerId": "vocab-0329",
+      "distractorIds": [
+        "vocab-0330",
+        "vocab-0322",
+        "vocab-0324"
+      ]
+    },
+    {
+      "id": "basic-33-prompt-10",
+      "phraseId": "vocab-0330",
+      "correctAnswerId": "vocab-0330",
+      "distractorIds": [
+        "vocab-0321",
+        "vocab-0323",
+        "vocab-0325"
+      ]
+    }
+  ]
+}

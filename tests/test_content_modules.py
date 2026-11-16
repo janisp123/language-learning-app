@@ -19,7 +19,7 @@ class ContentModuleTests(unittest.TestCase):
     @unittest.skipUnless(MODULE.exists(),'implementation absent')
     def test_migration_preserves_original_question_answer_and_translation_bindings(self):
         from content_loader import load_content
-        course,locales=load_content(ROOT)
+        course,locales=load_content(ROOT/'archive/course-0.3')
         lock=json.loads((ROOT/'tests/fixtures/original-content-lock.json').read_text())
         payload={'id':course['id'],'languages':lock['languages'],
                  'phrases':[{k:p[k] for k in ['id',*lock['languages']]} for p in course['phrases'] if p['id'] in lock['phraseIds']],
@@ -58,7 +58,7 @@ class ContentModuleTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError,'duplicate JSON key'):load_content(root)
 
     @unittest.skipUnless(MODULE.exists(),'implementation absent')
-    def test_an_eleventh_block_is_added_through_content_only(self):
+    def test_an_additional_block_is_added_through_content_only(self):
         from content_loader import load_content
         with tempfile.TemporaryDirectory() as tmp:
             root=Path(tmp);shutil.copytree(ROOT/'content',root/'content')
@@ -66,10 +66,12 @@ class ContentModuleTests(unittest.TestCase):
             block=json.loads((root/'content'/catalog['blocks'][0]['file']).read_text());block['id']='extra-block';block['title']='Extra block'
             for i,prompt in enumerate(block['prompts']):prompt['id']=f'extra-prompt-{i+1:02}'
             (root/'content/blocks/extra-block.json').write_text(json.dumps(block));catalog['blocks'].append({'id':'extra-block','file':'blocks/extra-block.json'})
+            # Synthetic modularity fixture reuses concepts; it is not an expanded vocabulary curriculum.
+            catalog.pop('curriculum',None)
             for language in catalog['languages']:
                 path=root/'content'/language['file'];pack=json.loads(path.read_text());pack['ui']['lessons']['extra-block']='Extra block';path.write_text(json.dumps(pack))
             catalog_path.write_text(json.dumps(catalog));course,_=load_content(root)
-            self.assertEqual(len(course['lessons']),11);self.assertEqual(course['lessons'][-1]['id'],'extra-block')
+            self.assertEqual(len(course['lessons']),len(catalog['blocks']));self.assertEqual(course['lessons'][-1]['id'],'extra-block')
 
     @unittest.skipUnless(MODULE.exists(),'implementation absent')
     def test_all_language_packs_cannot_share_a_missing_ui_key_or_wrong_placeholder(self):
@@ -92,7 +94,7 @@ class ContentModuleTests(unittest.TestCase):
             root=Path(tmp);shutil.copytree(ROOT/'content',root/'content')
             path=root/'content/catalog.json';catalog=json.loads(path.read_text())
             pack=json.loads((root/'content'/catalog['languages'][0]['file']).read_text());pack['id']='zz'
-            for item in pack['translations'].values():item['text']='ZZ '+item['text']
+            for item in pack['translations'].values():item['text']='ZZ-'+item['text']
             pack['ui']['names']['zz']={'label':'Test language','target':'test'}
             for language in catalog['languages']:
                 module=root/'content'/language['file'];existing=json.loads(module.read_text());existing['ui']['names']['zz']={'label':'Test language','target':'test'};module.write_text(json.dumps(existing))

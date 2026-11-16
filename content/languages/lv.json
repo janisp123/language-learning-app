@@ -2,512 +2,2512 @@
   "schemaVersion": 1,
   "id": "lv",
   "translations": {
-    "essentials-phrase-01": {
-      "conceptId": "essentials-phrase-01",
-      "meaning": "Hello!",
-      "text": "Sveiki!"
-    },
-    "essentials-phrase-02": {
-      "conceptId": "essentials-phrase-02",
-      "meaning": "Yes.",
-      "text": "Jā."
-    },
-    "essentials-phrase-03": {
-      "conceptId": "essentials-phrase-03",
-      "meaning": "No.",
-      "text": "Nē."
-    },
-    "essentials-phrase-04": {
-      "conceptId": "essentials-phrase-04",
-      "meaning": "Thank you!",
-      "text": "Paldies!"
-    },
-    "essentials-phrase-05": {
-      "conceptId": "essentials-phrase-05",
-      "meaning": "Please!",
-      "text": "Lūdzu!"
-    },
-    "essentials-phrase-06": {
-      "conceptId": "essentials-phrase-06",
-      "meaning": "Goodbye!",
-      "text": "Uz redzēšanos!"
-    },
-    "essentials-phrase-07": {
-      "conceptId": "essentials-phrase-07",
-      "meaning": "Excuse me!",
-      "text": "Atvainojiet!"
-    },
-    "essentials-phrase-08": {
-      "conceptId": "essentials-phrase-08",
-      "meaning": "Good morning!",
-      "text": "Labrīt!"
-    },
-    "essentials-phrase-09": {
-      "conceptId": "essentials-phrase-09",
-      "meaning": "Good night!",
-      "text": "Ar labu nakti!"
-    },
-    "essentials-phrase-10": {
-      "conceptId": "essentials-phrase-10",
-      "meaning": "Okay.",
-      "text": "Labi."
-    },
-    "communication-phrase-01": {
-      "conceptId": "communication-phrase-01",
-      "meaning": "I don't understand.",
-      "text": "Es nesaprotu."
-    },
-    "communication-phrase-02": {
-      "conceptId": "communication-phrase-02",
-      "meaning": "Please repeat.",
-      "text": "Atkārtojiet, lūdzu."
-    },
-    "communication-phrase-03": {
-      "conceptId": "communication-phrase-03",
-      "meaning": "Please speak more slowly.",
-      "text": "Runājiet lēnāk, lūdzu."
-    },
-    "communication-phrase-04": {
-      "conceptId": "communication-phrase-04",
-      "meaning": "Do you speak Latvian?",
-      "text": "Vai jūs runājat latviski?"
-    },
-    "communication-phrase-05": {
-      "conceptId": "communication-phrase-05",
-      "meaning": "I need help.",
-      "text": "Man vajag palīdzību."
-    },
-    "communication-phrase-06": {
-      "conceptId": "communication-phrase-06",
-      "meaning": "What does that mean?",
-      "text": "Ko tas nozīmē?"
-    },
-    "communication-phrase-07": {
-      "conceptId": "communication-phrase-07",
-      "meaning": "Please show me.",
-      "text": "Parādiet, lūdzu."
-    },
-    "communication-phrase-08": {
-      "conceptId": "communication-phrase-08",
-      "meaning": "I don't know.",
-      "text": "Es nezinu."
-    },
-    "communication-phrase-09": {
-      "conceptId": "communication-phrase-09",
-      "meaning": "I speak a little Russian.",
-      "text": "Es mazliet runāju krieviski."
-    },
-    "communication-phrase-10": {
-      "conceptId": "communication-phrase-10",
-      "meaning": "How do you say that in Russian?",
-      "text": "Kā to pateikt krieviski?"
-    },
-    "introductions-phrase-01": {
-      "conceptId": "introductions-phrase-01",
-      "meaning": "What is your name?",
-      "text": "Kā tevi sauc?"
-    },
-    "introductions-phrase-02": {
-      "conceptId": "introductions-phrase-02",
-      "meaning": "My name is...",
-      "text": "Mani sauc..."
-    },
-    "introductions-phrase-03": {
-      "conceptId": "introductions-phrase-03",
-      "meaning": "How old are you?",
-      "text": "Cik tev gadu?"
-    },
-    "introductions-phrase-04": {
-      "conceptId": "introductions-phrase-04",
-      "meaning": "I'm eleven years old.",
-      "text": "Man ir vienpadsmit gadi."
-    },
-    "introductions-phrase-05": {
-      "conceptId": "introductions-phrase-05",
-      "meaning": "I go to school.",
-      "text": "Es mācos skolā."
-    },
-    "introductions-phrase-06": {
-      "conceptId": "introductions-phrase-06",
-      "meaning": "I'm from Latvia.",
-      "text": "Es esmu no Latvijas."
-    },
-    "introductions-phrase-07": {
-      "conceptId": "introductions-phrase-07",
-      "meaning": "Nice to meet you!",
-      "text": "Prieks iepazīties!"
-    },
-    "introductions-phrase-08": {
-      "conceptId": "introductions-phrase-08",
-      "meaning": "I'm waiting for my mum.",
-      "text": "Es gaidu mammu."
-    },
-    "introductions-phrase-09": {
-      "conceptId": "introductions-phrase-09",
-      "meaning": "I won't tell you my address.",
-      "text": "Es neteikšu savu adresi."
-    },
-    "introductions-phrase-10": {
-      "conceptId": "introductions-phrase-10",
-      "meaning": "I don't know you.",
-      "text": "Es tevi nepazīstu."
-    },
-    "places-phrase-01": {
-      "conceptId": "places-phrase-01",
-      "meaning": "Where is the toilet?",
-      "text": "Kur ir tualete?"
-    },
-    "places-phrase-02": {
-      "conceptId": "places-phrase-02",
-      "meaning": "Where is the exit?",
-      "text": "Kur ir izeja?"
-    },
-    "places-phrase-03": {
-      "conceptId": "places-phrase-03",
-      "meaning": "Where is the school?",
-      "text": "Kur ir skola?"
-    },
-    "places-phrase-04": {
-      "conceptId": "places-phrase-04",
-      "meaning": "Where is the bus stop?",
-      "text": "Kur ir pietura?"
-    },
-    "places-phrase-05": {
-      "conceptId": "places-phrase-05",
-      "meaning": "Where is the shop?",
-      "text": "Kur ir veikals?"
-    },
-    "places-phrase-06": {
-      "conceptId": "places-phrase-06",
-      "meaning": "Where is the entrance?",
-      "text": "Kur ir ieeja?"
-    },
-    "places-phrase-07": {
-      "conceptId": "places-phrase-07",
-      "meaning": "Where is the pharmacy?",
-      "text": "Kur ir aptieka?"
-    },
-    "places-phrase-08": {
-      "conceptId": "places-phrase-08",
-      "meaning": "It's here.",
-      "text": "Tas ir šeit."
-    },
-    "places-phrase-09": {
-      "conceptId": "places-phrase-09",
-      "meaning": "It's there.",
-      "text": "Tas ir tur."
-    },
-    "places-phrase-10": {
-      "conceptId": "places-phrase-10",
-      "meaning": "It's next to the school.",
-      "text": "Tas ir blakus skolai."
-    },
-    "school-phrase-01": {
-      "conceptId": "school-phrase-01",
-      "meaning": "May I come in?",
-      "text": "Vai drīkst ienākt?"
-    },
-    "school-phrase-02": {
-      "conceptId": "school-phrase-02",
-      "meaning": "May I go out?",
-      "text": "Vai drīkst iziet?"
-    },
-    "school-phrase-03": {
-      "conceptId": "school-phrase-03",
-      "meaning": "Where is the teacher?",
-      "text": "Kur ir skolotājs?"
-    },
-    "school-phrase-04": {
-      "conceptId": "school-phrase-04",
-      "meaning": "What do I need to do?",
-      "text": "Kas jādara?"
-    },
-    "school-phrase-05": {
-      "conceptId": "school-phrase-05",
-      "meaning": "Open the book.",
-      "text": "Atver grāmatu."
-    },
-    "school-phrase-06": {
-      "conceptId": "school-phrase-06",
-      "meaning": "Close the door.",
-      "text": "Aizver durvis."
-    },
-    "school-phrase-07": {
-      "conceptId": "school-phrase-07",
-      "meaning": "Write the answer.",
-      "text": "Uzraksti atbildi."
-    },
-    "school-phrase-08": {
-      "conceptId": "school-phrase-08",
-      "meaning": "Please read.",
-      "text": "Izlasi, lūdzu."
-    },
-    "school-phrase-09": {
-      "conceptId": "school-phrase-09",
-      "meaning": "I don't have a pen.",
-      "text": "Man nav pildspalvas."
-    },
-    "school-phrase-10": {
-      "conceptId": "school-phrase-10",
-      "meaning": "The lesson is over.",
-      "text": "Stunda ir beigusies."
-    },
-    "friends-phrase-01": {
-      "conceptId": "friends-phrase-01",
-      "meaning": "Let's play together!",
-      "text": "Spēlēsim kopā!"
-    },
-    "friends-phrase-02": {
-      "conceptId": "friends-phrase-02",
-      "meaning": "Please wait.",
-      "text": "Pagaidi, lūdzu."
-    },
-    "friends-phrase-03": {
-      "conceptId": "friends-phrase-03",
-      "meaning": "It's my turn.",
-      "text": "Tagad ir mana kārta."
-    },
-    "friends-phrase-04": {
-      "conceptId": "friends-phrase-04",
-      "meaning": "May I join in?",
-      "text": "Vai es drīkstu pievienoties?"
-    },
-    "friends-phrase-05": {
-      "conceptId": "friends-phrase-05",
-      "meaning": "Stop!",
-      "text": "Apstājies!"
-    },
-    "friends-phrase-06": {
-      "conceptId": "friends-phrase-06",
-      "meaning": "Come here!",
-      "text": "Nāc šurp!"
-    },
-    "friends-phrase-07": {
-      "conceptId": "friends-phrase-07",
-      "meaning": "Let's go outside!",
-      "text": "Ejam ārā!"
-    },
-    "friends-phrase-08": {
-      "conceptId": "friends-phrase-08",
-      "meaning": "Do you want to play?",
-      "text": "Vai tu gribi spēlēt?"
-    },
-    "friends-phrase-09": {
-      "conceptId": "friends-phrase-09",
-      "meaning": "I don't want to.",
-      "text": "Es negribu."
-    },
-    "friends-phrase-10": {
-      "conceptId": "friends-phrase-10",
-      "meaning": "See you tomorrow!",
-      "text": "Tiekamies rīt!"
-    },
-    "shops-phrase-01": {
-      "conceptId": "shops-phrase-01",
-      "meaning": "May I have this?",
-      "text": "Vai drīkst šo?"
-    },
-    "shops-phrase-02": {
-      "conceptId": "shops-phrase-02",
-      "meaning": "Water, please.",
-      "text": "Ūdeni, lūdzu."
-    },
-    "shops-phrase-03": {
-      "conceptId": "shops-phrase-03",
-      "meaning": "How much does this cost?",
-      "text": "Cik tas maksā?"
-    },
-    "shops-phrase-04": {
-      "conceptId": "shops-phrase-04",
-      "meaning": "Can I pay by card?",
-      "text": "Vai var maksāt ar karti?"
-    },
-    "shops-phrase-05": {
-      "conceptId": "shops-phrase-05",
-      "meaning": "No, thank you.",
-      "text": "Nē, paldies."
-    },
-    "shops-phrase-06": {
-      "conceptId": "shops-phrase-06",
-      "meaning": "I need a bag.",
-      "text": "Man vajag maisiņu."
-    },
-    "shops-phrase-07": {
-      "conceptId": "shops-phrase-07",
-      "meaning": "Where is the checkout?",
-      "text": "Kur ir kase?"
-    },
-    "shops-phrase-08": {
-      "conceptId": "shops-phrase-08",
-      "meaning": "One, please.",
-      "text": "Vienu, lūdzu."
-    },
-    "shops-phrase-09": {
-      "conceptId": "shops-phrase-09",
-      "meaning": "Without sugar, please.",
-      "text": "Bez cukura, lūdzu."
-    },
-    "shops-phrase-10": {
-      "conceptId": "shops-phrase-10",
-      "meaning": "I'm allergic to nuts.",
-      "text": "Man ir alerģija pret riekstiem."
-    },
-    "directions-phrase-01": {
-      "conceptId": "directions-phrase-01",
-      "meaning": "Go straight.",
-      "text": "Ejiet taisni."
-    },
-    "directions-phrase-02": {
-      "conceptId": "directions-phrase-02",
-      "meaning": "Turn left.",
-      "text": "Pagriezieties pa kreisi."
-    },
-    "directions-phrase-03": {
-      "conceptId": "directions-phrase-03",
-      "meaning": "Turn right.",
-      "text": "Pagriezieties pa labi."
-    },
-    "directions-phrase-04": {
-      "conceptId": "directions-phrase-04",
-      "meaning": "It's nearby.",
-      "text": "Tas ir tuvu."
-    },
-    "directions-phrase-05": {
-      "conceptId": "directions-phrase-05",
-      "meaning": "It's far away.",
-      "text": "Tas ir tālu."
-    },
-    "directions-phrase-06": {
-      "conceptId": "directions-phrase-06",
-      "meaning": "Cross the street.",
-      "text": "Pārejiet pāri ielai."
-    },
-    "directions-phrase-07": {
-      "conceptId": "directions-phrase-07",
-      "meaning": "Wait at the traffic lights.",
-      "text": "Pagaidiet pie luksofora."
-    },
-    "directions-phrase-08": {
-      "conceptId": "directions-phrase-08",
-      "meaning": "Where is the pedestrian crossing?",
-      "text": "Kur ir gājēju pāreja?"
-    },
-    "directions-phrase-09": {
-      "conceptId": "directions-phrase-09",
-      "meaning": "I'm looking for this street.",
-      "text": "Es meklēju šo ielu."
-    },
-    "directions-phrase-10": {
-      "conceptId": "directions-phrase-10",
-      "meaning": "Is this the right way?",
-      "text": "Vai tas ir pareizais ceļš?"
-    },
-    "transport-phrase-01": {
-      "conceptId": "transport-phrase-01",
-      "meaning": "Does this bus go to the centre?",
-      "text": "Vai šis autobuss brauc uz centru?"
-    },
-    "transport-phrase-02": {
-      "conceptId": "transport-phrase-02",
-      "meaning": "Where do I need to get off?",
-      "text": "Kur man jāizkāpj?"
-    },
-    "transport-phrase-03": {
-      "conceptId": "transport-phrase-03",
-      "meaning": "The next stop.",
-      "text": "Nākamā pietura."
-    },
-    "transport-phrase-04": {
-      "conceptId": "transport-phrase-04",
-      "meaning": "I need a ticket.",
-      "text": "Man vajag biļeti."
-    },
-    "transport-phrase-05": {
-      "conceptId": "transport-phrase-05",
-      "meaning": "What time does the bus arrive?",
-      "text": "Cikos pienāk autobuss?"
-    },
-    "transport-phrase-06": {
-      "conceptId": "transport-phrase-06",
-      "meaning": "Is this seat free?",
-      "text": "Vai šī vieta ir brīva?"
-    },
-    "transport-phrase-07": {
-      "conceptId": "transport-phrase-07",
-      "meaning": "I'll get off here.",
-      "text": "Es izkāpšu šeit."
-    },
-    "transport-phrase-08": {
-      "conceptId": "transport-phrase-08",
-      "meaning": "Where is bus number five?",
-      "text": "Kur ir autobuss ar numuru pieci?"
-    },
-    "transport-phrase-09": {
-      "conceptId": "transport-phrase-09",
-      "meaning": "The bus is late.",
-      "text": "Autobuss kavējas."
-    },
-    "transport-phrase-10": {
-      "conceptId": "transport-phrase-10",
-      "meaning": "Please let me through.",
-      "text": "Lūdzu, palaidiet mani garām."
-    },
-    "safety-phrase-01": {
-      "conceptId": "safety-phrase-01",
-      "meaning": "I can't find my way.",
-      "text": "Es nevaru atrast ceļu."
-    },
-    "safety-phrase-02": {
-      "conceptId": "safety-phrase-02",
-      "meaning": "Leave me alone!",
-      "text": "Liec mani mierā!"
-    },
-    "safety-phrase-03": {
-      "conceptId": "safety-phrase-03",
-      "meaning": "Help!",
-      "text": "Palīgā!"
-    },
-    "safety-phrase-04": {
-      "conceptId": "safety-phrase-04",
-      "meaning": "Call my parents.",
-      "text": "Piezvaniet maniem vecākiem."
-    },
-    "safety-phrase-05": {
-      "conceptId": "safety-phrase-05",
-      "meaning": "Call 112.",
-      "text": "Zvaniet uz numuru 112."
-    },
-    "safety-phrase-06": {
-      "conceptId": "safety-phrase-06",
-      "meaning": "I need a doctor.",
-      "text": "Man vajag ārstu."
-    },
-    "safety-phrase-07": {
-      "conceptId": "safety-phrase-07",
-      "meaning": "Don't touch me!",
-      "text": "Neaiztiec mani!"
-    },
-    "safety-phrase-08": {
-      "conceptId": "safety-phrase-08",
-      "meaning": "I won't go with you.",
-      "text": "Es neiešu tev līdzi."
-    },
-    "safety-phrase-09": {
-      "conceptId": "safety-phrase-09",
-      "meaning": "Where are the police?",
-      "text": "Kur ir policija?"
-    },
-    "safety-phrase-10": {
-      "conceptId": "safety-phrase-10",
-      "meaning": "I'm scared.",
-      "text": "Man ir bail."
+    "vocab-0001": {
+      "conceptId": "vocab-0001",
+      "meaning": "hello",
+      "text": "sveiki"
+    },
+    "vocab-0002": {
+      "conceptId": "vocab-0002",
+      "meaning": "goodbye",
+      "text": "uz redzēšanos"
+    },
+    "vocab-0003": {
+      "conceptId": "vocab-0003",
+      "meaning": "please",
+      "text": "lūdzu"
+    },
+    "vocab-0004": {
+      "conceptId": "vocab-0004",
+      "meaning": "thank you",
+      "text": "paldies"
+    },
+    "vocab-0005": {
+      "conceptId": "vocab-0005",
+      "meaning": "sorry",
+      "text": "piedod"
+    },
+    "vocab-0006": {
+      "conceptId": "vocab-0006",
+      "meaning": "yes",
+      "text": "jā"
+    },
+    "vocab-0007": {
+      "conceptId": "vocab-0007",
+      "meaning": "no",
+      "text": "nē"
+    },
+    "vocab-0008": {
+      "conceptId": "vocab-0008",
+      "meaning": "good morning",
+      "text": "labrīt"
+    },
+    "vocab-0009": {
+      "conceptId": "vocab-0009",
+      "meaning": "good evening",
+      "text": "labvakar"
+    },
+    "vocab-0010": {
+      "conceptId": "vocab-0010",
+      "meaning": "good night",
+      "text": "ar labu nakti"
+    },
+    "vocab-0011": {
+      "conceptId": "vocab-0011",
+      "meaning": "person",
+      "text": "cilvēks"
+    },
+    "vocab-0012": {
+      "conceptId": "vocab-0012",
+      "meaning": "child",
+      "text": "bērns"
+    },
+    "vocab-0013": {
+      "conceptId": "vocab-0013",
+      "meaning": "boy",
+      "text": "zēns"
+    },
+    "vocab-0014": {
+      "conceptId": "vocab-0014",
+      "meaning": "girl",
+      "text": "meitene"
+    },
+    "vocab-0015": {
+      "conceptId": "vocab-0015",
+      "meaning": "friend",
+      "text": "draugs"
+    },
+    "vocab-0016": {
+      "conceptId": "vocab-0016",
+      "meaning": "family",
+      "text": "ģimene"
+    },
+    "vocab-0017": {
+      "conceptId": "vocab-0017",
+      "meaning": "mother",
+      "text": "māte"
+    },
+    "vocab-0018": {
+      "conceptId": "vocab-0018",
+      "meaning": "father",
+      "text": "tēvs"
+    },
+    "vocab-0019": {
+      "conceptId": "vocab-0019",
+      "meaning": "sister",
+      "text": "māsa"
+    },
+    "vocab-0020": {
+      "conceptId": "vocab-0020",
+      "meaning": "brother",
+      "text": "brālis"
+    },
+    "vocab-0021": {
+      "conceptId": "vocab-0021",
+      "meaning": "one",
+      "text": "viens"
+    },
+    "vocab-0022": {
+      "conceptId": "vocab-0022",
+      "meaning": "two",
+      "text": "divi"
+    },
+    "vocab-0023": {
+      "conceptId": "vocab-0023",
+      "meaning": "three",
+      "text": "trīs"
+    },
+    "vocab-0024": {
+      "conceptId": "vocab-0024",
+      "meaning": "four",
+      "text": "četri"
+    },
+    "vocab-0025": {
+      "conceptId": "vocab-0025",
+      "meaning": "five",
+      "text": "pieci"
+    },
+    "vocab-0026": {
+      "conceptId": "vocab-0026",
+      "meaning": "six",
+      "text": "seši"
+    },
+    "vocab-0027": {
+      "conceptId": "vocab-0027",
+      "meaning": "seven",
+      "text": "septiņi"
+    },
+    "vocab-0028": {
+      "conceptId": "vocab-0028",
+      "meaning": "eight",
+      "text": "astoņi"
+    },
+    "vocab-0029": {
+      "conceptId": "vocab-0029",
+      "meaning": "nine",
+      "text": "deviņi"
+    },
+    "vocab-0030": {
+      "conceptId": "vocab-0030",
+      "meaning": "ten",
+      "text": "desmit"
+    },
+    "vocab-0031": {
+      "conceptId": "vocab-0031",
+      "meaning": "help",
+      "text": "palīdzība"
+    },
+    "vocab-0032": {
+      "conceptId": "vocab-0032",
+      "meaning": "stop",
+      "text": "stop"
+    },
+    "vocab-0033": {
+      "conceptId": "vocab-0033",
+      "meaning": "here",
+      "text": "šeit"
+    },
+    "vocab-0034": {
+      "conceptId": "vocab-0034",
+      "meaning": "there",
+      "text": "tur"
+    },
+    "vocab-0035": {
+      "conceptId": "vocab-0035",
+      "meaning": "now",
+      "text": "tagad"
+    },
+    "vocab-0036": {
+      "conceptId": "vocab-0036",
+      "meaning": "later",
+      "text": "vēlāk"
+    },
+    "vocab-0037": {
+      "conceptId": "vocab-0037",
+      "meaning": "together",
+      "text": "kopā"
+    },
+    "vocab-0038": {
+      "conceptId": "vocab-0038",
+      "meaning": "again",
+      "text": "atkal"
+    },
+    "vocab-0039": {
+      "conceptId": "vocab-0039",
+      "meaning": "slowly",
+      "text": "lēnām"
+    },
+    "vocab-0040": {
+      "conceptId": "vocab-0040",
+      "meaning": "quickly",
+      "text": "ātri"
+    },
+    "vocab-0041": {
+      "conceptId": "vocab-0041",
+      "meaning": "home",
+      "text": "mājas"
+    },
+    "vocab-0042": {
+      "conceptId": "vocab-0042",
+      "meaning": "school",
+      "text": "skola"
+    },
+    "vocab-0043": {
+      "conceptId": "vocab-0043",
+      "meaning": "shop",
+      "text": "veikals"
+    },
+    "vocab-0044": {
+      "conceptId": "vocab-0044",
+      "meaning": "pharmacy",
+      "text": "aptieka"
+    },
+    "vocab-0045": {
+      "conceptId": "vocab-0045",
+      "meaning": "hospital",
+      "text": "slimnīca"
+    },
+    "vocab-0046": {
+      "conceptId": "vocab-0046",
+      "meaning": "park",
+      "text": "parks"
+    },
+    "vocab-0047": {
+      "conceptId": "vocab-0047",
+      "meaning": "street",
+      "text": "iela"
+    },
+    "vocab-0048": {
+      "conceptId": "vocab-0048",
+      "meaning": "bus stop",
+      "text": "autobusa pietura"
+    },
+    "vocab-0049": {
+      "conceptId": "vocab-0049",
+      "meaning": "toilet",
+      "text": "tualete"
+    },
+    "vocab-0050": {
+      "conceptId": "vocab-0050",
+      "meaning": "exit",
+      "text": "izeja"
+    },
+    "vocab-0051": {
+      "conceptId": "vocab-0051",
+      "meaning": "water",
+      "text": "ūdens"
+    },
+    "vocab-0052": {
+      "conceptId": "vocab-0052",
+      "meaning": "bread",
+      "text": "maize"
+    },
+    "vocab-0053": {
+      "conceptId": "vocab-0053",
+      "meaning": "milk",
+      "text": "piens"
+    },
+    "vocab-0054": {
+      "conceptId": "vocab-0054",
+      "meaning": "tea",
+      "text": "tēja"
+    },
+    "vocab-0055": {
+      "conceptId": "vocab-0055",
+      "meaning": "apple",
+      "text": "ābols"
+    },
+    "vocab-0056": {
+      "conceptId": "vocab-0056",
+      "meaning": "banana",
+      "text": "banāns"
+    },
+    "vocab-0057": {
+      "conceptId": "vocab-0057",
+      "meaning": "cheese",
+      "text": "siers"
+    },
+    "vocab-0058": {
+      "conceptId": "vocab-0058",
+      "meaning": "soup",
+      "text": "zupa"
+    },
+    "vocab-0059": {
+      "conceptId": "vocab-0059",
+      "meaning": "juice",
+      "text": "sula"
+    },
+    "vocab-0060": {
+      "conceptId": "vocab-0060",
+      "meaning": "breakfast",
+      "text": "brokastis"
+    },
+    "vocab-0061": {
+      "conceptId": "vocab-0061",
+      "meaning": "book",
+      "text": "grāmata"
+    },
+    "vocab-0062": {
+      "conceptId": "vocab-0062",
+      "meaning": "notebook",
+      "text": "burtnīca"
+    },
+    "vocab-0063": {
+      "conceptId": "vocab-0063",
+      "meaning": "pen",
+      "text": "pildspalva"
+    },
+    "vocab-0064": {
+      "conceptId": "vocab-0064",
+      "meaning": "pencil",
+      "text": "zīmulis"
+    },
+    "vocab-0065": {
+      "conceptId": "vocab-0065",
+      "meaning": "desk",
+      "text": "rakstāmgalds"
+    },
+    "vocab-0066": {
+      "conceptId": "vocab-0066",
+      "meaning": "chair",
+      "text": "krēsls"
+    },
+    "vocab-0067": {
+      "conceptId": "vocab-0067",
+      "meaning": "board",
+      "text": "tāfele"
+    },
+    "vocab-0068": {
+      "conceptId": "vocab-0068",
+      "meaning": "teacher",
+      "text": "skolotājs"
+    },
+    "vocab-0069": {
+      "conceptId": "vocab-0069",
+      "meaning": "lesson",
+      "text": "mācību stunda"
+    },
+    "vocab-0070": {
+      "conceptId": "vocab-0070",
+      "meaning": "break",
+      "text": "starpbrīdis"
+    },
+    "vocab-0071": {
+      "conceptId": "vocab-0071",
+      "meaning": "left",
+      "text": "pa kreisi"
+    },
+    "vocab-0072": {
+      "conceptId": "vocab-0072",
+      "meaning": "right",
+      "text": "pa labi"
+    },
+    "vocab-0073": {
+      "conceptId": "vocab-0073",
+      "meaning": "straight",
+      "text": "taisni"
+    },
+    "vocab-0074": {
+      "conceptId": "vocab-0074",
+      "meaning": "near",
+      "text": "tuvu"
+    },
+    "vocab-0075": {
+      "conceptId": "vocab-0075",
+      "meaning": "far",
+      "text": "tālu"
+    },
+    "vocab-0076": {
+      "conceptId": "vocab-0076",
+      "meaning": "inside",
+      "text": "iekšā"
+    },
+    "vocab-0077": {
+      "conceptId": "vocab-0077",
+      "meaning": "outside",
+      "text": "ārā"
+    },
+    "vocab-0078": {
+      "conceptId": "vocab-0078",
+      "meaning": "up",
+      "text": "augšup"
+    },
+    "vocab-0079": {
+      "conceptId": "vocab-0079",
+      "meaning": "down",
+      "text": "lejup"
+    },
+    "vocab-0080": {
+      "conceptId": "vocab-0080",
+      "meaning": "opposite",
+      "text": "pretī"
+    },
+    "vocab-0081": {
+      "conceptId": "vocab-0081",
+      "meaning": "police",
+      "text": "policija"
+    },
+    "vocab-0082": {
+      "conceptId": "vocab-0082",
+      "meaning": "ambulance",
+      "text": "neatliekamā palīdzība"
+    },
+    "vocab-0083": {
+      "conceptId": "vocab-0083",
+      "meaning": "fire",
+      "text": "uguns"
+    },
+    "vocab-0084": {
+      "conceptId": "vocab-0084",
+      "meaning": "danger",
+      "text": "briesmas"
+    },
+    "vocab-0085": {
+      "conceptId": "vocab-0085",
+      "meaning": "pain",
+      "text": "sāpes"
+    },
+    "vocab-0086": {
+      "conceptId": "vocab-0086",
+      "meaning": "doctor",
+      "text": "ārsts"
+    },
+    "vocab-0087": {
+      "conceptId": "vocab-0087",
+      "meaning": "emergency",
+      "text": "ārkārtas situācija"
+    },
+    "vocab-0088": {
+      "conceptId": "vocab-0088",
+      "meaning": "first aid",
+      "text": "pirmā palīdzība"
+    },
+    "vocab-0089": {
+      "conceptId": "vocab-0089",
+      "meaning": "emergency number",
+      "text": "ārkārtas palīdzības izsaukuma numurs"
+    },
+    "vocab-0090": {
+      "conceptId": "vocab-0090",
+      "meaning": "adult",
+      "text": "pieaugušais"
+    },
+    "vocab-0091": {
+      "conceptId": "vocab-0091",
+      "meaning": "who",
+      "text": "kurš"
+    },
+    "vocab-0092": {
+      "conceptId": "vocab-0092",
+      "meaning": "what",
+      "text": "kas"
+    },
+    "vocab-0093": {
+      "conceptId": "vocab-0093",
+      "meaning": "where",
+      "text": "kur"
+    },
+    "vocab-0094": {
+      "conceptId": "vocab-0094",
+      "meaning": "when",
+      "text": "kad"
+    },
+    "vocab-0095": {
+      "conceptId": "vocab-0095",
+      "meaning": "why",
+      "text": "kāpēc"
+    },
+    "vocab-0096": {
+      "conceptId": "vocab-0096",
+      "meaning": "how",
+      "text": "kā"
+    },
+    "vocab-0097": {
+      "conceptId": "vocab-0097",
+      "meaning": "how many",
+      "text": "cik"
+    },
+    "vocab-0098": {
+      "conceptId": "vocab-0098",
+      "meaning": "what price",
+      "text": "kāda cena"
+    },
+    "vocab-0099": {
+      "conceptId": "vocab-0099",
+      "meaning": "which way",
+      "text": "kurā virzienā"
+    },
+    "vocab-0100": {
+      "conceptId": "vocab-0100",
+      "meaning": "what else",
+      "text": "kas vēl"
+    },
+    "vocab-0101": {
+      "conceptId": "vocab-0101",
+      "meaning": "grandmother",
+      "text": "vecmāmiņa"
+    },
+    "vocab-0102": {
+      "conceptId": "vocab-0102",
+      "meaning": "grandfather",
+      "text": "vectētiņš"
+    },
+    "vocab-0103": {
+      "conceptId": "vocab-0103",
+      "meaning": "aunt",
+      "text": "tante"
+    },
+    "vocab-0104": {
+      "conceptId": "vocab-0104",
+      "meaning": "uncle",
+      "text": "tēvocis"
+    },
+    "vocab-0105": {
+      "conceptId": "vocab-0105",
+      "meaning": "parents",
+      "text": "vecāki"
+    },
+    "vocab-0106": {
+      "conceptId": "vocab-0106",
+      "meaning": "grandparents",
+      "text": "vecvecāki"
+    },
+    "vocab-0107": {
+      "conceptId": "vocab-0107",
+      "meaning": "baby",
+      "text": "zīdainis"
+    },
+    "vocab-0108": {
+      "conceptId": "vocab-0108",
+      "meaning": "teenager",
+      "text": "pusaudzis"
+    },
+    "vocab-0109": {
+      "conceptId": "vocab-0109",
+      "meaning": "neighbour",
+      "text": "kaimiņš"
+    },
+    "vocab-0110": {
+      "conceptId": "vocab-0110",
+      "meaning": "guest",
+      "text": "viesis"
+    },
+    "vocab-0111": {
+      "conceptId": "vocab-0111",
+      "meaning": "woman",
+      "text": "sieviete"
+    },
+    "vocab-0112": {
+      "conceptId": "vocab-0112",
+      "meaning": "man",
+      "text": "vīrietis"
+    },
+    "vocab-0113": {
+      "conceptId": "vocab-0113",
+      "meaning": "people",
+      "text": "cilvēki"
+    },
+    "vocab-0114": {
+      "conceptId": "vocab-0114",
+      "meaning": "children",
+      "text": "bērni"
+    },
+    "vocab-0115": {
+      "conceptId": "vocab-0115",
+      "meaning": "classmate",
+      "text": "klasesbiedrs"
+    },
+    "vocab-0116": {
+      "conceptId": "vocab-0116",
+      "meaning": "student",
+      "text": "skolēns"
+    },
+    "vocab-0117": {
+      "conceptId": "vocab-0117",
+      "meaning": "driver",
+      "text": "vadītājs"
+    },
+    "vocab-0118": {
+      "conceptId": "vocab-0118",
+      "meaning": "seller",
+      "text": "pārdevējs"
+    },
+    "vocab-0119": {
+      "conceptId": "vocab-0119",
+      "meaning": "passenger",
+      "text": "pasažieris"
+    },
+    "vocab-0120": {
+      "conceptId": "vocab-0120",
+      "meaning": "visitor",
+      "text": "apmeklētājs"
+    },
+    "vocab-0121": {
+      "conceptId": "vocab-0121",
+      "meaning": "head",
+      "text": "galva"
+    },
+    "vocab-0122": {
+      "conceptId": "vocab-0122",
+      "meaning": "hair",
+      "text": "mati"
+    },
+    "vocab-0123": {
+      "conceptId": "vocab-0123",
+      "meaning": "face",
+      "text": "seja"
+    },
+    "vocab-0124": {
+      "conceptId": "vocab-0124",
+      "meaning": "eye",
+      "text": "acs"
+    },
+    "vocab-0125": {
+      "conceptId": "vocab-0125",
+      "meaning": "ear",
+      "text": "auss"
+    },
+    "vocab-0126": {
+      "conceptId": "vocab-0126",
+      "meaning": "nose",
+      "text": "deguns"
+    },
+    "vocab-0127": {
+      "conceptId": "vocab-0127",
+      "meaning": "mouth",
+      "text": "mute"
+    },
+    "vocab-0128": {
+      "conceptId": "vocab-0128",
+      "meaning": "tooth",
+      "text": "zobs"
+    },
+    "vocab-0129": {
+      "conceptId": "vocab-0129",
+      "meaning": "tongue",
+      "text": "mēle"
+    },
+    "vocab-0130": {
+      "conceptId": "vocab-0130",
+      "meaning": "neck",
+      "text": "kakls"
+    },
+    "vocab-0131": {
+      "conceptId": "vocab-0131",
+      "meaning": "palm",
+      "text": "plauksta"
+    },
+    "vocab-0132": {
+      "conceptId": "vocab-0132",
+      "meaning": "arm",
+      "text": "roka"
+    },
+    "vocab-0133": {
+      "conceptId": "vocab-0133",
+      "meaning": "finger",
+      "text": "pirksts"
+    },
+    "vocab-0134": {
+      "conceptId": "vocab-0134",
+      "meaning": "leg",
+      "text": "kāja"
+    },
+    "vocab-0135": {
+      "conceptId": "vocab-0135",
+      "meaning": "foot",
+      "text": "pēda"
+    },
+    "vocab-0136": {
+      "conceptId": "vocab-0136",
+      "meaning": "knee",
+      "text": "celis"
+    },
+    "vocab-0137": {
+      "conceptId": "vocab-0137",
+      "meaning": "back",
+      "text": "mugura"
+    },
+    "vocab-0138": {
+      "conceptId": "vocab-0138",
+      "meaning": "stomach",
+      "text": "vēders"
+    },
+    "vocab-0139": {
+      "conceptId": "vocab-0139",
+      "meaning": "shoulder",
+      "text": "plecs"
+    },
+    "vocab-0140": {
+      "conceptId": "vocab-0140",
+      "meaning": "skin",
+      "text": "āda"
+    },
+    "vocab-0141": {
+      "conceptId": "vocab-0141",
+      "meaning": "health",
+      "text": "veselība"
+    },
+    "vocab-0142": {
+      "conceptId": "vocab-0142",
+      "meaning": "illness",
+      "text": "slimība"
+    },
+    "vocab-0143": {
+      "conceptId": "vocab-0143",
+      "meaning": "a cold",
+      "text": "saaukstēšanās"
+    },
+    "vocab-0144": {
+      "conceptId": "vocab-0144",
+      "meaning": "fever",
+      "text": "drudzis"
+    },
+    "vocab-0145": {
+      "conceptId": "vocab-0145",
+      "meaning": "cough",
+      "text": "klepus"
+    },
+    "vocab-0146": {
+      "conceptId": "vocab-0146",
+      "meaning": "medicine",
+      "text": "zāles"
+    },
+    "vocab-0147": {
+      "conceptId": "vocab-0147",
+      "meaning": "tablet",
+      "text": "tablete"
+    },
+    "vocab-0148": {
+      "conceptId": "vocab-0148",
+      "meaning": "plaster",
+      "text": "plāksteris"
+    },
+    "vocab-0149": {
+      "conceptId": "vocab-0149",
+      "meaning": "bandage",
+      "text": "pārsējs"
+    },
+    "vocab-0150": {
+      "conceptId": "vocab-0150",
+      "meaning": "thermometer",
+      "text": "termometrs"
+    },
+    "vocab-0151": {
+      "conceptId": "vocab-0151",
+      "meaning": "happy",
+      "text": "priecīgs"
+    },
+    "vocab-0152": {
+      "conceptId": "vocab-0152",
+      "meaning": "sad",
+      "text": "bēdīgs"
+    },
+    "vocab-0153": {
+      "conceptId": "vocab-0153",
+      "meaning": "angry",
+      "text": "dusmīgs"
+    },
+    "vocab-0154": {
+      "conceptId": "vocab-0154",
+      "meaning": "afraid",
+      "text": "nobijies"
+    },
+    "vocab-0155": {
+      "conceptId": "vocab-0155",
+      "meaning": "calm",
+      "text": "mierīgs"
+    },
+    "vocab-0156": {
+      "conceptId": "vocab-0156",
+      "meaning": "tired",
+      "text": "noguris"
+    },
+    "vocab-0157": {
+      "conceptId": "vocab-0157",
+      "meaning": "hungry",
+      "text": "izsalcis"
+    },
+    "vocab-0158": {
+      "conceptId": "vocab-0158",
+      "meaning": "thirsty",
+      "text": "izslāpis"
+    },
+    "vocab-0159": {
+      "conceptId": "vocab-0159",
+      "meaning": "bored",
+      "text": "garlaikots"
+    },
+    "vocab-0160": {
+      "conceptId": "vocab-0160",
+      "meaning": "surprised",
+      "text": "pārsteigts"
+    },
+    "vocab-0161": {
+      "conceptId": "vocab-0161",
+      "meaning": "coat",
+      "text": "mētelis"
+    },
+    "vocab-0162": {
+      "conceptId": "vocab-0162",
+      "meaning": "jacket",
+      "text": "jaka"
+    },
+    "vocab-0163": {
+      "conceptId": "vocab-0163",
+      "meaning": "shirt",
+      "text": "krekls"
+    },
+    "vocab-0164": {
+      "conceptId": "vocab-0164",
+      "meaning": "trousers",
+      "text": "bikses"
+    },
+    "vocab-0165": {
+      "conceptId": "vocab-0165",
+      "meaning": "dress",
+      "text": "kleita"
+    },
+    "vocab-0166": {
+      "conceptId": "vocab-0166",
+      "meaning": "socks",
+      "text": "zeķes"
+    },
+    "vocab-0167": {
+      "conceptId": "vocab-0167",
+      "meaning": "footwear",
+      "text": "apavi"
+    },
+    "vocab-0168": {
+      "conceptId": "vocab-0168",
+      "meaning": "hat",
+      "text": "cepure"
+    },
+    "vocab-0169": {
+      "conceptId": "vocab-0169",
+      "meaning": "scarf",
+      "text": "šalle"
+    },
+    "vocab-0170": {
+      "conceptId": "vocab-0170",
+      "meaning": "gloves",
+      "text": "cimdi"
+    },
+    "vocab-0171": {
+      "conceptId": "vocab-0171",
+      "meaning": "phone",
+      "text": "tālrunis"
+    },
+    "vocab-0172": {
+      "conceptId": "vocab-0172",
+      "meaning": "computer",
+      "text": "dators"
+    },
+    "vocab-0173": {
+      "conceptId": "vocab-0173",
+      "meaning": "screen",
+      "text": "ekrāns"
+    },
+    "vocab-0174": {
+      "conceptId": "vocab-0174",
+      "meaning": "keyboard",
+      "text": "tastatūra"
+    },
+    "vocab-0175": {
+      "conceptId": "vocab-0175",
+      "meaning": "mouse",
+      "text": "datorpele"
+    },
+    "vocab-0176": {
+      "conceptId": "vocab-0176",
+      "meaning": "charger",
+      "text": "lādētājs"
+    },
+    "vocab-0177": {
+      "conceptId": "vocab-0177",
+      "meaning": "battery",
+      "text": "baterija"
+    },
+    "vocab-0178": {
+      "conceptId": "vocab-0178",
+      "meaning": "message",
+      "text": "ziņa"
+    },
+    "vocab-0179": {
+      "conceptId": "vocab-0179",
+      "meaning": "photo",
+      "text": "fotogrāfija"
+    },
+    "vocab-0180": {
+      "conceptId": "vocab-0180",
+      "meaning": "internet",
+      "text": "internets"
+    },
+    "vocab-0181": {
+      "conceptId": "vocab-0181",
+      "meaning": "door",
+      "text": "durvis"
+    },
+    "vocab-0182": {
+      "conceptId": "vocab-0182",
+      "meaning": "window",
+      "text": "logs"
+    },
+    "vocab-0183": {
+      "conceptId": "vocab-0183",
+      "meaning": "wall",
+      "text": "siena"
+    },
+    "vocab-0184": {
+      "conceptId": "vocab-0184",
+      "meaning": "floor",
+      "text": "grīda"
+    },
+    "vocab-0185": {
+      "conceptId": "vocab-0185",
+      "meaning": "ceiling",
+      "text": "griesti"
+    },
+    "vocab-0186": {
+      "conceptId": "vocab-0186",
+      "meaning": "roof",
+      "text": "jumts"
+    },
+    "vocab-0187": {
+      "conceptId": "vocab-0187",
+      "meaning": "stairs",
+      "text": "kāpnes"
+    },
+    "vocab-0188": {
+      "conceptId": "vocab-0188",
+      "meaning": "room",
+      "text": "istaba"
+    },
+    "vocab-0189": {
+      "conceptId": "vocab-0189",
+      "meaning": "kitchen",
+      "text": "virtuve"
+    },
+    "vocab-0190": {
+      "conceptId": "vocab-0190",
+      "meaning": "bathroom",
+      "text": "vannasistaba"
+    },
+    "vocab-0191": {
+      "conceptId": "vocab-0191",
+      "meaning": "bed",
+      "text": "gulta"
+    },
+    "vocab-0192": {
+      "conceptId": "vocab-0192",
+      "meaning": "table",
+      "text": "galds"
+    },
+    "vocab-0193": {
+      "conceptId": "vocab-0193",
+      "meaning": "sofa",
+      "text": "dīvāns"
+    },
+    "vocab-0194": {
+      "conceptId": "vocab-0194",
+      "meaning": "wardrobe",
+      "text": "skapis"
+    },
+    "vocab-0195": {
+      "conceptId": "vocab-0195",
+      "meaning": "shelf",
+      "text": "plaukts"
+    },
+    "vocab-0196": {
+      "conceptId": "vocab-0196",
+      "meaning": "mirror",
+      "text": "spogulis"
+    },
+    "vocab-0197": {
+      "conceptId": "vocab-0197",
+      "meaning": "lamp",
+      "text": "lampa"
+    },
+    "vocab-0198": {
+      "conceptId": "vocab-0198",
+      "meaning": "carpet",
+      "text": "paklājs"
+    },
+    "vocab-0199": {
+      "conceptId": "vocab-0199",
+      "meaning": "blanket",
+      "text": "sega"
+    },
+    "vocab-0200": {
+      "conceptId": "vocab-0200",
+      "meaning": "pillow",
+      "text": "spilvens"
+    },
+    "vocab-0201": {
+      "conceptId": "vocab-0201",
+      "meaning": "plate",
+      "text": "šķīvis"
+    },
+    "vocab-0202": {
+      "conceptId": "vocab-0202",
+      "meaning": "cup",
+      "text": "tase"
+    },
+    "vocab-0203": {
+      "conceptId": "vocab-0203",
+      "meaning": "glass",
+      "text": "glāze"
+    },
+    "vocab-0204": {
+      "conceptId": "vocab-0204",
+      "meaning": "bowl",
+      "text": "bļoda"
+    },
+    "vocab-0205": {
+      "conceptId": "vocab-0205",
+      "meaning": "spoon",
+      "text": "karote"
+    },
+    "vocab-0206": {
+      "conceptId": "vocab-0206",
+      "meaning": "fork",
+      "text": "dakša"
+    },
+    "vocab-0207": {
+      "conceptId": "vocab-0207",
+      "meaning": "knife",
+      "text": "nazis"
+    },
+    "vocab-0208": {
+      "conceptId": "vocab-0208",
+      "meaning": "bottle",
+      "text": "pudele"
+    },
+    "vocab-0209": {
+      "conceptId": "vocab-0209",
+      "meaning": "pot",
+      "text": "katls"
+    },
+    "vocab-0210": {
+      "conceptId": "vocab-0210",
+      "meaning": "pan",
+      "text": "panna"
+    },
+    "vocab-0211": {
+      "conceptId": "vocab-0211",
+      "meaning": "soap",
+      "text": "ziepes"
+    },
+    "vocab-0212": {
+      "conceptId": "vocab-0212",
+      "meaning": "towel",
+      "text": "dvielis"
+    },
+    "vocab-0213": {
+      "conceptId": "vocab-0213",
+      "meaning": "toothbrush",
+      "text": "zobu suka"
+    },
+    "vocab-0214": {
+      "conceptId": "vocab-0214",
+      "meaning": "toothpaste",
+      "text": "zobu pasta"
+    },
+    "vocab-0215": {
+      "conceptId": "vocab-0215",
+      "meaning": "shampoo",
+      "text": "šampūns"
+    },
+    "vocab-0216": {
+      "conceptId": "vocab-0216",
+      "meaning": "comb",
+      "text": "ķemme"
+    },
+    "vocab-0217": {
+      "conceptId": "vocab-0217",
+      "meaning": "shower",
+      "text": "duša"
+    },
+    "vocab-0218": {
+      "conceptId": "vocab-0218",
+      "meaning": "bath",
+      "text": "vanna"
+    },
+    "vocab-0219": {
+      "conceptId": "vocab-0219",
+      "meaning": "toilet paper",
+      "text": "tualetes papīrs"
+    },
+    "vocab-0220": {
+      "conceptId": "vocab-0220",
+      "meaning": "tissue",
+      "text": "papīra kabatlakatiņš"
+    },
+    "vocab-0221": {
+      "conceptId": "vocab-0221",
+      "meaning": "pear",
+      "text": "bumbieris"
+    },
+    "vocab-0222": {
+      "conceptId": "vocab-0222",
+      "meaning": "orange",
+      "text": "apelsīns"
+    },
+    "vocab-0223": {
+      "conceptId": "vocab-0223",
+      "meaning": "lemon",
+      "text": "citrons"
+    },
+    "vocab-0224": {
+      "conceptId": "vocab-0224",
+      "meaning": "grapes",
+      "text": "vīnogas"
+    },
+    "vocab-0225": {
+      "conceptId": "vocab-0225",
+      "meaning": "strawberry",
+      "text": "zemene"
+    },
+    "vocab-0226": {
+      "conceptId": "vocab-0226",
+      "meaning": "raspberry",
+      "text": "avene"
+    },
+    "vocab-0227": {
+      "conceptId": "vocab-0227",
+      "meaning": "cherry",
+      "text": "ķirsis"
+    },
+    "vocab-0228": {
+      "conceptId": "vocab-0228",
+      "meaning": "plum",
+      "text": "plūme"
+    },
+    "vocab-0229": {
+      "conceptId": "vocab-0229",
+      "meaning": "peach",
+      "text": "persiks"
+    },
+    "vocab-0230": {
+      "conceptId": "vocab-0230",
+      "meaning": "watermelon",
+      "text": "arbūzs"
+    },
+    "vocab-0231": {
+      "conceptId": "vocab-0231",
+      "meaning": "potato",
+      "text": "kartupelis"
+    },
+    "vocab-0232": {
+      "conceptId": "vocab-0232",
+      "meaning": "carrot",
+      "text": "burkāns"
+    },
+    "vocab-0233": {
+      "conceptId": "vocab-0233",
+      "meaning": "tomato",
+      "text": "tomāts"
+    },
+    "vocab-0234": {
+      "conceptId": "vocab-0234",
+      "meaning": "cucumber",
+      "text": "gurķis"
+    },
+    "vocab-0235": {
+      "conceptId": "vocab-0235",
+      "meaning": "onion",
+      "text": "sīpols"
+    },
+    "vocab-0236": {
+      "conceptId": "vocab-0236",
+      "meaning": "garlic",
+      "text": "ķiploks"
+    },
+    "vocab-0237": {
+      "conceptId": "vocab-0237",
+      "meaning": "cabbage",
+      "text": "kāposts"
+    },
+    "vocab-0238": {
+      "conceptId": "vocab-0238",
+      "meaning": "pepper",
+      "text": "paprika"
+    },
+    "vocab-0239": {
+      "conceptId": "vocab-0239",
+      "meaning": "peas",
+      "text": "zirņi"
+    },
+    "vocab-0240": {
+      "conceptId": "vocab-0240",
+      "meaning": "beans",
+      "text": "pupas"
+    },
+    "vocab-0241": {
+      "conceptId": "vocab-0241",
+      "meaning": "rice",
+      "text": "rīsi"
+    },
+    "vocab-0242": {
+      "conceptId": "vocab-0242",
+      "meaning": "pasta",
+      "text": "makaroni"
+    },
+    "vocab-0243": {
+      "conceptId": "vocab-0243",
+      "meaning": "meat",
+      "text": "gaļa"
+    },
+    "vocab-0244": {
+      "conceptId": "vocab-0244",
+      "meaning": "chicken meat",
+      "text": "vistas gaļa"
+    },
+    "vocab-0245": {
+      "conceptId": "vocab-0245",
+      "meaning": "fish",
+      "text": "zivs"
+    },
+    "vocab-0246": {
+      "conceptId": "vocab-0246",
+      "meaning": "egg",
+      "text": "ola"
+    },
+    "vocab-0247": {
+      "conceptId": "vocab-0247",
+      "meaning": "butter",
+      "text": "sviests"
+    },
+    "vocab-0248": {
+      "conceptId": "vocab-0248",
+      "meaning": "yogurt",
+      "text": "jogurts"
+    },
+    "vocab-0249": {
+      "conceptId": "vocab-0249",
+      "meaning": "salt",
+      "text": "sāls"
+    },
+    "vocab-0250": {
+      "conceptId": "vocab-0250",
+      "meaning": "sugar",
+      "text": "cukurs"
+    },
+    "vocab-0251": {
+      "conceptId": "vocab-0251",
+      "meaning": "lunch",
+      "text": "pusdienas"
+    },
+    "vocab-0252": {
+      "conceptId": "vocab-0252",
+      "meaning": "dinner",
+      "text": "vakariņas"
+    },
+    "vocab-0253": {
+      "conceptId": "vocab-0253",
+      "meaning": "snack",
+      "text": "uzkoda"
+    },
+    "vocab-0254": {
+      "conceptId": "vocab-0254",
+      "meaning": "sandwich",
+      "text": "sviestmaize"
+    },
+    "vocab-0255": {
+      "conceptId": "vocab-0255",
+      "meaning": "salad",
+      "text": "salāti"
+    },
+    "vocab-0256": {
+      "conceptId": "vocab-0256",
+      "meaning": "porridge",
+      "text": "putra"
+    },
+    "vocab-0257": {
+      "conceptId": "vocab-0257",
+      "meaning": "cereal",
+      "text": "brokastu pārslas"
+    },
+    "vocab-0258": {
+      "conceptId": "vocab-0258",
+      "meaning": "pancake",
+      "text": "pankūka"
+    },
+    "vocab-0259": {
+      "conceptId": "vocab-0259",
+      "meaning": "cake",
+      "text": "kūka"
+    },
+    "vocab-0260": {
+      "conceptId": "vocab-0260",
+      "meaning": "ice cream",
+      "text": "saldējums"
+    },
+    "vocab-0261": {
+      "conceptId": "vocab-0261",
+      "meaning": "please help",
+      "text": "palīdziet lūdzu"
+    },
+    "vocab-0262": {
+      "conceptId": "vocab-0262",
+      "meaning": "a little more",
+      "text": "vēl mazliet"
+    },
+    "vocab-0263": {
+      "conceptId": "vocab-0263",
+      "meaning": "more slowly",
+      "text": "lēnāk"
+    },
+    "vocab-0264": {
+      "conceptId": "vocab-0264",
+      "meaning": "not now",
+      "text": "ne tagad"
+    },
+    "vocab-0265": {
+      "conceptId": "vocab-0265",
+      "meaning": "no thank you",
+      "text": "nē paldies"
+    },
+    "vocab-0266": {
+      "conceptId": "vocab-0266",
+      "meaning": "excuse me",
+      "text": "atvainojiet"
+    },
+    "vocab-0267": {
+      "conceptId": "vocab-0267",
+      "meaning": "good luck",
+      "text": "lai veicas"
+    },
+    "vocab-0268": {
+      "conceptId": "vocab-0268",
+      "meaning": "well done",
+      "text": "malacis"
+    },
+    "vocab-0269": {
+      "conceptId": "vocab-0269",
+      "meaning": "good afternoon",
+      "text": "labdien"
+    },
+    "vocab-0270": {
+      "conceptId": "vocab-0270",
+      "meaning": "with pleasure",
+      "text": "ar prieku"
+    },
+    "vocab-0271": {
+      "conceptId": "vocab-0271",
+      "meaning": "money",
+      "text": "nauda"
+    },
+    "vocab-0272": {
+      "conceptId": "vocab-0272",
+      "meaning": "price",
+      "text": "cena"
+    },
+    "vocab-0273": {
+      "conceptId": "vocab-0273",
+      "meaning": "change",
+      "text": "atlikums"
+    },
+    "vocab-0274": {
+      "conceptId": "vocab-0274",
+      "meaning": "receipt",
+      "text": "čeks"
+    },
+    "vocab-0275": {
+      "conceptId": "vocab-0275",
+      "meaning": "checkout",
+      "text": "kase"
+    },
+    "vocab-0276": {
+      "conceptId": "vocab-0276",
+      "meaning": "basket",
+      "text": "grozs"
+    },
+    "vocab-0277": {
+      "conceptId": "vocab-0277",
+      "meaning": "bag",
+      "text": "soma"
+    },
+    "vocab-0278": {
+      "conceptId": "vocab-0278",
+      "meaning": "size",
+      "text": "izmērs"
+    },
+    "vocab-0279": {
+      "conceptId": "vocab-0279",
+      "meaning": "discount",
+      "text": "atlaide"
+    },
+    "vocab-0280": {
+      "conceptId": "vocab-0280",
+      "meaning": "card",
+      "text": "karte"
+    },
+    "vocab-0281": {
+      "conceptId": "vocab-0281",
+      "meaning": "zero",
+      "text": "nulle"
+    },
+    "vocab-0282": {
+      "conceptId": "vocab-0282",
+      "meaning": "eleven",
+      "text": "vienpadsmit"
+    },
+    "vocab-0283": {
+      "conceptId": "vocab-0283",
+      "meaning": "twelve",
+      "text": "divpadsmit"
+    },
+    "vocab-0284": {
+      "conceptId": "vocab-0284",
+      "meaning": "thirteen",
+      "text": "trīspadsmit"
+    },
+    "vocab-0285": {
+      "conceptId": "vocab-0285",
+      "meaning": "fourteen",
+      "text": "četrpadsmit"
+    },
+    "vocab-0286": {
+      "conceptId": "vocab-0286",
+      "meaning": "fifteen",
+      "text": "piecpadsmit"
+    },
+    "vocab-0287": {
+      "conceptId": "vocab-0287",
+      "meaning": "sixteen",
+      "text": "sešpadsmit"
+    },
+    "vocab-0288": {
+      "conceptId": "vocab-0288",
+      "meaning": "seventeen",
+      "text": "septiņpadsmit"
+    },
+    "vocab-0289": {
+      "conceptId": "vocab-0289",
+      "meaning": "eighteen",
+      "text": "astoņpadsmit"
+    },
+    "vocab-0290": {
+      "conceptId": "vocab-0290",
+      "meaning": "nineteen",
+      "text": "deviņpadsmit"
+    },
+    "vocab-0291": {
+      "conceptId": "vocab-0291",
+      "meaning": "twenty",
+      "text": "divdesmit"
+    },
+    "vocab-0292": {
+      "conceptId": "vocab-0292",
+      "meaning": "thirty",
+      "text": "trīsdesmit"
+    },
+    "vocab-0293": {
+      "conceptId": "vocab-0293",
+      "meaning": "forty",
+      "text": "četrdesmit"
+    },
+    "vocab-0294": {
+      "conceptId": "vocab-0294",
+      "meaning": "fifty",
+      "text": "piecdesmit"
+    },
+    "vocab-0295": {
+      "conceptId": "vocab-0295",
+      "meaning": "sixty",
+      "text": "sešdesmit"
+    },
+    "vocab-0296": {
+      "conceptId": "vocab-0296",
+      "meaning": "seventy",
+      "text": "septiņdesmit"
+    },
+    "vocab-0297": {
+      "conceptId": "vocab-0297",
+      "meaning": "eighty",
+      "text": "astoņdesmit"
+    },
+    "vocab-0298": {
+      "conceptId": "vocab-0298",
+      "meaning": "ninety",
+      "text": "deviņdesmit"
+    },
+    "vocab-0299": {
+      "conceptId": "vocab-0299",
+      "meaning": "hundred",
+      "text": "simts"
+    },
+    "vocab-0300": {
+      "conceptId": "vocab-0300",
+      "meaning": "thousand",
+      "text": "tūkstotis"
+    },
+    "vocab-0301": {
+      "conceptId": "vocab-0301",
+      "meaning": "day",
+      "text": "diena"
+    },
+    "vocab-0302": {
+      "conceptId": "vocab-0302",
+      "meaning": "night",
+      "text": "nakts"
+    },
+    "vocab-0303": {
+      "conceptId": "vocab-0303",
+      "meaning": "morning",
+      "text": "rīts"
+    },
+    "vocab-0304": {
+      "conceptId": "vocab-0304",
+      "meaning": "evening",
+      "text": "vakars"
+    },
+    "vocab-0305": {
+      "conceptId": "vocab-0305",
+      "meaning": "today",
+      "text": "šodien"
+    },
+    "vocab-0306": {
+      "conceptId": "vocab-0306",
+      "meaning": "tomorrow",
+      "text": "rīt"
+    },
+    "vocab-0307": {
+      "conceptId": "vocab-0307",
+      "meaning": "yesterday",
+      "text": "vakar"
+    },
+    "vocab-0308": {
+      "conceptId": "vocab-0308",
+      "meaning": "week",
+      "text": "nedēļa"
+    },
+    "vocab-0309": {
+      "conceptId": "vocab-0309",
+      "meaning": "month",
+      "text": "mēnesis"
+    },
+    "vocab-0310": {
+      "conceptId": "vocab-0310",
+      "meaning": "year",
+      "text": "gads"
+    },
+    "vocab-0311": {
+      "conceptId": "vocab-0311",
+      "meaning": "Monday",
+      "text": "pirmdiena"
+    },
+    "vocab-0312": {
+      "conceptId": "vocab-0312",
+      "meaning": "Tuesday",
+      "text": "otrdiena"
+    },
+    "vocab-0313": {
+      "conceptId": "vocab-0313",
+      "meaning": "Wednesday",
+      "text": "trešdiena"
+    },
+    "vocab-0314": {
+      "conceptId": "vocab-0314",
+      "meaning": "Thursday",
+      "text": "ceturtdiena"
+    },
+    "vocab-0315": {
+      "conceptId": "vocab-0315",
+      "meaning": "Friday",
+      "text": "piektdiena"
+    },
+    "vocab-0316": {
+      "conceptId": "vocab-0316",
+      "meaning": "Saturday",
+      "text": "sestdiena"
+    },
+    "vocab-0317": {
+      "conceptId": "vocab-0317",
+      "meaning": "Sunday",
+      "text": "svētdiena"
+    },
+    "vocab-0318": {
+      "conceptId": "vocab-0318",
+      "meaning": "weekend",
+      "text": "nedēļas nogale"
+    },
+    "vocab-0319": {
+      "conceptId": "vocab-0319",
+      "meaning": "hour",
+      "text": "stunda"
+    },
+    "vocab-0320": {
+      "conceptId": "vocab-0320",
+      "meaning": "minute",
+      "text": "minūte"
+    },
+    "vocab-0321": {
+      "conceptId": "vocab-0321",
+      "meaning": "January",
+      "text": "janvāris"
+    },
+    "vocab-0322": {
+      "conceptId": "vocab-0322",
+      "meaning": "February",
+      "text": "februāris"
+    },
+    "vocab-0323": {
+      "conceptId": "vocab-0323",
+      "meaning": "March",
+      "text": "marts"
+    },
+    "vocab-0324": {
+      "conceptId": "vocab-0324",
+      "meaning": "April",
+      "text": "aprīlis"
+    },
+    "vocab-0325": {
+      "conceptId": "vocab-0325",
+      "meaning": "May",
+      "text": "maijs"
+    },
+    "vocab-0326": {
+      "conceptId": "vocab-0326",
+      "meaning": "June",
+      "text": "jūnijs"
+    },
+    "vocab-0327": {
+      "conceptId": "vocab-0327",
+      "meaning": "July",
+      "text": "jūlijs"
+    },
+    "vocab-0328": {
+      "conceptId": "vocab-0328",
+      "meaning": "August",
+      "text": "augusts"
+    },
+    "vocab-0329": {
+      "conceptId": "vocab-0329",
+      "meaning": "September",
+      "text": "septembris"
+    },
+    "vocab-0330": {
+      "conceptId": "vocab-0330",
+      "meaning": "October",
+      "text": "oktobris"
+    },
+    "vocab-0331": {
+      "conceptId": "vocab-0331",
+      "meaning": "November",
+      "text": "novembris"
+    },
+    "vocab-0332": {
+      "conceptId": "vocab-0332",
+      "meaning": "December",
+      "text": "decembris"
+    },
+    "vocab-0333": {
+      "conceptId": "vocab-0333",
+      "meaning": "spring",
+      "text": "pavasaris"
+    },
+    "vocab-0334": {
+      "conceptId": "vocab-0334",
+      "meaning": "summer",
+      "text": "vasara"
+    },
+    "vocab-0335": {
+      "conceptId": "vocab-0335",
+      "meaning": "autumn",
+      "text": "rudens"
+    },
+    "vocab-0336": {
+      "conceptId": "vocab-0336",
+      "meaning": "winter",
+      "text": "ziema"
+    },
+    "vocab-0337": {
+      "conceptId": "vocab-0337",
+      "meaning": "season",
+      "text": "gadalaiks"
+    },
+    "vocab-0338": {
+      "conceptId": "vocab-0338",
+      "meaning": "weather",
+      "text": "laikapstākļi"
+    },
+    "vocab-0339": {
+      "conceptId": "vocab-0339",
+      "meaning": "sun",
+      "text": "saule"
+    },
+    "vocab-0340": {
+      "conceptId": "vocab-0340",
+      "meaning": "moon",
+      "text": "mēness"
+    },
+    "vocab-0341": {
+      "conceptId": "vocab-0341",
+      "meaning": "rain",
+      "text": "lietus"
+    },
+    "vocab-0342": {
+      "conceptId": "vocab-0342",
+      "meaning": "snow",
+      "text": "sniegs"
+    },
+    "vocab-0343": {
+      "conceptId": "vocab-0343",
+      "meaning": "wind",
+      "text": "vējš"
+    },
+    "vocab-0344": {
+      "conceptId": "vocab-0344",
+      "meaning": "cloud",
+      "text": "mākonis"
+    },
+    "vocab-0345": {
+      "conceptId": "vocab-0345",
+      "meaning": "fog",
+      "text": "migla"
+    },
+    "vocab-0346": {
+      "conceptId": "vocab-0346",
+      "meaning": "ice",
+      "text": "ledus"
+    },
+    "vocab-0347": {
+      "conceptId": "vocab-0347",
+      "meaning": "thunder",
+      "text": "pērkons"
+    },
+    "vocab-0348": {
+      "conceptId": "vocab-0348",
+      "meaning": "storm",
+      "text": "vētra"
+    },
+    "vocab-0349": {
+      "conceptId": "vocab-0349",
+      "meaning": "rainbow",
+      "text": "varavīksne"
+    },
+    "vocab-0350": {
+      "conceptId": "vocab-0350",
+      "meaning": "temperature",
+      "text": "temperatūra"
+    },
+    "vocab-0351": {
+      "conceptId": "vocab-0351",
+      "meaning": "tree",
+      "text": "koks"
+    },
+    "vocab-0352": {
+      "conceptId": "vocab-0352",
+      "meaning": "flower",
+      "text": "puķe"
+    },
+    "vocab-0353": {
+      "conceptId": "vocab-0353",
+      "meaning": "grass",
+      "text": "zāle"
+    },
+    "vocab-0354": {
+      "conceptId": "vocab-0354",
+      "meaning": "leaf",
+      "text": "lapa"
+    },
+    "vocab-0355": {
+      "conceptId": "vocab-0355",
+      "meaning": "forest",
+      "text": "mežs"
+    },
+    "vocab-0356": {
+      "conceptId": "vocab-0356",
+      "meaning": "river",
+      "text": "upe"
+    },
+    "vocab-0357": {
+      "conceptId": "vocab-0357",
+      "meaning": "lake",
+      "text": "ezers"
+    },
+    "vocab-0358": {
+      "conceptId": "vocab-0358",
+      "meaning": "sea",
+      "text": "jūra"
+    },
+    "vocab-0359": {
+      "conceptId": "vocab-0359",
+      "meaning": "beach",
+      "text": "pludmale"
+    },
+    "vocab-0360": {
+      "conceptId": "vocab-0360",
+      "meaning": "stone",
+      "text": "akmens"
+    },
+    "vocab-0361": {
+      "conceptId": "vocab-0361",
+      "meaning": "dog",
+      "text": "suns"
+    },
+    "vocab-0362": {
+      "conceptId": "vocab-0362",
+      "meaning": "cat",
+      "text": "kaķis"
+    },
+    "vocab-0363": {
+      "conceptId": "vocab-0363",
+      "meaning": "horse",
+      "text": "zirgs"
+    },
+    "vocab-0364": {
+      "conceptId": "vocab-0364",
+      "meaning": "cow",
+      "text": "govs"
+    },
+    "vocab-0365": {
+      "conceptId": "vocab-0365",
+      "meaning": "pig",
+      "text": "cūka"
+    },
+    "vocab-0366": {
+      "conceptId": "vocab-0366",
+      "meaning": "sheep",
+      "text": "aita"
+    },
+    "vocab-0367": {
+      "conceptId": "vocab-0367",
+      "meaning": "goat",
+      "text": "kaza"
+    },
+    "vocab-0368": {
+      "conceptId": "vocab-0368",
+      "meaning": "hen",
+      "text": "vista"
+    },
+    "vocab-0369": {
+      "conceptId": "vocab-0369",
+      "meaning": "duck",
+      "text": "pīle"
+    },
+    "vocab-0370": {
+      "conceptId": "vocab-0370",
+      "meaning": "bird",
+      "text": "putns"
+    },
+    "vocab-0371": {
+      "conceptId": "vocab-0371",
+      "meaning": "bus",
+      "text": "autobuss"
+    },
+    "vocab-0372": {
+      "conceptId": "vocab-0372",
+      "meaning": "tram",
+      "text": "tramvajs"
+    },
+    "vocab-0373": {
+      "conceptId": "vocab-0373",
+      "meaning": "trolleybus",
+      "text": "trolejbuss"
+    },
+    "vocab-0374": {
+      "conceptId": "vocab-0374",
+      "meaning": "train",
+      "text": "vilciens"
+    },
+    "vocab-0375": {
+      "conceptId": "vocab-0375",
+      "meaning": "car",
+      "text": "automašīna"
+    },
+    "vocab-0376": {
+      "conceptId": "vocab-0376",
+      "meaning": "bicycle",
+      "text": "velosipēds"
+    },
+    "vocab-0377": {
+      "conceptId": "vocab-0377",
+      "meaning": "taxi",
+      "text": "taksometrs"
+    },
+    "vocab-0378": {
+      "conceptId": "vocab-0378",
+      "meaning": "station",
+      "text": "stacija"
+    },
+    "vocab-0379": {
+      "conceptId": "vocab-0379",
+      "meaning": "airport",
+      "text": "lidosta"
+    },
+    "vocab-0380": {
+      "conceptId": "vocab-0380",
+      "meaning": "ticket",
+      "text": "biļete"
+    },
+    "vocab-0381": {
+      "conceptId": "vocab-0381",
+      "meaning": "road",
+      "text": "ceļš"
+    },
+    "vocab-0382": {
+      "conceptId": "vocab-0382",
+      "meaning": "bridge",
+      "text": "tilts"
+    },
+    "vocab-0383": {
+      "conceptId": "vocab-0383",
+      "meaning": "pedestrian crossing",
+      "text": "gājēju pāreja"
+    },
+    "vocab-0384": {
+      "conceptId": "vocab-0384",
+      "meaning": "traffic lights",
+      "text": "luksofors"
+    },
+    "vocab-0385": {
+      "conceptId": "vocab-0385",
+      "meaning": "pavement",
+      "text": "ietve"
+    },
+    "vocab-0386": {
+      "conceptId": "vocab-0386",
+      "meaning": "corner",
+      "text": "stūris"
+    },
+    "vocab-0387": {
+      "conceptId": "vocab-0387",
+      "meaning": "square",
+      "text": "laukums"
+    },
+    "vocab-0388": {
+      "conceptId": "vocab-0388",
+      "meaning": "centre",
+      "text": "centrs"
+    },
+    "vocab-0389": {
+      "conceptId": "vocab-0389",
+      "meaning": "address",
+      "text": "adrese"
+    },
+    "vocab-0390": {
+      "conceptId": "vocab-0390",
+      "meaning": "city map",
+      "text": "pilsētas karte"
+    },
+    "vocab-0391": {
+      "conceptId": "vocab-0391",
+      "meaning": "schoolbag",
+      "text": "skolas soma"
+    },
+    "vocab-0392": {
+      "conceptId": "vocab-0392",
+      "meaning": "ruler",
+      "text": "lineāls"
+    },
+    "vocab-0393": {
+      "conceptId": "vocab-0393",
+      "meaning": "eraser",
+      "text": "dzēšgumija"
+    },
+    "vocab-0394": {
+      "conceptId": "vocab-0394",
+      "meaning": "scissors",
+      "text": "šķēres"
+    },
+    "vocab-0395": {
+      "conceptId": "vocab-0395",
+      "meaning": "glue",
+      "text": "līme"
+    },
+    "vocab-0396": {
+      "conceptId": "vocab-0396",
+      "meaning": "paper",
+      "text": "papīrs"
+    },
+    "vocab-0397": {
+      "conceptId": "vocab-0397",
+      "meaning": "paint",
+      "text": "krāsa"
+    },
+    "vocab-0398": {
+      "conceptId": "vocab-0398",
+      "meaning": "brush",
+      "text": "ota"
+    },
+    "vocab-0399": {
+      "conceptId": "vocab-0399",
+      "meaning": "drawing",
+      "text": "zīmējums"
+    },
+    "vocab-0400": {
+      "conceptId": "vocab-0400",
+      "meaning": "homework",
+      "text": "mājasdarbs"
+    },
+    "vocab-0401": {
+      "conceptId": "vocab-0401",
+      "meaning": "letter",
+      "text": "burts"
+    },
+    "vocab-0402": {
+      "conceptId": "vocab-0402",
+      "meaning": "word",
+      "text": "vārds"
+    },
+    "vocab-0403": {
+      "conceptId": "vocab-0403",
+      "meaning": "phrase",
+      "text": "frāze"
+    },
+    "vocab-0404": {
+      "conceptId": "vocab-0404",
+      "meaning": "sentence",
+      "text": "teikums"
+    },
+    "vocab-0405": {
+      "conceptId": "vocab-0405",
+      "meaning": "question",
+      "text": "jautājums"
+    },
+    "vocab-0406": {
+      "conceptId": "vocab-0406",
+      "meaning": "answer",
+      "text": "atbilde"
+    },
+    "vocab-0407": {
+      "conceptId": "vocab-0407",
+      "meaning": "page",
+      "text": "lappuse"
+    },
+    "vocab-0408": {
+      "conceptId": "vocab-0408",
+      "meaning": "exercise",
+      "text": "uzdevums"
+    },
+    "vocab-0409": {
+      "conceptId": "vocab-0409",
+      "meaning": "example",
+      "text": "piemērs"
+    },
+    "vocab-0410": {
+      "conceptId": "vocab-0410",
+      "meaning": "mistake",
+      "text": "kļūda"
+    },
+    "vocab-0411": {
+      "conceptId": "vocab-0411",
+      "meaning": "to go",
+      "text": "iet"
+    },
+    "vocab-0412": {
+      "conceptId": "vocab-0412",
+      "meaning": "to come",
+      "text": "nākt"
+    },
+    "vocab-0413": {
+      "conceptId": "vocab-0413",
+      "meaning": "to walk",
+      "text": "staigāt"
+    },
+    "vocab-0414": {
+      "conceptId": "vocab-0414",
+      "meaning": "to run",
+      "text": "skriet"
+    },
+    "vocab-0415": {
+      "conceptId": "vocab-0415",
+      "meaning": "to sit",
+      "text": "sēdēt"
+    },
+    "vocab-0416": {
+      "conceptId": "vocab-0416",
+      "meaning": "to stand",
+      "text": "stāvēt"
+    },
+    "vocab-0417": {
+      "conceptId": "vocab-0417",
+      "meaning": "to sleep",
+      "text": "gulēt"
+    },
+    "vocab-0418": {
+      "conceptId": "vocab-0418",
+      "meaning": "to wake up",
+      "text": "pamosties"
+    },
+    "vocab-0419": {
+      "conceptId": "vocab-0419",
+      "meaning": "to eat",
+      "text": "ēst"
+    },
+    "vocab-0420": {
+      "conceptId": "vocab-0420",
+      "meaning": "to drink",
+      "text": "dzert"
+    },
+    "vocab-0421": {
+      "conceptId": "vocab-0421",
+      "meaning": "to speak a language",
+      "text": "runāt valodā"
+    },
+    "vocab-0422": {
+      "conceptId": "vocab-0422",
+      "meaning": "to say a word",
+      "text": "pateikt vārdu"
+    },
+    "vocab-0423": {
+      "conceptId": "vocab-0423",
+      "meaning": "to ask",
+      "text": "jautāt"
+    },
+    "vocab-0424": {
+      "conceptId": "vocab-0424",
+      "meaning": "to answer",
+      "text": "atbildēt"
+    },
+    "vocab-0425": {
+      "conceptId": "vocab-0425",
+      "meaning": "to listen",
+      "text": "klausīties"
+    },
+    "vocab-0426": {
+      "conceptId": "vocab-0426",
+      "meaning": "to hear",
+      "text": "dzirdēt"
+    },
+    "vocab-0427": {
+      "conceptId": "vocab-0427",
+      "meaning": "to read",
+      "text": "lasīt"
+    },
+    "vocab-0428": {
+      "conceptId": "vocab-0428",
+      "meaning": "to write",
+      "text": "rakstīt"
+    },
+    "vocab-0429": {
+      "conceptId": "vocab-0429",
+      "meaning": "to learn",
+      "text": "mācīties"
+    },
+    "vocab-0430": {
+      "conceptId": "vocab-0430",
+      "meaning": "to understand",
+      "text": "saprast"
+    },
+    "vocab-0431": {
+      "conceptId": "vocab-0431",
+      "meaning": "to see",
+      "text": "redzēt"
+    },
+    "vocab-0432": {
+      "conceptId": "vocab-0432",
+      "meaning": "to look at",
+      "text": "skatīties uz"
+    },
+    "vocab-0433": {
+      "conceptId": "vocab-0433",
+      "meaning": "to watch",
+      "text": "vērot"
+    },
+    "vocab-0434": {
+      "conceptId": "vocab-0434",
+      "meaning": "to find",
+      "text": "atrast"
+    },
+    "vocab-0435": {
+      "conceptId": "vocab-0435",
+      "meaning": "to search",
+      "text": "meklēt"
+    },
+    "vocab-0436": {
+      "conceptId": "vocab-0436",
+      "meaning": "to take",
+      "text": "ņemt"
+    },
+    "vocab-0437": {
+      "conceptId": "vocab-0437",
+      "meaning": "to give",
+      "text": "dot"
+    },
+    "vocab-0438": {
+      "conceptId": "vocab-0438",
+      "meaning": "to bring",
+      "text": "atnest"
+    },
+    "vocab-0439": {
+      "conceptId": "vocab-0439",
+      "meaning": "to buy",
+      "text": "pirkt"
+    },
+    "vocab-0440": {
+      "conceptId": "vocab-0440",
+      "meaning": "to pay",
+      "text": "maksāt"
+    },
+    "vocab-0441": {
+      "conceptId": "vocab-0441",
+      "meaning": "to open",
+      "text": "atvērt"
+    },
+    "vocab-0442": {
+      "conceptId": "vocab-0442",
+      "meaning": "to close",
+      "text": "aizvērt"
+    },
+    "vocab-0443": {
+      "conceptId": "vocab-0443",
+      "meaning": "to start",
+      "text": "sākt"
+    },
+    "vocab-0444": {
+      "conceptId": "vocab-0444",
+      "meaning": "to finish",
+      "text": "pabeigt"
+    },
+    "vocab-0445": {
+      "conceptId": "vocab-0445",
+      "meaning": "to wait",
+      "text": "gaidīt"
+    },
+    "vocab-0446": {
+      "conceptId": "vocab-0446",
+      "meaning": "to help",
+      "text": "palīdzēt"
+    },
+    "vocab-0447": {
+      "conceptId": "vocab-0447",
+      "meaning": "to play",
+      "text": "spēlēt"
+    },
+    "vocab-0448": {
+      "conceptId": "vocab-0448",
+      "meaning": "to work",
+      "text": "strādāt"
+    },
+    "vocab-0449": {
+      "conceptId": "vocab-0449",
+      "meaning": "to wash",
+      "text": "mazgāt"
+    },
+    "vocab-0450": {
+      "conceptId": "vocab-0450",
+      "meaning": "to clean",
+      "text": "tīrīt"
+    },
+    "vocab-0451": {
+      "conceptId": "vocab-0451",
+      "meaning": "big",
+      "text": "liels"
+    },
+    "vocab-0452": {
+      "conceptId": "vocab-0452",
+      "meaning": "small",
+      "text": "mazs"
+    },
+    "vocab-0453": {
+      "conceptId": "vocab-0453",
+      "meaning": "long",
+      "text": "garš"
+    },
+    "vocab-0454": {
+      "conceptId": "vocab-0454",
+      "meaning": "short",
+      "text": "īss"
+    },
+    "vocab-0455": {
+      "conceptId": "vocab-0455",
+      "meaning": "wide",
+      "text": "plats"
+    },
+    "vocab-0456": {
+      "conceptId": "vocab-0456",
+      "meaning": "narrow",
+      "text": "šaurs"
+    },
+    "vocab-0457": {
+      "conceptId": "vocab-0457",
+      "meaning": "high",
+      "text": "augsts"
+    },
+    "vocab-0458": {
+      "conceptId": "vocab-0458",
+      "meaning": "low",
+      "text": "zems"
+    },
+    "vocab-0459": {
+      "conceptId": "vocab-0459",
+      "meaning": "heavy",
+      "text": "smags"
+    },
+    "vocab-0460": {
+      "conceptId": "vocab-0460",
+      "meaning": "light",
+      "text": "viegls"
+    },
+    "vocab-0461": {
+      "conceptId": "vocab-0461",
+      "meaning": "good",
+      "text": "labs"
+    },
+    "vocab-0462": {
+      "conceptId": "vocab-0462",
+      "meaning": "bad",
+      "text": "slikts"
+    },
+    "vocab-0463": {
+      "conceptId": "vocab-0463",
+      "meaning": "new",
+      "text": "jauns"
+    },
+    "vocab-0464": {
+      "conceptId": "vocab-0464",
+      "meaning": "old",
+      "text": "vecs"
+    },
+    "vocab-0465": {
+      "conceptId": "vocab-0465",
+      "meaning": "clean",
+      "text": "tīrs"
+    },
+    "vocab-0466": {
+      "conceptId": "vocab-0466",
+      "meaning": "dirty",
+      "text": "netīrs"
+    },
+    "vocab-0467": {
+      "conceptId": "vocab-0467",
+      "meaning": "hot",
+      "text": "karsts"
+    },
+    "vocab-0468": {
+      "conceptId": "vocab-0468",
+      "meaning": "cold",
+      "text": "auksts"
+    },
+    "vocab-0469": {
+      "conceptId": "vocab-0469",
+      "meaning": "warm",
+      "text": "silts"
+    },
+    "vocab-0470": {
+      "conceptId": "vocab-0470",
+      "meaning": "cool",
+      "text": "vēss"
+    },
+    "vocab-0471": {
+      "conceptId": "vocab-0471",
+      "meaning": "red",
+      "text": "sarkans"
+    },
+    "vocab-0472": {
+      "conceptId": "vocab-0472",
+      "meaning": "blue",
+      "text": "zils"
+    },
+    "vocab-0473": {
+      "conceptId": "vocab-0473",
+      "meaning": "green",
+      "text": "zaļš"
+    },
+    "vocab-0474": {
+      "conceptId": "vocab-0474",
+      "meaning": "yellow",
+      "text": "dzeltens"
+    },
+    "vocab-0475": {
+      "conceptId": "vocab-0475",
+      "meaning": "black",
+      "text": "melns"
+    },
+    "vocab-0476": {
+      "conceptId": "vocab-0476",
+      "meaning": "white",
+      "text": "balts"
+    },
+    "vocab-0477": {
+      "conceptId": "vocab-0477",
+      "meaning": "grey",
+      "text": "pelēks"
+    },
+    "vocab-0478": {
+      "conceptId": "vocab-0478",
+      "meaning": "brown",
+      "text": "brūns"
+    },
+    "vocab-0479": {
+      "conceptId": "vocab-0479",
+      "meaning": "pink",
+      "text": "rozā"
+    },
+    "vocab-0480": {
+      "conceptId": "vocab-0480",
+      "meaning": "purple",
+      "text": "violets"
+    },
+    "vocab-0481": {
+      "conceptId": "vocab-0481",
+      "meaning": "and",
+      "text": "un"
+    },
+    "vocab-0482": {
+      "conceptId": "vocab-0482",
+      "meaning": "or",
+      "text": "vai"
+    },
+    "vocab-0483": {
+      "conceptId": "vocab-0483",
+      "meaning": "but",
+      "text": "bet"
+    },
+    "vocab-0484": {
+      "conceptId": "vocab-0484",
+      "meaning": "because",
+      "text": "jo"
+    },
+    "vocab-0485": {
+      "conceptId": "vocab-0485",
+      "meaning": "with me",
+      "text": "ar mani"
+    },
+    "vocab-0486": {
+      "conceptId": "vocab-0486",
+      "meaning": "without me",
+      "text": "bez manis"
+    },
+    "vocab-0487": {
+      "conceptId": "vocab-0487",
+      "meaning": "for you",
+      "text": "tev"
+    },
+    "vocab-0488": {
+      "conceptId": "vocab-0488",
+      "meaning": "from home",
+      "text": "no mājām"
+    },
+    "vocab-0489": {
+      "conceptId": "vocab-0489",
+      "meaning": "to school",
+      "text": "uz skolu"
+    },
+    "vocab-0490": {
+      "conceptId": "vocab-0490",
+      "meaning": "between us",
+      "text": "starp mums"
+    },
+    "vocab-0491": {
+      "conceptId": "vocab-0491",
+      "meaning": "I",
+      "text": "es"
+    },
+    "vocab-0492": {
+      "conceptId": "vocab-0492",
+      "meaning": "you",
+      "text": "tu"
+    },
+    "vocab-0493": {
+      "conceptId": "vocab-0493",
+      "meaning": "he",
+      "text": "viņš"
+    },
+    "vocab-0494": {
+      "conceptId": "vocab-0494",
+      "meaning": "she",
+      "text": "viņa"
+    },
+    "vocab-0495": {
+      "conceptId": "vocab-0495",
+      "meaning": "we",
+      "text": "mēs"
+    },
+    "vocab-0496": {
+      "conceptId": "vocab-0496",
+      "meaning": "they",
+      "text": "viņi"
+    },
+    "vocab-0497": {
+      "conceptId": "vocab-0497",
+      "meaning": "this",
+      "text": "šis"
+    },
+    "vocab-0498": {
+      "conceptId": "vocab-0498",
+      "meaning": "that",
+      "text": "tas"
+    },
+    "vocab-0499": {
+      "conceptId": "vocab-0499",
+      "meaning": "everything",
+      "text": "viss"
+    },
+    "vocab-0500": {
+      "conceptId": "vocab-0500",
+      "meaning": "nothing",
+      "text": "nekas"
     }
   },
   "ui": {
     "static": {
       "skip": "Pāriet uz uzdevumiem",
       "brand-name": "Valodu mācīšanās",
-      "badge": "Izmēģinājuma versija 0.3",
+      "badge": "Izmēģinājuma versija 0.4",
       "draft": "Mācību materiāls vēl jāpārbauda valodu pratējiem · skaņas pagaidām nav",
       "audience": "Valodas ikdienai · 10–17 gadiem",
       "welcome": "Mazliet prakses. Sāc ar pamatiem.",
@@ -551,16 +2551,56 @@
       "noscript": "Lai pildītu uzdevumus, ieslēdz JavaScript. Lejupielādētajam HTML failam konts un internets nav vajadzīgs."
     },
     "lessons": {
-      "essentials": "Svarīgākie vārdi",
-      "communication": "Saziņa un palīdzība",
-      "introductions": "Iepazīšanās",
-      "places": "Vietu atrašana",
-      "school": "Skolā",
-      "friends": "Nodarbības un draugi",
-      "shops": "Ēdnīcā un veikalā",
-      "directions": "Ceļa norādes",
-      "transport": "Sabiedriskais transports",
-      "safety": "Drošība un ārkārtas situācijas"
+      "basic-01": "Sasveicināšanās",
+      "basic-02": "Cilvēki",
+      "basic-03": "Skaitļi no viena līdz desmit",
+      "basic-04": "Noderīgi vārdi",
+      "basic-05": "Svarīgas vietas",
+      "basic-06": "Pārtika un dzērieni",
+      "basic-07": "Klasē",
+      "basic-08": "Virzieni",
+      "basic-09": "Drošība",
+      "basic-10": "Jautājumu vārdi",
+      "basic-11": "Radinieki",
+      "basic-12": "Cilvēki mums apkārt",
+      "basic-13": "Galva un seja",
+      "basic-14": "Ķermenis",
+      "basic-15": "Veselība",
+      "basic-16": "Sajūtas",
+      "basic-17": "Apģērbs",
+      "basic-18": "Tālruņi un ierīces",
+      "basic-19": "Telpas un ēkas",
+      "basic-20": "Mēbeles",
+      "basic-21": "Virtuves piederumi",
+      "basic-22": "Higiēna",
+      "basic-23": "Augļi",
+      "basic-24": "Dārzeņi",
+      "basic-25": "Pārtikas produkti",
+      "basic-26": "Ēdienreizes",
+      "basic-27": "Noderīgas īsas frāzes",
+      "basic-28": "Iepirkšanās",
+      "basic-29": "Vēl skaitļi",
+      "basic-30": "Desmiti un lielāki skaitļi",
+      "basic-31": "Dienas un laiks",
+      "basic-32": "Nedēļas dienas",
+      "basic-33": "Mēneši no janvāra līdz oktobrim",
+      "basic-34": "Gadalaiki",
+      "basic-35": "Laikapstākļi",
+      "basic-36": "Daba",
+      "basic-37": "Dzīvnieki",
+      "basic-38": "Transports",
+      "basic-39": "Pilsētā",
+      "basic-40": "Skolas piederumi",
+      "basic-41": "Mācību vārdi",
+      "basic-42": "Ikdienas darbības",
+      "basic-43": "Saziņas un mācību darbības",
+      "basic-44": "Meklēšana un apmaiņa",
+      "basic-45": "Darīšana un palīdzēšana",
+      "basic-46": "Izmēri un svars",
+      "basic-47": "Īpašības un temperatūra",
+      "basic-48": "Krāsas",
+      "basic-49": "Saikļi un īsas frāzes",
+      "basic-50": "Vietniekvārdi un pamati"
     },
     "names": {
       "lv": {

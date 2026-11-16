@@ -24,10 +24,10 @@
 - [ ] Owner explicitly approves public release; live listing URL independently confirmed before enabling Play download button.
 
 ## Before marking a task DONE
-- [ ] Modular content loader, independent UI contract, runtime answer-binding checks and original-content identity digest pass; authored modules are the only editable content source.
+- [ ] Modular content loader, independent UI contract, runtime answer-binding checks and active/archive content identity digests pass; authored modules are the only editable content source.
 - [ ] Relevant TD item references a PR/commit and the tests that were actually run.
 - [ ] Changelog records implementation/verification attribution accurately.
 - [ ] Work checkpoint reflects the exact tested or published state and one next action.
 - [ ] Unverified items remain clearly marked TODO/BLOCKED, not quietly passed.
 
-**Scope freeze:** no payments, ads, accounts, cloud data, extra languages/ages or lessons until the first ten-lesson app is usable on both surfaces and available on Google Play.
+**Approved curriculum:** 50 blocks of ten questions / 500 basic words and short phrases; first ten blocks contain no sentences. Check every block in all six directions. Payments, ads, accounts, cloud data and additional languages/ages remain out of scope.

@@ -2,512 +2,2512 @@
   "schemaVersion": 1,
   "id": "en",
   "translations": {
-    "essentials-phrase-01": {
-      "conceptId": "essentials-phrase-01",
-      "meaning": "Hello!",
-      "text": "Hello!"
-    },
-    "essentials-phrase-02": {
-      "conceptId": "essentials-phrase-02",
-      "meaning": "Yes.",
-      "text": "Yes."
-    },
-    "essentials-phrase-03": {
-      "conceptId": "essentials-phrase-03",
-      "meaning": "No.",
-      "text": "No."
-    },
-    "essentials-phrase-04": {
-      "conceptId": "essentials-phrase-04",
-      "meaning": "Thank you!",
-      "text": "Thank you!"
-    },
-    "essentials-phrase-05": {
-      "conceptId": "essentials-phrase-05",
-      "meaning": "Please!",
-      "text": "Please!"
-    },
-    "essentials-phrase-06": {
-      "conceptId": "essentials-phrase-06",
-      "meaning": "Goodbye!",
-      "text": "Goodbye!"
-    },
-    "essentials-phrase-07": {
-      "conceptId": "essentials-phrase-07",
-      "meaning": "Excuse me!",
-      "text": "Excuse me!"
-    },
-    "essentials-phrase-08": {
-      "conceptId": "essentials-phrase-08",
-      "meaning": "Good morning!",
-      "text": "Good morning!"
-    },
-    "essentials-phrase-09": {
-      "conceptId": "essentials-phrase-09",
-      "meaning": "Good night!",
-      "text": "Good night!"
-    },
-    "essentials-phrase-10": {
-      "conceptId": "essentials-phrase-10",
-      "meaning": "Okay.",
-      "text": "Okay."
-    },
-    "communication-phrase-01": {
-      "conceptId": "communication-phrase-01",
-      "meaning": "I don't understand.",
-      "text": "I don't understand."
-    },
-    "communication-phrase-02": {
-      "conceptId": "communication-phrase-02",
-      "meaning": "Please repeat.",
-      "text": "Please repeat."
-    },
-    "communication-phrase-03": {
-      "conceptId": "communication-phrase-03",
-      "meaning": "Please speak more slowly.",
-      "text": "Please speak more slowly."
-    },
-    "communication-phrase-04": {
-      "conceptId": "communication-phrase-04",
-      "meaning": "Do you speak Latvian?",
-      "text": "Do you speak Latvian?"
-    },
-    "communication-phrase-05": {
-      "conceptId": "communication-phrase-05",
-      "meaning": "I need help.",
-      "text": "I need help."
-    },
-    "communication-phrase-06": {
-      "conceptId": "communication-phrase-06",
-      "meaning": "What does that mean?",
-      "text": "What does that mean?"
-    },
-    "communication-phrase-07": {
-      "conceptId": "communication-phrase-07",
-      "meaning": "Please show me.",
-      "text": "Please show me."
-    },
-    "communication-phrase-08": {
-      "conceptId": "communication-phrase-08",
-      "meaning": "I don't know.",
-      "text": "I don't know."
-    },
-    "communication-phrase-09": {
-      "conceptId": "communication-phrase-09",
-      "meaning": "I speak a little Russian.",
-      "text": "I speak a little Russian."
-    },
-    "communication-phrase-10": {
-      "conceptId": "communication-phrase-10",
-      "meaning": "How do you say that in Russian?",
-      "text": "How do you say that in Russian?"
-    },
-    "introductions-phrase-01": {
-      "conceptId": "introductions-phrase-01",
-      "meaning": "What is your name?",
-      "text": "What is your name?"
-    },
-    "introductions-phrase-02": {
-      "conceptId": "introductions-phrase-02",
-      "meaning": "My name is...",
-      "text": "My name is..."
-    },
-    "introductions-phrase-03": {
-      "conceptId": "introductions-phrase-03",
-      "meaning": "How old are you?",
-      "text": "How old are you?"
-    },
-    "introductions-phrase-04": {
-      "conceptId": "introductions-phrase-04",
-      "meaning": "I'm eleven years old.",
-      "text": "I'm eleven years old."
-    },
-    "introductions-phrase-05": {
-      "conceptId": "introductions-phrase-05",
-      "meaning": "I go to school.",
-      "text": "I go to school."
-    },
-    "introductions-phrase-06": {
-      "conceptId": "introductions-phrase-06",
-      "meaning": "I'm from Latvia.",
-      "text": "I'm from Latvia."
-    },
-    "introductions-phrase-07": {
-      "conceptId": "introductions-phrase-07",
-      "meaning": "Nice to meet you!",
-      "text": "Nice to meet you!"
-    },
-    "introductions-phrase-08": {
-      "conceptId": "introductions-phrase-08",
-      "meaning": "I'm waiting for my mum.",
-      "text": "I'm waiting for my mum."
-    },
-    "introductions-phrase-09": {
-      "conceptId": "introductions-phrase-09",
-      "meaning": "I won't tell you my address.",
-      "text": "I won't tell you my address."
-    },
-    "introductions-phrase-10": {
-      "conceptId": "introductions-phrase-10",
-      "meaning": "I don't know you.",
-      "text": "I don't know you."
-    },
-    "places-phrase-01": {
-      "conceptId": "places-phrase-01",
-      "meaning": "Where is the toilet?",
-      "text": "Where is the toilet?"
-    },
-    "places-phrase-02": {
-      "conceptId": "places-phrase-02",
-      "meaning": "Where is the exit?",
-      "text": "Where is the exit?"
-    },
-    "places-phrase-03": {
-      "conceptId": "places-phrase-03",
-      "meaning": "Where is the school?",
-      "text": "Where is the school?"
-    },
-    "places-phrase-04": {
-      "conceptId": "places-phrase-04",
-      "meaning": "Where is the bus stop?",
-      "text": "Where is the bus stop?"
-    },
-    "places-phrase-05": {
-      "conceptId": "places-phrase-05",
-      "meaning": "Where is the shop?",
-      "text": "Where is the shop?"
-    },
-    "places-phrase-06": {
-      "conceptId": "places-phrase-06",
-      "meaning": "Where is the entrance?",
-      "text": "Where is the entrance?"
-    },
-    "places-phrase-07": {
-      "conceptId": "places-phrase-07",
-      "meaning": "Where is the pharmacy?",
-      "text": "Where is the pharmacy?"
-    },
-    "places-phrase-08": {
-      "conceptId": "places-phrase-08",
-      "meaning": "It's here.",
-      "text": "It's here."
-    },
-    "places-phrase-09": {
-      "conceptId": "places-phrase-09",
-      "meaning": "It's there.",
-      "text": "It's there."
-    },
-    "places-phrase-10": {
-      "conceptId": "places-phrase-10",
-      "meaning": "It's next to the school.",
-      "text": "It's next to the school."
-    },
-    "school-phrase-01": {
-      "conceptId": "school-phrase-01",
-      "meaning": "May I come in?",
-      "text": "May I come in?"
-    },
-    "school-phrase-02": {
-      "conceptId": "school-phrase-02",
-      "meaning": "May I go out?",
-      "text": "May I go out?"
-    },
-    "school-phrase-03": {
-      "conceptId": "school-phrase-03",
-      "meaning": "Where is the teacher?",
-      "text": "Where is the teacher?"
-    },
-    "school-phrase-04": {
-      "conceptId": "school-phrase-04",
-      "meaning": "What do I need to do?",
-      "text": "What do I need to do?"
-    },
-    "school-phrase-05": {
-      "conceptId": "school-phrase-05",
-      "meaning": "Open the book.",
-      "text": "Open the book."
-    },
-    "school-phrase-06": {
-      "conceptId": "school-phrase-06",
-      "meaning": "Close the door.",
-      "text": "Close the door."
-    },
-    "school-phrase-07": {
-      "conceptId": "school-phrase-07",
-      "meaning": "Write the answer.",
-      "text": "Write the answer."
-    },
-    "school-phrase-08": {
-      "conceptId": "school-phrase-08",
-      "meaning": "Please read.",
-      "text": "Please read."
-    },
-    "school-phrase-09": {
-      "conceptId": "school-phrase-09",
-      "meaning": "I don't have a pen.",
-      "text": "I don't have a pen."
-    },
-    "school-phrase-10": {
-      "conceptId": "school-phrase-10",
-      "meaning": "The lesson is over.",
-      "text": "The lesson is over."
-    },
-    "friends-phrase-01": {
-      "conceptId": "friends-phrase-01",
-      "meaning": "Let's play together!",
-      "text": "Let's play together!"
-    },
-    "friends-phrase-02": {
-      "conceptId": "friends-phrase-02",
-      "meaning": "Please wait.",
-      "text": "Please wait."
-    },
-    "friends-phrase-03": {
-      "conceptId": "friends-phrase-03",
-      "meaning": "It's my turn.",
-      "text": "It's my turn."
-    },
-    "friends-phrase-04": {
-      "conceptId": "friends-phrase-04",
-      "meaning": "May I join in?",
-      "text": "May I join in?"
-    },
-    "friends-phrase-05": {
-      "conceptId": "friends-phrase-05",
-      "meaning": "Stop!",
-      "text": "Stop!"
-    },
-    "friends-phrase-06": {
-      "conceptId": "friends-phrase-06",
-      "meaning": "Come here!",
-      "text": "Come here!"
-    },
-    "friends-phrase-07": {
-      "conceptId": "friends-phrase-07",
-      "meaning": "Let's go outside!",
-      "text": "Let's go outside!"
-    },
-    "friends-phrase-08": {
-      "conceptId": "friends-phrase-08",
-      "meaning": "Do you want to play?",
-      "text": "Do you want to play?"
-    },
-    "friends-phrase-09": {
-      "conceptId": "friends-phrase-09",
-      "meaning": "I don't want to.",
-      "text": "I don't want to."
-    },
-    "friends-phrase-10": {
-      "conceptId": "friends-phrase-10",
-      "meaning": "See you tomorrow!",
-      "text": "See you tomorrow!"
-    },
-    "shops-phrase-01": {
-      "conceptId": "shops-phrase-01",
-      "meaning": "May I have this?",
-      "text": "May I have this?"
-    },
-    "shops-phrase-02": {
-      "conceptId": "shops-phrase-02",
-      "meaning": "Water, please.",
-      "text": "Water, please."
-    },
-    "shops-phrase-03": {
-      "conceptId": "shops-phrase-03",
-      "meaning": "How much does this cost?",
-      "text": "How much does this cost?"
-    },
-    "shops-phrase-04": {
-      "conceptId": "shops-phrase-04",
-      "meaning": "Can I pay by card?",
-      "text": "Can I pay by card?"
-    },
-    "shops-phrase-05": {
-      "conceptId": "shops-phrase-05",
-      "meaning": "No, thank you.",
-      "text": "No, thank you."
-    },
-    "shops-phrase-06": {
-      "conceptId": "shops-phrase-06",
-      "meaning": "I need a bag.",
-      "text": "I need a bag."
-    },
-    "shops-phrase-07": {
-      "conceptId": "shops-phrase-07",
-      "meaning": "Where is the checkout?",
-      "text": "Where is the checkout?"
-    },
-    "shops-phrase-08": {
-      "conceptId": "shops-phrase-08",
-      "meaning": "One, please.",
-      "text": "One, please."
-    },
-    "shops-phrase-09": {
-      "conceptId": "shops-phrase-09",
-      "meaning": "Without sugar, please.",
-      "text": "Without sugar, please."
-    },
-    "shops-phrase-10": {
-      "conceptId": "shops-phrase-10",
-      "meaning": "I'm allergic to nuts.",
-      "text": "I'm allergic to nuts."
-    },
-    "directions-phrase-01": {
-      "conceptId": "directions-phrase-01",
-      "meaning": "Go straight.",
-      "text": "Go straight."
-    },
-    "directions-phrase-02": {
-      "conceptId": "directions-phrase-02",
-      "meaning": "Turn left.",
-      "text": "Turn left."
-    },
-    "directions-phrase-03": {
-      "conceptId": "directions-phrase-03",
-      "meaning": "Turn right.",
-      "text": "Turn right."
-    },
-    "directions-phrase-04": {
-      "conceptId": "directions-phrase-04",
-      "meaning": "It's nearby.",
-      "text": "It's nearby."
-    },
-    "directions-phrase-05": {
-      "conceptId": "directions-phrase-05",
-      "meaning": "It's far away.",
-      "text": "It's far away."
-    },
-    "directions-phrase-06": {
-      "conceptId": "directions-phrase-06",
-      "meaning": "Cross the street.",
-      "text": "Cross the street."
-    },
-    "directions-phrase-07": {
-      "conceptId": "directions-phrase-07",
-      "meaning": "Wait at the traffic lights.",
-      "text": "Wait at the traffic lights."
-    },
-    "directions-phrase-08": {
-      "conceptId": "directions-phrase-08",
-      "meaning": "Where is the pedestrian crossing?",
-      "text": "Where is the pedestrian crossing?"
-    },
-    "directions-phrase-09": {
-      "conceptId": "directions-phrase-09",
-      "meaning": "I'm looking for this street.",
-      "text": "I'm looking for this street."
-    },
-    "directions-phrase-10": {
-      "conceptId": "directions-phrase-10",
-      "meaning": "Is this the right way?",
-      "text": "Is this the right way?"
-    },
-    "transport-phrase-01": {
-      "conceptId": "transport-phrase-01",
-      "meaning": "Does this bus go to the centre?",
-      "text": "Does this bus go to the centre?"
-    },
-    "transport-phrase-02": {
-      "conceptId": "transport-phrase-02",
-      "meaning": "Where do I need to get off?",
-      "text": "Where do I need to get off?"
-    },
-    "transport-phrase-03": {
-      "conceptId": "transport-phrase-03",
-      "meaning": "The next stop.",
-      "text": "The next stop."
-    },
-    "transport-phrase-04": {
-      "conceptId": "transport-phrase-04",
-      "meaning": "I need a ticket.",
-      "text": "I need a ticket."
-    },
-    "transport-phrase-05": {
-      "conceptId": "transport-phrase-05",
-      "meaning": "What time does the bus arrive?",
-      "text": "What time does the bus arrive?"
-    },
-    "transport-phrase-06": {
-      "conceptId": "transport-phrase-06",
-      "meaning": "Is this seat free?",
-      "text": "Is this seat free?"
-    },
-    "transport-phrase-07": {
-      "conceptId": "transport-phrase-07",
-      "meaning": "I'll get off here.",
-      "text": "I'll get off here."
-    },
-    "transport-phrase-08": {
-      "conceptId": "transport-phrase-08",
-      "meaning": "Where is bus number five?",
-      "text": "Where is bus number five?"
-    },
-    "transport-phrase-09": {
-      "conceptId": "transport-phrase-09",
-      "meaning": "The bus is late.",
-      "text": "The bus is late."
-    },
-    "transport-phrase-10": {
-      "conceptId": "transport-phrase-10",
-      "meaning": "Please let me through.",
-      "text": "Please let me through."
-    },
-    "safety-phrase-01": {
-      "conceptId": "safety-phrase-01",
-      "meaning": "I can't find my way.",
-      "text": "I can't find my way."
-    },
-    "safety-phrase-02": {
-      "conceptId": "safety-phrase-02",
-      "meaning": "Leave me alone!",
-      "text": "Leave me alone!"
-    },
-    "safety-phrase-03": {
-      "conceptId": "safety-phrase-03",
-      "meaning": "Help!",
-      "text": "Help!"
-    },
-    "safety-phrase-04": {
-      "conceptId": "safety-phrase-04",
-      "meaning": "Call my parents.",
-      "text": "Call my parents."
-    },
-    "safety-phrase-05": {
-      "conceptId": "safety-phrase-05",
-      "meaning": "Call 112.",
-      "text": "Call 112."
-    },
-    "safety-phrase-06": {
-      "conceptId": "safety-phrase-06",
-      "meaning": "I need a doctor.",
-      "text": "I need a doctor."
-    },
-    "safety-phrase-07": {
-      "conceptId": "safety-phrase-07",
-      "meaning": "Don't touch me!",
-      "text": "Don't touch me!"
-    },
-    "safety-phrase-08": {
-      "conceptId": "safety-phrase-08",
-      "meaning": "I won't go with you.",
-      "text": "I won't go with you."
-    },
-    "safety-phrase-09": {
-      "conceptId": "safety-phrase-09",
-      "meaning": "Where are the police?",
-      "text": "Where are the police?"
-    },
-    "safety-phrase-10": {
-      "conceptId": "safety-phrase-10",
-      "meaning": "I'm scared.",
-      "text": "I'm scared."
+    "vocab-0001": {
+      "conceptId": "vocab-0001",
+      "meaning": "hello",
+      "text": "hello"
+    },
+    "vocab-0002": {
+      "conceptId": "vocab-0002",
+      "meaning": "goodbye",
+      "text": "goodbye"
+    },
+    "vocab-0003": {
+      "conceptId": "vocab-0003",
+      "meaning": "please",
+      "text": "please"
+    },
+    "vocab-0004": {
+      "conceptId": "vocab-0004",
+      "meaning": "thank you",
+      "text": "thank you"
+    },
+    "vocab-0005": {
+      "conceptId": "vocab-0005",
+      "meaning": "sorry",
+      "text": "sorry"
+    },
+    "vocab-0006": {
+      "conceptId": "vocab-0006",
+      "meaning": "yes",
+      "text": "yes"
+    },
+    "vocab-0007": {
+      "conceptId": "vocab-0007",
+      "meaning": "no",
+      "text": "no"
+    },
+    "vocab-0008": {
+      "conceptId": "vocab-0008",
+      "meaning": "good morning",
+      "text": "good morning"
+    },
+    "vocab-0009": {
+      "conceptId": "vocab-0009",
+      "meaning": "good evening",
+      "text": "good evening"
+    },
+    "vocab-0010": {
+      "conceptId": "vocab-0010",
+      "meaning": "good night",
+      "text": "good night"
+    },
+    "vocab-0011": {
+      "conceptId": "vocab-0011",
+      "meaning": "person",
+      "text": "person"
+    },
+    "vocab-0012": {
+      "conceptId": "vocab-0012",
+      "meaning": "child",
+      "text": "child"
+    },
+    "vocab-0013": {
+      "conceptId": "vocab-0013",
+      "meaning": "boy",
+      "text": "boy"
+    },
+    "vocab-0014": {
+      "conceptId": "vocab-0014",
+      "meaning": "girl",
+      "text": "girl"
+    },
+    "vocab-0015": {
+      "conceptId": "vocab-0015",
+      "meaning": "friend",
+      "text": "friend"
+    },
+    "vocab-0016": {
+      "conceptId": "vocab-0016",
+      "meaning": "family",
+      "text": "family"
+    },
+    "vocab-0017": {
+      "conceptId": "vocab-0017",
+      "meaning": "mother",
+      "text": "mother"
+    },
+    "vocab-0018": {
+      "conceptId": "vocab-0018",
+      "meaning": "father",
+      "text": "father"
+    },
+    "vocab-0019": {
+      "conceptId": "vocab-0019",
+      "meaning": "sister",
+      "text": "sister"
+    },
+    "vocab-0020": {
+      "conceptId": "vocab-0020",
+      "meaning": "brother",
+      "text": "brother"
+    },
+    "vocab-0021": {
+      "conceptId": "vocab-0021",
+      "meaning": "one",
+      "text": "one"
+    },
+    "vocab-0022": {
+      "conceptId": "vocab-0022",
+      "meaning": "two",
+      "text": "two"
+    },
+    "vocab-0023": {
+      "conceptId": "vocab-0023",
+      "meaning": "three",
+      "text": "three"
+    },
+    "vocab-0024": {
+      "conceptId": "vocab-0024",
+      "meaning": "four",
+      "text": "four"
+    },
+    "vocab-0025": {
+      "conceptId": "vocab-0025",
+      "meaning": "five",
+      "text": "five"
+    },
+    "vocab-0026": {
+      "conceptId": "vocab-0026",
+      "meaning": "six",
+      "text": "six"
+    },
+    "vocab-0027": {
+      "conceptId": "vocab-0027",
+      "meaning": "seven",
+      "text": "seven"
+    },
+    "vocab-0028": {
+      "conceptId": "vocab-0028",
+      "meaning": "eight",
+      "text": "eight"
+    },
+    "vocab-0029": {
+      "conceptId": "vocab-0029",
+      "meaning": "nine",
+      "text": "nine"
+    },
+    "vocab-0030": {
+      "conceptId": "vocab-0030",
+      "meaning": "ten",
+      "text": "ten"
+    },
+    "vocab-0031": {
+      "conceptId": "vocab-0031",
+      "meaning": "help",
+      "text": "help"
+    },
+    "vocab-0032": {
+      "conceptId": "vocab-0032",
+      "meaning": "stop",
+      "text": "stop"
+    },
+    "vocab-0033": {
+      "conceptId": "vocab-0033",
+      "meaning": "here",
+      "text": "here"
+    },
+    "vocab-0034": {
+      "conceptId": "vocab-0034",
+      "meaning": "there",
+      "text": "there"
+    },
+    "vocab-0035": {
+      "conceptId": "vocab-0035",
+      "meaning": "now",
+      "text": "now"
+    },
+    "vocab-0036": {
+      "conceptId": "vocab-0036",
+      "meaning": "later",
+      "text": "later"
+    },
+    "vocab-0037": {
+      "conceptId": "vocab-0037",
+      "meaning": "together",
+      "text": "together"
+    },
+    "vocab-0038": {
+      "conceptId": "vocab-0038",
+      "meaning": "again",
+      "text": "again"
+    },
+    "vocab-0039": {
+      "conceptId": "vocab-0039",
+      "meaning": "slowly",
+      "text": "slowly"
+    },
+    "vocab-0040": {
+      "conceptId": "vocab-0040",
+      "meaning": "quickly",
+      "text": "quickly"
+    },
+    "vocab-0041": {
+      "conceptId": "vocab-0041",
+      "meaning": "home",
+      "text": "home"
+    },
+    "vocab-0042": {
+      "conceptId": "vocab-0042",
+      "meaning": "school",
+      "text": "school"
+    },
+    "vocab-0043": {
+      "conceptId": "vocab-0043",
+      "meaning": "shop",
+      "text": "shop"
+    },
+    "vocab-0044": {
+      "conceptId": "vocab-0044",
+      "meaning": "pharmacy",
+      "text": "pharmacy"
+    },
+    "vocab-0045": {
+      "conceptId": "vocab-0045",
+      "meaning": "hospital",
+      "text": "hospital"
+    },
+    "vocab-0046": {
+      "conceptId": "vocab-0046",
+      "meaning": "park",
+      "text": "park"
+    },
+    "vocab-0047": {
+      "conceptId": "vocab-0047",
+      "meaning": "street",
+      "text": "street"
+    },
+    "vocab-0048": {
+      "conceptId": "vocab-0048",
+      "meaning": "bus stop",
+      "text": "bus stop"
+    },
+    "vocab-0049": {
+      "conceptId": "vocab-0049",
+      "meaning": "toilet",
+      "text": "toilet"
+    },
+    "vocab-0050": {
+      "conceptId": "vocab-0050",
+      "meaning": "exit",
+      "text": "exit"
+    },
+    "vocab-0051": {
+      "conceptId": "vocab-0051",
+      "meaning": "water",
+      "text": "water"
+    },
+    "vocab-0052": {
+      "conceptId": "vocab-0052",
+      "meaning": "bread",
+      "text": "bread"
+    },
+    "vocab-0053": {
+      "conceptId": "vocab-0053",
+      "meaning": "milk",
+      "text": "milk"
+    },
+    "vocab-0054": {
+      "conceptId": "vocab-0054",
+      "meaning": "tea",
+      "text": "tea"
+    },
+    "vocab-0055": {
+      "conceptId": "vocab-0055",
+      "meaning": "apple",
+      "text": "apple"
+    },
+    "vocab-0056": {
+      "conceptId": "vocab-0056",
+      "meaning": "banana",
+      "text": "banana"
+    },
+    "vocab-0057": {
+      "conceptId": "vocab-0057",
+      "meaning": "cheese",
+      "text": "cheese"
+    },
+    "vocab-0058": {
+      "conceptId": "vocab-0058",
+      "meaning": "soup",
+      "text": "soup"
+    },
+    "vocab-0059": {
+      "conceptId": "vocab-0059",
+      "meaning": "juice",
+      "text": "juice"
+    },
+    "vocab-0060": {
+      "conceptId": "vocab-0060",
+      "meaning": "breakfast",
+      "text": "breakfast"
+    },
+    "vocab-0061": {
+      "conceptId": "vocab-0061",
+      "meaning": "book",
+      "text": "book"
+    },
+    "vocab-0062": {
+      "conceptId": "vocab-0062",
+      "meaning": "notebook",
+      "text": "notebook"
+    },
+    "vocab-0063": {
+      "conceptId": "vocab-0063",
+      "meaning": "pen",
+      "text": "pen"
+    },
+    "vocab-0064": {
+      "conceptId": "vocab-0064",
+      "meaning": "pencil",
+      "text": "pencil"
+    },
+    "vocab-0065": {
+      "conceptId": "vocab-0065",
+      "meaning": "desk",
+      "text": "desk"
+    },
+    "vocab-0066": {
+      "conceptId": "vocab-0066",
+      "meaning": "chair",
+      "text": "chair"
+    },
+    "vocab-0067": {
+      "conceptId": "vocab-0067",
+      "meaning": "board",
+      "text": "board"
+    },
+    "vocab-0068": {
+      "conceptId": "vocab-0068",
+      "meaning": "teacher",
+      "text": "teacher"
+    },
+    "vocab-0069": {
+      "conceptId": "vocab-0069",
+      "meaning": "lesson",
+      "text": "lesson"
+    },
+    "vocab-0070": {
+      "conceptId": "vocab-0070",
+      "meaning": "break",
+      "text": "break"
+    },
+    "vocab-0071": {
+      "conceptId": "vocab-0071",
+      "meaning": "left",
+      "text": "left"
+    },
+    "vocab-0072": {
+      "conceptId": "vocab-0072",
+      "meaning": "right",
+      "text": "right"
+    },
+    "vocab-0073": {
+      "conceptId": "vocab-0073",
+      "meaning": "straight",
+      "text": "straight"
+    },
+    "vocab-0074": {
+      "conceptId": "vocab-0074",
+      "meaning": "near",
+      "text": "near"
+    },
+    "vocab-0075": {
+      "conceptId": "vocab-0075",
+      "meaning": "far",
+      "text": "far"
+    },
+    "vocab-0076": {
+      "conceptId": "vocab-0076",
+      "meaning": "inside",
+      "text": "inside"
+    },
+    "vocab-0077": {
+      "conceptId": "vocab-0077",
+      "meaning": "outside",
+      "text": "outside"
+    },
+    "vocab-0078": {
+      "conceptId": "vocab-0078",
+      "meaning": "up",
+      "text": "up"
+    },
+    "vocab-0079": {
+      "conceptId": "vocab-0079",
+      "meaning": "down",
+      "text": "down"
+    },
+    "vocab-0080": {
+      "conceptId": "vocab-0080",
+      "meaning": "opposite",
+      "text": "opposite"
+    },
+    "vocab-0081": {
+      "conceptId": "vocab-0081",
+      "meaning": "police",
+      "text": "police"
+    },
+    "vocab-0082": {
+      "conceptId": "vocab-0082",
+      "meaning": "ambulance",
+      "text": "ambulance"
+    },
+    "vocab-0083": {
+      "conceptId": "vocab-0083",
+      "meaning": "fire",
+      "text": "fire"
+    },
+    "vocab-0084": {
+      "conceptId": "vocab-0084",
+      "meaning": "danger",
+      "text": "danger"
+    },
+    "vocab-0085": {
+      "conceptId": "vocab-0085",
+      "meaning": "pain",
+      "text": "pain"
+    },
+    "vocab-0086": {
+      "conceptId": "vocab-0086",
+      "meaning": "doctor",
+      "text": "doctor"
+    },
+    "vocab-0087": {
+      "conceptId": "vocab-0087",
+      "meaning": "emergency",
+      "text": "emergency"
+    },
+    "vocab-0088": {
+      "conceptId": "vocab-0088",
+      "meaning": "first aid",
+      "text": "first aid"
+    },
+    "vocab-0089": {
+      "conceptId": "vocab-0089",
+      "meaning": "emergency number",
+      "text": "emergency number"
+    },
+    "vocab-0090": {
+      "conceptId": "vocab-0090",
+      "meaning": "adult",
+      "text": "adult"
+    },
+    "vocab-0091": {
+      "conceptId": "vocab-0091",
+      "meaning": "who",
+      "text": "who"
+    },
+    "vocab-0092": {
+      "conceptId": "vocab-0092",
+      "meaning": "what",
+      "text": "what"
+    },
+    "vocab-0093": {
+      "conceptId": "vocab-0093",
+      "meaning": "where",
+      "text": "where"
+    },
+    "vocab-0094": {
+      "conceptId": "vocab-0094",
+      "meaning": "when",
+      "text": "when"
+    },
+    "vocab-0095": {
+      "conceptId": "vocab-0095",
+      "meaning": "why",
+      "text": "why"
+    },
+    "vocab-0096": {
+      "conceptId": "vocab-0096",
+      "meaning": "how",
+      "text": "how"
+    },
+    "vocab-0097": {
+      "conceptId": "vocab-0097",
+      "meaning": "how many",
+      "text": "how many"
+    },
+    "vocab-0098": {
+      "conceptId": "vocab-0098",
+      "meaning": "what price",
+      "text": "what price"
+    },
+    "vocab-0099": {
+      "conceptId": "vocab-0099",
+      "meaning": "which way",
+      "text": "which way"
+    },
+    "vocab-0100": {
+      "conceptId": "vocab-0100",
+      "meaning": "what else",
+      "text": "what else"
+    },
+    "vocab-0101": {
+      "conceptId": "vocab-0101",
+      "meaning": "grandmother",
+      "text": "grandmother"
+    },
+    "vocab-0102": {
+      "conceptId": "vocab-0102",
+      "meaning": "grandfather",
+      "text": "grandfather"
+    },
+    "vocab-0103": {
+      "conceptId": "vocab-0103",
+      "meaning": "aunt",
+      "text": "aunt"
+    },
+    "vocab-0104": {
+      "conceptId": "vocab-0104",
+      "meaning": "uncle",
+      "text": "uncle"
+    },
+    "vocab-0105": {
+      "conceptId": "vocab-0105",
+      "meaning": "parents",
+      "text": "parents"
+    },
+    "vocab-0106": {
+      "conceptId": "vocab-0106",
+      "meaning": "grandparents",
+      "text": "grandparents"
+    },
+    "vocab-0107": {
+      "conceptId": "vocab-0107",
+      "meaning": "baby",
+      "text": "baby"
+    },
+    "vocab-0108": {
+      "conceptId": "vocab-0108",
+      "meaning": "teenager",
+      "text": "teenager"
+    },
+    "vocab-0109": {
+      "conceptId": "vocab-0109",
+      "meaning": "neighbour",
+      "text": "neighbour"
+    },
+    "vocab-0110": {
+      "conceptId": "vocab-0110",
+      "meaning": "guest",
+      "text": "guest"
+    },
+    "vocab-0111": {
+      "conceptId": "vocab-0111",
+      "meaning": "woman",
+      "text": "woman"
+    },
+    "vocab-0112": {
+      "conceptId": "vocab-0112",
+      "meaning": "man",
+      "text": "man"
+    },
+    "vocab-0113": {
+      "conceptId": "vocab-0113",
+      "meaning": "people",
+      "text": "people"
+    },
+    "vocab-0114": {
+      "conceptId": "vocab-0114",
+      "meaning": "children",
+      "text": "children"
+    },
+    "vocab-0115": {
+      "conceptId": "vocab-0115",
+      "meaning": "classmate",
+      "text": "classmate"
+    },
+    "vocab-0116": {
+      "conceptId": "vocab-0116",
+      "meaning": "student",
+      "text": "student"
+    },
+    "vocab-0117": {
+      "conceptId": "vocab-0117",
+      "meaning": "driver",
+      "text": "driver"
+    },
+    "vocab-0118": {
+      "conceptId": "vocab-0118",
+      "meaning": "seller",
+      "text": "seller"
+    },
+    "vocab-0119": {
+      "conceptId": "vocab-0119",
+      "meaning": "passenger",
+      "text": "passenger"
+    },
+    "vocab-0120": {
+      "conceptId": "vocab-0120",
+      "meaning": "visitor",
+      "text": "visitor"
+    },
+    "vocab-0121": {
+      "conceptId": "vocab-0121",
+      "meaning": "head",
+      "text": "head"
+    },
+    "vocab-0122": {
+      "conceptId": "vocab-0122",
+      "meaning": "hair",
+      "text": "hair"
+    },
+    "vocab-0123": {
+      "conceptId": "vocab-0123",
+      "meaning": "face",
+      "text": "face"
+    },
+    "vocab-0124": {
+      "conceptId": "vocab-0124",
+      "meaning": "eye",
+      "text": "eye"
+    },
+    "vocab-0125": {
+      "conceptId": "vocab-0125",
+      "meaning": "ear",
+      "text": "ear"
+    },
+    "vocab-0126": {
+      "conceptId": "vocab-0126",
+      "meaning": "nose",
+      "text": "nose"
+    },
+    "vocab-0127": {
+      "conceptId": "vocab-0127",
+      "meaning": "mouth",
+      "text": "mouth"
+    },
+    "vocab-0128": {
+      "conceptId": "vocab-0128",
+      "meaning": "tooth",
+      "text": "tooth"
+    },
+    "vocab-0129": {
+      "conceptId": "vocab-0129",
+      "meaning": "tongue",
+      "text": "tongue"
+    },
+    "vocab-0130": {
+      "conceptId": "vocab-0130",
+      "meaning": "neck",
+      "text": "neck"
+    },
+    "vocab-0131": {
+      "conceptId": "vocab-0131",
+      "meaning": "palm",
+      "text": "palm"
+    },
+    "vocab-0132": {
+      "conceptId": "vocab-0132",
+      "meaning": "arm",
+      "text": "arm"
+    },
+    "vocab-0133": {
+      "conceptId": "vocab-0133",
+      "meaning": "finger",
+      "text": "finger"
+    },
+    "vocab-0134": {
+      "conceptId": "vocab-0134",
+      "meaning": "leg",
+      "text": "leg"
+    },
+    "vocab-0135": {
+      "conceptId": "vocab-0135",
+      "meaning": "foot",
+      "text": "foot"
+    },
+    "vocab-0136": {
+      "conceptId": "vocab-0136",
+      "meaning": "knee",
+      "text": "knee"
+    },
+    "vocab-0137": {
+      "conceptId": "vocab-0137",
+      "meaning": "back",
+      "text": "back"
+    },
+    "vocab-0138": {
+      "conceptId": "vocab-0138",
+      "meaning": "stomach",
+      "text": "stomach"
+    },
+    "vocab-0139": {
+      "conceptId": "vocab-0139",
+      "meaning": "shoulder",
+      "text": "shoulder"
+    },
+    "vocab-0140": {
+      "conceptId": "vocab-0140",
+      "meaning": "skin",
+      "text": "skin"
+    },
+    "vocab-0141": {
+      "conceptId": "vocab-0141",
+      "meaning": "health",
+      "text": "health"
+    },
+    "vocab-0142": {
+      "conceptId": "vocab-0142",
+      "meaning": "illness",
+      "text": "illness"
+    },
+    "vocab-0143": {
+      "conceptId": "vocab-0143",
+      "meaning": "a cold",
+      "text": "a cold"
+    },
+    "vocab-0144": {
+      "conceptId": "vocab-0144",
+      "meaning": "fever",
+      "text": "fever"
+    },
+    "vocab-0145": {
+      "conceptId": "vocab-0145",
+      "meaning": "cough",
+      "text": "cough"
+    },
+    "vocab-0146": {
+      "conceptId": "vocab-0146",
+      "meaning": "medicine",
+      "text": "medicine"
+    },
+    "vocab-0147": {
+      "conceptId": "vocab-0147",
+      "meaning": "tablet",
+      "text": "tablet"
+    },
+    "vocab-0148": {
+      "conceptId": "vocab-0148",
+      "meaning": "plaster",
+      "text": "plaster"
+    },
+    "vocab-0149": {
+      "conceptId": "vocab-0149",
+      "meaning": "bandage",
+      "text": "bandage"
+    },
+    "vocab-0150": {
+      "conceptId": "vocab-0150",
+      "meaning": "thermometer",
+      "text": "thermometer"
+    },
+    "vocab-0151": {
+      "conceptId": "vocab-0151",
+      "meaning": "happy",
+      "text": "happy"
+    },
+    "vocab-0152": {
+      "conceptId": "vocab-0152",
+      "meaning": "sad",
+      "text": "sad"
+    },
+    "vocab-0153": {
+      "conceptId": "vocab-0153",
+      "meaning": "angry",
+      "text": "angry"
+    },
+    "vocab-0154": {
+      "conceptId": "vocab-0154",
+      "meaning": "afraid",
+      "text": "afraid"
+    },
+    "vocab-0155": {
+      "conceptId": "vocab-0155",
+      "meaning": "calm",
+      "text": "calm"
+    },
+    "vocab-0156": {
+      "conceptId": "vocab-0156",
+      "meaning": "tired",
+      "text": "tired"
+    },
+    "vocab-0157": {
+      "conceptId": "vocab-0157",
+      "meaning": "hungry",
+      "text": "hungry"
+    },
+    "vocab-0158": {
+      "conceptId": "vocab-0158",
+      "meaning": "thirsty",
+      "text": "thirsty"
+    },
+    "vocab-0159": {
+      "conceptId": "vocab-0159",
+      "meaning": "bored",
+      "text": "bored"
+    },
+    "vocab-0160": {
+      "conceptId": "vocab-0160",
+      "meaning": "surprised",
+      "text": "surprised"
+    },
+    "vocab-0161": {
+      "conceptId": "vocab-0161",
+      "meaning": "coat",
+      "text": "coat"
+    },
+    "vocab-0162": {
+      "conceptId": "vocab-0162",
+      "meaning": "jacket",
+      "text": "jacket"
+    },
+    "vocab-0163": {
+      "conceptId": "vocab-0163",
+      "meaning": "shirt",
+      "text": "shirt"
+    },
+    "vocab-0164": {
+      "conceptId": "vocab-0164",
+      "meaning": "trousers",
+      "text": "trousers"
+    },
+    "vocab-0165": {
+      "conceptId": "vocab-0165",
+      "meaning": "dress",
+      "text": "dress"
+    },
+    "vocab-0166": {
+      "conceptId": "vocab-0166",
+      "meaning": "socks",
+      "text": "socks"
+    },
+    "vocab-0167": {
+      "conceptId": "vocab-0167",
+      "meaning": "footwear",
+      "text": "footwear"
+    },
+    "vocab-0168": {
+      "conceptId": "vocab-0168",
+      "meaning": "hat",
+      "text": "hat"
+    },
+    "vocab-0169": {
+      "conceptId": "vocab-0169",
+      "meaning": "scarf",
+      "text": "scarf"
+    },
+    "vocab-0170": {
+      "conceptId": "vocab-0170",
+      "meaning": "gloves",
+      "text": "gloves"
+    },
+    "vocab-0171": {
+      "conceptId": "vocab-0171",
+      "meaning": "phone",
+      "text": "phone"
+    },
+    "vocab-0172": {
+      "conceptId": "vocab-0172",
+      "meaning": "computer",
+      "text": "computer"
+    },
+    "vocab-0173": {
+      "conceptId": "vocab-0173",
+      "meaning": "screen",
+      "text": "screen"
+    },
+    "vocab-0174": {
+      "conceptId": "vocab-0174",
+      "meaning": "keyboard",
+      "text": "keyboard"
+    },
+    "vocab-0175": {
+      "conceptId": "vocab-0175",
+      "meaning": "mouse",
+      "text": "mouse"
+    },
+    "vocab-0176": {
+      "conceptId": "vocab-0176",
+      "meaning": "charger",
+      "text": "charger"
+    },
+    "vocab-0177": {
+      "conceptId": "vocab-0177",
+      "meaning": "battery",
+      "text": "battery"
+    },
+    "vocab-0178": {
+      "conceptId": "vocab-0178",
+      "meaning": "message",
+      "text": "message"
+    },
+    "vocab-0179": {
+      "conceptId": "vocab-0179",
+      "meaning": "photo",
+      "text": "photo"
+    },
+    "vocab-0180": {
+      "conceptId": "vocab-0180",
+      "meaning": "internet",
+      "text": "internet"
+    },
+    "vocab-0181": {
+      "conceptId": "vocab-0181",
+      "meaning": "door",
+      "text": "door"
+    },
+    "vocab-0182": {
+      "conceptId": "vocab-0182",
+      "meaning": "window",
+      "text": "window"
+    },
+    "vocab-0183": {
+      "conceptId": "vocab-0183",
+      "meaning": "wall",
+      "text": "wall"
+    },
+    "vocab-0184": {
+      "conceptId": "vocab-0184",
+      "meaning": "floor",
+      "text": "floor"
+    },
+    "vocab-0185": {
+      "conceptId": "vocab-0185",
+      "meaning": "ceiling",
+      "text": "ceiling"
+    },
+    "vocab-0186": {
+      "conceptId": "vocab-0186",
+      "meaning": "roof",
+      "text": "roof"
+    },
+    "vocab-0187": {
+      "conceptId": "vocab-0187",
+      "meaning": "stairs",
+      "text": "stairs"
+    },
+    "vocab-0188": {
+      "conceptId": "vocab-0188",
+      "meaning": "room",
+      "text": "room"
+    },
+    "vocab-0189": {
+      "conceptId": "vocab-0189",
+      "meaning": "kitchen",
+      "text": "kitchen"
+    },
+    "vocab-0190": {
+      "conceptId": "vocab-0190",
+      "meaning": "bathroom",
+      "text": "bathroom"
+    },
+    "vocab-0191": {
+      "conceptId": "vocab-0191",
+      "meaning": "bed",
+      "text": "bed"
+    },
+    "vocab-0192": {
+      "conceptId": "vocab-0192",
+      "meaning": "table",
+      "text": "table"
+    },
+    "vocab-0193": {
+      "conceptId": "vocab-0193",
+      "meaning": "sofa",
+      "text": "sofa"
+    },
+    "vocab-0194": {
+      "conceptId": "vocab-0194",
+      "meaning": "wardrobe",
+      "text": "wardrobe"
+    },
+    "vocab-0195": {
+      "conceptId": "vocab-0195",
+      "meaning": "shelf",
+      "text": "shelf"
+    },
+    "vocab-0196": {
+      "conceptId": "vocab-0196",
+      "meaning": "mirror",
+      "text": "mirror"
+    },
+    "vocab-0197": {
+      "conceptId": "vocab-0197",
+      "meaning": "lamp",
+      "text": "lamp"
+    },
+    "vocab-0198": {
+      "conceptId": "vocab-0198",
+      "meaning": "carpet",
+      "text": "carpet"
+    },
+    "vocab-0199": {
+      "conceptId": "vocab-0199",
+      "meaning": "blanket",
+      "text": "blanket"
+    },
+    "vocab-0200": {
+      "conceptId": "vocab-0200",
+      "meaning": "pillow",
+      "text": "pillow"
+    },
+    "vocab-0201": {
+      "conceptId": "vocab-0201",
+      "meaning": "plate",
+      "text": "plate"
+    },
+    "vocab-0202": {
+      "conceptId": "vocab-0202",
+      "meaning": "cup",
+      "text": "cup"
+    },
+    "vocab-0203": {
+      "conceptId": "vocab-0203",
+      "meaning": "glass",
+      "text": "glass"
+    },
+    "vocab-0204": {
+      "conceptId": "vocab-0204",
+      "meaning": "bowl",
+      "text": "bowl"
+    },
+    "vocab-0205": {
+      "conceptId": "vocab-0205",
+      "meaning": "spoon",
+      "text": "spoon"
+    },
+    "vocab-0206": {
+      "conceptId": "vocab-0206",
+      "meaning": "fork",
+      "text": "fork"
+    },
+    "vocab-0207": {
+      "conceptId": "vocab-0207",
+      "meaning": "knife",
+      "text": "knife"
+    },
+    "vocab-0208": {
+      "conceptId": "vocab-0208",
+      "meaning": "bottle",
+      "text": "bottle"
+    },
+    "vocab-0209": {
+      "conceptId": "vocab-0209",
+      "meaning": "pot",
+      "text": "pot"
+    },
+    "vocab-0210": {
+      "conceptId": "vocab-0210",
+      "meaning": "pan",
+      "text": "pan"
+    },
+    "vocab-0211": {
+      "conceptId": "vocab-0211",
+      "meaning": "soap",
+      "text": "soap"
+    },
+    "vocab-0212": {
+      "conceptId": "vocab-0212",
+      "meaning": "towel",
+      "text": "towel"
+    },
+    "vocab-0213": {
+      "conceptId": "vocab-0213",
+      "meaning": "toothbrush",
+      "text": "toothbrush"
+    },
+    "vocab-0214": {
+      "conceptId": "vocab-0214",
+      "meaning": "toothpaste",
+      "text": "toothpaste"
+    },
+    "vocab-0215": {
+      "conceptId": "vocab-0215",
+      "meaning": "shampoo",
+      "text": "shampoo"
+    },
+    "vocab-0216": {
+      "conceptId": "vocab-0216",
+      "meaning": "comb",
+      "text": "comb"
+    },
+    "vocab-0217": {
+      "conceptId": "vocab-0217",
+      "meaning": "shower",
+      "text": "shower"
+    },
+    "vocab-0218": {
+      "conceptId": "vocab-0218",
+      "meaning": "bath",
+      "text": "bath"
+    },
+    "vocab-0219": {
+      "conceptId": "vocab-0219",
+      "meaning": "toilet paper",
+      "text": "toilet paper"
+    },
+    "vocab-0220": {
+      "conceptId": "vocab-0220",
+      "meaning": "tissue",
+      "text": "tissue"
+    },
+    "vocab-0221": {
+      "conceptId": "vocab-0221",
+      "meaning": "pear",
+      "text": "pear"
+    },
+    "vocab-0222": {
+      "conceptId": "vocab-0222",
+      "meaning": "orange",
+      "text": "orange"
+    },
+    "vocab-0223": {
+      "conceptId": "vocab-0223",
+      "meaning": "lemon",
+      "text": "lemon"
+    },
+    "vocab-0224": {
+      "conceptId": "vocab-0224",
+      "meaning": "grapes",
+      "text": "grapes"
+    },
+    "vocab-0225": {
+      "conceptId": "vocab-0225",
+      "meaning": "strawberry",
+      "text": "strawberry"
+    },
+    "vocab-0226": {
+      "conceptId": "vocab-0226",
+      "meaning": "raspberry",
+      "text": "raspberry"
+    },
+    "vocab-0227": {
+      "conceptId": "vocab-0227",
+      "meaning": "cherry",
+      "text": "cherry"
+    },
+    "vocab-0228": {
+      "conceptId": "vocab-0228",
+      "meaning": "plum",
+      "text": "plum"
+    },
+    "vocab-0229": {
+      "conceptId": "vocab-0229",
+      "meaning": "peach",
+      "text": "peach"
+    },
+    "vocab-0230": {
+      "conceptId": "vocab-0230",
+      "meaning": "watermelon",
+      "text": "watermelon"
+    },
+    "vocab-0231": {
+      "conceptId": "vocab-0231",
+      "meaning": "potato",
+      "text": "potato"
+    },
+    "vocab-0232": {
+      "conceptId": "vocab-0232",
+      "meaning": "carrot",
+      "text": "carrot"
+    },
+    "vocab-0233": {
+      "conceptId": "vocab-0233",
+      "meaning": "tomato",
+      "text": "tomato"
+    },
+    "vocab-0234": {
+      "conceptId": "vocab-0234",
+      "meaning": "cucumber",
+      "text": "cucumber"
+    },
+    "vocab-0235": {
+      "conceptId": "vocab-0235",
+      "meaning": "onion",
+      "text": "onion"
+    },
+    "vocab-0236": {
+      "conceptId": "vocab-0236",
+      "meaning": "garlic",
+      "text": "garlic"
+    },
+    "vocab-0237": {
+      "conceptId": "vocab-0237",
+      "meaning": "cabbage",
+      "text": "cabbage"
+    },
+    "vocab-0238": {
+      "conceptId": "vocab-0238",
+      "meaning": "pepper",
+      "text": "pepper"
+    },
+    "vocab-0239": {
+      "conceptId": "vocab-0239",
+      "meaning": "peas",
+      "text": "peas"
+    },
+    "vocab-0240": {
+      "conceptId": "vocab-0240",
+      "meaning": "beans",
+      "text": "beans"
+    },
+    "vocab-0241": {
+      "conceptId": "vocab-0241",
+      "meaning": "rice",
+      "text": "rice"
+    },
+    "vocab-0242": {
+      "conceptId": "vocab-0242",
+      "meaning": "pasta",
+      "text": "pasta"
+    },
+    "vocab-0243": {
+      "conceptId": "vocab-0243",
+      "meaning": "meat",
+      "text": "meat"
+    },
+    "vocab-0244": {
+      "conceptId": "vocab-0244",
+      "meaning": "chicken meat",
+      "text": "chicken meat"
+    },
+    "vocab-0245": {
+      "conceptId": "vocab-0245",
+      "meaning": "fish",
+      "text": "fish"
+    },
+    "vocab-0246": {
+      "conceptId": "vocab-0246",
+      "meaning": "egg",
+      "text": "egg"
+    },
+    "vocab-0247": {
+      "conceptId": "vocab-0247",
+      "meaning": "butter",
+      "text": "butter"
+    },
+    "vocab-0248": {
+      "conceptId": "vocab-0248",
+      "meaning": "yogurt",
+      "text": "yogurt"
+    },
+    "vocab-0249": {
+      "conceptId": "vocab-0249",
+      "meaning": "salt",
+      "text": "salt"
+    },
+    "vocab-0250": {
+      "conceptId": "vocab-0250",
+      "meaning": "sugar",
+      "text": "sugar"
+    },
+    "vocab-0251": {
+      "conceptId": "vocab-0251",
+      "meaning": "lunch",
+      "text": "lunch"
+    },
+    "vocab-0252": {
+      "conceptId": "vocab-0252",
+      "meaning": "dinner",
+      "text": "dinner"
+    },
+    "vocab-0253": {
+      "conceptId": "vocab-0253",
+      "meaning": "snack",
+      "text": "snack"
+    },
+    "vocab-0254": {
+      "conceptId": "vocab-0254",
+      "meaning": "sandwich",
+      "text": "sandwich"
+    },
+    "vocab-0255": {
+      "conceptId": "vocab-0255",
+      "meaning": "salad",
+      "text": "salad"
+    },
+    "vocab-0256": {
+      "conceptId": "vocab-0256",
+      "meaning": "porridge",
+      "text": "porridge"
+    },
+    "vocab-0257": {
+      "conceptId": "vocab-0257",
+      "meaning": "cereal",
+      "text": "cereal"
+    },
+    "vocab-0258": {
+      "conceptId": "vocab-0258",
+      "meaning": "pancake",
+      "text": "pancake"
+    },
+    "vocab-0259": {
+      "conceptId": "vocab-0259",
+      "meaning": "cake",
+      "text": "cake"
+    },
+    "vocab-0260": {
+      "conceptId": "vocab-0260",
+      "meaning": "ice cream",
+      "text": "ice cream"
+    },
+    "vocab-0261": {
+      "conceptId": "vocab-0261",
+      "meaning": "please help",
+      "text": "please help"
+    },
+    "vocab-0262": {
+      "conceptId": "vocab-0262",
+      "meaning": "a little more",
+      "text": "a little more"
+    },
+    "vocab-0263": {
+      "conceptId": "vocab-0263",
+      "meaning": "more slowly",
+      "text": "more slowly"
+    },
+    "vocab-0264": {
+      "conceptId": "vocab-0264",
+      "meaning": "not now",
+      "text": "not now"
+    },
+    "vocab-0265": {
+      "conceptId": "vocab-0265",
+      "meaning": "no thank you",
+      "text": "no thank you"
+    },
+    "vocab-0266": {
+      "conceptId": "vocab-0266",
+      "meaning": "excuse me",
+      "text": "excuse me"
+    },
+    "vocab-0267": {
+      "conceptId": "vocab-0267",
+      "meaning": "good luck",
+      "text": "good luck"
+    },
+    "vocab-0268": {
+      "conceptId": "vocab-0268",
+      "meaning": "well done",
+      "text": "well done"
+    },
+    "vocab-0269": {
+      "conceptId": "vocab-0269",
+      "meaning": "good afternoon",
+      "text": "good afternoon"
+    },
+    "vocab-0270": {
+      "conceptId": "vocab-0270",
+      "meaning": "with pleasure",
+      "text": "with pleasure"
+    },
+    "vocab-0271": {
+      "conceptId": "vocab-0271",
+      "meaning": "money",
+      "text": "money"
+    },
+    "vocab-0272": {
+      "conceptId": "vocab-0272",
+      "meaning": "price",
+      "text": "price"
+    },
+    "vocab-0273": {
+      "conceptId": "vocab-0273",
+      "meaning": "change",
+      "text": "change"
+    },
+    "vocab-0274": {
+      "conceptId": "vocab-0274",
+      "meaning": "receipt",
+      "text": "receipt"
+    },
+    "vocab-0275": {
+      "conceptId": "vocab-0275",
+      "meaning": "checkout",
+      "text": "checkout"
+    },
+    "vocab-0276": {
+      "conceptId": "vocab-0276",
+      "meaning": "basket",
+      "text": "basket"
+    },
+    "vocab-0277": {
+      "conceptId": "vocab-0277",
+      "meaning": "bag",
+      "text": "bag"
+    },
+    "vocab-0278": {
+      "conceptId": "vocab-0278",
+      "meaning": "size",
+      "text": "size"
+    },
+    "vocab-0279": {
+      "conceptId": "vocab-0279",
+      "meaning": "discount",
+      "text": "discount"
+    },
+    "vocab-0280": {
+      "conceptId": "vocab-0280",
+      "meaning": "card",
+      "text": "card"
+    },
+    "vocab-0281": {
+      "conceptId": "vocab-0281",
+      "meaning": "zero",
+      "text": "zero"
+    },
+    "vocab-0282": {
+      "conceptId": "vocab-0282",
+      "meaning": "eleven",
+      "text": "eleven"
+    },
+    "vocab-0283": {
+      "conceptId": "vocab-0283",
+      "meaning": "twelve",
+      "text": "twelve"
+    },
+    "vocab-0284": {
+      "conceptId": "vocab-0284",
+      "meaning": "thirteen",
+      "text": "thirteen"
+    },
+    "vocab-0285": {
+      "conceptId": "vocab-0285",
+      "meaning": "fourteen",
+      "text": "fourteen"
+    },
+    "vocab-0286": {
+      "conceptId": "vocab-0286",
+      "meaning": "fifteen",
+      "text": "fifteen"
+    },
+    "vocab-0287": {
+      "conceptId": "vocab-0287",
+      "meaning": "sixteen",
+      "text": "sixteen"
+    },
+    "vocab-0288": {
+      "conceptId": "vocab-0288",
+      "meaning": "seventeen",
+      "text": "seventeen"
+    },
+    "vocab-0289": {
+      "conceptId": "vocab-0289",
+      "meaning": "eighteen",
+      "text": "eighteen"
+    },
+    "vocab-0290": {
+      "conceptId": "vocab-0290",
+      "meaning": "nineteen",
+      "text": "nineteen"
+    },
+    "vocab-0291": {
+      "conceptId": "vocab-0291",
+      "meaning": "twenty",
+      "text": "twenty"
+    },
+    "vocab-0292": {
+      "conceptId": "vocab-0292",
+      "meaning": "thirty",
+      "text": "thirty"
+    },
+    "vocab-0293": {
+      "conceptId": "vocab-0293",
+      "meaning": "forty",
+      "text": "forty"
+    },
+    "vocab-0294": {
+      "conceptId": "vocab-0294",
+      "meaning": "fifty",
+      "text": "fifty"
+    },
+    "vocab-0295": {
+      "conceptId": "vocab-0295",
+      "meaning": "sixty",
+      "text": "sixty"
+    },
+    "vocab-0296": {
+      "conceptId": "vocab-0296",
+      "meaning": "seventy",
+      "text": "seventy"
+    },
+    "vocab-0297": {
+      "conceptId": "vocab-0297",
+      "meaning": "eighty",
+      "text": "eighty"
+    },
+    "vocab-0298": {
+      "conceptId": "vocab-0298",
+      "meaning": "ninety",
+      "text": "ninety"
+    },
+    "vocab-0299": {
+      "conceptId": "vocab-0299",
+      "meaning": "hundred",
+      "text": "hundred"
+    },
+    "vocab-0300": {
+      "conceptId": "vocab-0300",
+      "meaning": "thousand",
+      "text": "thousand"
+    },
+    "vocab-0301": {
+      "conceptId": "vocab-0301",
+      "meaning": "day",
+      "text": "day"
+    },
+    "vocab-0302": {
+      "conceptId": "vocab-0302",
+      "meaning": "night",
+      "text": "night"
+    },
+    "vocab-0303": {
+      "conceptId": "vocab-0303",
+      "meaning": "morning",
+      "text": "morning"
+    },
+    "vocab-0304": {
+      "conceptId": "vocab-0304",
+      "meaning": "evening",
+      "text": "evening"
+    },
+    "vocab-0305": {
+      "conceptId": "vocab-0305",
+      "meaning": "today",
+      "text": "today"
+    },
+    "vocab-0306": {
+      "conceptId": "vocab-0306",
+      "meaning": "tomorrow",
+      "text": "tomorrow"
+    },
+    "vocab-0307": {
+      "conceptId": "vocab-0307",
+      "meaning": "yesterday",
+      "text": "yesterday"
+    },
+    "vocab-0308": {
+      "conceptId": "vocab-0308",
+      "meaning": "week",
+      "text": "week"
+    },
+    "vocab-0309": {
+      "conceptId": "vocab-0309",
+      "meaning": "month",
+      "text": "month"
+    },
+    "vocab-0310": {
+      "conceptId": "vocab-0310",
+      "meaning": "year",
+      "text": "year"
+    },
+    "vocab-0311": {
+      "conceptId": "vocab-0311",
+      "meaning": "Monday",
+      "text": "Monday"
+    },
+    "vocab-0312": {
+      "conceptId": "vocab-0312",
+      "meaning": "Tuesday",
+      "text": "Tuesday"
+    },
+    "vocab-0313": {
+      "conceptId": "vocab-0313",
+      "meaning": "Wednesday",
+      "text": "Wednesday"
+    },
+    "vocab-0314": {
+      "conceptId": "vocab-0314",
+      "meaning": "Thursday",
+      "text": "Thursday"
+    },
+    "vocab-0315": {
+      "conceptId": "vocab-0315",
+      "meaning": "Friday",
+      "text": "Friday"
+    },
+    "vocab-0316": {
+      "conceptId": "vocab-0316",
+      "meaning": "Saturday",
+      "text": "Saturday"
+    },
+    "vocab-0317": {
+      "conceptId": "vocab-0317",
+      "meaning": "Sunday",
+      "text": "Sunday"
+    },
+    "vocab-0318": {
+      "conceptId": "vocab-0318",
+      "meaning": "weekend",
+      "text": "weekend"
+    },
+    "vocab-0319": {
+      "conceptId": "vocab-0319",
+      "meaning": "hour",
+      "text": "hour"
+    },
+    "vocab-0320": {
+      "conceptId": "vocab-0320",
+      "meaning": "minute",
+      "text": "minute"
+    },
+    "vocab-0321": {
+      "conceptId": "vocab-0321",
+      "meaning": "January",
+      "text": "January"
+    },
+    "vocab-0322": {
+      "conceptId": "vocab-0322",
+      "meaning": "February",
+      "text": "February"
+    },
+    "vocab-0323": {
+      "conceptId": "vocab-0323",
+      "meaning": "March",
+      "text": "March"
+    },
+    "vocab-0324": {
+      "conceptId": "vocab-0324",
+      "meaning": "April",
+      "text": "April"
+    },
+    "vocab-0325": {
+      "conceptId": "vocab-0325",
+      "meaning": "May",
+      "text": "May"
+    },
+    "vocab-0326": {
+      "conceptId": "vocab-0326",
+      "meaning": "June",
+      "text": "June"
+    },
+    "vocab-0327": {
+      "conceptId": "vocab-0327",
+      "meaning": "July",
+      "text": "July"
+    },
+    "vocab-0328": {
+      "conceptId": "vocab-0328",
+      "meaning": "August",
+      "text": "August"
+    },
+    "vocab-0329": {
+      "conceptId": "vocab-0329",
+      "meaning": "September",
+      "text": "September"
+    },
+    "vocab-0330": {
+      "conceptId": "vocab-0330",
+      "meaning": "October",
+      "text": "October"
+    },
+    "vocab-0331": {
+      "conceptId": "vocab-0331",
+      "meaning": "November",
+      "text": "November"
+    },
+    "vocab-0332": {
+      "conceptId": "vocab-0332",
+      "meaning": "December",
+      "text": "December"
+    },
+    "vocab-0333": {
+      "conceptId": "vocab-0333",
+      "meaning": "spring",
+      "text": "spring"
+    },
+    "vocab-0334": {
+      "conceptId": "vocab-0334",
+      "meaning": "summer",
+      "text": "summer"
+    },
+    "vocab-0335": {
+      "conceptId": "vocab-0335",
+      "meaning": "autumn",
+      "text": "autumn"
+    },
+    "vocab-0336": {
+      "conceptId": "vocab-0336",
+      "meaning": "winter",
+      "text": "winter"
+    },
+    "vocab-0337": {
+      "conceptId": "vocab-0337",
+      "meaning": "season",
+      "text": "season"
+    },
+    "vocab-0338": {
+      "conceptId": "vocab-0338",
+      "meaning": "weather",
+      "text": "weather"
+    },
+    "vocab-0339": {
+      "conceptId": "vocab-0339",
+      "meaning": "sun",
+      "text": "sun"
+    },
+    "vocab-0340": {
+      "conceptId": "vocab-0340",
+      "meaning": "moon",
+      "text": "moon"
+    },
+    "vocab-0341": {
+      "conceptId": "vocab-0341",
+      "meaning": "rain",
+      "text": "rain"
+    },
+    "vocab-0342": {
+      "conceptId": "vocab-0342",
+      "meaning": "snow",
+      "text": "snow"
+    },
+    "vocab-0343": {
+      "conceptId": "vocab-0343",
+      "meaning": "wind",
+      "text": "wind"
+    },
+    "vocab-0344": {
+      "conceptId": "vocab-0344",
+      "meaning": "cloud",
+      "text": "cloud"
+    },
+    "vocab-0345": {
+      "conceptId": "vocab-0345",
+      "meaning": "fog",
+      "text": "fog"
+    },
+    "vocab-0346": {
+      "conceptId": "vocab-0346",
+      "meaning": "ice",
+      "text": "ice"
+    },
+    "vocab-0347": {
+      "conceptId": "vocab-0347",
+      "meaning": "thunder",
+      "text": "thunder"
+    },
+    "vocab-0348": {
+      "conceptId": "vocab-0348",
+      "meaning": "storm",
+      "text": "storm"
+    },
+    "vocab-0349": {
+      "conceptId": "vocab-0349",
+      "meaning": "rainbow",
+      "text": "rainbow"
+    },
+    "vocab-0350": {
+      "conceptId": "vocab-0350",
+      "meaning": "temperature",
+      "text": "temperature"
+    },
+    "vocab-0351": {
+      "conceptId": "vocab-0351",
+      "meaning": "tree",
+      "text": "tree"
+    },
+    "vocab-0352": {
+      "conceptId": "vocab-0352",
+      "meaning": "flower",
+      "text": "flower"
+    },
+    "vocab-0353": {
+      "conceptId": "vocab-0353",
+      "meaning": "grass",
+      "text": "grass"
+    },
+    "vocab-0354": {
+      "conceptId": "vocab-0354",
+      "meaning": "leaf",
+      "text": "leaf"
+    },
+    "vocab-0355": {
+      "conceptId": "vocab-0355",
+      "meaning": "forest",
+      "text": "forest"
+    },
+    "vocab-0356": {
+      "conceptId": "vocab-0356",
+      "meaning": "river",
+      "text": "river"
+    },
+    "vocab-0357": {
+      "conceptId": "vocab-0357",
+      "meaning": "lake",
+      "text": "lake"
+    },
+    "vocab-0358": {
+      "conceptId": "vocab-0358",
+      "meaning": "sea",
+      "text": "sea"
+    },
+    "vocab-0359": {
+      "conceptId": "vocab-0359",
+      "meaning": "beach",
+      "text": "beach"
+    },
+    "vocab-0360": {
+      "conceptId": "vocab-0360",
+      "meaning": "stone",
+      "text": "stone"
+    },
+    "vocab-0361": {
+      "conceptId": "vocab-0361",
+      "meaning": "dog",
+      "text": "dog"
+    },
+    "vocab-0362": {
+      "conceptId": "vocab-0362",
+      "meaning": "cat",
+      "text": "cat"
+    },
+    "vocab-0363": {
+      "conceptId": "vocab-0363",
+      "meaning": "horse",
+      "text": "horse"
+    },
+    "vocab-0364": {
+      "conceptId": "vocab-0364",
+      "meaning": "cow",
+      "text": "cow"
+    },
+    "vocab-0365": {
+      "conceptId": "vocab-0365",
+      "meaning": "pig",
+      "text": "pig"
+    },
+    "vocab-0366": {
+      "conceptId": "vocab-0366",
+      "meaning": "sheep",
+      "text": "sheep"
+    },
+    "vocab-0367": {
+      "conceptId": "vocab-0367",
+      "meaning": "goat",
+      "text": "goat"
+    },
+    "vocab-0368": {
+      "conceptId": "vocab-0368",
+      "meaning": "hen",
+      "text": "hen"
+    },
+    "vocab-0369": {
+      "conceptId": "vocab-0369",
+      "meaning": "duck",
+      "text": "duck"
+    },
+    "vocab-0370": {
+      "conceptId": "vocab-0370",
+      "meaning": "bird",
+      "text": "bird"
+    },
+    "vocab-0371": {
+      "conceptId": "vocab-0371",
+      "meaning": "bus",
+      "text": "bus"
+    },
+    "vocab-0372": {
+      "conceptId": "vocab-0372",
+      "meaning": "tram",
+      "text": "tram"
+    },
+    "vocab-0373": {
+      "conceptId": "vocab-0373",
+      "meaning": "trolleybus",
+      "text": "trolleybus"
+    },
+    "vocab-0374": {
+      "conceptId": "vocab-0374",
+      "meaning": "train",
+      "text": "train"
+    },
+    "vocab-0375": {
+      "conceptId": "vocab-0375",
+      "meaning": "car",
+      "text": "car"
+    },
+    "vocab-0376": {
+      "conceptId": "vocab-0376",
+      "meaning": "bicycle",
+      "text": "bicycle"
+    },
+    "vocab-0377": {
+      "conceptId": "vocab-0377",
+      "meaning": "taxi",
+      "text": "taxi"
+    },
+    "vocab-0378": {
+      "conceptId": "vocab-0378",
+      "meaning": "station",
+      "text": "station"
+    },
+    "vocab-0379": {
+      "conceptId": "vocab-0379",
+      "meaning": "airport",
+      "text": "airport"
+    },
+    "vocab-0380": {
+      "conceptId": "vocab-0380",
+      "meaning": "ticket",
+      "text": "ticket"
+    },
+    "vocab-0381": {
+      "conceptId": "vocab-0381",
+      "meaning": "road",
+      "text": "road"
+    },
+    "vocab-0382": {
+      "conceptId": "vocab-0382",
+      "meaning": "bridge",
+      "text": "bridge"
+    },
+    "vocab-0383": {
+      "conceptId": "vocab-0383",
+      "meaning": "pedestrian crossing",
+      "text": "pedestrian crossing"
+    },
+    "vocab-0384": {
+      "conceptId": "vocab-0384",
+      "meaning": "traffic lights",
+      "text": "traffic lights"
+    },
+    "vocab-0385": {
+      "conceptId": "vocab-0385",
+      "meaning": "pavement",
+      "text": "pavement"
+    },
+    "vocab-0386": {
+      "conceptId": "vocab-0386",
+      "meaning": "corner",
+      "text": "corner"
+    },
+    "vocab-0387": {
+      "conceptId": "vocab-0387",
+      "meaning": "square",
+      "text": "square"
+    },
+    "vocab-0388": {
+      "conceptId": "vocab-0388",
+      "meaning": "centre",
+      "text": "centre"
+    },
+    "vocab-0389": {
+      "conceptId": "vocab-0389",
+      "meaning": "address",
+      "text": "address"
+    },
+    "vocab-0390": {
+      "conceptId": "vocab-0390",
+      "meaning": "city map",
+      "text": "city map"
+    },
+    "vocab-0391": {
+      "conceptId": "vocab-0391",
+      "meaning": "schoolbag",
+      "text": "schoolbag"
+    },
+    "vocab-0392": {
+      "conceptId": "vocab-0392",
+      "meaning": "ruler",
+      "text": "ruler"
+    },
+    "vocab-0393": {
+      "conceptId": "vocab-0393",
+      "meaning": "eraser",
+      "text": "eraser"
+    },
+    "vocab-0394": {
+      "conceptId": "vocab-0394",
+      "meaning": "scissors",
+      "text": "scissors"
+    },
+    "vocab-0395": {
+      "conceptId": "vocab-0395",
+      "meaning": "glue",
+      "text": "glue"
+    },
+    "vocab-0396": {
+      "conceptId": "vocab-0396",
+      "meaning": "paper",
+      "text": "paper"
+    },
+    "vocab-0397": {
+      "conceptId": "vocab-0397",
+      "meaning": "paint",
+      "text": "paint"
+    },
+    "vocab-0398": {
+      "conceptId": "vocab-0398",
+      "meaning": "brush",
+      "text": "brush"
+    },
+    "vocab-0399": {
+      "conceptId": "vocab-0399",
+      "meaning": "drawing",
+      "text": "drawing"
+    },
+    "vocab-0400": {
+      "conceptId": "vocab-0400",
+      "meaning": "homework",
+      "text": "homework"
+    },
+    "vocab-0401": {
+      "conceptId": "vocab-0401",
+      "meaning": "letter",
+      "text": "letter"
+    },
+    "vocab-0402": {
+      "conceptId": "vocab-0402",
+      "meaning": "word",
+      "text": "word"
+    },
+    "vocab-0403": {
+      "conceptId": "vocab-0403",
+      "meaning": "phrase",
+      "text": "phrase"
+    },
+    "vocab-0404": {
+      "conceptId": "vocab-0404",
+      "meaning": "sentence",
+      "text": "sentence"
+    },
+    "vocab-0405": {
+      "conceptId": "vocab-0405",
+      "meaning": "question",
+      "text": "question"
+    },
+    "vocab-0406": {
+      "conceptId": "vocab-0406",
+      "meaning": "answer",
+      "text": "answer"
+    },
+    "vocab-0407": {
+      "conceptId": "vocab-0407",
+      "meaning": "page",
+      "text": "page"
+    },
+    "vocab-0408": {
+      "conceptId": "vocab-0408",
+      "meaning": "exercise",
+      "text": "exercise"
+    },
+    "vocab-0409": {
+      "conceptId": "vocab-0409",
+      "meaning": "example",
+      "text": "example"
+    },
+    "vocab-0410": {
+      "conceptId": "vocab-0410",
+      "meaning": "mistake",
+      "text": "mistake"
+    },
+    "vocab-0411": {
+      "conceptId": "vocab-0411",
+      "meaning": "to go",
+      "text": "to go"
+    },
+    "vocab-0412": {
+      "conceptId": "vocab-0412",
+      "meaning": "to come",
+      "text": "to come"
+    },
+    "vocab-0413": {
+      "conceptId": "vocab-0413",
+      "meaning": "to walk",
+      "text": "to walk"
+    },
+    "vocab-0414": {
+      "conceptId": "vocab-0414",
+      "meaning": "to run",
+      "text": "to run"
+    },
+    "vocab-0415": {
+      "conceptId": "vocab-0415",
+      "meaning": "to sit",
+      "text": "to sit"
+    },
+    "vocab-0416": {
+      "conceptId": "vocab-0416",
+      "meaning": "to stand",
+      "text": "to stand"
+    },
+    "vocab-0417": {
+      "conceptId": "vocab-0417",
+      "meaning": "to sleep",
+      "text": "to sleep"
+    },
+    "vocab-0418": {
+      "conceptId": "vocab-0418",
+      "meaning": "to wake up",
+      "text": "to wake up"
+    },
+    "vocab-0419": {
+      "conceptId": "vocab-0419",
+      "meaning": "to eat",
+      "text": "to eat"
+    },
+    "vocab-0420": {
+      "conceptId": "vocab-0420",
+      "meaning": "to drink",
+      "text": "to drink"
+    },
+    "vocab-0421": {
+      "conceptId": "vocab-0421",
+      "meaning": "to speak a language",
+      "text": "to speak a language"
+    },
+    "vocab-0422": {
+      "conceptId": "vocab-0422",
+      "meaning": "to say a word",
+      "text": "to say a word"
+    },
+    "vocab-0423": {
+      "conceptId": "vocab-0423",
+      "meaning": "to ask",
+      "text": "to ask"
+    },
+    "vocab-0424": {
+      "conceptId": "vocab-0424",
+      "meaning": "to answer",
+      "text": "to answer"
+    },
+    "vocab-0425": {
+      "conceptId": "vocab-0425",
+      "meaning": "to listen",
+      "text": "to listen"
+    },
+    "vocab-0426": {
+      "conceptId": "vocab-0426",
+      "meaning": "to hear",
+      "text": "to hear"
+    },
+    "vocab-0427": {
+      "conceptId": "vocab-0427",
+      "meaning": "to read",
+      "text": "to read"
+    },
+    "vocab-0428": {
+      "conceptId": "vocab-0428",
+      "meaning": "to write",
+      "text": "to write"
+    },
+    "vocab-0429": {
+      "conceptId": "vocab-0429",
+      "meaning": "to learn",
+      "text": "to learn"
+    },
+    "vocab-0430": {
+      "conceptId": "vocab-0430",
+      "meaning": "to understand",
+      "text": "to understand"
+    },
+    "vocab-0431": {
+      "conceptId": "vocab-0431",
+      "meaning": "to see",
+      "text": "to see"
+    },
+    "vocab-0432": {
+      "conceptId": "vocab-0432",
+      "meaning": "to look at",
+      "text": "to look at"
+    },
+    "vocab-0433": {
+      "conceptId": "vocab-0433",
+      "meaning": "to watch",
+      "text": "to watch"
+    },
+    "vocab-0434": {
+      "conceptId": "vocab-0434",
+      "meaning": "to find",
+      "text": "to find"
+    },
+    "vocab-0435": {
+      "conceptId": "vocab-0435",
+      "meaning": "to search",
+      "text": "to search"
+    },
+    "vocab-0436": {
+      "conceptId": "vocab-0436",
+      "meaning": "to take",
+      "text": "to take"
+    },
+    "vocab-0437": {
+      "conceptId": "vocab-0437",
+      "meaning": "to give",
+      "text": "to give"
+    },
+    "vocab-0438": {
+      "conceptId": "vocab-0438",
+      "meaning": "to bring",
+      "text": "to bring"
+    },
+    "vocab-0439": {
+      "conceptId": "vocab-0439",
+      "meaning": "to buy",
+      "text": "to buy"
+    },
+    "vocab-0440": {
+      "conceptId": "vocab-0440",
+      "meaning": "to pay",
+      "text": "to pay"
+    },
+    "vocab-0441": {
+      "conceptId": "vocab-0441",
+      "meaning": "to open",
+      "text": "to open"
+    },
+    "vocab-0442": {
+      "conceptId": "vocab-0442",
+      "meaning": "to close",
+      "text": "to close"
+    },
+    "vocab-0443": {
+      "conceptId": "vocab-0443",
+      "meaning": "to start",
+      "text": "to start"
+    },
+    "vocab-0444": {
+      "conceptId": "vocab-0444",
+      "meaning": "to finish",
+      "text": "to finish"
+    },
+    "vocab-0445": {
+      "conceptId": "vocab-0445",
+      "meaning": "to wait",
+      "text": "to wait"
+    },
+    "vocab-0446": {
+      "conceptId": "vocab-0446",
+      "meaning": "to help",
+      "text": "to help"
+    },
+    "vocab-0447": {
+      "conceptId": "vocab-0447",
+      "meaning": "to play",
+      "text": "to play"
+    },
+    "vocab-0448": {
+      "conceptId": "vocab-0448",
+      "meaning": "to work",
+      "text": "to work"
+    },
+    "vocab-0449": {
+      "conceptId": "vocab-0449",
+      "meaning": "to wash",
+      "text": "to wash"
+    },
+    "vocab-0450": {
+      "conceptId": "vocab-0450",
+      "meaning": "to clean",
+      "text": "to clean"
+    },
+    "vocab-0451": {
+      "conceptId": "vocab-0451",
+      "meaning": "big",
+      "text": "big"
+    },
+    "vocab-0452": {
+      "conceptId": "vocab-0452",
+      "meaning": "small",
+      "text": "small"
+    },
+    "vocab-0453": {
+      "conceptId": "vocab-0453",
+      "meaning": "long",
+      "text": "long"
+    },
+    "vocab-0454": {
+      "conceptId": "vocab-0454",
+      "meaning": "short",
+      "text": "short"
+    },
+    "vocab-0455": {
+      "conceptId": "vocab-0455",
+      "meaning": "wide",
+      "text": "wide"
+    },
+    "vocab-0456": {
+      "conceptId": "vocab-0456",
+      "meaning": "narrow",
+      "text": "narrow"
+    },
+    "vocab-0457": {
+      "conceptId": "vocab-0457",
+      "meaning": "high",
+      "text": "high"
+    },
+    "vocab-0458": {
+      "conceptId": "vocab-0458",
+      "meaning": "low",
+      "text": "low"
+    },
+    "vocab-0459": {
+      "conceptId": "vocab-0459",
+      "meaning": "heavy",
+      "text": "heavy"
+    },
+    "vocab-0460": {
+      "conceptId": "vocab-0460",
+      "meaning": "light",
+      "text": "light"
+    },
+    "vocab-0461": {
+      "conceptId": "vocab-0461",
+      "meaning": "good",
+      "text": "good"
+    },
+    "vocab-0462": {
+      "conceptId": "vocab-0462",
+      "meaning": "bad",
+      "text": "bad"
+    },
+    "vocab-0463": {
+      "conceptId": "vocab-0463",
+      "meaning": "new",
+      "text": "new"
+    },
+    "vocab-0464": {
+      "conceptId": "vocab-0464",
+      "meaning": "old",
+      "text": "old"
+    },
+    "vocab-0465": {
+      "conceptId": "vocab-0465",
+      "meaning": "clean",
+      "text": "clean"
+    },
+    "vocab-0466": {
+      "conceptId": "vocab-0466",
+      "meaning": "dirty",
+      "text": "dirty"
+    },
+    "vocab-0467": {
+      "conceptId": "vocab-0467",
+      "meaning": "hot",
+      "text": "hot"
+    },
+    "vocab-0468": {
+      "conceptId": "vocab-0468",
+      "meaning": "cold",
+      "text": "cold"
+    },
+    "vocab-0469": {
+      "conceptId": "vocab-0469",
+      "meaning": "warm",
+      "text": "warm"
+    },
+    "vocab-0470": {
+      "conceptId": "vocab-0470",
+      "meaning": "cool",
+      "text": "cool"
+    },
+    "vocab-0471": {
+      "conceptId": "vocab-0471",
+      "meaning": "red",
+      "text": "red"
+    },
+    "vocab-0472": {
+      "conceptId": "vocab-0472",
+      "meaning": "blue",
+      "text": "blue"
+    },
+    "vocab-0473": {
+      "conceptId": "vocab-0473",
+      "meaning": "green",
+      "text": "green"
+    },
+    "vocab-0474": {
+      "conceptId": "vocab-0474",
+      "meaning": "yellow",
+      "text": "yellow"
+    },
+    "vocab-0475": {
+      "conceptId": "vocab-0475",
+      "meaning": "black",
+      "text": "black"
+    },
+    "vocab-0476": {
+      "conceptId": "vocab-0476",
+      "meaning": "white",
+      "text": "white"
+    },
+    "vocab-0477": {
+      "conceptId": "vocab-0477",
+      "meaning": "grey",
+      "text": "grey"
+    },
+    "vocab-0478": {
+      "conceptId": "vocab-0478",
+      "meaning": "brown",
+      "text": "brown"
+    },
+    "vocab-0479": {
+      "conceptId": "vocab-0479",
+      "meaning": "pink",
+      "text": "pink"
+    },
+    "vocab-0480": {
+      "conceptId": "vocab-0480",
+      "meaning": "purple",
+      "text": "purple"
+    },
+    "vocab-0481": {
+      "conceptId": "vocab-0481",
+      "meaning": "and",
+      "text": "and"
+    },
+    "vocab-0482": {
+      "conceptId": "vocab-0482",
+      "meaning": "or",
+      "text": "or"
+    },
+    "vocab-0483": {
+      "conceptId": "vocab-0483",
+      "meaning": "but",
+      "text": "but"
+    },
+    "vocab-0484": {
+      "conceptId": "vocab-0484",
+      "meaning": "because",
+      "text": "because"
+    },
+    "vocab-0485": {
+      "conceptId": "vocab-0485",
+      "meaning": "with me",
+      "text": "with me"
+    },
+    "vocab-0486": {
+      "conceptId": "vocab-0486",
+      "meaning": "without me",
+      "text": "without me"
+    },
+    "vocab-0487": {
+      "conceptId": "vocab-0487",
+      "meaning": "for you",
+      "text": "for you"
+    },
+    "vocab-0488": {
+      "conceptId": "vocab-0488",
+      "meaning": "from home",
+      "text": "from home"
+    },
+    "vocab-0489": {
+      "conceptId": "vocab-0489",
+      "meaning": "to school",
+      "text": "to school"
+    },
+    "vocab-0490": {
+      "conceptId": "vocab-0490",
+      "meaning": "between us",
+      "text": "between us"
+    },
+    "vocab-0491": {
+      "conceptId": "vocab-0491",
+      "meaning": "I",
+      "text": "I"
+    },
+    "vocab-0492": {
+      "conceptId": "vocab-0492",
+      "meaning": "you",
+      "text": "you"
+    },
+    "vocab-0493": {
+      "conceptId": "vocab-0493",
+      "meaning": "he",
+      "text": "he"
+    },
+    "vocab-0494": {
+      "conceptId": "vocab-0494",
+      "meaning": "she",
+      "text": "she"
+    },
+    "vocab-0495": {
+      "conceptId": "vocab-0495",
+      "meaning": "we",
+      "text": "we"
+    },
+    "vocab-0496": {
+      "conceptId": "vocab-0496",
+      "meaning": "they",
+      "text": "they"
+    },
+    "vocab-0497": {
+      "conceptId": "vocab-0497",
+      "meaning": "this",
+      "text": "this"
+    },
+    "vocab-0498": {
+      "conceptId": "vocab-0498",
+      "meaning": "that",
+      "text": "that"
+    },
+    "vocab-0499": {
+      "conceptId": "vocab-0499",
+      "meaning": "everything",
+      "text": "everything"
+    },
+    "vocab-0500": {
+      "conceptId": "vocab-0500",
+      "meaning": "nothing",
+      "text": "nothing"
     }
   },
   "ui": {
     "static": {
       "skip": "Skip to practice",
       "brand-name": "Language learning",
-      "badge": "Test build 0.3",
+      "badge": "Test build 0.4",
       "draft": "Draft lessons · translations await fluent human review · no audio yet",
       "audience": "Everyday languages · Ages 10–17",
       "welcome": "A little practice. Start with the essentials.",
@@ -551,16 +2551,56 @@
       "noscript": "Enable JavaScript to run the lessons. The downloaded HTML file needs no account or internet."
     },
     "lessons": {
-      "essentials": "Essential words",
-      "communication": "Communication and help",
-      "introductions": "Introducing yourself",
-      "places": "Finding places",
-      "school": "At school",
-      "friends": "Activities and friends",
-      "shops": "Canteen and shops",
-      "directions": "Street directions",
-      "transport": "Public transport",
-      "safety": "Safety and emergencies"
+      "basic-01": "Greetings",
+      "basic-02": "People",
+      "basic-03": "Numbers one to ten",
+      "basic-04": "Useful words",
+      "basic-05": "Essential places",
+      "basic-06": "Basic food and drinks",
+      "basic-07": "In the classroom",
+      "basic-08": "Directions",
+      "basic-09": "Safety",
+      "basic-10": "Question words",
+      "basic-11": "Relatives",
+      "basic-12": "People around us",
+      "basic-13": "Head and face",
+      "basic-14": "Body",
+      "basic-15": "Health",
+      "basic-16": "Feelings",
+      "basic-17": "Clothes",
+      "basic-18": "Phones and devices",
+      "basic-19": "Rooms and buildings",
+      "basic-20": "Furniture",
+      "basic-21": "Kitchen items",
+      "basic-22": "Hygiene",
+      "basic-23": "Fruit",
+      "basic-24": "Vegetables",
+      "basic-25": "Food ingredients",
+      "basic-26": "Meals",
+      "basic-27": "Useful short phrases",
+      "basic-28": "Shopping",
+      "basic-29": "More numbers",
+      "basic-30": "Tens and larger numbers",
+      "basic-31": "Days and time",
+      "basic-32": "Weekdays",
+      "basic-33": "Months January to October",
+      "basic-34": "Seasons",
+      "basic-35": "Weather",
+      "basic-36": "Nature",
+      "basic-37": "Animals",
+      "basic-38": "Transport",
+      "basic-39": "Around town",
+      "basic-40": "School materials",
+      "basic-41": "Study words",
+      "basic-42": "Everyday actions",
+      "basic-43": "Communication and learning actions",
+      "basic-44": "Finding and exchanging",
+      "basic-45": "Doing and helping",
+      "basic-46": "Sizes and weights",
+      "basic-47": "Qualities and temperature",
+      "basic-48": "Colours",
+      "basic-49": "Linking words and phrases",
+      "basic-50": "Pronouns and basics"
     },
     "names": {
       "lv": {

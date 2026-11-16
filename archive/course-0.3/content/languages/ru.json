@@ -1,0 +1,580 @@
+{
+  "schemaVersion": 1,
+  "id": "ru",
+  "translations": {
+    "essentials-phrase-01": {
+      "conceptId": "essentials-phrase-01",
+      "meaning": "Hello!",
+      "text": "Здравствуйте!"
+    },
+    "essentials-phrase-02": {
+      "conceptId": "essentials-phrase-02",
+      "meaning": "Yes.",
+      "text": "Да."
+    },
+    "essentials-phrase-03": {
+      "conceptId": "essentials-phrase-03",
+      "meaning": "No.",
+      "text": "Нет."
+    },
+    "essentials-phrase-04": {
+      "conceptId": "essentials-phrase-04",
+      "meaning": "Thank you!",
+      "text": "Спасибо!"
+    },
+    "essentials-phrase-05": {
+      "conceptId": "essentials-phrase-05",
+      "meaning": "Please!",
+      "text": "Пожалуйста!"
+    },
+    "essentials-phrase-06": {
+      "conceptId": "essentials-phrase-06",
+      "meaning": "Goodbye!",
+      "text": "До свидания!"
+    },
+    "essentials-phrase-07": {
+      "conceptId": "essentials-phrase-07",
+      "meaning": "Excuse me!",
+      "text": "Извините!"
+    },
+    "essentials-phrase-08": {
+      "conceptId": "essentials-phrase-08",
+      "meaning": "Good morning!",
+      "text": "Доброе утро!"
+    },
+    "essentials-phrase-09": {
+      "conceptId": "essentials-phrase-09",
+      "meaning": "Good night!",
+      "text": "Спокойной ночи!"
+    },
+    "essentials-phrase-10": {
+      "conceptId": "essentials-phrase-10",
+      "meaning": "Okay.",
+      "text": "Хорошо."
+    },
+    "communication-phrase-01": {
+      "conceptId": "communication-phrase-01",
+      "meaning": "I don't understand.",
+      "text": "Я не понимаю."
+    },
+    "communication-phrase-02": {
+      "conceptId": "communication-phrase-02",
+      "meaning": "Please repeat.",
+      "text": "Повторите, пожалуйста."
+    },
+    "communication-phrase-03": {
+      "conceptId": "communication-phrase-03",
+      "meaning": "Please speak more slowly.",
+      "text": "Говорите медленнее, пожалуйста."
+    },
+    "communication-phrase-04": {
+      "conceptId": "communication-phrase-04",
+      "meaning": "Do you speak Latvian?",
+      "text": "Вы говорите по-латышски?"
+    },
+    "communication-phrase-05": {
+      "conceptId": "communication-phrase-05",
+      "meaning": "I need help.",
+      "text": "Мне нужна помощь."
+    },
+    "communication-phrase-06": {
+      "conceptId": "communication-phrase-06",
+      "meaning": "What does that mean?",
+      "text": "Что это значит?"
+    },
+    "communication-phrase-07": {
+      "conceptId": "communication-phrase-07",
+      "meaning": "Please show me.",
+      "text": "Покажите, пожалуйста."
+    },
+    "communication-phrase-08": {
+      "conceptId": "communication-phrase-08",
+      "meaning": "I don't know.",
+      "text": "Я не знаю."
+    },
+    "communication-phrase-09": {
+      "conceptId": "communication-phrase-09",
+      "meaning": "I speak a little Russian.",
+      "text": "Я немного говорю по-русски."
+    },
+    "communication-phrase-10": {
+      "conceptId": "communication-phrase-10",
+      "meaning": "How do you say that in Russian?",
+      "text": "Как это сказать по-русски?"
+    },
+    "introductions-phrase-01": {
+      "conceptId": "introductions-phrase-01",
+      "meaning": "What is your name?",
+      "text": "Как тебя зовут?"
+    },
+    "introductions-phrase-02": {
+      "conceptId": "introductions-phrase-02",
+      "meaning": "My name is...",
+      "text": "Меня зовут..."
+    },
+    "introductions-phrase-03": {
+      "conceptId": "introductions-phrase-03",
+      "meaning": "How old are you?",
+      "text": "Сколько тебе лет?"
+    },
+    "introductions-phrase-04": {
+      "conceptId": "introductions-phrase-04",
+      "meaning": "I'm eleven years old.",
+      "text": "Мне одиннадцать лет."
+    },
+    "introductions-phrase-05": {
+      "conceptId": "introductions-phrase-05",
+      "meaning": "I go to school.",
+      "text": "Я учусь в школе."
+    },
+    "introductions-phrase-06": {
+      "conceptId": "introductions-phrase-06",
+      "meaning": "I'm from Latvia.",
+      "text": "Я из Латвии."
+    },
+    "introductions-phrase-07": {
+      "conceptId": "introductions-phrase-07",
+      "meaning": "Nice to meet you!",
+      "text": "Приятно познакомиться!"
+    },
+    "introductions-phrase-08": {
+      "conceptId": "introductions-phrase-08",
+      "meaning": "I'm waiting for my mum.",
+      "text": "Я жду маму."
+    },
+    "introductions-phrase-09": {
+      "conceptId": "introductions-phrase-09",
+      "meaning": "I won't tell you my address.",
+      "text": "Я не скажу свой адрес."
+    },
+    "introductions-phrase-10": {
+      "conceptId": "introductions-phrase-10",
+      "meaning": "I don't know you.",
+      "text": "Я тебя не знаю."
+    },
+    "places-phrase-01": {
+      "conceptId": "places-phrase-01",
+      "meaning": "Where is the toilet?",
+      "text": "Где туалет?"
+    },
+    "places-phrase-02": {
+      "conceptId": "places-phrase-02",
+      "meaning": "Where is the exit?",
+      "text": "Где выход?"
+    },
+    "places-phrase-03": {
+      "conceptId": "places-phrase-03",
+      "meaning": "Where is the school?",
+      "text": "Где школа?"
+    },
+    "places-phrase-04": {
+      "conceptId": "places-phrase-04",
+      "meaning": "Where is the bus stop?",
+      "text": "Где остановка?"
+    },
+    "places-phrase-05": {
+      "conceptId": "places-phrase-05",
+      "meaning": "Where is the shop?",
+      "text": "Где магазин?"
+    },
+    "places-phrase-06": {
+      "conceptId": "places-phrase-06",
+      "meaning": "Where is the entrance?",
+      "text": "Где вход?"
+    },
+    "places-phrase-07": {
+      "conceptId": "places-phrase-07",
+      "meaning": "Where is the pharmacy?",
+      "text": "Где аптека?"
+    },
+    "places-phrase-08": {
+      "conceptId": "places-phrase-08",
+      "meaning": "It's here.",
+      "text": "Это здесь."
+    },
+    "places-phrase-09": {
+      "conceptId": "places-phrase-09",
+      "meaning": "It's there.",
+      "text": "Это там."
+    },
+    "places-phrase-10": {
+      "conceptId": "places-phrase-10",
+      "meaning": "It's next to the school.",
+      "text": "Это рядом со школой."
+    },
+    "school-phrase-01": {
+      "conceptId": "school-phrase-01",
+      "meaning": "May I come in?",
+      "text": "Можно войти?"
+    },
+    "school-phrase-02": {
+      "conceptId": "school-phrase-02",
+      "meaning": "May I go out?",
+      "text": "Можно выйти?"
+    },
+    "school-phrase-03": {
+      "conceptId": "school-phrase-03",
+      "meaning": "Where is the teacher?",
+      "text": "Где учитель?"
+    },
+    "school-phrase-04": {
+      "conceptId": "school-phrase-04",
+      "meaning": "What do I need to do?",
+      "text": "Что нужно делать?"
+    },
+    "school-phrase-05": {
+      "conceptId": "school-phrase-05",
+      "meaning": "Open the book.",
+      "text": "Открой книгу."
+    },
+    "school-phrase-06": {
+      "conceptId": "school-phrase-06",
+      "meaning": "Close the door.",
+      "text": "Закрой дверь."
+    },
+    "school-phrase-07": {
+      "conceptId": "school-phrase-07",
+      "meaning": "Write the answer.",
+      "text": "Напиши ответ."
+    },
+    "school-phrase-08": {
+      "conceptId": "school-phrase-08",
+      "meaning": "Please read.",
+      "text": "Прочитай, пожалуйста."
+    },
+    "school-phrase-09": {
+      "conceptId": "school-phrase-09",
+      "meaning": "I don't have a pen.",
+      "text": "У меня нет ручки."
+    },
+    "school-phrase-10": {
+      "conceptId": "school-phrase-10",
+      "meaning": "The lesson is over.",
+      "text": "Урок закончился."
+    },
+    "friends-phrase-01": {
+      "conceptId": "friends-phrase-01",
+      "meaning": "Let's play together!",
+      "text": "Давай играть вместе!"
+    },
+    "friends-phrase-02": {
+      "conceptId": "friends-phrase-02",
+      "meaning": "Please wait.",
+      "text": "Подожди, пожалуйста."
+    },
+    "friends-phrase-03": {
+      "conceptId": "friends-phrase-03",
+      "meaning": "It's my turn.",
+      "text": "Сейчас моя очередь."
+    },
+    "friends-phrase-04": {
+      "conceptId": "friends-phrase-04",
+      "meaning": "May I join in?",
+      "text": "Можно мне присоединиться?"
+    },
+    "friends-phrase-05": {
+      "conceptId": "friends-phrase-05",
+      "meaning": "Stop!",
+      "text": "Остановись!"
+    },
+    "friends-phrase-06": {
+      "conceptId": "friends-phrase-06",
+      "meaning": "Come here!",
+      "text": "Иди сюда!"
+    },
+    "friends-phrase-07": {
+      "conceptId": "friends-phrase-07",
+      "meaning": "Let's go outside!",
+      "text": "Пойдём на улицу!"
+    },
+    "friends-phrase-08": {
+      "conceptId": "friends-phrase-08",
+      "meaning": "Do you want to play?",
+      "text": "Ты хочешь играть?"
+    },
+    "friends-phrase-09": {
+      "conceptId": "friends-phrase-09",
+      "meaning": "I don't want to.",
+      "text": "Я не хочу."
+    },
+    "friends-phrase-10": {
+      "conceptId": "friends-phrase-10",
+      "meaning": "See you tomorrow!",
+      "text": "Увидимся завтра!"
+    },
+    "shops-phrase-01": {
+      "conceptId": "shops-phrase-01",
+      "meaning": "May I have this?",
+      "text": "Можно это?"
+    },
+    "shops-phrase-02": {
+      "conceptId": "shops-phrase-02",
+      "meaning": "Water, please.",
+      "text": "Воду, пожалуйста."
+    },
+    "shops-phrase-03": {
+      "conceptId": "shops-phrase-03",
+      "meaning": "How much does this cost?",
+      "text": "Сколько это стоит?"
+    },
+    "shops-phrase-04": {
+      "conceptId": "shops-phrase-04",
+      "meaning": "Can I pay by card?",
+      "text": "Можно заплатить картой?"
+    },
+    "shops-phrase-05": {
+      "conceptId": "shops-phrase-05",
+      "meaning": "No, thank you.",
+      "text": "Нет, спасибо."
+    },
+    "shops-phrase-06": {
+      "conceptId": "shops-phrase-06",
+      "meaning": "I need a bag.",
+      "text": "Мне нужен пакет."
+    },
+    "shops-phrase-07": {
+      "conceptId": "shops-phrase-07",
+      "meaning": "Where is the checkout?",
+      "text": "Где касса?"
+    },
+    "shops-phrase-08": {
+      "conceptId": "shops-phrase-08",
+      "meaning": "One, please.",
+      "text": "Одну штуку, пожалуйста."
+    },
+    "shops-phrase-09": {
+      "conceptId": "shops-phrase-09",
+      "meaning": "Without sugar, please.",
+      "text": "Без сахара, пожалуйста."
+    },
+    "shops-phrase-10": {
+      "conceptId": "shops-phrase-10",
+      "meaning": "I'm allergic to nuts.",
+      "text": "У меня аллергия на орехи."
+    },
+    "directions-phrase-01": {
+      "conceptId": "directions-phrase-01",
+      "meaning": "Go straight.",
+      "text": "Идите прямо."
+    },
+    "directions-phrase-02": {
+      "conceptId": "directions-phrase-02",
+      "meaning": "Turn left.",
+      "text": "Поверните налево."
+    },
+    "directions-phrase-03": {
+      "conceptId": "directions-phrase-03",
+      "meaning": "Turn right.",
+      "text": "Поверните направо."
+    },
+    "directions-phrase-04": {
+      "conceptId": "directions-phrase-04",
+      "meaning": "It's nearby.",
+      "text": "Это близко."
+    },
+    "directions-phrase-05": {
+      "conceptId": "directions-phrase-05",
+      "meaning": "It's far away.",
+      "text": "Это далеко."
+    },
+    "directions-phrase-06": {
+      "conceptId": "directions-phrase-06",
+      "meaning": "Cross the street.",
+      "text": "Перейдите улицу."
+    },
+    "directions-phrase-07": {
+      "conceptId": "directions-phrase-07",
+      "meaning": "Wait at the traffic lights.",
+      "text": "Подождите у светофора."
+    },
+    "directions-phrase-08": {
+      "conceptId": "directions-phrase-08",
+      "meaning": "Where is the pedestrian crossing?",
+      "text": "Где пешеходный переход?"
+    },
+    "directions-phrase-09": {
+      "conceptId": "directions-phrase-09",
+      "meaning": "I'm looking for this street.",
+      "text": "Я ищу эту улицу."
+    },
+    "directions-phrase-10": {
+      "conceptId": "directions-phrase-10",
+      "meaning": "Is this the right way?",
+      "text": "Это правильная дорога?"
+    },
+    "transport-phrase-01": {
+      "conceptId": "transport-phrase-01",
+      "meaning": "Does this bus go to the centre?",
+      "text": "Этот автобус едет в центр?"
+    },
+    "transport-phrase-02": {
+      "conceptId": "transport-phrase-02",
+      "meaning": "Where do I need to get off?",
+      "text": "Где мне нужно выйти?"
+    },
+    "transport-phrase-03": {
+      "conceptId": "transport-phrase-03",
+      "meaning": "The next stop.",
+      "text": "Следующая остановка."
+    },
+    "transport-phrase-04": {
+      "conceptId": "transport-phrase-04",
+      "meaning": "I need a ticket.",
+      "text": "Мне нужен билет."
+    },
+    "transport-phrase-05": {
+      "conceptId": "transport-phrase-05",
+      "meaning": "What time does the bus arrive?",
+      "text": "Во сколько приходит автобус?"
+    },
+    "transport-phrase-06": {
+      "conceptId": "transport-phrase-06",
+      "meaning": "Is this seat free?",
+      "text": "Это место свободно?"
+    },
+    "transport-phrase-07": {
+      "conceptId": "transport-phrase-07",
+      "meaning": "I'll get off here.",
+      "text": "Я выйду здесь."
+    },
+    "transport-phrase-08": {
+      "conceptId": "transport-phrase-08",
+      "meaning": "Where is bus number five?",
+      "text": "Где автобус номер пять?"
+    },
+    "transport-phrase-09": {
+      "conceptId": "transport-phrase-09",
+      "meaning": "The bus is late.",
+      "text": "Автобус опаздывает."
+    },
+    "transport-phrase-10": {
+      "conceptId": "transport-phrase-10",
+      "meaning": "Please let me through.",
+      "text": "Пожалуйста, пропустите меня."
+    },
+    "safety-phrase-01": {
+      "conceptId": "safety-phrase-01",
+      "meaning": "I can't find my way.",
+      "text": "Я не могу найти дорогу."
+    },
+    "safety-phrase-02": {
+      "conceptId": "safety-phrase-02",
+      "meaning": "Leave me alone!",
+      "text": "Оставь меня в покое!"
+    },
+    "safety-phrase-03": {
+      "conceptId": "safety-phrase-03",
+      "meaning": "Help!",
+      "text": "На помощь!"
+    },
+    "safety-phrase-04": {
+      "conceptId": "safety-phrase-04",
+      "meaning": "Call my parents.",
+      "text": "Позвоните моим родителям."
+    },
+    "safety-phrase-05": {
+      "conceptId": "safety-phrase-05",
+      "meaning": "Call 112.",
+      "text": "Позвоните по номеру 112."
+    },
+    "safety-phrase-06": {
+      "conceptId": "safety-phrase-06",
+      "meaning": "I need a doctor.",
+      "text": "Мне нужен врач."
+    },
+    "safety-phrase-07": {
+      "conceptId": "safety-phrase-07",
+      "meaning": "Don't touch me!",
+      "text": "Не трогай меня!"
+    },
+    "safety-phrase-08": {
+      "conceptId": "safety-phrase-08",
+      "meaning": "I won't go with you.",
+      "text": "Я не пойду с тобой."
+    },
+    "safety-phrase-09": {
+      "conceptId": "safety-phrase-09",
+      "meaning": "Where are the police?",
+      "text": "Где полиция?"
+    },
+    "safety-phrase-10": {
+      "conceptId": "safety-phrase-10",
+      "meaning": "I'm scared.",
+      "text": "Мне страшно."
+    }
+  },
+  "ui": {
+    "static": {
+      "skip": "Перейти к заданиям",
+      "brand-name": "Изучение языков",
+      "badge": "Тестовая версия 0.3",
+      "draft": "Учебные материалы ещё должны проверить носители языка · звука пока нет",
+      "audience": "Языки для повседневной жизни · 10–17 лет",
+      "welcome": "Немного практики. Начните с основ.",
+      "intro": "Короткие уроки для повседневных ситуаций. Выберите направление и начните первый урок.",
+      "direction-caption": "Направление обучения",
+      "start": "Начать обучение",
+      "rules-title": "Как учиться",
+      "rule-options": "Выберите один из четырёх ответов. Результат появляется сразу, а через 0,5 секунды открывается следующий вопрос. Порядок ответов каждый раз меняется.",
+      "rule-complete": "В каждом уроке блок из десяти вопросов. Десять правильных ответов подряд завершают урок.",
+      "rule-mistakes": "Ошибка возвращает на один вопрос назад и обнуляет серию правильных ответов. Третья ошибка в том же блоке возвращает к вопросу 1 урока 1, даже если между ошибками были правильные ответы.",
+      "rule-reset": "В новом блоке или при начале заново счётчик ошибок обнуляется. В браузере прогресс не сохраняется.",
+      "outline-summary": "Посмотреть темы уроков",
+      "outline-note": "Уроки проходят по порядку. Этот список не позволяет пропускать уроки.",
+      "restart": "Начать с урока 1",
+      "change": "Изменить направление",
+      "help": "Ответы и прогресс остаются только в памяти этой страницы. При закрытии или перезагрузке всё начинается заново.",
+      "finished-caption": "Занятие завершено",
+      "finished-title": "Вы прошли все уроки.",
+      "finished-intro": "Возвращайтесь к основам, когда захотите потренироваться снова.",
+      "again": "Снова начать с урока 1",
+      "choose": "Выбрать другое направление",
+      "footer-caption": "Бесплатная тестовая версия · без аккаунта, рекламы и сохранения прогресса в браузере",
+      "source-link": "Исходный код и отзывы на GitHub",
+      "privacy-note": "Не публикуйте личные данные в открытых обсуждениях GitHub."
+    },
+    "messages": {
+      "pageTitle": "Изучение языков — тестовая версия",
+      "lesson": "Урок {n} из {total}",
+      "progress": "Правильных ответов подряд: {n} из 10",
+      "progressValue": "{n} из 10",
+      "mistakes": "Ошибок в этом блоке: {n} из 3",
+      "choices": "Варианты перевода",
+      "wrong": "Неверно. Правильный перевод: ",
+      "back": " Возвращаемся на один вопрос назад; серия правильных ответов начинается заново.",
+      "reset": " Третья ошибка в этом блоке. Начинаем с вопроса 1 урока 1.",
+      "correct": "Верно. Переходим к следующему вопросу.",
+      "nextLesson": "Верно. Следующая тема: {title}.",
+      "completed": "Верно. Последний урок завершён.",
+      "error": "Не удалось загрузить учебные материалы. Скачайте тестовую версию ещё раз или сообщите о проблеме на GitHub.",
+      "instruction": "Выберите перевод на {language} язык",
+      "noscript": "Для выполнения заданий включите JavaScript. Скачанному HTML-файлу не нужны аккаунт и интернет."
+    },
+    "lessons": {
+      "essentials": "Основные слова",
+      "communication": "Общение и помощь",
+      "introductions": "Знакомство",
+      "places": "Как найти нужное место",
+      "school": "В школе",
+      "friends": "Занятия и друзья",
+      "shops": "В столовой и магазине",
+      "directions": "Как пройти",
+      "transport": "Общественный транспорт",
+      "safety": "Безопасность и экстренные ситуации"
+    },
+    "names": {
+      "lv": {
+        "label": "Латышский",
+        "target": "латышский"
+      },
+      "ru": {
+        "label": "Русский",
+        "target": "русский"
+      },
+      "en": {
+        "label": "Английский",
+        "target": "английский"
+      }
+    }
+  }
+}

@@ -57,10 +57,12 @@ def load_content(root: Path):
     definitions = read_module(content, catalog.get('conceptsFile'))
     require(definitions.get('schemaVersion') == 1 and isinstance(definitions.get('concepts'), list) and definitions['concepts'], 'invalid concept registry')
     meanings = {}
+    forms = {}
     for concept in definitions['concepts']:
         concept_id = concept.get('id')
         require(text(concept_id) and ID.fullmatch(concept_id) and concept_id not in meanings and text(concept.get('meaning')), f'invalid or duplicate concept: {concept_id}')
         meanings[concept_id] = concept['meaning']
+        forms[concept_id] = concept.get('form')
 
     blocks = []
     used_ids = set(meanings)
@@ -128,6 +130,22 @@ def load_content(root: Path):
             for code in languages:
                 options = [unicodedata.normalize('NFC', translations[code][key]).strip().casefold() for key in [prompt['correctAnswerId'], *prompt['distractorIds']]]
                 require(len(set(options)) == 4, f'{block["id"]}/{prompt["id"]}/{code}: ambiguous answer text')
+
+    curriculum = catalog.get('curriculum')
+    if curriculum is not None:
+        require(isinstance(curriculum, dict) and curriculum.get('kind') == 'basic-words-and-phrases', 'unsupported curriculum policy')
+        target = curriculum.get('targetItems')
+        maximum = curriculum.get('maxWordsPerItem')
+        introductory = curriculum.get('introductoryBlocks')
+        require(type(target) is int and target > 0 and type(maximum) is int and maximum > 0 and type(introductory) is int and 0 < introductory <= len(blocks), 'invalid vocabulary curriculum limits')
+        active_ids = [prompt['phraseId'] for block in blocks for prompt in block['prompts']]
+        require(len(active_ids) == target and len(set(active_ids)) == target, 'vocabulary target requires distinct learning items')
+        require(len({meanings[key].strip().casefold() for key in active_ids}) == target, 'duplicate meanings inflate the vocabulary target')
+        for concept_id in active_ids:
+            require(forms[concept_id] in ['word', 'phrase'], f'{concept_id}: vocabulary items must be words or phrases')
+            for code in languages:
+                value = translations[code][concept_id]
+                require(len(value.split()) <= maximum and not re.search(r'[.!?]', value), f'{code}/{concept_id}: vocabulary items must stay short, without sentence punctuation')
 
     course = {**{key: catalog[key] for key in ['id', 'contentVersion', 'agePath', 'reviewStatus']},
               'schemaVersion': 2, 'defaultDirection': direction, 'languages': languages,

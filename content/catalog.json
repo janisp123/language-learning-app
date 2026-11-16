@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "id": "lv-ru-10-17",
-  "contentVersion": "0.3.0-test",
+  "id": "basic-vocabulary-10-17",
+  "contentVersion": "0.4.0-test",
   "agePath": "10-17",
   "reviewStatus": "draft-human-review-pending",
   "defaultDirection": "lv-ru",
@@ -22,44 +22,210 @@
   ],
   "blocks": [
     {
-      "id": "essentials",
-      "file": "blocks/essentials.json"
+      "id": "basic-01",
+      "file": "blocks/basic-01.json"
     },
     {
-      "id": "communication",
-      "file": "blocks/communication.json"
+      "id": "basic-02",
+      "file": "blocks/basic-02.json"
     },
     {
-      "id": "introductions",
-      "file": "blocks/introductions.json"
+      "id": "basic-03",
+      "file": "blocks/basic-03.json"
     },
     {
-      "id": "places",
-      "file": "blocks/places.json"
+      "id": "basic-04",
+      "file": "blocks/basic-04.json"
     },
     {
-      "id": "school",
-      "file": "blocks/school.json"
+      "id": "basic-05",
+      "file": "blocks/basic-05.json"
     },
     {
-      "id": "friends",
-      "file": "blocks/friends.json"
+      "id": "basic-06",
+      "file": "blocks/basic-06.json"
     },
     {
-      "id": "shops",
-      "file": "blocks/shops.json"
+      "id": "basic-07",
+      "file": "blocks/basic-07.json"
     },
     {
-      "id": "directions",
-      "file": "blocks/directions.json"
+      "id": "basic-08",
+      "file": "blocks/basic-08.json"
     },
     {
-      "id": "transport",
-      "file": "blocks/transport.json"
+      "id": "basic-09",
+      "file": "blocks/basic-09.json"
     },
     {
-      "id": "safety",
-      "file": "blocks/safety.json"
+      "id": "basic-10",
+      "file": "blocks/basic-10.json"
+    },
+    {
+      "id": "basic-11",
+      "file": "blocks/basic-11.json"
+    },
+    {
+      "id": "basic-12",
+      "file": "blocks/basic-12.json"
+    },
+    {
+      "id": "basic-13",
+      "file": "blocks/basic-13.json"
+    },
+    {
+      "id": "basic-14",
+      "file": "blocks/basic-14.json"
+    },
+    {
+      "id": "basic-15",
+      "file": "blocks/basic-15.json"
+    },
+    {
+      "id": "basic-16",
+      "file": "blocks/basic-16.json"
+    },
+    {
+      "id": "basic-17",
+      "file": "blocks/basic-17.json"
+    },
+    {
+      "id": "basic-18",
+      "file": "blocks/basic-18.json"
+    },
+    {
+      "id": "basic-19",
+      "file": "blocks/basic-19.json"
+    },
+    {
+      "id": "basic-20",
+      "file": "blocks/basic-20.json"
+    },
+    {
+      "id": "basic-21",
+      "file": "blocks/basic-21.json"
+    },
+    {
+      "id": "basic-22",
+      "file": "blocks/basic-22.json"
+    },
+    {
+      "id": "basic-23",
+      "file": "blocks/basic-23.json"
+    },
+    {
+      "id": "basic-24",
+      "file": "blocks/basic-24.json"
+    },
+    {
+      "id": "basic-25",
+      "file": "blocks/basic-25.json"
+    },
+    {
+      "id": "basic-26",
+      "file": "blocks/basic-26.json"
+    },
+    {
+      "id": "basic-27",
+      "file": "blocks/basic-27.json"
+    },
+    {
+      "id": "basic-28",
+      "file": "blocks/basic-28.json"
+    },
+    {
+      "id": "basic-29",
+      "file": "blocks/basic-29.json"
+    },
+    {
+      "id": "basic-30",
+      "file": "blocks/basic-30.json"
+    },
+    {
+      "id": "basic-31",
+      "file": "blocks/basic-31.json"
+    },
+    {
+      "id": "basic-32",
+      "file": "blocks/basic-32.json"
+    },
+    {
+      "id": "basic-33",
+      "file": "blocks/basic-33.json"
+    },
+    {
+      "id": "basic-34",
+      "file": "blocks/basic-34.json"
+    },
+    {
+      "id": "basic-35",
+      "file": "blocks/basic-35.json"
+    },
+    {
+      "id": "basic-36",
+      "file": "blocks/basic-36.json"
+    },
+    {
+      "id": "basic-37",
+      "file": "blocks/basic-37.json"
+    },
+    {
+      "id": "basic-38",
+      "file": "blocks/basic-38.json"
+    },
+    {
+      "id": "basic-39",
+      "file": "blocks/basic-39.json"
+    },
+    {
+      "id": "basic-40",
+      "file": "blocks/basic-40.json"
+    },
+    {
+      "id": "basic-41",
+      "file": "blocks/basic-41.json"
+    },
+    {
+      "id": "basic-42",
+      "file": "blocks/basic-42.json"
+    },
+    {
+      "id": "basic-43",
+      "file": "blocks/basic-43.json"
+    },
+    {
+      "id": "basic-44",
+      "file": "blocks/basic-44.json"
+    },
+    {
+      "id": "basic-45",
+      "file": "blocks/basic-45.json"
+    },
+    {
+      "id": "basic-46",
+      "file": "blocks/basic-46.json"
+    },
+    {
+      "id": "basic-47",
+      "file": "blocks/basic-47.json"
+    },
+    {
+      "id": "basic-48",
+      "file": "blocks/basic-48.json"
+    },
+    {
+      "id": "basic-49",
+      "file": "blocks/basic-49.json"
+    },
+    {
+      "id": "basic-50",
+      "file": "blocks/basic-50.json"
     }
-  ]
+  ],
+  "curriculum": {
+    "kind": "basic-words-and-phrases",
+    "targetItems": 500,
+    "introductoryBlocks": 10,
+    "maxWordsPerItem": 4
+  }
 }

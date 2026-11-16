@@ -2,404 +2,2504 @@
   "schemaVersion": 1,
   "concepts": [
     {
-      "id": "essentials-phrase-01",
-      "meaning": "Hello!"
+      "id": "vocab-0001",
+      "meaning": "hello",
+      "form": "word"
     },
     {
-      "id": "essentials-phrase-02",
-      "meaning": "Yes."
+      "id": "vocab-0002",
+      "meaning": "goodbye",
+      "form": "word"
     },
     {
-      "id": "essentials-phrase-03",
-      "meaning": "No."
+      "id": "vocab-0003",
+      "meaning": "please",
+      "form": "word"
     },
     {
-      "id": "essentials-phrase-04",
-      "meaning": "Thank you!"
+      "id": "vocab-0004",
+      "meaning": "thank you",
+      "form": "phrase"
     },
     {
-      "id": "essentials-phrase-05",
-      "meaning": "Please!"
+      "id": "vocab-0005",
+      "meaning": "sorry",
+      "form": "word"
     },
     {
-      "id": "essentials-phrase-06",
-      "meaning": "Goodbye!"
+      "id": "vocab-0006",
+      "meaning": "yes",
+      "form": "word"
     },
     {
-      "id": "essentials-phrase-07",
-      "meaning": "Excuse me!"
+      "id": "vocab-0007",
+      "meaning": "no",
+      "form": "word"
     },
     {
-      "id": "essentials-phrase-08",
-      "meaning": "Good morning!"
+      "id": "vocab-0008",
+      "meaning": "good morning",
+      "form": "phrase"
     },
     {
-      "id": "essentials-phrase-09",
-      "meaning": "Good night!"
+      "id": "vocab-0009",
+      "meaning": "good evening",
+      "form": "phrase"
     },
     {
-      "id": "essentials-phrase-10",
-      "meaning": "Okay."
+      "id": "vocab-0010",
+      "meaning": "good night",
+      "form": "phrase"
     },
     {
-      "id": "communication-phrase-01",
-      "meaning": "I don't understand."
+      "id": "vocab-0011",
+      "meaning": "person",
+      "form": "word"
     },
     {
-      "id": "communication-phrase-02",
-      "meaning": "Please repeat."
+      "id": "vocab-0012",
+      "meaning": "child",
+      "form": "word"
     },
     {
-      "id": "communication-phrase-03",
-      "meaning": "Please speak more slowly."
+      "id": "vocab-0013",
+      "meaning": "boy",
+      "form": "word"
     },
     {
-      "id": "communication-phrase-04",
-      "meaning": "Do you speak Latvian?"
+      "id": "vocab-0014",
+      "meaning": "girl",
+      "form": "word"
     },
     {
-      "id": "communication-phrase-05",
-      "meaning": "I need help."
+      "id": "vocab-0015",
+      "meaning": "friend",
+      "form": "word"
     },
     {
-      "id": "communication-phrase-06",
-      "meaning": "What does that mean?"
+      "id": "vocab-0016",
+      "meaning": "family",
+      "form": "word"
     },
     {
-      "id": "communication-phrase-07",
-      "meaning": "Please show me."
+      "id": "vocab-0017",
+      "meaning": "mother",
+      "form": "word"
     },
     {
-      "id": "communication-phrase-08",
-      "meaning": "I don't know."
+      "id": "vocab-0018",
+      "meaning": "father",
+      "form": "word"
     },
     {
-      "id": "communication-phrase-09",
-      "meaning": "I speak a little Russian."
+      "id": "vocab-0019",
+      "meaning": "sister",
+      "form": "word"
     },
     {
-      "id": "communication-phrase-10",
-      "meaning": "How do you say that in Russian?"
+      "id": "vocab-0020",
+      "meaning": "brother",
+      "form": "word"
     },
     {
-      "id": "introductions-phrase-01",
-      "meaning": "What is your name?"
+      "id": "vocab-0021",
+      "meaning": "one",
+      "form": "word"
     },
     {
-      "id": "introductions-phrase-02",
-      "meaning": "My name is..."
+      "id": "vocab-0022",
+      "meaning": "two",
+      "form": "word"
     },
     {
-      "id": "introductions-phrase-03",
-      "meaning": "How old are you?"
+      "id": "vocab-0023",
+      "meaning": "three",
+      "form": "word"
     },
     {
-      "id": "introductions-phrase-04",
-      "meaning": "I'm eleven years old."
+      "id": "vocab-0024",
+      "meaning": "four",
+      "form": "word"
     },
     {
-      "id": "introductions-phrase-05",
-      "meaning": "I go to school."
+      "id": "vocab-0025",
+      "meaning": "five",
+      "form": "word"
     },
     {
-      "id": "introductions-phrase-06",
-      "meaning": "I'm from Latvia."
+      "id": "vocab-0026",
+      "meaning": "six",
+      "form": "word"
     },
     {
-      "id": "introductions-phrase-07",
-      "meaning": "Nice to meet you!"
+      "id": "vocab-0027",
+      "meaning": "seven",
+      "form": "word"
     },
     {
-      "id": "introductions-phrase-08",
-      "meaning": "I'm waiting for my mum."
+      "id": "vocab-0028",
+      "meaning": "eight",
+      "form": "word"
     },
     {
-      "id": "introductions-phrase-09",
-      "meaning": "I won't tell you my address."
+      "id": "vocab-0029",
+      "meaning": "nine",
+      "form": "word"
     },
     {
-      "id": "introductions-phrase-10",
-      "meaning": "I don't know you."
+      "id": "vocab-0030",
+      "meaning": "ten",
+      "form": "word"
     },
     {
-      "id": "places-phrase-01",
-      "meaning": "Where is the toilet?"
+      "id": "vocab-0031",
+      "meaning": "help",
+      "form": "word"
     },
     {
-      "id": "places-phrase-02",
-      "meaning": "Where is the exit?"
+      "id": "vocab-0032",
+      "meaning": "stop",
+      "form": "word"
     },
     {
-      "id": "places-phrase-03",
-      "meaning": "Where is the school?"
+      "id": "vocab-0033",
+      "meaning": "here",
+      "form": "word"
     },
     {
-      "id": "places-phrase-04",
-      "meaning": "Where is the bus stop?"
+      "id": "vocab-0034",
+      "meaning": "there",
+      "form": "word"
     },
     {
-      "id": "places-phrase-05",
-      "meaning": "Where is the shop?"
+      "id": "vocab-0035",
+      "meaning": "now",
+      "form": "word"
     },
     {
-      "id": "places-phrase-06",
-      "meaning": "Where is the entrance?"
+      "id": "vocab-0036",
+      "meaning": "later",
+      "form": "word"
     },
     {
-      "id": "places-phrase-07",
-      "meaning": "Where is the pharmacy?"
+      "id": "vocab-0037",
+      "meaning": "together",
+      "form": "word"
     },
     {
-      "id": "places-phrase-08",
-      "meaning": "It's here."
+      "id": "vocab-0038",
+      "meaning": "again",
+      "form": "word"
     },
     {
-      "id": "places-phrase-09",
-      "meaning": "It's there."
+      "id": "vocab-0039",
+      "meaning": "slowly",
+      "form": "word"
     },
     {
-      "id": "places-phrase-10",
-      "meaning": "It's next to the school."
+      "id": "vocab-0040",
+      "meaning": "quickly",
+      "form": "word"
     },
     {
-      "id": "school-phrase-01",
-      "meaning": "May I come in?"
+      "id": "vocab-0041",
+      "meaning": "home",
+      "form": "word"
     },
     {
-      "id": "school-phrase-02",
-      "meaning": "May I go out?"
+      "id": "vocab-0042",
+      "meaning": "school",
+      "form": "word"
     },
     {
-      "id": "school-phrase-03",
-      "meaning": "Where is the teacher?"
+      "id": "vocab-0043",
+      "meaning": "shop",
+      "form": "word"
     },
     {
-      "id": "school-phrase-04",
-      "meaning": "What do I need to do?"
+      "id": "vocab-0044",
+      "meaning": "pharmacy",
+      "form": "word"
     },
     {
-      "id": "school-phrase-05",
-      "meaning": "Open the book."
+      "id": "vocab-0045",
+      "meaning": "hospital",
+      "form": "word"
     },
     {
-      "id": "school-phrase-06",
-      "meaning": "Close the door."
+      "id": "vocab-0046",
+      "meaning": "park",
+      "form": "word"
     },
     {
-      "id": "school-phrase-07",
-      "meaning": "Write the answer."
+      "id": "vocab-0047",
+      "meaning": "street",
+      "form": "word"
     },
     {
-      "id": "school-phrase-08",
-      "meaning": "Please read."
+      "id": "vocab-0048",
+      "meaning": "bus stop",
+      "form": "phrase"
     },
     {
-      "id": "school-phrase-09",
-      "meaning": "I don't have a pen."
+      "id": "vocab-0049",
+      "meaning": "toilet",
+      "form": "word"
     },
     {
-      "id": "school-phrase-10",
-      "meaning": "The lesson is over."
+      "id": "vocab-0050",
+      "meaning": "exit",
+      "form": "word"
     },
     {
-      "id": "friends-phrase-01",
-      "meaning": "Let's play together!"
+      "id": "vocab-0051",
+      "meaning": "water",
+      "form": "word"
     },
     {
-      "id": "friends-phrase-02",
-      "meaning": "Please wait."
+      "id": "vocab-0052",
+      "meaning": "bread",
+      "form": "word"
     },
     {
-      "id": "friends-phrase-03",
-      "meaning": "It's my turn."
+      "id": "vocab-0053",
+      "meaning": "milk",
+      "form": "word"
     },
     {
-      "id": "friends-phrase-04",
-      "meaning": "May I join in?"
+      "id": "vocab-0054",
+      "meaning": "tea",
+      "form": "word"
     },
     {
-      "id": "friends-phrase-05",
-      "meaning": "Stop!"
+      "id": "vocab-0055",
+      "meaning": "apple",
+      "form": "word"
     },
     {
-      "id": "friends-phrase-06",
-      "meaning": "Come here!"
+      "id": "vocab-0056",
+      "meaning": "banana",
+      "form": "word"
     },
     {
-      "id": "friends-phrase-07",
-      "meaning": "Let's go outside!"
+      "id": "vocab-0057",
+      "meaning": "cheese",
+      "form": "word"
     },
     {
-      "id": "friends-phrase-08",
-      "meaning": "Do you want to play?"
+      "id": "vocab-0058",
+      "meaning": "soup",
+      "form": "word"
     },
     {
-      "id": "friends-phrase-09",
-      "meaning": "I don't want to."
+      "id": "vocab-0059",
+      "meaning": "juice",
+      "form": "word"
     },
     {
-      "id": "friends-phrase-10",
-      "meaning": "See you tomorrow!"
+      "id": "vocab-0060",
+      "meaning": "breakfast",
+      "form": "word"
     },
     {
-      "id": "shops-phrase-01",
-      "meaning": "May I have this?"
+      "id": "vocab-0061",
+      "meaning": "book",
+      "form": "word"
     },
     {
-      "id": "shops-phrase-02",
-      "meaning": "Water, please."
+      "id": "vocab-0062",
+      "meaning": "notebook",
+      "form": "word"
     },
     {
-      "id": "shops-phrase-03",
-      "meaning": "How much does this cost?"
+      "id": "vocab-0063",
+      "meaning": "pen",
+      "form": "word"
     },
     {
-      "id": "shops-phrase-04",
-      "meaning": "Can I pay by card?"
+      "id": "vocab-0064",
+      "meaning": "pencil",
+      "form": "word"
     },
     {
-      "id": "shops-phrase-05",
-      "meaning": "No, thank you."
+      "id": "vocab-0065",
+      "meaning": "desk",
+      "form": "word"
     },
     {
-      "id": "shops-phrase-06",
-      "meaning": "I need a bag."
+      "id": "vocab-0066",
+      "meaning": "chair",
+      "form": "word"
     },
     {
-      "id": "shops-phrase-07",
-      "meaning": "Where is the checkout?"
+      "id": "vocab-0067",
+      "meaning": "board",
+      "form": "word"
     },
     {
-      "id": "shops-phrase-08",
-      "meaning": "One, please."
+      "id": "vocab-0068",
+      "meaning": "teacher",
+      "form": "word"
     },
     {
-      "id": "shops-phrase-09",
-      "meaning": "Without sugar, please."
+      "id": "vocab-0069",
+      "meaning": "lesson",
+      "form": "word"
     },
     {
-      "id": "shops-phrase-10",
-      "meaning": "I'm allergic to nuts."
+      "id": "vocab-0070",
+      "meaning": "break",
+      "form": "word"
     },
     {
-      "id": "directions-phrase-01",
-      "meaning": "Go straight."
+      "id": "vocab-0071",
+      "meaning": "left",
+      "form": "word"
     },
     {
-      "id": "directions-phrase-02",
-      "meaning": "Turn left."
+      "id": "vocab-0072",
+      "meaning": "right",
+      "form": "word"
     },
     {
-      "id": "directions-phrase-03",
-      "meaning": "Turn right."
+      "id": "vocab-0073",
+      "meaning": "straight",
+      "form": "word"
     },
     {
-      "id": "directions-phrase-04",
-      "meaning": "It's nearby."
+      "id": "vocab-0074",
+      "meaning": "near",
+      "form": "word"
     },
     {
-      "id": "directions-phrase-05",
-      "meaning": "It's far away."
+      "id": "vocab-0075",
+      "meaning": "far",
+      "form": "word"
     },
     {
-      "id": "directions-phrase-06",
-      "meaning": "Cross the street."
+      "id": "vocab-0076",
+      "meaning": "inside",
+      "form": "word"
     },
     {
-      "id": "directions-phrase-07",
-      "meaning": "Wait at the traffic lights."
+      "id": "vocab-0077",
+      "meaning": "outside",
+      "form": "word"
     },
     {
-      "id": "directions-phrase-08",
-      "meaning": "Where is the pedestrian crossing?"
+      "id": "vocab-0078",
+      "meaning": "up",
+      "form": "word"
     },
     {
-      "id": "directions-phrase-09",
-      "meaning": "I'm looking for this street."
+      "id": "vocab-0079",
+      "meaning": "down",
+      "form": "word"
     },
     {
-      "id": "directions-phrase-10",
-      "meaning": "Is this the right way?"
+      "id": "vocab-0080",
+      "meaning": "opposite",
+      "form": "word"
     },
     {
-      "id": "transport-phrase-01",
-      "meaning": "Does this bus go to the centre?"
+      "id": "vocab-0081",
+      "meaning": "police",
+      "form": "word"
     },
     {
-      "id": "transport-phrase-02",
-      "meaning": "Where do I need to get off?"
+      "id": "vocab-0082",
+      "meaning": "ambulance",
+      "form": "word"
     },
     {
-      "id": "transport-phrase-03",
-      "meaning": "The next stop."
+      "id": "vocab-0083",
+      "meaning": "fire",
+      "form": "word"
     },
     {
-      "id": "transport-phrase-04",
-      "meaning": "I need a ticket."
+      "id": "vocab-0084",
+      "meaning": "danger",
+      "form": "word"
     },
     {
-      "id": "transport-phrase-05",
-      "meaning": "What time does the bus arrive?"
+      "id": "vocab-0085",
+      "meaning": "pain",
+      "form": "word"
     },
     {
-      "id": "transport-phrase-06",
-      "meaning": "Is this seat free?"
+      "id": "vocab-0086",
+      "meaning": "doctor",
+      "form": "word"
     },
     {
-      "id": "transport-phrase-07",
-      "meaning": "I'll get off here."
+      "id": "vocab-0087",
+      "meaning": "emergency",
+      "form": "word"
     },
     {
-      "id": "transport-phrase-08",
-      "meaning": "Where is bus number five?"
+      "id": "vocab-0088",
+      "meaning": "first aid",
+      "form": "phrase"
     },
     {
-      "id": "transport-phrase-09",
-      "meaning": "The bus is late."
+      "id": "vocab-0089",
+      "meaning": "emergency number",
+      "form": "phrase"
     },
     {
-      "id": "transport-phrase-10",
-      "meaning": "Please let me through."
+      "id": "vocab-0090",
+      "meaning": "adult",
+      "form": "word"
     },
     {
-      "id": "safety-phrase-01",
-      "meaning": "I can't find my way."
+      "id": "vocab-0091",
+      "meaning": "who",
+      "form": "word"
     },
     {
-      "id": "safety-phrase-02",
-      "meaning": "Leave me alone!"
+      "id": "vocab-0092",
+      "meaning": "what",
+      "form": "word"
     },
     {
-      "id": "safety-phrase-03",
-      "meaning": "Help!"
+      "id": "vocab-0093",
+      "meaning": "where",
+      "form": "word"
     },
     {
-      "id": "safety-phrase-04",
-      "meaning": "Call my parents."
+      "id": "vocab-0094",
+      "meaning": "when",
+      "form": "word"
     },
     {
-      "id": "safety-phrase-05",
-      "meaning": "Call 112."
+      "id": "vocab-0095",
+      "meaning": "why",
+      "form": "word"
     },
     {
-      "id": "safety-phrase-06",
-      "meaning": "I need a doctor."
+      "id": "vocab-0096",
+      "meaning": "how",
+      "form": "word"
     },
     {
-      "id": "safety-phrase-07",
-      "meaning": "Don't touch me!"
+      "id": "vocab-0097",
+      "meaning": "how many",
+      "form": "phrase"
     },
     {
-      "id": "safety-phrase-08",
-      "meaning": "I won't go with you."
+      "id": "vocab-0098",
+      "meaning": "what price",
+      "form": "phrase"
     },
     {
-      "id": "safety-phrase-09",
-      "meaning": "Where are the police?"
+      "id": "vocab-0099",
+      "meaning": "which way",
+      "form": "phrase"
     },
     {
-      "id": "safety-phrase-10",
-      "meaning": "I'm scared."
+      "id": "vocab-0100",
+      "meaning": "what else",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0101",
+      "meaning": "grandmother",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0102",
+      "meaning": "grandfather",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0103",
+      "meaning": "aunt",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0104",
+      "meaning": "uncle",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0105",
+      "meaning": "parents",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0106",
+      "meaning": "grandparents",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0107",
+      "meaning": "baby",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0108",
+      "meaning": "teenager",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0109",
+      "meaning": "neighbour",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0110",
+      "meaning": "guest",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0111",
+      "meaning": "woman",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0112",
+      "meaning": "man",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0113",
+      "meaning": "people",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0114",
+      "meaning": "children",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0115",
+      "meaning": "classmate",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0116",
+      "meaning": "student",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0117",
+      "meaning": "driver",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0118",
+      "meaning": "seller",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0119",
+      "meaning": "passenger",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0120",
+      "meaning": "visitor",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0121",
+      "meaning": "head",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0122",
+      "meaning": "hair",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0123",
+      "meaning": "face",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0124",
+      "meaning": "eye",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0125",
+      "meaning": "ear",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0126",
+      "meaning": "nose",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0127",
+      "meaning": "mouth",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0128",
+      "meaning": "tooth",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0129",
+      "meaning": "tongue",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0130",
+      "meaning": "neck",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0131",
+      "meaning": "palm",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0132",
+      "meaning": "arm",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0133",
+      "meaning": "finger",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0134",
+      "meaning": "leg",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0135",
+      "meaning": "foot",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0136",
+      "meaning": "knee",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0137",
+      "meaning": "back",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0138",
+      "meaning": "stomach",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0139",
+      "meaning": "shoulder",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0140",
+      "meaning": "skin",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0141",
+      "meaning": "health",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0142",
+      "meaning": "illness",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0143",
+      "meaning": "a cold",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0144",
+      "meaning": "fever",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0145",
+      "meaning": "cough",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0146",
+      "meaning": "medicine",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0147",
+      "meaning": "tablet",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0148",
+      "meaning": "plaster",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0149",
+      "meaning": "bandage",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0150",
+      "meaning": "thermometer",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0151",
+      "meaning": "happy",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0152",
+      "meaning": "sad",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0153",
+      "meaning": "angry",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0154",
+      "meaning": "afraid",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0155",
+      "meaning": "calm",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0156",
+      "meaning": "tired",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0157",
+      "meaning": "hungry",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0158",
+      "meaning": "thirsty",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0159",
+      "meaning": "bored",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0160",
+      "meaning": "surprised",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0161",
+      "meaning": "coat",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0162",
+      "meaning": "jacket",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0163",
+      "meaning": "shirt",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0164",
+      "meaning": "trousers",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0165",
+      "meaning": "dress",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0166",
+      "meaning": "socks",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0167",
+      "meaning": "footwear",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0168",
+      "meaning": "hat",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0169",
+      "meaning": "scarf",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0170",
+      "meaning": "gloves",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0171",
+      "meaning": "phone",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0172",
+      "meaning": "computer",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0173",
+      "meaning": "screen",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0174",
+      "meaning": "keyboard",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0175",
+      "meaning": "mouse",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0176",
+      "meaning": "charger",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0177",
+      "meaning": "battery",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0178",
+      "meaning": "message",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0179",
+      "meaning": "photo",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0180",
+      "meaning": "internet",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0181",
+      "meaning": "door",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0182",
+      "meaning": "window",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0183",
+      "meaning": "wall",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0184",
+      "meaning": "floor",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0185",
+      "meaning": "ceiling",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0186",
+      "meaning": "roof",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0187",
+      "meaning": "stairs",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0188",
+      "meaning": "room",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0189",
+      "meaning": "kitchen",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0190",
+      "meaning": "bathroom",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0191",
+      "meaning": "bed",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0192",
+      "meaning": "table",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0193",
+      "meaning": "sofa",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0194",
+      "meaning": "wardrobe",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0195",
+      "meaning": "shelf",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0196",
+      "meaning": "mirror",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0197",
+      "meaning": "lamp",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0198",
+      "meaning": "carpet",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0199",
+      "meaning": "blanket",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0200",
+      "meaning": "pillow",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0201",
+      "meaning": "plate",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0202",
+      "meaning": "cup",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0203",
+      "meaning": "glass",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0204",
+      "meaning": "bowl",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0205",
+      "meaning": "spoon",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0206",
+      "meaning": "fork",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0207",
+      "meaning": "knife",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0208",
+      "meaning": "bottle",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0209",
+      "meaning": "pot",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0210",
+      "meaning": "pan",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0211",
+      "meaning": "soap",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0212",
+      "meaning": "towel",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0213",
+      "meaning": "toothbrush",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0214",
+      "meaning": "toothpaste",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0215",
+      "meaning": "shampoo",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0216",
+      "meaning": "comb",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0217",
+      "meaning": "shower",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0218",
+      "meaning": "bath",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0219",
+      "meaning": "toilet paper",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0220",
+      "meaning": "tissue",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0221",
+      "meaning": "pear",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0222",
+      "meaning": "orange",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0223",
+      "meaning": "lemon",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0224",
+      "meaning": "grapes",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0225",
+      "meaning": "strawberry",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0226",
+      "meaning": "raspberry",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0227",
+      "meaning": "cherry",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0228",
+      "meaning": "plum",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0229",
+      "meaning": "peach",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0230",
+      "meaning": "watermelon",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0231",
+      "meaning": "potato",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0232",
+      "meaning": "carrot",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0233",
+      "meaning": "tomato",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0234",
+      "meaning": "cucumber",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0235",
+      "meaning": "onion",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0236",
+      "meaning": "garlic",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0237",
+      "meaning": "cabbage",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0238",
+      "meaning": "pepper",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0239",
+      "meaning": "peas",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0240",
+      "meaning": "beans",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0241",
+      "meaning": "rice",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0242",
+      "meaning": "pasta",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0243",
+      "meaning": "meat",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0244",
+      "meaning": "chicken meat",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0245",
+      "meaning": "fish",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0246",
+      "meaning": "egg",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0247",
+      "meaning": "butter",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0248",
+      "meaning": "yogurt",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0249",
+      "meaning": "salt",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0250",
+      "meaning": "sugar",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0251",
+      "meaning": "lunch",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0252",
+      "meaning": "dinner",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0253",
+      "meaning": "snack",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0254",
+      "meaning": "sandwich",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0255",
+      "meaning": "salad",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0256",
+      "meaning": "porridge",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0257",
+      "meaning": "cereal",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0258",
+      "meaning": "pancake",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0259",
+      "meaning": "cake",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0260",
+      "meaning": "ice cream",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0261",
+      "meaning": "please help",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0262",
+      "meaning": "a little more",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0263",
+      "meaning": "more slowly",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0264",
+      "meaning": "not now",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0265",
+      "meaning": "no thank you",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0266",
+      "meaning": "excuse me",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0267",
+      "meaning": "good luck",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0268",
+      "meaning": "well done",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0269",
+      "meaning": "good afternoon",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0270",
+      "meaning": "with pleasure",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0271",
+      "meaning": "money",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0272",
+      "meaning": "price",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0273",
+      "meaning": "change",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0274",
+      "meaning": "receipt",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0275",
+      "meaning": "checkout",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0276",
+      "meaning": "basket",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0277",
+      "meaning": "bag",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0278",
+      "meaning": "size",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0279",
+      "meaning": "discount",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0280",
+      "meaning": "card",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0281",
+      "meaning": "zero",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0282",
+      "meaning": "eleven",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0283",
+      "meaning": "twelve",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0284",
+      "meaning": "thirteen",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0285",
+      "meaning": "fourteen",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0286",
+      "meaning": "fifteen",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0287",
+      "meaning": "sixteen",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0288",
+      "meaning": "seventeen",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0289",
+      "meaning": "eighteen",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0290",
+      "meaning": "nineteen",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0291",
+      "meaning": "twenty",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0292",
+      "meaning": "thirty",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0293",
+      "meaning": "forty",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0294",
+      "meaning": "fifty",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0295",
+      "meaning": "sixty",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0296",
+      "meaning": "seventy",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0297",
+      "meaning": "eighty",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0298",
+      "meaning": "ninety",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0299",
+      "meaning": "hundred",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0300",
+      "meaning": "thousand",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0301",
+      "meaning": "day",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0302",
+      "meaning": "night",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0303",
+      "meaning": "morning",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0304",
+      "meaning": "evening",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0305",
+      "meaning": "today",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0306",
+      "meaning": "tomorrow",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0307",
+      "meaning": "yesterday",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0308",
+      "meaning": "week",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0309",
+      "meaning": "month",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0310",
+      "meaning": "year",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0311",
+      "meaning": "Monday",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0312",
+      "meaning": "Tuesday",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0313",
+      "meaning": "Wednesday",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0314",
+      "meaning": "Thursday",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0315",
+      "meaning": "Friday",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0316",
+      "meaning": "Saturday",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0317",
+      "meaning": "Sunday",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0318",
+      "meaning": "weekend",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0319",
+      "meaning": "hour",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0320",
+      "meaning": "minute",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0321",
+      "meaning": "January",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0322",
+      "meaning": "February",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0323",
+      "meaning": "March",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0324",
+      "meaning": "April",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0325",
+      "meaning": "May",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0326",
+      "meaning": "June",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0327",
+      "meaning": "July",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0328",
+      "meaning": "August",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0329",
+      "meaning": "September",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0330",
+      "meaning": "October",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0331",
+      "meaning": "November",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0332",
+      "meaning": "December",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0333",
+      "meaning": "spring",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0334",
+      "meaning": "summer",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0335",
+      "meaning": "autumn",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0336",
+      "meaning": "winter",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0337",
+      "meaning": "season",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0338",
+      "meaning": "weather",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0339",
+      "meaning": "sun",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0340",
+      "meaning": "moon",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0341",
+      "meaning": "rain",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0342",
+      "meaning": "snow",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0343",
+      "meaning": "wind",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0344",
+      "meaning": "cloud",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0345",
+      "meaning": "fog",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0346",
+      "meaning": "ice",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0347",
+      "meaning": "thunder",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0348",
+      "meaning": "storm",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0349",
+      "meaning": "rainbow",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0350",
+      "meaning": "temperature",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0351",
+      "meaning": "tree",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0352",
+      "meaning": "flower",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0353",
+      "meaning": "grass",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0354",
+      "meaning": "leaf",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0355",
+      "meaning": "forest",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0356",
+      "meaning": "river",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0357",
+      "meaning": "lake",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0358",
+      "meaning": "sea",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0359",
+      "meaning": "beach",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0360",
+      "meaning": "stone",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0361",
+      "meaning": "dog",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0362",
+      "meaning": "cat",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0363",
+      "meaning": "horse",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0364",
+      "meaning": "cow",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0365",
+      "meaning": "pig",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0366",
+      "meaning": "sheep",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0367",
+      "meaning": "goat",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0368",
+      "meaning": "hen",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0369",
+      "meaning": "duck",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0370",
+      "meaning": "bird",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0371",
+      "meaning": "bus",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0372",
+      "meaning": "tram",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0373",
+      "meaning": "trolleybus",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0374",
+      "meaning": "train",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0375",
+      "meaning": "car",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0376",
+      "meaning": "bicycle",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0377",
+      "meaning": "taxi",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0378",
+      "meaning": "station",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0379",
+      "meaning": "airport",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0380",
+      "meaning": "ticket",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0381",
+      "meaning": "road",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0382",
+      "meaning": "bridge",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0383",
+      "meaning": "pedestrian crossing",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0384",
+      "meaning": "traffic lights",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0385",
+      "meaning": "pavement",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0386",
+      "meaning": "corner",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0387",
+      "meaning": "square",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0388",
+      "meaning": "centre",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0389",
+      "meaning": "address",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0390",
+      "meaning": "city map",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0391",
+      "meaning": "schoolbag",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0392",
+      "meaning": "ruler",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0393",
+      "meaning": "eraser",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0394",
+      "meaning": "scissors",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0395",
+      "meaning": "glue",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0396",
+      "meaning": "paper",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0397",
+      "meaning": "paint",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0398",
+      "meaning": "brush",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0399",
+      "meaning": "drawing",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0400",
+      "meaning": "homework",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0401",
+      "meaning": "letter",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0402",
+      "meaning": "word",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0403",
+      "meaning": "phrase",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0404",
+      "meaning": "sentence",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0405",
+      "meaning": "question",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0406",
+      "meaning": "answer",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0407",
+      "meaning": "page",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0408",
+      "meaning": "exercise",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0409",
+      "meaning": "example",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0410",
+      "meaning": "mistake",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0411",
+      "meaning": "to go",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0412",
+      "meaning": "to come",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0413",
+      "meaning": "to walk",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0414",
+      "meaning": "to run",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0415",
+      "meaning": "to sit",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0416",
+      "meaning": "to stand",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0417",
+      "meaning": "to sleep",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0418",
+      "meaning": "to wake up",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0419",
+      "meaning": "to eat",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0420",
+      "meaning": "to drink",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0421",
+      "meaning": "to speak a language",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0422",
+      "meaning": "to say a word",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0423",
+      "meaning": "to ask",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0424",
+      "meaning": "to answer",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0425",
+      "meaning": "to listen",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0426",
+      "meaning": "to hear",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0427",
+      "meaning": "to read",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0428",
+      "meaning": "to write",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0429",
+      "meaning": "to learn",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0430",
+      "meaning": "to understand",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0431",
+      "meaning": "to see",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0432",
+      "meaning": "to look at",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0433",
+      "meaning": "to watch",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0434",
+      "meaning": "to find",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0435",
+      "meaning": "to search",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0436",
+      "meaning": "to take",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0437",
+      "meaning": "to give",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0438",
+      "meaning": "to bring",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0439",
+      "meaning": "to buy",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0440",
+      "meaning": "to pay",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0441",
+      "meaning": "to open",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0442",
+      "meaning": "to close",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0443",
+      "meaning": "to start",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0444",
+      "meaning": "to finish",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0445",
+      "meaning": "to wait",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0446",
+      "meaning": "to help",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0447",
+      "meaning": "to play",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0448",
+      "meaning": "to work",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0449",
+      "meaning": "to wash",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0450",
+      "meaning": "to clean",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0451",
+      "meaning": "big",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0452",
+      "meaning": "small",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0453",
+      "meaning": "long",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0454",
+      "meaning": "short",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0455",
+      "meaning": "wide",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0456",
+      "meaning": "narrow",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0457",
+      "meaning": "high",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0458",
+      "meaning": "low",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0459",
+      "meaning": "heavy",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0460",
+      "meaning": "light",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0461",
+      "meaning": "good",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0462",
+      "meaning": "bad",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0463",
+      "meaning": "new",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0464",
+      "meaning": "old",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0465",
+      "meaning": "clean",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0466",
+      "meaning": "dirty",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0467",
+      "meaning": "hot",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0468",
+      "meaning": "cold",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0469",
+      "meaning": "warm",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0470",
+      "meaning": "cool",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0471",
+      "meaning": "red",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0472",
+      "meaning": "blue",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0473",
+      "meaning": "green",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0474",
+      "meaning": "yellow",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0475",
+      "meaning": "black",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0476",
+      "meaning": "white",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0477",
+      "meaning": "grey",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0478",
+      "meaning": "brown",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0479",
+      "meaning": "pink",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0480",
+      "meaning": "purple",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0481",
+      "meaning": "and",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0482",
+      "meaning": "or",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0483",
+      "meaning": "but",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0484",
+      "meaning": "because",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0485",
+      "meaning": "with me",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0486",
+      "meaning": "without me",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0487",
+      "meaning": "for you",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0488",
+      "meaning": "from home",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0489",
+      "meaning": "to school",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0490",
+      "meaning": "between us",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0491",
+      "meaning": "I",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0492",
+      "meaning": "you",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0493",
+      "meaning": "he",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0494",
+      "meaning": "she",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0495",
+      "meaning": "we",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0496",
+      "meaning": "they",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0497",
+      "meaning": "this",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0498",
+      "meaning": "that",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0499",
+      "meaning": "everything",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0500",
+      "meaning": "nothing",
+      "form": "word"
     }
   ]
 }

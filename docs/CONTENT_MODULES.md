@@ -1,6 +1,6 @@
 # Content modules and permanent question/answer identity
 
-Implemented by Codex at the owner's request. The current pack remains the same ten blocks, 100 questions and LV/RU/EN translations. This refactor prepares extension; it does not ship additional blocks/languages.
+Implemented by Codex at the owner's request. The active pack has 50 blocks and 500 vocabulary items with LV/RU/EN translations. The owner explicitly requested this curriculum revision after the modular refactor. The earlier 100-item draft is preserved in `archive/course-0.3/content/`, with its original identity lock unchanged. See [VOCABULARY_500.md](VOCABULARY_500.md).
 
 ## Module boundaries
 
@@ -20,8 +20,8 @@ There is one canonical authored source per concept, block and language. The form
 
 ## What each ID means
 
-- A **concept ID**, such as `essentials-phrase-01`, identifies one meaning. It is not an array position or translated text.
-- A **question ID**, such as `essentials-prompt-01`, identifies a question inside its registered block. Question, block and concept IDs cannot collide.
+- A **concept ID**, such as `vocab-0001`, identifies one meaning. It is not an array position or translated text.
+- A **question ID**, such as `basic-01-prompt-01`, identifies a question inside its registered block. Question, block and concept IDs cannot collide.
 - `phraseId` names the source concept; `correctAnswerId` must explicitly name that same concept in the target language. Three distinct `distractorIds` name different registered concepts. Correctness uses IDs, never button positions or fuzzy text comparisons.
 - Each translation is keyed by concept ID and repeats `conceptId` plus the canonical `meaning`. The loader rejects an object copied under the wrong key or a definition copied from a different meaning. The `text` is the reviewed translation of that meaning in the module's language.
 - Every presented runtime question carries course, block, question, concept, direction and revision identity. The engine verifies its displayed source text and all answer ID/text pairs before accepting a choice. A question/answer copied from another block, language or presentation is rejected.
@@ -66,3 +66,9 @@ cmp dist/language-learning-test.html downloads/language-learning-test.html
 Tests prove original-content parity, explicit question/answer binding rejection, duplicate/missing/misbound record rejection, data-only eleventh-block extension, data-only fourth-language extension and twelve generated directions in that synthetic fixture. Existing one-question step-back, third-mistake restart, ten consecutive correct, 500 ms delay, source-language UI and no browser storage remain unchanged.
 
 Synthetic extension fixtures are temporary and not shipped. Actual browser/device/accessibility and fluent-language review remain separate from automated source/DOM-fixture verification. Android packaging/persistence, hosting and release authorization remain separate tasks.
+
+## Active vocabulary policy and baseline
+
+The current catalog declares a 500-item vocabulary policy: distinct concepts and meanings, `word`/`phrase` form tags, at most four words per translation, and no sentence punctuation. For approved new blocks, increase `curriculum.targetItems` along with authored coverage. Additional languages must translate every active concept and title. The structural checks do not detect every grammatical sentence or translation ambiguity.
+
+`tests/fixtures/vocabulary-0.4-lock.json` pins the current 500 meanings/texts and all question/answer bindings; extra blocks/languages can be added without rewriting those IDs. The earlier original lock still verifies `archive/course-0.3/`. Do not refresh either digest merely to silence a drift failure: inspect and document any intentional language correction first.

@@ -1,0 +1,106 @@
+{
+  "id": "basic-25",
+  "title": "Food ingredients",
+  "prompts": [
+    {
+      "id": "basic-25-prompt-01",
+      "phraseId": "vocab-0241",
+      "correctAnswerId": "vocab-0241",
+      "distractorIds": [
+        "vocab-0242",
+        "vocab-0244",
+        "vocab-0246"
+      ]
+    },
+    {
+      "id": "basic-25-prompt-02",
+      "phraseId": "vocab-0242",
+      "correctAnswerId": "vocab-0242",
+      "distractorIds": [
+        "vocab-0243",
+        "vocab-0245",
+        "vocab-0247"
+      ]
+    },
+    {
+      "id": "basic-25-prompt-03",
+      "phraseId": "vocab-0243",
+      "correctAnswerId": "vocab-0243",
+      "distractorIds": [
+        "vocab-0244",
+        "vocab-0246",
+        "vocab-0248"
+      ]
+    },
+    {
+      "id": "basic-25-prompt-04",
+      "phraseId": "vocab-0244",
+      "correctAnswerId": "vocab-0244",
+      "distractorIds": [
+        "vocab-0245",
+        "vocab-0247",
+        "vocab-0249"
+      ]
+    },
+    {
+      "id": "basic-25-prompt-05",
+      "phraseId": "vocab-0245",
+      "correctAnswerId": "vocab-0245",
+      "distractorIds": [
+        "vocab-0246",
+        "vocab-0248",
+        "vocab-0250"
+      ]
+    },
+    {
+      "id": "basic-25-prompt-06",
+      "phraseId": "vocab-0246",
+      "correctAnswerId": "vocab-0246",
+      "distractorIds": [
+        "vocab-0247",
+        "vocab-0249",
+        "vocab-0241"
+      ]
+    },
+    {
+      "id": "basic-25-prompt-07",
+      "phraseId": "vocab-0247",
+      "correctAnswerId": "vocab-0247",
+      "distractorIds": [
+        "vocab-0248",
+        "vocab-0250",
+        "vocab-0242"
+      ]
+    },
+    {
+      "id": "basic-25-prompt-08",
+      "phraseId": "vocab-0248",
+      "correctAnswerId": "vocab-0248",
+      "distractorIds": [
+        "vocab-0249",
+        "vocab-0241",
+        "vocab-0243"
+      ]
+    },
+    {
+      "id": "basic-25-prompt-09",
+      "phraseId": "vocab-0249",
+      "correctAnswerId": "vocab-0249",
+      "distractorIds": [
+        "vocab-0250",
+        "vocab-0242",
+        "vocab-0244"
+      ]
+    },
+    {
+      "id": "basic-25-prompt-10",
+      "phraseId": "vocab-0250",
+      "correctAnswerId": "vocab-0250",
+      "distractorIds": [
+        "vocab-0241",
+        "vocab-0243",
+        "vocab-0245"
+      ]
+    }
+  ]
+}

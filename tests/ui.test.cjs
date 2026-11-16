@@ -50,7 +50,7 @@ function mount(data=course,bundle=null,initialDirection='lv-ru'){
 function choose($,id){const button=$('choices').children.find(b=>b.dataset.optionId===id);assert.ok(button);button.click();}
 test('answer locks immediately, advances only at 500ms, then wrong steps back automatically',()=>{
   const $=mount();assert.equal($('setup').hidden,false);assert.equal($('error').hidden,true);
-  assert.equal($('lesson-list').children.length,10);
+  assert.equal($('lesson-list').children.length,course.lessons.length);
   $('start').click();assert.equal($('practice').hidden,false);assert.equal($('choices').children.length,4);
   assert.equal($('question').lang,'lv');
   choose($,course.lessons[0].prompts[0].phraseId);
@@ -72,8 +72,8 @@ test('all interface text follows source language on direction selection, practic
   assert.match($('rule-mistakes').textContent,/Trešā kļūda/);
   $('direction').value='ru-lv';$('direction').handlers.change();
   assert.equal($.language(),'ru');assert.equal($('start').textContent,'Начать обучение');
-  assert.equal($.title(),locales.ru.messages.pageTitle);assert.equal($('lesson-list').children[0].textContent,'Основные слова');
-  $('start').click();assert.equal($('lesson-title').textContent,'Основные слова');
+  assert.equal($.title(),locales.ru.messages.pageTitle);assert.equal($('lesson-list').children[0].textContent,locales.ru.lessons[course.lessons[0].id]);
+  $('start').click();assert.equal($('lesson-title').textContent,locales.ru.lessons[course.lessons[0].id]);
   assert.equal($('instruction').textContent,'Выберите перевод на латышский язык');
   assert.equal($('question').lang,'ru');assert.ok($('choices').children.every(b=>b.lang==='lv'));
   const wrong=$('choices').children.find(b=>b.dataset.optionId!==course.lessons[0].prompts[0].phraseId);wrong.click();
@@ -90,7 +90,7 @@ test('real UI traverses all registered blocks to completion and starts a fresh s
   const $=mount();$('start').click();
   for(const lesson of course.lessons)for(const prompt of lesson.prompts){choose($,prompt.phraseId);$.tick(500);}
   assert.equal($('finished').hidden,false);assert.equal($('practice').hidden,true);
-  $('again').click();assert.equal($('practice').hidden,false);assert.equal($('progress').value,0);assert.match($('lesson-label').textContent,/Nodarbība 1 no 10/);
+  $('again').click();assert.equal($('practice').hidden,false);assert.equal($('progress').value,0);assert.match($('lesson-label').textContent,new RegExp(`Nodarbība 1 no ${course.lessons.length}`));
 });
 test('invalid embedded content produces a visible error and disables start',()=>{
   const $=mount({});assert.equal($('error').hidden,false);assert.equal($('start').disabled,true);assert.equal($('practice').hidden,true);
@@ -121,15 +121,15 @@ test('restart and direction change cancel pending transitions, including already
 test('third wrong answer shows restart feedback and returns to lesson one after 500ms',()=>{
   const $=mount();$('start').click();
   for(const prompt of course.lessons[0].prompts){choose($,prompt.phraseId);$.tick(500);}
-  assert.match($('lesson-label').textContent,/Nodarbība 2 no 10/);
+  assert.match($('lesson-label').textContent,new RegExp(`Nodarbība 2 no ${course.lessons.length}`));
   for(let miss=1;miss<=3;miss++){
     const wrong=$('choices').children.find(b=>b.dataset.optionId!==course.lessons[1].prompts[0].phraseId);
-    wrong.click();$.tick(499);assert.match($('lesson-label').textContent,/Nodarbība 2 no 10/);
+    wrong.click();$.tick(499);assert.match($('lesson-label').textContent,new RegExp(`Nodarbība 2 no ${course.lessons.length}`));
     if(miss===3)assert.match($('feedback').textContent,/Trešā kļūda/);
     $.tick(1);
-    if(miss<3){assert.equal($('mistakes').textContent,`Kļūdas šajā blokā: ${miss} no 3`);assert.match($('lesson-label').textContent,/Nodarbība 2 no 10/);}
+    if(miss<3){assert.equal($('mistakes').textContent,`Kļūdas šajā blokā: ${miss} no 3`);assert.match($('lesson-label').textContent,new RegExp(`Nodarbība 2 no ${course.lessons.length}`));}
   }
-  assert.match($('lesson-label').textContent,/Nodarbība 1 no 10/);assert.equal($('question').textContent,course.phrases[0].lv);
+  assert.match($('lesson-label').textContent,new RegExp(`Nodarbība 1 no ${course.lessons.length}`));assert.equal($('question').textContent,course.phrases[0].lv);
   assert.equal($('mistakes').textContent,'Kļūdas šajā blokā: 0 no 3');assert.equal($('progress').value,0);
 });
 test('wrong on question seven returns to question six of the same block, retaining its mistake count',()=>{
@@ -141,7 +141,7 @@ test('wrong on question seven returns to question six of the same block, retaini
   assert.equal($('question').textContent,phrase(middle.phraseId));
   const wrong=$('choices').children.find(b=>b.dataset.optionId!==middle.phraseId);wrong.click();
   $.tick(499);assert.equal($('question').textContent,phrase(middle.phraseId));
-  $.tick(1);assert.match($('lesson-label').textContent,/Nodarbība 2 no 10/);
+  $.tick(1);assert.match($('lesson-label').textContent,new RegExp(`Nodarbība 2 no ${course.lessons.length}`));
   assert.equal($('question').textContent,phrase(course.lessons[1].prompts[5].phraseId));
   assert.equal($('progress').value,0);assert.equal($('mistakes').textContent,'Kļūdas šajā blokā: 1 no 3');
   assert.match($('feedback').textContent,/Atgriežamies vienu jautājumu atpakaļ/);
@@ -155,7 +155,7 @@ test('six learning directions use the right source-language UI and target-langua
     assert.ok($('choices').children.every(b=>b.lang===target));
     const correct=$('choices').children.find(b=>b.dataset.optionId===course.phrases[0].id);
     assert.equal(correct.textContent,course.phrases[0][target]);
-    if(source==='en'){assert.equal($('restart').textContent,'Restart from lesson 1');assert.equal($('lesson-title').textContent,'Essential words');}
+    if(source==='en'){assert.equal($('restart').textContent,'Restart from lesson 1');assert.equal($('lesson-title').textContent,locales.en.lessons[course.lessons[0].id]);}
     const wrong=$('choices').children.find(b=>b.dataset.optionId!==course.phrases[0].id);wrong.click();$.tick(500);
     assert.equal($('progress').value,0);
   }

@@ -5,7 +5,7 @@
 ## Product goals and boundaries
 
 - **First audience:** 10–17-year-old learners; early focus is a child living in Latvia who needs practical spoken Russian in day-to-day encounters.
-- **First course (owner-expanded):** Latvian, Russian and English; all six directed pairs use the same canonical content. **Ten lessons only** for the first public release.
+- **First course (owner-expanded):** Latvian, Russian and English; all six directed pairs use the same canonical content. The owner expanded the draft curriculum to **50 ten-question blocks / 500 basic words and short phrases**, with no sentences in the first ten blocks.
 - **Long term:** Separate age paths (5–9, 10–17, 18+) and more language pairs/lessons can be added **as content**, without changing the central learning rules. Do not build selection UIs or extra packs in v1.
 - **Reason for being:** Learning by mandatory cumulative repetition from lesson 1, not by collecting finished-lesson badges.
 
@@ -77,15 +77,15 @@ Only create directories when a small Codex task actually needs them. A lean impl
 - Define backup file versions; don't assume every future release can import every later format. Reject unsupported input safely and leave current data intact.
 - One course initially, but future records must not conflate language pairs or age paths. A record from another course must not silently set the current course's highest lesson.
 - Content and UI use explicit translation direction, not assumptions such as “all prompts are Russian”.
-- Defer features beyond the first ten lessons until **both** public web learning and Play download work reliably.
+- The owner has authorized 50 vocabulary blocks. Other feature expansion still requires a deliberate decision.
 
 ## Three-language browser content
 
-The owner added English to the same ten-lesson/100-prompt pack. Every phrase has LV/RU/EN text and all six source→target directions are supported. Keep the existing course/lesson/phrase/prompt IDs stable. Canonical sources now live in the catalog, concept registry, per-block files and per-language modules; the old combined file is removed. Use catalog language/block references, not filenames or hardcoded totals, to build the runtime. Direction-specific target instructions and source-language UI come from the three interface packs. Any future Android record must still be scoped to its course/language pair and age path; a shared content-bank ID alone is not a cross-pair progress key. No native persistence is implemented here.
+The owner added English, then expanded the curriculum to 50 blocks / 500 words and short phrases (see VOCABULARY_500.md). Every phrase has LV/RU/EN text and all six source→target directions are supported. Keep the existing course/lesson/phrase/prompt IDs stable. Canonical sources now live in the catalog, concept registry, per-block files and per-language modules; the old combined file is removed. Use catalog language/block references, not filenames or hardcoded totals, to build the runtime. Direction-specific target instructions and source-language UI come from the three interface packs. Any future Android record must still be scoped to its course/language pair and age path; a shared content-bank ID alone is not a cross-pair progress key. No native persistence is implemented here.
 
 ## Modular content and binding contract
 
-The owner requested data-only extension with existing questions/answers preserved. [Content modules](CONTENT_MODULES.md) define the catalog, concepts, blocks, language/UI modules and fixed UI application contract. Every question explicitly binds `phraseId` to the same `correctAnswerId`; translations repeat their concept ID and canonical meaning. Runtime question/answer ID, text, language, block and revision checks reject mixed presentations. The source loader fails on duplicates, missing/unknown IDs, incomplete translations or UI keys/placeholders, and ambiguous choices. A baseline digest verifies all original question/answer/translation bindings unchanged. More blocks and languages require data and translations, not engine whitelists or handwritten direction controls. Per-block size and learning rules remain fixed at the approved ten-question/three-mistake contract.
+The owner requested data-only extension with existing questions/answers preserved. [Content modules](CONTENT_MODULES.md) define the catalog, concepts, blocks, language/UI modules and fixed UI application contract. Every question explicitly binds `phraseId` to the same `correctAnswerId`; translations repeat their concept ID and canonical meaning. Runtime question/answer ID, text, language, block and revision checks reject mixed presentations. The source loader fails on duplicates, missing/unknown IDs, incomplete translations or UI keys/placeholders, and ambiguous choices. Separate baseline digests protect the unchanged original draft under archive/course-0.3 and all 500 active vocabulary question/answer/translation bindings. More blocks and languages require data and translations, not engine whitelists or handwritten direction controls. Per-block size and learning rules remain fixed at the approved ten-question/three-mistake contract.
 
 ## Still requiring a deliberate technical decision
 
