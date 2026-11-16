@@ -17,7 +17,7 @@ if (E) {
     return E.answer(fixture,s,q,correct?q.correctId:q.options.find(x=>x.id!==q.correctId).id);
   };
   test('fresh sessions always begin at lesson one, with no persistence input',()=>{
-    assert.deepEqual(E.start(fixture,'lv-ru'),{courseId:'test-course',direction:'lv-ru',lessonIndex:0,promptIndex:0,consecutive:0,revision:0,phase:'learning'});
+    assert.deepEqual(E.start(fixture,'lv-ru'),{courseId:'test-course',direction:'lv-ru',lessonIndex:0,promptIndex:0,consecutive:0,mistakes:0,revision:0,phase:'learning'});
     assert.equal(E.start(fixture,'ru-lv').direction,'ru-lv');
     assert.throws(()=>E.start(fixture,'en-ru'));
   });
@@ -73,5 +73,37 @@ if (E) {
     for(const mutate of [c=>c.lessons.pop(),c=>c.phrases[1].id='p0',c=>c.lessons[0].prompts[0].distractorIds[0]='p0',c=>c.phrases[1].ru='RU 0',c=>c.lessons[0].prompts[0].phraseId='missing',c=>c.schemaVersion=2,c=>c.lessons[0].prompts=[]]){
       const c=structuredClone(fixture);mutate(c);assert.throws(()=>E.validateCourse(c));
     }
+  });
+  test('third mistake in a ten-question block restarts at lesson one, including nonconsecutive mistakes in either direction',()=>{
+    for(const direction of ['lv-ru','ru-lv']){
+      let s={...E.start(fixture,direction),lessonIndex:4,promptIndex:6};
+      let r=advance(s,false);s=r.state;
+      assert.equal(s.promptIndex,5);assert.equal(s.mistakes,1);assert.equal(s.lessonIndex,4);assert.equal(r.restarted,false);
+      s=advance(s).state;assert.equal(s.mistakes,1);
+      r=advance(s,false);s=r.state;
+      assert.equal(s.promptIndex,5);assert.equal(s.mistakes,2);assert.equal(s.lessonIndex,4);assert.equal(r.restarted,false);
+      s=advance(s).state;
+      const old=E.question(fixture,s,()=>0);
+      r=E.answer(fixture,s,old,old.options.find(o=>o.id!==old.correctId).id);
+      assert.equal(r.restarted,true);assert.equal(r.feedback.correct,false);
+      assert.equal(r.state.lessonIndex,0);assert.equal(r.state.promptIndex,0);assert.equal(r.state.consecutive,0);assert.equal(r.state.mistakes,0);
+      assert.equal(r.state.direction,direction);assert.equal(r.state.revision,s.revision+1);assert.equal(r.state.phase,'learning');
+      assert.throws(()=>E.answer(fixture,r.state,old,old.correctId));
+    }
+  });
+  test('mistake count resets on completing a block and cannot leak to the next lesson',()=>{
+    let s={...E.start(fixture,'lv-ru'),lessonIndex:3,promptIndex:9,consecutive:9,mistakes:2};
+    s=advance(s).state;assert.equal(s.lessonIndex,4);assert.equal(s.mistakes,0);
+    let r=advance(s,false);assert.equal(r.state.lessonIndex,4);assert.equal(r.state.mistakes,1);assert.equal(r.restarted,false);
+    r=advance(r.state,false);assert.equal(r.state.lessonIndex,4);assert.equal(r.state.mistakes,2);
+    r=advance(r.state,false);assert.equal(r.state.lessonIndex,0);assert.equal(r.state.promptIndex,0);assert.equal(r.state.mistakes,0);
+    assert.equal(E.start(fixture,'lv-ru').mistakes,0);
+  });
+  test('lesson-one third miss also restarts the block cleanly; invalid counters and block sizes are rejected',()=>{
+    let s=E.start(fixture,'lv-ru');
+    s=advance(s,false).state;s=advance(s,false).state;const r=advance(s,false);
+    assert.equal(r.restarted,true);assert.equal(r.state.promptIndex,0);assert.equal(r.state.mistakes,0);
+    for(const mistakes of [-1,3,1.5,undefined])assert.throws(()=>E.question(fixture,{...s,mistakes}));
+    const c=structuredClone(fixture);c.lessons[0].prompts.pop();assert.throws(()=>E.validateCourse(c));
   });
 }

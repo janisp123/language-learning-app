@@ -88,3 +88,17 @@ test('restart and direction change cancel pending transitions, including already
   assert.equal($('question').lang,'ru');assert.equal($('progress').value,0);
   choose($,course.lessons[0].prompts[0].phraseId);$.tick(500);assert.equal($('progress').value,1);
 });
+test('third wrong answer shows restart feedback and returns to lesson one after 500ms',()=>{
+  const $=mount();$('start').click();
+  for(const prompt of course.lessons[0].prompts){choose($,prompt.phraseId);$.tick(500);}
+  assert.match($('lesson-label').textContent,/Lesson 2 of 10/);
+  for(let miss=1;miss<=3;miss++){
+    const wrong=$('choices').children.find(b=>b.dataset.optionId!==course.lessons[1].prompts[0].phraseId);
+    wrong.click();$.tick(499);assert.match($('lesson-label').textContent,/Lesson 2 of 10/);
+    if(miss===3)assert.match($('feedback').textContent,/[Tt]hird mistake/);
+    $.tick(1);
+    if(miss<3){assert.equal($('mistakes').textContent,`Mistakes in this block: ${miss} of 3`);assert.match($('lesson-label').textContent,/Lesson 2 of 10/);}
+  }
+  assert.match($('lesson-label').textContent,/Lesson 1 of 10/);assert.equal($('question').textContent,course.phrases[0].lv);
+  assert.equal($('mistakes').textContent,'Mistakes in this block: 0 of 3');assert.equal($('progress').value,0);
+});

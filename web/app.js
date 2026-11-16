@@ -43,6 +43,7 @@
       $('progress').value = state.consecutive;
       $('progress').textContent = `${state.consecutive} of 10`;
       $('progress-label').textContent = `Consecutive correct: ${state.consecutive} of 10`;
+      $('mistakes').textContent = `Mistakes in this block: ${state.mistakes} of 3`;
       if (clearFeedback) { $('feedback').textContent = ''; $('feedback').className = 'feedback'; }
       $('choices').replaceChildren();
       for (const option of shown.options) {
@@ -68,7 +69,9 @@
         feedback.className = 'feedback wrong';
         feedback.textContent = 'Not quite. Correct translation: ';
         const translation = document.createElement('span'); translation.lang = shown.target; translation.textContent = pending.feedback.correctText;
-        feedback.append(translation, document.createTextNode(' Moving back one prompt; the consecutive count resets.'));
+        feedback.append(translation, document.createTextNode(pending.restarted
+          ? ' Third mistake in this block. Starting again at lesson 1, question 1.'
+          : ' Moving back one prompt; the consecutive count resets.'));
       } else if (pending.completed) feedback.textContent = 'Correct. You have completed the final lesson.';
       else if (pending.lessonChanged) feedback.textContent = `Correct. Next: ${course.lessons[pending.state.lessonIndex].title}.`;
       else feedback.textContent = 'Correct. Moving to the next prompt.';

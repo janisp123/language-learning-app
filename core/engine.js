@@ -21,7 +21,7 @@
     }
     const ids = new Set();
     for (const lesson of course.lessons) {
-      if (!lesson || !text(lesson.id) || !text(lesson.title) || ids.has(lesson.id) || !Array.isArray(lesson.prompts) || !lesson.prompts.length) fail('Invalid or duplicate lesson.');
+      if (!lesson || !text(lesson.id) || !text(lesson.title) || ids.has(lesson.id) || !Array.isArray(lesson.prompts) || lesson.prompts.length !== 10) fail('Expected a unique lesson with a ten-question block.');
       ids.add(lesson.id);
       for (const prompt of lesson.prompts) {
         if (!prompt || !text(prompt.id) || ids.has(prompt.id) || !Array.isArray(prompt.distractorIds) || prompt.distractorIds.length !== 3) fail('Invalid prompt.');
@@ -39,14 +39,14 @@
   function start(course, direction) {
     validateCourse(course);
     if (!directions.includes(direction)) fail('Unsupported translation direction.');
-    return {courseId:course.id, direction, lessonIndex:0, promptIndex:0, consecutive:0, revision:0, phase:'learning'};
+    return {courseId:course.id, direction, lessonIndex:0, promptIndex:0, consecutive:0, mistakes:0, revision:0, phase:'learning'};
   }
 
   function current(course, state) {
     if (!state || state.courseId !== course.id || !directions.includes(state.direction) || state.phase !== 'learning') fail('No active learning session.');
     if (!Number.isInteger(state.lessonIndex) || state.lessonIndex < 0 || state.lessonIndex >= course.lessons.length) fail('Invalid lesson.');
     const lesson = course.lessons[state.lessonIndex];
-    if (!Number.isInteger(state.promptIndex) || state.promptIndex < 0 || state.promptIndex >= lesson.prompts.length || !Number.isInteger(state.consecutive) || state.consecutive < 0 || state.consecutive > 9 || !Number.isSafeInteger(state.revision) || state.revision < 0) fail('Invalid session state.');
+    if (!Number.isInteger(state.promptIndex) || state.promptIndex < 0 || state.promptIndex >= lesson.prompts.length || !Number.isInteger(state.consecutive) || state.consecutive < 0 || state.consecutive > 9 || !Number.isInteger(state.mistakes) || state.mistakes < 0 || state.mistakes > 2 || !Number.isSafeInteger(state.revision) || state.revision < 0) fail('Invalid session state.');
     return lesson.prompts[state.promptIndex];
   }
 
@@ -70,18 +70,25 @@
     const correct = selectedId === prompt.phraseId;
     const next = {...state, revision:state.revision + 1};
     let lessonChanged = false;
+    let restarted = false;
     if (!correct) {
       next.promptIndex = Math.max(0, state.promptIndex - 1);
       next.consecutive = 0;
+      next.mistakes++;
+      if (next.mistakes === 3) {
+        next.lessonIndex = 0; next.promptIndex = 0; next.mistakes = 0;
+        restarted = true;
+      }
     } else {
       next.consecutive++;
       if (next.consecutive === 10) {
+        next.mistakes = 0;
         if (state.lessonIndex === course.lessons.length - 1) next.phase = 'complete';
         else { next.lessonIndex++; next.promptIndex = 0; next.consecutive = 0; lessonChanged = true; }
       } else next.promptIndex = (state.promptIndex + 1) % course.lessons[state.lessonIndex].prompts.length;
     }
     const target = state.direction.split('-')[1];
-    return {state:next, feedback:{correct, correctText:course.phrases.find(p => p.id === prompt.phraseId)[target]}, lessonChanged, completed:next.phase === 'complete'};
+    return {state:next, feedback:{correct, correctText:course.phrases.find(p => p.id === prompt.phraseId)[target]}, lessonChanged, restarted, completed:next.phase === 'complete'};
   }
   return Object.freeze({validateCourse, start, question, answer});
 });

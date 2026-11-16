@@ -20,13 +20,14 @@
       <label for="direction">Practice direction</label>
       <select id="direction"><option value="lv-ru">Latvian → Russian</option><option value="ru-lv">Russian → Latvian</option></select>
       <button class="primary start" id="start" type="button">Start practice <span aria-hidden="true">→</span></button>
-      <div class="rules"><h2>How it works</h2><ul><li>Choose one of four answers. Feedback appears immediately and the next prompt appears after 0.5 seconds. Answers are reshuffled each time.</li><li>Ten correct answers in a row complete a lesson.</li><li>A mistake takes you back one prompt and resets the consecutive count.</li><li>A fresh session starts at lesson one. Browser progress is not saved.</li></ul></div>
+      <div class="rules"><h2>How it works</h2><ul><li>Choose one of four answers. Feedback appears immediately and the next prompt appears after 0.5 seconds. Answers are reshuffled each time.</li><li>Each lesson is a ten-question block. Ten correct answers in a row complete it.</li><li>A mistake takes you back one prompt and resets the consecutive count. The third mistake in the same block restarts at lesson one, question one—even if correct answers came between the mistakes.</li><li>The mistake count resets with a new block or restart. Browser progress is not saved.</li></ul></div>
       <details class="course-outline"><summary>Explore the ten lesson themes</summary><ol id="lesson-list"></ol><p class="small">Lessons are reached in order through practice. This list does not skip ahead.</p></details>
     </section>
     <section id="practice" aria-labelledby="lesson-title" hidden>
       <div class="lesson-top"><p class="eyebrow" id="lesson-label"></p><span id="direction-label" class="small"></span></div>
       <h1 id="lesson-title"></h1>
       <div class="progress-row"><label for="progress" id="progress-label">Consecutive correct: 0 of 10</label><progress id="progress" max="10" value="0">0 of 10</progress></div>
+      <p class="small" id="mistakes">Mistakes in this block: 0 of 3</p>
       <article class="question-card" aria-labelledby="question">
         <p id="instruction" class="eyebrow"></p><h2 id="question" tabindex="-1"></h2>
         <div id="choices" class="choices" aria-label="Translation choices"></div>
