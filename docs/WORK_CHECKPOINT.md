@@ -22,8 +22,16 @@ First release = ten practical LV ↔ RU lessons for ages 10–17, with daily/fre
 - Google Play verification, required testing, listing assets and publication have not occurred.
 - Browser and Android delivery must be tested independently before release.
 
-## One next action
+## One next action (baseline main; see current branch note below)
 
 **Owner starts Codex on L-001**: inspect the repository, propose the minimal platform/content/engine architecture, record decisions and tests; do not implement the full app or publish. After approved architecture, proceed with the next small TD item.
 
 **Documentation synchronization:** Treat this checkpoint as applying to `main` only after verifying the setup PR merged; until then, use the actual branch/PR state. Never infer a merge from this text.
+
+## 2026-11-16 — Owner-requested landing-page review branch
+
+**Scope:** `feat/language-landing-page`, based on main `ae1be9361eb26dba0cdbe08eeb154172880a441d`; not evidence of integration.
+**Status:** PARTIAL — Codex prepared the standalone L-004 landing page in `docs/discovery-preview/index.html`, matching the mental-health project's source/delivery structure. Prepared manual-only Pages workflow uploads just that HTML; no workflow was run and no settings changed.
+**Product state:** No browser learning, Android app or Play listing. Source labels those capabilities as planned. Existing architecture PR #3 and lessons PR #4 remain separate, unmerged work.
+**Verification:** HTML/link/privacy/workflow source checks and GitHub readback are recorded in the PR. Browser/device/zoom/live-site checks are NOT RUN because managed browser tooling is unavailable; no app checks are claimed.
+**Next action:** owner reviews the landing-page PR. Merge/publication require authorization; full L-004 remains incomplete. Preserve the separate PRs' checkpoint/TD changes when integrating them.
