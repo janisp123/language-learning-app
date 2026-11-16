@@ -26,7 +26,7 @@
       <label for="direction">Practice direction</label>
       <select id="direction"><option value="lv-ru">Latvian → Russian</option><option value="ru-lv">Russian → Latvian</option></select>
       <button class="primary start" id="start" type="button">Start practice <span aria-hidden="true">→</span></button>
-      <div class="rules"><h2>How it works</h2><ul><li>Choose one of four answers. Feedback appears immediately and the next prompt appears after 0.5 seconds. Answers are reshuffled each time.</li><li>Each lesson is a ten-question block. Ten correct answers in a row complete it.</li><li>A mistake takes you back one prompt and resets the consecutive count. The third mistake in the same block restarts at lesson one, question one—even if correct answers came between the mistakes.</li><li>The mistake count resets with a new block or restart. Browser progress is not saved.</li></ul></div>
+      <div class="rules"><h2>How it works</h2><ul><li>Choose one of four answers. Feedback appears immediately and the next prompt appears after 0.5 seconds. Answers are reshuffled each time.</li><li>Each lesson is a ten-question block. Ten correct answers in a row complete it.</li><li>A mistake restarts the current block at question one and resets the consecutive count. The third mistake in the same block restarts at lesson one, question one—even if correct answers came between the mistakes.</li><li>Mistakes remain counted when a wrong answer restarts the same block. A new block, manual restart or third-mistake return to lesson one clears the count. Browser progress is not saved.</li></ul></div>
       <details class="course-outline"><summary>Explore the ten lesson themes</summary><ol id="lesson-list"></ol><p class="small">Lessons are reached in order through practice. This list does not skip ahead.</p></details>
     </section>
     <section id="practice" aria-labelledby="lesson-title" hidden>
@@ -124,7 +124,7 @@
     let lessonChanged = false;
     let restarted = false;
     if (!correct) {
-      next.promptIndex = Math.max(0, state.promptIndex - 1);
+      next.promptIndex = 0;
       next.consecutive = 0;
       next.mistakes++;
       if (next.mistakes === 3) {
@@ -220,7 +220,7 @@
         const translation = document.createElement('span'); translation.lang = shown.target; translation.textContent = pending.feedback.correctText;
         feedback.append(translation, document.createTextNode(pending.restarted
           ? ' Third mistake in this block. Starting again at lesson 1, question 1.'
-          : ' Moving back one prompt; the consecutive count resets.'));
+          : ' Restarting this block at question 1; the consecutive count resets.'));
       } else if (pending.completed) feedback.textContent = 'Correct. You have completed the final lesson.';
       else if (pending.lessonChanged) feedback.textContent = `Correct. Next: ${course.lessons[pending.state.lessonIndex].title}.`;
       else feedback.textContent = 'Correct. Moving to the next prompt.';

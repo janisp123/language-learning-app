@@ -72,7 +72,7 @@
     let lessonChanged = false;
     let restarted = false;
     if (!correct) {
-      next.promptIndex = Math.max(0, state.promptIndex - 1);
+      next.promptIndex = 0;
       next.consecutive = 0;
       next.mistakes++;
       if (next.mistakes === 3) {
