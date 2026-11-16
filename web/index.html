@@ -20,7 +20,7 @@
       <label for="direction">Practice direction</label>
       <select id="direction"><option value="lv-ru">Latvian → Russian</option><option value="ru-lv">Russian → Latvian</option></select>
       <button class="primary start" id="start" type="button">Start practice <span aria-hidden="true">→</span></button>
-      <div class="rules"><h2>How it works</h2><ul><li>Choose one of four answers. Their positions are reshuffled each time.</li><li>Ten correct answers in a row complete a lesson.</li><li>A mistake takes you back one prompt and resets the consecutive count.</li><li>A fresh session starts at lesson one. Browser progress is not saved.</li></ul></div>
+      <div class="rules"><h2>How it works</h2><ul><li>Choose one of four answers. Feedback appears immediately and the next prompt appears after 0.5 seconds. Answers are reshuffled each time.</li><li>Ten correct answers in a row complete a lesson.</li><li>A mistake takes you back one prompt and resets the consecutive count.</li><li>A fresh session starts at lesson one. Browser progress is not saved.</li></ul></div>
       <details class="course-outline"><summary>Explore the ten lesson themes</summary><ol id="lesson-list"></ol><p class="small">Lessons are reached in order through practice. This list does not skip ahead.</p></details>
     </section>
     <section id="practice" aria-labelledby="lesson-title" hidden>
@@ -32,7 +32,7 @@
         <div id="choices" class="choices" aria-label="Translation choices"></div>
       </article>
       <div id="feedback" class="feedback" role="status" aria-live="polite" aria-atomic="true"></div>
-      <div class="practice-actions"><button id="next" class="primary" type="button" hidden>Continue <span aria-hidden="true">→</span></button><button id="restart" class="quiet" type="button">Restart from lesson 1</button><button id="change" class="quiet" type="button">Change direction</button></div>
+      <div class="practice-actions"><button id="restart" class="quiet" type="button">Restart from lesson 1</button><button id="change" class="quiet" type="button">Change direction</button></div>
       <p class="small help">Your choices and progress stay in this page's memory. Closing or refreshing starts over.</p>
     </section>
     <section id="finished" aria-labelledby="finished-title" hidden>

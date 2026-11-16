@@ -8,6 +8,13 @@
     let state = null;
     let shown = null;
     let pending = null;
+    let advanceTimer = null;
+    let generation = 0;
+
+    function cancelAdvance() {
+      if (advanceTimer !== null) clearTimeout(advanceTimer);
+      advanceTimer = null; generation++; pending = null;
+    }
 
     for (const lesson of course.lessons) {
       const item = document.createElement('li'); item.textContent = lesson.title; $('lesson-list').append(item);
@@ -16,14 +23,16 @@
       for (const name of ['setup','practice','finished']) $(name).hidden = name !== id;
     }
     function setup() {
+      cancelAdvance();
       state = null; shown = null; pending = null;
       screen('setup'); $('direction').focus();
     }
     function begin() {
+      cancelAdvance();
       state = E.start(course, $('direction').value);
       pending = null; screen('practice'); render();
     }
-    function render() {
+    function render(clearFeedback = true) {
       const lesson = course.lessons[state.lessonIndex];
       shown = E.question(course, state);
       $('lesson-label').textContent = `Lesson ${state.lessonIndex + 1} of ${course.lessons.length}`;
@@ -34,8 +43,7 @@
       $('progress').value = state.consecutive;
       $('progress').textContent = `${state.consecutive} of 10`;
       $('progress-label').textContent = `Consecutive correct: ${state.consecutive} of 10`;
-      $('feedback').textContent = ''; $('feedback').className = 'feedback';
-      $('next').hidden = true;
+      if (clearFeedback) { $('feedback').textContent = ''; $('feedback').className = 'feedback'; }
       $('choices').replaceChildren();
       for (const option of shown.options) {
         const button = document.createElement('button');
@@ -55,25 +63,24 @@
         else if (button.dataset.optionId === id) button.classList.add('incorrect');
       }
       const feedback = $('feedback');
+      feedback.className = 'feedback';
       if (!pending.feedback.correct) {
         feedback.className = 'feedback wrong';
         feedback.textContent = 'Not quite. Correct translation: ';
         const translation = document.createElement('span'); translation.lang = shown.target; translation.textContent = pending.feedback.correctText;
-        feedback.append(translation, document.createTextNode('. Continue to go back one prompt; the consecutive count resets.'));
+        feedback.append(translation, document.createTextNode(' Moving back one prompt; the consecutive count resets.'));
       } else if (pending.completed) feedback.textContent = 'Correct. You have completed the final lesson.';
       else if (pending.lessonChanged) feedback.textContent = `Correct. Next: ${course.lessons[pending.state.lessonIndex].title}.`;
-      else feedback.textContent = 'Correct. Continue to the next prompt.';
-      $('next').textContent = pending.completed ? 'Finish practice' : 'Continue →';
-      $('next').hidden = false;
-      // Give keyboard users a direct next action; correction remains announced by the live region.
-      $('next').focus();
+      else feedback.textContent = 'Correct. Moving to the next prompt.';
+      const ticket = ++generation;
+      advanceTimer = setTimeout(() => {
+        if (ticket !== generation || !pending) return;
+        advanceTimer = null;
+        state = pending.state; pending = null;
+        if (state.phase === 'complete') { screen('finished'); $('finished-title').focus(); }
+        else render(false);
+      }, 500);
     }
-    $('next').addEventListener('click', () => {
-      if (!pending) return;
-      state = pending.state; pending = null;
-      if (state.phase === 'complete') { screen('finished'); $('finished-title').focus(); }
-      else render();
-    });
     for (const id of ['start','restart','again']) $(id).addEventListener('click', begin);
     for (const id of ['change','choose']) $(id).addEventListener('click', setup);
     screen('setup');

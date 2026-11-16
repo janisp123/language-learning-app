@@ -35,6 +35,8 @@ Keep reusable phrases/words referenced by stable IDs. Avoid accidental distinct 
 
 **Storage nuance:** Current owner rule is **only save the highest lesson**. Therefore the in-lesson cursor, consecutive counter, and current session are **volatile**. Closing/restarting the Android app starts again from lesson 1 even on the same day. There is no daily-reset scheduler or last-practiced-date tracking. If a different same-day resume rule is ever wanted, it requires explicit product approval.
 
+**Owner interaction update (2026-11-16):** In the browser test build, selecting an answer locks choices and shows feedback immediately. After 500 ms, apply the answer transition automatically; there is no Continue button. Preserve the last correction after transition until the next answer so it remains readable. Restarting or changing direction cancels the timer and invalidates stale callbacks. This timing changes UI interaction only, not the correct/incorrect navigation or ten-consecutive rule above.
+
 **Question display:** A compact progress cue is optional; never turn internal consecutive-correct logic into an XP/score feature. Avoid noisy animations/celebrations. Audio should support functional comprehension rather than rewards; L-001 should choose reliable Android/browser playback without requiring user accounts or network services.
 
 ## Two delivery surfaces

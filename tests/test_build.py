@@ -35,8 +35,9 @@ class BuildTests(unittest.TestCase):
             self.assertEqual(page.remote,[])
             self.assertTrue('LanguageEngine' in html, 'engine missing from build')
             self.assertTrue('draft-human-review-pending' in html, 'draft content status missing')
-            for name in ['setup','practice','finished','start','choices','next','restart','direction','course-data','feedback','progress']:
+            for name in ['setup','practice','finished','start','choices','restart','direction','course-data','feedback','progress']:
                 self.assertIn(name,page.ids)
+            self.assertNotIn('next',page.ids)
             self.assertNotIn('<!--ENGINE-->',html)
             self.assertNotIn('<!--APP-->',html)
             for forbidden in ['localStorage','sessionStorage','indexedDB','document.cookie','fetch(','XMLHttpRequest','<iframe','<form']:
