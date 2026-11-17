@@ -1,6 +1,6 @@
 # Editing pronunciation without rebuilding the app's logic
 
-Current scope: all 500 vocabulary items in Latvian, Russian and English across all six directions. The completed pack contains 1,500 MP3 clips. Version 0.4.4 follows the owner's current-prompt-only request: the speaker beside the displayed word/phrase plays that prompt in its source language. Previous-answer replay and automatic answer audio are removed. The recordings and learning engine are unchanged. Speech is synthetic: Russian/Latvian use the existing Google Translate TTS clips; English uses the installed Flite cmu_us_slt voice. All clips are generated from canonical text; fluent pronunciation review is pending. The learner's browser makes no synthesis/network request.
+Current scope: all 510 vocabulary items in Latvian, Russian and English across all six directions, with 1,530 bundled MP3 clips. Version 0.4.5 adds thirty recordings for the ten practical-core entries and preserves all original 1,500 clips. The speaker still plays only the current prompt in its source language; previous-answer replay and automatic answer audio remain removed. The media player and learning engine are unchanged. Russian/Latvian speech uses Google Translate TTS via gTTS; English uses Flite cmu_us_slt offline. Fluent pronunciation review is pending. The learner's browser makes no synthesis/network request.
 
 | Change | Edit | What stays independent |
 | --- | --- | --- |
@@ -41,6 +41,8 @@ Read-only references: its `docs/FEATURE_DEVELOPMENT.md` and `AGENTS.md`, plus th
 - User-facing notes describe behavior; technical coordination belongs here.
 
 ## Verification and delivery
+
+2026-11-17 practical core, 0.4.5: 37 Node and 23 Python tests pass, including the exact approved order/new translations, full traversal and source audio for all 510 prompts/six directions. The original vocabulary digest and old MP3 checksums remain unchanged. Thirty new clips are decoded independently; current browser/Drive delivery evidence is recorded in WORK_CHECKPOINT.md. Earlier version results below are historical.
 
 2026-11-17 current-prompt update, 0.4.4: 37 Node/20 Python tests pass locally. Regressions cover source-language binding for all 500 prompts in six directions, repeat taps without grading changes, no answer-triggered playback, missing/mismatched recordings and cancelled errors. Headless Chromium at 390×844 verifies real playback, keyboard activation, navigation cancellation, a 48 px speaker and no horizontal overflow in each direction. Physical Android remains NOT RUN. This supersedes the old previous-answer interaction; recording coverage is unchanged.
 

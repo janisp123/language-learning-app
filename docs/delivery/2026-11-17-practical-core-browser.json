@@ -1,0 +1,57 @@
+{
+  "buildVersion": "0.4.5",
+  "browser": "Headless Chromium",
+  "viewport": "390x844; long Latvian request also 320x720",
+  "navigation": "Playwright virtual clock advances unchanged 500ms answer timers; actual media playback verified",
+  "directions": [
+    {
+      "direction": "lv-ru",
+      "introPromptsTraversed": 100,
+      "requestBlockPosition": 11,
+      "newClipsPlayed": 10,
+      "zeroSaves": true,
+      "reloadStartsLesson": 1
+    },
+    {
+      "direction": "ru-lv",
+      "introPromptsTraversed": 100,
+      "requestBlockPosition": 11,
+      "newClipsPlayed": 10,
+      "zeroSaves": true,
+      "reloadStartsLesson": 1
+    },
+    {
+      "direction": "lv-en",
+      "introPromptsTraversed": 100,
+      "requestBlockPosition": 11,
+      "newClipsPlayed": 10,
+      "zeroSaves": true,
+      "reloadStartsLesson": 1
+    },
+    {
+      "direction": "en-lv",
+      "introPromptsTraversed": 100,
+      "requestBlockPosition": 11,
+      "newClipsPlayed": 10,
+      "zeroSaves": true,
+      "reloadStartsLesson": 1
+    },
+    {
+      "direction": "ru-en",
+      "introPromptsTraversed": 100,
+      "requestBlockPosition": 11,
+      "newClipsPlayed": 10,
+      "zeroSaves": true,
+      "reloadStartsLesson": 1
+    },
+    {
+      "direction": "en-ru",
+      "introPromptsTraversed": 100,
+      "requestBlockPosition": 11,
+      "newClipsPlayed": 10,
+      "zeroSaves": true,
+      "reloadStartsLesson": 1
+    }
+  ],
+  "pageErrors": []
+}

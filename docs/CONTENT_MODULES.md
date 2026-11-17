@@ -1,6 +1,6 @@
 # Content modules and permanent question/answer identity
 
-Implemented by Codex at the owner's request. The active pack has 50 blocks and 500 vocabulary items with LV/RU/EN translations. The owner explicitly requested this curriculum revision after the modular refactor. The earlier 100-item draft is preserved in `archive/course-0.3/content/`, with its original identity lock unchanged. See [VOCABULARY_500.md](VOCABULARY_500.md).
+Implemented by Codex at the owner's request. The active pack has 51 blocks and 510 vocabulary items with LV/RU/EN translations: the original 500 plus ten practical items. Catalog order brings pronouns/help earlier and places the new request block after the first 100 items. The earlier 100-item draft is preserved in `archive/course-0.3/content/`, with its original identity lock unchanged. See [VOCABULARY_500.md](VOCABULARY_500.md).
 
 ## Module boundaries
 
@@ -69,6 +69,6 @@ Synthetic extension fixtures are temporary and not shipped. Actual browser/devic
 
 ## Active vocabulary policy and baseline
 
-The current catalog declares a 500-item vocabulary policy: distinct concepts and meanings, `word`/`phrase` form tags, at most four words per translation, and no sentence punctuation. For approved new blocks, increase `curriculum.targetItems` along with authored coverage. Additional languages must translate every active concept and title. The structural checks do not detect every grammatical sentence or translation ambiguity.
+The current catalog declares a 510-item vocabulary policy: distinct concepts and meanings, `word`/`phrase` form tags, at most four words per translation, and no sentence punctuation. For approved new blocks, increase `curriculum.targetItems` along with authored coverage. Additional languages must translate every active concept and title. The structural checks do not detect every grammatical sentence or translation ambiguity.
 
-`tests/fixtures/vocabulary-0.4-lock.json` pins the current 500 meanings/texts and all question/answer bindings; extra blocks/languages can be added without rewriting those IDs. The earlier original lock still verifies `archive/course-0.3/`. Do not refresh either digest merely to silence a drift failure: inspect and document any intentional language correction first.
+`tests/fixtures/vocabulary-0.4-lock.json` pins the original 500 meanings/texts and question/answer bindings; extra blocks/languages can be added without rewriting those IDs. The owner's approved catalog reorder is checked separately in `test_practical_core.py`; snapshot verification uses its own recorded block/phrase order, preserving the existing digest unchanged. The earlier original lock still verifies `archive/course-0.3/`. Do not refresh either digest merely to silence a drift failure: inspect and document any intentional language correction first.

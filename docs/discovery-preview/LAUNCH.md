@@ -22,7 +22,7 @@ This is a hosting-configuration blocker, not a missing webpage or unsynchronized
 
 Codex should refresh main and inspect the existing publication run, then rerun only its failed jobs if it is still the relevant run. Avoid duplicate deployments. If GitHub requires an environment approval or reports another configuration error, identify that exact requirement.
 
-Read the actual `page_url`/deployment result before reporting a live address. Verify the landing page, Learn action, language/direction selection and pronunciation. Download the hosted `learn/index.html` and compare its SHA-256 with [the verified Drive delivery record](../delivery/2026-11-17-english-complete-drive-sync.json). Record the successful run, public URL, exact source and readback evidence in [WORK_CHECKPOINT.md](../WORK_CHECKPOINT.md). Physical-phone and fluent pronunciation checks remain separate.
+Read the actual `page_url`/deployment result before reporting a live address. Verify the landing page, Learn action, language/direction selection and pronunciation. Download the hosted `learn/index.html` and compare its SHA-256 with the current verified Drive delivery record linked from [WORK_CHECKPOINT.md](../WORK_CHECKPOINT.md). Record the successful run, public URL, exact source and readback evidence there. Physical-phone and fluent pronunciation checks remain separate.
 
 ## Where future edits belong
 
@@ -43,7 +43,7 @@ The **Publish language app website** workflow runs after relevant approved chang
 ## Published artifact and delivery boundaries
 
 - `index.html`: landing page.
-- `learn/index.html`: complete self-contained browser app with 1,500 pronunciation clips.
+- `learn/index.html`: complete self-contained browser app with 1,530 pronunciation clips for 510 items.
 - `language-learning-test.html`: identical app bytes retained for technical parity checks.
 
 The public download action points to the default Drive folder. Only staged public files enter the artifact. Learning state remains in browser memory. Preserve the established Drive delivery/readback process when a requested app change also updates the review download; a website deployment does not by itself prove Drive was refreshed.

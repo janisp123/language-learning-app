@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "basic-vocabulary-10-17",
-  "contentVersion": "0.4.0-test",
+  "contentVersion": "0.5.0-test",
   "agePath": "10-17",
   "reviewStatus": "draft-human-review-pending",
   "defaultDirection": "lv-ru",
@@ -26,16 +26,20 @@
       "file": "blocks/basic-01.json"
     },
     {
-      "id": "basic-02",
-      "file": "blocks/basic-02.json"
-    },
-    {
-      "id": "basic-03",
-      "file": "blocks/basic-03.json"
+      "id": "basic-50",
+      "file": "blocks/basic-50.json"
     },
     {
       "id": "basic-04",
       "file": "blocks/basic-04.json"
+    },
+    {
+      "id": "basic-27",
+      "file": "blocks/basic-27.json"
+    },
+    {
+      "id": "basic-10",
+      "file": "blocks/basic-10.json"
     },
     {
       "id": "basic-05",
@@ -46,10 +50,6 @@
       "file": "blocks/basic-06.json"
     },
     {
-      "id": "basic-07",
-      "file": "blocks/basic-07.json"
-    },
-    {
       "id": "basic-08",
       "file": "blocks/basic-08.json"
     },
@@ -58,8 +58,36 @@
       "file": "blocks/basic-09.json"
     },
     {
-      "id": "basic-10",
-      "file": "blocks/basic-10.json"
+      "id": "basic-03",
+      "file": "blocks/basic-03.json"
+    },
+    {
+      "id": "basic-51",
+      "file": "blocks/basic-51.json"
+    },
+    {
+      "id": "basic-43",
+      "file": "blocks/basic-43.json"
+    },
+    {
+      "id": "basic-42",
+      "file": "blocks/basic-42.json"
+    },
+    {
+      "id": "basic-44",
+      "file": "blocks/basic-44.json"
+    },
+    {
+      "id": "basic-45",
+      "file": "blocks/basic-45.json"
+    },
+    {
+      "id": "basic-02",
+      "file": "blocks/basic-02.json"
+    },
+    {
+      "id": "basic-07",
+      "file": "blocks/basic-07.json"
     },
     {
       "id": "basic-11",
@@ -126,10 +154,6 @@
       "file": "blocks/basic-26.json"
     },
     {
-      "id": "basic-27",
-      "file": "blocks/basic-27.json"
-    },
-    {
       "id": "basic-28",
       "file": "blocks/basic-28.json"
     },
@@ -186,22 +210,6 @@
       "file": "blocks/basic-41.json"
     },
     {
-      "id": "basic-42",
-      "file": "blocks/basic-42.json"
-    },
-    {
-      "id": "basic-43",
-      "file": "blocks/basic-43.json"
-    },
-    {
-      "id": "basic-44",
-      "file": "blocks/basic-44.json"
-    },
-    {
-      "id": "basic-45",
-      "file": "blocks/basic-45.json"
-    },
-    {
       "id": "basic-46",
       "file": "blocks/basic-46.json"
     },
@@ -216,15 +224,11 @@
     {
       "id": "basic-49",
       "file": "blocks/basic-49.json"
-    },
-    {
-      "id": "basic-50",
-      "file": "blocks/basic-50.json"
     }
   ],
   "curriculum": {
     "kind": "basic-words-and-phrases",
-    "targetItems": 500,
+    "targetItems": 510,
     "introductoryBlocks": 10,
     "maxWordsPerItem": 4
   }

@@ -2500,6 +2500,56 @@
       "id": "vocab-0500",
       "meaning": "nothing",
       "form": "word"
+    },
+    {
+      "id": "vocab-0501",
+      "meaning": "I need help",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0502",
+      "meaning": "I need water",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0503",
+      "meaning": "I need a doctor",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0504",
+      "meaning": "I don't understand",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0505",
+      "meaning": "please call an ambulance",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0506",
+      "meaning": "please call the police",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0507",
+      "meaning": "allergy",
+      "form": "word"
+    },
+    {
+      "id": "vocab-0508",
+      "meaning": "without milk",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0509",
+      "meaning": "without sugar",
+      "form": "phrase"
+    },
+    {
+      "id": "vocab-0510",
+      "meaning": "I need medicine",
+      "form": "phrase"
     }
   ]
 }

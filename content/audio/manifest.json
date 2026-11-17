@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.4.0-test",
+  "contentVersion": "0.5.0-test",
   "directions": [
     "lv-ru",
     "lv-en",
@@ -2520,6 +2520,66 @@
         "text": "ничего",
         "file": "audio/ru/vocab-0500.mp3",
         "sha256": "5d2eb8a70fc72374872b2ddb8ba8dab473458aabcef7a5744ae5b9118e52fe06"
+      },
+      "vocab-0501": {
+        "text": "мне нужна помощь",
+        "file": "audio/ru/vocab-0501.mp3",
+        "sha256": "2bb28e31ed4f1c88c13f234a5ee904329c303f24bf7587370fa577ab5d1276ba",
+        "provider": "gtts"
+      },
+      "vocab-0502": {
+        "text": "мне нужна вода",
+        "file": "audio/ru/vocab-0502.mp3",
+        "sha256": "e63a2df09a9079eb08045c3a82de62f4731edb889fa9c3b5dbe19c42e123cf02",
+        "provider": "gtts"
+      },
+      "vocab-0503": {
+        "text": "мне нужен врач",
+        "file": "audio/ru/vocab-0503.mp3",
+        "sha256": "71f743833a9e5baf4456585fec0b76611c316e038f48e1e0ca378a9a81426f7e",
+        "provider": "gtts"
+      },
+      "vocab-0504": {
+        "text": "я не понимаю",
+        "file": "audio/ru/vocab-0504.mp3",
+        "sha256": "1509453f285479e41292ba3c1b27dfed613f9fed36837d45b034a264de692d0d",
+        "provider": "gtts"
+      },
+      "vocab-0505": {
+        "text": "пожалуйста вызовите скорую помощь",
+        "file": "audio/ru/vocab-0505.mp3",
+        "sha256": "a1619a29197b9e41b6a8cf6953200c6ca235bd78e1ddca5c07d85d2e8ce051dd",
+        "provider": "gtts"
+      },
+      "vocab-0506": {
+        "text": "пожалуйста вызовите полицию",
+        "file": "audio/ru/vocab-0506.mp3",
+        "sha256": "de0d96d89bd9a0ba05ef84bdc75512ab61e267ce448e985c0ea2b7793a63cd34",
+        "provider": "gtts"
+      },
+      "vocab-0507": {
+        "text": "аллергия",
+        "file": "audio/ru/vocab-0507.mp3",
+        "sha256": "a53413188985babe21aae6d5de5c5eba534052f36f42ac3ac68cead5d68ce32e",
+        "provider": "gtts"
+      },
+      "vocab-0508": {
+        "text": "без молока",
+        "file": "audio/ru/vocab-0508.mp3",
+        "sha256": "749ac1df5271145305a6ee20fd15ff800a4b28b588e9c6fa541dc5326ffd410e",
+        "provider": "gtts"
+      },
+      "vocab-0509": {
+        "text": "без сахара",
+        "file": "audio/ru/vocab-0509.mp3",
+        "sha256": "1dedfacfd1c26a97ab67a7b28aa36ff42d4b6de3645563a87c664755053b0209",
+        "provider": "gtts"
+      },
+      "vocab-0510": {
+        "text": "мне нужно лекарство",
+        "file": "audio/ru/vocab-0510.mp3",
+        "sha256": "120701c144cfb4abfd6f929c5efb266a378ecd3cf19fcb468d6deb21d65dee02",
+        "provider": "gtts"
       }
     },
     "lv": {
@@ -5022,6 +5082,66 @@
         "text": "silts",
         "file": "audio/lv/vocab-0469.mp3",
         "sha256": "47fd80a254e3df60434b8950be5e1561d8cefcf1d571462b4df5ea2d4b635077"
+      },
+      "vocab-0501": {
+        "text": "man vajag palīdzību",
+        "file": "audio/lv/vocab-0501.mp3",
+        "sha256": "b7ed48be8d16d853d40d998a70d1fb3bad0da1824d45e874e6c8a7e307694740",
+        "provider": "gtts"
+      },
+      "vocab-0502": {
+        "text": "man vajag ūdeni",
+        "file": "audio/lv/vocab-0502.mp3",
+        "sha256": "082012af534f2c83292573cc2ad408aa7e3f0df289dd7758a4394b8924d88f24",
+        "provider": "gtts"
+      },
+      "vocab-0503": {
+        "text": "man vajag ārstu",
+        "file": "audio/lv/vocab-0503.mp3",
+        "sha256": "5e76038fc7737a6b465c1722a7f295908c83b7da8701e791206f56b91a0f54d4",
+        "provider": "gtts"
+      },
+      "vocab-0504": {
+        "text": "es nesaprotu",
+        "file": "audio/lv/vocab-0504.mp3",
+        "sha256": "6d93ed215ee9924e57d95469950332d0295908f43c1377df91cc3cbff4a16b24",
+        "provider": "gtts"
+      },
+      "vocab-0505": {
+        "text": "lūdzu izsauciet neatliekamo palīdzību",
+        "file": "audio/lv/vocab-0505.mp3",
+        "sha256": "61df5428ca3d0e5e16b7644411991789f151f59a342ab73ce9889b8a7b433bee",
+        "provider": "gtts"
+      },
+      "vocab-0506": {
+        "text": "lūdzu izsauciet policiju",
+        "file": "audio/lv/vocab-0506.mp3",
+        "sha256": "b79706c30993a5f12f12d7a85a52bdedbeda5407fd4637462fe562e9149ccef1",
+        "provider": "gtts"
+      },
+      "vocab-0507": {
+        "text": "alerģija",
+        "file": "audio/lv/vocab-0507.mp3",
+        "sha256": "d12907c208ce3626c7fe9659a9c87e9adb950c9c2ea163aeaebb7b484e351e4a",
+        "provider": "gtts"
+      },
+      "vocab-0508": {
+        "text": "bez piena",
+        "file": "audio/lv/vocab-0508.mp3",
+        "sha256": "84408ebd70d6f248176bf17616b3c52cb45764ef0659befb11b4a07a491c4b67",
+        "provider": "gtts"
+      },
+      "vocab-0509": {
+        "text": "bez cukura",
+        "file": "audio/lv/vocab-0509.mp3",
+        "sha256": "6a07316491307bf7279d2d9c0c394ec9c150fbbfb7b5cc1af461a0d91dcc10eb",
+        "provider": "gtts"
+      },
+      "vocab-0510": {
+        "text": "man vajag zāles",
+        "file": "audio/lv/vocab-0510.mp3",
+        "sha256": "eb0c3b2dfe441601358e64204d2d3427e05cd13b50aa17164835d06f223919e1",
+        "provider": "gtts"
       }
     },
     "en": {
@@ -8524,6 +8644,76 @@
         "sha256": "dd3e995670cd1e0b098c976344292bf9323f6b81b7e03a5bf393444097086660",
         "source": "Flite cmu_us_slt; offline synthesis",
         "provider": "flite-slt"
+      },
+      "vocab-0501": {
+        "text": "I need help",
+        "file": "audio/en/vocab-0501.mp3",
+        "sha256": "efd9e1155a301afd0ab809db38a08f124684e408c6006cdce8d70c6ef5176c67",
+        "provider": "flite-slt",
+        "source": "Flite cmu_us_slt; offline synthesis"
+      },
+      "vocab-0502": {
+        "text": "I need water",
+        "file": "audio/en/vocab-0502.mp3",
+        "sha256": "4a27355bb3839f5be5c3986d23b7b7d8967eeab85d1ed9e7466dd407a0ff665a",
+        "provider": "flite-slt",
+        "source": "Flite cmu_us_slt; offline synthesis"
+      },
+      "vocab-0503": {
+        "text": "I need a doctor",
+        "file": "audio/en/vocab-0503.mp3",
+        "sha256": "7bebed08807358514c9601750a460165b5063cd009d2d0db292f4ca671866620",
+        "provider": "flite-slt",
+        "source": "Flite cmu_us_slt; offline synthesis"
+      },
+      "vocab-0504": {
+        "text": "I don't understand",
+        "file": "audio/en/vocab-0504.mp3",
+        "sha256": "0d5927ebca29a670080ea1aa74350d53a97ae0fa77de5f7166fa8f1752034c91",
+        "provider": "flite-slt",
+        "source": "Flite cmu_us_slt; offline synthesis"
+      },
+      "vocab-0505": {
+        "text": "please call an ambulance",
+        "file": "audio/en/vocab-0505.mp3",
+        "sha256": "9eac815285ad2694f1dc78fa2a6b2f36dbd9c6e7ad4608e74d8424f84f982f2b",
+        "provider": "flite-slt",
+        "source": "Flite cmu_us_slt; offline synthesis"
+      },
+      "vocab-0506": {
+        "text": "please call the police",
+        "file": "audio/en/vocab-0506.mp3",
+        "sha256": "86e647ea70cc058881f7a0f071696ed0f73a432a481b620abab0696b4cd40552",
+        "provider": "flite-slt",
+        "source": "Flite cmu_us_slt; offline synthesis"
+      },
+      "vocab-0507": {
+        "text": "allergy",
+        "file": "audio/en/vocab-0507.mp3",
+        "sha256": "183844d5be1a4cb577e5ac3d938319ca0e0bb469fc2611ca07659d6aef02c87d",
+        "provider": "flite-slt",
+        "source": "Flite cmu_us_slt; offline synthesis"
+      },
+      "vocab-0508": {
+        "text": "without milk",
+        "file": "audio/en/vocab-0508.mp3",
+        "sha256": "16b4626eaca2b58f452e839d50c30292fdce617dfdaf5ccfdfc39d056f660bcf",
+        "provider": "flite-slt",
+        "source": "Flite cmu_us_slt; offline synthesis"
+      },
+      "vocab-0509": {
+        "text": "without sugar",
+        "file": "audio/en/vocab-0509.mp3",
+        "sha256": "8f16ba7bc32d6af1e296e0de6973d0123f614b8d549d1759a792aa4e9936c84e",
+        "provider": "flite-slt",
+        "source": "Flite cmu_us_slt; offline synthesis"
+      },
+      "vocab-0510": {
+        "text": "I need medicine",
+        "file": "audio/en/vocab-0510.mp3",
+        "sha256": "73b84d020fec1bbaeee2dc9a1e7e36b142d082463523332a4b2f2778d1150a7e",
+        "provider": "flite-slt",
+        "source": "Flite cmu_us_slt; offline synthesis"
       }
     }
   },

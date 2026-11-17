@@ -29,4 +29,4 @@
 - [ ] Work checkpoint reflects the exact tested or published state and one next action.
 - [ ] Unverified items remain clearly marked TODO/BLOCKED, not quietly passed.
 
-**Approved curriculum:** 50 blocks of ten questions / 500 basic words and short phrases; first ten blocks contain no sentences. Check every block in all six directions. Payments, ads, accounts, cloud data and additional languages/ages remain out of scope.
+**Approved curriculum:** 51 blocks of ten questions / 510 basic words and short phrases; first ten blocks remain introductory words/short phrases and full practical requests start at block 11. Check every block in all six directions, including source audio for the ten new items. Original 500 meanings/bindings and 1,500 old clips must remain unchanged. Payments, ads, accounts, cloud data and additional languages/ages remain out of scope.

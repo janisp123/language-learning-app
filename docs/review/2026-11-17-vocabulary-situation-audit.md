@@ -1,5 +1,7 @@
 # What situations the current vocabulary can support
 
+**Implementation follow-up:** The owner subsequently authorized the compact request core and reprioritization. Review build 0.4.5 adds ten items while preserving these original 500, and moves pronouns/help earlier. See [the practical-core specification](../superpowers/specs/2026-11-17-practical-request-core.md). The assessment below describes the pre-revision bank; it is retained as evidence rather than current missing-work instructions. Optional lost/name/language-selection gaps were not added to scope.
+
 Read-only content assessment by Codex, 17 November 2026. Reviewed all 500 active meanings and their Latvian/Russian/English translations at commit `6b2b217c6ca5a561256b897219c3faf9d8fa0341`. Canonical translations match main; the review branch only changes their UI version labels. This report changes no vocabulary, translations, order, task authorization or learning behavior.
 
 **Overall finding:** The bank is a useful foundation for short, cooperative everyday exchanges. It is especially useful for locating places, requesting familiar items, naming needs and understanding simple direction words. Its main weakness is the small number of reusable communication frames relative to the amount of naming vocabulary. Understandable fragments count as useful communication under the owner's goal; grammatical completeness is not the grading standard for this audit.

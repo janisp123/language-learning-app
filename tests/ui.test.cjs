@@ -86,11 +86,11 @@ test('standalone speaker covers every question in all six directions with correc
       choose($,prompt.phraseId);assert.equal($('audio-media').playCount,count);$.tick(500);
     }
     assert.equal($('audio-media').playCount,course.phrases.length);
-    assert.equal(count,500);assert.equal($('finished').hidden,false);assert.equal($('audio-media').paused,true);
+    assert.equal(count,course.phrases.length);assert.equal($('finished').hidden,false);assert.equal($('audio-media').paused,true);
     $('again').click();assert.equal($('audio-media').paused,true);
     const prompt=course.lessons[0].prompts[0];
     choose($,$('choices').children.find(b=>b.dataset.optionId!==prompt.phraseId).dataset.optionId);
-    assert.equal($('audio-media').playCount,500,'wrong answers must not play a target clip');
+    assert.equal($('audio-media').playCount,course.phrases.length,'wrong answers must not play a target clip');
   }
 });
 test('answer locks immediately, advances only at 500ms, then wrong steps back automatically',()=>{

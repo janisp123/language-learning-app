@@ -23,15 +23,17 @@ For each task: check `AGENTS.md` and `WORK_CHECKPOINT.md`, verify whether alread
 - **Goal:** Translate the rules in `ARCHITECTURE.md` into a small, explicit engine and executable conformance tests. Confirm edge cases: wrong at first/last prompt, revisiting items, how a 10-item lesson cycles to achieve 10 consecutive successes, switching among all six LV/RU/EN directions, shuffling, and first launch.
 - **Acceptance:** No off-by-one or soft-skip: correct moves forward; wrong moves back one prompt and breaks the consecutive run; the third cumulative mistake in a ten-question block restarts at lesson 1/question 1 with cleared counters; correct answers do not clear block mistakes, but completing a block does; only 10 in a row completes; every fresh session starts at lesson 1 with no saved record or record-based notification. Tests document exact boundaries, not just happy paths.
 
-### L-003 — Author and validate 500 basic words and short phrases
-- **Status:** PARTIAL — 50 draft blocks / 500 vocabulary items authored; fluent human review pending
+### L-003 — Author and validate the survival vocabulary and practical core
+- **Status:** PARTIAL — 51 draft blocks / 510 items authored; original 500 preserved, new request core and priority order implemented for review; fluent human review pending
+- **Owner-authorized revision (Codex, 2026-11-17):** ten reusable needs/repair/help-call/restriction entries added; pronouns/help brought earlier; new request block at display position 11. See the practical-core specification and tests. Stable task ID and original authorship are retained.
 - **Browser test-build code/content authored by:** Codex · [implementation and verification](BROWSER_TEST_BUILD.md)
 - **Added by:** ChatGPT
 - **Implemented by:** Not yet
 - **Goal:** Create only the **10–17** Latvian/Russian/English content pack, using the owner-approved words/short-phrases curriculum in `CONTENT_RULES.md` and `VOCABULARY_500.md`. Reuse words, phrasing and patterns; teach concrete everyday communication, including what a child might *hear* as well as say. Keep stable IDs and distinct, plausible wrong answers.
-- **Acceptance:** Fifty usable ten-question blocks, 500 distinct learning items, no sentences in the first ten blocks, all six translation directions, no duplicate or ambiguous correct choices, simple grammar/pronunciation review, no workplace/adult material, content validation tests. Mark human-language review as pending unless actually performed.
+- **Acceptance:** Fifty-one usable ten-question blocks, 510 distinct items, introductory words/short phrases in the first ten blocks, practical requests from block 11, all six directions and complete source audio. Original meanings/IDs/bindings/recordings remain unchanged. No ambiguous choices or adult/workplace material; human language/pronunciation review remains pending until actually performed.
 
 ### L-004 — Build browser learning and the GitHub Pages landing page
+- **Practical-core revision (Codex, owner request, 2026-11-17):** review build 0.4.5 covers 510 items/51 blocks and 1,530 recordings; current-prompt-only speaker, zero saves and learning rules remain unchanged. Integration/device review pending.
 - **Current-prompt speaker update (Codex, owner request, 2026-11-17):** 0.4.4 adds a localized speaker beside the current word/phrase; only that source-language prompt plays on request. Previous-answer replay and automatic answer sound are removed. Prepared in PR #7; integration/device review pending.
 - **Audio slice (Codex, 2026-11-17):** all 500 questions have bundled LV/RU/EN pronunciation and replay in all six directions (0.4.3); English is generated locally with Flite SLT, avoiding the online synthesis blocker; see AUDIO_MODULES.md. Human pronunciation/device review remains pending.
 - **Status:** PARTIAL — landing page and complete browser build integrated through PR #6; publication run 44053240327 blocked on owner enabling Settings → Pages → Source: GitHub Actions; hosted/device verification pending
