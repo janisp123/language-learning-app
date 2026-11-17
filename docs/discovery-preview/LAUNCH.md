@@ -10,19 +10,17 @@ The language-app website is already built. The owner does not need to create or 
 
 The connected GitHub tools can edit repository files and retry workflow jobs, but do not expose this Pages administration setting. The workflow intentionally uses `configure-pages` with `enablement: false`; it reads the owner-enabled configuration.
 
-## Verified state and blocker
+## Verified public website (2026-11-17)
 
-PR #6 is merged. Version 0.4.3 and its full audio source are on main at `85e4dc400fe58075df806cf5d03d3c757a9f49bf`. Browser checks [44053240358](https://github.com/janisp123/language-learning-app/actions/runs/44053240358) succeeded.
+The owner enabled Pages and approved integrating PRs #7–#10. Build 0.4.7 is public:
 
-Publication [44053240327](https://github.com/janisp123/language-learning-app/actions/runs/44053240327) failed at **Read owner-enabled Pages configuration**, after the tests succeeded. The job log reports: **Get Pages site failed** / **Not Found**, and asks for Pages to be enabled with GitHub Actions. Deployment was skipped. No live website URL has been verified.
+- [Open app directly](https://janisp123.github.io/language-learning-app/learn/)
+- [Project website](https://janisp123.github.io/language-learning-app/)
+- [Portable HTML](https://janisp123.github.io/language-learning-app/language-learning-test.html)
 
-This is a hosting-configuration blocker, not a missing webpage or unsynchronized app source. Recheck the latest remote state before acting; this record is a dated handoff.
+Publication [44111718449](https://github.com/janisp123/language-learning-app/actions/runs/44111718449) succeeded for source 9fc4fed6ee25f4a9533b6eb7282906e22125b9cb. Main CI 44111768967 passed after README integration. HTTPS landing/app/download returned 200; hosted app/download match the verified source and Drive build exactly. See [publication evidence](../delivery/2026-11-17-pages-deployment.json) and [checkpoint](../WORK_CHECKPOINT.md). The earlier owner-setup blocker is resolved. Physical-phone, full accessibility and fluent language/pronunciation review remain pending.
 
-## Resume publication after setup
-
-Codex should refresh main and inspect the existing publication run, then rerun only its failed jobs if it is still the relevant run. Avoid duplicate deployments. If GitHub requires an environment approval or reports another configuration error, identify that exact requirement.
-
-Read the actual `page_url`/deployment result before reporting a live address. Verify the landing page, Learn action, language/direction selection and pronunciation. Download the hosted `learn/index.html` and compare its SHA-256 with the current verified Drive delivery record linked from [WORK_CHECKPOINT.md](../WORK_CHECKPOINT.md). Record the successful run, public URL, exact source and readback evidence there. Physical-phone and fluent pronunciation checks remain separate.
+For future changes, inspect the latest main/workflow first. Use the existing main-only publication flow; do not recreate the website or repeat owner setup unless GitHub explicitly reports a configuration issue. Read the actual deployment result and independently verify public bytes and browser behavior before claiming publication.
 
 ## Where future edits belong
 

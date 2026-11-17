@@ -1,0 +1,49 @@
+{
+  "buildVersion": "0.4.7",
+  "contentVersion": "0.6.0-test",
+  "websiteUrl": "https://janisp123.github.io/language-learning-app/",
+  "appUrl": "https://janisp123.github.io/language-learning-app/learn/",
+  "downloadUrl": "https://janisp123.github.io/language-learning-app/language-learning-test.html",
+  "deploymentRun": 44111718449,
+  "deploymentConclusion": "success",
+  "deploymentSourceCommit": "9fc4fed6ee25f4a9533b6eb7282906e22125b9cb",
+  "readmeIntegratedCommit": "d0d38e70dd344f9f612210a70b76bb2bac29a619",
+  "mergedPullRequests": [
+    7,
+    8,
+    9,
+    10
+  ],
+  "verifiedDate": "2026-11-17",
+  "httpStatus": {
+    "landing": 200,
+    "app": 200,
+    "download": 200
+  },
+  "defaultTlsVerification": true,
+  "appSha256": "bbd877c5e9757453872d2fcacd752103731a3aa51d29e2e51460e1fe7234e6bf",
+  "appBytes": 15811471,
+  "landingSha256": "b978a578b58784a9f455476e1bec742c47bcba2ed26ca44df193ac18484dbd61",
+  "hostedAppDownloadSourceAndDriveIdentical": true,
+  "driveReceipt": "2026-11-17-english-japanese-drive-sync.json",
+  "tests": {
+    "node": 41,
+    "python": 28
+  },
+  "mainCiRun": 44111768967,
+  "mainCiConclusion": "success",
+  "browserReceipt": "2026-11-17-pages-browser.json",
+  "status": {
+    "implemented": true,
+    "pushed": true,
+    "merged": true,
+    "driveDelivered": true,
+    "publiclyDeployed": true
+  },
+  "notRun": [
+    "physical-device check",
+    "full screen-reader audit",
+    "fluent human language/pronunciation review",
+    "Android/Play release"
+  ]
+}

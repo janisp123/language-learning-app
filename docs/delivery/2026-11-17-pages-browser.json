@@ -1,0 +1,38 @@
+{
+  "buildVersion": "0.4.7",
+  "publicUrl": "https://janisp123.github.io/language-learning-app/learn/",
+  "headlessBrowserTls": "environment certificate trust bypassed; HTTPS and full bytes independently validated with urllib default TLS verification",
+  "landingLearnLinkVerified": true,
+  "browser": "Chromium",
+  "viewport": [
+    320,
+    720
+  ],
+  "selectorDirections": [
+    "lv-ru",
+    "lv-en",
+    "ru-lv",
+    "ru-en",
+    "en-lv",
+    "en-ru",
+    "en-ja"
+  ],
+  "englishInterface": true,
+  "japaneseScriptOnlyAnswers": true,
+  "allEnglishJapaneseItemsTraversed": 510,
+  "englishSourceAudioBindingsVerified": 510,
+  "firstDecodedPlayback": true,
+  "autoplayOncePerAppearance": true,
+  "wrongReturnAndRestart": true,
+  "transition499And500ms": true,
+  "completionStopsAudio": true,
+  "noHorizontalOverflowAtRequestBlock": true,
+  "emptyLocalSessionStorageAndCookies": true,
+  "reloadResets": true,
+  "pageErrors": [],
+  "notRun": [
+    "physical devices",
+    "full screen-reader audit",
+    "fluent human language review"
+  ]
+}
