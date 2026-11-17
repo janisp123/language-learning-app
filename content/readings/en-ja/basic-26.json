@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "direction": "en-ja",
+  "blockId": "basic-26",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0251": {
+      "text": "昼食",
+      "segments": [
+        {
+          "text": "昼",
+          "reading": "chuu"
+        },
+        {
+          "text": "食",
+          "reading": "shoku"
+        }
+      ]
+    },
+    "vocab-0252": {
+      "text": "夕食",
+      "segments": [
+        {
+          "text": "夕",
+          "reading": "yuu"
+        },
+        {
+          "text": "食",
+          "reading": "shoku"
+        }
+      ]
+    },
+    "vocab-0253": {
+      "text": "おやつ",
+      "segments": [
+        {
+          "text": "お",
+          "reading": "o"
+        },
+        {
+          "text": "や",
+          "reading": "ya"
+        },
+        {
+          "text": "つ",
+          "reading": "tsu"
+        }
+      ]
+    },
+    "vocab-0254": {
+      "text": "サンドイッチ",
+      "segments": [
+        {
+          "text": "サ",
+          "reading": "sa"
+        },
+        {
+          "text": "ン",
+          "reading": "n"
+        },
+        {
+          "text": "ド",
+          "reading": "do"
+        },
+        {
+          "text": "イ",
+          "reading": "i"
+        },
+        {
+          "text": "ッ",
+          "reading": "(t)",
+          "note": "Doubles the next consonant; hold a brief pause before it."
+        },
+        {
+          "text": "チ",
+          "reading": "chi"
+        }
+      ]
+    },
+    "vocab-0255": {
+      "text": "サラダ",
+      "segments": [
+        {
+          "text": "サ",
+          "reading": "sa"
+        },
+        {
+          "text": "ラ",
+          "reading": "ra"
+        },
+        {
+          "text": "ダ",
+          "reading": "da"
+        }
+      ]
+    },
+    "vocab-0256": {
+      "text": "おかゆ",
+      "segments": [
+        {
+          "text": "お",
+          "reading": "o"
+        },
+        {
+          "text": "か",
+          "reading": "ka"
+        },
+        {
+          "text": "ゆ",
+          "reading": "yu"
+        }
+      ]
+    },
+    "vocab-0257": {
+      "text": "シリアル",
+      "segments": [
+        {
+          "text": "シ",
+          "reading": "shi"
+        },
+        {
+          "text": "リ",
+          "reading": "ri"
+        },
+        {
+          "text": "ア",
+          "reading": "a"
+        },
+        {
+          "text": "ル",
+          "reading": "ru"
+        }
+      ]
+    },
+    "vocab-0258": {
+      "text": "パンケーキ",
+      "segments": [
+        {
+          "text": "パ",
+          "reading": "pa"
+        },
+        {
+          "text": "ン",
+          "reading": "n"
+        },
+        {
+          "text": "ケ",
+          "reading": "ke"
+        },
+        {
+          "text": "ー",
+          "reading": "—",
+          "note": "Lengthens the preceding vowel; it has no separate consonant sound."
+        },
+        {
+          "text": "キ",
+          "reading": "ki"
+        }
+      ]
+    },
+    "vocab-0259": {
+      "text": "ケーキ",
+      "segments": [
+        {
+          "text": "ケ",
+          "reading": "ke"
+        },
+        {
+          "text": "ー",
+          "reading": "—",
+          "note": "Lengthens the preceding vowel; it has no separate consonant sound."
+        },
+        {
+          "text": "キ",
+          "reading": "ki"
+        }
+      ]
+    },
+    "vocab-0260": {
+      "text": "アイスクリーム",
+      "segments": [
+        {
+          "text": "ア",
+          "reading": "a"
+        },
+        {
+          "text": "イ",
+          "reading": "i"
+        },
+        {
+          "text": "ス",
+          "reading": "su"
+        },
+        {
+          "text": "ク",
+          "reading": "ku"
+        },
+        {
+          "text": "リ",
+          "reading": "ri"
+        },
+        {
+          "text": "ー",
+          "reading": "—",
+          "note": "Lengthens the preceding vowel; it has no separate consonant sound."
+        },
+        {
+          "text": "ム",
+          "reading": "mu"
+        }
+      ]
+    }
+  }
+}

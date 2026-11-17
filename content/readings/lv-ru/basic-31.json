@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "lv-ru",
+  "blockId": "basic-31",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0301": {
+      "text": "день",
+      "segments": [
+        {
+          "text": "день",
+          "reading": "deņ"
+        }
+      ]
+    },
+    "vocab-0302": {
+      "text": "ночь",
+      "segments": [
+        {
+          "text": "ночь",
+          "reading": "noč"
+        }
+      ]
+    },
+    "vocab-0303": {
+      "text": "утро",
+      "segments": [
+        {
+          "text": "утро",
+          "reading": "utra"
+        }
+      ]
+    },
+    "vocab-0304": {
+      "text": "вечер",
+      "segments": [
+        {
+          "text": "вечер",
+          "reading": "večer"
+        }
+      ]
+    },
+    "vocab-0305": {
+      "text": "сегодня",
+      "segments": [
+        {
+          "text": "сегодня",
+          "reading": "sivodņa"
+        }
+      ]
+    },
+    "vocab-0306": {
+      "text": "завтра",
+      "segments": [
+        {
+          "text": "завтра",
+          "reading": "zaftra"
+        }
+      ]
+    },
+    "vocab-0307": {
+      "text": "вчера",
+      "segments": [
+        {
+          "text": "вчера",
+          "reading": "fčira"
+        }
+      ]
+    },
+    "vocab-0308": {
+      "text": "неделя",
+      "segments": [
+        {
+          "text": "неделя",
+          "reading": "ņideļa"
+        }
+      ]
+    },
+    "vocab-0309": {
+      "text": "месяц",
+      "segments": [
+        {
+          "text": "месяц",
+          "reading": "mesic"
+        }
+      ]
+    },
+    "vocab-0310": {
+      "text": "год",
+      "segments": [
+        {
+          "text": "год",
+          "reading": "got"
+        }
+      ]
+    }
+  }
+}

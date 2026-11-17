@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "direction": "en-ja",
+  "blockId": "basic-08",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0071": {
+      "text": "左",
+      "segments": [
+        {
+          "text": "左",
+          "reading": "hidari"
+        }
+      ]
+    },
+    "vocab-0072": {
+      "text": "右",
+      "segments": [
+        {
+          "text": "右",
+          "reading": "migi"
+        }
+      ]
+    },
+    "vocab-0073": {
+      "text": "まっすぐ",
+      "segments": [
+        {
+          "text": "ま",
+          "reading": "ma"
+        },
+        {
+          "text": "っ",
+          "reading": "(s)",
+          "note": "Doubles the next consonant; hold a brief pause before it."
+        },
+        {
+          "text": "す",
+          "reading": "su"
+        },
+        {
+          "text": "ぐ",
+          "reading": "gu"
+        }
+      ]
+    },
+    "vocab-0074": {
+      "text": "近く",
+      "segments": [
+        {
+          "text": "近",
+          "reading": "chika"
+        },
+        {
+          "text": "く",
+          "reading": "ku"
+        }
+      ]
+    },
+    "vocab-0075": {
+      "text": "遠く",
+      "segments": [
+        {
+          "text": "遠",
+          "reading": "too"
+        },
+        {
+          "text": "く",
+          "reading": "ku"
+        }
+      ]
+    },
+    "vocab-0076": {
+      "text": "中",
+      "segments": [
+        {
+          "text": "中",
+          "reading": "naka"
+        }
+      ]
+    },
+    "vocab-0077": {
+      "text": "外",
+      "segments": [
+        {
+          "text": "外",
+          "reading": "soto"
+        }
+      ]
+    },
+    "vocab-0078": {
+      "text": "上",
+      "segments": [
+        {
+          "text": "上",
+          "reading": "ue"
+        }
+      ]
+    },
+    "vocab-0079": {
+      "text": "下",
+      "segments": [
+        {
+          "text": "下",
+          "reading": "shita"
+        }
+      ]
+    },
+    "vocab-0080": {
+      "text": "向かい",
+      "segments": [
+        {
+          "text": "向",
+          "reading": "mu"
+        },
+        {
+          "text": "か",
+          "reading": "ka"
+        },
+        {
+          "text": "い",
+          "reading": "i"
+        }
+      ]
+    }
+  }
+}

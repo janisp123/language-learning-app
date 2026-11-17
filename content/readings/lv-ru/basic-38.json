@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "lv-ru",
+  "blockId": "basic-38",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0371": {
+      "text": "автобус",
+      "segments": [
+        {
+          "text": "автобус",
+          "reading": "aftobus"
+        }
+      ]
+    },
+    "vocab-0372": {
+      "text": "трамвай",
+      "segments": [
+        {
+          "text": "трамвай",
+          "reading": "tramvaj"
+        }
+      ]
+    },
+    "vocab-0373": {
+      "text": "троллейбус",
+      "segments": [
+        {
+          "text": "троллейбус",
+          "reading": "traļejbus"
+        }
+      ]
+    },
+    "vocab-0374": {
+      "text": "поезд",
+      "segments": [
+        {
+          "text": "поезд",
+          "reading": "pojest"
+        }
+      ]
+    },
+    "vocab-0375": {
+      "text": "машина",
+      "segments": [
+        {
+          "text": "машина",
+          "reading": "mašina"
+        }
+      ]
+    },
+    "vocab-0376": {
+      "text": "велосипед",
+      "segments": [
+        {
+          "text": "велосипед",
+          "reading": "viļasipet"
+        }
+      ]
+    },
+    "vocab-0377": {
+      "text": "такси",
+      "segments": [
+        {
+          "text": "такси",
+          "reading": "taksi"
+        }
+      ]
+    },
+    "vocab-0378": {
+      "text": "станция",
+      "segments": [
+        {
+          "text": "станция",
+          "reading": "stancija"
+        }
+      ]
+    },
+    "vocab-0379": {
+      "text": "аэропорт",
+      "segments": [
+        {
+          "text": "аэропорт",
+          "reading": "aeraport"
+        }
+      ]
+    },
+    "vocab-0380": {
+      "text": "билет",
+      "segments": [
+        {
+          "text": "билет",
+          "reading": "biļet"
+        }
+      ]
+    }
+  }
+}

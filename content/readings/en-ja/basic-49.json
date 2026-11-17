@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 1,
+  "direction": "en-ja",
+  "blockId": "basic-49",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0481": {
+      "text": "そして",
+      "segments": [
+        {
+          "text": "そ",
+          "reading": "so"
+        },
+        {
+          "text": "し",
+          "reading": "shi"
+        },
+        {
+          "text": "て",
+          "reading": "te"
+        }
+      ]
+    },
+    "vocab-0482": {
+      "text": "または",
+      "segments": [
+        {
+          "text": "ま",
+          "reading": "ma"
+        },
+        {
+          "text": "た",
+          "reading": "ta"
+        },
+        {
+          "text": "は",
+          "reading": "wa",
+          "note": "は is pronounced wa in this expression."
+        }
+      ]
+    },
+    "vocab-0483": {
+      "text": "しかし",
+      "segments": [
+        {
+          "text": "し",
+          "reading": "shi"
+        },
+        {
+          "text": "か",
+          "reading": "ka"
+        },
+        {
+          "text": "し",
+          "reading": "shi"
+        }
+      ]
+    },
+    "vocab-0484": {
+      "text": "なぜなら",
+      "segments": [
+        {
+          "text": "な",
+          "reading": "na"
+        },
+        {
+          "text": "ぜ",
+          "reading": "ze"
+        },
+        {
+          "text": "な",
+          "reading": "na"
+        },
+        {
+          "text": "ら",
+          "reading": "ra"
+        }
+      ]
+    },
+    "vocab-0485": {
+      "text": "私と一緒に",
+      "segments": [
+        {
+          "text": "私",
+          "reading": "watashi"
+        },
+        {
+          "text": "と",
+          "reading": "to"
+        },
+        {
+          "text": "一緒",
+          "reading": "issho",
+          "note": "Read together: the consonant doubles across the kanji boundary."
+        },
+        {
+          "text": "に",
+          "reading": "ni"
+        }
+      ]
+    },
+    "vocab-0486": {
+      "text": "私なしで",
+      "segments": [
+        {
+          "text": "私",
+          "reading": "watashi"
+        },
+        {
+          "text": "な",
+          "reading": "na"
+        },
+        {
+          "text": "し",
+          "reading": "shi"
+        },
+        {
+          "text": "で",
+          "reading": "de"
+        }
+      ]
+    },
+    "vocab-0487": {
+      "text": "あなたのために",
+      "segments": [
+        {
+          "text": "あ",
+          "reading": "a"
+        },
+        {
+          "text": "な",
+          "reading": "na"
+        },
+        {
+          "text": "た",
+          "reading": "ta"
+        },
+        {
+          "text": "の",
+          "reading": "no"
+        },
+        {
+          "text": "た",
+          "reading": "ta"
+        },
+        {
+          "text": "め",
+          "reading": "me"
+        },
+        {
+          "text": "に",
+          "reading": "ni"
+        }
+      ]
+    },
+    "vocab-0488": {
+      "text": "家から",
+      "segments": [
+        {
+          "text": "家",
+          "reading": "ie"
+        },
+        {
+          "text": "か",
+          "reading": "ka"
+        },
+        {
+          "text": "ら",
+          "reading": "ra"
+        }
+      ]
+    },
+    "vocab-0489": {
+      "text": "学校へ",
+      "segments": [
+        {
+          "text": "学校",
+          "reading": "gakkou",
+          "note": "Read together: the consonant doubles across the kanji boundary."
+        },
+        {
+          "text": "へ",
+          "reading": "e",
+          "note": "The direction particle へ is pronounced e here."
+        }
+      ]
+    },
+    "vocab-0490": {
+      "text": "私たちの間に",
+      "segments": [
+        {
+          "text": "私",
+          "reading": "watashi"
+        },
+        {
+          "text": "た",
+          "reading": "ta"
+        },
+        {
+          "text": "ち",
+          "reading": "chi"
+        },
+        {
+          "text": "の",
+          "reading": "no"
+        },
+        {
+          "text": "間",
+          "reading": "aida"
+        },
+        {
+          "text": "に",
+          "reading": "ni"
+        }
+      ]
+    }
+  }
+}

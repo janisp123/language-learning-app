@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "ru-en",
+  "blockId": "basic-01",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0001": {
+      "text": "hello",
+      "segments": [
+        {
+          "text": "hello",
+          "reading": "хэлоу"
+        }
+      ]
+    },
+    "vocab-0002": {
+      "text": "goodbye",
+      "segments": [
+        {
+          "text": "goodbye",
+          "reading": "гудбай"
+        }
+      ]
+    },
+    "vocab-0003": {
+      "text": "please",
+      "segments": [
+        {
+          "text": "please",
+          "reading": "плиз"
+        }
+      ]
+    },
+    "vocab-0004": {
+      "text": "thank you",
+      "segments": [
+        {
+          "text": "thank you",
+          "reading": "сэнк ю"
+        }
+      ]
+    },
+    "vocab-0005": {
+      "text": "sorry",
+      "segments": [
+        {
+          "text": "sorry",
+          "reading": "сари"
+        }
+      ]
+    },
+    "vocab-0006": {
+      "text": "yes",
+      "segments": [
+        {
+          "text": "yes",
+          "reading": "йес"
+        }
+      ]
+    },
+    "vocab-0007": {
+      "text": "no",
+      "segments": [
+        {
+          "text": "no",
+          "reading": "ноу"
+        }
+      ]
+    },
+    "vocab-0008": {
+      "text": "good morning",
+      "segments": [
+        {
+          "text": "good morning",
+          "reading": "гуд морнинг"
+        }
+      ]
+    },
+    "vocab-0009": {
+      "text": "good evening",
+      "segments": [
+        {
+          "text": "good evening",
+          "reading": "гуд ивнинг"
+        }
+      ]
+    },
+    "vocab-0010": {
+      "text": "good night",
+      "segments": [
+        {
+          "text": "good night",
+          "reading": "гуд найт"
+        }
+      ]
+    }
+  }
+}

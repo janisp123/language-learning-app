@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "direction": "en-ja",
+  "blockId": "basic-50",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0491": {
+      "text": "私",
+      "segments": [
+        {
+          "text": "私",
+          "reading": "watashi"
+        }
+      ]
+    },
+    "vocab-0492": {
+      "text": "あなた",
+      "segments": [
+        {
+          "text": "あ",
+          "reading": "a"
+        },
+        {
+          "text": "な",
+          "reading": "na"
+        },
+        {
+          "text": "た",
+          "reading": "ta"
+        }
+      ]
+    },
+    "vocab-0493": {
+      "text": "彼",
+      "segments": [
+        {
+          "text": "彼",
+          "reading": "kare"
+        }
+      ]
+    },
+    "vocab-0494": {
+      "text": "彼女",
+      "segments": [
+        {
+          "text": "彼",
+          "reading": "kano",
+          "note": "Contextual reading kano in 彼女 (kanojo)."
+        },
+        {
+          "text": "女",
+          "reading": "jo"
+        }
+      ]
+    },
+    "vocab-0495": {
+      "text": "私たち",
+      "segments": [
+        {
+          "text": "私",
+          "reading": "watashi"
+        },
+        {
+          "text": "た",
+          "reading": "ta"
+        },
+        {
+          "text": "ち",
+          "reading": "chi"
+        }
+      ]
+    },
+    "vocab-0496": {
+      "text": "彼ら",
+      "segments": [
+        {
+          "text": "彼",
+          "reading": "kare"
+        },
+        {
+          "text": "ら",
+          "reading": "ra"
+        }
+      ]
+    },
+    "vocab-0497": {
+      "text": "これ",
+      "segments": [
+        {
+          "text": "こ",
+          "reading": "ko"
+        },
+        {
+          "text": "れ",
+          "reading": "re"
+        }
+      ]
+    },
+    "vocab-0498": {
+      "text": "それ",
+      "segments": [
+        {
+          "text": "そ",
+          "reading": "so"
+        },
+        {
+          "text": "れ",
+          "reading": "re"
+        }
+      ]
+    },
+    "vocab-0499": {
+      "text": "すべて",
+      "segments": [
+        {
+          "text": "す",
+          "reading": "su"
+        },
+        {
+          "text": "べ",
+          "reading": "be"
+        },
+        {
+          "text": "て",
+          "reading": "te"
+        }
+      ]
+    },
+    "vocab-0500": {
+      "text": "何もない",
+      "segments": [
+        {
+          "text": "何",
+          "reading": "nani"
+        },
+        {
+          "text": "も",
+          "reading": "mo"
+        },
+        {
+          "text": "な",
+          "reading": "na"
+        },
+        {
+          "text": "い",
+          "reading": "i"
+        }
+      ]
+    }
+  }
+}

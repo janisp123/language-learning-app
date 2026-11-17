@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "direction": "en-ja",
+  "blockId": "basic-06",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0051": {
+      "text": "水",
+      "segments": [
+        {
+          "text": "水",
+          "reading": "mizu"
+        }
+      ]
+    },
+    "vocab-0052": {
+      "text": "パン",
+      "segments": [
+        {
+          "text": "パ",
+          "reading": "pa"
+        },
+        {
+          "text": "ン",
+          "reading": "n"
+        }
+      ]
+    },
+    "vocab-0053": {
+      "text": "牛乳",
+      "segments": [
+        {
+          "text": "牛",
+          "reading": "gyuu"
+        },
+        {
+          "text": "乳",
+          "reading": "nyuu"
+        }
+      ]
+    },
+    "vocab-0054": {
+      "text": "お茶",
+      "segments": [
+        {
+          "text": "お",
+          "reading": "o"
+        },
+        {
+          "text": "茶",
+          "reading": "cha"
+        }
+      ]
+    },
+    "vocab-0055": {
+      "text": "りんご",
+      "segments": [
+        {
+          "text": "り",
+          "reading": "ri"
+        },
+        {
+          "text": "ん",
+          "reading": "n"
+        },
+        {
+          "text": "ご",
+          "reading": "go"
+        }
+      ]
+    },
+    "vocab-0056": {
+      "text": "バナナ",
+      "segments": [
+        {
+          "text": "バ",
+          "reading": "ba"
+        },
+        {
+          "text": "ナ",
+          "reading": "na"
+        },
+        {
+          "text": "ナ",
+          "reading": "na"
+        }
+      ]
+    },
+    "vocab-0057": {
+      "text": "チーズ",
+      "segments": [
+        {
+          "text": "チ",
+          "reading": "chi"
+        },
+        {
+          "text": "ー",
+          "reading": "—",
+          "note": "Lengthens the preceding vowel; it has no separate consonant sound."
+        },
+        {
+          "text": "ズ",
+          "reading": "zu"
+        }
+      ]
+    },
+    "vocab-0058": {
+      "text": "スープ",
+      "segments": [
+        {
+          "text": "ス",
+          "reading": "su"
+        },
+        {
+          "text": "ー",
+          "reading": "—",
+          "note": "Lengthens the preceding vowel; it has no separate consonant sound."
+        },
+        {
+          "text": "プ",
+          "reading": "pu"
+        }
+      ]
+    },
+    "vocab-0059": {
+      "text": "ジュース",
+      "segments": [
+        {
+          "text": "ジ",
+          "reading": "ji",
+          "note": "With the following small kana, pronounced ju."
+        },
+        {
+          "text": "ュ",
+          "reading": "yu",
+          "note": "Small kana: combines with the preceding kana to make ju.",
+          "combinedReading": "ju"
+        },
+        {
+          "text": "ー",
+          "reading": "—",
+          "note": "Lengthens the preceding vowel; it has no separate consonant sound."
+        },
+        {
+          "text": "ス",
+          "reading": "su"
+        }
+      ]
+    },
+    "vocab-0060": {
+      "text": "朝食",
+      "segments": [
+        {
+          "text": "朝",
+          "reading": "chou"
+        },
+        {
+          "text": "食",
+          "reading": "shoku"
+        }
+      ]
+    }
+  }
+}

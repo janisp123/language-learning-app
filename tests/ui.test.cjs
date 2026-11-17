@@ -33,6 +33,7 @@ function mount(data=course,bundle=null,initialDirection='lv-ru'){
   elements.get('course-data').textContent=bundle ? html.match(/id="course-data">([\s\S]*?)<\/script>/)[1] : JSON.stringify(data);
   if(elements.has('ui-data'))elements.get('ui-data').textContent=bundle ? html.match(/id="ui-data">([\s\S]*?)<\/script>/)[1] : JSON.stringify(locales);
   if(elements.has('audio-data'))elements.get('audio-data').textContent=html.match(/id="audio-data">([\s\S]*?)<\/script>/)[1];
+  if(elements.has('reading-data'))elements.get('reading-data').textContent=html.match(/id="reading-data">([\s\S]*?)<\/script>/)[1];
   document={documentElement:{lang:'en',dataset:{theme:'light'}},title:'',getElementById:id=>elements.get(id),createElement:()=>new Element(),createTextNode:text=>String(text),activeElement:null};
   const context=vm.createContext({document,LanguageEngine:E,
     setTimeout:(callback,delay)=>{const id=++timerId;timers.set(id,{callback,at:now+delay});return id;},
@@ -207,7 +208,7 @@ test('all allowed learning directions use the right source-language UI and targe
     assert.equal($('question').lang,source);assert.equal($('question').textContent,course.phrases[0][source]);
     assert.ok(answerButtons($).every(b=>b.lang===target));
     const correct=answerButtons($).find(b=>b.dataset.optionId===course.phrases[0].id);
-    assert.equal(correct.textContent,course.phrases[0][target]);
+    assert.equal(correct['aria-label'] || correct.textContent,course.phrases[0][target]);
     if(source==='en'){assert.equal($('restart').textContent,'Restart from lesson 1');assert.equal($('lesson-title').textContent,locales.en.lessons[course.lessons[0].id]);}
     const wrong=answerButtons($).find(b=>b.dataset.optionId!==course.phrases[0].id);wrong.click();$.tick(500);
     assert.equal($('progress').value,0);
@@ -225,7 +226,7 @@ test('each answer speaker replays target pronunciation without grading, shufflin
    const [answer,speaker]=row.children;assert.equal(speaker.className,'answer-replay');assert.equal(speaker.disabled,false);
    for(let repeat=0;repeat<2;repeat++)speaker.click();
    assert.equal($('audio-media').src,pack.clips[target][answer.dataset.optionId].src);
-   assert.ok(speaker['aria-label'].includes(answer.textContent));
+   assert.ok(speaker['aria-label'].includes(answer['aria-label'] || answer.textContent));
    assert.equal($('feedback').textContent,'');assert.equal($('progress').value,0);
    assert.deepEqual(answerButtons($).map(b=>b.dataset.optionId),ids);
   }
@@ -249,4 +250,23 @@ test('every Japanese answer speaker plays its exact Japanese clip without gradin
   choose($,prompt.phraseId);$.tick(499);assert.equal(answerButtons($)[0].disabled,true);$.tick(1);appearances++;
  }
  assert.equal(appearances,510);assert.equal($('finished').hidden,false);assert.equal($('audio-media').paused,true);
+});
+
+// Readings are display-only. These assertions execute all bundled modules, not the app-only fixture.
+test('bundled readings cover every option only in the three approved directions throughout the course',()=>{
+ const pack=JSON.parse(builtHtml.match(/id="reading-data">([\s\S]*?)<\/script>/)[1]);
+ function guides(node){return (node.className==='reading-guide'?[node]:[]).concat(...node.children.filter(x=>typeof x!=='string').map(guides));}
+ for(const direction of course.directions){
+  const $=mount(undefined,builtHtml,direction);$('start').click();
+  for(const lesson of course.lessons)for(const prompt of lesson.prompts){
+   for(const row of $('choices').children){const [answer,speaker]=row.children;const e=pack.directions[direction]?.[answer.dataset.optionId];const gs=guides(answer);
+    assert.equal(gs.length,e?e.segments.length:0);
+    if(e){assert.equal(answer['aria-label'],e.text);assert.deepEqual(gs.map(x=>x.textContent),e.segments.map(x=>x.reading));assert.equal(answer['aria-describedby'].split(' ').length,gs.length);}
+    const progress=$('progress').value;speaker.click();assert.equal($('progress').value,progress);assert.equal(answer.disabled,false);
+   }
+   choose($,prompt.phraseId);$.tick(499);assert.equal(answerButtons($)[0].disabled,true);$.tick(1);
+  }
+  assert.equal($('finished').hidden,false);$('change').click();$('direction').value='en-ru';$('direction').handlers.change();$('start').click();
+  assert.equal($('reading-note').hidden,true);assert.ok(answerButtons($).every(b=>guides(b).length===0));
+ }
 });

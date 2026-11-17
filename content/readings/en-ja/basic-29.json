@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "direction": "en-ja",
+  "blockId": "basic-29",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0281": {
+      "text": "零",
+      "segments": [
+        {
+          "text": "零",
+          "reading": "rei"
+        }
+      ]
+    },
+    "vocab-0282": {
+      "text": "十一",
+      "segments": [
+        {
+          "text": "十",
+          "reading": "juu"
+        },
+        {
+          "text": "一",
+          "reading": "ichi"
+        }
+      ]
+    },
+    "vocab-0283": {
+      "text": "十二",
+      "segments": [
+        {
+          "text": "十",
+          "reading": "juu"
+        },
+        {
+          "text": "二",
+          "reading": "ni"
+        }
+      ]
+    },
+    "vocab-0284": {
+      "text": "十三",
+      "segments": [
+        {
+          "text": "十",
+          "reading": "juu"
+        },
+        {
+          "text": "三",
+          "reading": "san"
+        }
+      ]
+    },
+    "vocab-0285": {
+      "text": "十四",
+      "segments": [
+        {
+          "text": "十",
+          "reading": "juu"
+        },
+        {
+          "text": "四",
+          "reading": "yon"
+        }
+      ]
+    },
+    "vocab-0286": {
+      "text": "十五",
+      "segments": [
+        {
+          "text": "十",
+          "reading": "juu"
+        },
+        {
+          "text": "五",
+          "reading": "go"
+        }
+      ]
+    },
+    "vocab-0287": {
+      "text": "十六",
+      "segments": [
+        {
+          "text": "十",
+          "reading": "juu"
+        },
+        {
+          "text": "六",
+          "reading": "roku"
+        }
+      ]
+    },
+    "vocab-0288": {
+      "text": "十七",
+      "segments": [
+        {
+          "text": "十",
+          "reading": "juu"
+        },
+        {
+          "text": "七",
+          "reading": "nana"
+        }
+      ]
+    },
+    "vocab-0289": {
+      "text": "十八",
+      "segments": [
+        {
+          "text": "十",
+          "reading": "juu"
+        },
+        {
+          "text": "八",
+          "reading": "hachi"
+        }
+      ]
+    },
+    "vocab-0290": {
+      "text": "十九",
+      "segments": [
+        {
+          "text": "十",
+          "reading": "juu"
+        },
+        {
+          "text": "九",
+          "reading": "kyuu"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "ru-en",
+  "blockId": "basic-43",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0421": {
+      "text": "to speak a language",
+      "segments": [
+        {
+          "text": "to speak a language",
+          "reading": "ту спик э лэнгуидж"
+        }
+      ]
+    },
+    "vocab-0422": {
+      "text": "to say a word",
+      "segments": [
+        {
+          "text": "to say a word",
+          "reading": "ту сэй э уёрд"
+        }
+      ]
+    },
+    "vocab-0423": {
+      "text": "to ask",
+      "segments": [
+        {
+          "text": "to ask",
+          "reading": "ту эск"
+        }
+      ]
+    },
+    "vocab-0424": {
+      "text": "to answer",
+      "segments": [
+        {
+          "text": "to answer",
+          "reading": "ту энсэр"
+        }
+      ]
+    },
+    "vocab-0425": {
+      "text": "to listen",
+      "segments": [
+        {
+          "text": "to listen",
+          "reading": "ту лисэн"
+        }
+      ]
+    },
+    "vocab-0426": {
+      "text": "to hear",
+      "segments": [
+        {
+          "text": "to hear",
+          "reading": "ту хир"
+        }
+      ]
+    },
+    "vocab-0427": {
+      "text": "to read",
+      "segments": [
+        {
+          "text": "to read",
+          "reading": "ту рид"
+        }
+      ]
+    },
+    "vocab-0428": {
+      "text": "to write",
+      "segments": [
+        {
+          "text": "to write",
+          "reading": "ту райт"
+        }
+      ]
+    },
+    "vocab-0429": {
+      "text": "to learn",
+      "segments": [
+        {
+          "text": "to learn",
+          "reading": "ту лёрн"
+        }
+      ]
+    },
+    "vocab-0430": {
+      "text": "to understand",
+      "segments": [
+        {
+          "text": "to understand",
+          "reading": "ту андэрстэнд"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "direction": "en-ja",
+  "blockId": "basic-07",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0061": {
+      "text": "本",
+      "segments": [
+        {
+          "text": "本",
+          "reading": "hon"
+        }
+      ]
+    },
+    "vocab-0062": {
+      "text": "ノート",
+      "segments": [
+        {
+          "text": "ノ",
+          "reading": "no"
+        },
+        {
+          "text": "ー",
+          "reading": "—",
+          "note": "Lengthens the preceding vowel; it has no separate consonant sound."
+        },
+        {
+          "text": "ト",
+          "reading": "to"
+        }
+      ]
+    },
+    "vocab-0063": {
+      "text": "ペン",
+      "segments": [
+        {
+          "text": "ペ",
+          "reading": "pe"
+        },
+        {
+          "text": "ン",
+          "reading": "n"
+        }
+      ]
+    },
+    "vocab-0064": {
+      "text": "鉛筆",
+      "segments": [
+        {
+          "text": "鉛",
+          "reading": "en"
+        },
+        {
+          "text": "筆",
+          "reading": "pitsu"
+        }
+      ]
+    },
+    "vocab-0065": {
+      "text": "机",
+      "segments": [
+        {
+          "text": "机",
+          "reading": "tsukue"
+        }
+      ]
+    },
+    "vocab-0066": {
+      "text": "椅子",
+      "segments": [
+        {
+          "text": "椅",
+          "reading": "i"
+        },
+        {
+          "text": "子",
+          "reading": "su"
+        }
+      ]
+    },
+    "vocab-0067": {
+      "text": "黒板",
+      "segments": [
+        {
+          "text": "黒",
+          "reading": "koku"
+        },
+        {
+          "text": "板",
+          "reading": "ban"
+        }
+      ]
+    },
+    "vocab-0068": {
+      "text": "先生",
+      "segments": [
+        {
+          "text": "先",
+          "reading": "sen"
+        },
+        {
+          "text": "生",
+          "reading": "sei"
+        }
+      ]
+    },
+    "vocab-0069": {
+      "text": "授業",
+      "segments": [
+        {
+          "text": "授",
+          "reading": "ju"
+        },
+        {
+          "text": "業",
+          "reading": "gyou"
+        }
+      ]
+    },
+    "vocab-0070": {
+      "text": "休み時間",
+      "segments": [
+        {
+          "text": "休",
+          "reading": "yasu"
+        },
+        {
+          "text": "み",
+          "reading": "mi"
+        },
+        {
+          "text": "時",
+          "reading": "ji"
+        },
+        {
+          "text": "間",
+          "reading": "kan"
+        }
+      ]
+    }
+  }
+}

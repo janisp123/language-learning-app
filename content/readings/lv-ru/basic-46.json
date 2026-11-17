@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "lv-ru",
+  "blockId": "basic-46",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0451": {
+      "text": "большой",
+      "segments": [
+        {
+          "text": "большой",
+          "reading": "baļšoj"
+        }
+      ]
+    },
+    "vocab-0452": {
+      "text": "маленький",
+      "segments": [
+        {
+          "text": "маленький",
+          "reading": "maļiņkij"
+        }
+      ]
+    },
+    "vocab-0453": {
+      "text": "длинный",
+      "segments": [
+        {
+          "text": "длинный",
+          "reading": "dļinnij"
+        }
+      ]
+    },
+    "vocab-0454": {
+      "text": "короткий",
+      "segments": [
+        {
+          "text": "короткий",
+          "reading": "karotkij"
+        }
+      ]
+    },
+    "vocab-0455": {
+      "text": "широкий",
+      "segments": [
+        {
+          "text": "широкий",
+          "reading": "širokij"
+        }
+      ]
+    },
+    "vocab-0456": {
+      "text": "узкий",
+      "segments": [
+        {
+          "text": "узкий",
+          "reading": "uskij"
+        }
+      ]
+    },
+    "vocab-0457": {
+      "text": "высокий",
+      "segments": [
+        {
+          "text": "высокий",
+          "reading": "visokij"
+        }
+      ]
+    },
+    "vocab-0458": {
+      "text": "низкий",
+      "segments": [
+        {
+          "text": "низкий",
+          "reading": "ņiskij"
+        }
+      ]
+    },
+    "vocab-0459": {
+      "text": "тяжёлый",
+      "segments": [
+        {
+          "text": "тяжёлый",
+          "reading": "tižolij"
+        }
+      ]
+    },
+    "vocab-0460": {
+      "text": "лёгкий",
+      "segments": [
+        {
+          "text": "лёгкий",
+          "reading": "ļohkij"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "lv-ru",
+  "blockId": "basic-49",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0481": {
+      "text": "и",
+      "segments": [
+        {
+          "text": "и",
+          "reading": "i"
+        }
+      ]
+    },
+    "vocab-0482": {
+      "text": "или",
+      "segments": [
+        {
+          "text": "или",
+          "reading": "iļi"
+        }
+      ]
+    },
+    "vocab-0483": {
+      "text": "но",
+      "segments": [
+        {
+          "text": "но",
+          "reading": "no"
+        }
+      ]
+    },
+    "vocab-0484": {
+      "text": "потому что",
+      "segments": [
+        {
+          "text": "потому что",
+          "reading": "patamu šta"
+        }
+      ]
+    },
+    "vocab-0485": {
+      "text": "со мной",
+      "segments": [
+        {
+          "text": "со мной",
+          "reading": "sa mnoj"
+        }
+      ]
+    },
+    "vocab-0486": {
+      "text": "без меня",
+      "segments": [
+        {
+          "text": "без меня",
+          "reading": "biz miņa"
+        }
+      ]
+    },
+    "vocab-0487": {
+      "text": "для тебя",
+      "segments": [
+        {
+          "text": "для тебя",
+          "reading": "dļa tibja"
+        }
+      ]
+    },
+    "vocab-0488": {
+      "text": "из дома",
+      "segments": [
+        {
+          "text": "из дома",
+          "reading": "iz doma"
+        }
+      ]
+    },
+    "vocab-0489": {
+      "text": "в школу",
+      "segments": [
+        {
+          "text": "в школу",
+          "reading": "f školu"
+        }
+      ]
+    },
+    "vocab-0490": {
+      "text": "между нами",
+      "segments": [
+        {
+          "text": "между нами",
+          "reading": "meždu nami"
+        }
+      ]
+    }
+  }
+}

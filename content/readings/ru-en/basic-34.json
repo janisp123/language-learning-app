@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "ru-en",
+  "blockId": "basic-34",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0331": {
+      "text": "November",
+      "segments": [
+        {
+          "text": "November",
+          "reading": "ноувэмбэр"
+        }
+      ]
+    },
+    "vocab-0332": {
+      "text": "December",
+      "segments": [
+        {
+          "text": "December",
+          "reading": "дисэмбэр"
+        }
+      ]
+    },
+    "vocab-0333": {
+      "text": "spring",
+      "segments": [
+        {
+          "text": "spring",
+          "reading": "спринг"
+        }
+      ]
+    },
+    "vocab-0334": {
+      "text": "summer",
+      "segments": [
+        {
+          "text": "summer",
+          "reading": "самэр"
+        }
+      ]
+    },
+    "vocab-0335": {
+      "text": "autumn",
+      "segments": [
+        {
+          "text": "autumn",
+          "reading": "отэм"
+        }
+      ]
+    },
+    "vocab-0336": {
+      "text": "winter",
+      "segments": [
+        {
+          "text": "winter",
+          "reading": "уинтэр"
+        }
+      ]
+    },
+    "vocab-0337": {
+      "text": "season",
+      "segments": [
+        {
+          "text": "season",
+          "reading": "сизэн"
+        }
+      ]
+    },
+    "vocab-0338": {
+      "text": "weather",
+      "segments": [
+        {
+          "text": "weather",
+          "reading": "уэзэр"
+        }
+      ]
+    },
+    "vocab-0339": {
+      "text": "sun",
+      "segments": [
+        {
+          "text": "sun",
+          "reading": "сан"
+        }
+      ]
+    },
+    "vocab-0340": {
+      "text": "moon",
+      "segments": [
+        {
+          "text": "moon",
+          "reading": "мун"
+        }
+      ]
+    }
+  }
+}

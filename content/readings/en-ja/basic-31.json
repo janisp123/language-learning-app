@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "direction": "en-ja",
+  "blockId": "basic-31",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0301": {
+      "text": "日",
+      "segments": [
+        {
+          "text": "日",
+          "reading": "hi"
+        }
+      ]
+    },
+    "vocab-0302": {
+      "text": "夜",
+      "segments": [
+        {
+          "text": "夜",
+          "reading": "yoru"
+        }
+      ]
+    },
+    "vocab-0303": {
+      "text": "朝",
+      "segments": [
+        {
+          "text": "朝",
+          "reading": "asa"
+        }
+      ]
+    },
+    "vocab-0304": {
+      "text": "夕方",
+      "segments": [
+        {
+          "text": "夕",
+          "reading": "yuu"
+        },
+        {
+          "text": "方",
+          "reading": "gata"
+        }
+      ]
+    },
+    "vocab-0305": {
+      "text": "今日",
+      "segments": [
+        {
+          "text": "今日",
+          "reading": "kyou",
+          "note": "Irregular whole-word reading; these kanji are read together here."
+        }
+      ]
+    },
+    "vocab-0306": {
+      "text": "明日",
+      "segments": [
+        {
+          "text": "明日",
+          "reading": "ashita",
+          "note": "Irregular whole-word reading; these kanji are read together here."
+        }
+      ]
+    },
+    "vocab-0307": {
+      "text": "昨日",
+      "segments": [
+        {
+          "text": "昨日",
+          "reading": "kinou",
+          "note": "Irregular whole-word reading; these kanji are read together here."
+        }
+      ]
+    },
+    "vocab-0308": {
+      "text": "週",
+      "segments": [
+        {
+          "text": "週",
+          "reading": "shuu"
+        }
+      ]
+    },
+    "vocab-0309": {
+      "text": "月",
+      "segments": [
+        {
+          "text": "月",
+          "reading": "tsuki"
+        }
+      ]
+    },
+    "vocab-0310": {
+      "text": "年",
+      "segments": [
+        {
+          "text": "年",
+          "reading": "toshi"
+        }
+      ]
+    }
+  }
+}

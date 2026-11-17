@@ -5,10 +5,12 @@ from html import escape
 from pathlib import Path
 from content_loader import load_content
 from audio_loader import load_audio
+from reading_loader import load_readings
 
 def build(root: Path, output: Path) -> Path:
     course, locales = load_content(root)
     audio = load_audio(root, course)
+    readings = load_readings(root, course)
     default_source = course['defaultDirection'].split('-')[0]
     default_ui = locales[default_source]
     template = (root / 'web/index.html').read_text(encoding='utf-8')
@@ -35,7 +37,9 @@ def build(root: Path, output: Path) -> Path:
     html = html.replace('<!--COURSE-->', data)
     audio_data = json.dumps(audio, ensure_ascii=False, separators=(',', ':')).replace('<', '\\u003c').replace('>', '\\u003e').replace('&', '\\u0026')
     html = html.replace('<!--AUDIO-DATA-->', audio_data)
-    modules = ['audio-player.js', 'audio-view.js']
+    reading_data = json.dumps(readings, ensure_ascii=False, separators=(',', ':')).replace('<', '\\u003c').replace('>', '\\u003e').replace('&', '\\u0026')
+    html = html.replace('<!--READINGS-->', reading_data)
+    modules = ['audio-player.js', 'audio-view.js', 'reading-view.js']
     html = html.replace('<!--AUDIO-MODULES-->', ''.join('<script>\n' + (root/'web'/name).read_text(encoding='utf-8').replace('</script', '<\\/script') + '\n</script>' for name in modules))
     html = html.replace('<!--ENGINE-->', '<script>\n' + engine.replace('</script', '<\\/script') + '\n</script>')
     html = html.replace('<!--APP-->', '<script>\n' + app.replace('</script', '<\\/script') + '\n</script>')

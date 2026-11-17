@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "direction": "en-ja",
+  "blockId": "basic-44",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0431": {
+      "text": "見える",
+      "segments": [
+        {
+          "text": "見",
+          "reading": "mi"
+        },
+        {
+          "text": "え",
+          "reading": "e"
+        },
+        {
+          "text": "る",
+          "reading": "ru"
+        }
+      ]
+    },
+    "vocab-0432": {
+      "text": "目を向ける",
+      "segments": [
+        {
+          "text": "目",
+          "reading": "me"
+        },
+        {
+          "text": "を",
+          "reading": "o",
+          "note": "The object particle を is pronounced o."
+        },
+        {
+          "text": "向",
+          "reading": "mu"
+        },
+        {
+          "text": "け",
+          "reading": "ke"
+        },
+        {
+          "text": "る",
+          "reading": "ru"
+        }
+      ]
+    },
+    "vocab-0433": {
+      "text": "観る",
+      "segments": [
+        {
+          "text": "観",
+          "reading": "mi"
+        },
+        {
+          "text": "る",
+          "reading": "ru"
+        }
+      ]
+    },
+    "vocab-0434": {
+      "text": "見つける",
+      "segments": [
+        {
+          "text": "見",
+          "reading": "mi"
+        },
+        {
+          "text": "つ",
+          "reading": "tsu"
+        },
+        {
+          "text": "け",
+          "reading": "ke"
+        },
+        {
+          "text": "る",
+          "reading": "ru"
+        }
+      ]
+    },
+    "vocab-0435": {
+      "text": "探す",
+      "segments": [
+        {
+          "text": "探",
+          "reading": "saga"
+        },
+        {
+          "text": "す",
+          "reading": "su"
+        }
+      ]
+    },
+    "vocab-0436": {
+      "text": "取る",
+      "segments": [
+        {
+          "text": "取",
+          "reading": "to"
+        },
+        {
+          "text": "る",
+          "reading": "ru"
+        }
+      ]
+    },
+    "vocab-0437": {
+      "text": "与える",
+      "segments": [
+        {
+          "text": "与",
+          "reading": "ata"
+        },
+        {
+          "text": "え",
+          "reading": "e"
+        },
+        {
+          "text": "る",
+          "reading": "ru"
+        }
+      ]
+    },
+    "vocab-0438": {
+      "text": "持ってくる",
+      "segments": [
+        {
+          "text": "持",
+          "reading": "mo"
+        },
+        {
+          "text": "っ",
+          "reading": "(t)",
+          "note": "Doubles the next consonant; hold a brief pause before it."
+        },
+        {
+          "text": "て",
+          "reading": "te"
+        },
+        {
+          "text": "く",
+          "reading": "ku"
+        },
+        {
+          "text": "る",
+          "reading": "ru"
+        }
+      ]
+    },
+    "vocab-0439": {
+      "text": "買う",
+      "segments": [
+        {
+          "text": "買",
+          "reading": "ka"
+        },
+        {
+          "text": "う",
+          "reading": "u"
+        }
+      ]
+    },
+    "vocab-0440": {
+      "text": "払う",
+      "segments": [
+        {
+          "text": "払",
+          "reading": "hara"
+        },
+        {
+          "text": "う",
+          "reading": "u"
+        }
+      ]
+    }
+  }
+}

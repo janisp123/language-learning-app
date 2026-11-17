@@ -51,6 +51,10 @@ Scope: **this repository only** (`janisp123/language-learning-app`). Do not edit
 - Prioritize reusing taught words, phrases and phrase patterns across content, even if style becomes repetitive or less elegant. Avoid unnecessary synonyms and stylistic alternatives; introduce new words for useful meanings or necessary clarity. Communication efficiency takes priority over style and formal grammar: understandable fragments/imperfect phrasing are acceptable when they reduce vocabulary burden. Preserve intended meaning and clear answer choices; do not add synonyms or grammatical complexity merely for correctness. Follow `docs/CONTENT_RULES.md`.
 - Child safety: never ask for or transmit personal information; don't include tracking or unreviewed external content; respect basic accessibility, audio clarity, and small-screen usability.
 
+## Owner-approved reading guides — 2026-11-17
+
+Only lv-ru, ru-en and en-ja receive target-answer reading aids. Use Latvian letters for Russian pronunciation, Cyrillic approximations for English, and romaji aligned below each Japanese kana symbol. Small kana retain separate labels with visible combination/doubling/length roles; kanji may group an irregular or inseparable contextual reading. This supersedes the earlier Japanese script-only DISPLAY decision, not the canonical Japanese translations. Other four directions remain unannotated; all seven remain selectable. Guides are separate per-block modules, keyed by existing concept IDs; do not modify translations/bindings/recordings to add them. Keep approximate pronunciation and pending fluent review explicit. Adding a batch does not authorize extra directions or saved settings.
+
 ## 6. Verification and release
 
 - Cover the algorithm with deterministic tests: correct/incorrect navigation, lesson boundary/wrapping, 10-in-row, repeated misses, shuffle, no learner-state writes/restoration, session resets, and dual translation directions.

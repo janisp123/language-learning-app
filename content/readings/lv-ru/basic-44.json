@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "lv-ru",
+  "blockId": "basic-44",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0431": {
+      "text": "видеть",
+      "segments": [
+        {
+          "text": "видеть",
+          "reading": "vidit"
+        }
+      ]
+    },
+    "vocab-0432": {
+      "text": "смотреть на",
+      "segments": [
+        {
+          "text": "смотреть на",
+          "reading": "smatret na"
+        }
+      ]
+    },
+    "vocab-0433": {
+      "text": "наблюдать",
+      "segments": [
+        {
+          "text": "наблюдать",
+          "reading": "nabļudat"
+        }
+      ]
+    },
+    "vocab-0434": {
+      "text": "находить",
+      "segments": [
+        {
+          "text": "находить",
+          "reading": "nahadit"
+        }
+      ]
+    },
+    "vocab-0435": {
+      "text": "искать",
+      "segments": [
+        {
+          "text": "искать",
+          "reading": "iskat"
+        }
+      ]
+    },
+    "vocab-0436": {
+      "text": "брать",
+      "segments": [
+        {
+          "text": "брать",
+          "reading": "brat"
+        }
+      ]
+    },
+    "vocab-0437": {
+      "text": "давать",
+      "segments": [
+        {
+          "text": "давать",
+          "reading": "davat"
+        }
+      ]
+    },
+    "vocab-0438": {
+      "text": "приносить",
+      "segments": [
+        {
+          "text": "приносить",
+          "reading": "priņasit"
+        }
+      ]
+    },
+    "vocab-0439": {
+      "text": "покупать",
+      "segments": [
+        {
+          "text": "покупать",
+          "reading": "pakupat"
+        }
+      ]
+    },
+    "vocab-0440": {
+      "text": "платить",
+      "segments": [
+        {
+          "text": "платить",
+          "reading": "platit"
+        }
+      ]
+    }
+  }
+}

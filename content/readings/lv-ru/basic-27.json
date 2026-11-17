@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "lv-ru",
+  "blockId": "basic-27",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0261": {
+      "text": "помогите пожалуйста",
+      "segments": [
+        {
+          "text": "помогите пожалуйста",
+          "reading": "pamagite pažalusta"
+        }
+      ]
+    },
+    "vocab-0262": {
+      "text": "ещё немного",
+      "segments": [
+        {
+          "text": "ещё немного",
+          "reading": "jiščo ņimnoga"
+        }
+      ]
+    },
+    "vocab-0263": {
+      "text": "помедленнее",
+      "segments": [
+        {
+          "text": "помедленнее",
+          "reading": "pamedļeņije"
+        }
+      ]
+    },
+    "vocab-0264": {
+      "text": "не сейчас",
+      "segments": [
+        {
+          "text": "не сейчас",
+          "reading": "ņi sičas"
+        }
+      ]
+    },
+    "vocab-0265": {
+      "text": "нет спасибо",
+      "segments": [
+        {
+          "text": "нет спасибо",
+          "reading": "ņet spasibo"
+        }
+      ]
+    },
+    "vocab-0266": {
+      "text": "извините",
+      "segments": [
+        {
+          "text": "извините",
+          "reading": "izviņite"
+        }
+      ]
+    },
+    "vocab-0267": {
+      "text": "удачи",
+      "segments": [
+        {
+          "text": "удачи",
+          "reading": "udači"
+        }
+      ]
+    },
+    "vocab-0268": {
+      "text": "молодец",
+      "segments": [
+        {
+          "text": "молодец",
+          "reading": "maladec"
+        }
+      ]
+    },
+    "vocab-0269": {
+      "text": "добрый день",
+      "segments": [
+        {
+          "text": "добрый день",
+          "reading": "dobrij deņ"
+        }
+      ]
+    },
+    "vocab-0270": {
+      "text": "с удовольствием",
+      "segments": [
+        {
+          "text": "с удовольствием",
+          "reading": "s udavoļstvijem"
+        }
+      ]
+    }
+  }
+}

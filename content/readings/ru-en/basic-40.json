@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "ru-en",
+  "blockId": "basic-40",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0391": {
+      "text": "schoolbag",
+      "segments": [
+        {
+          "text": "schoolbag",
+          "reading": "скулбэг"
+        }
+      ]
+    },
+    "vocab-0392": {
+      "text": "ruler",
+      "segments": [
+        {
+          "text": "ruler",
+          "reading": "рулэр"
+        }
+      ]
+    },
+    "vocab-0393": {
+      "text": "eraser",
+      "segments": [
+        {
+          "text": "eraser",
+          "reading": "ирэйсэр"
+        }
+      ]
+    },
+    "vocab-0394": {
+      "text": "scissors",
+      "segments": [
+        {
+          "text": "scissors",
+          "reading": "сизэрз"
+        }
+      ]
+    },
+    "vocab-0395": {
+      "text": "glue",
+      "segments": [
+        {
+          "text": "glue",
+          "reading": "глу"
+        }
+      ]
+    },
+    "vocab-0396": {
+      "text": "paper",
+      "segments": [
+        {
+          "text": "paper",
+          "reading": "пэйпэр"
+        }
+      ]
+    },
+    "vocab-0397": {
+      "text": "paint",
+      "segments": [
+        {
+          "text": "paint",
+          "reading": "пэйнт"
+        }
+      ]
+    },
+    "vocab-0398": {
+      "text": "brush",
+      "segments": [
+        {
+          "text": "brush",
+          "reading": "браш"
+        }
+      ]
+    },
+    "vocab-0399": {
+      "text": "drawing",
+      "segments": [
+        {
+          "text": "drawing",
+          "reading": "дроинг"
+        }
+      ]
+    },
+    "vocab-0400": {
+      "text": "homework",
+      "segments": [
+        {
+          "text": "homework",
+          "reading": "хоумуёрк"
+        }
+      ]
+    }
+  }
+}

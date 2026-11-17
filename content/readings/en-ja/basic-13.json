@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "en-ja",
+  "blockId": "basic-13",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0121": {
+      "text": "頭",
+      "segments": [
+        {
+          "text": "頭",
+          "reading": "atama"
+        }
+      ]
+    },
+    "vocab-0122": {
+      "text": "髪",
+      "segments": [
+        {
+          "text": "髪",
+          "reading": "kami"
+        }
+      ]
+    },
+    "vocab-0123": {
+      "text": "顔",
+      "segments": [
+        {
+          "text": "顔",
+          "reading": "kao"
+        }
+      ]
+    },
+    "vocab-0124": {
+      "text": "目",
+      "segments": [
+        {
+          "text": "目",
+          "reading": "me"
+        }
+      ]
+    },
+    "vocab-0125": {
+      "text": "耳",
+      "segments": [
+        {
+          "text": "耳",
+          "reading": "mimi"
+        }
+      ]
+    },
+    "vocab-0126": {
+      "text": "鼻",
+      "segments": [
+        {
+          "text": "鼻",
+          "reading": "hana"
+        }
+      ]
+    },
+    "vocab-0127": {
+      "text": "口",
+      "segments": [
+        {
+          "text": "口",
+          "reading": "kuchi"
+        }
+      ]
+    },
+    "vocab-0128": {
+      "text": "歯",
+      "segments": [
+        {
+          "text": "歯",
+          "reading": "ha"
+        }
+      ]
+    },
+    "vocab-0129": {
+      "text": "舌",
+      "segments": [
+        {
+          "text": "舌",
+          "reading": "shita"
+        }
+      ]
+    },
+    "vocab-0130": {
+      "text": "首",
+      "segments": [
+        {
+          "text": "首",
+          "reading": "kubi"
+        }
+      ]
+    }
+  }
+}

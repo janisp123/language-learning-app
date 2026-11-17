@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "lv-ru",
+  "blockId": "basic-09",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0081": {
+      "text": "полиция",
+      "segments": [
+        {
+          "text": "полиция",
+          "reading": "paļicija"
+        }
+      ]
+    },
+    "vocab-0082": {
+      "text": "скорая помощь",
+      "segments": [
+        {
+          "text": "скорая помощь",
+          "reading": "skoraja pomašč"
+        }
+      ]
+    },
+    "vocab-0083": {
+      "text": "огонь",
+      "segments": [
+        {
+          "text": "огонь",
+          "reading": "agoņ"
+        }
+      ]
+    },
+    "vocab-0084": {
+      "text": "опасность",
+      "segments": [
+        {
+          "text": "опасность",
+          "reading": "apasnast"
+        }
+      ]
+    },
+    "vocab-0085": {
+      "text": "боль",
+      "segments": [
+        {
+          "text": "боль",
+          "reading": "boļ"
+        }
+      ]
+    },
+    "vocab-0086": {
+      "text": "врач",
+      "segments": [
+        {
+          "text": "врач",
+          "reading": "vrač"
+        }
+      ]
+    },
+    "vocab-0087": {
+      "text": "чрезвычайная ситуация",
+      "segments": [
+        {
+          "text": "чрезвычайная ситуация",
+          "reading": "črizvičajnaja situacija"
+        }
+      ]
+    },
+    "vocab-0088": {
+      "text": "первая помощь",
+      "segments": [
+        {
+          "text": "первая помощь",
+          "reading": "pervaja pomašč"
+        }
+      ]
+    },
+    "vocab-0089": {
+      "text": "экстренный номер",
+      "segments": [
+        {
+          "text": "экстренный номер",
+          "reading": "ekstrennij nomer"
+        }
+      ]
+    },
+    "vocab-0090": {
+      "text": "взрослый",
+      "segments": [
+        {
+          "text": "взрослый",
+          "reading": "vzroslij"
+        }
+      ]
+    }
+  }
+}

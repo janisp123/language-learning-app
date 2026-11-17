@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "lv-ru",
+  "blockId": "basic-42",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0411": {
+      "text": "идти",
+      "segments": [
+        {
+          "text": "идти",
+          "reading": "itti"
+        }
+      ]
+    },
+    "vocab-0412": {
+      "text": "приходить",
+      "segments": [
+        {
+          "text": "приходить",
+          "reading": "prihadit"
+        }
+      ]
+    },
+    "vocab-0413": {
+      "text": "гулять",
+      "segments": [
+        {
+          "text": "гулять",
+          "reading": "guļat"
+        }
+      ]
+    },
+    "vocab-0414": {
+      "text": "бегать",
+      "segments": [
+        {
+          "text": "бегать",
+          "reading": "begat"
+        }
+      ]
+    },
+    "vocab-0415": {
+      "text": "сидеть",
+      "segments": [
+        {
+          "text": "сидеть",
+          "reading": "sidet"
+        }
+      ]
+    },
+    "vocab-0416": {
+      "text": "стоять",
+      "segments": [
+        {
+          "text": "стоять",
+          "reading": "stajat"
+        }
+      ]
+    },
+    "vocab-0417": {
+      "text": "спать",
+      "segments": [
+        {
+          "text": "спать",
+          "reading": "spat"
+        }
+      ]
+    },
+    "vocab-0418": {
+      "text": "просыпаться",
+      "segments": [
+        {
+          "text": "просыпаться",
+          "reading": "prasipaca"
+        }
+      ]
+    },
+    "vocab-0419": {
+      "text": "есть",
+      "segments": [
+        {
+          "text": "есть",
+          "reading": "jest"
+        }
+      ]
+    },
+    "vocab-0420": {
+      "text": "пить",
+      "segments": [
+        {
+          "text": "пить",
+          "reading": "pit"
+        }
+      ]
+    }
+  }
+}

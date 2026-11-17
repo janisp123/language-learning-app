@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "lv-ru",
+  "blockId": "basic-43",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0421": {
+      "text": "говорить на языке",
+      "segments": [
+        {
+          "text": "говорить на языке",
+          "reading": "gavarit na jazike"
+        }
+      ]
+    },
+    "vocab-0422": {
+      "text": "сказать слово",
+      "segments": [
+        {
+          "text": "сказать слово",
+          "reading": "skazat slova"
+        }
+      ]
+    },
+    "vocab-0423": {
+      "text": "спрашивать",
+      "segments": [
+        {
+          "text": "спрашивать",
+          "reading": "sprašivat"
+        }
+      ]
+    },
+    "vocab-0424": {
+      "text": "отвечать",
+      "segments": [
+        {
+          "text": "отвечать",
+          "reading": "atvičat"
+        }
+      ]
+    },
+    "vocab-0425": {
+      "text": "слушать",
+      "segments": [
+        {
+          "text": "слушать",
+          "reading": "slušat"
+        }
+      ]
+    },
+    "vocab-0426": {
+      "text": "слышать",
+      "segments": [
+        {
+          "text": "слышать",
+          "reading": "slišat"
+        }
+      ]
+    },
+    "vocab-0427": {
+      "text": "читать",
+      "segments": [
+        {
+          "text": "читать",
+          "reading": "čitat"
+        }
+      ]
+    },
+    "vocab-0428": {
+      "text": "писать",
+      "segments": [
+        {
+          "text": "писать",
+          "reading": "pisat"
+        }
+      ]
+    },
+    "vocab-0429": {
+      "text": "учиться",
+      "segments": [
+        {
+          "text": "учиться",
+          "reading": "učica"
+        }
+      ]
+    },
+    "vocab-0430": {
+      "text": "понимать",
+      "segments": [
+        {
+          "text": "понимать",
+          "reading": "paņimat"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "ru-en",
+  "blockId": "basic-42",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0411": {
+      "text": "to go",
+      "segments": [
+        {
+          "text": "to go",
+          "reading": "ту гоу"
+        }
+      ]
+    },
+    "vocab-0412": {
+      "text": "to come",
+      "segments": [
+        {
+          "text": "to come",
+          "reading": "ту кам"
+        }
+      ]
+    },
+    "vocab-0413": {
+      "text": "to walk",
+      "segments": [
+        {
+          "text": "to walk",
+          "reading": "ту уок"
+        }
+      ]
+    },
+    "vocab-0414": {
+      "text": "to run",
+      "segments": [
+        {
+          "text": "to run",
+          "reading": "ту ран"
+        }
+      ]
+    },
+    "vocab-0415": {
+      "text": "to sit",
+      "segments": [
+        {
+          "text": "to sit",
+          "reading": "ту сит"
+        }
+      ]
+    },
+    "vocab-0416": {
+      "text": "to stand",
+      "segments": [
+        {
+          "text": "to stand",
+          "reading": "ту стэнд"
+        }
+      ]
+    },
+    "vocab-0417": {
+      "text": "to sleep",
+      "segments": [
+        {
+          "text": "to sleep",
+          "reading": "ту слип"
+        }
+      ]
+    },
+    "vocab-0418": {
+      "text": "to wake up",
+      "segments": [
+        {
+          "text": "to wake up",
+          "reading": "ту уэйк ап"
+        }
+      ]
+    },
+    "vocab-0419": {
+      "text": "to eat",
+      "segments": [
+        {
+          "text": "to eat",
+          "reading": "ту ит"
+        }
+      ]
+    },
+    "vocab-0420": {
+      "text": "to drink",
+      "segments": [
+        {
+          "text": "to drink",
+          "reading": "ту дринк"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "ru-en",
+  "blockId": "basic-32",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0311": {
+      "text": "Monday",
+      "segments": [
+        {
+          "text": "Monday",
+          "reading": "мандэй"
+        }
+      ]
+    },
+    "vocab-0312": {
+      "text": "Tuesday",
+      "segments": [
+        {
+          "text": "Tuesday",
+          "reading": "туздэй"
+        }
+      ]
+    },
+    "vocab-0313": {
+      "text": "Wednesday",
+      "segments": [
+        {
+          "text": "Wednesday",
+          "reading": "уэнздэй"
+        }
+      ]
+    },
+    "vocab-0314": {
+      "text": "Thursday",
+      "segments": [
+        {
+          "text": "Thursday",
+          "reading": "сёрздэй"
+        }
+      ]
+    },
+    "vocab-0315": {
+      "text": "Friday",
+      "segments": [
+        {
+          "text": "Friday",
+          "reading": "фрайдэй"
+        }
+      ]
+    },
+    "vocab-0316": {
+      "text": "Saturday",
+      "segments": [
+        {
+          "text": "Saturday",
+          "reading": "сэтэрдэй"
+        }
+      ]
+    },
+    "vocab-0317": {
+      "text": "Sunday",
+      "segments": [
+        {
+          "text": "Sunday",
+          "reading": "сандэй"
+        }
+      ]
+    },
+    "vocab-0318": {
+      "text": "weekend",
+      "segments": [
+        {
+          "text": "weekend",
+          "reading": "уикэнд"
+        }
+      ]
+    },
+    "vocab-0319": {
+      "text": "hour",
+      "segments": [
+        {
+          "text": "hour",
+          "reading": "ауэр"
+        }
+      ]
+    },
+    "vocab-0320": {
+      "text": "minute",
+      "segments": [
+        {
+          "text": "minute",
+          "reading": "минит"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "direction": "en-ja",
+  "blockId": "basic-41",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0401": {
+      "text": "文字",
+      "segments": [
+        {
+          "text": "文",
+          "reading": "mo"
+        },
+        {
+          "text": "字",
+          "reading": "ji"
+        }
+      ]
+    },
+    "vocab-0402": {
+      "text": "単語",
+      "segments": [
+        {
+          "text": "単",
+          "reading": "tan"
+        },
+        {
+          "text": "語",
+          "reading": "go"
+        }
+      ]
+    },
+    "vocab-0403": {
+      "text": "語句",
+      "segments": [
+        {
+          "text": "語",
+          "reading": "go"
+        },
+        {
+          "text": "句",
+          "reading": "ku"
+        }
+      ]
+    },
+    "vocab-0404": {
+      "text": "文",
+      "segments": [
+        {
+          "text": "文",
+          "reading": "bun"
+        }
+      ]
+    },
+    "vocab-0405": {
+      "text": "質問",
+      "segments": [
+        {
+          "text": "質",
+          "reading": "shitsu"
+        },
+        {
+          "text": "問",
+          "reading": "mon"
+        }
+      ]
+    },
+    "vocab-0406": {
+      "text": "答え",
+      "segments": [
+        {
+          "text": "答",
+          "reading": "kota"
+        },
+        {
+          "text": "え",
+          "reading": "e"
+        }
+      ]
+    },
+    "vocab-0407": {
+      "text": "ページ",
+      "segments": [
+        {
+          "text": "ペ",
+          "reading": "pe"
+        },
+        {
+          "text": "ー",
+          "reading": "—",
+          "note": "Lengthens the preceding vowel; it has no separate consonant sound."
+        },
+        {
+          "text": "ジ",
+          "reading": "ji"
+        }
+      ]
+    },
+    "vocab-0408": {
+      "text": "練習問題",
+      "segments": [
+        {
+          "text": "練",
+          "reading": "ren"
+        },
+        {
+          "text": "習",
+          "reading": "shuu"
+        },
+        {
+          "text": "問",
+          "reading": "mon"
+        },
+        {
+          "text": "題",
+          "reading": "dai"
+        }
+      ]
+    },
+    "vocab-0409": {
+      "text": "例",
+      "segments": [
+        {
+          "text": "例",
+          "reading": "rei"
+        }
+      ]
+    },
+    "vocab-0410": {
+      "text": "間違い",
+      "segments": [
+        {
+          "text": "間",
+          "reading": "ma"
+        },
+        {
+          "text": "違",
+          "reading": "chiga",
+          "note": "Sound portion chiga before い in 間違い (machigai)."
+        },
+        {
+          "text": "い",
+          "reading": "i"
+        }
+      ]
+    }
+  }
+}

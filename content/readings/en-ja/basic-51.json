@@ -1,0 +1,333 @@
+{
+  "schemaVersion": 1,
+  "direction": "en-ja",
+  "blockId": "basic-51",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0501": {
+      "text": "助けが必要です",
+      "segments": [
+        {
+          "text": "助",
+          "reading": "tasu"
+        },
+        {
+          "text": "け",
+          "reading": "ke"
+        },
+        {
+          "text": "が",
+          "reading": "ga"
+        },
+        {
+          "text": "必",
+          "reading": "hitsu"
+        },
+        {
+          "text": "要",
+          "reading": "you"
+        },
+        {
+          "text": "で",
+          "reading": "de"
+        },
+        {
+          "text": "す",
+          "reading": "su"
+        }
+      ]
+    },
+    "vocab-0502": {
+      "text": "水が必要です",
+      "segments": [
+        {
+          "text": "水",
+          "reading": "mizu"
+        },
+        {
+          "text": "が",
+          "reading": "ga"
+        },
+        {
+          "text": "必",
+          "reading": "hitsu"
+        },
+        {
+          "text": "要",
+          "reading": "you"
+        },
+        {
+          "text": "で",
+          "reading": "de"
+        },
+        {
+          "text": "す",
+          "reading": "su"
+        }
+      ]
+    },
+    "vocab-0503": {
+      "text": "医者が必要です",
+      "segments": [
+        {
+          "text": "医",
+          "reading": "i"
+        },
+        {
+          "text": "者",
+          "reading": "sha"
+        },
+        {
+          "text": "が",
+          "reading": "ga"
+        },
+        {
+          "text": "必",
+          "reading": "hitsu"
+        },
+        {
+          "text": "要",
+          "reading": "you"
+        },
+        {
+          "text": "で",
+          "reading": "de"
+        },
+        {
+          "text": "す",
+          "reading": "su"
+        }
+      ]
+    },
+    "vocab-0504": {
+      "text": "分かりません",
+      "segments": [
+        {
+          "text": "分",
+          "reading": "wa"
+        },
+        {
+          "text": "か",
+          "reading": "ka"
+        },
+        {
+          "text": "り",
+          "reading": "ri"
+        },
+        {
+          "text": "ま",
+          "reading": "ma"
+        },
+        {
+          "text": "せ",
+          "reading": "se"
+        },
+        {
+          "text": "ん",
+          "reading": "n"
+        }
+      ]
+    },
+    "vocab-0505": {
+      "text": "救急車を呼んでください",
+      "segments": [
+        {
+          "text": "救",
+          "reading": "kyuu"
+        },
+        {
+          "text": "急",
+          "reading": "kyuu"
+        },
+        {
+          "text": "車",
+          "reading": "sha"
+        },
+        {
+          "text": "を",
+          "reading": "o",
+          "note": "The object particle を is pronounced o."
+        },
+        {
+          "text": "呼",
+          "reading": "yo"
+        },
+        {
+          "text": "ん",
+          "reading": "n"
+        },
+        {
+          "text": "で",
+          "reading": "de"
+        },
+        {
+          "text": "く",
+          "reading": "ku"
+        },
+        {
+          "text": "だ",
+          "reading": "da"
+        },
+        {
+          "text": "さ",
+          "reading": "sa"
+        },
+        {
+          "text": "い",
+          "reading": "i"
+        }
+      ]
+    },
+    "vocab-0506": {
+      "text": "警察を呼んでください",
+      "segments": [
+        {
+          "text": "警",
+          "reading": "kei"
+        },
+        {
+          "text": "察",
+          "reading": "satsu"
+        },
+        {
+          "text": "を",
+          "reading": "o",
+          "note": "The object particle を is pronounced o."
+        },
+        {
+          "text": "呼",
+          "reading": "yo"
+        },
+        {
+          "text": "ん",
+          "reading": "n"
+        },
+        {
+          "text": "で",
+          "reading": "de"
+        },
+        {
+          "text": "く",
+          "reading": "ku"
+        },
+        {
+          "text": "だ",
+          "reading": "da"
+        },
+        {
+          "text": "さ",
+          "reading": "sa"
+        },
+        {
+          "text": "い",
+          "reading": "i"
+        }
+      ]
+    },
+    "vocab-0507": {
+      "text": "アレルギー",
+      "segments": [
+        {
+          "text": "ア",
+          "reading": "a"
+        },
+        {
+          "text": "レ",
+          "reading": "re"
+        },
+        {
+          "text": "ル",
+          "reading": "ru"
+        },
+        {
+          "text": "ギ",
+          "reading": "gi"
+        },
+        {
+          "text": "ー",
+          "reading": "—",
+          "note": "Lengthens the preceding vowel; it has no separate consonant sound."
+        }
+      ]
+    },
+    "vocab-0508": {
+      "text": "牛乳なしで",
+      "segments": [
+        {
+          "text": "牛",
+          "reading": "gyuu"
+        },
+        {
+          "text": "乳",
+          "reading": "nyuu"
+        },
+        {
+          "text": "な",
+          "reading": "na"
+        },
+        {
+          "text": "し",
+          "reading": "shi"
+        },
+        {
+          "text": "で",
+          "reading": "de"
+        }
+      ]
+    },
+    "vocab-0509": {
+      "text": "砂糖なしで",
+      "segments": [
+        {
+          "text": "砂",
+          "reading": "sa"
+        },
+        {
+          "text": "糖",
+          "reading": "tou"
+        },
+        {
+          "text": "な",
+          "reading": "na"
+        },
+        {
+          "text": "し",
+          "reading": "shi"
+        },
+        {
+          "text": "で",
+          "reading": "de"
+        }
+      ]
+    },
+    "vocab-0510": {
+      "text": "薬が必要です",
+      "segments": [
+        {
+          "text": "薬",
+          "reading": "kusuri"
+        },
+        {
+          "text": "が",
+          "reading": "ga"
+        },
+        {
+          "text": "必",
+          "reading": "hitsu"
+        },
+        {
+          "text": "要",
+          "reading": "you"
+        },
+        {
+          "text": "で",
+          "reading": "de"
+        },
+        {
+          "text": "す",
+          "reading": "su"
+        }
+      ]
+    }
+  }
+}

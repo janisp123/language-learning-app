@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "ru-en",
+  "blockId": "basic-09",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0081": {
+      "text": "police",
+      "segments": [
+        {
+          "text": "police",
+          "reading": "пэлис"
+        }
+      ]
+    },
+    "vocab-0082": {
+      "text": "ambulance",
+      "segments": [
+        {
+          "text": "ambulance",
+          "reading": "эмбьэлэнс"
+        }
+      ]
+    },
+    "vocab-0083": {
+      "text": "fire",
+      "segments": [
+        {
+          "text": "fire",
+          "reading": "файэр"
+        }
+      ]
+    },
+    "vocab-0084": {
+      "text": "danger",
+      "segments": [
+        {
+          "text": "danger",
+          "reading": "дэйнджэр"
+        }
+      ]
+    },
+    "vocab-0085": {
+      "text": "pain",
+      "segments": [
+        {
+          "text": "pain",
+          "reading": "пэйн"
+        }
+      ]
+    },
+    "vocab-0086": {
+      "text": "doctor",
+      "segments": [
+        {
+          "text": "doctor",
+          "reading": "дактэр"
+        }
+      ]
+    },
+    "vocab-0087": {
+      "text": "emergency",
+      "segments": [
+        {
+          "text": "emergency",
+          "reading": "имёрджэнси"
+        }
+      ]
+    },
+    "vocab-0088": {
+      "text": "first aid",
+      "segments": [
+        {
+          "text": "first aid",
+          "reading": "фёрст эйд"
+        }
+      ]
+    },
+    "vocab-0089": {
+      "text": "emergency number",
+      "segments": [
+        {
+          "text": "emergency number",
+          "reading": "имёрджэнси намбэр"
+        }
+      ]
+    },
+    "vocab-0090": {
+      "text": "adult",
+      "segments": [
+        {
+          "text": "adult",
+          "reading": "эдалт"
+        }
+      ]
+    }
+  }
+}

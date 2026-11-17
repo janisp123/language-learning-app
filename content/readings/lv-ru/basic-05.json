@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "lv-ru",
+  "blockId": "basic-05",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0041": {
+      "text": "дом",
+      "segments": [
+        {
+          "text": "дом",
+          "reading": "dom"
+        }
+      ]
+    },
+    "vocab-0042": {
+      "text": "школа",
+      "segments": [
+        {
+          "text": "школа",
+          "reading": "škola"
+        }
+      ]
+    },
+    "vocab-0043": {
+      "text": "магазин",
+      "segments": [
+        {
+          "text": "магазин",
+          "reading": "magazin"
+        }
+      ]
+    },
+    "vocab-0044": {
+      "text": "аптека",
+      "segments": [
+        {
+          "text": "аптека",
+          "reading": "apteka"
+        }
+      ]
+    },
+    "vocab-0045": {
+      "text": "больница",
+      "segments": [
+        {
+          "text": "больница",
+          "reading": "baļņica"
+        }
+      ]
+    },
+    "vocab-0046": {
+      "text": "парк",
+      "segments": [
+        {
+          "text": "парк",
+          "reading": "park"
+        }
+      ]
+    },
+    "vocab-0047": {
+      "text": "улица",
+      "segments": [
+        {
+          "text": "улица",
+          "reading": "uļica"
+        }
+      ]
+    },
+    "vocab-0048": {
+      "text": "автобусная остановка",
+      "segments": [
+        {
+          "text": "автобусная остановка",
+          "reading": "aftobusnaja astanofka"
+        }
+      ]
+    },
+    "vocab-0049": {
+      "text": "туалет",
+      "segments": [
+        {
+          "text": "туалет",
+          "reading": "tualet"
+        }
+      ]
+    },
+    "vocab-0050": {
+      "text": "выход",
+      "segments": [
+        {
+          "text": "выход",
+          "reading": "vihat"
+        }
+      ]
+    }
+  }
+}

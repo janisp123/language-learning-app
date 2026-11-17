@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "lv-ru",
+  "blockId": "basic-23",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0221": {
+      "text": "груша",
+      "segments": [
+        {
+          "text": "груша",
+          "reading": "gruša"
+        }
+      ]
+    },
+    "vocab-0222": {
+      "text": "апельсин",
+      "segments": [
+        {
+          "text": "апельсин",
+          "reading": "apiļsin"
+        }
+      ]
+    },
+    "vocab-0223": {
+      "text": "лимон",
+      "segments": [
+        {
+          "text": "лимон",
+          "reading": "ļimon"
+        }
+      ]
+    },
+    "vocab-0224": {
+      "text": "виноград",
+      "segments": [
+        {
+          "text": "виноград",
+          "reading": "vinagrat"
+        }
+      ]
+    },
+    "vocab-0225": {
+      "text": "клубника",
+      "segments": [
+        {
+          "text": "клубника",
+          "reading": "klubņika"
+        }
+      ]
+    },
+    "vocab-0226": {
+      "text": "малина",
+      "segments": [
+        {
+          "text": "малина",
+          "reading": "maļina"
+        }
+      ]
+    },
+    "vocab-0227": {
+      "text": "вишня",
+      "segments": [
+        {
+          "text": "вишня",
+          "reading": "višņa"
+        }
+      ]
+    },
+    "vocab-0228": {
+      "text": "слива",
+      "segments": [
+        {
+          "text": "слива",
+          "reading": "sļiva"
+        }
+      ]
+    },
+    "vocab-0229": {
+      "text": "персик",
+      "segments": [
+        {
+          "text": "персик",
+          "reading": "persik"
+        }
+      ]
+    },
+    "vocab-0230": {
+      "text": "арбуз",
+      "segments": [
+        {
+          "text": "арбуз",
+          "reading": "arbus"
+        }
+      ]
+    }
+  }
+}

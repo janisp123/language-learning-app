@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "direction": "en-ja",
+  "blockId": "basic-17",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0161": {
+      "text": "コート",
+      "segments": [
+        {
+          "text": "コ",
+          "reading": "ko"
+        },
+        {
+          "text": "ー",
+          "reading": "—",
+          "note": "Lengthens the preceding vowel; it has no separate consonant sound."
+        },
+        {
+          "text": "ト",
+          "reading": "to"
+        }
+      ]
+    },
+    "vocab-0162": {
+      "text": "ジャケット",
+      "segments": [
+        {
+          "text": "ジ",
+          "reading": "ji",
+          "note": "With the following small kana, pronounced ja."
+        },
+        {
+          "text": "ャ",
+          "reading": "ya",
+          "note": "Small kana: combines with the preceding kana to make ja.",
+          "combinedReading": "ja"
+        },
+        {
+          "text": "ケ",
+          "reading": "ke"
+        },
+        {
+          "text": "ッ",
+          "reading": "(t)",
+          "note": "Doubles the next consonant; hold a brief pause before it."
+        },
+        {
+          "text": "ト",
+          "reading": "to"
+        }
+      ]
+    },
+    "vocab-0163": {
+      "text": "シャツ",
+      "segments": [
+        {
+          "text": "シ",
+          "reading": "shi",
+          "note": "With the following small kana, pronounced sha."
+        },
+        {
+          "text": "ャ",
+          "reading": "ya",
+          "note": "Small kana: combines with the preceding kana to make sha.",
+          "combinedReading": "sha"
+        },
+        {
+          "text": "ツ",
+          "reading": "tsu"
+        }
+      ]
+    },
+    "vocab-0164": {
+      "text": "ズボン",
+      "segments": [
+        {
+          "text": "ズ",
+          "reading": "zu"
+        },
+        {
+          "text": "ボ",
+          "reading": "bo"
+        },
+        {
+          "text": "ン",
+          "reading": "n"
+        }
+      ]
+    },
+    "vocab-0165": {
+      "text": "ワンピース",
+      "segments": [
+        {
+          "text": "ワ",
+          "reading": "wa"
+        },
+        {
+          "text": "ン",
+          "reading": "n"
+        },
+        {
+          "text": "ピ",
+          "reading": "pi"
+        },
+        {
+          "text": "ー",
+          "reading": "—",
+          "note": "Lengthens the preceding vowel; it has no separate consonant sound."
+        },
+        {
+          "text": "ス",
+          "reading": "su"
+        }
+      ]
+    },
+    "vocab-0166": {
+      "text": "靴下",
+      "segments": [
+        {
+          "text": "靴",
+          "reading": "kutsu"
+        },
+        {
+          "text": "下",
+          "reading": "shita"
+        }
+      ]
+    },
+    "vocab-0167": {
+      "text": "履物",
+      "segments": [
+        {
+          "text": "履",
+          "reading": "haki"
+        },
+        {
+          "text": "物",
+          "reading": "mono"
+        }
+      ]
+    },
+    "vocab-0168": {
+      "text": "帽子",
+      "segments": [
+        {
+          "text": "帽",
+          "reading": "bou"
+        },
+        {
+          "text": "子",
+          "reading": "shi"
+        }
+      ]
+    },
+    "vocab-0169": {
+      "text": "マフラー",
+      "segments": [
+        {
+          "text": "マ",
+          "reading": "ma"
+        },
+        {
+          "text": "フ",
+          "reading": "fu"
+        },
+        {
+          "text": "ラ",
+          "reading": "ra"
+        },
+        {
+          "text": "ー",
+          "reading": "—",
+          "note": "Lengthens the preceding vowel; it has no separate consonant sound."
+        }
+      ]
+    },
+    "vocab-0170": {
+      "text": "手袋",
+      "segments": [
+        {
+          "text": "手",
+          "reading": "te"
+        },
+        {
+          "text": "袋",
+          "reading": "bukuro",
+          "note": "Voiced reading bukuro in 手袋 (tebukuro)."
+        }
+      ]
+    }
+  }
+}

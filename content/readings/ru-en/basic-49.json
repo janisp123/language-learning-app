@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "ru-en",
+  "blockId": "basic-49",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0481": {
+      "text": "and",
+      "segments": [
+        {
+          "text": "and",
+          "reading": "энд"
+        }
+      ]
+    },
+    "vocab-0482": {
+      "text": "or",
+      "segments": [
+        {
+          "text": "or",
+          "reading": "ор"
+        }
+      ]
+    },
+    "vocab-0483": {
+      "text": "but",
+      "segments": [
+        {
+          "text": "but",
+          "reading": "бат"
+        }
+      ]
+    },
+    "vocab-0484": {
+      "text": "because",
+      "segments": [
+        {
+          "text": "because",
+          "reading": "бикоз"
+        }
+      ]
+    },
+    "vocab-0485": {
+      "text": "with me",
+      "segments": [
+        {
+          "text": "with me",
+          "reading": "уиз ми"
+        }
+      ]
+    },
+    "vocab-0486": {
+      "text": "without me",
+      "segments": [
+        {
+          "text": "without me",
+          "reading": "уизаут ми"
+        }
+      ]
+    },
+    "vocab-0487": {
+      "text": "for you",
+      "segments": [
+        {
+          "text": "for you",
+          "reading": "фор ю"
+        }
+      ]
+    },
+    "vocab-0488": {
+      "text": "from home",
+      "segments": [
+        {
+          "text": "from home",
+          "reading": "фрэм хоум"
+        }
+      ]
+    },
+    "vocab-0489": {
+      "text": "to school",
+      "segments": [
+        {
+          "text": "to school",
+          "reading": "ту скул"
+        }
+      ]
+    },
+    "vocab-0490": {
+      "text": "between us",
+      "segments": [
+        {
+          "text": "between us",
+          "reading": "битуин ас"
+        }
+      ]
+    }
+  }
+}

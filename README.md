@@ -20,6 +20,16 @@ I'm Janis. I wanted a simple way to practise useful everyday words and phrases, 
 
 **Still a review build:** fluent human translation/pronunciation review, physical-device testing and a full accessibility review remain pending. Android and Google Play delivery are not implemented. Working browser features do not mean the course has been independently reviewed.
 
+## Reading guides
+
+Three directions include pronunciation aids beneath every answer:
+
+- Latvian → Russian: Latvian-letter approximations, such as спасибо → spasibo.
+- Russian → English: Cyrillic approximations, such as hello → хэлоу.
+- English → Japanese: romaji under each kana, such as あ / a · り / ri · が / ga · と / to · う / u. Small kana show their combined sound; っ marks doubling and ー a long vowel. Some kanji readings belong to a group.
+
+The other four directions remain without guides. These are draft reading aids, not exact phonetic transcriptions; the speaker remains the pronunciation reference. All 510 items are covered per selected direction, stored in ten-item batches for review. [Editing and review guide](docs/READING_GUIDES.md).
+
 ## How practice works
 
 Choose a direction and start. Select answer text to submit it, or tap any speaker just to listen. Choices reshuffle each time a prompt appears. Feedback is immediate; the next prompt appears after 500 ms.

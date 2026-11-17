@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "ru-en",
+  "blockId": "basic-44",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0431": {
+      "text": "to see",
+      "segments": [
+        {
+          "text": "to see",
+          "reading": "ту си"
+        }
+      ]
+    },
+    "vocab-0432": {
+      "text": "to look at",
+      "segments": [
+        {
+          "text": "to look at",
+          "reading": "ту лук эт"
+        }
+      ]
+    },
+    "vocab-0433": {
+      "text": "to watch",
+      "segments": [
+        {
+          "text": "to watch",
+          "reading": "ту уач"
+        }
+      ]
+    },
+    "vocab-0434": {
+      "text": "to find",
+      "segments": [
+        {
+          "text": "to find",
+          "reading": "ту файнд"
+        }
+      ]
+    },
+    "vocab-0435": {
+      "text": "to search",
+      "segments": [
+        {
+          "text": "to search",
+          "reading": "ту сёрч"
+        }
+      ]
+    },
+    "vocab-0436": {
+      "text": "to take",
+      "segments": [
+        {
+          "text": "to take",
+          "reading": "ту тэйк"
+        }
+      ]
+    },
+    "vocab-0437": {
+      "text": "to give",
+      "segments": [
+        {
+          "text": "to give",
+          "reading": "ту гив"
+        }
+      ]
+    },
+    "vocab-0438": {
+      "text": "to bring",
+      "segments": [
+        {
+          "text": "to bring",
+          "reading": "ту бринг"
+        }
+      ]
+    },
+    "vocab-0439": {
+      "text": "to buy",
+      "segments": [
+        {
+          "text": "to buy",
+          "reading": "ту бай"
+        }
+      ]
+    },
+    "vocab-0440": {
+      "text": "to pay",
+      "segments": [
+        {
+          "text": "to pay",
+          "reading": "ту пэй"
+        }
+      ]
+    }
+  }
+}

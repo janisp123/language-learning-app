@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "ru-en",
+  "blockId": "basic-33",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0321": {
+      "text": "January",
+      "segments": [
+        {
+          "text": "January",
+          "reading": "джэньюэри"
+        }
+      ]
+    },
+    "vocab-0322": {
+      "text": "February",
+      "segments": [
+        {
+          "text": "February",
+          "reading": "фэбруэри"
+        }
+      ]
+    },
+    "vocab-0323": {
+      "text": "March",
+      "segments": [
+        {
+          "text": "March",
+          "reading": "марч"
+        }
+      ]
+    },
+    "vocab-0324": {
+      "text": "April",
+      "segments": [
+        {
+          "text": "April",
+          "reading": "эйпрэл"
+        }
+      ]
+    },
+    "vocab-0325": {
+      "text": "May",
+      "segments": [
+        {
+          "text": "May",
+          "reading": "мэй"
+        }
+      ]
+    },
+    "vocab-0326": {
+      "text": "June",
+      "segments": [
+        {
+          "text": "June",
+          "reading": "джун"
+        }
+      ]
+    },
+    "vocab-0327": {
+      "text": "July",
+      "segments": [
+        {
+          "text": "July",
+          "reading": "джулай"
+        }
+      ]
+    },
+    "vocab-0328": {
+      "text": "August",
+      "segments": [
+        {
+          "text": "August",
+          "reading": "огэст"
+        }
+      ]
+    },
+    "vocab-0329": {
+      "text": "September",
+      "segments": [
+        {
+          "text": "September",
+          "reading": "сэптэмбэр"
+        }
+      ]
+    },
+    "vocab-0330": {
+      "text": "October",
+      "segments": [
+        {
+          "text": "October",
+          "reading": "актоубэр"
+        }
+      ]
+    }
+  }
+}

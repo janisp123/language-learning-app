@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "lv-ru",
+  "blockId": "basic-03",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0021": {
+      "text": "один",
+      "segments": [
+        {
+          "text": "один",
+          "reading": "adin"
+        }
+      ]
+    },
+    "vocab-0022": {
+      "text": "два",
+      "segments": [
+        {
+          "text": "два",
+          "reading": "dva"
+        }
+      ]
+    },
+    "vocab-0023": {
+      "text": "три",
+      "segments": [
+        {
+          "text": "три",
+          "reading": "tri"
+        }
+      ]
+    },
+    "vocab-0024": {
+      "text": "четыре",
+      "segments": [
+        {
+          "text": "четыре",
+          "reading": "čitiri"
+        }
+      ]
+    },
+    "vocab-0025": {
+      "text": "пять",
+      "segments": [
+        {
+          "text": "пять",
+          "reading": "pjat"
+        }
+      ]
+    },
+    "vocab-0026": {
+      "text": "шесть",
+      "segments": [
+        {
+          "text": "шесть",
+          "reading": "šest"
+        }
+      ]
+    },
+    "vocab-0027": {
+      "text": "семь",
+      "segments": [
+        {
+          "text": "семь",
+          "reading": "sem"
+        }
+      ]
+    },
+    "vocab-0028": {
+      "text": "восемь",
+      "segments": [
+        {
+          "text": "восемь",
+          "reading": "vosim"
+        }
+      ]
+    },
+    "vocab-0029": {
+      "text": "девять",
+      "segments": [
+        {
+          "text": "девять",
+          "reading": "devit"
+        }
+      ]
+    },
+    "vocab-0030": {
+      "text": "десять",
+      "segments": [
+        {
+          "text": "десять",
+          "reading": "desit"
+        }
+      ]
+    }
+  }
+}

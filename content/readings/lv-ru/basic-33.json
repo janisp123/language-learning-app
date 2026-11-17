@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "lv-ru",
+  "blockId": "basic-33",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0321": {
+      "text": "январь",
+      "segments": [
+        {
+          "text": "январь",
+          "reading": "jinvar"
+        }
+      ]
+    },
+    "vocab-0322": {
+      "text": "февраль",
+      "segments": [
+        {
+          "text": "февраль",
+          "reading": "fivraļ"
+        }
+      ]
+    },
+    "vocab-0323": {
+      "text": "март",
+      "segments": [
+        {
+          "text": "март",
+          "reading": "mart"
+        }
+      ]
+    },
+    "vocab-0324": {
+      "text": "апрель",
+      "segments": [
+        {
+          "text": "апрель",
+          "reading": "apreļ"
+        }
+      ]
+    },
+    "vocab-0325": {
+      "text": "май",
+      "segments": [
+        {
+          "text": "май",
+          "reading": "maj"
+        }
+      ]
+    },
+    "vocab-0326": {
+      "text": "июнь",
+      "segments": [
+        {
+          "text": "июнь",
+          "reading": "ijuņ"
+        }
+      ]
+    },
+    "vocab-0327": {
+      "text": "июль",
+      "segments": [
+        {
+          "text": "июль",
+          "reading": "ijuļ"
+        }
+      ]
+    },
+    "vocab-0328": {
+      "text": "август",
+      "segments": [
+        {
+          "text": "август",
+          "reading": "avgust"
+        }
+      ]
+    },
+    "vocab-0329": {
+      "text": "сентябрь",
+      "segments": [
+        {
+          "text": "сентябрь",
+          "reading": "siņtjabr"
+        }
+      ]
+    },
+    "vocab-0330": {
+      "text": "октябрь",
+      "segments": [
+        {
+          "text": "октябрь",
+          "reading": "aktjabr"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "ru-en",
+  "blockId": "basic-46",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0451": {
+      "text": "big",
+      "segments": [
+        {
+          "text": "big",
+          "reading": "биг"
+        }
+      ]
+    },
+    "vocab-0452": {
+      "text": "small",
+      "segments": [
+        {
+          "text": "small",
+          "reading": "смол"
+        }
+      ]
+    },
+    "vocab-0453": {
+      "text": "long",
+      "segments": [
+        {
+          "text": "long",
+          "reading": "лонг"
+        }
+      ]
+    },
+    "vocab-0454": {
+      "text": "short",
+      "segments": [
+        {
+          "text": "short",
+          "reading": "шорт"
+        }
+      ]
+    },
+    "vocab-0455": {
+      "text": "wide",
+      "segments": [
+        {
+          "text": "wide",
+          "reading": "уайд"
+        }
+      ]
+    },
+    "vocab-0456": {
+      "text": "narrow",
+      "segments": [
+        {
+          "text": "narrow",
+          "reading": "нэроу"
+        }
+      ]
+    },
+    "vocab-0457": {
+      "text": "high",
+      "segments": [
+        {
+          "text": "high",
+          "reading": "хай"
+        }
+      ]
+    },
+    "vocab-0458": {
+      "text": "low",
+      "segments": [
+        {
+          "text": "low",
+          "reading": "лоу"
+        }
+      ]
+    },
+    "vocab-0459": {
+      "text": "heavy",
+      "segments": [
+        {
+          "text": "heavy",
+          "reading": "хэви"
+        }
+      ]
+    },
+    "vocab-0460": {
+      "text": "light",
+      "segments": [
+        {
+          "text": "light",
+          "reading": "лайт"
+        }
+      ]
+    }
+  }
+}

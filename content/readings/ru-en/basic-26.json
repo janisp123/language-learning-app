@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "ru-en",
+  "blockId": "basic-26",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0251": {
+      "text": "lunch",
+      "segments": [
+        {
+          "text": "lunch",
+          "reading": "ланч"
+        }
+      ]
+    },
+    "vocab-0252": {
+      "text": "dinner",
+      "segments": [
+        {
+          "text": "dinner",
+          "reading": "динэр"
+        }
+      ]
+    },
+    "vocab-0253": {
+      "text": "snack",
+      "segments": [
+        {
+          "text": "snack",
+          "reading": "снэк"
+        }
+      ]
+    },
+    "vocab-0254": {
+      "text": "sandwich",
+      "segments": [
+        {
+          "text": "sandwich",
+          "reading": "сэндуич"
+        }
+      ]
+    },
+    "vocab-0255": {
+      "text": "salad",
+      "segments": [
+        {
+          "text": "salad",
+          "reading": "сэлэд"
+        }
+      ]
+    },
+    "vocab-0256": {
+      "text": "porridge",
+      "segments": [
+        {
+          "text": "porridge",
+          "reading": "поридж"
+        }
+      ]
+    },
+    "vocab-0257": {
+      "text": "cereal",
+      "segments": [
+        {
+          "text": "cereal",
+          "reading": "сириэл"
+        }
+      ]
+    },
+    "vocab-0258": {
+      "text": "pancake",
+      "segments": [
+        {
+          "text": "pancake",
+          "reading": "пэнкэйк"
+        }
+      ]
+    },
+    "vocab-0259": {
+      "text": "cake",
+      "segments": [
+        {
+          "text": "cake",
+          "reading": "кэйк"
+        }
+      ]
+    },
+    "vocab-0260": {
+      "text": "ice cream",
+      "segments": [
+        {
+          "text": "ice cream",
+          "reading": "айс крим"
+        }
+      ]
+    }
+  }
+}

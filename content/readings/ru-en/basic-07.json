@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "ru-en",
+  "blockId": "basic-07",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0061": {
+      "text": "book",
+      "segments": [
+        {
+          "text": "book",
+          "reading": "бук"
+        }
+      ]
+    },
+    "vocab-0062": {
+      "text": "notebook",
+      "segments": [
+        {
+          "text": "notebook",
+          "reading": "ноутбук"
+        }
+      ]
+    },
+    "vocab-0063": {
+      "text": "pen",
+      "segments": [
+        {
+          "text": "pen",
+          "reading": "пэн"
+        }
+      ]
+    },
+    "vocab-0064": {
+      "text": "pencil",
+      "segments": [
+        {
+          "text": "pencil",
+          "reading": "пэнсэл"
+        }
+      ]
+    },
+    "vocab-0065": {
+      "text": "desk",
+      "segments": [
+        {
+          "text": "desk",
+          "reading": "дэск"
+        }
+      ]
+    },
+    "vocab-0066": {
+      "text": "chair",
+      "segments": [
+        {
+          "text": "chair",
+          "reading": "чэр"
+        }
+      ]
+    },
+    "vocab-0067": {
+      "text": "board",
+      "segments": [
+        {
+          "text": "board",
+          "reading": "борд"
+        }
+      ]
+    },
+    "vocab-0068": {
+      "text": "teacher",
+      "segments": [
+        {
+          "text": "teacher",
+          "reading": "тичэр"
+        }
+      ]
+    },
+    "vocab-0069": {
+      "text": "lesson",
+      "segments": [
+        {
+          "text": "lesson",
+          "reading": "лэсэн"
+        }
+      ]
+    },
+    "vocab-0070": {
+      "text": "break",
+      "segments": [
+        {
+          "text": "break",
+          "reading": "брэйк"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "lv-ru",
+  "blockId": "basic-28",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0271": {
+      "text": "деньги",
+      "segments": [
+        {
+          "text": "деньги",
+          "reading": "deņgi"
+        }
+      ]
+    },
+    "vocab-0272": {
+      "text": "цена",
+      "segments": [
+        {
+          "text": "цена",
+          "reading": "cina"
+        }
+      ]
+    },
+    "vocab-0273": {
+      "text": "сдача",
+      "segments": [
+        {
+          "text": "сдача",
+          "reading": "zdača"
+        }
+      ]
+    },
+    "vocab-0274": {
+      "text": "чек",
+      "segments": [
+        {
+          "text": "чек",
+          "reading": "ček"
+        }
+      ]
+    },
+    "vocab-0275": {
+      "text": "касса",
+      "segments": [
+        {
+          "text": "касса",
+          "reading": "kasa"
+        }
+      ]
+    },
+    "vocab-0276": {
+      "text": "корзина",
+      "segments": [
+        {
+          "text": "корзина",
+          "reading": "karzina"
+        }
+      ]
+    },
+    "vocab-0277": {
+      "text": "сумка",
+      "segments": [
+        {
+          "text": "сумка",
+          "reading": "sumka"
+        }
+      ]
+    },
+    "vocab-0278": {
+      "text": "размер",
+      "segments": [
+        {
+          "text": "размер",
+          "reading": "razmer"
+        }
+      ]
+    },
+    "vocab-0279": {
+      "text": "скидка",
+      "segments": [
+        {
+          "text": "скидка",
+          "reading": "skitka"
+        }
+      ]
+    },
+    "vocab-0280": {
+      "text": "карта",
+      "segments": [
+        {
+          "text": "карта",
+          "reading": "karta"
+        }
+      ]
+    }
+  }
+}

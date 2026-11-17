@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "direction": "en-ja",
+  "blockId": "basic-21",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0201": {
+      "text": "皿",
+      "segments": [
+        {
+          "text": "皿",
+          "reading": "sara"
+        }
+      ]
+    },
+    "vocab-0202": {
+      "text": "カップ",
+      "segments": [
+        {
+          "text": "カ",
+          "reading": "ka"
+        },
+        {
+          "text": "ッ",
+          "reading": "(p)",
+          "note": "Doubles the next consonant; hold a brief pause before it."
+        },
+        {
+          "text": "プ",
+          "reading": "pu"
+        }
+      ]
+    },
+    "vocab-0203": {
+      "text": "ガラスのコップ",
+      "segments": [
+        {
+          "text": "ガ",
+          "reading": "ga"
+        },
+        {
+          "text": "ラ",
+          "reading": "ra"
+        },
+        {
+          "text": "ス",
+          "reading": "su"
+        },
+        {
+          "text": "の",
+          "reading": "no"
+        },
+        {
+          "text": "コ",
+          "reading": "ko"
+        },
+        {
+          "text": "ッ",
+          "reading": "(p)",
+          "note": "Doubles the next consonant; hold a brief pause before it."
+        },
+        {
+          "text": "プ",
+          "reading": "pu"
+        }
+      ]
+    },
+    "vocab-0204": {
+      "text": "ボウル",
+      "segments": [
+        {
+          "text": "ボ",
+          "reading": "bo"
+        },
+        {
+          "text": "ウ",
+          "reading": "u"
+        },
+        {
+          "text": "ル",
+          "reading": "ru"
+        }
+      ]
+    },
+    "vocab-0205": {
+      "text": "スプーン",
+      "segments": [
+        {
+          "text": "ス",
+          "reading": "su"
+        },
+        {
+          "text": "プ",
+          "reading": "pu"
+        },
+        {
+          "text": "ー",
+          "reading": "—",
+          "note": "Lengthens the preceding vowel; it has no separate consonant sound."
+        },
+        {
+          "text": "ン",
+          "reading": "n"
+        }
+      ]
+    },
+    "vocab-0206": {
+      "text": "フォーク",
+      "segments": [
+        {
+          "text": "フ",
+          "reading": "fu",
+          "note": "With the following small kana, pronounced fo."
+        },
+        {
+          "text": "ォ",
+          "reading": "o",
+          "note": "Small kana: combines with the preceding kana to make fo.",
+          "combinedReading": "fo"
+        },
+        {
+          "text": "ー",
+          "reading": "—",
+          "note": "Lengthens the preceding vowel; it has no separate consonant sound."
+        },
+        {
+          "text": "ク",
+          "reading": "ku"
+        }
+      ]
+    },
+    "vocab-0207": {
+      "text": "ナイフ",
+      "segments": [
+        {
+          "text": "ナ",
+          "reading": "na"
+        },
+        {
+          "text": "イ",
+          "reading": "i"
+        },
+        {
+          "text": "フ",
+          "reading": "fu"
+        }
+      ]
+    },
+    "vocab-0208": {
+      "text": "瓶",
+      "segments": [
+        {
+          "text": "瓶",
+          "reading": "bin"
+        }
+      ]
+    },
+    "vocab-0209": {
+      "text": "鍋",
+      "segments": [
+        {
+          "text": "鍋",
+          "reading": "nabe"
+        }
+      ]
+    },
+    "vocab-0210": {
+      "text": "フライパン",
+      "segments": [
+        {
+          "text": "フ",
+          "reading": "fu"
+        },
+        {
+          "text": "ラ",
+          "reading": "ra"
+        },
+        {
+          "text": "イ",
+          "reading": "i"
+        },
+        {
+          "text": "パ",
+          "reading": "pa"
+        },
+        {
+          "text": "ン",
+          "reading": "n"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "lv-ru",
+  "blockId": "basic-08",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0071": {
+      "text": "налево",
+      "segments": [
+        {
+          "text": "налево",
+          "reading": "naļeva"
+        }
+      ]
+    },
+    "vocab-0072": {
+      "text": "направо",
+      "segments": [
+        {
+          "text": "направо",
+          "reading": "naprava"
+        }
+      ]
+    },
+    "vocab-0073": {
+      "text": "прямо",
+      "segments": [
+        {
+          "text": "прямо",
+          "reading": "prjama"
+        }
+      ]
+    },
+    "vocab-0074": {
+      "text": "близко",
+      "segments": [
+        {
+          "text": "близко",
+          "reading": "bļiska"
+        }
+      ]
+    },
+    "vocab-0075": {
+      "text": "далеко",
+      "segments": [
+        {
+          "text": "далеко",
+          "reading": "daliko"
+        }
+      ]
+    },
+    "vocab-0076": {
+      "text": "внутри",
+      "segments": [
+        {
+          "text": "внутри",
+          "reading": "vnutri"
+        }
+      ]
+    },
+    "vocab-0077": {
+      "text": "снаружи",
+      "segments": [
+        {
+          "text": "снаружи",
+          "reading": "snaruži"
+        }
+      ]
+    },
+    "vocab-0078": {
+      "text": "вверх",
+      "segments": [
+        {
+          "text": "вверх",
+          "reading": "vverh"
+        }
+      ]
+    },
+    "vocab-0079": {
+      "text": "вниз",
+      "segments": [
+        {
+          "text": "вниз",
+          "reading": "vņis"
+        }
+      ]
+    },
+    "vocab-0080": {
+      "text": "напротив",
+      "segments": [
+        {
+          "text": "напротив",
+          "reading": "naprotif"
+        }
+      ]
+    }
+  }
+}

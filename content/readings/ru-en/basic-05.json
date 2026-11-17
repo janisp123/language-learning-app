@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "ru-en",
+  "blockId": "basic-05",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0041": {
+      "text": "home",
+      "segments": [
+        {
+          "text": "home",
+          "reading": "хоум"
+        }
+      ]
+    },
+    "vocab-0042": {
+      "text": "school",
+      "segments": [
+        {
+          "text": "school",
+          "reading": "скул"
+        }
+      ]
+    },
+    "vocab-0043": {
+      "text": "shop",
+      "segments": [
+        {
+          "text": "shop",
+          "reading": "шап"
+        }
+      ]
+    },
+    "vocab-0044": {
+      "text": "pharmacy",
+      "segments": [
+        {
+          "text": "pharmacy",
+          "reading": "фармэси"
+        }
+      ]
+    },
+    "vocab-0045": {
+      "text": "hospital",
+      "segments": [
+        {
+          "text": "hospital",
+          "reading": "хаспитэл"
+        }
+      ]
+    },
+    "vocab-0046": {
+      "text": "park",
+      "segments": [
+        {
+          "text": "park",
+          "reading": "парк"
+        }
+      ]
+    },
+    "vocab-0047": {
+      "text": "street",
+      "segments": [
+        {
+          "text": "street",
+          "reading": "стрит"
+        }
+      ]
+    },
+    "vocab-0048": {
+      "text": "bus stop",
+      "segments": [
+        {
+          "text": "bus stop",
+          "reading": "бас стап"
+        }
+      ]
+    },
+    "vocab-0049": {
+      "text": "toilet",
+      "segments": [
+        {
+          "text": "toilet",
+          "reading": "тойлэт"
+        }
+      ]
+    },
+    "vocab-0050": {
+      "text": "exit",
+      "segments": [
+        {
+          "text": "exit",
+          "reading": "эгзит"
+        }
+      ]
+    }
+  }
+}

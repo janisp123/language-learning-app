@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "direction": "en-ja",
+  "blockId": "basic-38",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0371": {
+      "text": "バス",
+      "segments": [
+        {
+          "text": "バ",
+          "reading": "ba"
+        },
+        {
+          "text": "ス",
+          "reading": "su"
+        }
+      ]
+    },
+    "vocab-0372": {
+      "text": "路面電車",
+      "segments": [
+        {
+          "text": "路",
+          "reading": "ro"
+        },
+        {
+          "text": "面",
+          "reading": "men"
+        },
+        {
+          "text": "電",
+          "reading": "den"
+        },
+        {
+          "text": "車",
+          "reading": "sha"
+        }
+      ]
+    },
+    "vocab-0373": {
+      "text": "トロリーバス",
+      "segments": [
+        {
+          "text": "ト",
+          "reading": "to"
+        },
+        {
+          "text": "ロ",
+          "reading": "ro"
+        },
+        {
+          "text": "リ",
+          "reading": "ri"
+        },
+        {
+          "text": "ー",
+          "reading": "—",
+          "note": "Lengthens the preceding vowel; it has no separate consonant sound."
+        },
+        {
+          "text": "バ",
+          "reading": "ba"
+        },
+        {
+          "text": "ス",
+          "reading": "su"
+        }
+      ]
+    },
+    "vocab-0374": {
+      "text": "列車",
+      "segments": [
+        {
+          "text": "列車",
+          "reading": "ressha",
+          "note": "Read together: the consonant doubles across the kanji boundary."
+        }
+      ]
+    },
+    "vocab-0375": {
+      "text": "車",
+      "segments": [
+        {
+          "text": "車",
+          "reading": "kuruma"
+        }
+      ]
+    },
+    "vocab-0376": {
+      "text": "自転車",
+      "segments": [
+        {
+          "text": "自",
+          "reading": "ji"
+        },
+        {
+          "text": "転",
+          "reading": "ten"
+        },
+        {
+          "text": "車",
+          "reading": "sha"
+        }
+      ]
+    },
+    "vocab-0377": {
+      "text": "タクシー",
+      "segments": [
+        {
+          "text": "タ",
+          "reading": "ta"
+        },
+        {
+          "text": "ク",
+          "reading": "ku"
+        },
+        {
+          "text": "シ",
+          "reading": "shi"
+        },
+        {
+          "text": "ー",
+          "reading": "—",
+          "note": "Lengthens the preceding vowel; it has no separate consonant sound."
+        }
+      ]
+    },
+    "vocab-0378": {
+      "text": "駅",
+      "segments": [
+        {
+          "text": "駅",
+          "reading": "eki"
+        }
+      ]
+    },
+    "vocab-0379": {
+      "text": "空港",
+      "segments": [
+        {
+          "text": "空",
+          "reading": "kuu"
+        },
+        {
+          "text": "港",
+          "reading": "kou"
+        }
+      ]
+    },
+    "vocab-0380": {
+      "text": "切符",
+      "segments": [
+        {
+          "text": "切符",
+          "reading": "kippu",
+          "note": "Read together: the consonant doubles across the kanji boundary."
+        }
+      ]
+    }
+  }
+}

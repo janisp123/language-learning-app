@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "direction": "en-ja",
+  "blockId": "basic-05",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0041": {
+      "text": "家",
+      "segments": [
+        {
+          "text": "家",
+          "reading": "ie"
+        }
+      ]
+    },
+    "vocab-0042": {
+      "text": "学校",
+      "segments": [
+        {
+          "text": "学校",
+          "reading": "gakkou",
+          "note": "Read together: the consonant doubles across the kanji boundary."
+        }
+      ]
+    },
+    "vocab-0043": {
+      "text": "店",
+      "segments": [
+        {
+          "text": "店",
+          "reading": "mise"
+        }
+      ]
+    },
+    "vocab-0044": {
+      "text": "薬局",
+      "segments": [
+        {
+          "text": "薬局",
+          "reading": "yakkyoku",
+          "note": "Read together: the consonant doubles across the kanji boundary."
+        }
+      ]
+    },
+    "vocab-0045": {
+      "text": "病院",
+      "segments": [
+        {
+          "text": "病",
+          "reading": "byou"
+        },
+        {
+          "text": "院",
+          "reading": "in"
+        }
+      ]
+    },
+    "vocab-0046": {
+      "text": "公園",
+      "segments": [
+        {
+          "text": "公",
+          "reading": "kou"
+        },
+        {
+          "text": "園",
+          "reading": "en"
+        }
+      ]
+    },
+    "vocab-0047": {
+      "text": "通り",
+      "segments": [
+        {
+          "text": "通",
+          "reading": "too"
+        },
+        {
+          "text": "り",
+          "reading": "ri"
+        }
+      ]
+    },
+    "vocab-0048": {
+      "text": "バス停",
+      "segments": [
+        {
+          "text": "バ",
+          "reading": "ba"
+        },
+        {
+          "text": "ス",
+          "reading": "su"
+        },
+        {
+          "text": "停",
+          "reading": "tei"
+        }
+      ]
+    },
+    "vocab-0049": {
+      "text": "トイレ",
+      "segments": [
+        {
+          "text": "ト",
+          "reading": "to"
+        },
+        {
+          "text": "イ",
+          "reading": "i"
+        },
+        {
+          "text": "レ",
+          "reading": "re"
+        }
+      ]
+    },
+    "vocab-0050": {
+      "text": "出口",
+      "segments": [
+        {
+          "text": "出",
+          "reading": "de"
+        },
+        {
+          "text": "口",
+          "reading": "guchi",
+          "note": "Voiced reading guchi in 出口 (deguchi)."
+        }
+      ]
+    }
+  }
+}

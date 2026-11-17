@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "ru-en",
+  "blockId": "basic-30",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0291": {
+      "text": "twenty",
+      "segments": [
+        {
+          "text": "twenty",
+          "reading": "туэнти"
+        }
+      ]
+    },
+    "vocab-0292": {
+      "text": "thirty",
+      "segments": [
+        {
+          "text": "thirty",
+          "reading": "сёрти"
+        }
+      ]
+    },
+    "vocab-0293": {
+      "text": "forty",
+      "segments": [
+        {
+          "text": "forty",
+          "reading": "форти"
+        }
+      ]
+    },
+    "vocab-0294": {
+      "text": "fifty",
+      "segments": [
+        {
+          "text": "fifty",
+          "reading": "фифти"
+        }
+      ]
+    },
+    "vocab-0295": {
+      "text": "sixty",
+      "segments": [
+        {
+          "text": "sixty",
+          "reading": "сиксти"
+        }
+      ]
+    },
+    "vocab-0296": {
+      "text": "seventy",
+      "segments": [
+        {
+          "text": "seventy",
+          "reading": "сэвэнти"
+        }
+      ]
+    },
+    "vocab-0297": {
+      "text": "eighty",
+      "segments": [
+        {
+          "text": "eighty",
+          "reading": "эйти"
+        }
+      ]
+    },
+    "vocab-0298": {
+      "text": "ninety",
+      "segments": [
+        {
+          "text": "ninety",
+          "reading": "найнти"
+        }
+      ]
+    },
+    "vocab-0299": {
+      "text": "hundred",
+      "segments": [
+        {
+          "text": "hundred",
+          "reading": "хандрэд"
+        }
+      ]
+    },
+    "vocab-0300": {
+      "text": "thousand",
+      "segments": [
+        {
+          "text": "thousand",
+          "reading": "саузэнд"
+        }
+      ]
+    }
+  }
+}

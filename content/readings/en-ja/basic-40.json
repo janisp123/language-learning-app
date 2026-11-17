@@ -1,0 +1,155 @@
+{
+  "schemaVersion": 1,
+  "direction": "en-ja",
+  "blockId": "basic-40",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0391": {
+      "text": "通学かばん",
+      "segments": [
+        {
+          "text": "通",
+          "reading": "tsuu"
+        },
+        {
+          "text": "学",
+          "reading": "gaku"
+        },
+        {
+          "text": "か",
+          "reading": "ka"
+        },
+        {
+          "text": "ば",
+          "reading": "ba"
+        },
+        {
+          "text": "ん",
+          "reading": "n"
+        }
+      ]
+    },
+    "vocab-0392": {
+      "text": "定規",
+      "segments": [
+        {
+          "text": "定",
+          "reading": "jou",
+          "note": "Contextual reading jou in 定規 (jougi)."
+        },
+        {
+          "text": "規",
+          "reading": "gi"
+        }
+      ]
+    },
+    "vocab-0393": {
+      "text": "消しゴム",
+      "segments": [
+        {
+          "text": "消",
+          "reading": "ke"
+        },
+        {
+          "text": "し",
+          "reading": "shi"
+        },
+        {
+          "text": "ゴ",
+          "reading": "go"
+        },
+        {
+          "text": "ム",
+          "reading": "mu"
+        }
+      ]
+    },
+    "vocab-0394": {
+      "text": "はさみ",
+      "segments": [
+        {
+          "text": "は",
+          "reading": "ha"
+        },
+        {
+          "text": "さ",
+          "reading": "sa"
+        },
+        {
+          "text": "み",
+          "reading": "mi"
+        }
+      ]
+    },
+    "vocab-0395": {
+      "text": "のり",
+      "segments": [
+        {
+          "text": "の",
+          "reading": "no"
+        },
+        {
+          "text": "り",
+          "reading": "ri"
+        }
+      ]
+    },
+    "vocab-0396": {
+      "text": "紙",
+      "segments": [
+        {
+          "text": "紙",
+          "reading": "kami"
+        }
+      ]
+    },
+    "vocab-0397": {
+      "text": "絵の具",
+      "segments": [
+        {
+          "text": "絵",
+          "reading": "e"
+        },
+        {
+          "text": "の",
+          "reading": "no"
+        },
+        {
+          "text": "具",
+          "reading": "gu"
+        }
+      ]
+    },
+    "vocab-0398": {
+      "text": "筆",
+      "segments": [
+        {
+          "text": "筆",
+          "reading": "fude"
+        }
+      ]
+    },
+    "vocab-0399": {
+      "text": "絵",
+      "segments": [
+        {
+          "text": "絵",
+          "reading": "e"
+        }
+      ]
+    },
+    "vocab-0400": {
+      "text": "宿題",
+      "segments": [
+        {
+          "text": "宿",
+          "reading": "shuku"
+        },
+        {
+          "text": "題",
+          "reading": "dai"
+        }
+      ]
+    }
+  }
+}

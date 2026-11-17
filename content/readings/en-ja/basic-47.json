@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "direction": "en-ja",
+  "blockId": "basic-47",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0461": {
+      "text": "良い",
+      "segments": [
+        {
+          "text": "良",
+          "reading": "yo"
+        },
+        {
+          "text": "い",
+          "reading": "i"
+        }
+      ]
+    },
+    "vocab-0462": {
+      "text": "悪い",
+      "segments": [
+        {
+          "text": "悪",
+          "reading": "waru"
+        },
+        {
+          "text": "い",
+          "reading": "i"
+        }
+      ]
+    },
+    "vocab-0463": {
+      "text": "新しい",
+      "segments": [
+        {
+          "text": "新",
+          "reading": "atara"
+        },
+        {
+          "text": "し",
+          "reading": "shi"
+        },
+        {
+          "text": "い",
+          "reading": "i"
+        }
+      ]
+    },
+    "vocab-0464": {
+      "text": "古い",
+      "segments": [
+        {
+          "text": "古",
+          "reading": "furu"
+        },
+        {
+          "text": "い",
+          "reading": "i"
+        }
+      ]
+    },
+    "vocab-0465": {
+      "text": "きれい",
+      "segments": [
+        {
+          "text": "き",
+          "reading": "ki"
+        },
+        {
+          "text": "れ",
+          "reading": "re"
+        },
+        {
+          "text": "い",
+          "reading": "i"
+        }
+      ]
+    },
+    "vocab-0466": {
+      "text": "汚い",
+      "segments": [
+        {
+          "text": "汚",
+          "reading": "kitana"
+        },
+        {
+          "text": "い",
+          "reading": "i"
+        }
+      ]
+    },
+    "vocab-0467": {
+      "text": "熱い",
+      "segments": [
+        {
+          "text": "熱",
+          "reading": "atsu"
+        },
+        {
+          "text": "い",
+          "reading": "i"
+        }
+      ]
+    },
+    "vocab-0468": {
+      "text": "冷たい",
+      "segments": [
+        {
+          "text": "冷",
+          "reading": "tsume"
+        },
+        {
+          "text": "た",
+          "reading": "ta"
+        },
+        {
+          "text": "い",
+          "reading": "i"
+        }
+      ]
+    },
+    "vocab-0469": {
+      "text": "暖かい",
+      "segments": [
+        {
+          "text": "暖",
+          "reading": "atata"
+        },
+        {
+          "text": "か",
+          "reading": "ka"
+        },
+        {
+          "text": "い",
+          "reading": "i"
+        }
+      ]
+    },
+    "vocab-0470": {
+      "text": "涼しい",
+      "segments": [
+        {
+          "text": "涼",
+          "reading": "suzu"
+        },
+        {
+          "text": "し",
+          "reading": "shi"
+        },
+        {
+          "text": "い",
+          "reading": "i"
+        }
+      ]
+    }
+  }
+}

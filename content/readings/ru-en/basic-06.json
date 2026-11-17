@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "ru-en",
+  "blockId": "basic-06",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0051": {
+      "text": "water",
+      "segments": [
+        {
+          "text": "water",
+          "reading": "уотэр"
+        }
+      ]
+    },
+    "vocab-0052": {
+      "text": "bread",
+      "segments": [
+        {
+          "text": "bread",
+          "reading": "брэд"
+        }
+      ]
+    },
+    "vocab-0053": {
+      "text": "milk",
+      "segments": [
+        {
+          "text": "milk",
+          "reading": "милк"
+        }
+      ]
+    },
+    "vocab-0054": {
+      "text": "tea",
+      "segments": [
+        {
+          "text": "tea",
+          "reading": "ти"
+        }
+      ]
+    },
+    "vocab-0055": {
+      "text": "apple",
+      "segments": [
+        {
+          "text": "apple",
+          "reading": "эпэл"
+        }
+      ]
+    },
+    "vocab-0056": {
+      "text": "banana",
+      "segments": [
+        {
+          "text": "banana",
+          "reading": "бэнэнэ"
+        }
+      ]
+    },
+    "vocab-0057": {
+      "text": "cheese",
+      "segments": [
+        {
+          "text": "cheese",
+          "reading": "чиз"
+        }
+      ]
+    },
+    "vocab-0058": {
+      "text": "soup",
+      "segments": [
+        {
+          "text": "soup",
+          "reading": "суп"
+        }
+      ]
+    },
+    "vocab-0059": {
+      "text": "juice",
+      "segments": [
+        {
+          "text": "juice",
+          "reading": "джус"
+        }
+      ]
+    },
+    "vocab-0060": {
+      "text": "breakfast",
+      "segments": [
+        {
+          "text": "breakfast",
+          "reading": "брэкфэст"
+        }
+      ]
+    }
+  }
+}

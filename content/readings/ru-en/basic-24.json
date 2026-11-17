@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "ru-en",
+  "blockId": "basic-24",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0231": {
+      "text": "potato",
+      "segments": [
+        {
+          "text": "potato",
+          "reading": "пэтэйтоу"
+        }
+      ]
+    },
+    "vocab-0232": {
+      "text": "carrot",
+      "segments": [
+        {
+          "text": "carrot",
+          "reading": "кэрэт"
+        }
+      ]
+    },
+    "vocab-0233": {
+      "text": "tomato",
+      "segments": [
+        {
+          "text": "tomato",
+          "reading": "тэмэйтоу"
+        }
+      ]
+    },
+    "vocab-0234": {
+      "text": "cucumber",
+      "segments": [
+        {
+          "text": "cucumber",
+          "reading": "кьюкамбэр"
+        }
+      ]
+    },
+    "vocab-0235": {
+      "text": "onion",
+      "segments": [
+        {
+          "text": "onion",
+          "reading": "аньэн"
+        }
+      ]
+    },
+    "vocab-0236": {
+      "text": "garlic",
+      "segments": [
+        {
+          "text": "garlic",
+          "reading": "гарлик"
+        }
+      ]
+    },
+    "vocab-0237": {
+      "text": "cabbage",
+      "segments": [
+        {
+          "text": "cabbage",
+          "reading": "кэбидж"
+        }
+      ]
+    },
+    "vocab-0238": {
+      "text": "pepper",
+      "segments": [
+        {
+          "text": "pepper",
+          "reading": "пэпэр"
+        }
+      ]
+    },
+    "vocab-0239": {
+      "text": "peas",
+      "segments": [
+        {
+          "text": "peas",
+          "reading": "пиз"
+        }
+      ]
+    },
+    "vocab-0240": {
+      "text": "beans",
+      "segments": [
+        {
+          "text": "beans",
+          "reading": "бинз"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "ru-en",
+  "blockId": "basic-39",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0381": {
+      "text": "road",
+      "segments": [
+        {
+          "text": "road",
+          "reading": "роуд"
+        }
+      ]
+    },
+    "vocab-0382": {
+      "text": "bridge",
+      "segments": [
+        {
+          "text": "bridge",
+          "reading": "бридж"
+        }
+      ]
+    },
+    "vocab-0383": {
+      "text": "pedestrian crossing",
+      "segments": [
+        {
+          "text": "pedestrian crossing",
+          "reading": "пэдэстриэн кросинг"
+        }
+      ]
+    },
+    "vocab-0384": {
+      "text": "traffic lights",
+      "segments": [
+        {
+          "text": "traffic lights",
+          "reading": "трэфик лайтс"
+        }
+      ]
+    },
+    "vocab-0385": {
+      "text": "pavement",
+      "segments": [
+        {
+          "text": "pavement",
+          "reading": "пэйвмэнт"
+        }
+      ]
+    },
+    "vocab-0386": {
+      "text": "corner",
+      "segments": [
+        {
+          "text": "corner",
+          "reading": "корнэр"
+        }
+      ]
+    },
+    "vocab-0387": {
+      "text": "square",
+      "segments": [
+        {
+          "text": "square",
+          "reading": "скуэр"
+        }
+      ]
+    },
+    "vocab-0388": {
+      "text": "centre",
+      "segments": [
+        {
+          "text": "centre",
+          "reading": "сэнтэр"
+        }
+      ]
+    },
+    "vocab-0389": {
+      "text": "address",
+      "segments": [
+        {
+          "text": "address",
+          "reading": "эдрэс"
+        }
+      ]
+    },
+    "vocab-0390": {
+      "text": "city map",
+      "segments": [
+        {
+          "text": "city map",
+          "reading": "сити мэп"
+        }
+      ]
+    }
+  }
+}

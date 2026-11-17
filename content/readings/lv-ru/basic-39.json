@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "lv-ru",
+  "blockId": "basic-39",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0381": {
+      "text": "дорога",
+      "segments": [
+        {
+          "text": "дорога",
+          "reading": "daroga"
+        }
+      ]
+    },
+    "vocab-0382": {
+      "text": "мост",
+      "segments": [
+        {
+          "text": "мост",
+          "reading": "most"
+        }
+      ]
+    },
+    "vocab-0383": {
+      "text": "пешеходный переход",
+      "segments": [
+        {
+          "text": "пешеходный переход",
+          "reading": "pišihodnij pirihot"
+        }
+      ]
+    },
+    "vocab-0384": {
+      "text": "светофор",
+      "segments": [
+        {
+          "text": "светофор",
+          "reading": "svitafor"
+        }
+      ]
+    },
+    "vocab-0385": {
+      "text": "тротуар",
+      "segments": [
+        {
+          "text": "тротуар",
+          "reading": "tratuar"
+        }
+      ]
+    },
+    "vocab-0386": {
+      "text": "угол",
+      "segments": [
+        {
+          "text": "угол",
+          "reading": "ugal"
+        }
+      ]
+    },
+    "vocab-0387": {
+      "text": "площадь",
+      "segments": [
+        {
+          "text": "площадь",
+          "reading": "ploščat"
+        }
+      ]
+    },
+    "vocab-0388": {
+      "text": "центр",
+      "segments": [
+        {
+          "text": "центр",
+          "reading": "centr"
+        }
+      ]
+    },
+    "vocab-0389": {
+      "text": "адрес",
+      "segments": [
+        {
+          "text": "адрес",
+          "reading": "adris"
+        }
+      ]
+    },
+    "vocab-0390": {
+      "text": "карта города",
+      "segments": [
+        {
+          "text": "карта города",
+          "reading": "karta gorada"
+        }
+      ]
+    }
+  }
+}

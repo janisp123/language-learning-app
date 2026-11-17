@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "ru-en",
+  "blockId": "basic-04",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0031": {
+      "text": "help",
+      "segments": [
+        {
+          "text": "help",
+          "reading": "хэлп"
+        }
+      ]
+    },
+    "vocab-0032": {
+      "text": "stop",
+      "segments": [
+        {
+          "text": "stop",
+          "reading": "стап"
+        }
+      ]
+    },
+    "vocab-0033": {
+      "text": "here",
+      "segments": [
+        {
+          "text": "here",
+          "reading": "хир"
+        }
+      ]
+    },
+    "vocab-0034": {
+      "text": "there",
+      "segments": [
+        {
+          "text": "there",
+          "reading": "зэр"
+        }
+      ]
+    },
+    "vocab-0035": {
+      "text": "now",
+      "segments": [
+        {
+          "text": "now",
+          "reading": "нау"
+        }
+      ]
+    },
+    "vocab-0036": {
+      "text": "later",
+      "segments": [
+        {
+          "text": "later",
+          "reading": "лэйтэр"
+        }
+      ]
+    },
+    "vocab-0037": {
+      "text": "together",
+      "segments": [
+        {
+          "text": "together",
+          "reading": "тэгэзэр"
+        }
+      ]
+    },
+    "vocab-0038": {
+      "text": "again",
+      "segments": [
+        {
+          "text": "again",
+          "reading": "эгэн"
+        }
+      ]
+    },
+    "vocab-0039": {
+      "text": "slowly",
+      "segments": [
+        {
+          "text": "slowly",
+          "reading": "слоули"
+        }
+      ]
+    },
+    "vocab-0040": {
+      "text": "quickly",
+      "segments": [
+        {
+          "text": "quickly",
+          "reading": "куикли"
+        }
+      ]
+    }
+  }
+}

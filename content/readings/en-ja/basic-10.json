@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "direction": "en-ja",
+  "blockId": "basic-10",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0091": {
+      "text": "誰",
+      "segments": [
+        {
+          "text": "誰",
+          "reading": "dare"
+        }
+      ]
+    },
+    "vocab-0092": {
+      "text": "何",
+      "segments": [
+        {
+          "text": "何",
+          "reading": "nani"
+        }
+      ]
+    },
+    "vocab-0093": {
+      "text": "どこ",
+      "segments": [
+        {
+          "text": "ど",
+          "reading": "do"
+        },
+        {
+          "text": "こ",
+          "reading": "ko"
+        }
+      ]
+    },
+    "vocab-0094": {
+      "text": "いつ",
+      "segments": [
+        {
+          "text": "い",
+          "reading": "i"
+        },
+        {
+          "text": "つ",
+          "reading": "tsu"
+        }
+      ]
+    },
+    "vocab-0095": {
+      "text": "なぜ",
+      "segments": [
+        {
+          "text": "な",
+          "reading": "na"
+        },
+        {
+          "text": "ぜ",
+          "reading": "ze"
+        }
+      ]
+    },
+    "vocab-0096": {
+      "text": "どうやって",
+      "segments": [
+        {
+          "text": "ど",
+          "reading": "do"
+        },
+        {
+          "text": "う",
+          "reading": "u"
+        },
+        {
+          "text": "や",
+          "reading": "ya"
+        },
+        {
+          "text": "っ",
+          "reading": "(t)",
+          "note": "Doubles the next consonant; hold a brief pause before it."
+        },
+        {
+          "text": "て",
+          "reading": "te"
+        }
+      ]
+    },
+    "vocab-0097": {
+      "text": "いくつ",
+      "segments": [
+        {
+          "text": "い",
+          "reading": "i"
+        },
+        {
+          "text": "く",
+          "reading": "ku"
+        },
+        {
+          "text": "つ",
+          "reading": "tsu"
+        }
+      ]
+    },
+    "vocab-0098": {
+      "text": "いくら",
+      "segments": [
+        {
+          "text": "い",
+          "reading": "i"
+        },
+        {
+          "text": "く",
+          "reading": "ku"
+        },
+        {
+          "text": "ら",
+          "reading": "ra"
+        }
+      ]
+    },
+    "vocab-0099": {
+      "text": "どちらの道",
+      "segments": [
+        {
+          "text": "ど",
+          "reading": "do"
+        },
+        {
+          "text": "ち",
+          "reading": "chi"
+        },
+        {
+          "text": "ら",
+          "reading": "ra"
+        },
+        {
+          "text": "の",
+          "reading": "no"
+        },
+        {
+          "text": "道",
+          "reading": "michi"
+        }
+      ]
+    },
+    "vocab-0100": {
+      "text": "他に何",
+      "segments": [
+        {
+          "text": "他",
+          "reading": "hoka"
+        },
+        {
+          "text": "に",
+          "reading": "ni"
+        },
+        {
+          "text": "何",
+          "reading": "nani"
+        }
+      ]
+    }
+  }
+}

@@ -91,6 +91,13 @@ For each task: check `AGENTS.md` and `WORK_CHECKPOINT.md`, verify whether alread
 - **Goal:** Add English → Japanese for the same 510 meanings, script-only answers (owner choice), English UI and existing English current-prompt audio. Exactly seven directions; preserve all original six directions and content/audio/bindings. No Japanese reverse or LV/RU pairings, accounts, tracking or saved preferences.
 - **Verification:** 41 Node / 28 Python tests pass, including explicit allowlists, forbidden/forged session directions, full seven-direction completion, source-only UI/audio and target-first catalog order. Chromium traversed all 510 en-ja prompts at 320 px with English audio bindings, autoplay/cancellation, unchanged 499/500 ms timing, empty storage/cookies and reload reset. All 1,530 old clip hashes and all 510 old translations in each language unchanged. Independent code/content review issues resolved. Fluent human Japanese review, physical devices and full screen-reader audit remain pending.
 
+### L-010 — Source-language reading guides in three directions
+- **Added by:** Codex (explicit owner request, 2026-11-17)
+- **Implemented by:** Codex (local implementation; integration/review delivery tracked in the feature PR)
+- **Status:** Implementation and all 153 ten-item data batches prepared in review build 0.4.12. Human pronunciation review remains pending; preserve this task until verified integration.
+- **Scope:** lv-ru uses Latvian letters; ru-en uses Cyrillic; en-ja uses romaji below each kana with visible small-kana roles and contextual/grouped kanji readings. Exactly the existing seven selectable directions; other four unannotated. 510 guides per selected direction; separate modules keyed by original IDs.
+- **Acceptance:** Full coverage/binding validation, exact original translations/recordings preserved, no grading from speakers, 500ms transition and zero-saves unchanged; small/mobile/dark/keyboard checks. See [reading-guide modules](READING_GUIDES.md), feature PR and current checkpoint for actual local/source/Drive/public status. Fluent human review and actual physical devices remain separate checks.
+
 ## Out of scope for v1 (not backlog tasks)
 
 Languages/directions beyond the approved Latvian/Russian/English set and English → Japanese, 5–9 and 18+ paths, user accounts, cloud sync, servers, leaderboards, monetization, AI tutors, advanced pronunciation scoring, Apple App Store. These need an explicit new owner decision, not automatic addition.

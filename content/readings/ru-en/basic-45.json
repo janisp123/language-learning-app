@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "ru-en",
+  "blockId": "basic-45",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0441": {
+      "text": "to open",
+      "segments": [
+        {
+          "text": "to open",
+          "reading": "ту оупэн"
+        }
+      ]
+    },
+    "vocab-0442": {
+      "text": "to close",
+      "segments": [
+        {
+          "text": "to close",
+          "reading": "ту клоуз"
+        }
+      ]
+    },
+    "vocab-0443": {
+      "text": "to start",
+      "segments": [
+        {
+          "text": "to start",
+          "reading": "ту старт"
+        }
+      ]
+    },
+    "vocab-0444": {
+      "text": "to finish",
+      "segments": [
+        {
+          "text": "to finish",
+          "reading": "ту финиш"
+        }
+      ]
+    },
+    "vocab-0445": {
+      "text": "to wait",
+      "segments": [
+        {
+          "text": "to wait",
+          "reading": "ту уэйт"
+        }
+      ]
+    },
+    "vocab-0446": {
+      "text": "to help",
+      "segments": [
+        {
+          "text": "to help",
+          "reading": "ту хэлп"
+        }
+      ]
+    },
+    "vocab-0447": {
+      "text": "to play",
+      "segments": [
+        {
+          "text": "to play",
+          "reading": "ту плэй"
+        }
+      ]
+    },
+    "vocab-0448": {
+      "text": "to work",
+      "segments": [
+        {
+          "text": "to work",
+          "reading": "ту уёрк"
+        }
+      ]
+    },
+    "vocab-0449": {
+      "text": "to wash",
+      "segments": [
+        {
+          "text": "to wash",
+          "reading": "ту уаш"
+        }
+      ]
+    },
+    "vocab-0450": {
+      "text": "to clean",
+      "segments": [
+        {
+          "text": "to clean",
+          "reading": "ту клин"
+        }
+      ]
+    }
+  }
+}

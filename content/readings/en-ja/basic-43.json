@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "direction": "en-ja",
+  "blockId": "basic-43",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0421": {
+      "text": "言語を話す",
+      "segments": [
+        {
+          "text": "言",
+          "reading": "gen"
+        },
+        {
+          "text": "語",
+          "reading": "go"
+        },
+        {
+          "text": "を",
+          "reading": "o",
+          "note": "The object particle を is pronounced o."
+        },
+        {
+          "text": "話",
+          "reading": "hana"
+        },
+        {
+          "text": "す",
+          "reading": "su"
+        }
+      ]
+    },
+    "vocab-0422": {
+      "text": "言葉を言う",
+      "segments": [
+        {
+          "text": "言",
+          "reading": "koto"
+        },
+        {
+          "text": "葉",
+          "reading": "ba"
+        },
+        {
+          "text": "を",
+          "reading": "o",
+          "note": "The object particle を is pronounced o."
+        },
+        {
+          "text": "言",
+          "reading": "i"
+        },
+        {
+          "text": "う",
+          "reading": "u"
+        }
+      ]
+    },
+    "vocab-0423": {
+      "text": "尋ねる",
+      "segments": [
+        {
+          "text": "尋",
+          "reading": "tazu"
+        },
+        {
+          "text": "ね",
+          "reading": "ne"
+        },
+        {
+          "text": "る",
+          "reading": "ru"
+        }
+      ]
+    },
+    "vocab-0424": {
+      "text": "答える",
+      "segments": [
+        {
+          "text": "答",
+          "reading": "kota"
+        },
+        {
+          "text": "え",
+          "reading": "e"
+        },
+        {
+          "text": "る",
+          "reading": "ru"
+        }
+      ]
+    },
+    "vocab-0425": {
+      "text": "耳を傾ける",
+      "segments": [
+        {
+          "text": "耳",
+          "reading": "mimi"
+        },
+        {
+          "text": "を",
+          "reading": "o",
+          "note": "The object particle を is pronounced o."
+        },
+        {
+          "text": "傾",
+          "reading": "katamu"
+        },
+        {
+          "text": "け",
+          "reading": "ke"
+        },
+        {
+          "text": "る",
+          "reading": "ru"
+        }
+      ]
+    },
+    "vocab-0426": {
+      "text": "聞こえる",
+      "segments": [
+        {
+          "text": "聞",
+          "reading": "ki"
+        },
+        {
+          "text": "こ",
+          "reading": "ko"
+        },
+        {
+          "text": "え",
+          "reading": "e"
+        },
+        {
+          "text": "る",
+          "reading": "ru"
+        }
+      ]
+    },
+    "vocab-0427": {
+      "text": "読む",
+      "segments": [
+        {
+          "text": "読",
+          "reading": "yo"
+        },
+        {
+          "text": "む",
+          "reading": "mu"
+        }
+      ]
+    },
+    "vocab-0428": {
+      "text": "書く",
+      "segments": [
+        {
+          "text": "書",
+          "reading": "ka"
+        },
+        {
+          "text": "く",
+          "reading": "ku"
+        }
+      ]
+    },
+    "vocab-0429": {
+      "text": "学ぶ",
+      "segments": [
+        {
+          "text": "学",
+          "reading": "mana"
+        },
+        {
+          "text": "ぶ",
+          "reading": "bu"
+        }
+      ]
+    },
+    "vocab-0430": {
+      "text": "理解する",
+      "segments": [
+        {
+          "text": "理",
+          "reading": "ri"
+        },
+        {
+          "text": "解",
+          "reading": "kai"
+        },
+        {
+          "text": "す",
+          "reading": "su"
+        },
+        {
+          "text": "る",
+          "reading": "ru"
+        }
+      ]
+    }
+  }
+}

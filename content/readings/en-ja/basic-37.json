@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "direction": "en-ja",
+  "blockId": "basic-37",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0361": {
+      "text": "犬",
+      "segments": [
+        {
+          "text": "犬",
+          "reading": "inu"
+        }
+      ]
+    },
+    "vocab-0362": {
+      "text": "猫",
+      "segments": [
+        {
+          "text": "猫",
+          "reading": "neko"
+        }
+      ]
+    },
+    "vocab-0363": {
+      "text": "馬",
+      "segments": [
+        {
+          "text": "馬",
+          "reading": "uma"
+        }
+      ]
+    },
+    "vocab-0364": {
+      "text": "牛",
+      "segments": [
+        {
+          "text": "牛",
+          "reading": "ushi"
+        }
+      ]
+    },
+    "vocab-0365": {
+      "text": "豚",
+      "segments": [
+        {
+          "text": "豚",
+          "reading": "buta"
+        }
+      ]
+    },
+    "vocab-0366": {
+      "text": "羊",
+      "segments": [
+        {
+          "text": "羊",
+          "reading": "hitsuji"
+        }
+      ]
+    },
+    "vocab-0367": {
+      "text": "ヤギ",
+      "segments": [
+        {
+          "text": "ヤ",
+          "reading": "ya"
+        },
+        {
+          "text": "ギ",
+          "reading": "gi"
+        }
+      ]
+    },
+    "vocab-0368": {
+      "text": "めんどり",
+      "segments": [
+        {
+          "text": "め",
+          "reading": "me"
+        },
+        {
+          "text": "ん",
+          "reading": "n"
+        },
+        {
+          "text": "ど",
+          "reading": "do"
+        },
+        {
+          "text": "り",
+          "reading": "ri"
+        }
+      ]
+    },
+    "vocab-0369": {
+      "text": "アヒル",
+      "segments": [
+        {
+          "text": "ア",
+          "reading": "a"
+        },
+        {
+          "text": "ヒ",
+          "reading": "hi"
+        },
+        {
+          "text": "ル",
+          "reading": "ru"
+        }
+      ]
+    },
+    "vocab-0370": {
+      "text": "鳥",
+      "segments": [
+        {
+          "text": "鳥",
+          "reading": "tori"
+        }
+      ]
+    }
+  }
+}

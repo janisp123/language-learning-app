@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "direction": "en-ja",
+  "blockId": "basic-33",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0321": {
+      "text": "一月",
+      "segments": [
+        {
+          "text": "一",
+          "reading": "ichi"
+        },
+        {
+          "text": "月",
+          "reading": "gatsu"
+        }
+      ]
+    },
+    "vocab-0322": {
+      "text": "二月",
+      "segments": [
+        {
+          "text": "二",
+          "reading": "ni"
+        },
+        {
+          "text": "月",
+          "reading": "gatsu"
+        }
+      ]
+    },
+    "vocab-0323": {
+      "text": "三月",
+      "segments": [
+        {
+          "text": "三",
+          "reading": "san"
+        },
+        {
+          "text": "月",
+          "reading": "gatsu"
+        }
+      ]
+    },
+    "vocab-0324": {
+      "text": "四月",
+      "segments": [
+        {
+          "text": "四",
+          "reading": "shi"
+        },
+        {
+          "text": "月",
+          "reading": "gatsu"
+        }
+      ]
+    },
+    "vocab-0325": {
+      "text": "五月",
+      "segments": [
+        {
+          "text": "五",
+          "reading": "go"
+        },
+        {
+          "text": "月",
+          "reading": "gatsu"
+        }
+      ]
+    },
+    "vocab-0326": {
+      "text": "六月",
+      "segments": [
+        {
+          "text": "六",
+          "reading": "roku"
+        },
+        {
+          "text": "月",
+          "reading": "gatsu"
+        }
+      ]
+    },
+    "vocab-0327": {
+      "text": "七月",
+      "segments": [
+        {
+          "text": "七",
+          "reading": "shichi"
+        },
+        {
+          "text": "月",
+          "reading": "gatsu"
+        }
+      ]
+    },
+    "vocab-0328": {
+      "text": "八月",
+      "segments": [
+        {
+          "text": "八",
+          "reading": "hachi"
+        },
+        {
+          "text": "月",
+          "reading": "gatsu"
+        }
+      ]
+    },
+    "vocab-0329": {
+      "text": "九月",
+      "segments": [
+        {
+          "text": "九",
+          "reading": "ku"
+        },
+        {
+          "text": "月",
+          "reading": "gatsu"
+        }
+      ]
+    },
+    "vocab-0330": {
+      "text": "十月",
+      "segments": [
+        {
+          "text": "十",
+          "reading": "juu"
+        },
+        {
+          "text": "月",
+          "reading": "gatsu"
+        }
+      ]
+    }
+  }
+}

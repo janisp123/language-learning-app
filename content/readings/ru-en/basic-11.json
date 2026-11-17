@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "ru-en",
+  "blockId": "basic-11",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0101": {
+      "text": "grandmother",
+      "segments": [
+        {
+          "text": "grandmother",
+          "reading": "грэндмазэр"
+        }
+      ]
+    },
+    "vocab-0102": {
+      "text": "grandfather",
+      "segments": [
+        {
+          "text": "grandfather",
+          "reading": "грэндфазэр"
+        }
+      ]
+    },
+    "vocab-0103": {
+      "text": "aunt",
+      "segments": [
+        {
+          "text": "aunt",
+          "reading": "энт"
+        }
+      ]
+    },
+    "vocab-0104": {
+      "text": "uncle",
+      "segments": [
+        {
+          "text": "uncle",
+          "reading": "анкэл"
+        }
+      ]
+    },
+    "vocab-0105": {
+      "text": "parents",
+      "segments": [
+        {
+          "text": "parents",
+          "reading": "пэрэнтс"
+        }
+      ]
+    },
+    "vocab-0106": {
+      "text": "grandparents",
+      "segments": [
+        {
+          "text": "grandparents",
+          "reading": "грэндпэрэнтс"
+        }
+      ]
+    },
+    "vocab-0107": {
+      "text": "baby",
+      "segments": [
+        {
+          "text": "baby",
+          "reading": "бэйби"
+        }
+      ]
+    },
+    "vocab-0108": {
+      "text": "teenager",
+      "segments": [
+        {
+          "text": "teenager",
+          "reading": "тинэйджэр"
+        }
+      ]
+    },
+    "vocab-0109": {
+      "text": "neighbour",
+      "segments": [
+        {
+          "text": "neighbour",
+          "reading": "нэйбэр"
+        }
+      ]
+    },
+    "vocab-0110": {
+      "text": "guest",
+      "segments": [
+        {
+          "text": "guest",
+          "reading": "гэст"
+        }
+      ]
+    }
+  }
+}

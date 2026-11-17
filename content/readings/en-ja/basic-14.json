@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "direction": "en-ja",
+  "blockId": "basic-14",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0131": {
+      "text": "手のひら",
+      "segments": [
+        {
+          "text": "手",
+          "reading": "te"
+        },
+        {
+          "text": "の",
+          "reading": "no"
+        },
+        {
+          "text": "ひ",
+          "reading": "hi"
+        },
+        {
+          "text": "ら",
+          "reading": "ra"
+        }
+      ]
+    },
+    "vocab-0132": {
+      "text": "腕",
+      "segments": [
+        {
+          "text": "腕",
+          "reading": "ude"
+        }
+      ]
+    },
+    "vocab-0133": {
+      "text": "指",
+      "segments": [
+        {
+          "text": "指",
+          "reading": "yubi"
+        }
+      ]
+    },
+    "vocab-0134": {
+      "text": "脚",
+      "segments": [
+        {
+          "text": "脚",
+          "reading": "ashi"
+        }
+      ]
+    },
+    "vocab-0135": {
+      "text": "足",
+      "segments": [
+        {
+          "text": "足",
+          "reading": "ashi"
+        }
+      ]
+    },
+    "vocab-0136": {
+      "text": "膝",
+      "segments": [
+        {
+          "text": "膝",
+          "reading": "hiza"
+        }
+      ]
+    },
+    "vocab-0137": {
+      "text": "背中",
+      "segments": [
+        {
+          "text": "背",
+          "reading": "se"
+        },
+        {
+          "text": "中",
+          "reading": "naka"
+        }
+      ]
+    },
+    "vocab-0138": {
+      "text": "お腹",
+      "segments": [
+        {
+          "text": "お",
+          "reading": "o"
+        },
+        {
+          "text": "腹",
+          "reading": "naka"
+        }
+      ]
+    },
+    "vocab-0139": {
+      "text": "肩",
+      "segments": [
+        {
+          "text": "肩",
+          "reading": "kata"
+        }
+      ]
+    },
+    "vocab-0140": {
+      "text": "皮膚",
+      "segments": [
+        {
+          "text": "皮",
+          "reading": "hi"
+        },
+        {
+          "text": "膚",
+          "reading": "fu"
+        }
+      ]
+    }
+  }
+}

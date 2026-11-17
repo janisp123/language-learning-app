@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "ru-en",
+  "blockId": "basic-37",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0361": {
+      "text": "dog",
+      "segments": [
+        {
+          "text": "dog",
+          "reading": "дог"
+        }
+      ]
+    },
+    "vocab-0362": {
+      "text": "cat",
+      "segments": [
+        {
+          "text": "cat",
+          "reading": "кэт"
+        }
+      ]
+    },
+    "vocab-0363": {
+      "text": "horse",
+      "segments": [
+        {
+          "text": "horse",
+          "reading": "хорс"
+        }
+      ]
+    },
+    "vocab-0364": {
+      "text": "cow",
+      "segments": [
+        {
+          "text": "cow",
+          "reading": "кау"
+        }
+      ]
+    },
+    "vocab-0365": {
+      "text": "pig",
+      "segments": [
+        {
+          "text": "pig",
+          "reading": "пиг"
+        }
+      ]
+    },
+    "vocab-0366": {
+      "text": "sheep",
+      "segments": [
+        {
+          "text": "sheep",
+          "reading": "шип"
+        }
+      ]
+    },
+    "vocab-0367": {
+      "text": "goat",
+      "segments": [
+        {
+          "text": "goat",
+          "reading": "гоут"
+        }
+      ]
+    },
+    "vocab-0368": {
+      "text": "hen",
+      "segments": [
+        {
+          "text": "hen",
+          "reading": "хэн"
+        }
+      ]
+    },
+    "vocab-0369": {
+      "text": "duck",
+      "segments": [
+        {
+          "text": "duck",
+          "reading": "дак"
+        }
+      ]
+    },
+    "vocab-0370": {
+      "text": "bird",
+      "segments": [
+        {
+          "text": "bird",
+          "reading": "бёрд"
+        }
+      ]
+    }
+  }
+}

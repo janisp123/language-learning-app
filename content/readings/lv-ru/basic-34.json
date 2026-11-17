@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "lv-ru",
+  "blockId": "basic-34",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0331": {
+      "text": "ноябрь",
+      "segments": [
+        {
+          "text": "ноябрь",
+          "reading": "najabr"
+        }
+      ]
+    },
+    "vocab-0332": {
+      "text": "декабрь",
+      "segments": [
+        {
+          "text": "декабрь",
+          "reading": "dikabr"
+        }
+      ]
+    },
+    "vocab-0333": {
+      "text": "весна",
+      "segments": [
+        {
+          "text": "весна",
+          "reading": "visna"
+        }
+      ]
+    },
+    "vocab-0334": {
+      "text": "лето",
+      "segments": [
+        {
+          "text": "лето",
+          "reading": "ļeta"
+        }
+      ]
+    },
+    "vocab-0335": {
+      "text": "осень",
+      "segments": [
+        {
+          "text": "осень",
+          "reading": "osiņ"
+        }
+      ]
+    },
+    "vocab-0336": {
+      "text": "зима",
+      "segments": [
+        {
+          "text": "зима",
+          "reading": "zima"
+        }
+      ]
+    },
+    "vocab-0337": {
+      "text": "время года",
+      "segments": [
+        {
+          "text": "время года",
+          "reading": "vremja goda"
+        }
+      ]
+    },
+    "vocab-0338": {
+      "text": "погода",
+      "segments": [
+        {
+          "text": "погода",
+          "reading": "pagoda"
+        }
+      ]
+    },
+    "vocab-0339": {
+      "text": "солнце",
+      "segments": [
+        {
+          "text": "солнце",
+          "reading": "sonce"
+        }
+      ]
+    },
+    "vocab-0340": {
+      "text": "луна",
+      "segments": [
+        {
+          "text": "луна",
+          "reading": "luna"
+        }
+      ]
+    }
+  }
+}

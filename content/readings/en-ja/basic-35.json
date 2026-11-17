@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "direction": "en-ja",
+  "blockId": "basic-35",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0341": {
+      "text": "雨",
+      "segments": [
+        {
+          "text": "雨",
+          "reading": "ame"
+        }
+      ]
+    },
+    "vocab-0342": {
+      "text": "雪",
+      "segments": [
+        {
+          "text": "雪",
+          "reading": "yuki"
+        }
+      ]
+    },
+    "vocab-0343": {
+      "text": "風",
+      "segments": [
+        {
+          "text": "風",
+          "reading": "kaze"
+        }
+      ]
+    },
+    "vocab-0344": {
+      "text": "雲",
+      "segments": [
+        {
+          "text": "雲",
+          "reading": "kumo"
+        }
+      ]
+    },
+    "vocab-0345": {
+      "text": "霧",
+      "segments": [
+        {
+          "text": "霧",
+          "reading": "kiri"
+        }
+      ]
+    },
+    "vocab-0346": {
+      "text": "氷",
+      "segments": [
+        {
+          "text": "氷",
+          "reading": "koori"
+        }
+      ]
+    },
+    "vocab-0347": {
+      "text": "雷",
+      "segments": [
+        {
+          "text": "雷",
+          "reading": "kaminari"
+        }
+      ]
+    },
+    "vocab-0348": {
+      "text": "嵐",
+      "segments": [
+        {
+          "text": "嵐",
+          "reading": "arashi"
+        }
+      ]
+    },
+    "vocab-0349": {
+      "text": "虹",
+      "segments": [
+        {
+          "text": "虹",
+          "reading": "niji"
+        }
+      ]
+    },
+    "vocab-0350": {
+      "text": "気温",
+      "segments": [
+        {
+          "text": "気",
+          "reading": "ki"
+        },
+        {
+          "text": "温",
+          "reading": "on"
+        }
+      ]
+    }
+  }
+}

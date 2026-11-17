@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "lv-ru",
+  "blockId": "basic-24",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0231": {
+      "text": "картофель",
+      "segments": [
+        {
+          "text": "картофель",
+          "reading": "kartofeļ"
+        }
+      ]
+    },
+    "vocab-0232": {
+      "text": "морковь",
+      "segments": [
+        {
+          "text": "морковь",
+          "reading": "markof"
+        }
+      ]
+    },
+    "vocab-0233": {
+      "text": "помидор",
+      "segments": [
+        {
+          "text": "помидор",
+          "reading": "pamidor"
+        }
+      ]
+    },
+    "vocab-0234": {
+      "text": "огурец",
+      "segments": [
+        {
+          "text": "огурец",
+          "reading": "agurec"
+        }
+      ]
+    },
+    "vocab-0235": {
+      "text": "лук",
+      "segments": [
+        {
+          "text": "лук",
+          "reading": "luk"
+        }
+      ]
+    },
+    "vocab-0236": {
+      "text": "чеснок",
+      "segments": [
+        {
+          "text": "чеснок",
+          "reading": "čisnok"
+        }
+      ]
+    },
+    "vocab-0237": {
+      "text": "капуста",
+      "segments": [
+        {
+          "text": "капуста",
+          "reading": "kapusta"
+        }
+      ]
+    },
+    "vocab-0238": {
+      "text": "сладкий перец",
+      "segments": [
+        {
+          "text": "сладкий перец",
+          "reading": "slatkij peric"
+        }
+      ]
+    },
+    "vocab-0239": {
+      "text": "горох",
+      "segments": [
+        {
+          "text": "горох",
+          "reading": "garoh"
+        }
+      ]
+    },
+    "vocab-0240": {
+      "text": "фасоль",
+      "segments": [
+        {
+          "text": "фасоль",
+          "reading": "fasoļ"
+        }
+      ]
+    }
+  }
+}

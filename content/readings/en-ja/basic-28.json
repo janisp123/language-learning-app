@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "direction": "en-ja",
+  "blockId": "basic-28",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0271": {
+      "text": "お金",
+      "segments": [
+        {
+          "text": "お",
+          "reading": "o"
+        },
+        {
+          "text": "金",
+          "reading": "kane"
+        }
+      ]
+    },
+    "vocab-0272": {
+      "text": "値段",
+      "segments": [
+        {
+          "text": "値",
+          "reading": "ne"
+        },
+        {
+          "text": "段",
+          "reading": "dan"
+        }
+      ]
+    },
+    "vocab-0273": {
+      "text": "お釣り",
+      "segments": [
+        {
+          "text": "お",
+          "reading": "o"
+        },
+        {
+          "text": "釣",
+          "reading": "tsu"
+        },
+        {
+          "text": "り",
+          "reading": "ri"
+        }
+      ]
+    },
+    "vocab-0274": {
+      "text": "レシート",
+      "segments": [
+        {
+          "text": "レ",
+          "reading": "re"
+        },
+        {
+          "text": "シ",
+          "reading": "shi"
+        },
+        {
+          "text": "ー",
+          "reading": "—",
+          "note": "Lengthens the preceding vowel; it has no separate consonant sound."
+        },
+        {
+          "text": "ト",
+          "reading": "to"
+        }
+      ]
+    },
+    "vocab-0275": {
+      "text": "レジ",
+      "segments": [
+        {
+          "text": "レ",
+          "reading": "re"
+        },
+        {
+          "text": "ジ",
+          "reading": "ji"
+        }
+      ]
+    },
+    "vocab-0276": {
+      "text": "かご",
+      "segments": [
+        {
+          "text": "か",
+          "reading": "ka"
+        },
+        {
+          "text": "ご",
+          "reading": "go"
+        }
+      ]
+    },
+    "vocab-0277": {
+      "text": "袋",
+      "segments": [
+        {
+          "text": "袋",
+          "reading": "fukuro"
+        }
+      ]
+    },
+    "vocab-0278": {
+      "text": "サイズ",
+      "segments": [
+        {
+          "text": "サ",
+          "reading": "sa"
+        },
+        {
+          "text": "イ",
+          "reading": "i"
+        },
+        {
+          "text": "ズ",
+          "reading": "zu"
+        }
+      ]
+    },
+    "vocab-0279": {
+      "text": "割引",
+      "segments": [
+        {
+          "text": "割",
+          "reading": "wari"
+        },
+        {
+          "text": "引",
+          "reading": "biki"
+        }
+      ]
+    },
+    "vocab-0280": {
+      "text": "カード",
+      "segments": [
+        {
+          "text": "カ",
+          "reading": "ka"
+        },
+        {
+          "text": "ー",
+          "reading": "—",
+          "note": "Lengthens the preceding vowel; it has no separate consonant sound."
+        },
+        {
+          "text": "ド",
+          "reading": "do"
+        }
+      ]
+    }
+  }
+}

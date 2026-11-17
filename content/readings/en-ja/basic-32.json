@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "direction": "en-ja",
+  "blockId": "basic-32",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0311": {
+      "text": "月曜日",
+      "segments": [
+        {
+          "text": "月",
+          "reading": "getsu"
+        },
+        {
+          "text": "曜",
+          "reading": "you"
+        },
+        {
+          "text": "日",
+          "reading": "bi"
+        }
+      ]
+    },
+    "vocab-0312": {
+      "text": "火曜日",
+      "segments": [
+        {
+          "text": "火",
+          "reading": "ka"
+        },
+        {
+          "text": "曜",
+          "reading": "you"
+        },
+        {
+          "text": "日",
+          "reading": "bi"
+        }
+      ]
+    },
+    "vocab-0313": {
+      "text": "水曜日",
+      "segments": [
+        {
+          "text": "水",
+          "reading": "sui"
+        },
+        {
+          "text": "曜",
+          "reading": "you"
+        },
+        {
+          "text": "日",
+          "reading": "bi"
+        }
+      ]
+    },
+    "vocab-0314": {
+      "text": "木曜日",
+      "segments": [
+        {
+          "text": "木",
+          "reading": "moku"
+        },
+        {
+          "text": "曜",
+          "reading": "you"
+        },
+        {
+          "text": "日",
+          "reading": "bi"
+        }
+      ]
+    },
+    "vocab-0315": {
+      "text": "金曜日",
+      "segments": [
+        {
+          "text": "金",
+          "reading": "kin"
+        },
+        {
+          "text": "曜",
+          "reading": "you"
+        },
+        {
+          "text": "日",
+          "reading": "bi"
+        }
+      ]
+    },
+    "vocab-0316": {
+      "text": "土曜日",
+      "segments": [
+        {
+          "text": "土",
+          "reading": "do"
+        },
+        {
+          "text": "曜",
+          "reading": "you"
+        },
+        {
+          "text": "日",
+          "reading": "bi"
+        }
+      ]
+    },
+    "vocab-0317": {
+      "text": "日曜日",
+      "segments": [
+        {
+          "text": "日",
+          "reading": "nichi"
+        },
+        {
+          "text": "曜",
+          "reading": "you"
+        },
+        {
+          "text": "日",
+          "reading": "bi"
+        }
+      ]
+    },
+    "vocab-0318": {
+      "text": "週末",
+      "segments": [
+        {
+          "text": "週",
+          "reading": "shuu"
+        },
+        {
+          "text": "末",
+          "reading": "matsu"
+        }
+      ]
+    },
+    "vocab-0319": {
+      "text": "時間",
+      "segments": [
+        {
+          "text": "時",
+          "reading": "ji"
+        },
+        {
+          "text": "間",
+          "reading": "kan"
+        }
+      ]
+    },
+    "vocab-0320": {
+      "text": "分",
+      "segments": [
+        {
+          "text": "分",
+          "reading": "fun"
+        }
+      ]
+    }
+  }
+}
