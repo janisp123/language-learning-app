@@ -1,8 +1,12 @@
 # GitHub Pages setup and editing handoff
 
+## Current hosting status — verified 2026-11-17
+
+GitHub Pages is enabled and the existing site is live: [project website](https://janisp123.github.io/language-learning-app/) · [learning app](https://janisp123.github.io/language-learning-app/learn/). Main `a159c6618be40e7acdd53966e3fca60264abad7e` (PR #18) published build 0.4.11 through successful Pages run [44168243948](https://github.com/janisp123/language-learning-app/actions/runs/44168243948). Hosted app bytes match the committed download (SHA-256 `e5bb8fee28d2d3f781de41f0e59f9592e27163bdf73ef7e4323039db6ab07c40`). No repeat owner setup is needed. The initial setup failure below is retained as dated history; it is no longer a blocker. Current app bundles 2040 clips, including Japanese answers. See the [checkpoint](../WORK_CHECKPOINT.md) and pending detailed evidence PR #19.
+
 The language-app website is already built. The owner does not need to create or design another webpage. GitHub Pages will host the existing repository sources, using the same delivery pattern as the mental-health project: a landing page, an online Learn action and a stable Drive-folder download action. Keep the projects and their task lists separate.
 
-## One-time owner setup
+## Initial one-time owner setup (already completed)
 
 1. Open [this repository's Pages settings](https://github.com/janisp123/language-learning-app/settings/pages) while signed into an account with repository administration access.
 2. Under **Build and deployment**, select **Source: GitHub Actions**. Complete any account confirmation GitHub requires.
@@ -10,7 +14,7 @@ The language-app website is already built. The owner does not need to create or 
 
 The connected GitHub tools can edit repository files and retry workflow jobs, but do not expose this Pages administration setting. The workflow intentionally uses `configure-pages` with `enablement: false`; it reads the owner-enabled configuration.
 
-## Verified state and blocker
+## Historical setup blocker — superseded
 
 PR #6 is merged. Version 0.4.3 and its full audio source are on main at `85e4dc400fe58075df806cf5d03d3c757a9f49bf`. Browser checks [44053240358](https://github.com/janisp123/language-learning-app/actions/runs/44053240358) succeeded.
 
@@ -18,7 +22,7 @@ Publication [44053240327](https://github.com/janisp123/language-learning-app/act
 
 This is a hosting-configuration blocker, not a missing webpage or unsynchronized app source. Recheck the latest remote state before acting; this record is a dated handoff.
 
-## Resume publication after setup
+## Historical resume instructions after initial setup
 
 Codex should refresh main and inspect the existing publication run, then rerun only its failed jobs if it is still the relevant run. Avoid duplicate deployments. If GitHub requires an environment approval or reports another configuration error, identify that exact requirement.
 
@@ -43,7 +47,7 @@ The **Publish language app website** workflow runs after relevant approved chang
 ## Published artifact and delivery boundaries
 
 - `index.html`: landing page.
-- `learn/index.html`: complete self-contained browser app with 1,530 pronunciation clips for 510 items.
+- `learn/index.html`: complete self-contained browser app with 2,040 pronunciation clips for 510 items across LV/RU/EN/JA.
 - `language-learning-test.html`: identical app bytes retained for technical parity checks.
 
 The public download action points to the default Drive folder. Only staged public files enter the artifact. Learning state remains in browser memory. Preserve the established Drive delivery/readback process when a requested app change also updates the review download; a website deployment does not by itself prove Drive was refreshed.

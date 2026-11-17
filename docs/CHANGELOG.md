@@ -1,3 +1,7 @@
+## 2026-11-17 — GitHub presentation polish (Codex; PR pending)
+
+Owner-authorized documentation-only slice from main `a159c6618be40e7acdd53966e3fca60264abad7e`. README foregrounds the real browser app, hobby motivation, ChatGPT/Codex assistance, seven directions, zero saves and outstanding review limits. Added a genuine live-app screenshot and contribution guidance. Corrected current checkpoint/TD/Pages-handoff summaries while retaining old handoffs and preserving the previous checkpoint. Existing homepage/topics/description already present; no license or repository setting changed. Pending receipts PR #19 and older overlapping documentation PRs remain separate. App, content, audio, generated HTML and workflow bytes unchanged; no release/Drive update. Link/render and verification results are recorded in the presentation PR; runtime results must be taken from actual CI, not inferred from this prose.
+
 ## 2026-11-17 — Practical request core and earlier communication tools, 0.4.5
 
 Delivery verified: source 67eef5721f0ba3a61bb23009095d0dae5976131c is pushed, CI 44082103872 succeeded and independent whole-change review found no actionable findings. Stable Drive HTML replaced and downloaded back exactly: SHA-256 7320a60100a762fc948173eabcea23e070dd23596a08567190457dbca467cbf7, 15,802,419 bytes. Current receipt: delivery/2026-11-17-practical-core-drive-sync.json. Integration remains pending PR #7; no public deployment.

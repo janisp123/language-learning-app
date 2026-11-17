@@ -1,7 +1,9 @@
 # TD.learn — active approved tasks for the language-learning app
 
 **Repository:** `janisp123/language-learning-app` • **Branch of record:** `main`  
-**State:** The owner explicitly requested a runnable browser test build. Version 0.4.3 engine, draft course, browser UI, full audio and portable build are integrated through PR #6. Pages publication is blocked on owner setup; Android, language review, hosted verification and final releases remain unfinished. See discovery-preview/LAUNCH.md for the website setup/editing handoff. Task presence alone never authorizes work or publication.
+**State (verified 2026-11-17):** Browser review build 0.4.11 is integrated through PR #18 and publicly deployed. Main CI 44168243818 and Pages 44168243948 succeeded; hosted HTML equals the committed download. Android, fluent human review, physical-device/full-accessibility checks and final release remain unfinished. No license has been selected. [Current checkpoint](WORK_CHECKPOINT.md) records the latest evidence. Task presence alone never authorizes work or publication.
+
+**Reading older task notes:** The slice-by-slice statuses below preserve earlier branch handoffs, including statements that integration or Pages setup was pending. They are historical at those points, not the current deployment status. Browser source PRs #7–#18 have since merged; PR #19 holds the latest detailed publication receipts. Do not repeat delivered work or treat a historical “pending” note as an unimplemented feature. Remaining human/platform/release gates and original task attribution are retained.
 
 For each task: check `AGENTS.md` and `WORK_CHECKPOINT.md`, verify whether already delivered, identify dependencies, use a short-lived branch and checked PR, and update changelog + checkpoint after completing verified work. Preserve `Added by` attribution.
 

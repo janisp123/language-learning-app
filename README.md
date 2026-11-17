@@ -1,24 +1,40 @@
 # Language Learning App
 
-A free language-learning project for practical Latvian, Russian and English communication, initially for ages 10–17, with an additional English → Japanese direction.
+**[Try the app](https://janisp123.github.io/language-learning-app/learn/)** · [Project website](https://janisp123.github.io/language-learning-app/)
 
-## Try the browser test build
+Short lessons for practical Latvian, Russian and English communication, plus English → Japanese for my own learning. Free to try in a browser, with pronunciation and no account or installation.
 
-Dark mode selected on the website carries into learning. The learning header also has a theme toggle. Theme stays in page memory only; reloading starts light with lesson 1.
+I'm Janis. I wanted a simple way to practise useful everyday words and phrases, and a chance to see how far an idea could go with AI assistance. I use ChatGPT and Codex to help turn requirements into code, tests and working applications. This is a hobby project: I enjoy experimenting, checking the results and learning as I build.
 
-**[Open the app in your browser](https://janisp123.github.io/language-learning-app/learn/)** — start learning directly, with no download or installation.
+![The live learning app in English, with an English prompt, four Latvian answers and separate pronunciation buttons](docs/images/learning-current.png)
 
-[Project website](https://janisp123.github.io/language-learning-app/) · [Download the portable HTML](https://janisp123.github.io/language-learning-app/language-learning-test.html)
+## What works today
 
-**[Download the test HTML file](downloads/language-learning-test.html)** using GitHub's Download raw file control, save it with the `.html` extension, and open it in a browser. GitHub's source/raw viewer does not run the app. No installation, server, account or network is needed after download.
+- 510 draft words and short phrases in 51 ten-question lessons, initially designed around ages 10–17.
+- Exactly seven directions: all six between Latvian, Russian and English, plus **English → Japanese only**. Japanese answers use Japanese script; this direction keeps the English interface.
+- Bundled pronunciation for every item in all four languages. The current prompt attempts playback automatically; its speaker replays it if autoplay is blocked. Each answer has its own speaker, which plays without submitting an answer.
+- A responsive browser interface with light/dark mode. The project website has EN/RU/LV reading controls; the learning interface follows the source language.
+- Offline practice after downloading the self-contained HTML. No accounts, ads or tracking in the app.
 
-This test build contains 51 draft blocks of ten questions, covering 510 basic words and short phrases with translations in all three languages. The original 500 are preserved; ten new practical items connect familiar words through needs, communication repair, help calls and exclusions. Pronouns/help phrases come earlier, and the new request block follows the introductory 100 items. Choose one of seven directions: the six directions between Latvian, Russian and English, plus English → Japanese. Japanese answers use Japanese script only; this direction uses the English interface. Then Start practice. Tap one of four reshuffled choices: feedback appears immediately, then the next prompt opens automatically after 0.5 seconds. No Continue button is needed. Ten correct answers in a row complete a lesson; a mistake steps back one prompt and resets the run. Each lesson is a ten-question block. The third mistake in the same block restarts at lesson one, question one, even when correct answers came between mistakes. The mistake count resets on entering a new block or restarting. Fresh sessions start at lesson one. There is no saved progress, tracking, ads, XP, lives or daily streaks.
+**Zero saved learner progress:** answers, counters and preferences stay in current page memory. Every reload or fresh session starts at lesson 1. There are no progress files, saved records or daily streaks. Website dark mode carries into learning for that visit; a clean reload starts light.
 
-**Draft, not a finished release:** fluent human language review and physical-device/full-accessibility verification remain pending. The interface follows the source language: Latvian when starting from Latvian, Russian when starting from Russian, and English when starting from English. Changing direction switches the UI immediately. Pronunciation audio covers all 510 vocabulary items in Latvian, Russian, English and Japanese; all seven learning directions have prompt and answer playback. A speaker button beside the current word or phrase plays its pronunciation in the displayed source language. Each answer also has a separate speaker: listen to any Latvian, Russian, English or Japanese option without selecting it, changing progress or moving on. Click the answer text to submit it. Japanese answer pronunciation is bundled too; all seven directions support replaying every answer. The current prompt automatically attempts pronunciation once each time it appears; its speaker button replays it and remains usable if the browser blocks autoplay. English → Japanese uses the existing English prompt recordings. Previous-answer audio is absent. No Android download or Google Play listing exists yet. Do not describe the test build as publicly deployed without actual deployment evidence.
+**Still a review build:** fluent human translation/pronunciation review, physical-device testing and a full accessibility review remain pending. Android and Google Play delivery are not implemented. Working browser features do not mean the course has been independently reviewed.
 
-[Testing guide, architecture and verification limits](docs/BROWSER_TEST_BUILD.md). [Audio editing and module boundaries](docs/AUDIO_MODULES.md).
+## How practice works
+
+Choose a direction and start. Select answer text to submit it, or tap any speaker just to listen. Choices reshuffle each time a prompt appears. Feedback is immediate; the next prompt appears after 500 ms.
+
+Ten consecutive correct answers complete a lesson. A wrong answer steps back one prompt and resets the consecutive run. The third mistake within the same lesson restarts at lesson 1, even if correct answers came between mistakes. Completing a lesson or restarting clears that lesson's mistake counter.
+
+## Use it offline
+
+[Download the portable HTML](https://janisp123.github.io/language-learning-app/language-learning-test.html), save it with the `.html` extension and open the saved file in a browser. No server or network is needed after download; course and audio are bundled.
+
+The same generated file is available in [the repository download](downloads/language-learning-test.html). Use GitHub's **Download raw file** control: its source viewer does not run the app. Local HTML handling varies by phone; physical-device verification remains pending.
 
 ## Source and checks
+
+The app uses plain JavaScript, HTML and CSS, JSON course modules, Python packaging, Node/Python tests and GitHub Actions. There is no framework or runtime dependency installation. ChatGPT and Codex assist with implementation and documentation; the source and verification records remain inspectable.
 
 ```sh
 npm test
@@ -26,24 +42,27 @@ python -m unittest discover -s tests -p 'test_*.py' -v
 python tools/build_browser.py
 ```
 
-Requires Node 24+ and Python 3.12+. No dependency installation is needed. The generated file is `dist/language-learning-test.html`; the committed download is generated from the same canonical sources and checked for parity in CI.
+Requires Node 24+ and Python 3.12+. The generated file is `dist/language-learning-test.html`; the committed download is built from the same canonical sources and checked for parity in CI.
 
-- `content/`: catalog, permanent concepts, separate ten-question block files and per-language translation/UI modules.
-- `core/`: platform-independent learning behavior.
-- `web/`: generic accessible browser template, CSS and UI event handling; directions are generated from the catalog.
-- `tools/`: deterministic standalone/browser-site packaging.
-- `tests/`: engine/content/UI-wiring and build checks.
+| Area | Source |
+|---|---|
+| Course | `content/`: catalog, permanent concepts, ten-question blocks and per-language modules |
+| Learning rules | `core/`: platform-independent learning behavior |
+| Browser interface | `web/`: template, styles, audio and event handling |
+| Packaging and checks | `tools/` and `tests/` |
+| Website | `docs/discovery-preview/index.html`, staged by the existing Pages workflow |
 
-## Add blocks or languages later
+## Contributing and project records
 
-See [the content module guide](docs/CONTENT_MODULES.md). New blocks/languages are registered through data files, not engine edits. Explicit question/concept/correct-answer IDs, meaning checks, strict UI contracts and a digest of the original questions/answers prevent silent binding changes. The owner-requested vocabulary revision has a new course ID and permanent IDs; the earlier 100-item draft is preserved under `archive/course-0.3/`. The first ten blocks contain simple words and short phrases, without full sentence exercises. See [the current curriculum](docs/VOCABULARY_500.md).
+Start with [contribution guidance](CONTRIBUTING.md) and [AGENTS.md](AGENTS.md). Helpful feedback includes unclear wording, audio issues and reproducible browser problems; use synthetic examples and never include personal learner information.
 
-## Collaboration and delivery
+- [Testing guide and verification limits](docs/BROWSER_TEST_BUILD.md)
+- [Content module guide](docs/CONTENT_MODULES.md) · [Current curriculum](docs/VOCABULARY_500.md) · [Audio boundaries](docs/AUDIO_MODULES.md)
+- [Architecture](docs/ARCHITECTURE.md) · [Release checklist](docs/RELEASE_CHECKLIST.md) · [Publication instructions](docs/discovery-preview/LAUNCH.md)
+- [Active tasks](docs/TD.learn.md) · [Current checkpoint](docs/WORK_CHECKPOINT.md) · [Change history](docs/CHANGELOG.md)
 
-[AGENTS.md](AGENTS.md) defines the operating rules. [docs/TD.learn.md](docs/TD.learn.md) is the only active backlog; [checkpoint](docs/WORK_CHECKPOINT.md) records current evidence and one next action. The owner develops broad ideas with GPT and explicitly requests Codex implementation. Tasks never launch automatically.
+New content must preserve stable concept/question/correct-answer IDs and the original recordings and translations. Directions use an explicit allowlist; adding a language does not authorize every possible pairing. The earlier 100-item draft remains in `archive/course-0.3/`. Android proposal PR #3 is historical and needs reconciliation with the zero-saves rule before use.
 
-The landing-page source is `docs/discovery-preview/index.html`. The GitHub Pages workflow stages only the landing page and generated test app. Relevant approved changes on main deploy automatically; the workflow also supports manual dispatch. Pages is configured by the repository owner. [Publication instructions](docs/discovery-preview/LAUNCH.md).
+No final brand name or source-code/content license has been selected. Public visibility does not grant a reuse license.
 
-**Zero saves on every platform:** learner state exists only in current session memory. There is no saved highest lesson, answer history, position, learning preference or progress export/import. Every fresh session, reload or process restart begins at lesson 1. This owner decision supersedes the earlier Android record/backup proposal. Android is not implemented; its future wrapper must follow the same zero-saves rule. PR #3 remains a separate, outdated platform proposal that requires reconciliation before use.
-
-No final app/brand name or source-code/content license has been selected. Public visibility does not grant a reuse license. The mental-health questionnaire is a separate repository; its code, content and workflow are unchanged.
+More of my experiments: [GitHub profile](https://github.com/janisp123) · [Mental-health questionnaire](https://github.com/janisp123/mental-health-questionnaire), a separate appointment-preparation project with its own safety and privacy requirements.
