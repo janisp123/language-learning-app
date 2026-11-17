@@ -1,5 +1,5 @@
 {
-  "status": "partial-not-enabled",
+  "status": "complete-not-yet-enabled",
   "source": "Flite cmu_us_slt; offline synthesis",
   "clips": {
     "vocab-0001": {
@@ -2700,6 +2700,306 @@
       "text": "to clean",
       "file": "audio/en/vocab-0450.mp3",
       "sha256": "da782cb0a2cdb86af86657f90d723365e61580d1277485dbbe2bcfa37206b966",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0451": {
+      "text": "big",
+      "file": "audio/en/vocab-0451.mp3",
+      "sha256": "b7202f05df6915a0091c03c36bb33b003dfa034b576ac9d585862e1d4711e3ac",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0452": {
+      "text": "small",
+      "file": "audio/en/vocab-0452.mp3",
+      "sha256": "ace9c190af7b9b00a15653503fc107c3617e68d196a61e1948710a867e7a97be",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0453": {
+      "text": "long",
+      "file": "audio/en/vocab-0453.mp3",
+      "sha256": "078cfdbb9d4c4ebd1f399bcbbd7bd04b90c089387c6e051e1d19b5f14839fe9e",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0454": {
+      "text": "short",
+      "file": "audio/en/vocab-0454.mp3",
+      "sha256": "921e82fdfcf28951cc5cd6b4045764b3cefc6d970fbd2749b3e955557fb4536d",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0455": {
+      "text": "wide",
+      "file": "audio/en/vocab-0455.mp3",
+      "sha256": "47a0b780a18e334f08c5f5606c0e24c11a83c49fba38742f77b7934951f200aa",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0456": {
+      "text": "narrow",
+      "file": "audio/en/vocab-0456.mp3",
+      "sha256": "6dc7e8650fb14fd138f2fb7fe2a090351a7656ca1443ead30bbacf2604756b94",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0457": {
+      "text": "high",
+      "file": "audio/en/vocab-0457.mp3",
+      "sha256": "0f93ff76d7f8f53906ec0b8923c4d45c62e418d549d6c8c2277ef5d2edae65a9",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0458": {
+      "text": "low",
+      "file": "audio/en/vocab-0458.mp3",
+      "sha256": "9b8a069c92430724979398a949da0a1dad8c28bbe4034295d5e6e1d31d10eee1",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0459": {
+      "text": "heavy",
+      "file": "audio/en/vocab-0459.mp3",
+      "sha256": "deeb7b408333c16c889e17ae93a10995fe6d53370f10199b956e8776b9ef872b",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0460": {
+      "text": "light",
+      "file": "audio/en/vocab-0460.mp3",
+      "sha256": "5054d167211488de9b880689f9ccf303da14167c4b25b7707efd7a9e4fe901ef",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0461": {
+      "text": "good",
+      "file": "audio/en/vocab-0461.mp3",
+      "sha256": "5ecd809219d4063c029e63f832aaff0cf0392b906418e53b6476c4ed4807ce19",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0462": {
+      "text": "bad",
+      "file": "audio/en/vocab-0462.mp3",
+      "sha256": "3ee5320111b0787f606865d47767fc20d02d8ad66ac33eef15828e8ca1f73c4f",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0463": {
+      "text": "new",
+      "file": "audio/en/vocab-0463.mp3",
+      "sha256": "7e6f778d20ecf8ec04e561c1566d029683496d50fd8d3a57c8d59f298caa1ec6",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0464": {
+      "text": "old",
+      "file": "audio/en/vocab-0464.mp3",
+      "sha256": "5dbc552509021115f745cf2a74b147dc6ec204676c5cb4f90e26c7f481d7ed3d",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0465": {
+      "text": "clean",
+      "file": "audio/en/vocab-0465.mp3",
+      "sha256": "50ccc3b88f944f11980c53c17a5c91a18f8cd6e9d65e5518a63cc3274fe7c454",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0466": {
+      "text": "dirty",
+      "file": "audio/en/vocab-0466.mp3",
+      "sha256": "f2e85608416d496b52ceb5492d9d69e74beabc1b22045cdb7ad025b94e48579c",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0467": {
+      "text": "hot",
+      "file": "audio/en/vocab-0467.mp3",
+      "sha256": "4fa0abcbdd9f04c4a4784e2fe31b6d197e5ab662693b36c54110a1daf0441b09",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0468": {
+      "text": "cold",
+      "file": "audio/en/vocab-0468.mp3",
+      "sha256": "e05b0985085b2260df4970b1ba5697a5f875191b100533ccec69f64630a58559",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0469": {
+      "text": "warm",
+      "file": "audio/en/vocab-0469.mp3",
+      "sha256": "ec39987bad4495523d14897d97d39720c2580e19163e695295c5934c55254830",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0470": {
+      "text": "cool",
+      "file": "audio/en/vocab-0470.mp3",
+      "sha256": "e22de87e02be4f4bcdb39232a6098e61053f7381166d5ed3a6603f8d696c15d9",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0471": {
+      "text": "red",
+      "file": "audio/en/vocab-0471.mp3",
+      "sha256": "4dbae6ef9df0fc8704ffb3b2790406963e09fc1b0872dde9a606a8ba8536e1f2",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0472": {
+      "text": "blue",
+      "file": "audio/en/vocab-0472.mp3",
+      "sha256": "f59e668f311a206f8387201dcb7e9c6cefdf33ebdc0ab3a318a9e67e85799f6f",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0473": {
+      "text": "green",
+      "file": "audio/en/vocab-0473.mp3",
+      "sha256": "55a0ff701d1e59f589fe45406cb4fc55dc76f7856f8a359b48e8c2d828db3672",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0474": {
+      "text": "yellow",
+      "file": "audio/en/vocab-0474.mp3",
+      "sha256": "2105200600bbbbe4d9d367f555389b92998624391a9d49a0da155fbdbd90648e",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0475": {
+      "text": "black",
+      "file": "audio/en/vocab-0475.mp3",
+      "sha256": "6f8656689e0c1f0139d3405308aa9ed4f939f1c2e914268b75b90f255ed48c04",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0476": {
+      "text": "white",
+      "file": "audio/en/vocab-0476.mp3",
+      "sha256": "21dcde4044c458c9130f3846a0cf3c330f906f1fc6dc8b7d349478f73649713c",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0477": {
+      "text": "grey",
+      "file": "audio/en/vocab-0477.mp3",
+      "sha256": "ec65885d57c06352c7f46151efbd198f99cce1ee85bc9532fcf745f6588c0364",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0478": {
+      "text": "brown",
+      "file": "audio/en/vocab-0478.mp3",
+      "sha256": "3ed5c94cb1dc69d76a90bf24905591dc869c42fb2262011e77fbd1d16fcac115",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0479": {
+      "text": "pink",
+      "file": "audio/en/vocab-0479.mp3",
+      "sha256": "91fc7c74b2983d4126882f941f1d4695bd8ccc644053724f54a4bbf6c1031435",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0480": {
+      "text": "purple",
+      "file": "audio/en/vocab-0480.mp3",
+      "sha256": "7a07cf792ab964c3781da4c33efb2ba283a508adce435d4d8985900965ded69e",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0481": {
+      "text": "and",
+      "file": "audio/en/vocab-0481.mp3",
+      "sha256": "48e928a2111d4b001d2cab4d349c59c309ddeb512fcfebff97e702d6b8a44197",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0482": {
+      "text": "or",
+      "file": "audio/en/vocab-0482.mp3",
+      "sha256": "596ecb219c59b0d23ebfc4e05472a14eac39915608d8b8ab2dc620460f50b6e5",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0483": {
+      "text": "but",
+      "file": "audio/en/vocab-0483.mp3",
+      "sha256": "ff808d07a205cbbc3a428a294d05d6f6e9baf2b1dcb7aa14d62ee66c4be2ad46",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0484": {
+      "text": "because",
+      "file": "audio/en/vocab-0484.mp3",
+      "sha256": "d4ae2a7823fe7c639efba8be879304d954897ba973c1adf2d72764eec692a182",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0485": {
+      "text": "with me",
+      "file": "audio/en/vocab-0485.mp3",
+      "sha256": "660c75c8398b8e3b96f88fe5d3c486d06ac67b14905e7eeea4d0e508e2dfcf44",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0486": {
+      "text": "without me",
+      "file": "audio/en/vocab-0486.mp3",
+      "sha256": "8dbb91439b78248afbf4ee5d52c1c342ab04ad2086477d9f5cae989584415574",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0487": {
+      "text": "for you",
+      "file": "audio/en/vocab-0487.mp3",
+      "sha256": "dfb024f6c78a5fab332c522b991995c0eb2e81e30ccd0cb6a1efa464ff503fd8",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0488": {
+      "text": "from home",
+      "file": "audio/en/vocab-0488.mp3",
+      "sha256": "62af86a65fe2ecd8c1ca376c337fe7564006682619d39ee33bd7b69a4273eee8",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0489": {
+      "text": "to school",
+      "file": "audio/en/vocab-0489.mp3",
+      "sha256": "9f0ebbc3e281f915c82521a916262405b1349a1c5e61d6340d54828aebfbfb5a",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0490": {
+      "text": "between us",
+      "file": "audio/en/vocab-0490.mp3",
+      "sha256": "7d389d73093be3550e62d19f2328035ad4cb7d4b1a0292309b2ba07d2d346d16",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0491": {
+      "text": "I",
+      "file": "audio/en/vocab-0491.mp3",
+      "sha256": "af2d54cff79ba7cf265a58db033f2397bb17858e5bc297a1c6fe17ee45d9d8d7",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0492": {
+      "text": "you",
+      "file": "audio/en/vocab-0492.mp3",
+      "sha256": "1f1b3d3a842a30ffedf720dff82f79c1e96dc3daddef07ec99b024a9e791b0d9",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0493": {
+      "text": "he",
+      "file": "audio/en/vocab-0493.mp3",
+      "sha256": "0ac9f9d9fb070beb8839c6123fc54251436fecee0c58c54fadb9af2d22ff7bea",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0494": {
+      "text": "she",
+      "file": "audio/en/vocab-0494.mp3",
+      "sha256": "21a451d64229b8d0d4ff8dc405cfcf22064be5fbfc1cb36b117e03447dffc53c",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0495": {
+      "text": "we",
+      "file": "audio/en/vocab-0495.mp3",
+      "sha256": "22b6372d57e102180e3913c8cb82c401386e69ceb44ee02e0fcfe95785735f0e",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0496": {
+      "text": "they",
+      "file": "audio/en/vocab-0496.mp3",
+      "sha256": "96f147f9542d2d9b284fe272d2b5c48f9504ac4553776ff9051af6338c094676",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0497": {
+      "text": "this",
+      "file": "audio/en/vocab-0497.mp3",
+      "sha256": "f3ad89ad90c6a2c4172690ada8c0b50ba5f6fd5b5dbc7d6e63b70ff8c328a748",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0498": {
+      "text": "that",
+      "file": "audio/en/vocab-0498.mp3",
+      "sha256": "52002d3189f456f9508cc71ed1c69657c1328202e548a0dcd940b96fe9d3e42d",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0499": {
+      "text": "everything",
+      "file": "audio/en/vocab-0499.mp3",
+      "sha256": "01d635cd5ca68e22c4bd42113288f892bfcaa9f424db2d6d73098bed0044ec72",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0500": {
+      "text": "nothing",
+      "file": "audio/en/vocab-0500.mp3",
+      "sha256": "dd3e995670cd1e0b098c976344292bf9323f6b81b7e03a5bf393444097086660",
       "source": "Flite cmu_us_slt; offline synthesis"
     }
   }
