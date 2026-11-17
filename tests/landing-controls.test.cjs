@@ -23,6 +23,11 @@ test('landing language and theme controls translate, support keyboard, and reset
  for(const lang of ['ru','lv','en']){
  await page.locator(`[data-language="${lang}"]`).focus();await page.keyboard.press('Enter');
  assert.equal(await page.locator('html').getAttribute('lang'),lang);
+ assert.deepEqual(await page.locator('.phrase small').allTextContents(),Array(2).fill({en:'Thank you.',ru:'Спасибо.',lv:'Paldies.'}[lang]));
+ assert.equal(await page.locator('.phrase.lv strong').getAttribute('lang'),'lv');
+ assert.equal(await page.locator('.phrase.ru strong').getAttribute('lang'),'ru');
+ assert.equal(await page.locator('.phrase.lv strong').textContent(),'Paldies!');
+ assert.equal(await page.locator('.phrase.ru strong').textContent(),'Спасибо!');
  assert.equal(await page.locator(`[data-language="${lang}"]`).getAttribute('aria-pressed'),'true');
  titles.add(await page.title());descriptions.add(await page.locator('meta[name=description]').getAttribute('content'));themeLabels.add(await page.locator('#theme-toggle').getAttribute('aria-label'));
  assert.equal(await page.locator('[data-copy]').count(),original.length);
