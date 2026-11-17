@@ -1,7 +1,7 @@
 # TD.learn — active approved tasks for the language-learning app
 
 **Repository:** `janisp123/language-learning-app` • **Branch of record:** `main`  
-**State:** The owner explicitly requested a runnable browser test build. Engine, draft course, browser UI and portable build are prepared on the review branch; Android, language review, hosted verification and final releases remain unfinished. Task presence alone never authorizes work or publication.
+**State:** The owner explicitly requested a runnable browser test build. Version 0.4.3 engine, draft course, browser UI, full audio and portable build are integrated through PR #6. Pages publication is blocked on owner setup; Android, language review, hosted verification and final releases remain unfinished. See discovery-preview/LAUNCH.md for the website setup/editing handoff. Task presence alone never authorizes work or publication.
 
 For each task: check `AGENTS.md` and `WORK_CHECKPOINT.md`, verify whether already delivered, identify dependencies, use a short-lived branch and checked PR, and update changelog + checkpoint after completing verified work. Preserve `Added by` attribution.
 
@@ -33,7 +33,7 @@ For each task: check `AGENTS.md` and `WORK_CHECKPOINT.md`, verify whether alread
 
 ### L-004 — Build browser learning and the GitHub Pages landing page
 - **Audio slice (Codex, 2026-11-17):** all 500 questions have bundled LV/RU/EN pronunciation and replay in all six directions (0.4.3); English is generated locally with Flite SLT, avoiding the online synthesis blocker; see AUDIO_MODULES.md. Human pronunciation/device review remains pending.
-- **Status:** PARTIAL — landing page integrated via PR #5; runnable browser test build prepared for review; hosted/device verification pending
+- **Status:** PARTIAL — landing page and complete browser build integrated through PR #6; publication run 44053240327 blocked on owner enabling Settings → Pages → Source: GitHub Actions; hosted/device verification pending
 - **Depends on:** L-001–L-003 for browser learning; owner explicitly requested the isolated static landing page ahead of those dependencies
 - **Answer timing update authored by:** Codex at owner request — immediate feedback/answer lock, automatic transition after 500 ms, cancelled on restart/direction change; included in PR #6 test build
 - **Landing-page slice authored by:** Codex · [source](discovery-preview/index.html) · [publication/verification notes](discovery-preview/LAUNCH.md)
@@ -52,7 +52,7 @@ For each task: check `AGENTS.md` and `WORK_CHECKPOINT.md`, verify whether alread
 - **Acceptance:** Export/import works offline on two devices; corrupt/wrong-course/newer-version backups rejected with clear messages and no data loss; restore warns before replacing current highest; closing/reopening starts lesson 1 while preserving only the record. Test install/update/clear-data and document which actions erase progress.
 
 ### L-006 — Build verification and safe delivery automation
-- **Status:** PARTIAL — automated engine/content/UI-wiring/build checks prepared; GitHub CI execution and cross-platform/release checks pending
+- **Status:** PARTIAL — automated browser checks integrated; main CI run 44053240358 succeeded; cross-platform/release checks remain pending
 - **Browser test-build code/content authored by:** Codex · [implementation and verification](BROWSER_TEST_BUILD.md)
 - **Added by:** ChatGPT
 - **Implemented by:** Not yet

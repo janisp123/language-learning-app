@@ -1,3 +1,7 @@
+## 2026-11-17 — Website setup and durable editing handoff
+
+Recorded by Codex at the owner's request: the webpage is already built; the remaining owner action is repository Settings → Pages → Source: GitHub Actions. Expanded discovery-preview/LAUNCH.md with the exact setup, editable sources, existing main-only publication workflow, failed-job retry and hosted-byte verification. Corrected the active checkpoint and relevant TD status: PR #6 is merged at 85e4dc4, version 0.4.3 is synchronized, and main browser CI 44053240358 succeeded. Publication run 44053240327 failed at Pages configuration with “Get Pages site failed / Not Found”; deploy was skipped. Checked the source, workflow/job logs, merged history and existing delivery pointers. Documentation only; no app/source behavior, settings, Drive files or publication changed. No new runtime tests claimed. This handoff update is pending its own PR integration.
+
 ## 2026-11-17 — GitHub Pages publication preparation
 
 Owner requested online availability like the mental-health test. Codex updated the existing landing copy to about 500 survival essentials and complete LV/RU/EN audio, linked the stable Drive folder for downloads, and enabled main-only publication triggers in the existing Pages workflow. Source synchronization recovered; completed audio commits are now on PR #6. Build/site/download bytes match the verified Drive artifact. Pages Source selection, checked integration and live URL verification remain pending until delivery evidence is recorded.
