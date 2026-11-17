@@ -2501,14 +2501,64 @@
       "conceptId": "vocab-0500",
       "meaning": "nothing",
       "text": "nekas"
+    },
+    "vocab-0501": {
+      "conceptId": "vocab-0501",
+      "meaning": "I need help",
+      "text": "man vajag palīdzību"
+    },
+    "vocab-0502": {
+      "conceptId": "vocab-0502",
+      "meaning": "I need water",
+      "text": "man vajag ūdeni"
+    },
+    "vocab-0503": {
+      "conceptId": "vocab-0503",
+      "meaning": "I need a doctor",
+      "text": "man vajag ārstu"
+    },
+    "vocab-0504": {
+      "conceptId": "vocab-0504",
+      "meaning": "I don't understand",
+      "text": "es nesaprotu"
+    },
+    "vocab-0505": {
+      "conceptId": "vocab-0505",
+      "meaning": "please call an ambulance",
+      "text": "lūdzu izsauciet neatliekamo palīdzību"
+    },
+    "vocab-0506": {
+      "conceptId": "vocab-0506",
+      "meaning": "please call the police",
+      "text": "lūdzu izsauciet policiju"
+    },
+    "vocab-0507": {
+      "conceptId": "vocab-0507",
+      "meaning": "allergy",
+      "text": "alerģija"
+    },
+    "vocab-0508": {
+      "conceptId": "vocab-0508",
+      "meaning": "without milk",
+      "text": "bez piena"
+    },
+    "vocab-0509": {
+      "conceptId": "vocab-0509",
+      "meaning": "without sugar",
+      "text": "bez cukura"
+    },
+    "vocab-0510": {
+      "conceptId": "vocab-0510",
+      "meaning": "I need medicine",
+      "text": "man vajag zāles"
     }
   },
   "ui": {
     "static": {
       "skip": "Pāriet uz uzdevumiem",
       "brand-name": "Valodu mācīšanās",
-      "badge": "Izmēģinājuma versija 0.4.3",
-      "draft": "Mācību materiāls un izruna vēl jāpārbauda valodu pratējiem · skaņa visiem 500 vārdiem un frāzēm latviešu, krievu un angļu valodā",
+      "badge": "Izmēģinājuma versija 0.4.5",
+      "draft": "Mācību materiāls un izruna vēl jāpārbauda valodu pratējiem · skaņa visiem 510 vārdiem un frāzēm latviešu, krievu un angļu valodā",
       "audience": "Valodas ikdienai · 10–17 gadiem",
       "welcome": "Mazliet prakses. Sāc ar pamatiem.",
       "intro": "Īsas nodarbības ikdienas situācijām. Izvēlies mācību virzienu un sāc pirmo nodarbību.",
@@ -2600,7 +2650,8 @@
       "basic-47": "Īpašības un temperatūra",
       "basic-48": "Krāsas",
       "basic-49": "Saikļi un īsas frāzes",
-      "basic-50": "Vietniekvārdi un pamati"
+      "basic-50": "Vietniekvārdi un pamati",
+      "basic-51": "Noderīgi lūgumi"
     },
     "names": {
       "lv": {

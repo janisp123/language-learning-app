@@ -1,6 +1,6 @@
 # Editing pronunciation without rebuilding the app's logic
 
-Current scope: all 500 vocabulary items in Latvian, Russian and English across all six directions. The completed pack contains 1,500 MP3 clips. Version 0.4.3 extends the accepted first-block audio behavior through data and assets; player, view and learning engine remain unchanged. Speech is synthetic: Russian/Latvian use the existing Google Translate TTS clips; English uses the installed Flite cmu_us_slt voice. All clips are generated from canonical text; fluent pronunciation review is pending. The learner's browser makes no synthesis/network request.
+Current scope: all 510 vocabulary items in Latvian, Russian and English across all six directions, with 1,530 bundled MP3 clips. Version 0.4.5 adds thirty recordings for the ten practical-core entries and preserves all original 1,500 clips. The speaker still plays only the current prompt in its source language; previous-answer replay and automatic answer audio remain removed. The media player and learning engine are unchanged. Russian/Latvian speech uses Google Translate TTS via gTTS; English uses Flite cmu_us_slt offline. Fluent pronunciation review is pending. The learner's browser makes no synthesis/network request.
 
 | Change | Edit | What stays independent |
 | --- | --- | --- |
@@ -26,7 +26,7 @@ The manifest uses stable vocabulary IDs, exact spoken text, content revision and
 
 `LanguageAudio.create(pack, audioFactory)` returns `play(id, language, exactText, onError)` and `stop()`. The Audio factory is the only media boundary. The browser supplies a dedicated audio element; tests inject a media boundary without mocking the engine. `play` returns true after playback starts, false on failure, or null for a cancelled stale attempt. Decoder errors after startup use the guarded error callback. New playback cancels the previous clip.
 
-`LanguageAudioView.create(document, pack, player)` returns `localize(source)`, `answer(shown, feedback)`, `reset()`. It owns the previous-answer label, replay and visible errors. The app coordinator has four small integration calls; `core/engine.js` remains unchanged. Correct translations are spoken after both correct and incorrect answers. The original 500 ms navigation remains; replay always labels the prior translation. Restart/direction changes invalidate pending audio callbacks and stop sound.
+`LanguageAudioView.create(document, pack, player)` returns `localize(source)`, `question(shown)`, `reset()`. It binds the speaker to the displayed concept ID, source language and exact source text; a missing/mismatched recording hides the unavailable control. Its localized accessible name includes the current word/phrase; visible errors appear beside the prompt. Clicking the speaker never selects an answer, reshuffles choices or changes scoring. Each new prompt, restart, direction change or completion stops current audio and invalidates stale callbacks. The original 500 ms answer navigation remains. The 48 px speaker is a normal keyboard-operable button. `core/engine.js` and the media player remain unchanged.
 
 ## Lessons carried forward from the questionnaire app
 
@@ -41,6 +41,10 @@ Read-only references: its `docs/FEATURE_DEVELOPMENT.md` and `AGENTS.md`, plus th
 - User-facing notes describe behavior; technical coordination belongs here.
 
 ## Verification and delivery
+
+2026-11-17 practical core, 0.4.5: 37 Node and 23 Python tests pass, including the exact approved order/new translations, full traversal and source audio for all 510 prompts/six directions. The original vocabulary digest and old MP3 checksums remain unchanged. Thirty new clips are decoded independently; current browser/Drive delivery evidence is recorded in WORK_CHECKPOINT.md. Earlier version results below are historical.
+
+2026-11-17 current-prompt update, 0.4.4: 37 Node/20 Python tests pass locally. Regressions cover source-language binding for all 500 prompts in six directions, repeat taps without grading changes, no answer-triggered playback, missing/mismatched recordings and cancelled errors. Headless Chromium at 390×844 verifies real playback, keyboard activation, navigation cancellation, a 48 px speaker and no horizontal overflow in each direction. Physical Android remains NOT RUN. This supersedes the old previous-answer interaction; recording coverage is unchanged.
 
 2026-11-17 full pack: 36 Node tests and 20 Python tests pass locally, including all 500 questions in every direction and an actual offline English-authoring regression with gTTS unavailable. The optional authoring tests skip on machines without the local voice/ffmpeg. All 1,500 clips decode. Chrome preview verified English media duration, played ranges, embedded playback, replay/reset cancellation, and English-source UI with Russian-target playback. Human pronunciation and physical-phone review remain pending. English was saved in ten batches of fifty clips; pending records were consolidated into the single active manifest after validation.
 

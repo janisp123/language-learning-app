@@ -5,7 +5,7 @@
 ## Product goals and boundaries
 
 - **First audience:** 10–17-year-old learners; early focus is a child living in Latvia who needs practical spoken Russian in day-to-day encounters.
-- **First course (owner-expanded):** Latvian, Russian and English; all six directed pairs use the same canonical content. The owner expanded the draft curriculum to **50 ten-question blocks / 500 basic words and short phrases**, with no sentences in the first ten blocks.
+- **First course (owner-expanded):** Latvian, Russian and English; all six directed pairs use the same canonical content. The owner-authorized practical revision has **51 ten-question blocks / 510 basic words and short phrases**, preserving the original 500. The first ten blocks remain introductory words/short phrases; full practical requests start at block 11.
 - **Long term:** Separate age paths (5–9, 10–17, 18+) and more language pairs/lessons can be added **as content**, without changing the central learning rules. Do not build selection UIs or extra packs in v1.
 - **Reason for being:** Learning by mandatory cumulative repetition from lesson 1, not by collecting finished-lesson badges.
 
@@ -30,12 +30,12 @@ Keep reusable phrases/words referenced by stable IDs. Avoid accidental distinct 
 4. Wrong choice → show concise correction, move **one prompt backward** (clamp at the first prompt), and **break the consecutive-correct run**; do not skip a failed question forever.
 5. Complete a lesson only after **10 correct selections in a row**. With a ten-prompt lesson, cycle through prompts as necessary until ten consecutive answers occur. The exact prompt-order/wrap behavior must be pinned by L-002 tests, not inferred from a UI screen.
 6. On completion, move to the following lesson. **No points, XP, lives, daily streak bonuses, or scoreboards.**
-7. Persist the **highest lesson ever reached** only in the Android app; show a short **“Congratulations! You've reached a new lesson!”** notification **only when the learner first enters a lesson above the prior record**. For existing lessons, simply continue.
-8. The highest lesson record never creates a skip shortcut. The next session always starts at lesson 1.
+7. Persist **no learner state on any platform**. Current lesson, answers, consecutive/mistake counters, highest lesson and learning preferences exist only in session memory. There is no saved record or record-based congratulation.
+8. Every fresh session, browser reload or app process restart begins at lesson 1, with fresh counters and no restore/skip shortcut.
 
-**Storage nuance:** Current owner rule is **only save the highest lesson**. Therefore the in-lesson cursor, consecutive counter, and current session are **volatile**. Closing/restarting the Android app starts again from lesson 1 even on the same day. There is no daily-reset scheduler or last-practiced-date tracking. If a different same-day resume rule is ever wanted, it requires explicit product approval.
+**Owner zero-saves decision (2026-11-17):** This supersedes the earlier Android highest-record and backup/import proposal. Browser, Android and future wrappers save no learner state: no preferences, storage APIs, database/file writes, exported progress, cloud sync or OS state restoration/backup for progress. In-memory state supports the current learning session only. Static course/audio assets and installed application files are not learner state. There is no daily-reset scheduler or last-practiced-date tracking.
 
-**Owner block-rule update (2026-11-16):** Each lesson is a block of exactly ten questions. The first two wrong answers in that block move back one prompt (clamped at the first prompt) and clear the consecutive-correct count. The third mistake in that same block, even with correct answers between mistakes, restarts at lesson 1/prompt 1 and clears both mistake and consecutive counters. Correct answers within the block retain the mistake count; completing a block, manual restart or a new session resets it. Automatic restart preserves translation direction and never reduces an Android highest-lesson record. The block mistake count is volatile, never part of persisted progress.
+**Owner block-rule update (2026-11-16):** Each lesson is a block of exactly ten questions. The first two wrong answers in that block move back one prompt (clamped at the first prompt) and clear the consecutive-correct count. The third mistake in that same block, even with correct answers between mistakes, restarts at lesson 1/prompt 1 and clears both mistake and consecutive counters. Correct answers within the block retain the mistake count; completing a block, manual restart or a new session resets it. Automatic restart preserves translation direction within the current session. All counters and direction remain volatile; nothing is saved for a later session.
 
 **Owner interaction update (2026-11-16):** In the browser test build, selecting an answer locks choices and shows feedback immediately. After 500 ms, apply the answer transition automatically; there is no Continue button. Preserve the last correction after transition until the next answer so it remains readable. Restarting or changing direction cancels the timer and invalidates stale callbacks. This timing changes UI interaction only, not the correct/incorrect navigation or ten-consecutive rule above.
 
@@ -47,20 +47,20 @@ Keep reusable phrases/words referenced by stable IDs. Avoid accidental distinct 
 
 **Browser / GitHub Pages:**
 - Static landing page with a clear purpose and a **Learn** link to the running browser app.
-- **No saved progress or account**; no localStorage, IndexedDB, cookies or remote sync for learning state.
+- **No saved learner state or account**; no localStorage, sessionStorage, IndexedDB, cookies, progress files or remote sync.
 - Browser refresh or reopening begins at lesson 1; no form submissions storing answers remotely.
 - Only show a Google Play link once an actual listing has been verified.
 
 **Android / Google Play:**
 - Same course content/algorithm and visual simplicity.
-- On-device small key/value storage: course ID and highest reached lesson ID/ordinal, plus format/schema metadata as necessary; no per-word or daily performance record.
-- Manual export/import of a small versioned JSON file via system file picker. Validate schema, course identity, range, integrity and supported version before changing stored progress; confirm any replacement.
+- Keep the entire learning session in memory; do not write a highest lesson, position, counters, history, answers or preferences to native storage.
+- No Save/Restore controls, progress export/import or OS backup/state-restoration of learner state. A new process starts at lesson 1, including after Android restores an activity or app backup.
 - No backend, sign-in, analytics/tracking or advertising in v1. Base lessons must work without network access if their required assets are bundled.
 
 ## Proposed repository boundaries (not yet created)
 
 ```text
-android/         Android-specific app/persistence/package
+android/         Android-specific stateless wrapper/package
 web/             Static landing and browser experience
 content/         Canonical language and age-path data
 core/            Shared rules or conformance fixtures (implementation TBD)
@@ -74,18 +74,18 @@ Only create directories when a small Codex task actually needs them. A lean impl
 ## State / compatibility contracts
 
 - Keep course/lesson/prompt IDs stable. Don't renumber IDs when inserting new lessons or translating content.
-- Define backup file versions; don't assume every future release can import every later format. Reject unsupported input safely and leave current data intact.
-- One course initially, but future records must not conflate language pairs or age paths. A record from another course must not silently set the current course's highest lesson.
+- No learner-progress file/schema or migration is needed: no saves or restores are permitted.
+- Keep course/language/age identity explicit for the active in-memory session; never infer it from a saved record.
 - Content and UI use explicit translation direction, not assumptions such as “all prompts are Russian”.
 - The owner has authorized 50 vocabulary blocks. Other feature expansion still requires a deliberate decision.
 
 ## Three-language browser content
 
-The owner added English, then expanded the curriculum to 50 blocks / 500 words and short phrases (see VOCABULARY_500.md). Every phrase has LV/RU/EN text and all six source→target directions are supported. Keep the existing course/lesson/phrase/prompt IDs stable. Canonical sources now live in the catalog, concept registry, per-block files and per-language modules; the old combined file is removed. Use catalog language/block references, not filenames or hardcoded totals, to build the runtime. Direction-specific target instructions and source-language UI come from the three interface packs. Any future Android record must still be scoped to its course/language pair and age path; a shared content-bank ID alone is not a cross-pair progress key. No native persistence is implemented here.
+The owner added English, expanded to 500 vocabulary items and then approved ten practical request/restriction items, giving 510 items in 51 blocks (see VOCABULARY_500.md). Every phrase has LV/RU/EN text and all six source→target directions are supported. Keep existing course/lesson/phrase/prompt IDs stable when reordering catalog references. Canonical sources live in the catalog, concept registry, per-block files and per-language modules; the old combined file is removed. Use catalog language/block references, not filenames or hardcoded totals, to build the runtime. Direction-specific target instructions and source-language UI come from the three interface packs. Platform wrappers preserve this identity in memory while saving no learner state.
 
 ## Modular content and binding contract
 
-The owner requested data-only extension with existing questions/answers preserved. [Content modules](CONTENT_MODULES.md) define the catalog, concepts, blocks, language/UI modules and fixed UI application contract. Every question explicitly binds `phraseId` to the same `correctAnswerId`; translations repeat their concept ID and canonical meaning. Runtime question/answer ID, text, language, block and revision checks reject mixed presentations. The source loader fails on duplicates, missing/unknown IDs, incomplete translations or UI keys/placeholders, and ambiguous choices. Separate baseline digests protect the unchanged original draft under archive/course-0.3 and all 500 active vocabulary question/answer/translation bindings. More blocks and languages require data and translations, not engine whitelists or handwritten direction controls. Per-block size and learning rules remain fixed at the approved ten-question/three-mistake contract.
+The owner requested data-only extension with existing questions/answers preserved. [Content modules](CONTENT_MODULES.md) define the catalog, concepts, blocks, language/UI modules and fixed UI application contract. Every question explicitly binds `phraseId` to the same `correctAnswerId`; translations repeat their concept ID and canonical meaning. Runtime question/answer ID, text, language, block and revision checks reject mixed presentations. The source loader fails on duplicates, missing/unknown IDs, incomplete translations or UI keys/placeholders, and ambiguous choices. Unchanged baseline digests protect the archived original course and the original 500 vocabulary bindings; dedicated regressions protect the new practical core and approved display order. More blocks and languages require data and translations, not engine whitelists or handwritten direction controls. Per-block size and learning rules remain fixed at the approved ten-question/three-mistake contract.
 
 ## Still requiring a deliberate technical decision
 

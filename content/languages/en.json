@@ -2501,14 +2501,64 @@
       "conceptId": "vocab-0500",
       "meaning": "nothing",
       "text": "nothing"
+    },
+    "vocab-0501": {
+      "conceptId": "vocab-0501",
+      "meaning": "I need help",
+      "text": "I need help"
+    },
+    "vocab-0502": {
+      "conceptId": "vocab-0502",
+      "meaning": "I need water",
+      "text": "I need water"
+    },
+    "vocab-0503": {
+      "conceptId": "vocab-0503",
+      "meaning": "I need a doctor",
+      "text": "I need a doctor"
+    },
+    "vocab-0504": {
+      "conceptId": "vocab-0504",
+      "meaning": "I don't understand",
+      "text": "I don't understand"
+    },
+    "vocab-0505": {
+      "conceptId": "vocab-0505",
+      "meaning": "please call an ambulance",
+      "text": "please call an ambulance"
+    },
+    "vocab-0506": {
+      "conceptId": "vocab-0506",
+      "meaning": "please call the police",
+      "text": "please call the police"
+    },
+    "vocab-0507": {
+      "conceptId": "vocab-0507",
+      "meaning": "allergy",
+      "text": "allergy"
+    },
+    "vocab-0508": {
+      "conceptId": "vocab-0508",
+      "meaning": "without milk",
+      "text": "without milk"
+    },
+    "vocab-0509": {
+      "conceptId": "vocab-0509",
+      "meaning": "without sugar",
+      "text": "without sugar"
+    },
+    "vocab-0510": {
+      "conceptId": "vocab-0510",
+      "meaning": "I need medicine",
+      "text": "I need medicine"
     }
   },
   "ui": {
     "static": {
       "skip": "Skip to practice",
       "brand-name": "Language learning",
-      "badge": "Test build 0.4.3",
-      "draft": "Content and pronunciation await fluent review · audio for all 500 words and phrases in Latvian, Russian and English",
+      "badge": "Test build 0.4.5",
+      "draft": "Content and pronunciation await fluent review · audio for all 510 words and phrases in Latvian, Russian and English",
       "audience": "Everyday languages · Ages 10–17",
       "welcome": "A little practice. Start with the essentials.",
       "intro": "Short lessons for everyday situations. Choose a direction and try the first lesson.",
@@ -2600,7 +2650,8 @@
       "basic-47": "Qualities and temperature",
       "basic-48": "Colours",
       "basic-49": "Linking words and phrases",
-      "basic-50": "Pronouns and basics"
+      "basic-50": "Pronouns and basics",
+      "basic-51": "Practical requests"
     },
     "names": {
       "lv": {

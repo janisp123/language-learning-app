@@ -1,6 +1,6 @@
 # Content modules and permanent question/answer identity
 
-Implemented by Codex at the owner's request. The active pack has 50 blocks and 500 vocabulary items with LV/RU/EN translations. The owner explicitly requested this curriculum revision after the modular refactor. The earlier 100-item draft is preserved in `archive/course-0.3/content/`, with its original identity lock unchanged. See [VOCABULARY_500.md](VOCABULARY_500.md).
+Implemented by Codex at the owner's request. The active pack has 51 blocks and 510 vocabulary items with LV/RU/EN translations: the original 500 plus ten practical items. Catalog order brings pronouns/help earlier and places the new request block after the first 100 items. The earlier 100-item draft is preserved in `archive/course-0.3/content/`, with its original identity lock unchanged. See [VOCABULARY_500.md](VOCABULARY_500.md).
 
 ## Module boundaries
 
@@ -26,7 +26,7 @@ There is one canonical authored source per concept, block and language. The form
 - Each translation is keyed by concept ID and repeats `conceptId` plus the canonical `meaning`. The loader rejects an object copied under the wrong key or a definition copied from a different meaning. The `text` is the reviewed translation of that meaning in the module's language.
 - Every presented runtime question carries course, block, question, concept, direction and revision identity. The engine verifies its displayed source text and all answer ID/text pairs before accepting a choice. A question/answer copied from another block, language or presentation is rejected.
 
-The loader also rejects duplicate JSON keys/IDs, unknown references, mismatched module IDs, incomplete translations/UI, duplicate displayed choices and unsafe module paths. UI labels/placeholders must match `ui-contract.json`, independently of the translation packs; removing or misspelling the same key in every pack still fails. Runtime and source schemas are explicit: module/catalog schema 1 compiles to runtime schema 2. This changes no stored progress because the browser stores none and native progress has not been implemented.
+The loader also rejects duplicate JSON keys/IDs, unknown references, mismatched module IDs, incomplete translations/UI, duplicate displayed choices and unsafe module paths. UI labels/placeholders must match `ui-contract.json`, independently of the translation packs; removing or misspelling the same key in every pack still fails. Runtime and source schemas are explicit: module/catalog schema 1 compiles to runtime schema 2. No progress migration is needed: every platform must keep learner state in memory only, with zero saves or restores.
 
 These checks prevent silent identifier/binding mix-ups. They cannot certify that a newly written translation is linguistically correct; fluent review remains required.
 
@@ -65,10 +65,10 @@ cmp dist/language-learning-test.html downloads/language-learning-test.html
 
 Tests prove original-content parity, explicit question/answer binding rejection, duplicate/missing/misbound record rejection, data-only eleventh-block extension, data-only fourth-language extension and twelve generated directions in that synthetic fixture. Existing one-question step-back, third-mistake restart, ten consecutive correct, 500 ms delay, source-language UI and no browser storage remain unchanged.
 
-Synthetic extension fixtures are temporary and not shipped. Actual browser/device/accessibility and fluent-language review remain separate from automated source/DOM-fixture verification. Android packaging/persistence, hosting and release authorization remain separate tasks.
+Synthetic extension fixtures are temporary and not shipped. Actual browser/device/accessibility and fluent-language review remain separate from automated source/DOM-fixture verification. Stateless Android packaging, hosting and release authorization remain separate tasks; no learner-state persistence or progress backup is planned.
 
 ## Active vocabulary policy and baseline
 
-The current catalog declares a 500-item vocabulary policy: distinct concepts and meanings, `word`/`phrase` form tags, at most four words per translation, and no sentence punctuation. For approved new blocks, increase `curriculum.targetItems` along with authored coverage. Additional languages must translate every active concept and title. The structural checks do not detect every grammatical sentence or translation ambiguity.
+The current catalog declares a 510-item vocabulary policy: distinct concepts and meanings, `word`/`phrase` form tags, at most four words per translation, and no sentence punctuation. For approved new blocks, increase `curriculum.targetItems` along with authored coverage. Additional languages must translate every active concept and title. The structural checks do not detect every grammatical sentence or translation ambiguity.
 
-`tests/fixtures/vocabulary-0.4-lock.json` pins the current 500 meanings/texts and all question/answer bindings; extra blocks/languages can be added without rewriting those IDs. The earlier original lock still verifies `archive/course-0.3/`. Do not refresh either digest merely to silence a drift failure: inspect and document any intentional language correction first.
+`tests/fixtures/vocabulary-0.4-lock.json` pins the original 500 meanings/texts and question/answer bindings; extra blocks/languages can be added without rewriting those IDs. The owner's approved catalog reorder is checked separately in `test_practical_core.py`; snapshot verification uses its own recorded block/phrase order, preserving the existing digest unchanged. The earlier original lock still verifies `archive/course-0.3/`. Do not refresh either digest merely to silence a drift failure: inspect and document any intentional language correction first.

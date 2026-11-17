@@ -11,7 +11,7 @@
 | PB-03 | Losing progress when interrupted | Every work session |
 | PB-04 | Claims of completion without evidence | Testing and reporting |
 | PB-05 | Divergent hosted and downloadable apps | Multiple delivery paths |
-| PB-06 | Breaking progress imports | Persisted formats |
+| PB-06 | Superseded progress-backup assumptions | Zero saves on all platforms |
 | PB-07 | Translation drift and misleading options | Editing lesson content |
 | PB-08 | Unnecessary features delaying release | Prioritization |
 | PB-09 | Mixing public and internal communication | Docs and release |
@@ -51,11 +51,8 @@
 **Prevent:** One canonical lesson bank, a behavior contract with shared conformance cases, release/version checks, and clear deployment ownership.  
 **Check:** Browser and Android agree for identical sample inputs and lesson IDs; no stale published copy is passed off as current.
 
-### PB-06 · PROVISIONAL — Treat the backup schema as a contract
-**Trigger:** Changing progress storage or content identifiers.  
-**Observed:** Questionnaire recovery/report functionality required care around IDs, version compatibility and meaningful stored choices.  
-**Prevent:** Stable IDs, versioned export format, validation before import, and tested failure behavior.  
-**Check:** Old supported backups restore on a fresh device; incompatible/corrupt backups cannot overwrite valid progress.
+### PB-06 · SUPERSEDED — No learner-progress backups
+The owner's 2026-11-17 zero-saves decision removes the former highest-record and backup/import proposal from this project. Do not carry the questionnaire's recovery/report feature into this app. Browser and Android learner state must stay in memory; verify fresh-session resets and no learner-state writes/restoration. Historical backup-schema discussions are not implementation authorization.
 
 ### PB-07 · PROVISIONAL — Audit content in both directions
 **Trigger:** Adding or changing translations, answer choices, or audio.  

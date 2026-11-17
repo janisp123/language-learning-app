@@ -5,37 +5,36 @@
     player = player || root.LanguageAudio.create(pack, src => {
       const media = $('audio-media'); media.src = src; return media;
     });
-    let labels, last = null, generation = 0;
+    let labels, prompt = null, generation = 0;
     function reset() {
-      generation++; player.stop(); last = null;
-      $('audio-panel').hidden = true;
-      $('audio-error').textContent = '';
+      generation++; player.stop(); prompt = null;
+      $('question-replay').hidden = true;
+      $('question-replay').disabled = true;
+      $('question-audio-error').textContent = '';
     }
     function localize(source) {
       labels = pack.ui[source];
-      if (labels) $('audio-replay').textContent = labels.replay;
+    }
+    function question(shown) {
+      reset();
+      const clip = pack.clips[shown.source]?.[shown.conceptId];
+      if (!labels || !pack.directions.includes(shown.source + '-' + shown.target) || !clip || clip.text !== shown.text) return;
+      prompt = {id:shown.conceptId, language:shown.source, text:clip.text};
+      const button = $('question-replay');
+      const label = labels.prompt + ': ' + shown.text;
+      button.setAttribute('aria-label', label); button.title = label;
+      button.hidden = false; button.disabled = false;
     }
     async function replay() {
-      if (!last) return;
+      if (!prompt) return;
       const ticket = ++generation;
-      $('audio-error').textContent = '';
-      const failed = () => { if (ticket === generation) $('audio-error').textContent = labels.error; };
-      const result = await player.play(last.id, last.language, last.text, failed);
-      if (ticket === generation && result === false) $('audio-error').textContent = labels.error;
+      $('question-audio-error').textContent = '';
+      const failed = () => { if (ticket === generation) $('question-audio-error').textContent = labels.error; };
+      const result = await player.play(prompt.id, prompt.language, prompt.text, failed);
+      if (ticket === generation && result === false) $('question-audio-error').textContent = labels.error;
     }
-    async function answer(shown, feedback) {
-      reset();
-      const clip = pack.clips[shown.target]?.[shown.correctId];
-      if (!labels || !pack.directions.includes(shown.source + '-' + shown.target) || !clip || clip.text !== feedback.correctText) return;
-      last = {id:shown.correctId, language:shown.target, text:clip.text};
-      $('audio-caption').textContent = labels.label;
-      $('audio-label').textContent = clip.text;
-      $('audio-label').lang = shown.target;
-      $('audio-panel').hidden = false;
-      await replay();
-    }
-    $('audio-replay').addEventListener('click', replay);
-    return {localize, answer, reset};
+    $('question-replay').addEventListener('click', replay);
+    return {localize, question, reset};
   }
   const api = {create};
   if (typeof module !== 'undefined' && module.exports) module.exports = api;

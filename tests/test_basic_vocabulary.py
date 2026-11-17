@@ -16,13 +16,17 @@ class BasicVocabularyTests(unittest.TestCase):
     def test_vocabulary_ids_text_and_answer_bindings_match_the_reviewed_baseline(self):
         course,_=load_content(ROOT)
         lock=json.loads((ROOT/'tests/fixtures/vocabulary-0.4-lock.json').read_text())
+        # The owner intentionally reordered catalog blocks. Keep the old snapshot's
+        # own order so its unchanged digest still protects every existing binding.
+        phrases={p['id']:p for p in course['phrases']}
+        blocks={b['id']:b for b in course['lessons']}
         payload={'id':course['id'],'languages':lock['languages'],
-                 'phrases':[{k:p[k] for k in ['id',*lock['languages']]} for p in course['phrases'] if p['id'] in lock['phraseIds']],
-                 'lessons':[b for b in course['lessons'] if b['id'] in lock['blockIds']]}
+                 'phrases':[{k:phrases[ident][k] for k in ['id',*lock['languages']]} for ident in lock['phraseIds']],
+                 'lessons':[blocks[ident] for ident in lock['blockIds']]}
         digest=hashlib.sha256(json.dumps(payload,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()).hexdigest()
         self.assertEqual(digest,lock['digest'],'vocabulary IDs/text/answer bindings changed')
 
-    def test_fifty_blocks_contain_five_hundred_distinct_learning_items(self):
+    def test_active_blocks_contain_distinct_learning_items(self):
         course,_=load_content(ROOT)
         catalog=json.loads((ROOT/'content/catalog.json').read_text())
         target=catalog['curriculum']['targetItems'];self.assertGreaterEqual(target,500)
