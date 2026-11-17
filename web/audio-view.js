@@ -24,6 +24,7 @@
       const label = labels.prompt + ': ' + shown.text;
       button.setAttribute('aria-label', label); button.title = label;
       button.hidden = false; button.disabled = false;
+      void replay();
     }
     async function replay() {
       if (!prompt) return;

@@ -1,29 +1,15 @@
 # Current working checkpoint
 
-As of 2026-11-17. Repository: janisp123/language-learning-app. Current review build **0.4.5** is pushed to PR #7 and delivered through the stable Drive file. Integration is PENDING PR; GitHub Pages publication remains BLOCKED on owner setup. Main still contains 0.4.3 at 85e4dc400fe58075df806cf5d03d3c757a9f49bf.
+As of 2026-11-17. **DONE: autoplay/footer slice 0.4.6 implemented, verified, pushed on PR #8 and delivered through Drive. Integration pending; no public deployment.** Branch feat/current-prompt-autoplay-footer is isolated from PR #7 at 51878efa1b53c6437230f471867a0db469c51c88. Main rechecked at 85e4dc400fe58075df806cf5d03d3c757a9f49bf (0.4.3); PR #7 remains open, as do #3 and #4. Latest PR #7 CI 44082613311 succeeded. Last Pages workflow 44053240327 failed; no new public deployment verified or attempted.
 
-## Current source and behavior
+## Implemented and verified
 
-Build source: `67eef5721f0ba3a61bb23009095d0dae5976131c`, content revision `0.5.0-test`. There are 510 survival words/short phrases in 51 ten-question blocks, all six LV/RU/EN directions and 1,530 embedded recordings. The owner authorized implementing the [situation audit](review/2026-11-17-vocabulary-situation-audit.md): all original 500 meanings/translations/prompts/answer bindings and all 1,500 old recordings are retained. Ten needs/repair/help-call/allergy/exclusion items use new IDs vocab-0501–vocab-0510 and basic-51. Pronouns/help are earlier; practical requests follow the introductory 100 items at lesson 11, with the four main action blocks next. Other old blocks retain their former relative order. IDs are independent of display position.
+L-004: each displayed current-source prompt automatically attempts playback once, including first/advance/wrong return/restart. Existing replay remains enabled if autoplay is rejected. Existing media reset/generation guards cancel old audio and stale errors. No previous-answer sound; 500 ms transition/scoring unchanged. Both landing and learning footers contain Made by Janis Paegle 2026, owner profile link and existing source links.
 
-Only the speaker beside the current prompt plays sound on request. Previous-answer replay and automatic answer audio remain removed. The engine/media player, 500 ms transitions, wrong-answer step back, third-block-mistake reset and ten-consecutive completion rules are unchanged.
+38 Node and 23 Python tests pass. Chromium 390×844 verified real decoded playback and first/advance/wrong return/restart/replay/cancellation in all six directions; rejected autoplay keeps replay usable. Empty local/session storage and reload reset verified. Receipt: delivery/2026-11-17-autoplay-footer-browser.json. Physical devices, full screen-reader and fluent pronunciation review NOT RUN. Original 510 entries/51 blocks/1,530 clips retained; unchanged archived/original lock tests pass.
 
-**Zero learner-state saves on every platform:** current session memory only; no highest record, saved answers/preferences, backups/import/export or OS progress restoration. Every fresh session/reload/process restart starts at lesson 1. Android is not implemented; its future wrapper must follow this rule. PR #3's old persistence assumptions are explicitly superseded. License adoption and Play release also remain unfinished.
+## Delivery and remaining work
 
-## Verification
+Stable Drive HTML 1594pGCAm3E7hOq0-oSwLFh8z4WtRI3vd in folder 1U6ewdAD-HsthuchnzVOeWOSs4hmM-EAX now has 0.4.6. Source d59fabe7895b460d63bf42711ca930dc887cec5d was pushed before upload; downloaded bytes compare exactly. SHA-256 feef4b1c49c2847ea48d1449bcc7eb596306386789bef94dd02bdf473cd96cac. Receipt: delivery/2026-11-17-autoplay-footer-drive-sync.json; GitHub CI 44108161630 succeeded. No merge/public app release authorized by this slice.
 
-37 Node and 23 Python tests pass locally after observed missing-feature failures. Both baseline lock files/digests are unchanged: snapshot verification uses recorded order to protect all old meanings/bindings, while dedicated tests pin the approved live order and ten new translations. All original 1,500 MP3 hashes match; thirty new LV/RU/EN clips decode. Independent meaning review and whole-change review found no actionable issue; fluent human review remains pending.
-
-Headless Chromium at 390×844 traversed the first 100 items and played every new phrase in every direction. The request block is lesson 11; current-source binding, cancellation, empty storage and reload-to-lesson-1 pass. Long Latvian request text fits at 320×720. Browser checks use a virtual clock for unchanged 500 ms navigation and actual decoded media for playback. No page errors. See [browser evidence](delivery/2026-11-17-practical-core-browser.json). Prior same-profile browser restart evidence is in the zero-saves receipt. Physical Android and full screen-reader/fluent pronunciation checks remain pending.
-
-GitHub [CI 44082103872](https://github.com/janisp123/language-learning-app/actions/runs/44082103872) succeeded for the build source. CI may skip the two optional local-voice authoring tests where those tools are absent. Source/site/download bytes match. Ordinary builds require no online synthesis or added dependencies.
-
-## Verified review delivery
-
-Default Drive folder: `Git_dump/language-learning-app`, ID `1U6ewdAD-HsthuchnzVOeWOSs4hmM-EAX`. Stable HTML ID: `1594pGCAm3E7hOq0-oSwLFh8z4WtRI3vd`. Version 0.4.5 was replaced in place, downloaded back and compared byte-for-byte: 15,802,419 bytes; SHA-256 `7320a60100a762fc948173eabcea23e070dd23596a08567190457dbca467cbf7`. Source was pushed and CI/review checked before replacement. See [current receipt](delivery/2026-11-17-practical-core-drive-sync.json). Earlier 0.4.3/0.4.4 receipts and the old source bundle remain historical recovery evidence, not current delivery pointers.
-
-## Website setup and one next action
-
-Review/integrate PR #7 through the authorized workflow. The webpage source is built; the owner must enable **Settings → Pages → Build and deployment → Source: GitHub Actions** and report completion. The connected GitHub tools do not expose that setting. Earlier publication run 44053240327 failed at Pages configuration with Get Pages site failed / Not Found; no public URL has been verified.
-
-Then inspect the relevant current publication run and verify the returned URL and hosted hash against the current delivery receipt. Do not retry an old run containing a different build. [The website handoff](discovery-preview/LAUNCH.md) records editable sources, account setup and verification. Preserve the existing merge/publication authorization rules. PR #3 (older architecture) and PR #4 (workflow lessons) remain separate; do not overwrite current product decisions with those stale assumptions.
+Next: implement English→Japanese separately from delivered PR #8 head. Owner selected Japanese script only (option 3), English UI, exactly seven directions; no reverse Japanese/LV/RU pairings. Preserve six existing directions and all original bindings/audio. Zero learner-state saves on every platform; session memory only, each reload/process begins lesson 1. Android is not implemented.

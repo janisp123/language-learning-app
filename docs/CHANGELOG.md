@@ -44,3 +44,10 @@ Implemented by Codex: twenty bundled RU/LV clips for the first ten vocabulary ID
 ## 2026-11-16 — 500-item basic vocabulary draft (PR #6, not merged)
 
 Owner requested 500 basic words/short phrases and no sentences in the first ten blocks. Implemented by Codex: 50 ten-question blocks, 500 distinct concepts, 1,500 LV/RU/EN translations and 150 localized block titles; all six directions use the existing engine. New course/concept/block/question IDs avoid overwriting old meanings; original 0.3 content archived with unchanged identity lock, plus a new active 500-item lock. Loader validates curriculum counts, form tags, short translations and no sentence punctuation. Independent review corrected a duplicate meaning and wording mismatches. Thirty Node and thirteen Python checks pass, including full-course traversal in all six directions and generated artifact parity. Fluent human review, actual browser/device checks, deployment and Android remain NOT RUN. Authored source and generated portable HTML are prepared for PR #6; no merge/publication performed.
+
+
+## 2026-11-17 — 0.4.6 current-prompt autoplay and author footer (Codex)
+
+L-004, owner-requested slice on feat/current-prompt-autoplay-footer, based on PR #7 head 51878ef. Audio-view binding now attempts playback once per appearance through the existing cancellation/error path; no answer audio. Manual replay, scoring and 500 ms timing remain intact. Both public page footers include the exact author credit/profile link and retain project source links. No content IDs, translations, answer bindings, recordings or storage behavior changed. Verification: 38 Node and 23 Python tests; actual Chromium playback, advance/wrong return/restart/replay/cancellation and empty storage/reload reset in all six directions. See delivery/2026-11-17-autoplay-footer-browser.json. Physical devices, fluent pronunciation and full screen-reader review not run. No merge/public deployment.
+
+0.4.6 delivery verified: source d59fabe pushed on PR #8 before stable Drive upload; full downloaded bytes compare equal. GitHub CI 44108161630 passed. Receipt: delivery/2026-11-17-autoplay-footer-drive-sync.json.

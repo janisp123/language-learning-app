@@ -62,12 +62,18 @@ test('standalone prompt speaker uses the current source clip without answering o
     assert.equal($('audio-panel'),undefined,'previous-answer section must not be present');
     const choices=$('choices').children.map(b=>b.dataset.optionId);
     $('question-replay').click();$('question-replay').click();
-    assert.equal($('audio-media').src,pack.clips[source][first].src);assert.equal($('audio-media').playCount,2);
+    assert.equal($('audio-media').src,pack.clips[source][first].src);assert.equal($('audio-media').playCount,3);
     $.tick(1000);assert.equal($('progress').value,0);assert.equal($('feedback').textContent,'');
     assert.ok($('choices').children.every(b=>!b.disabled));assert.deepEqual($('choices').children.map(b=>b.dataset.optionId),choices);
-    choose($,first);assert.equal($('audio-media').playCount,2,'answering must not play an answer clip');$.tick(500);
-    assert.equal($('audio-media').paused,true,'advancing must stop sound from the previous prompt');
+    choose($,first);assert.equal($('audio-media').playCount,3,'answering must not play an answer clip');$.tick(500);
+    assert.equal($('audio-media').playCount,4,'advancing autoplays the new prompt');
     $('question-replay').click();assert.equal($('audio-media').src,pack.clips[source][second].src);assert.equal($('progress').value,1);
+    const wrong=$('choices').children.find(b=>b.dataset.optionId!==second);wrong.click();
+    assert.equal($('audio-media').playCount,5,'answer feedback never starts target audio');
+    $.tick(499);assert.equal($('audio-media').playCount,5);
+    $.tick(1);assert.equal($('audio-media').playCount,6);assert.equal($('audio-media').src,pack.clips[source][first].src);
+    $('restart').click();assert.equal($('audio-media').playCount,7);assert.equal($('progress').value,0);
+
     $('change').click();assert.equal($('audio-media').paused,true);assert.equal($('question-replay').hidden,true);
   }
 });
@@ -80,17 +86,17 @@ test('standalone speaker covers every question in all six directions with correc
     const $=mount(undefined,html,source+'-'+target);$('start').click();let count=0;
     for(const lesson of course.lessons)for(const prompt of lesson.prompts){
       assert.equal($('question').textContent,bank.get(prompt.phraseId)[source]);
-      $('question-replay').click();count++;
+      count++; // Each appearance automatically plays exactly once.
       assert.equal($('audio-media').src,pack.clips[source][prompt.phraseId].src);
       assert.equal($('question-replay').hidden,false);
       choose($,prompt.phraseId);assert.equal($('audio-media').playCount,count);$.tick(500);
     }
     assert.equal($('audio-media').playCount,course.phrases.length);
     assert.equal(count,course.phrases.length);assert.equal($('finished').hidden,false);assert.equal($('audio-media').paused,true);
-    $('again').click();assert.equal($('audio-media').paused,true);
+    $('again').click();assert.equal($('audio-media').paused,false);
     const prompt=course.lessons[0].prompts[0];
     choose($,$('choices').children.find(b=>b.dataset.optionId!==prompt.phraseId).dataset.optionId);
-    assert.equal($('audio-media').playCount,course.phrases.length,'wrong answers must not play a target clip');
+    assert.equal($('audio-media').playCount,course.phrases.length+1,'wrong answers must not play a target clip');
   }
 });
 test('answer locks immediately, advances only at 500ms, then wrong steps back automatically',()=>{

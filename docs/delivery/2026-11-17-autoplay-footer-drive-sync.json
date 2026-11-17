@@ -1,0 +1,30 @@
+{
+  "buildVersion": "0.4.6",
+  "sourceCommit": "d59fabe7895b460d63bf42711ca930dc887cec5d",
+  "sourceBranch": "feat/current-prompt-autoplay-footer",
+  "pullRequest": 8,
+  "driveFileId": "1594pGCAm3E7hOq0-oSwLFh8z4WtRI3vd",
+  "folderId": "1U6ewdAD-HsthuchnzVOeWOSs4hmM-EAX",
+  "sha256": "feef4b1c49c2847ea48d1449bcc7eb596306386789bef94dd02bdf473cd96cac",
+  "bytes": 15802515,
+  "readbackVerified": true,
+  "verifiedDate": "2026-11-17",
+  "tests": {
+    "node": 38,
+    "python": 23
+  },
+  "ciRun": 44108161630,
+  "ciConclusion": "success",
+  "browserReceipt": "2026-11-17-autoplay-footer-browser.json",
+  "items": 510,
+  "blocks": 51,
+  "audioClips": 1530,
+  "learnerState": "Memory only; zero saves on every platform",
+  "status": {
+    "implemented": true,
+    "pushed": true,
+    "delivered": true,
+    "merged": false,
+    "publiclyDeployed": false
+  }
+}

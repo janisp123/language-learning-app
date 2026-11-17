@@ -1,4 +1,4 @@
-# Browser test build 0.4.5
+# Browser test build 0.4.6
 
 Implemented by Codex on 2026-11-16 at the owner's explicit request for a testable app. Based on main `0eca17305e695e53e72f2bf1ab6f72fa3e04ddb6`. This is a review/test build, not a verified public release or Android app.
 
@@ -27,7 +27,7 @@ Each `content/languages/<code>.json` module contains its translations and separa
 - `downloads/language-learning-test.html`: generated copy for immediate download. Never edit it directly; CI compares it with a fresh canonical build.
 - `tests/`: deterministic engine/content tests, a minimal DOM event fixture for UI wiring, and packaging/privacy checks. The DOM fixture is not a real browser and cannot establish rendering/accessibility behavior.
 
-Use plain JavaScript and a standard-library Python packager: ordinary builds require no dependency installation. The unmerged platform proposal in PR #3 requires reconciliation with later decisions. All platforms must save zero learner state; Android is not implemented. Build 0.4.5 bundles 1,530 clips for all 510 items. Only optional audio authoring uses gTTS/Flite; see AUDIO_MODULES.md.
+Use plain JavaScript and a standard-library Python packager: ordinary builds require no dependency installation. The unmerged platform proposal in PR #3 requires reconciliation with later decisions. All platforms must save zero learner state; Android is not implemented. Build 0.4.6 bundles 1,530 clips for all 510 items. Only optional audio authoring uses gTTS/Flite; see AUDIO_MODULES.md.
 
 ```sh
 npm test
@@ -62,3 +62,7 @@ The practical-core revision passes 37 Node and 23 Python tests. Regressions pin 
 Thirty Node tests pass, including traversing all 50 blocks in all six engine directions, UI event flow through all 500 prompts, execution of the committed HTML's embedded scripts/data in the DOM fixture, exact 499/500 ms timing, and cancellation of pending/stale transitions on restart or direction changes. Thirteen Python build/module/curriculum tests pass, checking deterministic self-contained output, required controls, language labels, absence of external assets/storage and isolated site/download parity. An independent review found one emergency-number wording correction; the corrected LV/RU phrases are pinned by a regression test observed failing before the correction and passing afterward. Localization coverage includes matching pack keys/placeholders, all 50 block titles, source-language rules/feedback/counters/completion and switching error language after a load failure. Independent localization review found that failed bootstrap initially missed direction changes; a regression was observed failing and passed after registering failure-safe language switching. Module tests cover original content digest parity, data-only extension, mislabeled translations, explicit answer IDs, duplicate JSON keys, unknown references and an independent UI key/placeholder contract. Review identified that matching packs could all omit a UI key; a RED→GREEN test now rejects common omissions and placeholder errors. JavaScript syntax checks pass. Browser rendering, real keyboard/screen-reader behavior, physical devices, GitHub Actions execution, Pages hosting and Android checks remain NOT RUN in this environment.
 
 The owner asked for a runnable app rather than further brainstorming; this record documents the implemented browser defaults. It does not remove unfinished release, language-review, Android or licensing tasks from TD.
+
+
+## Current-prompt autoplay and attribution (0.4.6)
+Each displayed prompt attempts source pronunciation once, including returns after mistakes. Replay remains available after browser autoplay rejection. Prompt changes, restart, direction change and completion cancel old sound; scoring and 500 ms transitions are unchanged. Landing and learning footers credit Made by Janis Paegle 2026 with the owner profile link and preserve project source links.

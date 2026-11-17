@@ -10,23 +10,38 @@ test('prompt speaker plays the displayed source text and rejects missing or mism
  assert.equal(nodes['question-replay'].hidden,false);assert.equal(nodes['question-replay'].disabled,false);
  assert.equal(nodes['question-replay']['aria-label'],'Atskaņot jautājuma izrunu: jā');
  await nodes['question-replay'].handlers.click();await nodes['question-replay'].handlers.click();
- assert.deepEqual(calls.map(c=>c.slice(0,3)),[['x','lv','jā'],['x','lv','jā']]);
+ assert.deepEqual(calls.map(c=>c.slice(0,3)),[['x','lv','jā'],['x','lv','jā'],['x','lv','jā']]);
  for(const shown of [{source:'lv',target:'ru',conceptId:'x',text:'wrong'},{source:'lv',target:'ru',conceptId:'absent',text:'jā'},{source:'lv',target:'en',conceptId:'x',text:'jā'}]){
   view.question(shown);assert.equal(nodes['question-replay'].hidden,true);assert.equal(nodes['question-replay'].disabled,true);
-  await nodes['question-replay'].handlers.click();assert.equal(calls.length,2);
+  await nodes['question-replay'].handlers.click();assert.equal(calls.length,3);
  }
  view.localize('ru');view.question({source:'ru',target:'lv',conceptId:'x',text:'да'});
- await nodes['question-replay'].handlers.click();assert.deepEqual(calls[2].slice(0,3),['x','ru','да']);
+ await nodes['question-replay'].handlers.click();assert.deepEqual(calls[3].slice(0,3),['x','ru','да']);
  assert.equal(nodes['question-replay']['aria-label'],'Прослушать вопрос: да');
 });
-test('changing the prompt or resetting cancels its sound and suppresses stale playback errors',async()=>{
- let finish,decoderError,stopped=0;
- const {nodes,view}=promptFixture({play:(_id,_language,_text,onError)=>{decoderError=onError;return new Promise(r=>finish=r)},stop(){stopped++}});
- view.localize('lv');view.question({source:'lv',target:'ru',conceptId:'x',text:'jā'});
- const old=nodes['question-replay'].handlers.click();const before=stopped;
+test('each prompt appearance autoplays once and blocked playback keeps replay usable',async()=>{
+ const calls=[];let blocked=true;
+ const {nodes,view}=promptFixture({play:async(...args)=>{calls.push(args.slice(0,3));return !blocked},stop(){}});
+ view.localize('lv');const first={source:'lv',target:'ru',conceptId:'x',text:'jā'};
+ view.question(first);await Promise.resolve();
+ assert.deepEqual(calls,[['x','lv','jā']]);
+ assert.equal(nodes['question-audio-error'].textContent,'Kļūda');
+ assert.equal(nodes['question-replay'].disabled,false);
+ blocked=false;await nodes['question-replay'].handlers.click();
+ assert.equal(nodes['question-audio-error'].textContent,'');
  view.question({source:'lv',target:'ru',conceptId:'y',text:'nē'});
- assert.ok(stopped>before);decoderError();finish(false);await old;assert.equal(nodes['question-audio-error'].textContent,'');
- const current=nodes['question-replay'].handlers.click();decoderError();assert.equal(nodes['question-audio-error'].textContent,'Kļūda');
- view.reset();decoderError();finish(false);await current;
+ view.question(first);await Promise.resolve();
+ assert.deepEqual(calls,[['x','lv','jā'],['x','lv','jā'],['y','lv','nē'],['x','lv','jā']]);
+});
+test('changing the prompt or resetting cancels sound and suppresses stale playback errors',async()=>{
+ const pending=[];let stopped=0;
+ const {nodes,view}=promptFixture({play:(_id,_language,_text,onError)=>new Promise(resolve=>pending.push({onError,resolve})),stop(){stopped++}});
+ view.localize('lv');view.question({source:'lv',target:'ru',conceptId:'x',text:'jā'});
+ assert.equal(pending.length,1);const before=stopped;
+ view.question({source:'lv',target:'ru',conceptId:'y',text:'nē'});
+ assert.ok(stopped>before);pending[0].onError();pending[0].resolve(false);await Promise.resolve();
+ assert.equal(nodes['question-audio-error'].textContent,'');
+ pending[1].onError();assert.equal(nodes['question-audio-error'].textContent,'Kļūda');
+ view.reset();pending[1].onError();pending[1].resolve(false);await Promise.resolve();
  assert.equal(nodes['question-replay'].hidden,true);assert.equal(nodes['question-audio-error'].textContent,'');
 });
