@@ -34,6 +34,8 @@ Publication run [44053240327](https://github.com/janisp123/language-learning-app
 
 ## One next action
 
+Content evaluation: [the 500-item situation audit](review/2026-11-17-vocabulary-situation-audit.md) maps supported everyday exchanges, gaps, ordering and bounded meaning-review candidates. This is an assessment only; no vocabulary, translations, IDs, order or new implementation tasks were changed/approved.
+
 Review and integrate the updated PR #7 through the authorized workflow. Owner enables **Source: GitHub Actions** and reports completion. Codex then rechecks current main/run state and follows the appropriate publication run, verifying the returned URL and hosted app hash. Preserve existing authorization and release rules; do not claim publication from a merge or passing build alone.
 
 PR #3 (older architecture proposal) and PR #4 (workflow lessons) remain separate. Earlier implementation history is in [the archived checkpoint](history/WORK_CHECKPOINT-before-english-completion.md).
