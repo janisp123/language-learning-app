@@ -1,6 +1,6 @@
 # Editing pronunciation without rebuilding the app's logic
 
-Current scope: all 500 vocabulary items in Latvian ↔ Russian. This completed batch contains 1,000 MP3 clips; English audio is pending. Version 0.4.2 extends the accepted first-block audio behavior through data and assets; player, view and learning engine remain unchanged. Speech is synthetic (Google Translate TTS via gTTS 2.5.4), generated from the canonical text; fluent pronunciation review is pending. The learner's browser makes no synthesis/network request.
+Current scope: all 500 vocabulary items in Latvian, Russian and English across all six directions. The completed pack contains 1,500 MP3 clips. Version 0.4.3 extends the accepted first-block audio behavior through data and assets; player, view and learning engine remain unchanged. Speech is synthetic: Russian/Latvian use the existing Google Translate TTS clips; English uses the installed Flite cmu_us_slt voice. All clips are generated from canonical text; fluent pronunciation review is pending. The learner's browser makes no synthesis/network request.
 
 | Change | Edit | What stays independent |
 | --- | --- | --- |
@@ -18,7 +18,7 @@ The manifest uses stable vocabulary IDs, exact spoken text, content revision and
 1. Keep meaning and stable ID aligned with canonical translations. A vocabulary change still follows `CONTENT_MODULES.md` and the existing content-lock review; audio is not a bypass.
 2. Replace the MP3 and update its `text`/`sha256` manifest entry, or regenerate just that registered clip:
    `python tools/generate_audio.py --language ru --id vocab-0001`
-   Optional generator dependencies are pinned in `tools/audio-requirements.txt`. Generation needs network access; ordinary tests/builds do not. The generator never changes other clips. Human recordings may replace synthetic clips through the same manifest.
+   Online generator dependencies for Russian/Latvian are pinned in `tools/audio-requirements.txt`. Registered Flite English clips use `tools/local_english.py` instead, requiring installed libflite1 (cmu_us_slt) and ffmpeg only on the authoring machine. The same one-clip command chooses the stable registered `provider` ID (`flite-slt` or `gtts`); descriptive `source` notes can change without changing that choice. English authoring and all ordinary builds work without network access. The generator never changes other clips. Human recordings may replace synthetic clips through the same manifest.
 3. Run `npm test` and `python -m unittest discover -s tests -p 'test_*.py'`.
 4. Build with `python tools/build_browser.py`; copy the resulting HTML to `downloads/language-learning-test.html` and verify equality. Hosted and downloadable output use the same builder.
 
@@ -42,7 +42,7 @@ Read-only references: its `docs/FEATURE_DEVELOPMENT.md` and `AGENTS.md`, plus th
 
 ## Verification and delivery
 
-2026-11-17 batch 1: 36 Node tests and 17 Python tests pass. The full Russian–Latvian pack has 1,000 clips and complete two-direction coverage. English generation is pending after service HTTP 503; 111 cached clips are registered separately in content/audio/pending/english.json and are not enabled in this batch. Native decoder and delivery readback evidence are recorded in the batch delivery file. Prior Chrome checks verified the unchanged player/replay/cancellation behavior; fluent pronunciation review remains pending.
+2026-11-17 full pack: 36 Node tests and 20 Python tests pass locally, including all 500 questions in every direction and an actual offline English-authoring regression with gTTS unavailable. The optional authoring tests skip on machines without the local voice/ffmpeg. All 1,500 clips decode. Chrome preview verified English media duration, played ranges, embedded playback, replay/reset cancellation, and English-source UI with Russian-target playback. Human pronunciation and physical-phone review remain pending. English was saved in ten batches of fifty clips; pending records were consolidated into the single active manifest after validation.
 
 Cloud Chrome blocks `file://` navigation, so actual downloaded-file opening and physical phone tests remain NOT RUN. The self-contained HTML and embedded MP3 bytes are verified by the builder/tests; no network dependency is introduced at runtime. No merge or public release performed.
 

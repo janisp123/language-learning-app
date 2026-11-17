@@ -51,11 +51,11 @@ function mount(data=course,bundle=null,initialDirection='lv-ru'){
   return $;
 }
 function choose($,id){const button=$('choices').children.find(b=>b.dataset.optionId===id);assert.ok(button);button.click();}
-test('standalone audio covers every question in both Russian–Latvian directions with correct target binding',()=>{
+test('standalone audio covers every question in all six directions with correct target binding',()=>{
   const html=fs.readFileSync(path.join(root,'downloads/language-learning-test.html'),'utf8');
   const bank=new Map(course.phrases.map(p=>[p.id,p]));
-  for(const direction of ['lv-ru','ru-lv']){
-    const [source,target]=direction.split('-');
+  for(const source of course.languages)for(const target of course.languages){
+    if(source===target)continue;
     const $=mount(undefined,html,source+'-'+target);$('start').click();let count=0;
     for(const lesson of course.lessons)for(const prompt of lesson.prompts){
       choose($,prompt.phraseId);count++;

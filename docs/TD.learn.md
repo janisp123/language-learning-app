@@ -32,7 +32,7 @@ For each task: check `AGENTS.md` and `WORK_CHECKPOINT.md`, verify whether alread
 - **Acceptance:** Fifty usable ten-question blocks, 500 distinct learning items, no sentences in the first ten blocks, all six translation directions, no duplicate or ambiguous correct choices, simple grammar/pronunciation review, no workplace/adult material, content validation tests. Mark human-language review as pending unless actually performed.
 
 ### L-004 — Build browser learning and the GitHub Pages landing page
-- **Audio slice (Codex, 2026-11-17):** all 500 questions have bundled LV/RU pronunciation and replay; English expansion is PARTIAL (service 503), not delivered; see AUDIO_MODULES.md. Human pronunciation/device review remains pending.
+- **Audio slice (Codex, 2026-11-17):** all 500 questions have bundled LV/RU/EN pronunciation and replay in all six directions (0.4.3); English is generated locally with Flite SLT, avoiding the online synthesis blocker; see AUDIO_MODULES.md. Human pronunciation/device review remains pending.
 - **Status:** PARTIAL — landing page integrated via PR #5; runnable browser test build prepared for review; hosted/device verification pending
 - **Depends on:** L-001–L-003 for browser learning; owner explicitly requested the isolated static landing page ahead of those dependencies
 - **Answer timing update authored by:** Codex at owner request — immediate feedback/answer lock, automatic transition after 500 ms, cancelled on restart/direction change; included in PR #6 test build

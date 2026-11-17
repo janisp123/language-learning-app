@@ -2,7 +2,8 @@
 
 Install optional tooling: python -m pip install -r tools/audio-requirements.txt
 Run: python tools/generate_audio.py --language ru --id vocab-0001
-Only canonical vocabulary text is sent to the synthesis service.
+Online providers receive only canonical vocabulary text. Registered English
+Flite clips are authored locally without a network request.
 """
 import argparse
 import hashlib
@@ -11,7 +12,6 @@ from pathlib import Path
 from content_loader import load_content, read_module, require
 
 def generate(root, language, ident):
-    from gtts import gTTS
     course, _ = load_content(root)
     manifest = read_module(root/'content', 'audio/manifest.json')
     require(language in course['languages'], 'unknown language')
@@ -20,12 +20,20 @@ def generate(root, language, ident):
     # Explicit manifest registration is the scope boundary. Adding later clips is deliberate.
     require(ident in manifest['clips'].get(language, {}), 'register this clip in the manifest first')
     entry = manifest['clips'][language][ident]
+    provider = entry.get('provider', 'gtts')
+    require(provider in ('gtts', 'flite-slt'), 'unsupported audio authoring provider')
     path = (root/entry['file']).resolve()
     require(path.is_relative_to((root/'audio').resolve()) and path.suffix == '.mp3', 'unsafe audio path')
     path.parent.mkdir(parents=True, exist_ok=True)
     temporary = path.with_suffix('.mp3.tmp')
     try:
-        gTTS(phrase[language], lang=language, timeout=20).save(str(temporary))
+        if provider == 'flite-slt':
+            require(language == 'en', 'the local SLT voice supports English only')
+            from local_english import EnglishVoice
+            EnglishVoice().render(phrase[language], temporary)
+        else:
+            from gtts import gTTS
+            gTTS(phrase[language], lang=language, timeout=20).save(str(temporary))
         data = temporary.read_bytes()
         require(len(data) > 100, 'empty audio output')
         temporary.replace(path)

@@ -1,3 +1,7 @@
+## 2026-11-17 — English complete, full audio build 0.4.3
+
+Codex completed all 500 English recordings offline with Flite cmu_us_slt after online synthesis failures, saving ten batches of fifty. Enabled all six directions through the existing manifest; consolidated pending records. No changes to vocabulary, player/view or engine; RU/LV clips retained. Added optional network-free authoring helper and regression. 36 Node/20 Python checks pass locally; all 1,500 MP3 clips decode; Chrome English playback/replay/cancellation and English-source UI verified. Human pronunciation/device review pending. Drive synchronization is finalized separately in delivery evidence. GitHub push remains blocked by proxy HTTP 503; local commits preserve progress. No merge/publication.
+
 ## 2026-11-17 — Full Russian–Latvian audio, batch 1
 
 Codex extended the accepted audio modules to all 500 questions in both RU↔LV directions, preserving the first twenty clips, vocabulary, player/view and engine. Manifest completeness is validated at build time. Build 0.4.2 has 1,000 bundled clips; 36 Node/17 Python checks pass. English is PARTIAL and disabled: 111 cached clips before synthesis HTTP 503, retained in the pending audio manifest. No merge/public release. All 1,000 clips decode. Drive batch replaced and downloaded back byte-for-byte; see delivery/2026-11-17-audio-batch1-drive-sync.json. Local source commit 99016d3 is retained; GitHub push and English synthesis are blocked by shared environment network/proxy 503.

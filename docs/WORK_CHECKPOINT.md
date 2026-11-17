@@ -1,21 +1,23 @@
 # Current working checkpoint
 
-As of 2026-11-17. Branch: feat/testable-browser-app, open PR #6; no merge/public release.
+As of 2026-11-17. Branch feat/testable-browser-app, open PR #6; no merge/public release.
 
-## Product and current batch
+## Product and current build
 
-Approximately 500 survival words/phrases; reuse familiar words and understandable phrasing before formal grammar/style. Current bank and grading are unchanged.
+Approximately 500 survival words/phrases, with vocabulary reuse and understandable communication before style/formal grammar. The bank, player/view and learning engine are unchanged.
 
-Build 0.4.2 batch 1 enables pronunciation for all 500 questions in Russian ↔ Latvian: 1,000 bundled clips. Automatic correct-target pronunciation and replay keep the accepted 500 ms navigation. Player/view/engine unchanged. Manifest all-phrases policy rejects incomplete enabled-language coverage.
+Build 0.4.3 completes sound for all 500 questions in Latvian/Russian/English across all six directions: 1,500 embedded MP3 clips. Correct-target pronunciation follows either answer outcome, with previous-answer replay. Existing 500 ms navigation and cancellation remain unchanged. All-phrases coverage validation rejects missing recordings.
 
-English expansion is PARTIAL, NOT DELIVERED: 111 clips generated before the synthesis service returned HTTP 503. Cached files and content/audio/pending/english.json preserve that progress; English audio is not enabled in this batch. Full expansion plan: superpowers/plans/2026-11-17-full-audio.md. Do not regenerate valid existing RU/LV recordings.
+English online synthesis remained unreliable. All 500 English clips were generated offline using the installed Flite cmu_us_slt voice and saved in ten commits of fifty clips. The active manifest records provider per English clip; pending metadata was consolidated. tools/local_english.py is optional authoring tooling, never a runtime dependency. tools/generate_audio.py regenerates a registered English clip without gTTS/network. Russian/Latvian recordings remain byte-identical.
 
-## Verification and delivery
+## Verification
 
-36 Node and 17 Python tests pass, including full 500-item audio traversal in both enabled directions, exact embedded bytes, text/hash/path integrity and missing-coverage rejection. All 1,000 RU/LV MP3 clips decode successfully. Drive HTML 0.4.2 batch 1 was replaced in place and downloaded back with exact byte equality; SHA-256 16d82b3e08f9090bd1a865e23641c252f9e1938774ff42c70683d82a73a79d1d. See delivery/2026-11-17-audio-batch1-drive-sync.json. Source implementation is local commit 99016d3; GitHub push is BLOCKED by the same shared network/proxy HTTP 503 affecting speech synthesis. Remote branch remains at 1debafd. Human pronunciation and physical-phone checks remain pending.
+36 Node and 20 Python tests pass locally, including all 500 questions in every direction, embedded bytes, content locks, full coverage and offline English generation without the online provider. All 1,500 MP3 clips decode. Chrome preview verified English playback duration/played ranges, replay/reset cancellation and English-source UI with Russian audio. File:// checks remain blocked by Cloud Chrome policy; physical phones and fluent pronunciation review remain pending.
 
-Default Drive folder: Git_dump/language-learning-app, ID 1U6ewdAD-HsthuchnzVOeWOSs4hmM-EAX. Preserve HTML ID 1594pGCAm3E7hOq0-oSwLFh8z4WtRI3vd. See delivery evidence for the exact distributed source/hash.
+## Delivery and synchronization
+
+Default Drive folder Git_dump/language-learning-app, ID 1U6ewdAD-HsthuchnzVOeWOSs4hmM-EAX; stable HTML ID 1594pGCAm3E7hOq0-oSwLFh8z4WtRI3vd. Final 0.4.3 upload/readback is being finalized. Do not infer delivery from local files. GitHub push is still returning a shared proxy/upstream HTTP 503; local source/asset commits are retained. Remote branch was last verified at 1debafd; no CI success is claimed for unpushed changes.
 
 ## Next action
 
-User can test the completed RU/LV batch from Drive now. When connectivity recovers: push the local batch/checkpoint commits, then resume English from content/audio/pending/english.json without regenerating valid clips, enable all six directions only after full coverage passes, and deliver the next verified batch. Earlier checkpoint: history/WORK_CHECKPOINT-before-full-audio.md.
+Finish verified Drive replacement, then user tests English sound. Retry source synchronization when GitHub connectivity recovers. Earlier checkpoint: history/WORK_CHECKPOINT-before-english-completion.md.
