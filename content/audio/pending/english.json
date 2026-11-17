@@ -1,6 +1,6 @@
 {
   "status": "partial-not-enabled",
-  "reason": "synthesis service returned HTTP 503",
+  "reason": "English recordings checkpointed; activation requires full-pack verification",
   "clips": {
     "vocab-0001": {
       "text": "hello",
@@ -581,6 +581,36 @@
       "text": "arm",
       "file": "audio/en/vocab-0132.mp3",
       "sha256": "e83010bf96eb71caf71b65ab0992cb8bb372f7647f806e3bb2502b7c8328e618"
+    },
+    "vocab-0108": {
+      "text": "teenager",
+      "file": "audio/en/vocab-0108.mp3",
+      "sha256": "fd8574555d6b829ff16a4d896cb3c7464968292b28c7f2aeb307d38ef357f3a8"
+    },
+    "vocab-0107": {
+      "text": "baby",
+      "file": "audio/en/vocab-0107.mp3",
+      "sha256": "32955020bb835444753d2ac4b695edf6e7a0b7df60761031e0846e9f3059726c"
+    },
+    "vocab-0109": {
+      "text": "neighbour",
+      "file": "audio/en/vocab-0109.mp3",
+      "sha256": "e0b8777e0a38414c02b8568a98024bb800374f61539e6d063c4e785b2577e50f"
+    },
+    "vocab-0111": {
+      "text": "woman",
+      "file": "audio/en/vocab-0111.mp3",
+      "sha256": "976d1440443e9fc6e1514670c1fba87e5ddba4edb3acc0d8c25232be50b8e18b"
+    },
+    "vocab-0112": {
+      "text": "man",
+      "file": "audio/en/vocab-0112.mp3",
+      "sha256": "d0c07256be85e2745a87546c3546cee0b4db561d37401ec55224625d9890580e"
+    },
+    "vocab-0113": {
+      "text": "people",
+      "file": "audio/en/vocab-0113.mp3",
+      "sha256": "438880eb2a7341a9441ae115aa5da89693b4ddff370808b079d67c8f7d05bac9"
     }
   }
 }
