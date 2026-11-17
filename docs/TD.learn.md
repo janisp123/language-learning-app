@@ -1,7 +1,7 @@
 # TD.learn — active approved tasks for the language-learning app
 
 **Repository:** `janisp123/language-learning-app` • **Branch of record:** `main`  
-**State:** The owner explicitly requested a runnable browser test build. Version 0.4.3 engine, draft course, browser UI, full audio and portable build are integrated through PR #6. Pages publication is blocked on owner setup; Android, language review, hosted verification and final releases remain unfinished. See discovery-preview/LAUNCH.md for the website setup/editing handoff. Task presence alone never authorizes work or publication.
+**State:** Public draft browser build 0.4.7 is integrated through PRs #7–#10 and available directly at https://janisp123.github.io/language-learning-app/learn/. README links the live app and project website. Pages workflow 44111718449 and main CI 44111768967 succeeded; hosted bytes match the verified Drive delivery. Android, fluent human language review, physical-device/accessibility review and final releases remain unfinished. Task presence alone never authorizes work or publication.
 
 For each task: check `AGENTS.md` and `WORK_CHECKPOINT.md`, verify whether already delivered, identify dependencies, use a short-lived branch and checked PR, and update changelog + checkpoint after completing verified work. Preserve `Added by` attribution.
 
@@ -33,11 +33,11 @@ For each task: check `AGENTS.md` and `WORK_CHECKPOINT.md`, verify whether alread
 - **Acceptance:** Fifty-one usable ten-question blocks, 510 distinct items, introductory words/short phrases in the first ten blocks, practical requests from block 11, all six directions and complete source audio. Original meanings/IDs/bindings/recordings remain unchanged. No ambiguous choices or adult/workplace material; human language/pronunciation review remains pending until actually performed.
 
 ### L-004 — Build browser learning and the GitHub Pages landing page
-- **Autoplay/footer slice (Codex, 2026-11-17):** implemented on feat/current-prompt-autoplay-footer, review build 0.4.6. Current prompt automatically plays once on each appearance; replay survives blocked autoplay; source/footer links preserved. 38 Node and 23 Python tests pass; Chromium flow/playback verified in all six directions. Pushed on PR #8 (d59fabe); GitHub CI 44108161630 passed; stable Drive file uploaded and downloaded with exact byte equality (delivery/2026-11-17-autoplay-footer-drive-sync.json). Integration pending.
-- **Practical-core revision (Codex, owner request, 2026-11-17):** review build 0.4.5 covers 510 items/51 blocks and 1,530 recordings; current-prompt-only speaker, zero saves and learning rules remain unchanged. Integration/device review pending.
+- **Autoplay/footer slice (Codex, 2026-11-17):** implemented on feat/current-prompt-autoplay-footer, review build 0.4.6. Current prompt automatically plays once on each appearance; replay survives blocked autoplay; source/footer links preserved. 38 Node and 23 Python tests pass; Chromium flow/playback verified in all six directions. Pushed on PR #8 (d59fabe); GitHub CI 44108161630 passed; stable Drive file uploaded and downloaded with exact byte equality (delivery/2026-11-17-autoplay-footer-drive-sync.json). Integrated through PR #8; see hosted publication receipt delivery/2026-11-17-pages-deployment.json.
+- **Practical-core revision (Codex, owner request, 2026-11-17):** review build 0.4.5 covers 510 items/51 blocks and 1,530 recordings; current-prompt-only speaker, zero saves and learning rules remain unchanged. Integrated through PR #7; physical-device review pending.
 - **Current-prompt speaker update (Codex, owner request, 2026-11-17):** 0.4.4 adds a localized speaker beside the current word/phrase; only that source-language prompt plays on request. Previous-answer replay and automatic answer sound are removed. Prepared in PR #7; integration/device review pending.
 - **Audio slice (Codex, 2026-11-17):** all 500 questions have bundled LV/RU/EN pronunciation and replay in all six directions (0.4.3); English is generated locally with Flite SLT, avoiding the online synthesis blocker; see AUDIO_MODULES.md. Human pronunciation/device review remains pending.
-- **Status:** PARTIAL — landing page and complete browser build integrated through PR #6; publication run 44053240327 blocked on owner enabling Settings → Pages → Source: GitHub Actions; hosted/device verification pending
+- **Status:** PARTIAL — browser/site 0.4.7 integrated through PRs #7–#10 and publicly deployed. Hosted HTTPS/hash/browser verification recorded in delivery/2026-11-17-pages-deployment.json; physical-device/full-accessibility review pending
 - **Depends on:** L-001–L-003 for browser learning; owner explicitly requested the isolated static landing page ahead of those dependencies
 - **Answer timing update authored by:** Codex at owner request — immediate feedback/answer lock, automatic transition after 500 ms, cancelled on restart/direction change; included in PR #6 test build
 - **Landing-page slice authored by:** Codex · [source](discovery-preview/index.html) · [publication/verification notes](discovery-preview/LAUNCH.md)
@@ -57,7 +57,7 @@ For each task: check `AGENTS.md` and `WORK_CHECKPOINT.md`, verify whether alread
 - **Acceptance:** A new session/process always begins at lesson 1 with fresh counters. Verify no learner state is written to preferences, files, databases, backups or OS state-restoration. Process death/relaunch, activity recreation after process death, install/update and device backup restoration must not resume or recover learning progress. Course/audio assets remain available offline. Physical-device verification is required; Android is not implemented yet.
 
 ### L-006 — Build verification and safe delivery automation
-- **Status:** PARTIAL — automated browser checks integrated; main CI run 44053240358 succeeded; cross-platform/release checks remain pending
+- **Status:** PARTIAL — automated browser checks integrated; main CI run 44111768967 succeeded (41 Node / 28 Python tests); cross-platform/release checks remain pending
 - **Browser test-build code/content authored by:** Codex · [implementation and verification](BROWSER_TEST_BUILD.md)
 - **Added by:** ChatGPT
 - **Implemented by:** Not yet
@@ -65,7 +65,8 @@ For each task: check `AGENTS.md` and `WORK_CHECKPOINT.md`, verify whether alread
 - **Acceptance:** A deliberately failing test blocks a change in a test run; browser and Android tests exercise the same conformance cases; no automatic Play release or unverified Pages publication; real small-screen and offline checks recorded.
 
 ### L-007 — Prepare and verify the first public release
-- **Status:** TODO • **Depends on:** L-001–L-006, user approval
+- **Browser draft publication (Codex, owner approval, 2026-11-17):** 0.4.7 hosted and independently read back; final fluent/device review and Android/Play release remain pending.
+- **Status:** PARTIAL • **Depends on:** L-001–L-006, user approval
 - **Added by:** ChatGPT
 - **Implemented by:** Not yet
 - **Goal:** Follow `RELEASE_CHECKLIST.md`: professional landing page, correct GitHub Pages Learn link, Android package and required Play Console assets/policies/testing.
@@ -77,13 +78,6 @@ For each task: check `AGENTS.md` and `WORK_CHECKPOINT.md`, verify whether alread
 - **Implemented by:** Not yet
 - **Goal:** Explain suitable license choices for code and learning content; ask owner to select; only then add files and update public descriptions.
 - **Acceptance:** Public description accurately matches the adopted license(s); no assumption that a public repository is freely reusable.
-
-### L-009 — English → Japanese only
-- **Status:** IN REVIEW — implemented/verified/pushed on PR #9, source d9044cd; GitHub CI 44109924376 passed. Review build 0.4.7 delivered through stable Drive with exact downloaded-byte equality; receipt delivery/2026-11-17-english-japanese-drive-sync.json. Integration pending
-- **Added by:** Codex (explicit owner request, 2026-11-17)
-- **Implemented by:** Codex (verified locally; integration pending)
-- **Goal:** Add English → Japanese for the same 510 meanings, script-only answers (owner choice), English UI and existing English current-prompt audio. Exactly seven directions; preserve all original six directions and content/audio/bindings. No Japanese reverse or LV/RU pairings, accounts, tracking or saved preferences.
-- **Verification:** 41 Node / 28 Python tests pass, including explicit allowlists, forbidden/forged session directions, full seven-direction completion, source-only UI/audio and target-first catalog order. Chromium traversed all 510 en-ja prompts at 320 px with English audio bindings, autoplay/cancellation, unchanged 499/500 ms timing, empty storage/cookies and reload reset. All 1,530 old clip hashes and all 510 old translations in each language unchanged. Independent code/content review issues resolved. Fluent human Japanese review, physical devices and full screen-reader audit remain pending.
 
 ## Out of scope for v1 (not backlog tasks)
 

@@ -1,6 +1,6 @@
 # Release checklist — not a release announcement
 
-**No website app or Play app has been published yet.** Use this checklist only when the relevant implementation task reaches verification.
+**A public draft browser build 0.4.7 is hosted on GitHub Pages (2026-11-17); Android/Play remains unpublished.** Use this checklist only when the relevant implementation task reaches verification.
 
 ## Before publishing the browser version
 - [ ] Real `Learn` button opens a functioning lesson from the actual GitHub Pages public URL.
@@ -30,3 +30,6 @@
 - [ ] Unverified items remain clearly marked TODO/BLOCKED, not quietly passed.
 
 **Approved curriculum:** 51 blocks of ten questions / 510 basic words and short phrases; first ten blocks remain introductory words/short phrases and full practical requests start at block 11. Check every block in all six directions, including source audio for the ten new items. Original 500 meanings/bindings and 1,500 old clips must remain unchanged. Payments, ads, accounts, cloud data and additional languages/ages remain out of scope.
+
+
+Public draft evidence: delivery/2026-11-17-pages-deployment.json and delivery/2026-11-17-pages-browser.json. Owner approved integration/publication; final fluent human, physical-device and full screen-reader checks above remain pending.

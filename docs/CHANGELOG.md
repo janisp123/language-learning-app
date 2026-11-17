@@ -63,3 +63,12 @@ Verification: 41 Node / 28 Python tests pass after missing-feature failures; Chr
 ## 2026-11-17 — Direct website access and README links (Codex)
 
 Owner requested the current app directly on the existing GitHub Pages site and a README page link. Added prominent direct app, project website and hosted portable HTML links to README; corrected outdated manual-only workflow wording. Before integration, HTTPS landing and /learn/ returned 200 but hosted app hash matched 0.4.3. Existing checked PRs #7 → #8 → #9 contain the 0.4.7 app; integration/publication and hosted hash/browser readback are authorized by this request. No app/content/audio changes in this documentation slice. Publication evidence will be recorded after deployment.
+
+
+## 2026-11-17 — Publish 0.4.7 and direct README links (Codex)
+
+Owner explicitly approved merging PRs #7–#10 and publishing. Merged in order: #7 at 828a6b0, #8 at b204c5c, #9 at 9fc4fed, #10 at d0d38e7. Public app: https://janisp123.github.io/language-learning-app/learn/; project website and hosted portable HTML are also linked prominently from README. Existing website/workflow reused; no app rebuild or content/audio changes in this publication slice.
+
+Pages workflow 44111718449 succeeded; main CI 44111768967 passed (41 Node / 28 Python tests). HTTPS public landing/app/download returned 200. Hosted landing matches canonical source; hosted app/download match the 0.4.7 source and verified Drive artifact exactly (SHA-256 bbd877c5e9757453872d2fcacd752103731a3aa51d29e2e51460e1fe7234e6bf). Hosted browser and byte evidence: delivery/2026-11-17-pages-browser.json and delivery/2026-11-17-pages-deployment.json. All original translations/bindings/recordings and zero-saves behavior preserved. Physical-device, full screen-reader and fluent human review remain pending; Android/Play remains unimplemented/unpublished.
+
+L-009 English→Japanese completed and removed from active TD after verified integration: Added by Codex at explicit owner request; implemented by Codex. Japanese script-only answers for all 510 meanings, English UI/current-prompt audio, exactly seven directions with forbidden pairs rejected. Implementation/delivery evidence remains in PR #9 and delivery/2026-11-17-english-japanese-*.json.

@@ -1,27 +1,28 @@
 # Current working checkpoint
 
-## Website update request (2026-11-17) — PARTIAL / integration confirmation pending
+As of 2026-11-17. **DONE: build 0.4.7 is implemented, pushed, merged, delivered through Drive and publicly hosted on GitHub Pages.** The owner explicitly approved merging PRs #7, #8, #9 and #10 and publishing the current app. All four PRs are merged. Main after integration: d0d38e70dd344f9f612210a70b76bb2bac29a619.
 
-Owner requested current app availability directly on the existing GitHub Pages site and a README website link. HTTPS landing and `/learn/` both return 200; hosted app still matches 0.4.3 (SHA-256 c83f9e14d25127c9f4855b2e33bf9147ff8de0933a63ae2b9d6766242375312d). README direct app, project website and hosted HTML links are prepared in PR #10, source 99ab6bb; its GitHub CI 44110830420 passed. Local 41 Node / 28 Python tests pass; all three links map to the staged public files, and staged app bytes match delivered 0.4.7. No app/content/audio changes in this documentation slice.
+## Direct access and verified publication
 
-Next: obtain explicit confirmation for merging PRs #7, #8, #9 and #10 into main and publishing 0.4.7, then integrate in order, inspect the existing Pages workflow result and verify public app/download hashes and hosted browser behavior. No merge or new deployment performed in this request yet. Preserve the existing Drive delivery; website publication needs independent evidence.
+- App: https://janisp123.github.io/language-learning-app/learn/
+- Project website: https://janisp123.github.io/language-learning-app/
+- Portable HTML: https://janisp123.github.io/language-learning-app/language-learning-test.html
+- README on main prominently links all three; the landing Learn action opens the app directly without a download.
 
-As of 2026-11-17. **DONE: English → Japanese 0.4.7 implemented, verified, pushed on PR #9 and delivered through the stable Drive file. Integration pending; no merge/public deployment.** Isolated branch feat/english-to-japanese begins at bffcf17 (delivered autoplay/footer PR #8). Main last verified at 85e4dc400fe58075df806cf5d03d3c757a9f49bf (0.4.3); PR #7 at 51878ef remains open. No merge or public deployment performed. Latest known Pages workflow 44053240327 failed; hosted setup/verification remains pending.
+Pages workflow 44111718449 succeeded for deployment source 9fc4fed6ee25f4a9533b6eb7282906e22125b9cb. Its deploy log returned the project website URL. The subsequent README-only integration has identical public files. Main CI 44111768967 passed at d0d38e7. HTTPS landing, app and download return 200 with default TLS verification. Hosted landing matches canonical source; hosted app/download match source and the exact verified Drive 0.4.7 artifact: 15,811,471 bytes, SHA-256 bbd877c5e9757453872d2fcacd752103731a3aa51d29e2e51460e1fe7234e6bf. Receipt: delivery/2026-11-17-pages-deployment.json; hosted Chromium evidence: delivery/2026-11-17-pages-browser.json.
 
-## Completed independent slice: autoplay/footer 0.4.6
+## Current product
 
-Source d59fabe7895b460d63bf42711ca930dc887cec5d is pushed on PR #8; GitHub CI 44108161630 passed. Stable Drive file 1594pGCAm3E7hOq0-oSwLFh8z4WtRI3vd was replaced only after source push, downloaded back and compared exactly. Receipt: delivery/2026-11-17-autoplay-footer-drive-sync.json. 38 Node / 23 Python tests and Chromium checks passed. Footer is Made by Janis Paegle 2026 with profile link and preserved source links. Current prompt autoplays once per appearance, replay remains usable after rejection, old sound cancels; scoring and 500 ms timing preserved.
+510 meanings in 51 blocks. All original IDs, LV/RU/EN translations, answer/distractor bindings and 1,530 recordings preserved. Exactly seven directions: lv-ru, lv-en, ru-lv, ru-en, en-lv, en-ru, en-ja. Japanese answers use script only, English UI and existing English source audio. No Japanese reverse/LV/RU pairings.
 
-## Current Japanese slice: implemented / verified / pushed / delivered
+The current source prompt attempts pronunciation once on every appearance; replay remains usable after autoplay rejection. Old sound stops on prompt change, restart, direction change and completion. Scoring and 500 ms transitions are unchanged. Footer: Made by Janis Paegle 2026 with owner profile and preserved project source links.
 
-Review build 0.4.7, content revision 0.6.0-test: all existing 510 meanings translated into Japanese script only (owner selected option 3). Exactly seven directions: lv-ru, lv-en, ru-lv, ru-en, en-lv, en-ru, en-ja. English interface and existing English current-prompt audio for en-ja. No Japanese-source or LV/RU→Japanese directions; catalog/runtime allowlists validate explicitly, including forged-state rejection. Target-only Japanese has no UI pack; source languages supply names/UI/audio. Legacy archived catalog remains compilable.
+Zero learner-state saves on every platform: session memory only, no records/history/preferences or backup/import/export; each reload/process starts lesson 1. Android remains unimplemented. Fluent human Japanese/language/pronunciation review, physical devices and full screen-reader audit remain pending; this is a public draft browser build, not a final Android/Play release.
 
-41 Node and 28 Python tests pass, including full seven-direction completion, exact allowlists, malformed/missing lists, target-first module ordering, canonical identity and script answers. Chromium at 320×720 completed all 510 en-ja items, checked English audio bindings, source UI, once-per-appearance autoplay, wrong return/restart/completion, 499/500 ms transition, empty storage/cookies and reload reset. Browser receipt: delivery/2026-11-17-english-japanese-browser.json. All old 510 translations per language and all 1,530 recording records/hashes directly compared unchanged; original lock fixtures unchanged. Independent code/content reviews resolved locale-order and family/glass ambiguities. Physical devices, full screen-reader and fluent human language review NOT RUN.
+## Verification and delivery history
 
-Zero learner-state saves on every platform: session memory only; no records/history/preferences, backups/import/export or OS progress restoration. Each reload/process restart begins lesson 1. Android remains unimplemented.
+41 Node / 28 Python tests pass locally and main CI. All seven directions complete in the UI/engine tests. Local Chromium traversed all 510 en-ja items and verified English audio, script answers, 499/500 ms transitions and session resets; hosted checks independently verify the public app. The headless environment lacks the Pages certificate trust chain, so its browser check bypasses that environment trust issue; independent HTTPS downloads use default TLS verification and verify full byte equality.
 
-## Next action / delivery
+Both review slices were delivered in order before integration: 0.4.6 autoplay/footer on PR #8 (delivery/2026-11-17-autoplay-footer-drive-sync.json), then 0.4.7 Japanese on PR #9 (delivery/2026-11-17-english-japanese-drive-sync.json). Stable Drive file 1594pGCAm3E7hOq0-oSwLFh8z4WtRI3vd remains 0.4.7, exactly matching the hosted app. This publication does not alter the verified Drive file.
 
-Build source d9044cd2b26ac3213c6ba6c5518619bcd4ddea63 is pushed on PR #9; GitHub CI 44109924376 passed before upload. Stable Drive HTML 1594pGCAm3E7hOq0-oSwLFh8z4WtRI3vd in folder 1U6ewdAD-HsthuchnzVOeWOSs4hmM-EAX now contains 0.4.7. Full downloaded bytes compare exactly: 15811471 bytes; SHA-256 bbd877c5e9757453872d2fcacd752103731a3aa51d29e2e51460e1fe7234e6bf. Receipt: delivery/2026-11-17-english-japanese-drive-sync.json. Both slices were delivered in the requested order.
-
-Next: owner reviews PR #7 → #8 → #9 and authorizes integration; retain separate slice history and rerun required checks after any integration changes. Main remains 0.4.3; no merge/public deployment. Recheck Pages setup and actual hosted URL only within authorized integration/publication work. Fluent human Japanese review, physical-device and full screen-reader checks remain pending. Do not claim hosted deployment from a passed source CI.
+Next: collect fluent human language/pronunciation and physical-device/accessibility review. No unrelated backlog work is automatically authorized. Future website edits reuse the existing main-only Pages workflow and require hosted readback evidence.
