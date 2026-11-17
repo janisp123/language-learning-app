@@ -2557,7 +2557,7 @@
     "static": {
       "skip": "Pāriet uz uzdevumiem",
       "brand-name": "Valodu mācīšanās",
-      "badge": "Izmēģinājuma versija 0.4.9",
+      "badge": "Izmēģinājuma versija 0.4.10",
       "draft": "Mācību materiāls un izruna vēl jāpārbauda valodu pratējiem · skaņa visiem 510 vārdiem un frāzēm latviešu, krievu, angļu un japāņu valodā",
       "audience": "Valodas ikdienai · 10–17 gadiem",
       "welcome": "Mazliet prakses. Sāc ar pamatiem.",
@@ -2598,7 +2598,8 @@
       "completed": "Pareizi. Pēdējā nodarbība ir pabeigta.",
       "error": "Neizdevās ielādēt mācību materiālu. Lejupielādē izmēģinājuma versiju vēlreiz vai ziņo par problēmu GitHub.",
       "instruction": "Izvēlies tulkojumu {language} valodā",
-      "noscript": "Lai pildītu uzdevumus, ieslēdz JavaScript. Lejupielādētajam HTML failam konts un internets nav vajadzīgs."
+      "noscript": "Lai pildītu uzdevumus, ieslēdz JavaScript. Lejupielādētajam HTML failam konts un internets nav vajadzīgs.",
+      "theme": "Tumšais motīvs"
     },
     "lessons": {
       "basic-01": "Sasveicināšanās",

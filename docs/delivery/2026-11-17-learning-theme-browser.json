@@ -1,0 +1,26 @@
+{
+  "buildVersion": "0.4.10",
+  "browser": "Chromium",
+  "landingDarkCarriesToLearning": true,
+  "oneUseFragmentRemoved": true,
+  "historyStateNull": true,
+  "learningToggleSourceLanguages": [
+    "lv",
+    "ru",
+    "en"
+  ],
+  "themeToggleDoesNotChangeProgressOrCancelAnswerTransition": true,
+  "restartDirectionAndCompletionKeepTheme": true,
+  "cleanUrlReloadResetsLightAndLessonOne": true,
+  "storageAndCookiesEmpty": true,
+  "layoutWidths": [
+    320,
+    1280
+  ],
+  "pageErrors": [],
+  "verification": "46 Node tests (including real browser handoff/toggle) and29 Python; baseline handoff regression observed failing",
+  "notRun": [
+    "physical devices",
+    "full screen-reader audit"
+  ]
+}

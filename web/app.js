@@ -7,6 +7,17 @@
     const E = globalThis.LanguageEngine;
     const locales = JSON.parse($('ui-data').textContent);
     const audio = globalThis.LanguageAudioView?.create(document, JSON.parse($('audio-data').textContent));
+    function renderTheme() {
+      const dark = document.documentElement.dataset.theme === 'dark';
+      $('learning-theme-toggle').textContent = dark ? '☀' : '☾';
+      $('learning-theme-toggle').setAttribute('aria-pressed', String(dark));
+      $('theme-color').setAttribute('content', dark ? '#14261f' : '#183f36');
+    }
+    $('learning-theme-toggle').addEventListener('click', () => {
+      document.documentElement.dataset.theme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+      renderTheme();
+    });
+    renderTheme();
     let course = null;
     let state = null;
     let shown = null;
@@ -23,6 +34,8 @@
       audio?.localize(source);
       document.documentElement.lang = source;
       document.title = t('pageTitle');
+      $('learning-theme-toggle').setAttribute('aria-label', t('theme'));
+      $('learning-theme-toggle').title = t('theme');
       for (const [id, value] of Object.entries(messages.static)) $(id).textContent = value;
       for (const option of $('direction').options) {
         const [from, to] = option.value.split('-');

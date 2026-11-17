@@ -77,3 +77,10 @@ L-004, explicit owner bug report: Japanese answer speaker controls in 0.4.8 were
 43 Node / 29 Python tests pass after observed missing-feature failures. Independent asset review verified all 510 JA bindings/hashes and all 1,530 original records/hashes unchanged. Browser decode/UI evidence and delivery receipts are recorded separately. Fluent human pronunciation, physical-device and full-screen-reader review remain pending. No merge/publication at implementation checkpoint.
 
 0.4.9 Japanese audio review delivery: source 6913c37 on PR #14 passed CI 44118339756 before stable Drive upload. Complete downloaded bytes compare exactly; receipt delivery/2026-11-17-japanese-audio-drive-sync.json.
+
+
+## 2026-11-17 — 0.4.10 keep dark mode while learning (Codex)
+
+L-004, owner bug report: landing dark mode was not passed to the separate learning document, which had no dark styles or theme control. Added one-use Learn-link theme handoff, consumed and removed before rendering with null history state; no preferences stored. Added localized learning-header theme toggle and dark colors for setup/practice/answers/audio/feedback/completion. Theme changes do not grade, reset, cancel audio or alter 500 ms transitions. Restart, direction changes and completion retain the in-memory theme; cleaned-URL reload starts light/lesson 1.
+
+Baseline real-browser regression reproduced the missing theme. 46 Node / 29 Python tests pass, including keyboard/source-language toggle, URL cleanup, null history state, dark answer audio, toggle during pending answer, full course completion, restart/direction/theme reset, empty storage/cookies and320/1280px layout. Independent review found no actionable issue. All content/audio/directions/scoring preserved. Browser evidence: delivery/2026-11-17-learning-theme-browser.json. Source push/review delivery/integration pending; physical-device/full-screen-reader checks not run.
