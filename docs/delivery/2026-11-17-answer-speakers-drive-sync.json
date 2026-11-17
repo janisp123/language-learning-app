@@ -1,0 +1,35 @@
+{
+  "buildVersion": "0.4.8",
+  "sourceCommit": "00aa31649af15c810cf619525616feae12337bfd",
+  "sourceBranch": "feat/answer-pronunciation",
+  "pullRequest": 12,
+  "driveFileId": "1594pGCAm3E7hOq0-oSwLFh8z4WtRI3vd",
+  "folderId": "1U6ewdAD-HsthuchnzVOeWOSs4hmM-EAX",
+  "sha256": "ddd53f9dbd775640548cab28641f4374e553208fe45ff23655b565251c44a2a2",
+  "bytes": 15813863,
+  "readbackVerified": true,
+  "verifiedDate": "2026-11-17",
+  "sourcePushedBeforeUpload": true,
+  "tests": {
+    "node": 43,
+    "python": 28
+  },
+  "ciRun": 44115225318,
+  "ciConclusion": "success",
+  "browserReceipt": "2026-11-17-answer-speakers-browser.json",
+  "answerAudioLanguages": [
+    "lv",
+    "ru",
+    "en"
+  ],
+  "japaneseAnswerAudio": "not bundled; unavailable controls disabled, answers selectable",
+  "unchangedExistingClips": 1530,
+  "learnerState": "Memory only; zero saves",
+  "statusAtDelivery": {
+    "implemented": true,
+    "pushed": true,
+    "delivered": true,
+    "merged": false,
+    "publiclyDeployed": false
+  }
+}
