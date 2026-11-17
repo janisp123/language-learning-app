@@ -1201,6 +1201,306 @@
       "file": "audio/en/vocab-0200.mp3",
       "sha256": "456878ef9a67c7e6a39cb435ed6142a3aca2ce106fdd926e258c69fa023a7161",
       "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0201": {
+      "text": "plate",
+      "file": "audio/en/vocab-0201.mp3",
+      "sha256": "7e7ddfc0018e5976a99f730d4c1294801e606bd8c2ae6f5d96a10ce83621e709",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0202": {
+      "text": "cup",
+      "file": "audio/en/vocab-0202.mp3",
+      "sha256": "3abcb2069ca8f35be7f1185b255211d2a8471b3dbc8d657c0d09add251499499",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0203": {
+      "text": "glass",
+      "file": "audio/en/vocab-0203.mp3",
+      "sha256": "e8376fbd36bfc198d79c76d9b1c1ecb0b20aa5b1eda2d5e3a2dedeb075a5fd1e",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0204": {
+      "text": "bowl",
+      "file": "audio/en/vocab-0204.mp3",
+      "sha256": "cf3024299f63f34a1b782192f284d3810b2a38e2b33726de93821aa9f57c2e75",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0205": {
+      "text": "spoon",
+      "file": "audio/en/vocab-0205.mp3",
+      "sha256": "414304f9148765a55c2ed3d307760d4db3836b7b9b7c4e0230a67cb220884bb9",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0206": {
+      "text": "fork",
+      "file": "audio/en/vocab-0206.mp3",
+      "sha256": "1c59676c718455b117eea9a0abf252593b15b106a493f9bbf9479d64dda9195f",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0207": {
+      "text": "knife",
+      "file": "audio/en/vocab-0207.mp3",
+      "sha256": "8b2b2f5c56ce46904ba8b2f450ea2b886f6aee7e69bb0b41fdc33690cc043df9",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0208": {
+      "text": "bottle",
+      "file": "audio/en/vocab-0208.mp3",
+      "sha256": "c580a535077614909535cbfc1cf8764ece4b439c65db770ae2d8a54a1d8f5062",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0209": {
+      "text": "pot",
+      "file": "audio/en/vocab-0209.mp3",
+      "sha256": "a519aad2a6ab273c54e692341621ff4a2e5179061a65dd49cef2207c0efe7110",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0210": {
+      "text": "pan",
+      "file": "audio/en/vocab-0210.mp3",
+      "sha256": "70024986837c0d292ffd927f4944b1e85067e3df14b0e292a3f79d65d2bd2d0a",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0211": {
+      "text": "soap",
+      "file": "audio/en/vocab-0211.mp3",
+      "sha256": "98a86eddb366fa1806f373053cb8d1df8e7b05a41697a481de78c0bf7d665369",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0212": {
+      "text": "towel",
+      "file": "audio/en/vocab-0212.mp3",
+      "sha256": "59487f078cfaa92087eb768fc2b1ec382bafbc2a0a1364aa7f538ca3b1d7bbdc",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0213": {
+      "text": "toothbrush",
+      "file": "audio/en/vocab-0213.mp3",
+      "sha256": "fd363c5f90ff35b23acadad833a7ec4fdef104704a490d42619e1cd9fd1906fe",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0214": {
+      "text": "toothpaste",
+      "file": "audio/en/vocab-0214.mp3",
+      "sha256": "c1cb696dd157f882b6551bbad324fc6faff74bfd6ec1ccd4bb0667bfc4300a73",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0215": {
+      "text": "shampoo",
+      "file": "audio/en/vocab-0215.mp3",
+      "sha256": "993ce3cc55351d4d2b8309978c23c61ebe441e78734737e976de8d6cbfd5e5bd",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0216": {
+      "text": "comb",
+      "file": "audio/en/vocab-0216.mp3",
+      "sha256": "e0a51337934f1732ad4081784f22d4fa7e8d7d9d8b3b65639c12b5c1ef445691",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0217": {
+      "text": "shower",
+      "file": "audio/en/vocab-0217.mp3",
+      "sha256": "b9f16157b83e419e64f84e9af7b91d8d84224ee6d14c84d518d5e01bee3440dd",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0218": {
+      "text": "bath",
+      "file": "audio/en/vocab-0218.mp3",
+      "sha256": "9a32f8d2f128f0afd48d62ab178b9d50fceddfc1b5abb8016c0a56c69fc1d36d",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0219": {
+      "text": "toilet paper",
+      "file": "audio/en/vocab-0219.mp3",
+      "sha256": "e8b607c8d13d136fa3e66ad01ae1ea28b7984ef7515da2322f508f613a65eeea",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0220": {
+      "text": "tissue",
+      "file": "audio/en/vocab-0220.mp3",
+      "sha256": "6cf7b2b86da5b4e2a9b350748d7c6587730b7eed1cad394aa42ebf6505c46b06",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0221": {
+      "text": "pear",
+      "file": "audio/en/vocab-0221.mp3",
+      "sha256": "86b823ef3854df7fd5d3a9e1215263027702234bfa39eb786a10902ab2725ba7",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0222": {
+      "text": "orange",
+      "file": "audio/en/vocab-0222.mp3",
+      "sha256": "00acbcb49c0211fe1e9d2db9c8b9e6b412d087dfd2951c64ec014b658db8c491",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0223": {
+      "text": "lemon",
+      "file": "audio/en/vocab-0223.mp3",
+      "sha256": "4544dab01b155fffbc78c8ff7ee77c091501403f506a877eaac2394807c16184",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0224": {
+      "text": "grapes",
+      "file": "audio/en/vocab-0224.mp3",
+      "sha256": "cd07b9b18dc912d4811fb8eaa53767de868ee800de3a03d570e381844ac2cca8",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0225": {
+      "text": "strawberry",
+      "file": "audio/en/vocab-0225.mp3",
+      "sha256": "ba08aebd8be8419659b745f26a26e3e54952219187c5ee1ec326cec4391fa57f",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0226": {
+      "text": "raspberry",
+      "file": "audio/en/vocab-0226.mp3",
+      "sha256": "ed2110228debe6ef280559b41117ee2cd7b6f3163717145cd8bea447c7e02b21",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0227": {
+      "text": "cherry",
+      "file": "audio/en/vocab-0227.mp3",
+      "sha256": "458d4bfb47a007b57e07e2e56742e58113cf1afa798f2bc2b55564dccfc04265",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0228": {
+      "text": "plum",
+      "file": "audio/en/vocab-0228.mp3",
+      "sha256": "4bd5b1cc4df8d20118dedcc8bf25b82ded6ede074a72f978591eae4e5c25550a",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0229": {
+      "text": "peach",
+      "file": "audio/en/vocab-0229.mp3",
+      "sha256": "f666e899ebed9b607e097de2296a3aa5424fc7c3a9fd02389788f0a64b2cded1",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0230": {
+      "text": "watermelon",
+      "file": "audio/en/vocab-0230.mp3",
+      "sha256": "44ec664d4f4dcd803e7a40b8f18e9023bfb74e4987981f96acd33d36c7e94cb7",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0231": {
+      "text": "potato",
+      "file": "audio/en/vocab-0231.mp3",
+      "sha256": "59087c5a12d4000dab79ee91ca2f33e21fa4a55fd4b226f59cddf41fe6785aa0",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0232": {
+      "text": "carrot",
+      "file": "audio/en/vocab-0232.mp3",
+      "sha256": "bbfb19c084e5201d3e859b25cb2d39f3eab3d69c0e588fa69156d7081dc2ea5e",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0233": {
+      "text": "tomato",
+      "file": "audio/en/vocab-0233.mp3",
+      "sha256": "6bb7f23593047dc29842b4179a0c0ddd7b5b71ff75b679ca842b76d85fb6f304",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0234": {
+      "text": "cucumber",
+      "file": "audio/en/vocab-0234.mp3",
+      "sha256": "db43e68fa1802f15ddd94fa8b54966d872810ce20d81bef03d1368536016402f",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0235": {
+      "text": "onion",
+      "file": "audio/en/vocab-0235.mp3",
+      "sha256": "ae63dbc64becabeddd54992d2f329cd05ccc6c2accaa0745e616d82923aafb90",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0236": {
+      "text": "garlic",
+      "file": "audio/en/vocab-0236.mp3",
+      "sha256": "a8521bc0ac37e148ece03c6e1f219cfbcc70b72168b39accbe9568554573d408",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0237": {
+      "text": "cabbage",
+      "file": "audio/en/vocab-0237.mp3",
+      "sha256": "33fdc8854de899e5c3c6c236067f98f70516a1e13d18a55cfb342e1937814b57",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0238": {
+      "text": "pepper",
+      "file": "audio/en/vocab-0238.mp3",
+      "sha256": "56a2956fb0cc9b8920a50782f2ce58272a7064f78448a55ab2b18fbb50bce917",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0239": {
+      "text": "peas",
+      "file": "audio/en/vocab-0239.mp3",
+      "sha256": "ec39379a0ebfe40e906f6d94873589666fbed402457319a1c365c42a4e9771f0",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0240": {
+      "text": "beans",
+      "file": "audio/en/vocab-0240.mp3",
+      "sha256": "e8aa62f2bc2ea90784ce23c67d351f99c643124f9c2056f640b8adeb06fea64c",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0241": {
+      "text": "rice",
+      "file": "audio/en/vocab-0241.mp3",
+      "sha256": "a223035cd41e62edf67fb2b92056ca37610c99ec84b4cfe6347ff4e141f48c6c",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0242": {
+      "text": "pasta",
+      "file": "audio/en/vocab-0242.mp3",
+      "sha256": "f8a198538381970d905300f6528cce3d05a0c3a683d23b5784cb77e4566b8e8a",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0243": {
+      "text": "meat",
+      "file": "audio/en/vocab-0243.mp3",
+      "sha256": "b4029735a2307ceceed7203eb1a100c6250bf924d95ec6e3958d4e87ad359753",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0244": {
+      "text": "chicken meat",
+      "file": "audio/en/vocab-0244.mp3",
+      "sha256": "86f6fba9b778aed44ae8c2d4c4b2aa1b115ec567a03ec92d4fb0920e6f469d5a",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0245": {
+      "text": "fish",
+      "file": "audio/en/vocab-0245.mp3",
+      "sha256": "3fdf62f32d6cfb71fc3ec0d757e22af0a9f5d410dafa4957627b2043512face3",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0246": {
+      "text": "egg",
+      "file": "audio/en/vocab-0246.mp3",
+      "sha256": "2165cb2f707a7cbbbcdcc036e664b5150682cc0347604206ef415bf1464c1016",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0247": {
+      "text": "butter",
+      "file": "audio/en/vocab-0247.mp3",
+      "sha256": "19083242dbd08b479dcdd2b2e1719897d11a93e50ab235ef151c2e5d4f3d90da",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0248": {
+      "text": "yogurt",
+      "file": "audio/en/vocab-0248.mp3",
+      "sha256": "724cf47f8c7b8a897cf278a1e2274c27faebb53e48af19cdabcce07c1f6eab7b",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0249": {
+      "text": "salt",
+      "file": "audio/en/vocab-0249.mp3",
+      "sha256": "409abdddf85c4ee6929073527f728233d26bf4cafd63ec002968ec824bb53c8e",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0250": {
+      "text": "sugar",
+      "file": "audio/en/vocab-0250.mp3",
+      "sha256": "6baf43bca26a13c0b9a31206596c541f44f93a4768e1a057058a879dbb5a9ba2",
+      "source": "Flite cmu_us_slt; offline synthesis"
     }
   }
 }
