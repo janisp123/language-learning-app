@@ -37,6 +37,7 @@ Scope: **this repository only** (`janisp123/language-learning-app`). Do not edit
 
 ## 5. Non-negotiable product constraints for v1
 
+- Product scope: roughly 500 crucial words and short phrases for survival basics and everyday communication. Practical usefulness, intelligibility, pronunciation and reuse take priority over breadth or an exact marketing count. Current development focus is Russian ↔ Latvian. Do not turn this into a broad language curriculum or Duolingo-style feature set; see `docs/CONTENT_RULES.md`. The current validated build remains exactly 500 entries until an explicit content change updates its contracts.
 - Android and GitHub Pages browser learning; no account, remote user database, advertising, subscriptions or payments.
 - Browser learning: no saved progress, cookies, localStorage, IndexedDB or external progress synchronization.
 - Android: persist **only the highest lesson reached** for the course, plus minimal technical metadata required to interpret it; allow manual export/import. Do not silently save per-word scores or daily progress.

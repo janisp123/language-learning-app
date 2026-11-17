@@ -1,5 +1,11 @@
 # Content rules — basic words and short phrases
 
+## Product scope — survival basics
+
+The product focuses on **roughly 500 crucial words and short phrases** for everyday survival and basic communication. Practical usefulness is the selection criterion; 500 is an approximate scope, not a reason to pad the bank or continually expand it. Prioritize understanding essential speech, asking for help, expressing basic needs and handling common situations. Current development focuses on Russian ↔ Latvian.
+
+Keep the experience small and focused. A broad language curriculum, advanced proficiency path and Duolingo-style feature expansion are outside this product's scope. Improve the usefulness, clarity, pronunciation and reuse of the essential bank before adding breadth. This clarification does not claim the current draft has passed a survival-usefulness audit. The present build still contains exactly 500 entries; changing that technical count requires an explicit content/validation update.
+
 The owner has revised the initial curriculum to **500 basic words and short phrases in 50 blocks of ten questions**, in Latvian, Russian and English, all six directed pairs, initially for ages 10–17. This supersedes the earlier ten-situation, sentence-based draft and its former limit on vocabulary count. The earlier draft remains archived, not active.
 
 ## Reuse takes priority over style
