@@ -4,7 +4,7 @@ test('dark mode carries into learning without saving a preference and survives l
  const server=http.createServer((req,res)=>{res.setHeader('Content-Type','text/html; charset=utf-8');res.end(fs.readFileSync(req.url.startsWith('/learn/')?'downloads/language-learning-test.html':'docs/discovery-preview/index.html'));});
  await new Promise(r=>server.listen(0,'127.0.0.1',r));const base='http://127.0.0.1:'+server.address().port;const browser=await chromium.launch({executablePath:'/usr/bin/chromium',headless:true,args:['--no-sandbox']});
  try{
- const page=await browser.newPage({viewport:{width:320,height:900}});const errors=[];page.on('pageerror',e=>errors.push(String(e)));
+ const page=await browser.newPage({viewport:{width:320,height:900},isMobile:true,hasTouch:true});const errors=[];page.on('pageerror',e=>errors.push(String(e)));
  await page.goto(base);await page.locator('#theme-toggle').click();await page.locator('a[href^="learn/"]').first().click();await page.waitForLoadState('load');
  assert.equal(await page.locator('html').getAttribute('data-theme'),'dark','landing dark mode must reach learning');
  assert.equal(new URL(page.url()).hash,'','one-use theme handoff must be removed');assert.equal(await page.evaluate(()=>history.state),null);
@@ -14,7 +14,20 @@ test('dark mode carries into learning without saving a preference and survives l
  }
  await page.selectOption('#direction','en-ja');await page.locator('#start').click();
  assert.equal(await page.locator('.question-card').evaluate(e=>getComputedStyle(e).backgroundColor),'rgb(29, 52, 41)');
- await page.locator('.answer-replay').first().click();assert.equal(await page.locator('#progress').getAttribute('value'),'0');
+ const speaker=page.locator('.answer-replay').first(),row=page.locator('.answer-option').first(),answer=row.locator('.choice');
+ await page.mouse.move(0,0);
+ const answerBackground=await answer.evaluate(e=>getComputedStyle(e).backgroundColor);
+ const speakerBackground=await speaker.evaluate(e=>getComputedStyle(e).backgroundColor);
+ await speaker.tap();
+ assert.equal(await row.evaluate(e=>getComputedStyle(e).outlineStyle),'none','speaker taps must not outline the whole answer');
+ assert.equal(await answer.evaluate(e=>getComputedStyle(e).backgroundColor),answerBackground,'speaker taps must not highlight answer text');
+ assert.equal(await speaker.evaluate(e=>getComputedStyle(e).backgroundColor),'rgb(53, 97, 62)','only speaker turns green');
+ await page.locator('.answer-replay').nth(1).tap();
+ assert.equal(await speaker.evaluate(e=>getComputedStyle(e).backgroundColor),speakerBackground,'previous speaker highlight clears');
+ await speaker.focus();await page.keyboard.press('Enter');
+ assert.notEqual(await speaker.evaluate(e=>getComputedStyle(e).outlineStyle),'none','keyboard focus remains visible on speaker');
+ assert.equal(await row.evaluate(e=>getComputedStyle(e).outlineStyle),'none');
+ assert.equal(await page.locator('#progress').getAttribute('value'),'0');
  const first=await page.evaluate(()=>JSON.parse(document.querySelector('#course-data').textContent).lessons[0].prompts[0].phraseId);
  await page.locator(`[data-option-id="${first}"]`).click();await page.locator('#learning-theme-toggle').click();await page.waitForTimeout(600);assert.equal(await page.locator('#progress').getAttribute('value'),'1');assert.equal(await page.locator('html').getAttribute('data-theme'),'light');
  await page.locator('#learning-theme-toggle').focus();await page.keyboard.press('Space');assert.equal(await page.locator('html').getAttribute('data-theme'),'dark');assert.equal(await page.locator('#progress').getAttribute('value'),'1');
