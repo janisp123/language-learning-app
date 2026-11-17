@@ -85,15 +85,22 @@
         button.type = 'button'; button.className = 'choice'; button.lang = shown.target;
         button.textContent = option.text; button.dataset.optionId = option.id;
         button.addEventListener('click', () => select(option.id));
-        $('choices').append(button);
+        const row = document.createElement('div'); row.className = 'answer-option';
+        const speaker = document.createElement('button');
+        speaker.type = 'button'; speaker.className = 'answer-replay';
+        speaker.innerHTML = $('question-replay').innerHTML;
+        speaker.disabled = true;
+        audio?.option(shown, option, speaker);
+        row.append(button, speaker); $('choices').append(row);
       }
       $('question').focus();
     }
     function select(id) {
       if (pending) return;
       pending = E.answer(course, state, shown, id);
-      for (const button of $('choices').children) {
-        button.disabled = true;
+      for (const row of $('choices').children) {
+        const [button, speaker] = row.children;
+        button.disabled = true; speaker.disabled = true;
         if (button.dataset.optionId === shown.correctId) button.classList.add('correct');
         else if (button.dataset.optionId === id) button.classList.add('incorrect');
       }
