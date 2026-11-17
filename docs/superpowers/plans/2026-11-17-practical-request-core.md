@@ -24,8 +24,8 @@ Preserve existing IDs/text/bindings and all old clips. Ten prompts per block; no
 **Files:** content catalog/concepts/three language modules/new block/audio manifest and assets; tests/test_practical_core.py, tests/test_basic_vocabulary.py, tests/ui.test.cjs; package/version and relevant documentation/delivery record.
 **Interfaces:** Consume existing `load_content`, `load_audio` and builders; produce 510-item/51-block course in the spec's order and 1,530 clips without runtime interface changes.
 
-- [ ] Add tests for exact prioritized block order, ten new translated meanings and complete audio; run them and observe missing-feature failures.
-- [ ] Author the spec's data; verify the old vocabulary digest in its original recorded order and test current order separately. Register/generate only thirty new clips.
-- [ ] Build/copy generated HTML; remove hardcoded 500-item traversal assertions in favor of the validated active count. Run full Node/Python suites, decode new clips and verify old content/asset identity.
-- [ ] Verify the new phrase block and current-prompt playback in mobile-sized Chromium across six directions; check zero saves and source/site/download parity.
-- [ ] Commit/push, obtain focused review, update stable Drive HTML and verify byte equality; record exact source, hash, checks and remaining review limitations.
+- [x] Add tests for exact prioritized block order, ten new translated meanings and complete audio; run them and observe missing-feature failures.
+- [x] Author the spec's data; verify the old vocabulary digest in its original recorded order and test current order separately. Register/generate only thirty new clips.
+- [x] Build/copy generated HTML; remove hardcoded 500-item traversal assertions in favor of the validated active count. Run full Node/Python suites, decode new clips and verify old content/asset identity.
+- [x] Verify the new phrase block and current-prompt playback in mobile-sized Chromium across six directions; check zero saves and source/site/download parity.
+- [x] Commit/push, obtain focused review, update stable Drive HTML and verify byte equality; record exact source, hash, checks and remaining review limitations.
