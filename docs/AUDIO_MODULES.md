@@ -59,3 +59,8 @@ English → Japanese uses the existing 510 English prompt recordings. Japanese i
 ## Answer speakers (0.4.8)
 
 Each choice is a row containing separate answer and speaker buttons. The speaker binds the option ID, exact target text and target language to an existing bundled clip; it never calls the grading engine. `LanguageAudioView.option(shown, answer, button)` guards stale presentation references and locked controls. Prompt and answer replay use one player, canceling any prior clip. New prompts/reset/completion invalidate old controls and errors. Current-prompt autoplay and 500 ms answer timing remain intact. All four answer speakers work for existing LV/RU/EN audio; Japanese has no bundled clips, so its answer speakers are explicitly labeled unavailable/disabled while answer selection remains available.
+
+
+## Japanese answer pronunciation repair (0.4.9)
+
+The owner reported that the Japanese speaker controls did not work. Version 0.4.8 deliberately disabled them because the target recordings had not been bundled. Version 0.4.9 adds 510 exact Japanese translation recordings with language ja, authored through the existing gTTS 2.5.4 provider. All 1,530 earlier clips remain unchanged. Current-prompt English autoplay and Japanese answer replay use the existing player/UI without new direction or runtime synthesis changes. The all-phrases coverage contract now requires every source and target language, so incomplete Japanese answer coverage fails the build. Seven allowed directions and zero saved learner state remain unchanged.

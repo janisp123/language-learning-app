@@ -68,3 +68,12 @@ Owner requested the current app directly on the existing GitHub Pages site and a
 ## 2026-11-17 — 0.4.8 answer pronunciation speakers (Codex)
 
 L-004, owner-requested independent speakers beside each answer. Speaker clicks play the exact target-language option from existing bundled LV/RU/EN recordings and do not select, grade, shuffle or navigate. Sibling buttons preserve separate keyboard actions. Shared playback cancels older audio; old/locked controls cannot play stale answers. Existing prompt autoplay, scoring, seven directions and 500 ms transitions preserved. Japanese answer recordings remain unavailable and those speakers are labeled/disabled; Japanese selection remains usable. No stored state, course/answer IDs, translations or recordings changed. 43 Node / 28 Python tests pass after observed failures; independent review found no actionable issues. Chromium verified four decoded target clips per direction, keyboard replay without grading, unchanged timing/cancellation and mobile/desktop layout. Source 00aa316 on PR #12 passed CI 44115225318; stable Drive file uploaded after source push and downloaded back with exact equality. Evidence: delivery/2026-11-17-answer-speakers-browser.json and delivery/2026-11-17-answer-speakers-drive-sync.json. No merge/public deployment at review delivery.
+
+
+## 2026-11-17 — 0.4.9 Japanese answer audio repair (Codex)
+
+L-004, explicit owner bug report: Japanese answer speaker controls in 0.4.8 were disabled because target clips were absent. Added all 510 exact Japanese translation recordings with gTTS 2.5.4; total 2,040 clips. No old recording, translation, ID, answer/distractor binding, player/engine or direction changes. All-phrases coverage now includes source and target languages, rejecting missing Japanese clips. Existing buttons become playable through data; source-English prompt autoplay, 500 ms transitions and zero saves remain intact.
+
+43 Node / 29 Python tests pass after observed missing-feature failures. Independent asset review verified all 510 JA bindings/hashes and all 1,530 original records/hashes unchanged. Browser decode/UI evidence and delivery receipts are recorded separately. Fluent human pronunciation, physical-device and full-screen-reader review remain pending. No merge/publication at implementation checkpoint.
+
+0.4.9 Japanese audio review delivery: source 6913c37 on PR #14 passed CI 44118339756 before stable Drive upload. Complete downloaded bytes compare exactly; receipt delivery/2026-11-17-japanese-audio-drive-sync.json.

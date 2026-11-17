@@ -1,0 +1,36 @@
+{
+  "buildVersion": "0.4.9",
+  "sourceCommit": "6913c3749b19be9f5eb2831699ff6d346f53c237",
+  "sourceBranch": "fix/japanese-answer-audio",
+  "pullRequest": 14,
+  "driveFileId": "1594pGCAm3E7hOq0-oSwLFh8z4WtRI3vd",
+  "folderId": "1U6ewdAD-HsthuchnzVOeWOSs4hmM-EAX",
+  "bytes": 21384026,
+  "sha256": "341e5c54a5c127bbc36a2217ebe8b26d21030fa2a954316122d5f0f059e68d68",
+  "readbackVerified": true,
+  "sourcePushedBeforeUpload": true,
+  "verifiedDate": "2026-11-17",
+  "ciRun": 44118339756,
+  "ciConclusion": "success",
+  "tests": {
+    "node": 43,
+    "python": 29
+  },
+  "japaneseClipsAdded": 510,
+  "originalClipsUnchanged": 1530,
+  "totalClips": 2040,
+  "browserReceipt": "2026-11-17-japanese-audio-browser.json",
+  "learnerState": "Memory only; zero saves",
+  "statusAtDelivery": {
+    "implemented": true,
+    "pushed": true,
+    "driveDelivered": true,
+    "merged": false,
+    "publiclyDeployed": false
+  },
+  "notRun": [
+    "physical devices",
+    "full screen-reader audit",
+    "fluent human pronunciation review"
+  ]
+}
