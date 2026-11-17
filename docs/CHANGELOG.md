@@ -1,3 +1,7 @@
+## 2026-11-17 — Modular first-block audio (PR #6 review branch)
+
+Implemented by Codex: twenty bundled RU/LV clips for the first ten vocabulary IDs, automatic correct-target pronunciation and replay, isolated manifest/loader/player/view modules. Engine and vocabulary bindings unchanged. Build 0.4.1 is self-contained; scope excludes other questions and English audio. Applied prior questionnaire lessons through explicit contracts, deterministic assembly, stable IDs and default Drive pointers. 36 Node and 16 Python tests pass; all twenty MP3 files decode; Chrome preview verified played ranges and replay/cancellation in both directions. Local-file navigation is blocked by Cloud browser policy; physical devices and fluent pronunciation review remain pending. No merge/public release. See AUDIO_MODULES.md and current checkpoint for delivery status.
+
 
 ## 2026-11-16 — 500-item basic vocabulary draft (PR #6, not merged)
 

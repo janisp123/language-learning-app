@@ -6,6 +6,7 @@
   try {
     const E = globalThis.LanguageEngine;
     const locales = JSON.parse($('ui-data').textContent);
+    const audio = globalThis.LanguageAudioView?.create(document, JSON.parse($('audio-data').textContent));
     let course = null;
     let state = null;
     let shown = null;
@@ -19,6 +20,7 @@
     function localize() {
       const source = $('direction').value.split('-')[0];
       messages = locales[source];
+      audio?.localize(source);
       document.documentElement.lang = source;
       document.title = t('pageTitle');
       for (const [id, value] of Object.entries(messages.static)) $(id).textContent = value;
@@ -44,6 +46,7 @@
     localize();
 
     function cancelAdvance() {
+      audio?.reset();
       if (advanceTimer !== null) clearTimeout(advanceTimer);
       advanceTimer = null; generation++; pending = null;
     }
@@ -88,6 +91,7 @@
     function select(id) {
       if (pending) return;
       pending = E.answer(course, state, shown, id);
+      audio?.answer(shown, pending.feedback);
       for (const button of $('choices').children) {
         button.disabled = true;
         if (button.dataset.optionId === shown.correctId) button.classList.add('correct');

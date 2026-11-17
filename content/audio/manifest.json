@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "0.4.0-test",
+  "directions": [
+    "lv-ru",
+    "ru-lv"
+  ],
+  "provenance": {
+    "source": "Google Translate TTS via gTTS 2.5.4",
+    "generated": "2026-11-17",
+    "review": "synthetic-draft-human-review-pending"
+  },
+  "clips": {
+    "ru": {
+      "vocab-0001": {
+        "text": "здравствуйте",
+        "file": "audio/ru/vocab-0001.mp3",
+        "sha256": "b8ba2c98692706e45a0759132049644c31cf86b798731a36101388d9c1bd5f52"
+      },
+      "vocab-0002": {
+        "text": "до свидания",
+        "file": "audio/ru/vocab-0002.mp3",
+        "sha256": "d107ccc418bf289e82004148fa46c7faccc6f3904d6fbd6eba3cb462ac4c57cb"
+      },
+      "vocab-0003": {
+        "text": "пожалуйста",
+        "file": "audio/ru/vocab-0003.mp3",
+        "sha256": "e79736f5e4e4504ef545e234108a8859d6dc33841831b7db1d79c99d99be628f"
+      },
+      "vocab-0004": {
+        "text": "спасибо",
+        "file": "audio/ru/vocab-0004.mp3",
+        "sha256": "0cc5102554635dba98489e889aa885ac7da2605b2cdd3dab62a0b7d7baeffb56"
+      },
+      "vocab-0005": {
+        "text": "извини",
+        "file": "audio/ru/vocab-0005.mp3",
+        "sha256": "c54e79d100df4b9d3d6e8e58980b44a30a74dc3e765d2ea26544394c24691b72"
+      },
+      "vocab-0006": {
+        "text": "да",
+        "file": "audio/ru/vocab-0006.mp3",
+        "sha256": "2b0c9a8afe0175da315bf5dd7487732a293370dba9e2c409ca0c75998415057e"
+      },
+      "vocab-0007": {
+        "text": "нет",
+        "file": "audio/ru/vocab-0007.mp3",
+        "sha256": "5a8e8bcc2c751073a78f2df01d22ff15b839038b19f697a98a63e7d08135c412"
+      },
+      "vocab-0008": {
+        "text": "доброе утро",
+        "file": "audio/ru/vocab-0008.mp3",
+        "sha256": "b883a50111c49e893c4289795ae63515dd1a692078e1d2deef0cd21915587b30"
+      },
+      "vocab-0009": {
+        "text": "добрый вечер",
+        "file": "audio/ru/vocab-0009.mp3",
+        "sha256": "9ff1d49c2a10977d632bc09cb3ea90c73781612bd354ddc2040deb0a8a0e83b8"
+      },
+      "vocab-0010": {
+        "text": "спокойной ночи",
+        "file": "audio/ru/vocab-0010.mp3",
+        "sha256": "908922c4d76fd4894bd10d0beb5ca8ae6998c373bbd545a44cc9ec2ad4f7f062"
+      }
+    },
+    "lv": {
+      "vocab-0001": {
+        "text": "sveiki",
+        "file": "audio/lv/vocab-0001.mp3",
+        "sha256": "a8f67d11576c0ebfceb30739b82124b5893934b8b8390b95283a9f05f0c48c8e"
+      },
+      "vocab-0002": {
+        "text": "uz redzēšanos",
+        "file": "audio/lv/vocab-0002.mp3",
+        "sha256": "1771cc786acebb3be660732a3e4a69fbd097992b07dedcd0367237fea3f206ea"
+      },
+      "vocab-0003": {
+        "text": "lūdzu",
+        "file": "audio/lv/vocab-0003.mp3",
+        "sha256": "233afd20bbf70a8d38041dc0c03d394c7bb909fd134ac7c458b2a8c79eeed41b"
+      },
+      "vocab-0004": {
+        "text": "paldies",
+        "file": "audio/lv/vocab-0004.mp3",
+        "sha256": "32efbeb324b11e24586dbc691dab4c516121e48bf84c99b1b856a65577f9ba09"
+      },
+      "vocab-0005": {
+        "text": "piedod",
+        "file": "audio/lv/vocab-0005.mp3",
+        "sha256": "673be39a6800bf43dbb662cd35377468267c6128a5e4a4247a7dd878244d4734"
+      },
+      "vocab-0006": {
+        "text": "jā",
+        "file": "audio/lv/vocab-0006.mp3",
+        "sha256": "3f0825367a80eeab5f171855ed0e13505523289123968580bc8fe12adc2932f5"
+      },
+      "vocab-0007": {
+        "text": "nē",
+        "file": "audio/lv/vocab-0007.mp3",
+        "sha256": "280cb7e664b214fe766db513e6e056e90897cc193f43a4e64b8de0fc43558f5b"
+      },
+      "vocab-0008": {
+        "text": "labrīt",
+        "file": "audio/lv/vocab-0008.mp3",
+        "sha256": "c03cfac58f21d61be1df116fdff995490682fced1ce3909595dead3ad5513d5b"
+      },
+      "vocab-0009": {
+        "text": "labvakar",
+        "file": "audio/lv/vocab-0009.mp3",
+        "sha256": "8b2a4c9bf777d8b6adf7529c3a3ba53c7a6f4596576dae94c33af9b4cade3853"
+      },
+      "vocab-0010": {
+        "text": "ar labu nakti",
+        "file": "audio/lv/vocab-0010.mp3",
+        "sha256": "3605e32b1fdbf086a0d4f9b73aa9c8ae104fe6ffd92d2a3ae460c95ea367e09e"
+      }
+    }
+  }
+}

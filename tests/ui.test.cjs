@@ -21,6 +21,8 @@ function mount(data=course,bundle=null,initialDirection='lv-ru'){
     setAttribute(name,value){this[name]=value;}
     click(){if(!this.disabled)this.handlers.click?.();}
     focus(){document.activeElement=this;}
+    play(){this.playCount=(this.playCount||0)+1;this.paused=false;return Promise.resolve();}
+    pause(){this.paused=true;}
   }
   const html=bundle || builtHtml;
   for(const match of html.matchAll(/<[^>]+\bid="([^"]+)"[^>]*>/g)){
@@ -30,6 +32,7 @@ function mount(data=course,bundle=null,initialDirection='lv-ru'){
   elements.get('direction').options=[...html.matchAll(/<option id="([^"]+)" value="([^"]+)"[^>]*>/g)].map(match=>{const option=elements.get(match[1]);option.value=match[2];return option;});
   elements.get('course-data').textContent=bundle ? html.match(/id="course-data">([\s\S]*?)<\/script>/)[1] : JSON.stringify(data);
   if(elements.has('ui-data'))elements.get('ui-data').textContent=bundle ? html.match(/id="ui-data">([\s\S]*?)<\/script>/)[1] : JSON.stringify(locales);
+  if(elements.has('audio-data'))elements.get('audio-data').textContent=html.match(/id="audio-data">([\s\S]*?)<\/script>/)[1];
   document={documentElement:{lang:'en'},title:'',getElementById:id=>elements.get(id),createElement:()=>new Element(),createTextNode:text=>String(text),activeElement:null};
   const context=vm.createContext({document,LanguageEngine:E,
     setTimeout:(callback,delay)=>{const id=++timerId;timers.set(id,{callback,at:now+delay});return id;},
@@ -48,6 +51,25 @@ function mount(data=course,bundle=null,initialDirection='lv-ru'){
   return $;
 }
 function choose($,id){const button=$('choices').children.find(b=>b.dataset.optionId===id);assert.ok(button);button.click();}
+test('standalone audio follows correct targets for ten questions only in Russian–Latvian directions',()=>{
+  const html=fs.readFileSync(path.join(root,'downloads/language-learning-test.html'),'utf8');
+  for(const direction of ['lv-ru','ru-lv']){
+    const target=direction.split('-')[1];const $=mount(undefined,html,direction);$('start').click();
+    for(let i=0;i<10;i++){
+      const prompt=course.lessons[0].prompts[i];
+      const option=i===0 ? $('choices').children.find(b=>b.dataset.optionId!==prompt.phraseId).dataset.optionId : prompt.phraseId;
+      choose($,option);assert.equal($('audio-label').textContent,course.phrases.find(p=>p.id===prompt.phraseId)[target]);
+      assert.equal($('audio-panel').hidden,false);assert.match($('audio-media').src,/^data:audio\/mpeg;base64,/);
+      $.tick(500);
+      if(i===0){$('restart').click();choose($,prompt.phraseId);$.tick(500);}
+    }
+    assert.equal($('audio-media').playCount,11);
+    choose($,course.lessons[1].prompts[0].phraseId);assert.equal($('audio-panel').hidden,true);assert.equal($('audio-media').playCount,11);
+    $('restart').click();assert.equal($('audio-media').paused,true);
+  }
+  const $=mount(undefined,html,'en-ru');$('start').click();choose($,course.lessons[0].prompts[0].phraseId);
+  assert.equal($('audio-panel').hidden,true);assert.equal($('audio-media').playCount,undefined);
+});
 test('answer locks immediately, advances only at 500ms, then wrong steps back automatically',()=>{
   const $=mount();assert.equal($('setup').hidden,false);assert.equal($('error').hidden,true);
   assert.equal($('lesson-list').children.length,course.lessons.length);

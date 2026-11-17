@@ -33,6 +33,12 @@
         <div id="choices" class="choices"></div>
       </article>
       <div id="feedback" class="feedback" role="status" aria-live="polite" aria-atomic="true"></div>
+      <div id="audio-panel" class="audio-panel" hidden>
+        <audio id="audio-media" preload="none"></audio>
+        <p><span id="audio-caption"></span> <strong id="audio-label"></strong></p>
+        <button id="audio-replay" class="quiet" type="button"></button>
+        <p id="audio-error" class="small" role="status" aria-live="polite"></p>
+      </div>
       <div class="practice-actions"><button id="restart" class="quiet" type="button"><!--TEXT:restart--></button><button id="change" class="quiet" type="button"><!--TEXT:change--></button></div>
       <p id="help" class="small help"><!--TEXT:help--></p>
     </section>
@@ -44,7 +50,9 @@
   <footer><p id="footer-caption"><!--TEXT:footer-caption--></p><a id="source-link" href="https://github.com/janisp123/language-learning-app"><!--TEXT:source-link--></a><p id="privacy-note" class="small"><!--TEXT:privacy-note--></p></footer>
   <script type="application/json" id="course-data"><!--COURSE--></script>
   <script type="application/json" id="ui-data"><!--UI--></script>
+  <script type="application/json" id="audio-data"><!--AUDIO-DATA--></script>
   <!--ENGINE-->
+  <!--AUDIO-MODULES-->
   <!--APP-->
 </body>
 </html>

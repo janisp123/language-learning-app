@@ -8,9 +8,9 @@ A free language-learning project for practical Latvian, Russian and English comm
 
 This test build contains 50 draft blocks of ten questions, covering 500 basic words and short phrases with translations in all three languages. Choose any of the six directions between Latvian, Russian and English, then Start practice. Tap one of four reshuffled choices: feedback appears immediately, then the next prompt opens automatically after 0.5 seconds. No Continue button is needed. Ten correct answers in a row complete a lesson; a mistake steps back one prompt and resets the run. Each lesson is a ten-question block. The third mistake in the same block restarts at lesson one, question one, even when correct answers came between mistakes. The mistake count resets on entering a new block or restarting. Fresh sessions start at lesson one. There is no saved browser progress, tracking, ads, XP, lives or daily streaks.
 
-**Draft, not a finished release:** fluent human language review, real browser/device/accessibility verification and hosted deployment remain pending. The interface follows the source language: Latvian when starting from Latvian, Russian when starting from Russian, and English when starting from English. Changing direction switches the UI immediately. No pronunciation audio, Android download or Google Play listing exists yet. Do not describe the test build as publicly deployed without actual deployment evidence.
+**Draft, not a finished release:** fluent human language review, real browser/device/accessibility verification and hosted deployment remain pending. The interface follows the source language: Latvian when starting from Latvian, Russian when starting from Russian, and English when starting from English. Changing direction switches the UI immediately. Pronunciation audio is included only for the first ten questions in Russian ↔ Latvian; it speaks the correct translation after each answer and provides replay. No Android download or Google Play listing exists yet. Do not describe the test build as publicly deployed without actual deployment evidence.
 
-[Testing guide, architecture and verification limits](docs/BROWSER_TEST_BUILD.md).
+[Testing guide, architecture and verification limits](docs/BROWSER_TEST_BUILD.md). [Audio editing and module boundaries](docs/AUDIO_MODULES.md).
 
 ## Source and checks
 

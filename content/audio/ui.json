@@ -1,0 +1,17 @@
+{
+  "lv": {
+    "replay": "Atskaņot vēlreiz",
+    "label": "Iepriekšējās atbildes izruna:",
+    "error": "Neizdevās atskaņot. Pamēģini nospiest “Atskaņot vēlreiz” un pārbaudi skaļumu."
+  },
+  "ru": {
+    "replay": "Послушать ещё раз",
+    "label": "Произношение предыдущего ответа:",
+    "error": "Не удалось воспроизвести. Нажмите «Послушать ещё раз» и проверьте громкость."
+  },
+  "en": {
+    "replay": "Play again",
+    "label": "Previous answer pronunciation:",
+    "error": "Playback failed. Try Play again and check the volume."
+  }
+}

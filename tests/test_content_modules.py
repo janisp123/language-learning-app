@@ -101,6 +101,7 @@ class ContentModuleTests(unittest.TestCase):
             (root/'content/languages/zz.json').write_text(json.dumps(pack));catalog['languages'].append({'id':'zz','file':'languages/zz.json'});path.write_text(json.dumps(catalog))
             course,locales=load_content(root);self.assertEqual(course['languages'],['lv','ru','en','zz']);self.assertIn('zz',locales)
             shutil.copytree(ROOT/'web',root/'web');shutil.copytree(ROOT/'core',root/'core')
+            shutil.copytree(ROOT/'audio',root/'audio')
             from build_browser import build
             output=build(root,root/'test.html').read_text()
             self.assertEqual(output.count('<option id="direction-'),12)
