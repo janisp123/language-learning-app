@@ -18,7 +18,7 @@ def load_audio(root: Path, course: dict, manifest=None):
         require(source != target and source in course['languages'] and target in course['languages'], 'unknown audio direction')
     ui = read_module(root/'content', 'audio/ui.json')
     for language in {direction.split('-')[0] for direction in directions}:
-        require(language in ui and all(text(ui[language].get(k)) for k in ['replay','label','error']), 'missing audio UI labels')
+        require(language in ui and all(text(ui[language].get(k)) for k in ['prompt','error']), 'missing audio UI labels')
     require(isinstance(manifest.get('clips'), dict), 'audio clips required')
     require(manifest.get('coverage') in (None, 'all-phrases'), 'unsupported audio coverage policy')
     if manifest.get('coverage') == 'all-phrases':

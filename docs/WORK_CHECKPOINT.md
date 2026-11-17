@@ -1,6 +1,6 @@
 # Current working checkpoint
 
-As of 2026-11-17. Repository: janisp123/language-learning-app. Publication is BLOCKED on GitHub Pages setup; application source synchronization is DONE.
+As of 2026-11-17. Repository: janisp123/language-learning-app. Main contains 0.4.3; current review build 0.4.4 is prepared for PR #7. Publication remains BLOCKED on GitHub Pages setup.
 
 ## Current integrated source
 
@@ -12,7 +12,11 @@ English uses locally authored Flite cmu_us_slt recordings; optional authoring to
 
 ## Verification and delivery
 
-Main browser-check run [44053240358](https://github.com/janisp123/language-learning-app/actions/runs/44053240358) succeeded. The publication job also completed 36 Node tests and 20 Python test cases, with two optional local-voice tests skipped, before encountering the Pages configuration error. Earlier local evidence records all 1,500 clips decoding and Chrome playback/replay/cancellation checks. Those runtime checks were not rerun during this documentation update. Physical phones, local-file opening and fluent pronunciation review remain pending.
+Current 0.4.4 review behavior: the speaker beside the current word/phrase plays only that source-language prompt on request. Previous-answer replay and automatic answer sound are removed at the owner's request. Advancing, restart, direction change and completion stop sound; scoring, answer choices and the existing 500 ms delay are unchanged. See [audio contracts](AUDIO_MODULES.md).
+
+Current verification: 37 Node and 20 Python tests pass locally. The new regressions were first observed failing before implementation; standalone tests cover all 500 questions in all six directions. Headless Chromium at 390×844 verified real decoded playback, 48 px speaker, keyboard replay, no horizontal overflow, scoring isolation and navigation cancellation in all six directions. Browser console has no page errors. Physical Android and full accessibility/fluent-language review remain pending.
+
+Integrated-main browser-check run [44053240358](https://github.com/janisp123/language-learning-app/actions/runs/44053240358) succeeded for 0.4.3. The earlier publication job completed its tests before encountering the Pages configuration error. These existing remote checks do not establish integration or publication of the new review build.
 
 Default Drive folder: `Git_dump/language-learning-app`, ID `1U6ewdAD-HsthuchnzVOeWOSs4hmM-EAX`. Stable HTML ID: `1594pGCAm3E7hOq0-oSwLFh8z4WtRI3vd`. Recorded 0.4.3 readback SHA-256: `c83f9e14d25127c9f4855b2e33bf9147ff8de0933a63ae2b9d6766242375312d`; build source `d8ab062c6334c393b93acab7d4b14df605c2e95b`. See [delivery evidence](delivery/2026-11-17-english-complete-drive-sync.json). The Drive source-history bundle remains a backup; it is no longer the only location of the completed source.
 
@@ -26,6 +30,6 @@ Publication run [44053240327](https://github.com/janisp123/language-learning-app
 
 ## One next action
 
-Owner enables **Source: GitHub Actions** and reports completion. Then Codex rechecks current main/run state, retries the relevant failed publication jobs and verifies the returned URL and hosted app hash. Preserve existing authorization and release rules; do not claim publication from a merge or passing build alone.
+Review and integrate the updated PR #7 through the authorized workflow. Owner enables **Source: GitHub Actions** and reports completion. Codex then rechecks current main/run state and follows the appropriate publication run, verifying the returned URL and hosted app hash. Preserve existing authorization and release rules; do not claim publication from a merge or passing build alone.
 
 PR #3 (older architecture proposal) and PR #4 (workflow lessons) remain separate. Earlier implementation history is in [the archived checkpoint](history/WORK_CHECKPOINT-before-english-completion.md).

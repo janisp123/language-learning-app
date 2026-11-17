@@ -29,16 +29,18 @@
       <div class="progress-row"><label for="progress" id="progress-label"></label><progress id="progress" max="10" value="0"></progress></div>
       <p class="small" id="mistakes"></p>
       <article class="question-card" aria-labelledby="question">
-        <p id="instruction" class="eyebrow"></p><h2 id="question" tabindex="-1"></h2>
+        <p id="instruction" class="eyebrow"></p>
+        <div class="question-prompt">
+          <h2 id="question" tabindex="-1"></h2>
+          <button id="question-replay" class="question-replay" type="button" hidden disabled>
+            <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="M11 5 6 9H3v6h3l5 4V5Z" fill="currentColor"/><path d="M15 8a6 6 0 0 1 0 8m3-11a10 10 0 0 1 0 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </button>
+        </div>
+        <p id="question-audio-error" class="small prompt-audio-error" role="status" aria-live="polite"></p>
+        <audio id="audio-media" preload="none"></audio>
         <div id="choices" class="choices"></div>
       </article>
       <div id="feedback" class="feedback" role="status" aria-live="polite" aria-atomic="true"></div>
-      <div id="audio-panel" class="audio-panel" hidden>
-        <audio id="audio-media" preload="none"></audio>
-        <p><span id="audio-caption"></span> <strong id="audio-label"></strong></p>
-        <button id="audio-replay" class="quiet" type="button"></button>
-        <p id="audio-error" class="small" role="status" aria-live="polite"></p>
-      </div>
       <div class="practice-actions"><button id="restart" class="quiet" type="button"><!--TEXT:restart--></button><button id="change" class="quiet" type="button"><!--TEXT:change--></button></div>
       <p id="help" class="small help"><!--TEXT:help--></p>
     </section>

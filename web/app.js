@@ -73,6 +73,7 @@
       $('direction-label').textContent = `${messages.names[shown.source].label} → ${messages.names[shown.target].label}`;
       $('instruction').textContent = t('instruction', {language:messages.names[shown.target].target});
       $('question').textContent = shown.text; $('question').lang = shown.source;
+      audio?.question(shown);
       $('progress').value = state.consecutive;
       $('progress').textContent = t('progressValue', {n:state.consecutive});
       $('progress-label').textContent = t('progress', {n:state.consecutive});
@@ -91,7 +92,6 @@
     function select(id) {
       if (pending) return;
       pending = E.answer(course, state, shown, id);
-      audio?.answer(shown, pending.feedback);
       for (const button of $('choices').children) {
         button.disabled = true;
         if (button.dataset.optionId === shown.correctId) button.classList.add('correct');
@@ -112,7 +112,7 @@
         if (ticket !== generation || !pending) return;
         advanceTimer = null;
         state = pending.state; pending = null;
-        if (state.phase === 'complete') { screen('finished'); $('finished-title').focus(); }
+        if (state.phase === 'complete') { audio?.reset(); screen('finished'); $('finished-title').focus(); }
         else render(false);
       }, 500);
     }

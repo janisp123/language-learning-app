@@ -51,25 +51,46 @@ function mount(data=course,bundle=null,initialDirection='lv-ru'){
   return $;
 }
 function choose($,id){const button=$('choices').children.find(b=>b.dataset.optionId===id);assert.ok(button);button.click();}
-test('standalone audio covers every question in all six directions with correct target binding',()=>{
+test('standalone prompt speaker uses the current source clip without answering or changing grading',()=>{
+  const pack=JSON.parse(builtHtml.match(/id="audio-data">([\s\S]*?)<\/script>/)[1]);
+  for(const direction of ['lv-ru','ru-lv','lv-en','en-lv','ru-en','en-ru']){
+    const [source,target]=direction.split('-');const $=mount(undefined,builtHtml,direction);$('start').click();
+    const first=course.lessons[0].prompts[0].phraseId;const second=course.lessons[0].prompts[1].phraseId;
+    assert.ok($('question-replay'),'speaker control missing beside the prompt');
+    assert.equal($('question-replay').hidden,false);assert.ok($('question-replay')['aria-label'].includes(course.phrases[0][source]));
+    assert.equal($('audio-replay'),undefined,'previous-answer replay must not be present');
+    assert.equal($('audio-panel'),undefined,'previous-answer section must not be present');
+    const choices=$('choices').children.map(b=>b.dataset.optionId);
+    $('question-replay').click();$('question-replay').click();
+    assert.equal($('audio-media').src,pack.clips[source][first].src);assert.equal($('audio-media').playCount,2);
+    $.tick(1000);assert.equal($('progress').value,0);assert.equal($('feedback').textContent,'');
+    assert.ok($('choices').children.every(b=>!b.disabled));assert.deepEqual($('choices').children.map(b=>b.dataset.optionId),choices);
+    choose($,first);assert.equal($('audio-media').playCount,2,'answering must not play an answer clip');$.tick(500);
+    assert.equal($('audio-media').paused,true,'advancing must stop sound from the previous prompt');
+    $('question-replay').click();assert.equal($('audio-media').src,pack.clips[source][second].src);assert.equal($('progress').value,1);
+    $('change').click();assert.equal($('audio-media').paused,true);assert.equal($('question-replay').hidden,true);
+  }
+});
+test('standalone speaker covers every question in all six directions with correct source binding',()=>{
   const html=fs.readFileSync(path.join(root,'downloads/language-learning-test.html'),'utf8');
+  const pack=JSON.parse(html.match(/id="audio-data">([\s\S]*?)<\/script>/)[1]);
   const bank=new Map(course.phrases.map(p=>[p.id,p]));
   for(const source of course.languages)for(const target of course.languages){
     if(source===target)continue;
     const $=mount(undefined,html,source+'-'+target);$('start').click();let count=0;
     for(const lesson of course.lessons)for(const prompt of lesson.prompts){
-      choose($,prompt.phraseId);count++;
-      assert.equal($('audio-label').textContent,bank.get(prompt.phraseId)[target]);
-      assert.equal($('audio-label').lang,target);assert.equal($('audio-panel').hidden,false);
-      assert.match($('audio-media').src,/^data:audio\/mpeg;base64,/);$.tick(500);
+      assert.equal($('question').textContent,bank.get(prompt.phraseId)[source]);
+      $('question-replay').click();count++;
+      assert.equal($('audio-media').src,pack.clips[source][prompt.phraseId].src);
+      assert.equal($('question-replay').hidden,false);
+      choose($,prompt.phraseId);assert.equal($('audio-media').playCount,count);$.tick(500);
     }
     assert.equal($('audio-media').playCount,course.phrases.length);
-    assert.equal(count,500);assert.equal($('finished').hidden,false);
+    assert.equal(count,500);assert.equal($('finished').hidden,false);assert.equal($('audio-media').paused,true);
     $('again').click();assert.equal($('audio-media').paused,true);
     const prompt=course.lessons[0].prompts[0];
     choose($,$('choices').children.find(b=>b.dataset.optionId!==prompt.phraseId).dataset.optionId);
-    assert.equal($('audio-label').textContent,bank.get(prompt.phraseId)[target]);
-    assert.equal($('audio-panel').hidden,false);
+    assert.equal($('audio-media').playCount,500,'wrong answers must not play a target clip');
   }
 });
 test('answer locks immediately, advances only at 500ms, then wrong steps back automatically',()=>{
