@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,7 +33,7 @@
     .eyebrow { text-transform:uppercase; letter-spacing:.13em; font-weight:700; font-size:.72rem; margin-bottom:1.25rem; }
     .pill { display:inline-flex; gap:.5rem; align-items:center; border:1px solid var(--line); border-radius:30px; padding:.3rem .75rem; font-size:.76rem; letter-spacing:0; text-transform:none; }
     .dot { width:7px; height:7px; border-radius:50%; background:#587a39; }
-    .hero h1 span { font-family:Georgia,"Times New Roman",serif; font-style:italic; font-weight:400; }
+    .hero h1 > span:not([data-copy]) { font-family:Georgia,"Times New Roman",serif; font-style:italic; font-weight:400; }
     .lead { font-size:1.05rem; color:var(--muted); max-width:43ch; margin:1.6rem 0; }
     .actions { display:flex; flex-wrap:wrap; align-items:center; gap:1rem 1.5rem; }
     .button { display:inline-flex; align-items:center; justify-content:center; gap:1rem; border-radius:8px; padding:.9rem 1.25rem; background:var(--ink); color:white; font-weight:650; font-size:.9rem; text-decoration:none; min-height:48px; }
@@ -105,76 +105,537 @@
       .status { grid-template-columns:1fr; gap:2rem; padding:2rem 1.3rem; }
     }
     @media print { .skip,.nav,.art { display:none; } .section,.hero { padding:1rem 0; } .hero,.privacy,.status { display:block; } .status { background:white; color:var(--ink); } .status p,.status span { color:var(--ink); } details { break-inside:avoid; } }
+    .header { flex-wrap:wrap; gap:1rem; }
+    .controls { display:flex; gap:.35rem; }
+    .controls button { font:inherit; font-size:.8rem; font-weight:650; min-width:44px; min-height:44px; border:1px solid var(--line); border-radius:7px; background:var(--paper); color:var(--ink); cursor:pointer; }
+    .controls button[aria-pressed="true"] { background:var(--ink); color:var(--paper); border-color:var(--ink); }
+    button:focus-visible { outline:3px solid #a54412; outline-offset:3px; }
+    [data-theme="dark"] { color-scheme:dark; --paper:#14251f; --ink:#e6efdf; --muted:#bccabd; --line:#52675a; --orange:#76502e; --lime:#c0d68e; }
+    [data-theme="dark"] .art, [data-theme="dark"] .course { background:#243a2e; }
+    [data-theme="dark"] .phrase.lv { background:#314b3c; }
+    [data-theme="dark"] .phrase small { color:#e4ebdc; }
+    [data-theme="dark"] .mark { background:#c0d68e; color:#14251f; }
+    [data-theme="dark"] .button { background:#c0d68e; color:#14251f; }
+    [data-theme="dark"] .button:hover { background:#d4e9a4; }
+    [data-theme="dark"] .number { color:#bdceac; }
+    [data-theme="dark"] .status { background:#293f33; color:var(--ink); }
+    [data-theme="dark"] .skip { background:#243a2e; }
+    [data-theme="dark"] :focus-visible { outline-color:#ffd29a; }
+    @media (max-width:760px) { .controls { align-self:flex-start; } .nav { gap:.25rem 1rem; } }
   </style>
 </head>
 <body>
-  <a class="skip" href="#main">Skip to content</a>
+  <a class="skip" href="#main"><span data-copy="0">Skip to content</span></a>
   <header class="header wrap">
-    <a class="brand" href="#"><span class="mark" aria-hidden="true">↔</span>Language learning</a>
+    <a class="brand" href="#"><span class="mark" aria-hidden="true">↔</span><span data-copy="1">Language learning</span></a>
     <nav class="nav" aria-label="Main navigation">
-      <a href="#method">The approach</a><a href="#course">The lessons</a><a href="#availability">Project status</a>
+      <a href="#method"><span data-copy="2">The approach</span></a><a href="#course"><span data-copy="3">The lessons</span></a><a href="#availability"><span data-copy="4">Project status</span></a>
     </nav>
+    <div class="controls" role="group" aria-label="Language and appearance">
+      <button type="button" data-language="en" lang="en" aria-label="English" aria-pressed="true">EN</button>
+      <button type="button" data-language="ru" lang="ru" aria-label="Русский" aria-pressed="false">RU</button>
+      <button type="button" data-language="lv" lang="lv" aria-label="Latviešu" aria-pressed="false">LV</button>
+      <button type="button" id="theme-toggle" aria-pressed="false" aria-label="Dark mode">☾</button>
+    </div>
   </header>
   <main id="main" class="wrap" tabindex="-1">
     <section class="hero" aria-labelledby="hero-title">
       <div>
-        <p class="eyebrow"><span class="pill"><span class="dot" aria-hidden="true"></span>A project in development</span></p>
-        <h1 id="hero-title">Useful words.<br><span>Real conversations.</span></h1>
-        <p class="lead">About 500 essential words and short phrases for getting by in everyday life. Practice Latvian, Russian and English with repetition and pronunciation. Reuse familiar words to make yourself understood.</p>
+        <p class="eyebrow"><span class="pill"><span class="dot" aria-hidden="true"></span><span data-copy="5">A project in development</span></span></p>
+        <h1 id="hero-title"><span data-copy="6">Useful words.</span><br><span><span data-copy="7">Real conversations.</span></span></h1>
+        <p class="lead"><span data-copy="8">About 500 essential words and short phrases for getting by in everyday life. Practice Latvian, Russian and English with repetition and pronunciation. Reuse familiar words to make yourself understood.</span></p>
         <div class="actions">
-          <a class="button" href="learn/">Learn in your browser <span aria-hidden="true">↗</span></a>
-          <a class="text-link" href="https://github.com/janisp123/language-learning-app">Follow on GitHub</a>
+          <a class="button" href="learn/"><span data-copy="9">Learn in your browser </span><span aria-hidden="true">↗</span></a>
+          <a class="text-link" href="https://github.com/janisp123/language-learning-app"><span data-copy="10">Follow on GitHub</span></a>
         </div>
-        <p class="hero-note">Draft browser test build · translations await human review · Android not released.</p>
+        <p class="hero-note"><span data-copy="11">Draft browser test build · translations await human review · Android not released.</span></p>
       </div>
       <figure class="art">
-        <div class="phrase lv"><span class="language">Latvian</span><strong lang="lv">Paldies!</strong><small>Thank you.</small></div>
-        <div class="phrase ru"><span class="language">Russian</span><strong lang="ru">Спасибо!</strong><small>Thank you.</small></div>
-        <figcaption>An illustrative phrase pair, not an interactive lesson.</figcaption>
+        <div class="phrase lv"><span class="language"><span data-copy="12">Latvian</span></span><strong lang="lv">Paldies!</strong><small>Thank you.</small></div>
+        <div class="phrase ru"><span class="language"><span data-copy="13">Russian</span></span><strong lang="ru">Спасибо!</strong><small>Thank you.</small></div>
+        <figcaption><span data-copy="14">An illustrative phrase pair, not an interactive lesson.</span></figcaption>
       </figure>
     </section>
     <div class="facts" aria-label="Survival basics course">
-      <span><b>LV · RU · EN</b> Six directions</span><span><b>About 500</b> Essential words and phrases</span><span><b>10–17</b> First learning path</span><span><b>Free</b> No subscriptions</span>
+      <span><b>LV · RU · EN</b><span data-copy="15"> Six directions</span></span><span><b><span data-copy="16">About 500</span></b><span data-copy="17"> Essential words and phrases</span></span><span><b>10–17</b><span data-copy="18"> First learning path</span></span><span><b><span data-copy="19">Free</span></b><span data-copy="20"> No subscriptions</span></span>
     </div>
     <section id="method" class="section" aria-labelledby="method-title">
-      <div class="section-heading"><div><p class="eyebrow">The approach</p><h2 id="method-title">Build familiarity.<br>Keep coming back.</h2></div><p>Start with survival basics and keep practicing familiar words. Being understood matters more than perfect grammar or elegant phrasing.</p></div>
+      <div class="section-heading"><div><p class="eyebrow"><span data-copy="2">The approach</span></p><h2 id="method-title"><span data-copy="21">Build familiarity.</span><br><span data-copy="22">Keep coming back.</span></h2></div><p><span data-copy="23">Start with survival basics and keep practicing familiar words. Being understood matters more than perfect grammar or elegant phrasing.</span></p></div>
       <div class="steps">
-        <article class="step"><span class="number" aria-hidden="true">01</span><h3>Start with the essentials</h3><p>Each fresh session begins at lesson one, revisiting familiar material before moving on.</p></article>
-        <article class="step"><span class="number" aria-hidden="true">02</span><h3>Practice until it sticks</h3><p>Choose from four reshuffled answers. Ten correct answers in a row complete a lesson. A mistake moves you back one prompt and resets the run. Three mistakes in the same ten-question block restart you at lesson one, question one.</p></article>
-        <article class="step"><span class="number" aria-hidden="true">03</span><h3>Use it in everyday life</h3><p>The course is being designed around things you might need to say—and understand—at school, with friends and around town.</p></article>
+        <article class="step"><span class="number" aria-hidden="true">01</span><h3><span data-copy="24">Start with the essentials</span></h3><p><span data-copy="25">Each fresh session begins at lesson one, revisiting familiar material before moving on.</span></p></article>
+        <article class="step"><span class="number" aria-hidden="true">02</span><h3><span data-copy="26">Practice until it sticks</span></h3><p><span data-copy="27">Choose from four reshuffled answers. Ten correct answers in a row complete a lesson. A mistake moves you back one prompt and resets the run. Three mistakes in the same ten-question block restart you at lesson one, question one.</span></p></article>
+        <article class="step"><span class="number" aria-hidden="true">03</span><h3><span data-copy="28">Use it in everyday life</span></h3><p><span data-copy="29">The course is being designed around things you might need to say—and understand—at school, with friends and around town.</span></p></article>
       </div>
     </section>
     <section id="course" class="course" aria-labelledby="course-title">
-      <div class="section-heading"><div><p class="eyebrow">Survival basics</p><h2 id="course-title">Small lessons.<br>Everyday possibilities.</h2></div><p>A small bank of useful words and phrases for basic needs, asking for help and getting around. These are the opening topics; practice continues in short blocks.</p></div>
+      <div class="section-heading"><div><p class="eyebrow"><span data-copy="30">Survival basics</span></p><h2 id="course-title"><span data-copy="31">Small lessons.</span><br><span data-copy="32">Everyday possibilities.</span></h2></div><p><span data-copy="33">A small bank of useful words and phrases for basic needs, asking for help and getting around. These are the opening topics; practice continues in short blocks.</span></p></div>
       <ol class="lessons">
-        <li><span>Greetings</span></li><li><span>People</span></li><li><span>Numbers one to ten</span></li><li><span>Useful words</span></li><li><span>Essential places</span></li><li><span>Food and drinks</span></li><li><span>In the classroom</span></li><li><span>Directions</span></li><li><span>Safety</span></li><li><span>Question words</span></li>
+        <li><span><span data-copy="34">Greetings</span></span></li><li><span><span data-copy="35">People</span></span></li><li><span><span data-copy="36">Numbers one to ten</span></span></li><li><span><span data-copy="37">Useful words</span></span></li><li><span><span data-copy="38">Essential places</span></span></li><li><span><span data-copy="39">Food and drinks</span></span></li><li><span><span data-copy="40">In the classroom</span></span></li><li><span><span data-copy="41">Directions</span></span></li><li><span><span data-copy="42">Safety</span></span></li><li><span><span data-copy="43">Question words</span></span></li>
       </ol>
-      <p class="course-note">Every item has pronunciation in Latvian, Russian and English. The current prompt plays automatically; use its speaker to replay. Content, translations and pronunciation await fluent human review.</p>
+      <p class="course-note"><span data-copy="44">All 510 items have pronunciation in Latvian, Russian, English and Japanese. The current prompt plays automatically; use its speaker to replay. Content, translations and pronunciation await fluent human review.</span></p>
     </section>
     <section id="privacy" class="section privacy" aria-labelledby="privacy-title">
-      <div><p class="eyebrow">Designed to stay simple</p><h2 id="privacy-title">Room to learn.<br>Less to manage.</h2><p>Browser practice has no accounts, ads, payments, tracking or remote progress database.</p></div>
+      <div><p class="eyebrow"><span data-copy="45">Designed to stay simple</span></p><h2 id="privacy-title"><span data-copy="46">Room to learn.</span><br><span data-copy="47">Less to manage.</span></h2><p><span data-copy="48">Browser practice has no accounts, ads, payments, tracking or remote progress database.</span></p></div>
       <div class="privacy-details">
-        <article class="privacy-item"><h3>Browser: a fresh start</h3><p>Browser practice saves no progress. Reopening or refreshing begins at lesson one.</p></article>
-        <article class="privacy-item"><h3>Zero saved progress</h3><p>Every platform starts a new session at lesson one. Progress stays only in current session memory, with no saved record, backup or restore. The planned Android app follows the same rule.</p></article>
-        <article class="privacy-item"><h3>Practice without point chasing</h3><p>No XP, leaderboards, lives or daily streak rewards. The focus is returning to useful language.</p></article>
+        <article class="privacy-item"><h3><span data-copy="49">Browser: a fresh start</span></h3><p><span data-copy="50">Browser practice saves no progress. Reopening or refreshing begins at lesson one.</span></p></article>
+        <article class="privacy-item"><h3><span data-copy="51">Zero saved progress</span></h3><p><span data-copy="52">Every platform starts a new session at lesson one. Progress stays only in current session memory, with no saved record, backup or restore. The planned Android app follows the same rule.</span></p></article>
+        <article class="privacy-item"><h3><span data-copy="53">Practice without point chasing</span></h3><p><span data-copy="54">No XP, leaderboards, lives or daily streak rewards. The focus is returning to useful language.</span></p></article>
       </div>
     </section>
     <section id="availability" class="status" aria-labelledby="status-title">
-      <div><p class="eyebrow">Where things stand</p><h2 id="status-title">Try the first browser build.</h2><p>Practice the essential vocabulary bank in all six Latvian/Russian/English directions, plus English → Japanese with Japanese script answers and English prompt audio. Open it here or download the same self-contained HTML from the shared Drive folder for offline use. The Android app and Google Play listing are not available.</p></div>
+      <div><p class="eyebrow"><span data-copy="55">Where things stand</span></p><h2 id="status-title"><span data-copy="56">Try the first browser build.</span></h2><p><span data-copy="57">Practice the essential vocabulary bank in all six Latvian/Russian/English directions, plus English → Japanese with Japanese script answers, Japanese answer audio and English prompt audio. Open it here or download the same self-contained HTML from the shared Drive folder for offline use. The Android app and Google Play listing are not available.</span></p></div>
       <div>
-        <div class="availability"><strong><a href="learn/">Open browser test build</a></strong><span>Pronunciation included · language review pending</span></div>
-        <div class="availability"><strong>Android app</strong><span>Not released · no download available</span></div>
-        <a href="https://drive.google.com/drive/folders/1U6ewdAD-HsthuchnzVOeWOSs4hmM-EAX">Download for offline use <span aria-hidden="true">↓</span></a>
+        <div class="availability"><strong><a href="learn/"><span data-copy="58">Open browser test build</span></a></strong><span><span data-copy="59">Pronunciation included · language review pending</span></span></div>
+        <div class="availability"><strong><span data-copy="60">Android app</span></strong><span><span data-copy="61">Not released · no download available</span></span></div>
+        <a href="https://drive.google.com/drive/folders/1U6ewdAD-HsthuchnzVOeWOSs4hmM-EAX"><span data-copy="62">Download for offline use </span><span aria-hidden="true">↓</span></a>
       </div>
     </section>
     <section class="section faq" aria-labelledby="faq-title">
-      <p class="eyebrow">A few things to know</p><h2 id="faq-title">Before you begin.</h2>
-      <details><summary>Can I start learning now?</summary><p>You can try the draft browser build using the link above, or download its HTML file and open it in a browser. No installation is needed. Human language review and device testing remain pending; this is not a finished release.</p></details>
-      <details><summary>Who is the first course for?</summary><p>The first learning path is for ages 10–17, focused on everyday situations relevant to young people in Latvia. The test build supports all six directions between Latvian, Russian and English, plus English → Japanese with script-only answers. Its interface follows the language you start from.</p></details>
-      <details><summary>Will it be free?</summary><p>Yes. Browser practice has no ads, subscriptions or payments. Source-code and learning-content reuse licenses have not been chosen yet; a public repository does not grant a reuse license.</p></details>
-      <details><summary>Does this page collect information?</summary><p>This page has no forms, scripts, analytics, cookies or external fonts. GitHub Pages and GitHub handle requests when you visit their services; this page does not ask for personal details.</p></details>
+      <p class="eyebrow"><span data-copy="63">A few things to know</span></p><h2 id="faq-title"><span data-copy="64">Before you begin.</span></h2>
+      <details><summary><span data-copy="65">Can I start learning now?</span></summary><p><span data-copy="66">You can try the draft browser build using the link above, or download its HTML file and open it in a browser. No installation is needed. Human language review and device testing remain pending; this is not a finished release.</span></p></details>
+      <details><summary><span data-copy="67">Who is the first course for?</span></summary><p><span data-copy="68">The first learning path is for ages 10–17, focused on everyday situations relevant to young people in Latvia. The test build supports all six directions between Latvian, Russian and English, plus English → Japanese with script-only answers. Its interface follows the language you start from.</span></p></details>
+      <details><summary><span data-copy="69">Will it be free?</span></summary><p><span data-copy="70">Yes. Browser practice has no ads, subscriptions or payments. Source-code and learning-content reuse licenses have not been chosen yet; a public repository does not grant a reuse license.</span></p></details>
+      <details><summary><span data-copy="71">Does this page collect information?</span></summary><p><span data-copy="72">This page uses only in-memory language and theme controls, with no forms, analytics, cookies or external fonts. Preferences reset on reload. GitHub Pages and GitHub handle requests when you visit their services; this page does not ask for personal details.</span></p></details>
     </section>
   </main>
-  <footer class="wrap"><p>Made by <a href="https://github.com/janisp123">Janis Paegle</a> 2026</p><p>Language learning · A project in development</p><p><a href="#privacy">Privacy approach</a> &nbsp;·&nbsp; <a href="https://github.com/janisp123/language-learning-app">Project on GitHub</a></p></footer>
+  <footer class="wrap"><p>Made by <a href="https://github.com/janisp123">Janis Paegle</a> 2026</p><p><span data-copy="73">Language learning · A project in development</span></p><p><a href="#privacy"><span data-copy="74">Privacy approach</span></a> &nbsp;·&nbsp; <a href="https://github.com/janisp123/language-learning-app"><span data-copy="75">Project on GitHub</span></a></p></footer>
+
+  <script>
+  (() => {
+    'use strict';
+    // Preferences live only in this page's memory and reset on every reload.
+    const copy = [
+  [
+    "Skip to content",
+    "Перейти к содержимому",
+    "Pāriet uz saturu"
+  ],
+  [
+    "Language learning",
+    "Изучение языков",
+    "Valodu apguve"
+  ],
+  [
+    "The approach",
+    "Подход",
+    "Pieeja"
+  ],
+  [
+    "The lessons",
+    "Уроки",
+    "Nodarbības"
+  ],
+  [
+    "Project status",
+    "Состояние проекта",
+    "Projekta statuss"
+  ],
+  [
+    "A project in development",
+    "Проект в разработке",
+    "Projekts izstrādes stadijā"
+  ],
+  [
+    "Useful words.",
+    "Полезные слова.",
+    "Noderīgi vārdi."
+  ],
+  [
+    "Real conversations.",
+    "Настоящие разговоры.",
+    "Īstas sarunas."
+  ],
+  [
+    "About 500 essential words and short phrases for getting by in everyday life. Practice Latvian, Russian and English with repetition and pronunciation. Reuse familiar words to make yourself understood.",
+    "Около 500 основных слов и коротких фраз для повседневной жизни. Практикуйте латышский, русский и английский с повторением и произношением. Используйте знакомые слова, чтобы вас понимали.",
+    "Aptuveni 500 svarīgu vārdu un īsu frāžu ikdienai. Apgūstiet latviešu, krievu un angļu valodu ar atkārtošanu un izrunu. Izmantojiet pazīstamus vārdus, lai jūs saprastu."
+  ],
+  [
+    "Learn in your browser",
+    "Учиться в браузере",
+    "Mācīties pārlūkā"
+  ],
+  [
+    "Follow on GitHub",
+    "Следить на GitHub",
+    "Sekot GitHub"
+  ],
+  [
+    "Draft browser test build · translations await human review · Android not released.",
+    "Пробная версия для браузера · переводы ждут проверки человеком · Android не выпущен.",
+    "Pārlūka izmēģinājuma versija · tulkojumi gaida cilvēka pārbaudi · Android vēl nav izlaists."
+  ],
+  [
+    "Latvian",
+    "Латышский",
+    "Latviešu"
+  ],
+  [
+    "Russian",
+    "Русский",
+    "Krievu"
+  ],
+  [
+    "An illustrative phrase pair, not an interactive lesson.",
+    "Пример пары фраз, а не интерактивный урок.",
+    "Ilustratīvs frāžu pāris, nevis interaktīva nodarbība."
+  ],
+  [
+    "Six directions",
+    "Шесть направлений",
+    "Seši virzieni"
+  ],
+  [
+    "About 500",
+    "Около 500",
+    "Aptuveni 500"
+  ],
+  [
+    "Essential words and phrases",
+    "Основные слова и фразы",
+    "Svarīgi vārdi un frāzes"
+  ],
+  [
+    "First learning path",
+    "Первый учебный курс",
+    "Pirmais mācību kurss"
+  ],
+  [
+    "Free",
+    "Бесплатно",
+    "Bez maksas"
+  ],
+  [
+    "No subscriptions",
+    "Без подписок",
+    "Bez abonēšanas"
+  ],
+  [
+    "Build familiarity.",
+    "Закрепляйте знакомое.",
+    "Nostipriniet pazīstamo."
+  ],
+  [
+    "Keep coming back.",
+    "Возвращайтесь к практике.",
+    "Turpiniet atkārtot."
+  ],
+  [
+    "Start with survival basics and keep practicing familiar words. Being understood matters more than perfect grammar or elegant phrasing.",
+    "Начните с основ для повседневной жизни и повторяйте знакомые слова. Быть понятым важнее идеальной грамматики или красивых выражений.",
+    "Sāciet ar ikdienas pamatiem un atkārtojiet pazīstamus vārdus. Būt saprastam ir svarīgāk par nevainojamu gramatiku vai izsmalcinātām frāzēm."
+  ],
+  [
+    "Start with the essentials",
+    "Начните с главного",
+    "Sāciet ar svarīgāko"
+  ],
+  [
+    "Each fresh session begins at lesson one, revisiting familiar material before moving on.",
+    "Каждый новый сеанс начинается с первого урока: повторите знакомое, прежде чем двигаться дальше.",
+    "Katra jauna sesija sākas ar pirmo nodarbību, atkārtojot pazīstamo pirms turpināšanas."
+  ],
+  [
+    "Practice until it sticks",
+    "Повторяйте до закрепления",
+    "Atkārtojiet, līdz atceraties"
+  ],
+  [
+    "Choose from four reshuffled answers. Ten correct answers in a row complete a lesson. A mistake moves you back one prompt and resets the run. Three mistakes in the same ten-question block restart you at lesson one, question one.",
+    "Выберите один из четырёх перемешанных ответов. Десять правильных ответов подряд завершают урок. Ошибка возвращает на один вопрос назад и сбрасывает серию. Три ошибки в одном блоке из десяти вопросов возвращают к первому вопросу первого урока.",
+    "Izvēlieties vienu no četrām sajauktām atbildēm. Desmit pareizas atbildes pēc kārtas pabeidz nodarbību. Kļūda atgriež vienu jautājumu atpakaļ un pārtrauc pareizo atbilžu virkni. Trīs kļūdas vienā desmit jautājumu blokā atsāk pirmās nodarbības pirmo jautājumu."
+  ],
+  [
+    "Use it in everyday life",
+    "Применяйте в жизни",
+    "Lietojiet ikdienā"
+  ],
+  [
+    "The course is being designed around things you might need to say—and understand—at school, with friends and around town.",
+    "Курс разрабатывается вокруг того, что может понадобиться сказать и понять в школе, с друзьями и в городе.",
+    "Kurss tiek veidots par to, ko varētu vajadzēt pateikt un saprast skolā, ar draugiem un pilsētā."
+  ],
+  [
+    "Survival basics",
+    "Основы для жизни",
+    "Ikdienas pamati"
+  ],
+  [
+    "Small lessons.",
+    "Короткие уроки.",
+    "Īsas nodarbības."
+  ],
+  [
+    "Everyday possibilities.",
+    "Возможности каждый день.",
+    "Ikdienas iespējas."
+  ],
+  [
+    "A small bank of useful words and phrases for basic needs, asking for help and getting around. These are the opening topics; practice continues in short blocks.",
+    "Небольшой набор полезных слов и фраз для основных нужд, просьб о помощи и передвижения. Это начальные темы; практика продолжается короткими блоками.",
+    "Neliels noderīgu vārdu un frāžu krājums pamatvajadzībām, palīdzības lūgšanai un ceļa atrašanai. Šīs ir sākuma tēmas; prakse turpinās īsos blokos."
+  ],
+  [
+    "Greetings",
+    "Приветствия",
+    "Sasveicināšanās"
+  ],
+  [
+    "People",
+    "Люди",
+    "Cilvēki"
+  ],
+  [
+    "Numbers one to ten",
+    "Числа от одного до десяти",
+    "Skaitļi no viens līdz desmit"
+  ],
+  [
+    "Useful words",
+    "Полезные слова",
+    "Noderīgi vārdi"
+  ],
+  [
+    "Essential places",
+    "Основные места",
+    "Svarīgas vietas"
+  ],
+  [
+    "Food and drinks",
+    "Еда и напитки",
+    "Ēdieni un dzērieni"
+  ],
+  [
+    "In the classroom",
+    "В классе",
+    "Klasē"
+  ],
+  [
+    "Directions",
+    "Направления",
+    "Virzieni"
+  ],
+  [
+    "Safety",
+    "Безопасность",
+    "Drošība"
+  ],
+  [
+    "Question words",
+    "Вопросительные слова",
+    "Jautājuma vārdi"
+  ],
+  [
+    "All 510 items have pronunciation in Latvian, Russian, English and Japanese. The current prompt plays automatically; use its speaker to replay. Content, translations and pronunciation await fluent human review.",
+    "Для всех 510 элементов есть произношение на латышском, русском, английском и японском. Текущий вопрос звучит автоматически; нажмите на динамик для повтора. Содержание, переводы и произношение ждут проверки свободно владеющими языками людьми.",
+    "Visiem 510 vienumiem ir izruna latviešu, krievu, angļu un japāņu valodā. Pašreizējais jautājums tiek atskaņots automātiski; atkārtošanai izmantojiet skaļruni. Saturs, tulkojumi un izruna gaida valodu pratēju pārbaudi."
+  ],
+  [
+    "Designed to stay simple",
+    "Простота по замыслу",
+    "Veidots vienkāršībai"
+  ],
+  [
+    "Room to learn.",
+    "Место для учёбы.",
+    "Vieta mācībām."
+  ],
+  [
+    "Less to manage.",
+    "Меньше забот.",
+    "Mazāk rūpju."
+  ],
+  [
+    "Browser practice has no accounts, ads, payments, tracking or remote progress database.",
+    "В браузерной практике нет аккаунтов, рекламы, платежей, отслеживания или удалённой базы прогресса.",
+    "Pārlūka praksē nav kontu, reklāmu, maksājumu, izsekošanas vai attālas progresa datubāzes."
+  ],
+  [
+    "Browser: a fresh start",
+    "Браузер: новое начало",
+    "Pārlūks: jauns sākums"
+  ],
+  [
+    "Browser practice saves no progress. Reopening or refreshing begins at lesson one.",
+    "Браузерная практика не сохраняет прогресс. Повторное открытие или обновление начинает первый урок.",
+    "Pārlūka prakse nesaglabā progresu. Atkārtota atvēršana vai pārlāde sāk pirmo nodarbību."
+  ],
+  [
+    "Zero saved progress",
+    "Прогресс не сохраняется",
+    "Bez saglabāta progresa"
+  ],
+  [
+    "Every platform starts a new session at lesson one. Progress stays only in current session memory, with no saved record, backup or restore. The planned Android app follows the same rule.",
+    "На каждой платформе новый сеанс начинается с первого урока. Прогресс остаётся только в памяти текущего сеанса, без сохранения, резервной копии или восстановления. Планируемое Android-приложение следует тому же правилу.",
+    "Katrā platformā jauna sesija sākas ar pirmo nodarbību. Progress paliek tikai pašreizējās sesijas atmiņā bez saglabāta ieraksta, rezerves kopijas vai atjaunošanas. Plānotā Android lietotne ievēro to pašu noteikumu."
+  ],
+  [
+    "Practice without point chasing",
+    "Практика без погони за очками",
+    "Prakse bez punktu krāšanas"
+  ],
+  [
+    "No XP, leaderboards, lives or daily streak rewards. The focus is returning to useful language.",
+    "Без очков опыта, таблиц лидеров, жизней или наград за ежедневные серии. Главное — возвращаться к полезному языку.",
+    "Nav pieredzes punktu, līderu tabulu, dzīvību vai balvu par ikdienas sērijām. Uzmanības centrā ir atgriešanās pie noderīgas valodas."
+  ],
+  [
+    "Where things stand",
+    "Текущее состояние",
+    "Pašreizējā situācija"
+  ],
+  [
+    "Try the first browser build.",
+    "Попробуйте первую браузерную версию.",
+    "Izmēģiniet pirmo pārlūka versiju."
+  ],
+  [
+    "Practice the essential vocabulary bank in all six Latvian/Russian/English directions, plus English → Japanese with Japanese script answers, Japanese answer audio and English prompt audio. Open it here or download the same self-contained HTML from the shared Drive folder for offline use. The Android app and Google Play listing are not available.",
+    "Практикуйте основной словарь во всех шести направлениях латышского, русского и английского, а также английский → японский с ответами японским письмом, японским озвучиванием ответов и английским озвучиванием вопросов. Откройте здесь или скачайте тот же автономный HTML из общей папки Drive для работы без интернета. Android-приложение и страница в Google Play недоступны.",
+    "Apgūstiet pamata vārdu krājumu visos sešos latviešu, krievu un angļu valodas virzienos, kā arī angļu → japāņu ar atbildēm japāņu rakstībā, atbilžu audio japāņu valodā un jautājumu audio angļu valodā. Atveriet šeit vai lejupielādējiet to pašu patstāvīgo HTML no koplietotās Drive mapes lietošanai bezsaistē. Android lietotne un Google Play ieraksts nav pieejami."
+  ],
+  [
+    "Open browser test build",
+    "Открыть браузерную пробную версию",
+    "Atvērt pārlūka izmēģinājuma versiju"
+  ],
+  [
+    "Pronunciation included · language review pending",
+    "Произношение включено · проверка языка ожидается",
+    "Izruna iekļauta · valodas pārbaude vēl gaidāma"
+  ],
+  [
+    "Android app",
+    "Приложение Android",
+    "Android lietotne"
+  ],
+  [
+    "Not released · no download available",
+    "Не выпущено · загрузка недоступна",
+    "Nav izlaista · lejupielāde nav pieejama"
+  ],
+  [
+    "Download for offline use",
+    "Скачать для работы без интернета",
+    "Lejupielādēt lietošanai bezsaistē"
+  ],
+  [
+    "A few things to know",
+    "Что стоит знать",
+    "Dažas lietas, kas jāzina"
+  ],
+  [
+    "Before you begin.",
+    "Прежде чем начать.",
+    "Pirms sākat."
+  ],
+  [
+    "Can I start learning now?",
+    "Можно начать учиться сейчас?",
+    "Vai varu sākt mācīties tagad?"
+  ],
+  [
+    "You can try the draft browser build using the link above, or download its HTML file and open it in a browser. No installation is needed. Human language review and device testing remain pending; this is not a finished release.",
+    "Вы можете попробовать черновую браузерную версию по ссылке выше или скачать её HTML-файл и открыть в браузере. Установка не нужна. Проверка языка людьми и тестирование устройств ещё впереди; это не готовый выпуск.",
+    "Varat izmēģināt pārlūka melnraksta versiju, izmantojot saiti augstāk, vai lejupielādēt tās HTML failu un atvērt pārlūkā. Instalēšana nav vajadzīga. Valodas pārbaude un ierīču testēšana vēl gaidāma; šī nav pabeigta versija."
+  ],
+  [
+    "Who is the first course for?",
+    "Для кого первый курс?",
+    "Kam paredzēts pirmais kurss?"
+  ],
+  [
+    "The first learning path is for ages 10–17, focused on everyday situations relevant to young people in Latvia. The test build supports all six directions between Latvian, Russian and English, plus English → Japanese with script-only answers. Its interface follows the language you start from.",
+    "Первый курс предназначен для возраста 10–17 лет и посвящён повседневным ситуациям молодых людей в Латвии. Пробная версия поддерживает все шесть направлений между латышским, русским и английским, а также английский → японский с ответами только японским письмом. Интерфейс соответствует исходному языку.",
+    "Pirmais mācību kurss paredzēts 10–17 gadu vecumam un ikdienas situācijām, kas svarīgas jauniešiem Latvijā. Izmēģinājuma versija atbalsta visus sešus virzienus starp latviešu, krievu un angļu valodu, kā arī angļu → japāņu ar atbildēm tikai japāņu rakstībā. Saskarne atbilst sākuma valodai."
+  ],
+  [
+    "Will it be free?",
+    "Будет ли это бесплатно?",
+    "Vai tas būs bez maksas?"
+  ],
+  [
+    "Yes. Browser practice has no ads, subscriptions or payments. Source-code and learning-content reuse licenses have not been chosen yet; a public repository does not grant a reuse license.",
+    "Да. В браузерной практике нет рекламы, подписок или платежей. Лицензии на повторное использование исходного кода и учебного содержания пока не выбраны; публичный репозиторий не предоставляет лицензию на повторное использование.",
+    "Jā. Pārlūka praksē nav reklāmu, abonēšanas vai maksājumu. Pirmkoda un mācību satura atkārtotas izmantošanas licences vēl nav izvēlētas; publisks repozitorijs nepiešķir atkārtotas izmantošanas licenci."
+  ],
+  [
+    "Does this page collect information?",
+    "Собирает ли эта страница информацию?",
+    "Vai šī lapa vāc informāciju?"
+  ],
+  [
+    "This page uses only in-memory language and theme controls, with no forms, analytics, cookies or external fonts. Preferences reset on reload. GitHub Pages and GitHub handle requests when you visit their services; this page does not ask for personal details.",
+    "Эта страница использует переключатели языка и темы только в памяти, без форм, аналитики, файлов cookie или внешних шрифтов. Настройки сбрасываются при обновлении. GitHub Pages и GitHub обрабатывают запросы при посещении их сервисов; эта страница не запрашивает личные данные.",
+    "Šajā lapā valodas un motīva vadīklas darbojas tikai atmiņā; nav veidlapu, analītikas, sīkdatņu vai ārējo fontu. Iestatījumi atiestatās pēc pārlādes. GitHub Pages un GitHub apstrādā pieprasījumus, kad apmeklējat to pakalpojumus; šī lapa neprasa personas datus."
+  ],
+  [
+    "Language learning · A project in development",
+    "Изучение языков · Проект в разработке",
+    "Valodu apguve · Projekts izstrādes stadijā"
+  ],
+  [
+    "Privacy approach",
+    "Подход к конфиденциальности",
+    "Privātuma pieeja"
+  ],
+  [
+    "Project on GitHub",
+    "Проект на GitHub",
+    "Projekts GitHub"
+  ]
+];
+    const labels = {
+  "en": [
+    "Language learning — useful words for everyday life",
+    "Try a draft browser test build for practical Latvian, Russian and English, ages 10–17: ten everyday situations, cumulative repetition and no saved browser progress.",
+    "Main navigation",
+    "Survival basics course",
+    "Language and appearance",
+    "Dark mode"
+  ],
+  "ru": [
+    "Изучение языков — полезные слова для повседневной жизни",
+    "Попробуйте пробную браузерную версию для практики латышского, русского и английского, возраст 10–17 лет: повседневные ситуации, повторение и отсутствие сохранённого прогресса.",
+    "Главная навигация",
+    "Курс основ для жизни",
+    "Язык и оформление",
+    "Тёмная тема"
+  ],
+  "lv": [
+    "Valodu apguve — noderīgi vārdi ikdienai",
+    "Izmēģiniet pārlūka versiju latviešu, krievu un angļu valodas praksei vecumā no 10 līdz 17 gadiem: ikdienas situācijas, atkārtošana un nekāds saglabāts progress.",
+    "Galvenā navigācija",
+    "Ikdienas pamatu kurss",
+    "Valoda un izskats",
+    "Tumšais motīvs"
+  ]
+};
+    const languages = ['en', 'ru', 'lv'];
+    let language = 'en';
+    let dark = false;
+    const theme = document.getElementById('theme-toggle');
+    function render() {
+      const column = languages.indexOf(language);
+      document.documentElement.lang = language;
+      document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+      document.querySelectorAll('[data-copy]').forEach(node => { node.textContent = copy[Number(node.dataset.copy)][column]; });
+      const text = labels[language];
+      document.title = text[0];
+      document.querySelector('meta[name="description"]').content = text[1];
+      document.querySelector('.nav').setAttribute('aria-label', text[2]);
+      document.querySelector('.facts').setAttribute('aria-label', text[3]);
+      document.querySelector('.controls').setAttribute('aria-label', text[4]);
+      theme.setAttribute('aria-label', text[5]);
+      theme.setAttribute('aria-pressed', String(dark));
+      theme.textContent = dark ? '☀' : '☾';
+      document.querySelectorAll('[data-language]').forEach(button => { button.setAttribute('aria-pressed', String(button.dataset.language === language)); });
+    }
+    document.querySelectorAll('[data-language]').forEach(button => { button.addEventListener('click', () => { language = button.dataset.language; render(); }); });
+    theme.addEventListener('click', () => { dark = !dark; render(); });
+    render();
+  })();
+  </script>
 </body>
 </html>
