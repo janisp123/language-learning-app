@@ -7,7 +7,7 @@ Approved scope: extend the accepted audio behavior to every existing vocabulary 
 - [x] Bump browser build to 0.4.2, update scope wording, rebuild and verify canonical/download parity.
 - [x] Run JS/Python tests, decode all 1,500 clips and verify English plus existing-language browser playback.
 - [ ] Push to existing PR #6 when connectivity recovers.
-- [ ] Replace stable Drive HTML, verify readback, record final checkpoint.
+- [x] Replace stable Drive HTML, verify readback, record final checkpoint.
 
 Review focus: incomplete coverage, wrong-language/text binding, generation failures on resume, oversized portable HTML, and unchanged timing/cancellation. No content expansion or public release.
 

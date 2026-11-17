@@ -16,8 +16,8 @@ English online synthesis remained unreliable. All 500 English clips were generat
 
 ## Delivery and synchronization
 
-Default Drive folder Git_dump/language-learning-app, ID 1U6ewdAD-HsthuchnzVOeWOSs4hmM-EAX; stable HTML ID 1594pGCAm3E7hOq0-oSwLFh8z4WtRI3vd. Final 0.4.3 upload/readback is being finalized. Do not infer delivery from local files. GitHub push is still returning a shared proxy/upstream HTTP 503; local source/asset commits are retained. Remote branch was last verified at 1debafd; no CI success is claimed for unpushed changes.
+Default Drive folder Git_dump/language-learning-app, ID 1U6ewdAD-HsthuchnzVOeWOSs4hmM-EAX; stable HTML ID 1594pGCAm3E7hOq0-oSwLFh8z4WtRI3vd. Final 0.4.3 HTML is uploaded and downloaded back with exact byte equality: c83f9e14d25127c9f4855b2e33bf9147ff8de0933a63ae2b9d6766242375312d. Build source commit d8ab062c6334c393b93acab7d4b14df605c2e95b. See delivery/2026-11-17-english-complete-drive-sync.json. GitHub push is still returning a shared proxy/upstream HTTP 503; local source/asset commits are retained. Remote branch was last verified at 1debafd; no CI success is claimed for unpushed changes.
 
 ## Next action
 
-Finish verified Drive replacement, then user tests English sound. Retry source synchronization when GitHub connectivity recovers. Earlier checkpoint: history/WORK_CHECKPOINT-before-english-completion.md.
+User downloads the updated 0.4.3 HTML from Drive and tests English sound. Retry source synchronization when GitHub connectivity recovers. Earlier checkpoint: history/WORK_CHECKPOINT-before-english-completion.md.
