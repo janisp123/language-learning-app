@@ -27,7 +27,7 @@ Each `content/languages/<code>.json` module contains its translations and separa
 - `downloads/language-learning-test.html`: generated copy for immediate download. Never edit it directly; CI compares it with a fresh canonical build.
 - `tests/`: deterministic engine/content tests, a minimal DOM event fixture for UI wiring, and packaging/privacy checks. The DOM fixture is not a real browser and cannot establish rendering/accessibility behavior.
 
-Use plain JavaScript and a standard-library Python packager for the immediately testable browser slice: no dependency install or framework approval is needed. The unmerged L-001 TypeScript/Capacitor proposal in PR #3 remains a broader platform recommendation; Android reuse/build/backup behavior is not claimed or selected by this browser implementation. No native persistence is implemented. Build 0.4.4 bundles 1,500 synthetic pronunciation clips covering all 500 items in Latvian, Russian and English; see AUDIO_MODULES.md.
+Use plain JavaScript and a standard-library Python packager for the immediately testable browser slice: no dependency install or framework approval is needed. The unmerged L-001 TypeScript/Capacitor proposal in PR #3 requires reconciliation with later owner decisions. All platforms must save zero learner state; native progress/backup features are excluded. Android itself is not implemented. Build 0.4.4 bundles 1,500 synthetic pronunciation clips covering all 500 items in Latvian, Russian and English; see AUDIO_MODULES.md.
 
 ```sh
 npm test

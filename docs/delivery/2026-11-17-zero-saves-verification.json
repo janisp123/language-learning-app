@@ -1,0 +1,83 @@
+{
+  "verifiedDate": "2026-11-17",
+  "buildVersion": "0.4.4",
+  "sourceCommit": "02d1da877d20382a3eb6e13a83c4c0fe54fc7461",
+  "sha256": "3c55f24a42fd119fba8bccac5c51e8dbcc57cc79a2be49b109f61a486e2aceb7",
+  "browser": "Headless Chromium, same persistent browser profile reopened",
+  "directions": [
+    {
+      "direction": "lv-ru",
+      "reachedLesson": 2,
+      "reloadStartsLesson": 1,
+      "storage": {
+        "localStorage": 0,
+        "sessionStorage": 0,
+        "indexedDB": 0,
+        "cookies": 0
+      }
+    },
+    {
+      "direction": "ru-lv",
+      "reachedLesson": 2,
+      "reloadStartsLesson": 1,
+      "storage": {
+        "localStorage": 0,
+        "sessionStorage": 0,
+        "indexedDB": 0,
+        "cookies": 0
+      }
+    },
+    {
+      "direction": "lv-en",
+      "reachedLesson": 2,
+      "reloadStartsLesson": 1,
+      "storage": {
+        "localStorage": 0,
+        "sessionStorage": 0,
+        "indexedDB": 0,
+        "cookies": 0
+      }
+    },
+    {
+      "direction": "en-lv",
+      "reachedLesson": 2,
+      "reloadStartsLesson": 1,
+      "storage": {
+        "localStorage": 0,
+        "sessionStorage": 0,
+        "indexedDB": 0,
+        "cookies": 0
+      }
+    },
+    {
+      "direction": "ru-en",
+      "reachedLesson": 2,
+      "reloadStartsLesson": 1,
+      "storage": {
+        "localStorage": 0,
+        "sessionStorage": 0,
+        "indexedDB": 0,
+        "cookies": 0
+      }
+    },
+    {
+      "direction": "en-ru",
+      "reachedLesson": 2,
+      "reloadStartsLesson": 1,
+      "storage": {
+        "localStorage": 0,
+        "sessionStorage": 0,
+        "indexedDB": 0,
+        "cookies": 0
+      }
+    }
+  ],
+  "browserRestartStartsLesson": 1,
+  "storageAfterBrowserRestart": {
+    "localStorage": 0,
+    "sessionStorage": 0,
+    "indexedDB": 0,
+    "cookies": 0
+  },
+  "android": "NOT IMPLEMENTED; zero-saves requirement recorded, no native behavior claimed"
+}

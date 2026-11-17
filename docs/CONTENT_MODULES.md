@@ -26,7 +26,7 @@ There is one canonical authored source per concept, block and language. The form
 - Each translation is keyed by concept ID and repeats `conceptId` plus the canonical `meaning`. The loader rejects an object copied under the wrong key or a definition copied from a different meaning. The `text` is the reviewed translation of that meaning in the module's language.
 - Every presented runtime question carries course, block, question, concept, direction and revision identity. The engine verifies its displayed source text and all answer ID/text pairs before accepting a choice. A question/answer copied from another block, language or presentation is rejected.
 
-The loader also rejects duplicate JSON keys/IDs, unknown references, mismatched module IDs, incomplete translations/UI, duplicate displayed choices and unsafe module paths. UI labels/placeholders must match `ui-contract.json`, independently of the translation packs; removing or misspelling the same key in every pack still fails. Runtime and source schemas are explicit: module/catalog schema 1 compiles to runtime schema 2. This changes no stored progress because the browser stores none and native progress has not been implemented.
+The loader also rejects duplicate JSON keys/IDs, unknown references, mismatched module IDs, incomplete translations/UI, duplicate displayed choices and unsafe module paths. UI labels/placeholders must match `ui-contract.json`, independently of the translation packs; removing or misspelling the same key in every pack still fails. Runtime and source schemas are explicit: module/catalog schema 1 compiles to runtime schema 2. No progress migration is needed: every platform must keep learner state in memory only, with zero saves or restores.
 
 These checks prevent silent identifier/binding mix-ups. They cannot certify that a newly written translation is linguistically correct; fluent review remains required.
 
@@ -65,7 +65,7 @@ cmp dist/language-learning-test.html downloads/language-learning-test.html
 
 Tests prove original-content parity, explicit question/answer binding rejection, duplicate/missing/misbound record rejection, data-only eleventh-block extension, data-only fourth-language extension and twelve generated directions in that synthetic fixture. Existing one-question step-back, third-mistake restart, ten consecutive correct, 500 ms delay, source-language UI and no browser storage remain unchanged.
 
-Synthetic extension fixtures are temporary and not shipped. Actual browser/device/accessibility and fluent-language review remain separate from automated source/DOM-fixture verification. Android packaging/persistence, hosting and release authorization remain separate tasks.
+Synthetic extension fixtures are temporary and not shipped. Actual browser/device/accessibility and fluent-language review remain separate from automated source/DOM-fixture verification. Stateless Android packaging, hosting and release authorization remain separate tasks; no learner-state persistence or progress backup is planned.
 
 ## Active vocabulary policy and baseline
 

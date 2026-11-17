@@ -38,6 +38,6 @@ See [the content module guide](docs/CONTENT_MODULES.md). New blocks/languages ar
 
 The landing-page source is `docs/discovery-preview/index.html`. The manual GitHub Pages workflow stages only the landing page and generated test app. It does not enable Pages or deploy on merge. [Publication instructions](docs/discovery-preview/LAUNCH.md).
 
-The broader Android/platform proposal in PR #3 remains separate. Browser code sharing does not establish Android compatibility. Android's planned record-only persistence and manual backup/restore are not implemented.
+**Zero saves on every platform:** learner state exists only in current session memory. There is no saved highest lesson, answer history, position, learning preference or progress export/import. Every fresh session, reload or process restart begins at lesson 1. This owner decision supersedes the earlier Android record/backup proposal. Android is not implemented; its future wrapper must follow the same zero-saves rule. PR #3 remains a separate, outdated platform proposal that requires reconciliation before use.
 
 No final app/brand name or source-code/content license has been selected. Public visibility does not grant a reuse license. The mental-health questionnaire is a separate repository; its code, content and workflow are unchanged.

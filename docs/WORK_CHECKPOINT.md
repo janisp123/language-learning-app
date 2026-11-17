@@ -8,7 +8,11 @@ PR #6 is merged as `85e4dc400fe58075df806cf5d03d3c757a9f49bf` on main. It contai
 
 Approximately 500 survival words/phrases, prioritizing reuse and understandable communication. The build contains 500 questions in 50 blocks, Latvian/Russian/English in all six directions, and 1,500 embedded pronunciation clips. Existing 500 ms transitions, wrong-answer step back, third-block-mistake reset, ten-consecutive-correct completion and playback cancellation are retained.
 
-English uses locally authored Flite cmu_us_slt recordings; optional authoring tools are not runtime dependencies. Android, progress backup/restore, license adoption and Play release remain unfinished.
+English uses locally authored Flite cmu_us_slt recordings; optional authoring tools are not runtime dependencies. Android, license adoption and Play release remain unfinished.
+
+**Owner decision, 2026-11-17: zero learner-state saves on every platform.** Browser, Android and future wrappers keep only current session memory; no highest record, saved answers/preferences, progress files, backup/import or OS progress restoration. Each fresh session/reload/process restart starts at lesson 1. The browser already follows this behavior; the earlier Android persistence requirements are removed from AGENTS, architecture, L-005 and release gates. PR #3's old storage assumptions are superseded. No change to the 0.4.4 portable app bytes is needed for this policy update.
+
+Zero-saves verification: headless Chromium reached lesson 2 in each of the six directions, then reload started at lesson 1 with fresh counters. localStorage/sessionStorage/IndexedDB/cookies were empty after practice and reload. Closing and reopening the same persistent browser profile again started at lesson 1 with empty storage. See [the verification record](delivery/2026-11-17-zero-saves-verification.json). Android remains unimplemented, so its native lifecycle/storage checks remain pending. Website staging succeeds with the new policy copy; embedded app bytes still match the delivered 0.4.4 hash.
 
 ## Verification and delivery
 

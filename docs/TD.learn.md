@@ -13,7 +13,7 @@ For each task: check `AGENTS.md` and `WORK_CHECKPOINT.md`, verify whether alread
 - **Added by:** ChatGPT
 - **Implemented by:** Not yet
 - **Goal:** Inspect the empty repository and decide how the GitHub Pages browser experience and Android app will reuse **one canonical vocabulary/content source and one testable definition of learning behavior**. Compare a shared runtime implementation with small platform wrappers against alternatives; favor reliability/minimalism and Google Play compliance over architectural sophistication.
-- **Acceptance:** Short architecture decision describing build system, directory structure, source format/IDs, web/Android distribution, how learning rules remain identical, audio approach, storage boundary, and basic testing strategy. Flag any trade-off requiring owner approval **before** generating large application code. No future language packs or age paths implemented.
+- **Acceptance:** Short architecture decision describing build system, directory structure, source format/IDs, web/Android distribution, how learning rules remain identical, audio approach, zero learner-state saves on every platform, and basic testing strategy. Flag any trade-off requiring owner approval **before** generating large application code. No future language packs or age paths implemented. PR #3's old storage/backup assumptions are superseded by the owner's 2026-11-17 decision.
 
 ### L-002 — Define the learning state machine and deterministic tests
 - **Status:** IN REVIEW — pure engine and deterministic tests implemented on the browser test-build branch
@@ -21,7 +21,7 @@ For each task: check `AGENTS.md` and `WORK_CHECKPOINT.md`, verify whether alread
 - **Added by:** ChatGPT
 - **Implemented by:** Not yet
 - **Goal:** Translate the rules in `ARCHITECTURE.md` into a small, explicit engine and executable conformance tests. Confirm edge cases: wrong at first/last prompt, revisiting items, how a 10-item lesson cycles to achieve 10 consecutive successes, switching among all six LV/RU/EN directions, shuffling, and first launch.
-- **Acceptance:** No off-by-one or soft-skip: correct moves forward; wrong moves back one prompt and breaks the consecutive run; the third cumulative mistake in a ten-question block restarts at lesson 1/question 1 with cleared counters; correct answers do not clear block mistakes, but completing a block does; only 10 in a row completes; returning to lesson 1 in every fresh session; new-highest notification only when exceeding previous record. Tests document exact boundaries, not just happy paths.
+- **Acceptance:** No off-by-one or soft-skip: correct moves forward; wrong moves back one prompt and breaks the consecutive run; the third cumulative mistake in a ten-question block restarts at lesson 1/question 1 with cleared counters; correct answers do not clear block mistakes, but completing a block does; only 10 in a row completes; every fresh session starts at lesson 1 with no saved record or record-based notification. Tests document exact boundaries, not just happy paths.
 
 ### L-003 — Author and validate 500 basic words and short phrases
 - **Status:** PARTIAL — 50 draft blocks / 500 vocabulary items authored; fluent human review pending
@@ -45,12 +45,13 @@ For each task: check `AGENTS.md` and `WORK_CHECKPOINT.md`, verify whether alread
 - **Goal:** Minimal child-friendly learning screen, four reshuffled choices, clear feedback, optional re-playable pronunciation if supported, direct **Learn** action from a professional landing page; public GitHub Pages hosting.
 - **Acceptance:** Both translation directions work; same tested lesson/engine behavior; browser stores **no** progress (including localStorage/cookies); refresh starts from lesson 1; no account, tracking or dead buttons. Test on mobile and desktop, including actual published URL. Do not display an invented Google Play link.
 
-### L-005 — Build the Android app and highest-lesson backup/restore
+### L-005 — Build the Android app with zero saved learner state
 - **Status:** TODO • **Depends on:** L-001–L-003
 - **Added by:** ChatGPT
 - **Implemented by:** Not yet
-- **Goal:** Google Play-appropriate Android application with same course content and behavior. Persist only **highest lesson reached** locally. Provide **Save progress** and **Restore progress** using Android's file picker and a versioned backup; no server.
-- **Acceptance:** Export/import works offline on two devices; corrupt/wrong-course/newer-version backups rejected with clear messages and no data loss; restore warns before replacing current highest; closing/reopening starts lesson 1 while preserving only the record. Test install/update/clear-data and document which actions erase progress.
+- **Owner scope update (2026-11-17, recorded by Codex):** Zero saves on every platform replaces the earlier highest-lesson record and backup/restore requirements. Stable task ID and original Added by attribution are retained.
+- **Goal:** Google Play-appropriate Android application with the same course content and behavior; keep all learner state in memory only. No highest-lesson record, saved answers/preferences, Save/Restore controls, progress files or cloud storage.
+- **Acceptance:** A new session/process always begins at lesson 1 with fresh counters. Verify no learner state is written to preferences, files, databases, backups or OS state-restoration. Process death/relaunch, activity recreation after process death, install/update and device backup restoration must not resume or recover learning progress. Course/audio assets remain available offline. Physical-device verification is required; Android is not implemented yet.
 
 ### L-006 — Build verification and safe delivery automation
 - **Status:** PARTIAL — automated browser checks integrated; main CI run 44053240358 succeeded; cross-platform/release checks remain pending

@@ -14,10 +14,9 @@
 ## Before building/publishing Android
 - [ ] Android and browser agree on the same test cases and canonical lesson IDs/translations.
 - [ ] Actual Android release build installed and used on a physical device; required content available offline.
-- [ ] Only highest lesson reached is persisted; app restart begins at lesson 1. New-record celebration only when record is exceeded.
-- [ ] Save progress / Restore progress creates and validates a versioned file using a system picker; backup migration tested on another device.
-- [ ] Import of malformed, foreign-course, unsupported or too-new backup fails safely with current record unchanged.
-- [ ] Data loss on uninstall/clear data explained; privacy statement matches actual app behavior; no unnecessary permissions or tracking.
+- [ ] Zero learner-state writes: no lesson record, position, answers, counters, history or preferences in files, databases, native preferences or cloud storage.
+- [ ] No progress export/import or OS backup/state-restoration. Fresh session/process, activity recreation after process death, update and device restoration begin at lesson 1 with no recovered progress or record-based congratulation.
+- [ ] No Save/Restore controls. Privacy text accurately states that learner progress exists only in current session memory; no unnecessary permissions or tracking.
 - [ ] Age-targeting, Families policy (if applicable), and current Play content/policy disclosures reviewed **using current Google requirements**.
 - [ ] Signing, package name, versioning, store artwork, screenshots, support contacts and listing claims reviewed; avoid exposing personal/family data.
 - [ ] Current Play Console closed-testing and account eligibility requirements checked. The owner performs identity/account actions.
