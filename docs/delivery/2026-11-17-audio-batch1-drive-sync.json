@@ -1,0 +1,25 @@
+{
+  "buildVersion": "0.4.2",
+  "batch": 1,
+  "sourceCommit": "99016d395f9cba3ade019b2fa607a9bb082daf95",
+  "sourcePush": "blocked: environment HTTP proxy upstream 503; local commit retained",
+  "driveFileId": "1594pGCAm3E7hOq0-oSwLFh8z4WtRI3vd",
+  "sha256": "16d82b3e08f9090bd1a865e23641c252f9e1938774ff42c70683d82a73a79d1d",
+  "bytes": 11247018,
+  "readbackVerified": true,
+  "enabledDirections": [
+    "lv-ru",
+    "ru-lv"
+  ],
+  "clips": {
+    "lv": 500,
+    "ru": 500
+  },
+  "english": "111 cached clips, disabled; synthesis blocked by shared network 503",
+  "tests": {
+    "node": 36,
+    "python": 17,
+    "decodedMp3": 1000
+  },
+  "verifiedDate": "2026-11-17"
+}

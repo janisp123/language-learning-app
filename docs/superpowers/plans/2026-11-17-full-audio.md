@@ -9,3 +9,7 @@ Approved scope: extend the accepted audio behavior to every existing vocabulary 
 - [ ] Push to existing PR #6, replace the stable Drive file, verify downloaded readback, and record the exact delivery checkpoint.
 
 Review focus: incomplete coverage, wrong-language/text binding, generation failures on resume, oversized portable HTML, and unchanged timing/cancellation. No content expansion or public release.
+
+## Resumable batch checkpoint
+
+Batch 1 (RU/LV all 500) is tested and delivered to Drive with byte readback. Local source commit 99016d3; GitHub push is blocked by shared environment proxy HTTP 503. English generation stopped after 111 registered cached clips. Resume from content/audio/pending/english.json; do not treat the full English/all-six-direction scope as complete.
