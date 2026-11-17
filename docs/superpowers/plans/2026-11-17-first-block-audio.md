@@ -23,5 +23,5 @@ Review focus: stale playback errors after reset, unsupported direction, wrong-la
 
 ## Task 3 — Review and delivery
 - [x] Document module-editing map and inherited project lessons, source/provenance and verification limits.
-- [ ] Commit/push the existing review branch without merging; inspect CI.
-- [ ] Replace the stable Drive test HTML in place and verify uploaded bytes; update testing instructions.
+- [x] Commit/push the existing review branch without merging; inspect CI.
+- [x] Replace the stable Drive test HTML in place and verify uploaded bytes; update testing instructions.

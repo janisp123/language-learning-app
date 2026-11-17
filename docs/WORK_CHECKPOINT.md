@@ -15,8 +15,8 @@ As of 2026-11-17. Repository: janisp123/language-learning-app.
 
 ## Distribution
 
-Default Drive folder: Git_dump/language-learning-app, ID 1U6ewdAD-HsthuchnzVOeWOSs4hmM-EAX. Stable HTML ID 1594pGCAm3E7hOq0-oSwLFh8z4WtRI3vd. Source commit and Drive checksum readback will be recorded after delivery; do not infer remote synchronization from local files.
+Default Drive folder: Git_dump/language-learning-app, ID 1U6ewdAD-HsthuchnzVOeWOSs4hmM-EAX. Stable HTML ID 1594pGCAm3E7hOq0-oSwLFh8z4WtRI3vd. Build source 851fdea6173dafe2794f79b1b53f6036a2a44621 is pushed to PR #6. Drive HTML was replaced in place and downloaded back: exact bytes match, SHA-256 47da152e7e85f475d8d1f68e59ab53c9ab88ef117ea3560c5d7853634e6997c1. GitHub CI run 44025844650 passed. See delivery/2026-11-17-audio-drive-sync.json.
 
 ## One next action
 
-Finish source push and verified Drive replacement, then owner tests sound on their device. Earlier implementation history: history/WORK_CHECKPOINT-before-first-block-audio.md. Broader architecture PR #3 and workflow PR #4 remain separate.
+Owner downloads the updated HTML from the default Drive folder and tests first-block sound in both directions on their device. Earlier implementation history: history/WORK_CHECKPOINT-before-first-block-audio.md. Broader architecture PR #3 and workflow PR #4 remain separate.

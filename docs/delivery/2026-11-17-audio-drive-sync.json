@@ -1,0 +1,23 @@
+{
+  "buildVersion": "0.4.1",
+  "sourceCommit": "851fdea6173dafe2794f79b1b53f6036a2a44621",
+  "driveFileId": "1594pGCAm3E7hOq0-oSwLFh8z4WtRI3vd",
+  "folderId": "1U6ewdAD-HsthuchnzVOeWOSs4hmM-EAX",
+  "sha256": "47da152e7e85f475d8d1f68e59ab53c9ab88ef117ea3560c5d7853634e6997c1",
+  "bytes": 384953,
+  "readbackVerified": true,
+  "verifiedDate": "2026-11-17",
+  "ciRun": 44025844650,
+  "ciConclusion": "success",
+  "tests": {
+    "node": 36,
+    "python": 16,
+    "decodedMp3": 20
+  },
+  "browser": "Chrome HTTP preview: RU/LV played ranges, replay, restart cancellation",
+  "notRun": [
+    "file:// opening (Cloud browser policy)",
+    "physical phones",
+    "fluent pronunciation review"
+  ]
+}
