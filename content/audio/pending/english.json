@@ -2101,6 +2101,306 @@
       "file": "audio/en/vocab-0350.mp3",
       "sha256": "0c62589ec503d7ae016e53c4234c3ebb7cf2e702f39b1e210bca740983e4bebc",
       "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0351": {
+      "text": "tree",
+      "file": "audio/en/vocab-0351.mp3",
+      "sha256": "135d7991cce5a5d10b0ce38efeee4971152403d573f7ac86858b2a56a19d1de6",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0352": {
+      "text": "flower",
+      "file": "audio/en/vocab-0352.mp3",
+      "sha256": "a7a48bbaf66cc20b7834c911da974e33a77199ed83d33a7a755ce5695b7628c5",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0353": {
+      "text": "grass",
+      "file": "audio/en/vocab-0353.mp3",
+      "sha256": "c72b9de3334a2fba122467a4a4a8c779e4e19caeba418094f97e9f29167f14d0",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0354": {
+      "text": "leaf",
+      "file": "audio/en/vocab-0354.mp3",
+      "sha256": "9ab2e43b180d56ac67fd6b1e542b3fdff0b9cef30dffc6d6cf1c8b9133f2bf07",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0355": {
+      "text": "forest",
+      "file": "audio/en/vocab-0355.mp3",
+      "sha256": "7e15cb10da7d5ded11c3ba44afb08e6510beb52f384c7a1dc14b67d97cd1e568",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0356": {
+      "text": "river",
+      "file": "audio/en/vocab-0356.mp3",
+      "sha256": "6a32a36a616122f0c5e799b745380f2db9e132ac8c34b613193a10f0468985b1",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0357": {
+      "text": "lake",
+      "file": "audio/en/vocab-0357.mp3",
+      "sha256": "59b290ee99be6aecb0cf706aea2abb304391cbc5f845fcb0527d7f71b27e9918",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0358": {
+      "text": "sea",
+      "file": "audio/en/vocab-0358.mp3",
+      "sha256": "566558e1a9f8f3e450f58f7fce4d8c6876f9cceef5ea57f557fcad1cb4a19aba",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0359": {
+      "text": "beach",
+      "file": "audio/en/vocab-0359.mp3",
+      "sha256": "7b1fa01576d401de9e525b78f5271dc04392ca42f296cf059144b497335547b8",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0360": {
+      "text": "stone",
+      "file": "audio/en/vocab-0360.mp3",
+      "sha256": "fedfaff96f8f881125230e4b244a0ceffd1cc90e12f442b07a6b4b43957ea33f",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0361": {
+      "text": "dog",
+      "file": "audio/en/vocab-0361.mp3",
+      "sha256": "c4f3009c246cb3a05ed3d423ebf16dd94967206a6ca84f601464ee247ff598f4",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0362": {
+      "text": "cat",
+      "file": "audio/en/vocab-0362.mp3",
+      "sha256": "4ee8fa4fb3c61b64d6c010bb15095203ad9d30ff601ce189363f769932ddc427",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0363": {
+      "text": "horse",
+      "file": "audio/en/vocab-0363.mp3",
+      "sha256": "70af77953672cf33775d371178e0bdf6ca3e1e25e6a902de394ff581755115d0",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0364": {
+      "text": "cow",
+      "file": "audio/en/vocab-0364.mp3",
+      "sha256": "ed84473a479e50658df451596a2a034179727a98a2fb43d97b2095c9395fbfee",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0365": {
+      "text": "pig",
+      "file": "audio/en/vocab-0365.mp3",
+      "sha256": "8a372fa4f92fb198eff5409d36e05c893cfd4c2bbca8b6e685c2dab8fe368161",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0366": {
+      "text": "sheep",
+      "file": "audio/en/vocab-0366.mp3",
+      "sha256": "4bd6812e5bf12927a08db1d13d25f8bc13a4b9ff90f43dcd24e4aa5faba9e36d",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0367": {
+      "text": "goat",
+      "file": "audio/en/vocab-0367.mp3",
+      "sha256": "6e79fbb8bee7558970d0951b46cc7a750a96522dd199c1a634e780b3d1af4a17",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0368": {
+      "text": "hen",
+      "file": "audio/en/vocab-0368.mp3",
+      "sha256": "93b4715d192bb6b176cba217995a1b6937c8c7afa99c0645bead1f065c96bd1b",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0369": {
+      "text": "duck",
+      "file": "audio/en/vocab-0369.mp3",
+      "sha256": "818efaf7fadf23f188093b3bb857a38d174bd147b3bfb59b9ee24d2979160b77",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0370": {
+      "text": "bird",
+      "file": "audio/en/vocab-0370.mp3",
+      "sha256": "7b252578b734522f262f96a1d5cbdcab6d339d315afbd61eeca5e1a759db93b1",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0371": {
+      "text": "bus",
+      "file": "audio/en/vocab-0371.mp3",
+      "sha256": "c267fb8a1cc2964962de7165b9188fa2c798a9cc3d523ff80101c628d7151a00",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0372": {
+      "text": "tram",
+      "file": "audio/en/vocab-0372.mp3",
+      "sha256": "932123d6f82f19d09bed206bb361fa642ff19dab1ef20925a578999311765de0",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0373": {
+      "text": "trolleybus",
+      "file": "audio/en/vocab-0373.mp3",
+      "sha256": "fbf85b89d3b5b996ed609ffe4152ab0f7c339b0bc80602211525b9b0ab418307",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0374": {
+      "text": "train",
+      "file": "audio/en/vocab-0374.mp3",
+      "sha256": "702878d9aaf564967033dfe980e1ef603eb15cd049dd5abb071b0cd2f588cd61",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0375": {
+      "text": "car",
+      "file": "audio/en/vocab-0375.mp3",
+      "sha256": "82160227236aafac7ae78c539f649ab4d96c2daa9948e654875062367662fd1e",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0376": {
+      "text": "bicycle",
+      "file": "audio/en/vocab-0376.mp3",
+      "sha256": "652e968f43c9dccae915ee35954a08aae6e2b19c13ae1cfd3811064edbb59931",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0377": {
+      "text": "taxi",
+      "file": "audio/en/vocab-0377.mp3",
+      "sha256": "090d0022287fe372ecffec4574f78bdaf95139661cd9692dd40346e629e5fa35",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0378": {
+      "text": "station",
+      "file": "audio/en/vocab-0378.mp3",
+      "sha256": "054b17e1fbb2e9f2a13cef8000b326a9c392c7d1dfb69cb24d19f28da34c560b",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0379": {
+      "text": "airport",
+      "file": "audio/en/vocab-0379.mp3",
+      "sha256": "3c422234a527e4369dce8cee7b3aa9f0b728ca0354f918b3e1f810eb23f16cf9",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0380": {
+      "text": "ticket",
+      "file": "audio/en/vocab-0380.mp3",
+      "sha256": "803db1f525f3de2de40a55bb53b446144669baf08b149ef35c4336bb22f7f091",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0381": {
+      "text": "road",
+      "file": "audio/en/vocab-0381.mp3",
+      "sha256": "79ff4114a6a7906ccef46dfd61c0e384d0f9e06a92bc70228d5fa7cd47e4cfe0",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0382": {
+      "text": "bridge",
+      "file": "audio/en/vocab-0382.mp3",
+      "sha256": "9132532491df057901c3f0f422b2cbaf5e518e1781a76657e2eaf5e4ada4cf01",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0383": {
+      "text": "pedestrian crossing",
+      "file": "audio/en/vocab-0383.mp3",
+      "sha256": "3553e7530cda6ceac36b9082b303748140b8deedc9289f6af29077243ac3f6b7",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0384": {
+      "text": "traffic lights",
+      "file": "audio/en/vocab-0384.mp3",
+      "sha256": "7f02d01c49ea9e614ed50aa8c5547940cda5883e80df0a58fff56445fb65b1bd",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0385": {
+      "text": "pavement",
+      "file": "audio/en/vocab-0385.mp3",
+      "sha256": "f67ce189716f5cd4be30a4fd33b2793bc8df55ae0fa84a02a1f9feab14c37f05",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0386": {
+      "text": "corner",
+      "file": "audio/en/vocab-0386.mp3",
+      "sha256": "807fa125cadcf3438df4c42aa2f882dc511a25138bbfd7e70e30ee93786165aa",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0387": {
+      "text": "square",
+      "file": "audio/en/vocab-0387.mp3",
+      "sha256": "0696da9bd150385612c318a32ff7fa08c205e530608ccac951b77e46506d5d89",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0388": {
+      "text": "centre",
+      "file": "audio/en/vocab-0388.mp3",
+      "sha256": "1e05120b6392c0bc7912cfc9a470f877d412dac2da51d35cf38805a834094294",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0389": {
+      "text": "address",
+      "file": "audio/en/vocab-0389.mp3",
+      "sha256": "9f05f29a63ce7c752b9ed5714723820c8d978fb9a20a515989125053a1496e0b",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0390": {
+      "text": "city map",
+      "file": "audio/en/vocab-0390.mp3",
+      "sha256": "e51e71689d93e7fa7688b54e480c5832248af9f32d80ff610e0f93847cbfc929",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0391": {
+      "text": "schoolbag",
+      "file": "audio/en/vocab-0391.mp3",
+      "sha256": "808078c68e6dafa8b3f02541df4850e6c68a543b74cd29321ade5d6dd16f54bf",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0392": {
+      "text": "ruler",
+      "file": "audio/en/vocab-0392.mp3",
+      "sha256": "d79ae857170aab75a7a5d52f6526b20cd3d5cd3672b0bc78f268e811e61ec921",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0393": {
+      "text": "eraser",
+      "file": "audio/en/vocab-0393.mp3",
+      "sha256": "f83747c1e889714bd19b1613335a4411b41eaec132eb66d7bc471765d949d7d8",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0394": {
+      "text": "scissors",
+      "file": "audio/en/vocab-0394.mp3",
+      "sha256": "6c53b5f56268fd3717ce0cebf2551f315cbd0e3d28fe93b26491dc284d832d75",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0395": {
+      "text": "glue",
+      "file": "audio/en/vocab-0395.mp3",
+      "sha256": "b63553b5bb25752aa02d127b5a83c92dfadbb83921ad4cfbb6b3744daf59715b",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0396": {
+      "text": "paper",
+      "file": "audio/en/vocab-0396.mp3",
+      "sha256": "f4456194db9844b636141756e03feafefc11efa321d8df6164809e651c9cf9ae",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0397": {
+      "text": "paint",
+      "file": "audio/en/vocab-0397.mp3",
+      "sha256": "586ec49a99cf8cf02157940010ce955e03d7f7151afd046c0c87db4f24ec3367",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0398": {
+      "text": "brush",
+      "file": "audio/en/vocab-0398.mp3",
+      "sha256": "0f7b4bebfad286acdd56fe45b07db0a62dd64523fd177d80eca2f1afd29fcf80",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0399": {
+      "text": "drawing",
+      "file": "audio/en/vocab-0399.mp3",
+      "sha256": "4f7ef462b2b8b39c65efacb9acd08d9ae6ecaa8ae7ae85987c1163b3350362ee",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0400": {
+      "text": "homework",
+      "file": "audio/en/vocab-0400.mp3",
+      "sha256": "afa19e9a868a845951760db8993d511025d7a07ec85d3bf5fd94bfe4327c0356",
+      "source": "Flite cmu_us_slt; offline synthesis"
     }
   }
 }
