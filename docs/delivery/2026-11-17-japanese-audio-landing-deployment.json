@@ -1,0 +1,56 @@
+{
+  "buildVersion": "0.4.9",
+  "mergedPullRequests": [
+    14,
+    15
+  ],
+  "audioMergeCommit": "94a6da2219b67574b63351733b5dea53c91db697",
+  "finalMainCommit": "782f69185efb925c708f4eda7c97d6842171c646",
+  "deploymentRun": 44119527089,
+  "deploymentConclusion": "success",
+  "mainCiRun": 44119527070,
+  "mainCiConclusion": "success",
+  "websiteUrl": "https://janisp123.github.io/language-learning-app/",
+  "appUrl": "https://janisp123.github.io/language-learning-app/learn/",
+  "downloadUrl": "https://janisp123.github.io/language-learning-app/language-learning-test.html",
+  "verifiedDate": "2026-11-17",
+  "appSha256": "341e5c54a5c127bbc36a2217ebe8b26d21030fa2a954316122d5f0f059e68d68",
+  "appBytes": 21384026,
+  "landingSha256": "12e45b5199675d4118918e9857a0c527d09e0cf525a9361580d5d409d635d3d0",
+  "defaultTlsExactReadbackVerified": true,
+  "hostedAppDownloadCanonicalAndDriveMatch": true,
+  "driveReceipt": "2026-11-17-japanese-audio-drive-sync.json",
+  "localCombinedTests": {
+    "node": 45,
+    "python": 29
+  },
+  "hostedBrowserReceipts": [
+    "2026-11-17-japanese-audio-hosted-browser.json",
+    "2026-11-17-landing-controls-hosted-browser.json"
+  ],
+  "japaneseClips": 510,
+  "totalClips": 2040,
+  "unchangedOriginalClips": 1530,
+  "landingLanguages": [
+    "en",
+    "ru",
+    "lv"
+  ],
+  "landingThemes": [
+    "light",
+    "dark"
+  ],
+  "preferences": "memory only; English/light after reload; no saved learner state on any platform",
+  "status": {
+    "implemented": true,
+    "pushed": true,
+    "merged": true,
+    "driveDelivered": true,
+    "publiclyDeployed": true
+  },
+  "notRun": [
+    "physical devices",
+    "full screen-reader audit",
+    "fluent human language/pronunciation review"
+  ]
+}

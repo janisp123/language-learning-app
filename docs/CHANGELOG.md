@@ -77,3 +77,10 @@ L-004, explicit owner bug report: Japanese answer speaker controls in 0.4.8 were
 43 Node / 29 Python tests pass after observed missing-feature failures. Independent asset review verified all 510 JA bindings/hashes and all 1,530 original records/hashes unchanged. Browser decode/UI evidence and delivery receipts are recorded separately. Fluent human pronunciation, physical-device and full-screen-reader review remain pending. No merge/publication at implementation checkpoint.
 
 0.4.9 Japanese audio review delivery: source 6913c37 on PR #14 passed CI 44118339756 before stable Drive upload. Complete downloaded bytes compare exactly; receipt delivery/2026-11-17-japanese-audio-drive-sync.json.
+
+
+## 2026-11-17 — Publish Japanese audio and landing controls (Codex)
+
+Owner explicitly approved merging PRs #14/#15 and publishing. Merged in order at94a6da2 and782f691; Pages44119527089 and main CI44119527070 succeeded. Japanese answer playback now includes all510 clips, with original1530 unchanged. Landing EN/RU/LV buttons translate full copy/metadata/accessibility and the dark toggle changes theme; no saved preferences, reload defaults English/light. Independent landing review found gloss omission; direct regression fixed it. Combined local45Node/29Python tests pass.
+
+Hosted HTTPS landing/app/download match canonical source; app/download also match verified Drive0.4.9 exactly. Hosted Chromium verifies all510 Japanese clips,2040 answer bindings without grading and all3landing languages/both themes at320/1280px, keyboard/links/credit/storage/reset behavior. Receipts: delivery/2026-11-17-japanese-audio-landing-deployment.json and associated hosted browser evidence. Physical-device, full-screen-reader and fluent human translation/pronunciation review pending; no Android/Play release.
