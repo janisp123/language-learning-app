@@ -1,0 +1,41 @@
+{
+  "buildVersion": "0.4.8",
+  "sourceCommit": "00aa31649af15c810cf619525616feae12337bfd",
+  "mergeCommit": "a419251338b9b8c4ea28a84e4813c1130f5730ec",
+  "pullRequest": 12,
+  "deploymentRun": 44115906044,
+  "deploymentConclusion": "success",
+  "mainCiRun": 44115906188,
+  "mainCiConclusion": "success",
+  "appUrl": "https://janisp123.github.io/language-learning-app/learn/",
+  "downloadUrl": "https://janisp123.github.io/language-learning-app/language-learning-test.html",
+  "sha256": "ddd53f9dbd775640548cab28641f4374e553208fe45ff23655b565251c44a2a2",
+  "bytes": 15813863,
+  "defaultTlsReadbackVerified": true,
+  "hostedAppAndDownloadMatchCanonicalAndDrive": true,
+  "driveReceipt": "2026-11-17-answer-speakers-drive-sync.json",
+  "verifiedDate": "2026-11-17",
+  "tests": {
+    "node": 43,
+    "python": 28
+  },
+  "browserReceipt": "2026-11-17-answer-speakers-hosted-browser.json",
+  "answerAudioLanguages": [
+    "lv",
+    "ru",
+    "en"
+  ],
+  "japaneseAnswerAudio": "not bundled; explicitly unavailable",
+  "status": {
+    "implemented": true,
+    "pushed": true,
+    "merged": true,
+    "driveDelivered": true,
+    "publiclyDeployed": true
+  },
+  "notRun": [
+    "physical devices",
+    "full screen-reader audit",
+    "fluent human pronunciation review"
+  ]
+}
