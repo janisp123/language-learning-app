@@ -1,0 +1,52 @@
+{
+  "buildVersion": "0.4.10",
+  "publicUrl": "https://janisp123.github.io/language-learning-app/",
+  "browser": "Chromium mobile emulation",
+  "checks": [
+    {
+      "width": 320,
+      "direction": "en-ja",
+      "landingThemeTransferred": true,
+      "cleanUrlAndNullHistoryState": true,
+      "localizedVisibleToggle": true,
+      "playbackDoesNotGrade": true,
+      "togglePreservesPendingAnswerAndProgress": true,
+      "restartDirectionKeepDark": true,
+      "noOverflow": true,
+      "emptyStorageAndCookies": true,
+      "reloadLightAndFreshSetup": true
+    },
+    {
+      "width": 360,
+      "direction": "ru-lv",
+      "landingThemeTransferred": true,
+      "cleanUrlAndNullHistoryState": true,
+      "localizedVisibleToggle": true,
+      "playbackDoesNotGrade": true,
+      "togglePreservesPendingAnswerAndProgress": true,
+      "restartDirectionKeepDark": true,
+      "noOverflow": true,
+      "emptyStorageAndCookies": true,
+      "reloadLightAndFreshSetup": true
+    },
+    {
+      "width": 390,
+      "direction": "lv-ru",
+      "landingThemeTransferred": true,
+      "cleanUrlAndNullHistoryState": true,
+      "localizedVisibleToggle": true,
+      "playbackDoesNotGrade": true,
+      "togglePreservesPendingAnswerAndProgress": true,
+      "restartDirectionKeepDark": true,
+      "noOverflow": true,
+      "emptyStorageAndCookies": true,
+      "reloadLightAndFreshSetup": true
+    }
+  ],
+  "pageErrors": [],
+  "headlessTls": "environment trust bypass; independent HTTPS exact-byte readback uses default TLS verification",
+  "notRun": [
+    "physical phone",
+    "full screen-reader audit"
+  ]
+}
