@@ -8,9 +8,9 @@ Keep the experience small and focused. A broad language curriculum, advanced pro
 
 The owner has revised the initial curriculum to **500 basic words and short phrases in 50 blocks of ten questions**, in Latvian, Russian and English, all six directed pairs, initially for ages 10–17. This supersedes the earlier ten-situation, sentence-based draft and its former limit on vocabulary count. The earlier draft remains archived, not active.
 
-## Reuse takes priority over style
+## Communication efficiency and reuse take priority over style and grammar
 
-Owner priority: reuse already-taught words, short phrases and phrase patterns as much as possible across blocks and future sentence lessons, even when the result sounds repetitive or less elegant. Before introducing a synonym or alternative expression, prefer a familiar expression that communicates the same meaning. Introduce new vocabulary when it adds a useful meaning or is needed for understandable, grammatically correct communication. Recombine familiar component words into new phrases rather than introducing unnecessary alternatives.
+Owner priority: reuse already-taught words, short phrases and phrase patterns as much as possible across blocks and future sentence lessons, even when the result sounds repetitive or less elegant. Before introducing a synonym or alternative expression, prefer a familiar expression that communicates the same meaning. Introduce new vocabulary only when it adds a crucial meaning or is needed to be understood, rather than to make a phrase more elegant or grammatically complete. Recombine familiar component words into new phrases rather than introducing unnecessary alternatives. Understandable fragments and grammatically imperfect phrasing are acceptable when they help a learner communicate with fewer words. The learner should be able to say something useful instead of hesitating between too many word choices.
 
 Repeated words within different useful phrases are encouraged; they do not require duplicate concept IDs for the same meaning or reduce answer-choice clarity. Keep existing permanent bindings intact. This principle guides content authoring and review; recording it does not claim that all 500 current entries have undergone a reuse audit.
 
@@ -21,7 +21,7 @@ Repeated words within different useful phrases are encouraged; they do not requi
 - First ten blocks, in order: Greetings; People; Numbers one to ten; Useful words; Essential places; Basic food and drinks; In the classroom; Directions; Safety; Question words.
 - Do not confuse 500 learning items with 500 distinct dictionary lemmas or a verified frequency ranking. Short phrases and useful forms are included. See [VOCABULARY_500.md](VOCABULARY_500.md) for scope and review limits.
 - Prefer one common, understandable translation for a precise meaning. Avoid padding the list with synonyms, duplicate meanings or multiple superficially different versions of the same item.
-- Keep translations grammatically defensible and understandable. Never shorten into incorrect language merely to meet a word limit. Use a different short meaning if necessary.
+- Judge phrases by whether another person can understand the intended message. Formal grammar and stylistic naturalness are secondary to efficient use of familiar words; understandable imperfect phrasing is acceptable. Preserve the intended meaning and clear answer choices. Grammar review should identify misunderstandings, not require extra vocabulary solely for correctness.
 - Keep material safe and appropriate for young learners. No private information, adult/workplace topics or prompts encouraging unsafe compliance.
 - Distractors must be distinct and unambiguously wrong in all six directions. ID checks and distinct strings cannot establish semantic correctness; fluent human review of meanings and distractors remains pending before public release.
 
@@ -37,7 +37,7 @@ The catalog curriculum policy enforces the target item count, distinct concept c
 
 1. Is the meaning useful, concrete and distinct from existing items?
 2. Can this meaning be expressed with already-taught words or phrase patterns? Prefer their reuse over stylistic variety; add new words only for a useful meaning or necessary clarity.
-3. Is every translation natural, short and aligned with the same meaning?
+3. Is each translation short and understandable, conveying the same intended meaning with familiar words even if its grammar or style is imperfect?
 4. Is only one of the four choices defensibly correct in every direction?
 5. Is it appropriate and understandable for the intended age group?
 

@@ -4,7 +4,7 @@ As of 2026-11-17. Repository: janisp123/language-learning-app.
 
 ## Current source and behavior
 
-- Product scope: approximately 500 crucial words/phrases for survival basics, with current development focused on Russian ↔ Latvian. Improve essential usefulness and pronunciation; broad curriculum/feature expansion is outside scope. This is recorded in CONTENT_RULES.md and AGENTS.md; no vocabulary audit or runtime change is claimed.
+- Product scope: approximately 500 crucial words/phrases for survival basics, with current development focused on Russian ↔ Latvian. Maximize reuse of familiar words and patterns. Understandable imperfect grammar is acceptable; efficient communication takes priority over style/formal correctness. Improve essential usefulness and pronunciation; broad curriculum/feature expansion is outside scope. This is recorded in CONTENT_RULES.md and AGENTS.md; no vocabulary audit or runtime change is claimed.
 - Main remains 0eca173; implementation continues in open PR #6, feat/testable-browser-app, from a811593. No merge or public publication.
 - Browser build 0.4.1 retains 500 vocabulary items/50 blocks and all existing text directions. Audio scope is only first ten questions (vocab-0001…vocab-0010), Russian ↔ Latvian.
 - Twenty embedded synthetic pronunciation clips; correct-target audio after either answer outcome, plus labeled previous-answer replay. Existing 500 ms transitions/three-mistake rules unchanged. Restart/direction changes stop audio.

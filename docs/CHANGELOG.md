@@ -1,3 +1,7 @@
+## 2026-11-17 — Communication efficiency over formal grammar
+
+Recorded by Codex: maximize reuse of familiar words/patterns, minimize competing word choices, accept understandable fragments and imperfect grammar for survival communication. Updated CONTENT_RULES.md and AGENTS.md to supersede the earlier grammatical-correctness requirement while preserving intended meaning and unambiguous answer bindings. Documentation only; current translations, engine, recordings and Drive build are unchanged. No content audit is claimed.
+
 ## 2026-11-17 — Survival-basics scope clarification
 
 Recorded by Codex in CONTENT_RULES.md, AGENTS.md and WORK_CHECKPOINT.md: approximately 500 crucial words/phrases for survival and everyday communication; current work focuses on Russian ↔ Latvian. Practical usefulness takes priority over breadth or hitting an arbitrary count. A broad curriculum and Duolingo-style feature expansion are out of scope. Documentation only; the current 500-entry bank, build and Drive package are unchanged. No new implementation task or content-review claim.
