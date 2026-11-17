@@ -2401,6 +2401,306 @@
       "file": "audio/en/vocab-0400.mp3",
       "sha256": "afa19e9a868a845951760db8993d511025d7a07ec85d3bf5fd94bfe4327c0356",
       "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0401": {
+      "text": "letter",
+      "file": "audio/en/vocab-0401.mp3",
+      "sha256": "42ccfbeb11ce72c458ae187f3fafc283f004ed75f79820ba47f34a426d73cfbd",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0402": {
+      "text": "word",
+      "file": "audio/en/vocab-0402.mp3",
+      "sha256": "35bc4bb0a95f42dc470de3ddd3da9c09151bc4259689134c83aa3c24040fd0ce",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0403": {
+      "text": "phrase",
+      "file": "audio/en/vocab-0403.mp3",
+      "sha256": "e23bc4f3edd5d3f93b0c2925e949c7c298e58efbe24da98c503cb1634832179b",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0404": {
+      "text": "sentence",
+      "file": "audio/en/vocab-0404.mp3",
+      "sha256": "c5263fe336688c5bd92f1372af47885fb16adc459c6e9f36c52e3a1434354921",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0405": {
+      "text": "question",
+      "file": "audio/en/vocab-0405.mp3",
+      "sha256": "57f0106f9f313e391561efe5d69a247a473aaa09aaf485565c31237373a86f2d",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0406": {
+      "text": "answer",
+      "file": "audio/en/vocab-0406.mp3",
+      "sha256": "057d2f5cdcf2c6eca8cf62a05558f4e3499a2c9f3fabbd4ac174c84edcd7134f",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0407": {
+      "text": "page",
+      "file": "audio/en/vocab-0407.mp3",
+      "sha256": "72c4260d29601c353b7f5ccd3ad1b82857da02564e63050dd0ac2df475cc5b8b",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0408": {
+      "text": "exercise",
+      "file": "audio/en/vocab-0408.mp3",
+      "sha256": "7e5f6ac2309db0f54144953c0c572f46edd8ae1dc5d05bdcdde3919865ba6cc7",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0409": {
+      "text": "example",
+      "file": "audio/en/vocab-0409.mp3",
+      "sha256": "f8e01108840a2d5ed302cbece1ad1804c45671034087935f53d2d77051a1cf70",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0410": {
+      "text": "mistake",
+      "file": "audio/en/vocab-0410.mp3",
+      "sha256": "31459ebcc93a4b142424353513cea97f717d96c2a85575d021a87d62a2ef2477",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0411": {
+      "text": "to go",
+      "file": "audio/en/vocab-0411.mp3",
+      "sha256": "106de0c2ee4423b8b25bb702342d5dc631fc9a29fc6936746c02c16d87f81217",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0412": {
+      "text": "to come",
+      "file": "audio/en/vocab-0412.mp3",
+      "sha256": "24d0103acddf025192d7da1589bdc1435b129882940d40804c3f26120a671e27",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0413": {
+      "text": "to walk",
+      "file": "audio/en/vocab-0413.mp3",
+      "sha256": "6d7a96c5973c6fb3cd16147640fe4454ba26a23f2a9d56aa34feb77c5bd65813",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0414": {
+      "text": "to run",
+      "file": "audio/en/vocab-0414.mp3",
+      "sha256": "d02ea95bb8b19b116b11e712e0f020b889508838a83b1f62a56a44b92f3e102f",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0415": {
+      "text": "to sit",
+      "file": "audio/en/vocab-0415.mp3",
+      "sha256": "48b886e8de6d5a91258115ced65e92560fa91b1c6ba0ebd7d710e698137ac2db",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0416": {
+      "text": "to stand",
+      "file": "audio/en/vocab-0416.mp3",
+      "sha256": "994a863f0566f8a9d2e5b99c31bdc9668da57434c4a0d9130feae5abdec91e79",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0417": {
+      "text": "to sleep",
+      "file": "audio/en/vocab-0417.mp3",
+      "sha256": "740ce41542627f4a958fb5f72c3330d5d31663ec66925721cba9cd5722020522",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0418": {
+      "text": "to wake up",
+      "file": "audio/en/vocab-0418.mp3",
+      "sha256": "9bb4160aff741ef63952ef959ffc5c84cd0de30153ea9baada834053fa44c1ed",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0419": {
+      "text": "to eat",
+      "file": "audio/en/vocab-0419.mp3",
+      "sha256": "7d9e949c30d69efa7b9d056363a392e24004d9307dde46269bef3932ed4b3cba",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0420": {
+      "text": "to drink",
+      "file": "audio/en/vocab-0420.mp3",
+      "sha256": "c8ca594e3f51063df55f86641e890125ae2da566ccff81a97b847bdb4ad355e9",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0421": {
+      "text": "to speak a language",
+      "file": "audio/en/vocab-0421.mp3",
+      "sha256": "c87e89d77f324f3b2ea14925481c8632db2c8b2ec9d7326f69f59a1c1537e2cf",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0422": {
+      "text": "to say a word",
+      "file": "audio/en/vocab-0422.mp3",
+      "sha256": "3b50f6428577f41876b06fb29d5f270ca8d6046dd262c1d37c81c74035e93fdc",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0423": {
+      "text": "to ask",
+      "file": "audio/en/vocab-0423.mp3",
+      "sha256": "952894031acdc0bfdf82b336ebf58d845e093ea7418b70c531570ac4b2dbf88e",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0424": {
+      "text": "to answer",
+      "file": "audio/en/vocab-0424.mp3",
+      "sha256": "e7821e00527218a4ba61e1847e3b48c317e37e39650ac8a4ea3021ab5e407ba4",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0425": {
+      "text": "to listen",
+      "file": "audio/en/vocab-0425.mp3",
+      "sha256": "83727cc4dae9f56c027aee885a78d6c64db945ed0efff5bbf2f1b13beb441297",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0426": {
+      "text": "to hear",
+      "file": "audio/en/vocab-0426.mp3",
+      "sha256": "ad5da21fcebc90f9690bfce8e4488a9e95bd7e392de0a1c710403668bd83ac64",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0427": {
+      "text": "to read",
+      "file": "audio/en/vocab-0427.mp3",
+      "sha256": "ec4f216766e37852475b6f9a6048c86ea65d32ba7527fb385263ae56489bfd4a",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0428": {
+      "text": "to write",
+      "file": "audio/en/vocab-0428.mp3",
+      "sha256": "a13f3dcdd2461fac60b523ee7c65ae0bae840c7aebad907ae14b90e0f57b6079",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0429": {
+      "text": "to learn",
+      "file": "audio/en/vocab-0429.mp3",
+      "sha256": "def5c1d7df6968b9c085e437d15e4b1be6f6c00bd714f149026a843bcf3c91f0",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0430": {
+      "text": "to understand",
+      "file": "audio/en/vocab-0430.mp3",
+      "sha256": "9f4487a7572a23bf1e412583b75408c1e8422c7be1495ad7dcc46f1a39cb5317",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0431": {
+      "text": "to see",
+      "file": "audio/en/vocab-0431.mp3",
+      "sha256": "5b1189cbbc0a124b3e9ce4c22af25e2952d2a6bc368f67c44bb437e527f3f106",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0432": {
+      "text": "to look at",
+      "file": "audio/en/vocab-0432.mp3",
+      "sha256": "33cea774a54fb3bc3a3cf64181823e935c28133d16d13dc96937e453a5ac95b4",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0433": {
+      "text": "to watch",
+      "file": "audio/en/vocab-0433.mp3",
+      "sha256": "1e581852e9851ca7bfdbcfb59ee945d87ccf843fd133f4545b7a02a842d558d7",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0434": {
+      "text": "to find",
+      "file": "audio/en/vocab-0434.mp3",
+      "sha256": "1a4b54096d6da5e008d7e179e827fe8a59e2616e62687d3052f9b70e71eb03ca",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0435": {
+      "text": "to search",
+      "file": "audio/en/vocab-0435.mp3",
+      "sha256": "fd0caefc940af930fde5971a8b8a9ee64e6a8a9f23e78b79a5ede97648f5de17",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0436": {
+      "text": "to take",
+      "file": "audio/en/vocab-0436.mp3",
+      "sha256": "194a9fed86c4c440f221d2dd85a4b9213adcf5f799fb17c4f42b003582065db8",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0437": {
+      "text": "to give",
+      "file": "audio/en/vocab-0437.mp3",
+      "sha256": "d849f6936558fd35279e8a22740c882346c1c40b6f6af1ff8271b0e5632b8c34",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0438": {
+      "text": "to bring",
+      "file": "audio/en/vocab-0438.mp3",
+      "sha256": "087e8c148787841852811b07666128e6b672b60a1cc027502bf4ef2191ebbb86",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0439": {
+      "text": "to buy",
+      "file": "audio/en/vocab-0439.mp3",
+      "sha256": "12f78494b7d900e731da189f7d54f7d37aa90c9b0d0fbfb28e4bbe1e9e71d7fe",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0440": {
+      "text": "to pay",
+      "file": "audio/en/vocab-0440.mp3",
+      "sha256": "555f6f42e2aca295946d823f29c60a9ee7d80475a05c32f2a24027914133240e",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0441": {
+      "text": "to open",
+      "file": "audio/en/vocab-0441.mp3",
+      "sha256": "632874b910a5d189788df2e625e68dbc0e4d6a2d8034bd703dcc0bd1e9c842b1",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0442": {
+      "text": "to close",
+      "file": "audio/en/vocab-0442.mp3",
+      "sha256": "d119fbef6ee02f430aff7d29050cce6d96a33966b44399b8d5c68bf7eca0719f",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0443": {
+      "text": "to start",
+      "file": "audio/en/vocab-0443.mp3",
+      "sha256": "b96c9e8cab3c118ab876f6a1d6b9b2a9f56d29f6405f119b18419e255bb173d4",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0444": {
+      "text": "to finish",
+      "file": "audio/en/vocab-0444.mp3",
+      "sha256": "49fef2d98f92b5fabecf953547b265c9444f8bdb6d9f3129318168ff1d2117a9",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0445": {
+      "text": "to wait",
+      "file": "audio/en/vocab-0445.mp3",
+      "sha256": "d6e706198ac67a8c650776a8c52cc169dfba33bf41770f2e9829db5cb23d73be",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0446": {
+      "text": "to help",
+      "file": "audio/en/vocab-0446.mp3",
+      "sha256": "decb4fd45040e259adee6969781aaf123a2053c08f1671eb6109218aa11d39e3",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0447": {
+      "text": "to play",
+      "file": "audio/en/vocab-0447.mp3",
+      "sha256": "c5fb06c87e68d318da7e5a3781b5bba9bd42fd22226cdb080f0335642fac6a48",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0448": {
+      "text": "to work",
+      "file": "audio/en/vocab-0448.mp3",
+      "sha256": "46621fa18f111c64b751695137f62cf710885fd8c00ae4f34523e23a41283780",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0449": {
+      "text": "to wash",
+      "file": "audio/en/vocab-0449.mp3",
+      "sha256": "4847837f592aefb7d955d45f33adfb8d0adc23d65dca06dd03bd44ae7525d512",
+      "source": "Flite cmu_us_slt; offline synthesis"
+    },
+    "vocab-0450": {
+      "text": "to clean",
+      "file": "audio/en/vocab-0450.mp3",
+      "sha256": "da782cb0a2cdb86af86657f90d723365e61580d1277485dbbe2bcfa37206b966",
+      "source": "Flite cmu_us_slt; offline synthesis"
     }
   }
 }
