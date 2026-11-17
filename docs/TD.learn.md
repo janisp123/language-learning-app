@@ -94,7 +94,7 @@ For each task: check `AGENTS.md` and `WORK_CHECKPOINT.md`, verify whether alread
 ### L-010 — Source-language reading guides in three directions
 - **Added by:** Codex (explicit owner request, 2026-11-17)
 - **Implemented by:** Codex (local implementation; integration/review delivery tracked in the feature PR)
-- **Status:** Implementation and all 153 ten-item data batches prepared in review build 0.4.12. Human pronunciation review remains pending; preserve this task until verified integration.
+- **Status:** Implemented/verified/pushed on PR #21, source162e2ac, source CI44182744942 passed. Review build0.4.12 delivered in stable Drive with exact downloaded byte equality (delivery/2026-11-17-reading-guides-drive-sync.json). Integration/publication and human pronunciation review remain pending; preserve this task until verified integration.
 - **Scope:** lv-ru uses Latvian letters; ru-en uses Cyrillic; en-ja uses romaji below each kana with visible small-kana roles and contextual/grouped kanji readings. Exactly the existing seven selectable directions; other four unannotated. 510 guides per selected direction; separate modules keyed by original IDs.
 - **Acceptance:** Full coverage/binding validation, exact original translations/recordings preserved, no grading from speakers, 500ms transition and zero-saves unchanged; small/mobile/dark/keyboard checks. See [reading-guide modules](READING_GUIDES.md), feature PR and current checkpoint for actual local/source/Drive/public status. Fluent human review and actual physical devices remain separate checks.
 

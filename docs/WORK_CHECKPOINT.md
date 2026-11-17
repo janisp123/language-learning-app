@@ -1,6 +1,6 @@
 # Current working checkpoint
 
-As of 2026-11-17. **Reading guides 0.4.12 implemented and locally verified; source PR/review delivery are the next step. Not merged or publicly deployed.** Isolated branch feat/source-language-reading-guides starts from main `84fa250db49e50e6348f52daf77c6901e350d048` (presentation PR #20 is merged; its main CI44173722771 and Pages44173722829 passed). Public application remains 0.4.11 until an authorized feature merge/publication.
+As of 2026-11-17. **Reading guides 0.4.12 implemented, verified, pushed on PR #21 and delivered through the stable Drive review file with exact downloaded readback. Not merged or publicly deployed.** Isolated branch feat/source-language-reading-guides starts from main `84fa250db49e50e6348f52daf77c6901e350d048` (presentation PR #20 is merged; its main CI44173722771 and Pages44173722829 passed). Public application remains 0.4.11 until an authorized feature merge/publication.
 
 Owner-approved L-010 covers only lv-ru (Latvian letters), ru-en (Cyrillic) and en-ja (romaji per kana, with small-kana roles and contextual/grouped kanji). All 510 items per selected direction are in 153 ten-item files. Other four directions stay plain; all seven are available. New loader validates exact target text/IDs/coverage/scripts/segments and kana separation. Rendering stays inside existing answer buttons; speaker/audio/engine and original text remain unchanged. Japanese small-kana combinations, doubling and length marks are visible on touch, not only tooltips. Button names retain target text and reading descriptions have language tags.
 
@@ -8,4 +8,6 @@ Owner-approved L-010 covers only lv-ru (Latvian letters), ru-en (Cyrillic) and e
 
 Prior checkpoint is in history/WORK_CHECKPOINT-before-reading-guides.md. Old documentation PRs #11/#13/#16/#19 hold historical deployment receipts; preserve them without overwriting this state. Android remains unimplemented. No unrelated task or repository changed.
 
-Next: push checked source PR, inspect CI, then synchronize the existing stable Drive review file with exact downloaded readback. Merge/publication remains a separate owner authorization.
+Source `162e2acfb0a7ca98751f8f5ef8a1d35a6f0c7382` is pushed in [PR #21](https://github.com/janisp123/language-learning-app/pull/21). CI44182744942 passed. Stable Drive file `1594pGCAm3E7hOq0-oSwLFh8z4WtRI3vd` was replaced only after source push, then downloaded byte-identical: 21558493 bytes; SHA-256 `d3f3b5cab491f997647844fe69f34b9a72fb625087f67e75b74da7fefcc0f5c6`. File ID, name, review folder and sharing preserved. Receipt: delivery/2026-11-17-reading-guides-drive-sync.json. Independent final review has no remaining blockers; human pronunciation/device/full-screen-reader checks remain pending.
+
+Next: owner review of the delivered build and authorization to integrate/publish checked PR #21; after any authorized publication, verify hosted equality and live guides. Preserve historical receipts and distinct source/Drive/public statuses.
