@@ -39,7 +39,7 @@ def load_content(root: Path):
     require(contract.get('schemaVersion') == 1 and isinstance(contract.get('staticKeys'), list) and contract['staticKeys'] and isinstance(contract.get('messages'), dict) and contract['messages'], 'invalid UI application contract')
     required_static = set(contract['staticKeys'])
     required_messages = set(contract['messages'])
-    require(catalog.get('schemaVersion') == 1, 'unsupported catalog schema')
+    require(catalog.get('schemaVersion') in (1, 2), 'unsupported catalog schema')
     for key in ['id', 'contentVersion', 'agePath', 'reviewStatus']:
         require(text(catalog.get(key)), f'catalog requires {key}')
     language_refs = catalog.get('languages')
@@ -53,6 +53,16 @@ def load_content(root: Path):
     direction = catalog.get('defaultDirection', '')
     pair = direction.split('-') if isinstance(direction, str) else []
     require(len(pair) == 2 and pair[0] != pair[1] and all(code in languages for code in pair), 'invalid default direction')
+
+    directions = catalog.get('directions')
+    if catalog['schemaVersion'] == 1 and directions is None:
+        # Historical archive compatibility; current schema requires an explicit allowlist.
+        directions = [a+'-'+b for a in languages for b in languages if a != b]
+    require(isinstance(directions, list) and directions, 'directions are required')
+    require(all(isinstance(d, str) and d.count('-') == 1 and d.split('-')[0] != d.split('-')[1] and all(code in languages for code in d.split('-')) for d in directions), 'invalid allowed direction')
+    require(len(set(directions)) == len(directions), 'duplicate allowed direction')
+    require(direction in directions, 'default direction is not allowed')
+    interface_languages = {d.split('-')[0] for d in directions}
 
     definitions = read_module(content, catalog.get('conceptsFile'))
     require(definitions.get('schemaVersion') == 1 and isinstance(definitions.get('concepts'), list) and definitions['concepts'], 'invalid concept registry')
@@ -103,6 +113,8 @@ def load_content(root: Path):
             require(item.get('meaning') == meaning, f'{code}/{concept_id}: meaning differs from canonical concept; review translation')
             require(text(item.get('text')), f'{code}/{concept_id}: translation is empty')
             translations[code][concept_id] = item['text']
+        if code not in interface_languages:
+            continue
         ui = module.get('ui')
         require(isinstance(ui, dict), f'{code}: missing UI pack')
         for group in ['static', 'messages', 'lessons']:
@@ -119,7 +131,7 @@ def load_content(root: Path):
             require(isinstance(name, dict) and text(name.get('label')) and text(name.get('target')), f'{code}/{language}: invalid language names')
         locales[code] = ui
 
-    first_ui = locales[languages[0]]
+    first_ui = locales[direction.split('-')[0]]
     for code, ui in locales.items():
         for group in ['static', 'messages', 'lessons']:
             require(set(ui[group]) == set(first_ui[group]), f'{code}: UI {group} keys differ')
@@ -148,6 +160,6 @@ def load_content(root: Path):
                 require(len(value.split()) <= maximum and not re.search(r'[.!?]', value), f'{code}/{concept_id}: vocabulary items must stay short, without sentence punctuation')
 
     course = {**{key: catalog[key] for key in ['id', 'contentVersion', 'agePath', 'reviewStatus']},
-              'schemaVersion': 2, 'defaultDirection': direction, 'languages': languages,
+              'schemaVersion': 2, 'defaultDirection': direction, 'languages': languages, 'directions': directions,
               'phrases': [{'id': key, **{code: translations[code][key] for code in languages}} for key in meanings], 'lessons': blocks}
     return course, locales

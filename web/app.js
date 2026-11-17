@@ -40,7 +40,7 @@
       if (loadFailed) $('error').textContent = t('error');
     });
     course = E.validateCourse(JSON.parse($('course-data').textContent));
-    for (const locale of course.languages) for (const lesson of course.lessons) {
+    for (const locale of new Set(course.directions.map(direction => direction.split('-')[0]))) for (const lesson of course.lessons) {
       if (!locales[locale].lessons[lesson.id]) throw new Error('Missing lesson translation.');
     }
     localize();

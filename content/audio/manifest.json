@@ -1,13 +1,14 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.5.0-test",
+  "contentVersion": "0.6.0-test",
   "directions": [
     "lv-ru",
     "lv-en",
     "ru-lv",
     "ru-en",
     "en-lv",
-    "en-ru"
+    "en-ru",
+    "en-ja"
   ],
   "provenance": {
     "source": "Language-specific bundled synthetic speech; see sources",

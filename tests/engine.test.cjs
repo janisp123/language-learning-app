@@ -7,7 +7,7 @@ const enginePath = path.join(__dirname, '../core/engine.js');
 test('learning engine implementation exists', () => assert.ok(fs.existsSync(enginePath), 'engine is not implemented'));
 const E = fs.existsSync(enginePath) ? require(enginePath) : null;
 const fixture = {
-  schemaVersion: 2, contentVersion: 'test', id: 'test-course', languages: ['lv','ru'], agePath: '10-17',
+  schemaVersion: 2, contentVersion: 'test', id: 'test-course', languages: ['lv','ru'], directions:['lv-ru','ru-lv'], agePath: '10-17',
   phrases: Array.from({length: 10}, (_, i) => ({id:`p${i}`, lv:`LV ${i}`, ru:`RU ${i}`})),
   lessons: Array.from({length: 10}, (_, l) => ({id:`lesson-${l}`, title:`Lesson ${l}`, prompts:Array.from({length:10},(_, i)=>({id:`l${l}-q${i}`,phraseId:`p${i}`,correctAnswerId:`p${i}`,distractorIds:[`p${(i+1)%10}`,`p${(i+3)%10}`,`p${(i+5)%10}`]}))}))
 };
@@ -107,7 +107,7 @@ if (E) {
     const c=structuredClone(fixture);c.lessons[0].prompts.pop();assert.throws(()=>E.validateCourse(c));
   });
   test('additional blocks and languages work without engine changes',()=>{
-    const c=structuredClone(fixture);c.languages.push('zz');for(const p of c.phrases)p.zz='ZZ '+p.lv;
+    const c=structuredClone(fixture);c.languages.push('zz');c.directions.push('zz-lv');for(const p of c.phrases)p.zz='ZZ '+p.lv;
     const extra=structuredClone(c.lessons[0]);extra.id='extra';extra.prompts.forEach((p,i)=>p.id=`extra-q${i}`);c.lessons.push(extra);
     let s=E.start(c,'zz-lv');for(let i=0;i<110;i++){const q=E.question(c,s,()=>0.3);s=E.answer(c,s,q,q.correctId).state;}
     assert.equal(s.phase,'complete');assert.equal(s.lessonIndex,10);

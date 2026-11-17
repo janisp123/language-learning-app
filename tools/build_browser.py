@@ -22,16 +22,13 @@ def build(root: Path, output: Path) -> Path:
     html = html.replace('<!--TITLE-->', escape(default_ui['messages']['pageTitle']))
     html = html.replace('<!--DEFAULT-LANGUAGE-->', default_source)
     options = []
-    for source in course['languages']:
-        for target in course['languages']:
-            if source == target:
-                continue
-            direction = source + '-' + target
-            selected = ' selected' if direction == course['defaultDirection'] else ''
-            label = default_ui['names'][source]['label'] + ' → ' + default_ui['names'][target]['label']
-            options.append(f'<option id="direction-{direction}" value="{direction}"{selected}>{escape(label)}</option>')
+    for direction in course['directions']:
+        source, target = direction.split('-')
+        selected = ' selected' if direction == course['defaultDirection'] else ''
+        label = default_ui['names'][source]['label'] + ' → ' + default_ui['names'][target]['label']
+        options.append(f'<option id="direction-{direction}" value="{direction}"{selected}>{escape(label)}</option>')
     html = html.replace('<!--DIRECTIONS-->', ''.join(options))
-    noscript = ''.join(f'<p class="error" lang="{code}">{escape(locales[code]["messages"]["noscript"])}</p>' for code in course['languages'])
+    noscript = ''.join(f'<p class="error" lang="{code}">{escape(locales[code]["messages"]["noscript"])}</p>' for code in locales)
     html = html.replace('<!--NOSCRIPT-->', noscript)
     ui_data = json.dumps(locales, ensure_ascii=False, separators=(',', ':')).replace('<', '\\u003c').replace('>', '\\u003e').replace('&', '\\u0026')
     html = html.replace('<!--UI-->', ui_data)

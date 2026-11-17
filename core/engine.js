@@ -5,11 +5,12 @@
   else root.LanguageEngine = api;
 })(typeof globalThis !== 'undefined' ? globalThis : this, function () {
   'use strict';
-  const validDirection = (course, direction) => {
+  const validPair = (course, direction) => {
     if (typeof direction !== 'string') return false;
     const parts = direction.split('-');
     return parts.length === 2 && parts[0] !== parts[1] && parts.every(language => course.languages.includes(language));
   };
+  const validDirection = (course, direction) => validPair(course, direction) && Array.isArray(course.directions) && course.directions.includes(direction);
   const fail = message => { throw new Error(message); };
   const text = value => typeof value === 'string' && value.trim().length > 0;
   const normalized = value => value.normalize('NFC').trim().toLocaleLowerCase();
@@ -17,6 +18,7 @@
   function validateCourse(course) {
     if (!course || course.schemaVersion !== 2 || !text(course.id) || !text(course.contentVersion) || course.agePath !== '10-17') fail('Unsupported course format.');
     if (!Array.isArray(course.languages) || course.languages.length < 2 || new Set(course.languages).size !== course.languages.length || course.languages.some(language => typeof language !== 'string' || !/^[a-z]{2,3}$/.test(language))) fail('Unsupported or duplicate course languages.');
+    if (!Array.isArray(course.directions) || !course.directions.length || course.directions.some(d => !validPair(course, d)) || new Set(course.directions).size !== course.directions.length || (course.defaultDirection !== undefined && !validDirection(course, course.defaultDirection))) fail('Invalid allowed translation directions.');
     if (!Array.isArray(course.phrases) || !Array.isArray(course.lessons) || !course.lessons.length) fail('Expected blocks and a phrase bank.');
     const bank = new Map();
     for (const phrase of course.phrases) {

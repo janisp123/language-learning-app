@@ -78,9 +78,16 @@ For each task: check `AGENTS.md` and `WORK_CHECKPOINT.md`, verify whether alread
 - **Goal:** Explain suitable license choices for code and learning content; ask owner to select; only then add files and update public descriptions.
 - **Acceptance:** Public description accurately matches the adopted license(s); no assumption that a public repository is freely reusable.
 
+### L-009 — English → Japanese only
+- **Status:** IMPLEMENTED / LOCAL VERIFICATION COMPLETE — isolated feat/english-to-japanese branch, review build 0.4.7; source push/PR and Drive readback pending
+- **Added by:** Codex (explicit owner request, 2026-11-17)
+- **Implemented by:** Codex (verified locally; integration pending)
+- **Goal:** Add English → Japanese for the same 510 meanings, script-only answers (owner choice), English UI and existing English current-prompt audio. Exactly seven directions; preserve all original six directions and content/audio/bindings. No Japanese reverse or LV/RU pairings, accounts, tracking or saved preferences.
+- **Verification:** 41 Node / 28 Python tests pass, including explicit allowlists, forbidden/forged session directions, full seven-direction completion, source-only UI/audio and target-first catalog order. Chromium traversed all 510 en-ja prompts at 320 px with English audio bindings, autoplay/cancellation, unchanged 499/500 ms timing, empty storage/cookies and reload reset. All 1,530 old clip hashes and all 510 old translations in each language unchanged. Independent code/content review issues resolved. Fluent human Japanese review, physical devices and full screen-reader audit remain pending.
+
 ## Out of scope for v1 (not backlog tasks)
 
-Languages beyond the approved Latvian/Russian/English set, 5–9 and 18+ paths, user accounts, cloud sync, servers, leaderboards, monetization, AI tutors, advanced pronunciation scoring, Apple App Store. These need an explicit new owner decision, not automatic addition.
+Languages/directions beyond the approved Latvian/Russian/English set and English → Japanese, 5–9 and 18+ paths, user accounts, cloud sync, servers, leaderboards, monetization, AI tutors, advanced pronunciation scoring, Apple App Store. These need an explicit new owner decision, not automatic addition.
 
 ## Coordination with the questionnaire project
 

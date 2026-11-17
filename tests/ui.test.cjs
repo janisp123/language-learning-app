@@ -53,7 +53,7 @@ function mount(data=course,bundle=null,initialDirection='lv-ru'){
 function choose($,id){const button=$('choices').children.find(b=>b.dataset.optionId===id);assert.ok(button);button.click();}
 test('standalone prompt speaker uses the current source clip without answering or changing grading',()=>{
   const pack=JSON.parse(builtHtml.match(/id="audio-data">([\s\S]*?)<\/script>/)[1]);
-  for(const direction of ['lv-ru','ru-lv','lv-en','en-lv','ru-en','en-ru']){
+  for(const direction of course.directions){
     const [source,target]=direction.split('-');const $=mount(undefined,builtHtml,direction);$('start').click();
     const first=course.lessons[0].prompts[0].phraseId;const second=course.lessons[0].prompts[1].phraseId;
     assert.ok($('question-replay'),'speaker control missing beside the prompt');
@@ -77,12 +77,12 @@ test('standalone prompt speaker uses the current source clip without answering o
     $('change').click();assert.equal($('audio-media').paused,true);assert.equal($('question-replay').hidden,true);
   }
 });
-test('standalone speaker covers every question in all six directions with correct source binding',()=>{
+test('standalone speaker covers every question in all allowed directions with correct source binding',()=>{
   const html=fs.readFileSync(path.join(root,'downloads/language-learning-test.html'),'utf8');
   const pack=JSON.parse(html.match(/id="audio-data">([\s\S]*?)<\/script>/)[1]);
   const bank=new Map(course.phrases.map(p=>[p.id,p]));
-  for(const source of course.languages)for(const target of course.languages){
-    if(source===target)continue;
+  for(const direction of course.directions){
+    const [source,target]=direction.split('-');
     const $=mount(undefined,html,source+'-'+target);$('start').click();let count=0;
     for(const lesson of course.lessons)for(const prompt of lesson.prompts){
       assert.equal($('question').textContent,bank.get(prompt.phraseId)[source]);
@@ -197,8 +197,8 @@ test('wrong on question seven returns to question six of the same block, retaini
   assert.equal($('progress').value,0);assert.equal($('mistakes').textContent,'Kļūdas šajā blokā: 1 no 3');
   assert.match($('feedback').textContent,/Atgriežamies vienu jautājumu atpakaļ/);
 });
-test('six learning directions use the right source-language UI and target-language choices',()=>{
-  for(const direction of ['lv-ru','ru-lv','lv-en','en-lv','ru-en','en-ru']){
+test('all allowed learning directions use the right source-language UI and target-language choices',()=>{
+  for(const direction of course.directions){
     const $=mount();$('direction').value=direction;$('direction').handlers.change();
     const [source,target]=direction.split('-');
     assert.equal($.language(),source);$('start').click();assert.equal($('error').hidden,true);

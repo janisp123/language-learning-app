@@ -90,3 +90,10 @@ The owner requested data-only extension with existing questions/answers preserve
 ## Still requiring a deliberate technical decision
 
 The smallest appropriate cross-platform runtime (e.g. common core with wrappers vs portable web implementation with Android integration) and pronunciation delivery must be chosen in L-001. Do not assume a feature/hosting technique is approved merely because it appeared in an earlier brainstorming reply.
+
+
+## Owner-authorized English → Japanese addition (2026-11-17)
+
+The active catalog schema 2 lists exactly seven allowed directions: lv-ru, lv-en, ru-lv, ru-en, en-lv, en-ru, en-ja. Runtime schema 2 requires an explicit validated direction list and rejects missing/malformed lists and forbidden session directions. Legacy catalog schema 1 remains readable for the archived original course; its historical pairs compile to an explicit list.
+
+Japanese is a target-only translation module for the existing 510 concept IDs; answers use Japanese script only. It has no source UI or Japanese-source learning direction. Source language determines interface and current-prompt audio, so en-ja uses the English interface and existing English recordings. No Japanese audio, new prompt IDs, progress storage, accounts or tracking are introduced. All six original directions and their canonical translations/bindings/recordings remain preserved.

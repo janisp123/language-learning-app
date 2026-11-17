@@ -8,7 +8,7 @@ if(fs.existsSync(file)){
   const {locales:packs,course}=require('./runtime.cjs');
   const html=fs.readFileSync(path.join(__dirname,'../web/index.html'),'utf8');
   test('all registered interface packs cover controls, messages, names and block titles',()=>{
-    assert.deepEqual(Object.keys(packs).sort(),[...course.languages].sort());
+    assert.deepEqual(Object.keys(packs).sort(),[...new Set(course.directions.map(d=>d.split('-')[0]))].sort());
     for(const group of ['static','messages','lessons']){
       assert.deepEqual(Object.keys(packs.lv[group]).sort(),Object.keys(packs.ru[group]).sort());
       assert.deepEqual(Object.keys(packs.lv[group]).sort(),Object.keys(packs.en[group]).sort());
