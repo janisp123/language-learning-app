@@ -54,3 +54,8 @@ Default Drive distribution: `Git_dump/language-learning-app`, folder ID `1U6ewdA
 
 
 English → Japanese uses the existing 510 English prompt recordings. Japanese is a target-only answer language; no Japanese recordings or network synthesis are required for current-prompt playback. Audio directions must be allowed by the course. All 1,530 existing clip records and bytes are preserved.
+
+
+## Answer speakers (0.4.8)
+
+Each choice is a row containing separate answer and speaker buttons. The speaker binds the option ID, exact target text and target language to an existing bundled clip; it never calls the grading engine. `LanguageAudioView.option(shown, answer, button)` guards stale presentation references and locked controls. Prompt and answer replay use one player, canceling any prior clip. New prompts/reset/completion invalidate old controls and errors. Current-prompt autoplay and 500 ms answer timing remain intact. All four answer speakers work for existing LV/RU/EN audio; Japanese has no bundled clips, so its answer speakers are explicitly labeled unavailable/disabled while answer selection remains available.

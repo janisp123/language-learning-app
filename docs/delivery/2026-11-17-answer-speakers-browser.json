@@ -1,0 +1,66 @@
+{
+  "buildVersion": "0.4.8",
+  "browser": "Chromium",
+  "directions": [
+    {
+      "direction": "lv-ru",
+      "fourClipsDecoded": true,
+      "targetBindingsVerified": true,
+      "noGradingOrShuffle": true,
+      "keyboardReplay": true,
+      "timingAndCancellation": true
+    },
+    {
+      "direction": "lv-en",
+      "fourClipsDecoded": true,
+      "targetBindingsVerified": true,
+      "noGradingOrShuffle": true,
+      "keyboardReplay": true,
+      "timingAndCancellation": true
+    },
+    {
+      "direction": "ru-lv",
+      "fourClipsDecoded": true,
+      "targetBindingsVerified": true,
+      "noGradingOrShuffle": true,
+      "keyboardReplay": true,
+      "timingAndCancellation": true
+    },
+    {
+      "direction": "ru-en",
+      "fourClipsDecoded": true,
+      "targetBindingsVerified": true,
+      "noGradingOrShuffle": true,
+      "keyboardReplay": true,
+      "timingAndCancellation": true
+    },
+    {
+      "direction": "en-lv",
+      "fourClipsDecoded": true,
+      "targetBindingsVerified": true,
+      "noGradingOrShuffle": true,
+      "keyboardReplay": true,
+      "timingAndCancellation": true
+    },
+    {
+      "direction": "en-ru",
+      "fourClipsDecoded": true,
+      "targetBindingsVerified": true,
+      "noGradingOrShuffle": true,
+      "keyboardReplay": true,
+      "timingAndCancellation": true
+    }
+  ],
+  "japaneseUnavailableSpeakersAndSelectableAnswers": true,
+  "layoutWidths": [
+    320,
+    1200
+  ],
+  "horizontalOverflow": false,
+  "pageErrors": [],
+  "notRun": [
+    "physical devices",
+    "full screen-reader audit",
+    "fluent human pronunciation review"
+  ]
+}

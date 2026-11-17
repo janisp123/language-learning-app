@@ -50,7 +50,8 @@ function mount(data=course,bundle=null,initialDirection='lv-ru'){
   $.title=()=>document.title;
   return $;
 }
-function choose($,id){const button=$('choices').children.find(b=>b.dataset.optionId===id);assert.ok(button);button.click();}
+function answerButtons($){return $('choices').children.map(row=>row.children[0]);}
+function choose($,id){const button=answerButtons($).find(b=>b.dataset.optionId===id);assert.ok(button);button.click();}
 test('standalone prompt speaker uses the current source clip without answering or changing grading',()=>{
   const pack=JSON.parse(builtHtml.match(/id="audio-data">([\s\S]*?)<\/script>/)[1]);
   for(const direction of course.directions){
@@ -60,15 +61,15 @@ test('standalone prompt speaker uses the current source clip without answering o
     assert.equal($('question-replay').hidden,false);assert.ok($('question-replay')['aria-label'].includes(course.phrases[0][source]));
     assert.equal($('audio-replay'),undefined,'previous-answer replay must not be present');
     assert.equal($('audio-panel'),undefined,'previous-answer section must not be present');
-    const choices=$('choices').children.map(b=>b.dataset.optionId);
+    const choices=answerButtons($).map(b=>b.dataset.optionId);
     $('question-replay').click();$('question-replay').click();
     assert.equal($('audio-media').src,pack.clips[source][first].src);assert.equal($('audio-media').playCount,3);
     $.tick(1000);assert.equal($('progress').value,0);assert.equal($('feedback').textContent,'');
-    assert.ok($('choices').children.every(b=>!b.disabled));assert.deepEqual($('choices').children.map(b=>b.dataset.optionId),choices);
+    assert.ok(answerButtons($).every(b=>!b.disabled));assert.deepEqual(answerButtons($).map(b=>b.dataset.optionId),choices);
     choose($,first);assert.equal($('audio-media').playCount,3,'answering must not play an answer clip');$.tick(500);
     assert.equal($('audio-media').playCount,4,'advancing autoplays the new prompt');
     $('question-replay').click();assert.equal($('audio-media').src,pack.clips[source][second].src);assert.equal($('progress').value,1);
-    const wrong=$('choices').children.find(b=>b.dataset.optionId!==second);wrong.click();
+    const wrong=answerButtons($).find(b=>b.dataset.optionId!==second);wrong.click();
     assert.equal($('audio-media').playCount,5,'answer feedback never starts target audio');
     $.tick(499);assert.equal($('audio-media').playCount,5);
     $.tick(1);assert.equal($('audio-media').playCount,6);assert.equal($('audio-media').src,pack.clips[source][first].src);
@@ -95,21 +96,21 @@ test('standalone speaker covers every question in all allowed directions with co
     assert.equal(count,course.phrases.length);assert.equal($('finished').hidden,false);assert.equal($('audio-media').paused,true);
     $('again').click();assert.equal($('audio-media').paused,false);
     const prompt=course.lessons[0].prompts[0];
-    choose($,$('choices').children.find(b=>b.dataset.optionId!==prompt.phraseId).dataset.optionId);
+    choose($,answerButtons($).find(b=>b.dataset.optionId!==prompt.phraseId).dataset.optionId);
     assert.equal($('audio-media').playCount,course.phrases.length+1,'wrong answers must not play a target clip');
   }
 });
 test('answer locks immediately, advances only at 500ms, then wrong steps back automatically',()=>{
   const $=mount();assert.equal($('setup').hidden,false);assert.equal($('error').hidden,true);
   assert.equal($('lesson-list').children.length,course.lessons.length);
-  $('start').click();assert.equal($('practice').hidden,false);assert.equal($('choices').children.length,4);
+  $('start').click();assert.equal($('practice').hidden,false);assert.equal(answerButtons($).length,4);
   assert.equal($('question').lang,'lv');
   choose($,course.lessons[0].prompts[0].phraseId);
-  assert.match($('feedback').textContent,/Pareizi/);assert.ok($('choices').children.every(b=>b.disabled));
+  assert.match($('feedback').textContent,/Pareizi/);assert.ok(answerButtons($).every(b=>b.disabled));
   choose($,course.lessons[0].prompts[0].phraseId);
   $.tick(499);assert.equal($('progress').value,0);assert.equal($('question').textContent,course.phrases[0].lv);
   $.tick(1);assert.equal($('progress').value,1);assert.equal($('next'),undefined);
-  const wrong=$('choices').children.find(b=>b.dataset.optionId!==course.lessons[0].prompts[1].phraseId);
+  const wrong=answerButtons($).find(b=>b.dataset.optionId!==course.lessons[0].prompts[1].phraseId);
   wrong.click();wrong.click();assert.match($('feedback').textContent,/Nav pareizi/);
   $.tick(500);assert.equal($('progress').value,0);assert.equal($('question').textContent,course.phrases[0].lv);
   assert.match($('feedback').textContent,/Nav pareizi/);
@@ -126,8 +127,8 @@ test('all interface text follows source language on direction selection, practic
   assert.equal($.title(),locales.ru.messages.pageTitle);assert.equal($('lesson-list').children[0].textContent,locales.ru.lessons[course.lessons[0].id]);
   $('start').click();assert.equal($('lesson-title').textContent,locales.ru.lessons[course.lessons[0].id]);
   assert.equal($('instruction').textContent,'Выберите перевод на латышский язык');
-  assert.equal($('question').lang,'ru');assert.ok($('choices').children.every(b=>b.lang==='lv'));
-  const wrong=$('choices').children.find(b=>b.dataset.optionId!==course.lessons[0].prompts[0].phraseId);wrong.click();
+  assert.equal($('question').lang,'ru');assert.ok(answerButtons($).every(b=>b.lang==='lv'));
+  const wrong=answerButtons($).find(b=>b.dataset.optionId!==course.lessons[0].prompts[0].phraseId);wrong.click();
   assert.match($('feedback').textContent,/Неверно/);assert.equal($('feedback').children[0].lang,'lv');$.tick(500);
   $('restart').click();
   for(const lesson of course.lessons)for(const prompt of lesson.prompts){choose($,prompt.phraseId);$.tick(500);}
@@ -174,7 +175,7 @@ test('third wrong answer shows restart feedback and returns to lesson one after 
   for(const prompt of course.lessons[0].prompts){choose($,prompt.phraseId);$.tick(500);}
   assert.match($('lesson-label').textContent,new RegExp(`Nodarbība 2 no ${course.lessons.length}`));
   for(let miss=1;miss<=3;miss++){
-    const wrong=$('choices').children.find(b=>b.dataset.optionId!==course.lessons[1].prompts[0].phraseId);
+    const wrong=answerButtons($).find(b=>b.dataset.optionId!==course.lessons[1].prompts[0].phraseId);
     wrong.click();$.tick(499);assert.match($('lesson-label').textContent,new RegExp(`Nodarbība 2 no ${course.lessons.length}`));
     if(miss===3)assert.match($('feedback').textContent,/Trešā kļūda/);
     $.tick(1);
@@ -190,7 +191,7 @@ test('wrong on question seven returns to question six of the same block, retaini
   const phrase=id=>course.phrases.find(p=>p.id===id).lv;
   const middle=course.lessons[1].prompts[6];
   assert.equal($('question').textContent,phrase(middle.phraseId));
-  const wrong=$('choices').children.find(b=>b.dataset.optionId!==middle.phraseId);wrong.click();
+  const wrong=answerButtons($).find(b=>b.dataset.optionId!==middle.phraseId);wrong.click();
   $.tick(499);assert.equal($('question').textContent,phrase(middle.phraseId));
   $.tick(1);assert.match($('lesson-label').textContent,new RegExp(`Nodarbība 2 no ${course.lessons.length}`));
   assert.equal($('question').textContent,phrase(course.lessons[1].prompts[5].phraseId));
@@ -203,11 +204,40 @@ test('all allowed learning directions use the right source-language UI and targe
     const [source,target]=direction.split('-');
     assert.equal($.language(),source);$('start').click();assert.equal($('error').hidden,true);
     assert.equal($('question').lang,source);assert.equal($('question').textContent,course.phrases[0][source]);
-    assert.ok($('choices').children.every(b=>b.lang===target));
-    const correct=$('choices').children.find(b=>b.dataset.optionId===course.phrases[0].id);
+    assert.ok(answerButtons($).every(b=>b.lang===target));
+    const correct=answerButtons($).find(b=>b.dataset.optionId===course.phrases[0].id);
     assert.equal(correct.textContent,course.phrases[0][target]);
     if(source==='en'){assert.equal($('restart').textContent,'Restart from lesson 1');assert.equal($('lesson-title').textContent,locales.en.lessons[course.lessons[0].id]);}
-    const wrong=$('choices').children.find(b=>b.dataset.optionId!==course.phrases[0].id);wrong.click();$.tick(500);
+    const wrong=answerButtons($).find(b=>b.dataset.optionId!==course.phrases[0].id);wrong.click();$.tick(500);
     assert.equal($('progress').value,0);
   }
+});
+
+test('each answer speaker replays target pronunciation without grading, shuffling or navigating',()=>{
+ const pack=JSON.parse(builtHtml.match(/id="audio-data">([\s\S]*?)<\/script>/)[1]);
+ for(const direction of ['lv-ru','lv-en','ru-lv','ru-en','en-lv','en-ru']){
+  const $=mount(undefined,builtHtml,direction);$('start').click();
+  const rows=$('choices').children;assert.equal(rows.length,4);
+  const ids=answerButtons($).map(b=>b.dataset.optionId);const [source,target]=direction.split('-');
+  for(const row of rows){
+   assert.equal(row.children.length,2,'answer text and speaker must be separate buttons');
+   const [answer,speaker]=row.children;assert.equal(speaker.className,'answer-replay');assert.equal(speaker.disabled,false);
+   for(let repeat=0;repeat<2;repeat++)speaker.click();
+   assert.equal($('audio-media').src,pack.clips[target][answer.dataset.optionId].src);
+   assert.ok(speaker['aria-label'].includes(answer.textContent));
+   assert.equal($('feedback').textContent,'');assert.equal($('progress').value,0);
+   assert.deepEqual(answerButtons($).map(b=>b.dataset.optionId),ids);
+  }
+  const before=$('audio-media').playCount;$.tick(1000);assert.equal($('audio-media').playCount,before);
+  choose($,course.lessons[0].prompts[0].phraseId);assert.ok(rows.every(row=>row.children.every(b=>b.disabled)));
+  $.tick(499);assert.equal($('progress').value,0);$.tick(1);assert.equal($('progress').value,1);
+  assert.equal($('audio-media').src,pack.clips[source][course.lessons[0].prompts[1].phraseId].src);
+  rows[0].children[1].handlers.click();assert.equal($('audio-media').src,pack.clips[source][course.lessons[0].prompts[1].phraseId].src,'stale speakers cannot play old answers');
+  const current=$('choices').children[0].children[1];$('change').click();current.handlers.click();assert.equal($('audio-media').paused,true);
+ }
+});
+test('Japanese answer speakers clearly mark missing recordings without changing answers',()=>{
+ const $=mount(undefined,builtHtml,'en-ja');$('start').click();
+ assert.equal($('choices').children.length,4);
+ for(const row of $('choices').children){assert.equal(row.children.length,2);assert.equal(row.children[1].disabled,true);assert.ok(row.children[1]['aria-label']);assert.equal(row.children[0].disabled,false);}
 });
