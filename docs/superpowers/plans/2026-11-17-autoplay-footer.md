@@ -14,8 +14,8 @@
 - Review delivery only; no merge/public deployment.
 
 ## Tasks
-- [ ] Add failing autoplay, blocked-playback/replay and stale-error regressions in tests/audio-view.test.cjs; adjust standalone UI expectations and exercise wrong returns/restarts.
-- [ ] Observe missing-autoplay failures, then minimally update web/audio-view.js. Update web/index.html and docs/discovery-preview/index.html footer; bump package.json review version to 0.4.6.
-- [ ] Rebuild canonical download; run full Node/Python suites and Chromium flow/media checks where available. Verify original locks/audio unchanged and source/site/download parity.
-- [ ] Update TD/checkpoint/changelog, commit and push isolated branch, open checked PR. Replace stable Drive review file only after verified source push; download back and compare exact bytes. Record delivery evidence and push receipt.
+- [x] Add failing autoplay, blocked-playback/replay and stale-error regressions in tests/audio-view.test.cjs; adjust standalone UI expectations and exercise wrong returns/restarts.
+- [x] Observe missing-autoplay failures, then minimally update web/audio-view.js. Update web/index.html and docs/discovery-preview/index.html footer; bump package.json review version to 0.4.6.
+- [x] Rebuild canonical download; run full Node/Python suites and Chromium flow/media checks where available. Verify original locks/audio unchanged and source/site/download parity.
+- [x] Update TD/checkpoint/changelog, commit and push isolated branch, open checked PR. Replace stable Drive review file only after verified source push; download back and compare exact bytes. Record delivery evidence and push receipt.
 - [ ] Only then start a separate English→Japanese slice, resolving reading preference and explicitly allowing seven directions.

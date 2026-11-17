@@ -1,6 +1,6 @@
 # Current working checkpoint
 
-As of 2026-11-17. **PARTIAL: autoplay/footer slice 0.4.6 implemented and locally verified; source push and Drive replacement pending.** Branch feat/current-prompt-autoplay-footer is isolated from PR #7 at 51878efa1b53c6437230f471867a0db469c51c88. Main rechecked at 85e4dc400fe58075df806cf5d03d3c757a9f49bf (0.4.3); PR #7 remains open, as do #3 and #4. Latest PR #7 CI 44082613311 succeeded. Last Pages workflow 44053240327 failed; no new public deployment verified or attempted.
+As of 2026-11-17. **DONE: autoplay/footer slice 0.4.6 implemented, verified, pushed on PR #8 and delivered through Drive. Integration pending; no public deployment.** Branch feat/current-prompt-autoplay-footer is isolated from PR #7 at 51878efa1b53c6437230f471867a0db469c51c88. Main rechecked at 85e4dc400fe58075df806cf5d03d3c757a9f49bf (0.4.3); PR #7 remains open, as do #3 and #4. Latest PR #7 CI 44082613311 succeeded. Last Pages workflow 44053240327 failed; no new public deployment verified or attempted.
 
 ## Implemented and verified
 
@@ -10,6 +10,6 @@ L-004: each displayed current-source prompt automatically attempts playback once
 
 ## Delivery and remaining work
 
-Stable Drive HTML 1594pGCAm3E7hOq0-oSwLFh8z4WtRI3vd in folder 1U6ewdAD-HsthuchnzVOeWOSs4hmM-EAX still has prior verified 0.4.5, receipt delivery/2026-11-17-practical-core-drive-sync.json. Never replace until verified source is pushed; then download back and compare exact bytes. No merge/public app release authorized by this slice.
+Stable Drive HTML 1594pGCAm3E7hOq0-oSwLFh8z4WtRI3vd in folder 1U6ewdAD-HsthuchnzVOeWOSs4hmM-EAX now has 0.4.6. Source d59fabe7895b460d63bf42711ca930dc887cec5d was pushed before upload; downloaded bytes compare exactly. SHA-256 feef4b1c49c2847ea48d1449bcc7eb596306386789bef94dd02bdf473cd96cac. Receipt: delivery/2026-11-17-autoplay-footer-drive-sync.json; GitHub CI 44108161630 succeeded. No merge/public app release authorized by this slice.
 
-Next: push verified source/open PR, replace and read back stable Drive file, record receipt. Then implement English→Japanese separately. Owner selected Japanese script only (option 3), English UI, exactly seven directions; no reverse Japanese/LV/RU pairings. Preserve six existing directions and all original bindings/audio. Zero learner-state saves on every platform; session memory only, each reload/process begins lesson 1. Android is not implemented.
+Next: implement English→Japanese separately from delivered PR #8 head. Owner selected Japanese script only (option 3), English UI, exactly seven directions; no reverse Japanese/LV/RU pairings. Preserve six existing directions and all original bindings/audio. Zero learner-state saves on every platform; session memory only, each reload/process begins lesson 1. Android is not implemented.

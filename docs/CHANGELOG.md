@@ -49,3 +49,5 @@ Owner requested 500 basic words/short phrases and no sentences in the first ten 
 ## 2026-11-17 — 0.4.6 current-prompt autoplay and author footer (Codex)
 
 L-004, owner-requested slice on feat/current-prompt-autoplay-footer, based on PR #7 head 51878ef. Audio-view binding now attempts playback once per appearance through the existing cancellation/error path; no answer audio. Manual replay, scoring and 500 ms timing remain intact. Both public page footers include the exact author credit/profile link and retain project source links. No content IDs, translations, answer bindings, recordings or storage behavior changed. Verification: 38 Node and 23 Python tests; actual Chromium playback, advance/wrong return/restart/replay/cancellation and empty storage/reload reset in all six directions. See delivery/2026-11-17-autoplay-footer-browser.json. Physical devices, fluent pronunciation and full screen-reader review not run. No merge/public deployment.
+
+0.4.6 delivery verified: source d59fabe pushed on PR #8 before stable Drive upload; full downloaded bytes compare equal. GitHub CI 44108161630 passed. Receipt: delivery/2026-11-17-autoplay-footer-drive-sync.json.
