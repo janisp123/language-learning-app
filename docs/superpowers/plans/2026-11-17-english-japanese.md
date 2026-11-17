@@ -15,8 +15,8 @@
 - No accounts, tracking, preferences or storage. No merge/public deployment.
 
 ## Tasks
-- [ ] Add failing source/runtime tests for exact allowlist, absent/malformed directions, forbidden Japanese directions/forged state, full Japanese translations, English interface/audio and completion.
-- [ ] Implement validated directions through catalog/content_loader/core/build_browser/app/audio_loader. Keep legacy archive compilation and explicit synthetic modular-extension tests.
-- [ ] Add target-only Japanese translation module, Japanese language names in three source UI packs and en-ja manifest direction. No new audio files; coverage checks follow source language.
-- [ ] Build 0.4.7; run full Node/Python checks, all seven directions through completion, Chromium en-ja wrong/restart/audio/English UI/session reset, original hashes and public package parity. Obtain independent change/content review.
-- [ ] Update TD/checkpoint/changelog; push verified source/open separate PR, upload stable Drive only afterward, download and compare exact equality, record/push delivery receipt.
+- [x] Add failing source/runtime tests for exact allowlist, absent/malformed directions, forbidden Japanese directions/forged state, full Japanese translations, English interface/audio and completion.
+- [x] Implement validated directions through catalog/content_loader/core/build_browser/app/audio_loader. Keep legacy archive compilation and explicit synthetic modular-extension tests.
+- [x] Add target-only Japanese translation module, Japanese language names in three source UI packs and en-ja manifest direction. No new audio files; coverage checks follow source language.
+- [x] Build 0.4.7; run full Node/Python checks, all seven directions through completion, Chromium en-ja wrong/restart/audio/English UI/session reset, original hashes and public package parity. Obtain independent change/content review.
+- [x] Update TD/checkpoint/changelog; push verified source/open separate PR, upload stable Drive only afterward, download and compare exact equality, record/push delivery receipt.

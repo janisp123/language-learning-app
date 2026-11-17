@@ -79,7 +79,7 @@ For each task: check `AGENTS.md` and `WORK_CHECKPOINT.md`, verify whether alread
 - **Acceptance:** Public description accurately matches the adopted license(s); no assumption that a public repository is freely reusable.
 
 ### L-009 — English → Japanese only
-- **Status:** IMPLEMENTED / LOCAL VERIFICATION COMPLETE — isolated feat/english-to-japanese branch, review build 0.4.7; source push/PR and Drive readback pending
+- **Status:** IN REVIEW — implemented/verified/pushed on PR #9, source d9044cd; GitHub CI 44109924376 passed. Review build 0.4.7 delivered through stable Drive with exact downloaded-byte equality; receipt delivery/2026-11-17-english-japanese-drive-sync.json. Integration pending
 - **Added by:** Codex (explicit owner request, 2026-11-17)
 - **Implemented by:** Codex (verified locally; integration pending)
 - **Goal:** Add English → Japanese for the same 510 meanings, script-only answers (owner choice), English UI and existing English current-prompt audio. Exactly seven directions; preserve all original six directions and content/audio/bindings. No Japanese reverse or LV/RU pairings, accounts, tracking or saved preferences.

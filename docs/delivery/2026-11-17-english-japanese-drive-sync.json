@@ -1,0 +1,56 @@
+{
+  "buildVersion": "0.4.7",
+  "contentVersion": "0.6.0-test",
+  "sourceCommit": "d9044cd2b26ac3213c6ba6c5518619bcd4ddea63",
+  "sourceBranch": "feat/english-to-japanese",
+  "pullRequest": 9,
+  "dependsOnPullRequests": [
+    7,
+    8
+  ],
+  "driveFileId": "1594pGCAm3E7hOq0-oSwLFh8z4WtRI3vd",
+  "folderId": "1U6ewdAD-HsthuchnzVOeWOSs4hmM-EAX",
+  "sha256": "bbd877c5e9757453872d2fcacd752103731a3aa51d29e2e51460e1fe7234e6bf",
+  "bytes": 15811471,
+  "readbackVerified": true,
+  "verifiedDate": "2026-11-17",
+  "sourcePushedBeforeUpload": true,
+  "priorSliceDeliveredFirst": "0.4.6; 2026-11-17-autoplay-footer-drive-sync.json",
+  "tests": {
+    "node": 41,
+    "python": 28
+  },
+  "ciRun": 44109924376,
+  "ciConclusion": "success",
+  "browserReceipt": "2026-11-17-english-japanese-browser.json",
+  "items": 510,
+  "blocks": 51,
+  "audioClips": 1530,
+  "preservedOldTranslationsPerLanguage": 510,
+  "preservedAudioClipHashes": 1530,
+  "directions": [
+    "lv-ru",
+    "lv-en",
+    "ru-lv",
+    "ru-en",
+    "en-lv",
+    "en-ru",
+    "en-ja"
+  ],
+  "japaneseReadingFormat": "script-only",
+  "japaneseInterfaceLanguage": "en",
+  "japanesePromptAudioLanguage": "en",
+  "learnerState": "Memory only; zero learner-state saves on every platform",
+  "notRun": [
+    "fluent human Japanese/language review",
+    "physical devices",
+    "full screen-reader audit"
+  ],
+  "status": {
+    "implemented": true,
+    "pushed": true,
+    "delivered": true,
+    "merged": false,
+    "publiclyDeployed": false
+  }
+}

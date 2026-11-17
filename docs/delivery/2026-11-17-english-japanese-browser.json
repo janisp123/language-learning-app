@@ -31,5 +31,9 @@
     "physical devices",
     "full screen-reader audit",
     "fluent human language review"
-  ]
+  ],
+  "contentVersion": "0.6.0-test",
+  "preservedOriginalTranslationsPerLanguage": 510,
+  "preservedAudioClipHashes": 1530,
+  "review": "Independent model code/content review; locale-order and family/glass findings resolved with regressions. Fluent human review pending."
 }
