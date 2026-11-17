@@ -1,6 +1,6 @@
 # Current working checkpoint
 
-As of 2026-11-17. Repository: janisp123/language-learning-app. Main contains 0.4.3; current review build 0.4.4 is prepared for PR #7. Publication remains BLOCKED on GitHub Pages setup.
+As of 2026-11-17. Repository: janisp123/language-learning-app. Main contains 0.4.3; current review build 0.4.4 is pushed to PR #7 and delivered through the stable Drive file. Integration is PENDING PR; publication remains BLOCKED on GitHub Pages setup.
 
 ## Current integrated source
 
@@ -18,7 +18,7 @@ Current verification: 37 Node and 20 Python tests pass locally. The new regressi
 
 Integrated-main browser-check run [44053240358](https://github.com/janisp123/language-learning-app/actions/runs/44053240358) succeeded for 0.4.3. The earlier publication job completed its tests before encountering the Pages configuration error. These existing remote checks do not establish integration or publication of the new review build.
 
-Default Drive folder: `Git_dump/language-learning-app`, ID `1U6ewdAD-HsthuchnzVOeWOSs4hmM-EAX`. Stable HTML ID: `1594pGCAm3E7hOq0-oSwLFh8z4WtRI3vd`. Recorded 0.4.3 readback SHA-256: `c83f9e14d25127c9f4855b2e33bf9147ff8de0933a63ae2b9d6766242375312d`; build source `d8ab062c6334c393b93acab7d4b14df605c2e95b`. See [delivery evidence](delivery/2026-11-17-english-complete-drive-sync.json). The Drive source-history bundle remains a backup; it is no longer the only location of the completed source.
+Default Drive folder: `Git_dump/language-learning-app`, ID `1U6ewdAD-HsthuchnzVOeWOSs4hmM-EAX`. Stable HTML ID: `1594pGCAm3E7hOq0-oSwLFh8z4WtRI3vd`. Current 0.4.4 HTML was replaced in place, downloaded back and compared byte-for-byte: SHA-256 `3c55f24a42fd119fba8bccac5c51e8dbcc57cc79a2be49b109f61a486e2aceb7`, 15,323,078 bytes. Build source `02d1da877d20382a3eb6e13a83c4c0fe54fc7461` is verified on PR #7; CI [44069083521](https://github.com/janisp123/language-learning-app/actions/runs/44069083521) succeeded and independent review found no actionable issues. See [current delivery evidence](delivery/2026-11-17-current-prompt-drive-sync.json). The earlier 0.4.3 delivery record and source-history bundle remain historical recovery evidence.
 
 ## Website setup and future editing
 

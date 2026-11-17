@@ -1,0 +1,20 @@
+{
+  "buildVersion": "0.4.4",
+  "sourceCommit": "02d1da877d20382a3eb6e13a83c4c0fe54fc7461",
+  "sourceBranch": "docs/pages-setup-editing-handoff",
+  "pullRequest": 7,
+  "driveFileId": "1594pGCAm3E7hOq0-oSwLFh8z4WtRI3vd",
+  "folderId": "1U6ewdAD-HsthuchnzVOeWOSs4hmM-EAX",
+  "sha256": "3c55f24a42fd119fba8bccac5c51e8dbcc57cc79a2be49b109f61a486e2aceb7",
+  "bytes": 15323078,
+  "readbackVerified": true,
+  "verifiedDate": "2026-11-17",
+  "ciRun": 44069083521,
+  "ciConclusion": "success",
+  "tests": {"node": 37, "pythonLocal": 20},
+  "browser": "Headless Chromium at 390x844: actual source-clip playback, keyboard replay, 48px speaker, grading isolation, navigation cancellation and no horizontal overflow/page errors in all six directions",
+  "independentReview": "No actionable issues; 37 Node and 20 Python checks independently passed",
+  "behavior": "Only the current prompt plays when its speaker is pressed. No previous-answer replay or automatic answer sound.",
+  "notRun": ["physical Android", "full screen-reader audit", "fluent pronunciation review"],
+  "integration": "PR #7 pending; no merge or public deployment performed"
+}
