@@ -97,3 +97,8 @@ The touch-browser regression reproduced the original full-row outline and now pa
 Prior-task completion: PR #17 dark learning mode is merged ataae5147, deployed by44127976379 and passed main CI44127976406. Actual hosted phone-layout checks passed; prior evidence preserved in delivery/2026-11-17-learning-theme-deployment.json and learning-theme-hosted-browser.json.
 
 0.4.11 review delivery: source b3cd10f pushed on PR #18; CI44167704597 passed. Stable Drive upload followed source push and downloaded full bytes compare exactly; receipt delivery/2026-11-17-speaker-highlight-drive-sync.json. No merge/publication at delivery.
+
+
+## 2026-11-17 — Publish speaker-only green feedback0.4.11 (Codex)
+
+PR #18 merged ata159c6618be40e7acdd53966e3fca60264abad7e; Pages44168243948 and main CI44168243818 succeeded. Hosted app/download match canonical source and verified Drive exactly: SHA-256 e5bb8fee28d2d3f781de41f0e59f9592e27163bdf73ef7e4323039db6ab07c40. Hosted touch checks in light/dark at320/390/1280px verify only speaker cell green, no row outline/answer-text highlight, replay without grading/progress changes and no overflow/errors. Receipts: delivery/2026-11-17-speaker-highlight-deployment.json and speaker-highlight-hosted-browser.json.46Node/29Python tests pass locally; independent review passed. Dark-mode continuity remains intact, all2040 clips/content/directions preserved. Physical-phone/full-screen-reader/fluent human review pending.
