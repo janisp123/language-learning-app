@@ -4,6 +4,8 @@ A free language-learning project for practical Latvian, Russian and English comm
 
 ## Try the browser test build
 
+Dark mode selected on the website carries into learning. The learning header also has a theme toggle. Theme stays in page memory only; reloading starts light with lesson 1.
+
 **[Open the app in your browser](https://janisp123.github.io/language-learning-app/learn/)** — start learning directly, with no download or installation.
 
 [Project website](https://janisp123.github.io/language-learning-app/) · [Download the portable HTML](https://janisp123.github.io/language-learning-app/language-learning-test.html)

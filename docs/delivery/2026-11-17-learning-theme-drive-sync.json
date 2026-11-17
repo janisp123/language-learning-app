@@ -1,0 +1,35 @@
+{
+  "buildVersion": "0.4.10",
+  "sourceCommit": "23f6d372e29ac02038f01d4e1951863d1382fdb9",
+  "sourceBranch": "fix/learning-dark-mode",
+  "pullRequest": 17,
+  "driveFileId": "1594pGCAm3E7hOq0-oSwLFh8z4WtRI3vd",
+  "folderId": "1U6ewdAD-HsthuchnzVOeWOSs4hmM-EAX",
+  "bytes": 21387711,
+  "sha256": "58dd376dad8eb6b93490704b4003962c81d71285bb391e86dfbc48aa5dfc9e2b",
+  "readbackVerified": true,
+  "sourcePushedBeforeUpload": true,
+  "verifiedDate": "2026-11-17",
+  "ciRun": 44123339528,
+  "ciConclusion": "success",
+  "tests": {
+    "nodeLocal": 46,
+    "pythonLocal": 29
+  },
+  "browserReceipt": "2026-11-17-learning-theme-browser.json",
+  "themeTransfer": "One-use navigation fragment consumed and removed before styling; null history state; then DOM memory only",
+  "reload": "Clean URL reload resets light and lesson1",
+  "learnerState": "Memory only; zero saved learner state/preferences",
+  "unchangedClips": 2040,
+  "statusAtDelivery": {
+    "implemented": true,
+    "pushed": true,
+    "driveDelivered": true,
+    "merged": false,
+    "publiclyDeployed": false
+  },
+  "notRun": [
+    "physical devices",
+    "full screen-reader audit"
+  ]
+}

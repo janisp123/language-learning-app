@@ -33,7 +33,7 @@ function mount(data=course,bundle=null,initialDirection='lv-ru'){
   elements.get('course-data').textContent=bundle ? html.match(/id="course-data">([\s\S]*?)<\/script>/)[1] : JSON.stringify(data);
   if(elements.has('ui-data'))elements.get('ui-data').textContent=bundle ? html.match(/id="ui-data">([\s\S]*?)<\/script>/)[1] : JSON.stringify(locales);
   if(elements.has('audio-data'))elements.get('audio-data').textContent=html.match(/id="audio-data">([\s\S]*?)<\/script>/)[1];
-  document={documentElement:{lang:'en'},title:'',getElementById:id=>elements.get(id),createElement:()=>new Element(),createTextNode:text=>String(text),activeElement:null};
+  document={documentElement:{lang:'en',dataset:{theme:'light'}},title:'',getElementById:id=>elements.get(id),createElement:()=>new Element(),createTextNode:text=>String(text),activeElement:null};
   const context=vm.createContext({document,LanguageEngine:E,
     setTimeout:(callback,delay)=>{const id=++timerId;timers.set(id,{callback,at:now+delay});return id;},
     clearTimeout:id=>timers.delete(id)
@@ -46,6 +46,7 @@ function mount(data=course,bundle=null,initialDirection='lv-ru'){
   const $=id=>elements.get(id);
   $.tick=milliseconds=>{const end=now+milliseconds;while(true){const entry=[...timers].sort((a,b)=>a[1].at-b[1].at).find(([,t])=>t.at<=end);if(!entry)break;now=entry[1].at;timers.delete(entry[0]);entry[1].callback();}now=end;};
   $.queuedCallback=()=>[...timers.values()][0]?.callback;
+  $.theme=()=>document.documentElement.dataset.theme;
   $.language=()=>document.documentElement.lang;
   $.title=()=>document.title;
   return $;
@@ -138,11 +139,11 @@ test('all interface text follows source language on direction selection, practic
   assert.equal($.language(),'lv');assert.equal($('start').textContent,'Sākt mācīties');
   $('start').click();assert.equal($('instruction').textContent,'Izvēlies tulkojumu krievu valodā');
 });
-test('real UI traverses all registered blocks to completion and starts a fresh session',()=>{
-  const $=mount();$('start').click();
+test('real UI retains dark mode through every block, completion and restart',()=>{
+  const $=mount();$('learning-theme-toggle').click();assert.equal($.theme(),'dark');$('start').click();
   for(const lesson of course.lessons)for(const prompt of lesson.prompts){choose($,prompt.phraseId);$.tick(500);}
-  assert.equal($('finished').hidden,false);assert.equal($('practice').hidden,true);
-  $('again').click();assert.equal($('practice').hidden,false);assert.equal($('progress').value,0);assert.match($('lesson-label').textContent,new RegExp(`Nodarbība 1 no ${course.lessons.length}`));
+  assert.equal($('finished').hidden,false);assert.equal($('practice').hidden,true);assert.equal($.theme(),'dark');
+  $('again').click();assert.equal($.theme(),'dark');assert.equal($('practice').hidden,false);assert.equal($('progress').value,0);assert.match($('lesson-label').textContent,new RegExp(`Nodarbība 1 no ${course.lessons.length}`));
 });
 test('invalid embedded content produces a visible error and disables start',()=>{
   const $=mount({});assert.equal($('error').hidden,false);assert.equal($('start').disabled,true);assert.equal($('practice').hidden,true);

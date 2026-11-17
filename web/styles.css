@@ -6,3 +6,20 @@
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
 
 .answer-option{display:flex;align-items:stretch;min-width:0;border:1px solid #a3b4a1;border-radius:9px;background:#fffefa;overflow:hidden}.answer-option .choice{flex:1;min-width:0;border:0;border-radius:0}.answer-replay{flex:0 0 48px;width:48px;display:inline-flex;align-items:center;justify-content:center;border:0;border-left:1px solid #d9ded4;background:#e9eddf;color:#183f36;padding:.5rem}.answer-replay:hover:enabled{background:#dfeccf}.answer-replay:disabled{opacity:.45}.answer-option:focus-within{outline:3px solid #a54412;outline-offset:3px}.answer-option button:focus-visible{outline-offset:-4px}.answer-option .choice.correct{box-shadow:inset 0 0 0 2px #3c6a44}.answer-option .choice.incorrect{box-shadow:inset 0 0 0 2px #9a4325}
+
+.header{flex-wrap:wrap}.header-tools{display:flex;align-items:center;gap:.65rem;margin-left:auto}.learning-theme-toggle{display:inline-flex;align-items:center;justify-content:center;min-width:48px;border:1px solid #a3b4a1;border-radius:8px;background:#e9eddf;color:#183f36;font-size:1.2rem;padding:.4rem}.learning-theme-toggle:hover{background:#dfeccf}
+:root[data-theme="dark"]{color-scheme:dark;color:#e7efe0;background:#14261f}
+[data-theme="dark"] .header,[data-theme="dark"] footer,[data-theme="dark"] .course-outline{border-color:#40594c}
+[data-theme="dark"] .brand>span[aria-hidden]{background:#c3d88e;color:#14261f}
+[data-theme="dark"] .badge,[data-theme="dark"] .rules{background:#223b30;color:#e7efe0}
+[data-theme="dark"] .draft{background:#493b20;color:#f2d59f}
+[data-theme="dark"] .lead,[data-theme="dark"] .small,[data-theme="dark"] footer,[data-theme="dark"] .progress-row label,[data-theme="dark"] .question-card .eyebrow{color:#b7c8bb}
+[data-theme="dark"] select,[data-theme="dark"] .question-card,[data-theme="dark"] .answer-option,[data-theme="dark"] .choice{background:#1d3429;color:#e7efe0;border-color:#526e5b}
+[data-theme="dark"] .primary{background:#c3d88e;color:#14261f;border-color:#c3d88e}[data-theme="dark"] .primary:hover{background:#d4e4ac}
+[data-theme="dark"] .quiet,[data-theme="dark"] .question-replay,[data-theme="dark"] .answer-replay,[data-theme="dark"] .learning-theme-toggle{background:#294635;color:#e7efe0;border-color:#526e5b}
+[data-theme="dark"] .choice:hover:enabled,[data-theme="dark"] .quiet:hover,[data-theme="dark"] .question-replay:hover:enabled,[data-theme="dark"] .answer-replay:hover:enabled,[data-theme="dark"] .learning-theme-toggle:hover{background:#355943}
+[data-theme="dark"] .answer-option .choice.correct{background:#294e2e;color:#e2f3cf;box-shadow:inset 0 0 0 2px #a4ca79}
+[data-theme="dark"] .answer-option .choice.incorrect,[data-theme="dark"] .error{background:#573626;color:#ffddcb;border-color:#d89376;box-shadow:inset 0 0 0 2px #d89376}
+[data-theme="dark"] .feedback.wrong,[data-theme="dark"] .prompt-audio-error{color:#ffc6a5}
+[data-theme="dark"] progress{accent-color:#c3d88e}[data-theme="dark"] .skip{background:#223b30;color:#e7efe0}
+[data-theme="dark"] button:focus-visible,[data-theme="dark"] select:focus-visible,[data-theme="dark"] a:focus-visible,[data-theme="dark"] summary:focus-visible,[data-theme="dark"] .answer-option:focus-within{outline-color:#f0cd91}

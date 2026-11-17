@@ -635,6 +635,7 @@
       theme.setAttribute('aria-label', text[5]);
       theme.setAttribute('aria-pressed', String(dark));
       theme.textContent = dark ? '☀' : '☾';
+      document.querySelectorAll('a[href^="learn/"]').forEach(link => { link.setAttribute('href', dark ? 'learn/#theme=dark' : 'learn/'); });
       document.querySelectorAll('[data-language]').forEach(button => { button.setAttribute('aria-pressed', String(button.dataset.language === language)); });
     }
     document.querySelectorAll('[data-language]').forEach(button => { button.addEventListener('click', () => { language = button.dataset.language; render(); }); });

@@ -1,15 +1,22 @@
 <!doctype html>
-<html lang="<!--DEFAULT-LANGUAGE-->">
+<html lang="<!--DEFAULT-LANGUAGE-->" data-theme="light">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#183f36">
+  <meta id="theme-color" name="theme-color" content="#183f36">
+  <script>
+  (function () {
+    const handoff = globalThis.location?.hash === '#theme=dark';
+    document.documentElement.dataset.theme = handoff ? 'dark' : 'light';
+    if (handoff) globalThis.history.replaceState(null, '', globalThis.location.pathname + globalThis.location.search);
+  })();
+  </script>
   <title><!--TITLE--></title>
   <!--STYLE-->
 </head>
 <body>
   <a id="skip" class="skip" href="#main"><!--TEXT:skip--></a>
-  <header class="header"><span class="brand"><span aria-hidden="true">↔</span> <span id="brand-name"><!--TEXT:brand-name--></span></span><span id="badge" class="badge"><!--TEXT:badge--></span></header>
+  <header class="header"><span class="brand"><span aria-hidden="true">↔</span> <span id="brand-name"><!--TEXT:brand-name--></span></span><div class="header-tools"><span id="badge" class="badge"><!--TEXT:badge--></span><button id="learning-theme-toggle" class="learning-theme-toggle" type="button" aria-pressed="false">☾</button></div></header>
   <main id="main" tabindex="-1">
     <p id="draft" class="draft"><!--TEXT:draft--></p>
     <p id="error" class="error" role="alert" hidden></p>
