@@ -2557,7 +2557,7 @@
     "static": {
       "skip": "Skip to practice",
       "brand-name": "Language learning",
-      "badge": "Test build 0.4.6",
+      "badge": "Test build 0.4.7",
       "draft": "Content and pronunciation await fluent review · audio for all 510 words and phrases in Latvian, Russian and English",
       "audience": "Everyday languages · Ages 10–17",
       "welcome": "A little practice. Start with the essentials.",
@@ -2665,6 +2665,10 @@
       "en": {
         "label": "English",
         "target": "English"
+      },
+      "ja": {
+        "label": "Japanese",
+        "target": "Japanese"
       }
     }
   }

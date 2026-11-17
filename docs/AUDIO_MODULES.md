@@ -1,6 +1,6 @@
 # Editing pronunciation without rebuilding the app's logic
 
-Current scope: all 510 vocabulary items in Latvian, Russian and English across all six directions, with 1,530 bundled MP3 clips. Version 0.4.5 adds thirty recordings for the ten practical-core entries and preserves all original 1,500 clips. The speaker still plays only the current prompt in its source language; previous-answer replay and automatic answer audio remain removed. The media player and learning engine are unchanged. Russian/Latvian speech uses Google Translate TTS via gTTS; English uses Flite cmu_us_slt offline. Fluent pronunciation review is pending. The learner's browser makes no synthesis/network request.
+Current scope: all 510 vocabulary items in Latvian, Russian and English across all six directions, with 1,530 bundled MP3 clips. Version 0.4.5 adds thirty recordings for the ten practical-core entries and preserves all original 1,500 clips. The current prompt automatically attempts playback once each time it appears; the speaker replays only that prompt in its source language; previous-answer replay and automatic answer audio remain removed. The media player and learning engine are unchanged. Russian/Latvian speech uses Google Translate TTS via gTTS; English uses Flite cmu_us_slt offline. Fluent pronunciation review is pending. The learner's browser makes no synthesis/network request.
 
 | Change | Edit | What stays independent |
 | --- | --- | --- |
@@ -11,7 +11,7 @@ Current scope: all 510 vocabulary items in Latvian, Russian and English across a
 | Change replay presentation | `web/audio-view.js`, audio controls in `web/index.html` | Player and engine |
 | Change offline assembly/validation | `tools/audio_loader.py` | Content and learning rules |
 
-The manifest uses stable vocabulary IDs, exact spoken text, content revision and SHA-256 hashes. The loader checks identity/text, local asset paths, revision and checksums, and embeds bytes. It fails on mismatches rather than guessing a language. `directions` explicitly enables each translation pair. The `coverage: "all-phrases"` policy requires a recording for every canonical phrase in each enabled target language; a missing clip or missing language fails the build. Optional audio labels are required for enabled source directions; a new content language need not supply sound to remain usable.
+The manifest uses stable vocabulary IDs, exact spoken text, content revision and SHA-256 hashes. The loader checks identity/text, local asset paths, revision and checksums, and embeds bytes. It fails on mismatches rather than guessing a language. `directions` explicitly enables each translation pair. The `coverage: "all-phrases"` policy requires a recording for every canonical phrase in each enabled source language; a missing clip or missing language fails the build. Optional audio labels are required for enabled source directions; a new content language need not supply sound to remain usable.
 
 ## One-clip editing workflow
 
@@ -51,3 +51,6 @@ Read-only references: its `docs/FEATURE_DEVELOPMENT.md` and `AGENTS.md`, plus th
 Cloud Chrome blocks `file://` navigation, so actual downloaded-file opening and physical phone tests remain NOT RUN. The self-contained HTML and embedded MP3 bytes are verified by the builder/tests; no network dependency is introduced at runtime. No merge or public release performed.
 
 Default Drive distribution: `Git_dump/language-learning-app`, folder ID `1U6ewdAD-HsthuchnzVOeWOSs4hmM-EAX`. Stable test HTML file ID: `1594pGCAm3E7hOq0-oSwLFh8z4WtRI3vd`. Preserve this ID during future updates. Repository source remains authoritative.
+
+
+English → Japanese uses the existing 510 English prompt recordings. Japanese is a target-only answer language; no Japanese recordings or network synthesis are required for current-prompt playback. Audio directions must be allowed by the course. All 1,530 existing clip records and bytes are preserved.

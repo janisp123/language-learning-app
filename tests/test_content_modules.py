@@ -69,7 +69,9 @@ class ContentModuleTests(unittest.TestCase):
             # Synthetic modularity fixture reuses concepts; it is not an expanded vocabulary curriculum.
             catalog.pop('curriculum',None)
             for language in catalog['languages']:
-                path=root/'content'/language['file'];pack=json.loads(path.read_text());pack['ui']['lessons']['extra-block']='Extra block';path.write_text(json.dumps(pack))
+                path=root/'content'/language['file'];pack=json.loads(path.read_text());
+                if 'ui' in pack:pack['ui']['lessons']['extra-block']='Extra block'
+                path.write_text(json.dumps(pack))
             catalog_path.write_text(json.dumps(catalog));course,_=load_content(root)
             self.assertEqual(len(course['lessons']),len(catalog['blocks']));self.assertEqual(course['lessons'][-1]['id'],'extra-block')
 
@@ -82,13 +84,14 @@ class ContentModuleTests(unittest.TestCase):
                 catalog=json.loads((root/'content/catalog.json').read_text())
                 for ref in catalog['languages']:
                     path=root/'content'/ref['file'];pack=json.loads(path.read_text())
+                    if 'ui' not in pack:continue
                     if mode=='missing':del pack['ui']['messages']['instruction']
                     else:pack['ui']['messages']['instruction']='Choose {wrongPlaceholder}'
                     path.write_text(json.dumps(pack))
                 with self.assertRaisesRegex(ValueError,'UI.*(keys|placeholder)'):load_content(root)
 
     @unittest.skipUnless(MODULE.exists(),'implementation absent')
-    def test_a_fourth_language_is_added_through_data_only(self):
+    def test_an_additional_language_and_explicit_directions_are_added_through_data_only(self):
         from content_loader import load_content
         with tempfile.TemporaryDirectory() as tmp:
             root=Path(tmp);shutil.copytree(ROOT/'content',root/'content')
@@ -97,14 +100,16 @@ class ContentModuleTests(unittest.TestCase):
             for item in pack['translations'].values():item['text']='ZZ-'+item['text']
             pack['ui']['names']['zz']={'label':'Test language','target':'test'}
             for language in catalog['languages']:
-                module=root/'content'/language['file'];existing=json.loads(module.read_text());existing['ui']['names']['zz']={'label':'Test language','target':'test'};module.write_text(json.dumps(existing))
-            (root/'content/languages/zz.json').write_text(json.dumps(pack));catalog['languages'].append({'id':'zz','file':'languages/zz.json'});path.write_text(json.dumps(catalog))
-            course,locales=load_content(root);self.assertEqual(course['languages'],['lv','ru','en','zz']);self.assertIn('zz',locales)
+                module=root/'content'/language['file'];existing=json.loads(module.read_text());
+                if 'ui' in existing:existing['ui']['names']['zz']={'label':'Test language','target':'test'}
+                module.write_text(json.dumps(existing))
+            (root/'content/languages/zz.json').write_text(json.dumps(pack));catalog['languages'].append({'id':'zz','file':'languages/zz.json'});catalog['directions'] += ['zz-'+c for c in ['lv','ru','en','ja']]+[c+'-zz' for c in ['lv','ru','en']];path.write_text(json.dumps(catalog))
+            course,locales=load_content(root);self.assertEqual(course['languages'],['lv','ru','en','ja','zz']);self.assertIn('zz',locales)
             shutil.copytree(ROOT/'web',root/'web');shutil.copytree(ROOT/'core',root/'core')
             shutil.copytree(ROOT/'audio',root/'audio')
             from build_browser import build
             output=build(root,root/'test.html').read_text()
-            self.assertEqual(output.count('<option id="direction-'),12)
+            self.assertEqual(output.count('<option id="direction-'),14)
             self.assertIn('value="zz-lv"',output);self.assertIn('value="en-zz"',output)
 
 if __name__=='__main__':unittest.main()

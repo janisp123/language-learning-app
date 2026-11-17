@@ -15,14 +15,14 @@ def load_audio(root: Path, course: dict, manifest=None):
     for direction in directions:
         require(isinstance(direction, str) and direction.count('-') == 1, 'invalid audio direction')
         source, target = direction.split('-')
-        require(source != target and source in course['languages'] and target in course['languages'], 'unknown audio direction')
+        require(source != target and source in course['languages'] and target in course['languages'] and direction in course['directions'], 'unknown audio direction')
     ui = read_module(root/'content', 'audio/ui.json')
     for language in {direction.split('-')[0] for direction in directions}:
         require(language in ui and all(text(ui[language].get(k)) for k in ['prompt','error']), 'missing audio UI labels')
     require(isinstance(manifest.get('clips'), dict), 'audio clips required')
     require(manifest.get('coverage') in (None, 'all-phrases'), 'unsupported audio coverage policy')
     if manifest.get('coverage') == 'all-phrases':
-        for language in {direction.split('-')[1] for direction in directions}:
+        for language in {direction.split('-')[0] for direction in directions}:
             require(isinstance(manifest['clips'].get(language), dict) and set(manifest['clips'][language]) == set(phrases), f'incomplete audio coverage: {language}')
     clips = {}
     for language, entries in manifest['clips'].items():

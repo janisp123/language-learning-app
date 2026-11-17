@@ -18,7 +18,7 @@ if(fs.existsSync(file)){
     assert.equal(course.lessons.reduce((n,l)=>n+l.prompts.length,0),course.lessons.length*10);
     assert.ok(['lv','ru','en'].every(language=>course.languages.includes(language)));
     for(const phrase of course.phrases)assert.ok(typeof phrase.en==='string'&&phrase.en.trim(),phrase.id);
-    for(const direction of course.languages.flatMap(source=>course.languages.filter(target=>target!==source).map(target=>`${source}-${target}`))){
+    for(const direction of course.directions){
       let s=E.start(course,direction);
       for(let i=0;i<course.lessons.length*10;i++){
         const q=E.question(course,s,()=>0.4);
@@ -39,9 +39,9 @@ if(fs.existsSync(file)){
     const duplicate=structuredClone(course);duplicate.languages.push('en');assert.throws(()=>E.validateCourse(duplicate));
     for(const direction of ['en-en','en-123','lv-lv','en-ru-extra'])assert.throws(()=>E.start(course,direction));
   });
-  test('step-back and third-mistake reset stay identical in all six directions',()=>{
+  test('step-back and third-mistake reset stay identical in every allowed direction',()=>{
     const E=require('../core/engine.js');
-    for(const direction of ['lv-ru','ru-lv','lv-en','en-lv','ru-en','en-ru']){
+    for(const direction of course.directions){
       let s=E.start(course,direction);
       function answer(correct){const q=E.question(course,s,()=>0.4);const id=correct?q.correctId:q.options.find(o=>o.id!==q.correctId).id;const result=E.answer(course,s,q,id);s=result.state;return result;}
       for(let i=0;i<16;i++)answer(true);

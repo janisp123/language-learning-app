@@ -19,8 +19,8 @@ class AudioTests(unittest.TestCase):
         from content_loader import load_content
         course, _ = load_content(ROOT)
         pack = load_audio(ROOT, course)
-        self.assertEqual(set(pack['directions']), {a+'-'+b for a in course['languages'] for b in course['languages'] if a != b})
-        self.assertEqual(set(pack['clips']), set(course['languages']))
+        self.assertEqual(set(pack['directions']), set(course['directions']))
+        self.assertEqual(set(pack['clips']), {d.split('-')[0] for d in course['directions']})
         for language, clips in pack['clips'].items():
             self.assertEqual(set(clips), {p['id'] for p in course['phrases']})
             for ident, clip in clips.items():

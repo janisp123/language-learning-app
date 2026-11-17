@@ -72,3 +72,10 @@ Synthetic extension fixtures are temporary and not shipped. Actual browser/devic
 The current catalog declares a 510-item vocabulary policy: distinct concepts and meanings, `word`/`phrase` form tags, at most four words per translation, and no sentence punctuation. For approved new blocks, increase `curriculum.targetItems` along with authored coverage. Additional languages must translate every active concept and title. The structural checks do not detect every grammatical sentence or translation ambiguity.
 
 `tests/fixtures/vocabulary-0.4-lock.json` pins the original 500 meanings/texts and question/answer bindings; extra blocks/languages can be added without rewriting those IDs. The owner's approved catalog reorder is checked separately in `test_practical_core.py`; snapshot verification uses its own recorded block/phrase order, preserving the existing digest unchanged. The earlier original lock still verifies `archive/course-0.3/`. Do not refresh either digest merely to silence a drift failure: inspect and document any intentional language correction first.
+
+
+## Explicit directions and target-only Japanese
+
+The active catalog uses schema 2 and requires a nonempty unique `directions` allowlist of registered distinct-language pairs, including its `defaultDirection`. The builder emits only those options; the engine accepts only those directions, including when validating active session state. Legacy schema 1 is supported for the archive and compiles historical pairs to an explicit runtime list. Runtime schema 2 always requires `directions`.
+
+Current approved list: lv-ru, lv-en, ru-lv, ru-en, en-lv, en-ru, en-ja. Adding a language does not automatically expose pairings. Every language module provides translations for all concept IDs; only languages appearing as a source require UI packs. Japanese is target-only, script-only and has no UI pack. All three source packs provide the Japanese target name. The default source pack, rather than catalog position, anchors UI validation.

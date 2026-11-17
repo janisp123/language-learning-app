@@ -42,3 +42,8 @@ The catalog curriculum policy enforces the target item count, distinct concept c
 5. Is it appropriate and understandable for the intended age group?
 
 Other age paths and languages remain future possibilities requiring an owner decision.
+
+
+## Owner-approved target-only Japanese (2026-11-17)
+
+English → Japanese is the sole additional direction. It translates the same 510 meanings into Japanese script only, with no romaji/reading aids, and keeps the English interface. Existing LV/RU/EN translations, prompt/answer/distractor IDs, display order and recordings remain intact. Japanese reverse directions and pairings with Latvian/Russian are excluded by the catalog allowlist and runtime validation. Draft translations still require fluent human review; automated identity/distinct-choice checks and model review do not replace it.

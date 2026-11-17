@@ -1,0 +1,2558 @@
+{
+  "schemaVersion": 1,
+  "id": "ja",
+  "reviewStatus": "draft-human-review-pending",
+  "readingFormat": "script-only",
+  "translations": {
+    "vocab-0001": {
+      "conceptId": "vocab-0001",
+      "meaning": "hello",
+      "text": "やあ"
+    },
+    "vocab-0002": {
+      "conceptId": "vocab-0002",
+      "meaning": "goodbye",
+      "text": "さようなら"
+    },
+    "vocab-0003": {
+      "conceptId": "vocab-0003",
+      "meaning": "please",
+      "text": "お願いします"
+    },
+    "vocab-0004": {
+      "conceptId": "vocab-0004",
+      "meaning": "thank you",
+      "text": "ありがとう"
+    },
+    "vocab-0005": {
+      "conceptId": "vocab-0005",
+      "meaning": "sorry",
+      "text": "ごめんなさい"
+    },
+    "vocab-0006": {
+      "conceptId": "vocab-0006",
+      "meaning": "yes",
+      "text": "はい"
+    },
+    "vocab-0007": {
+      "conceptId": "vocab-0007",
+      "meaning": "no",
+      "text": "いいえ"
+    },
+    "vocab-0008": {
+      "conceptId": "vocab-0008",
+      "meaning": "good morning",
+      "text": "おはようございます"
+    },
+    "vocab-0009": {
+      "conceptId": "vocab-0009",
+      "meaning": "good evening",
+      "text": "こんばんは"
+    },
+    "vocab-0010": {
+      "conceptId": "vocab-0010",
+      "meaning": "good night",
+      "text": "おやすみなさい"
+    },
+    "vocab-0011": {
+      "conceptId": "vocab-0011",
+      "meaning": "person",
+      "text": "人"
+    },
+    "vocab-0012": {
+      "conceptId": "vocab-0012",
+      "meaning": "child",
+      "text": "子供"
+    },
+    "vocab-0013": {
+      "conceptId": "vocab-0013",
+      "meaning": "boy",
+      "text": "男の子"
+    },
+    "vocab-0014": {
+      "conceptId": "vocab-0014",
+      "meaning": "girl",
+      "text": "女の子"
+    },
+    "vocab-0015": {
+      "conceptId": "vocab-0015",
+      "meaning": "friend",
+      "text": "友達"
+    },
+    "vocab-0016": {
+      "conceptId": "vocab-0016",
+      "meaning": "family",
+      "text": "家族"
+    },
+    "vocab-0017": {
+      "conceptId": "vocab-0017",
+      "meaning": "mother",
+      "text": "母"
+    },
+    "vocab-0018": {
+      "conceptId": "vocab-0018",
+      "meaning": "father",
+      "text": "父"
+    },
+    "vocab-0019": {
+      "conceptId": "vocab-0019",
+      "meaning": "sister",
+      "text": "姉か妹"
+    },
+    "vocab-0020": {
+      "conceptId": "vocab-0020",
+      "meaning": "brother",
+      "text": "兄か弟"
+    },
+    "vocab-0021": {
+      "conceptId": "vocab-0021",
+      "meaning": "one",
+      "text": "一"
+    },
+    "vocab-0022": {
+      "conceptId": "vocab-0022",
+      "meaning": "two",
+      "text": "二"
+    },
+    "vocab-0023": {
+      "conceptId": "vocab-0023",
+      "meaning": "three",
+      "text": "三"
+    },
+    "vocab-0024": {
+      "conceptId": "vocab-0024",
+      "meaning": "four",
+      "text": "四"
+    },
+    "vocab-0025": {
+      "conceptId": "vocab-0025",
+      "meaning": "five",
+      "text": "五"
+    },
+    "vocab-0026": {
+      "conceptId": "vocab-0026",
+      "meaning": "six",
+      "text": "六"
+    },
+    "vocab-0027": {
+      "conceptId": "vocab-0027",
+      "meaning": "seven",
+      "text": "七"
+    },
+    "vocab-0028": {
+      "conceptId": "vocab-0028",
+      "meaning": "eight",
+      "text": "八"
+    },
+    "vocab-0029": {
+      "conceptId": "vocab-0029",
+      "meaning": "nine",
+      "text": "九"
+    },
+    "vocab-0030": {
+      "conceptId": "vocab-0030",
+      "meaning": "ten",
+      "text": "十"
+    },
+    "vocab-0031": {
+      "conceptId": "vocab-0031",
+      "meaning": "help",
+      "text": "助け"
+    },
+    "vocab-0032": {
+      "conceptId": "vocab-0032",
+      "meaning": "stop",
+      "text": "止まって"
+    },
+    "vocab-0033": {
+      "conceptId": "vocab-0033",
+      "meaning": "here",
+      "text": "ここ"
+    },
+    "vocab-0034": {
+      "conceptId": "vocab-0034",
+      "meaning": "there",
+      "text": "そこ"
+    },
+    "vocab-0035": {
+      "conceptId": "vocab-0035",
+      "meaning": "now",
+      "text": "今"
+    },
+    "vocab-0036": {
+      "conceptId": "vocab-0036",
+      "meaning": "later",
+      "text": "後で"
+    },
+    "vocab-0037": {
+      "conceptId": "vocab-0037",
+      "meaning": "together",
+      "text": "一緒に"
+    },
+    "vocab-0038": {
+      "conceptId": "vocab-0038",
+      "meaning": "again",
+      "text": "もう一度"
+    },
+    "vocab-0039": {
+      "conceptId": "vocab-0039",
+      "meaning": "slowly",
+      "text": "ゆっくり"
+    },
+    "vocab-0040": {
+      "conceptId": "vocab-0040",
+      "meaning": "quickly",
+      "text": "速く"
+    },
+    "vocab-0041": {
+      "conceptId": "vocab-0041",
+      "meaning": "home",
+      "text": "家"
+    },
+    "vocab-0042": {
+      "conceptId": "vocab-0042",
+      "meaning": "school",
+      "text": "学校"
+    },
+    "vocab-0043": {
+      "conceptId": "vocab-0043",
+      "meaning": "shop",
+      "text": "店"
+    },
+    "vocab-0044": {
+      "conceptId": "vocab-0044",
+      "meaning": "pharmacy",
+      "text": "薬局"
+    },
+    "vocab-0045": {
+      "conceptId": "vocab-0045",
+      "meaning": "hospital",
+      "text": "病院"
+    },
+    "vocab-0046": {
+      "conceptId": "vocab-0046",
+      "meaning": "park",
+      "text": "公園"
+    },
+    "vocab-0047": {
+      "conceptId": "vocab-0047",
+      "meaning": "street",
+      "text": "通り"
+    },
+    "vocab-0048": {
+      "conceptId": "vocab-0048",
+      "meaning": "bus stop",
+      "text": "バス停"
+    },
+    "vocab-0049": {
+      "conceptId": "vocab-0049",
+      "meaning": "toilet",
+      "text": "トイレ"
+    },
+    "vocab-0050": {
+      "conceptId": "vocab-0050",
+      "meaning": "exit",
+      "text": "出口"
+    },
+    "vocab-0051": {
+      "conceptId": "vocab-0051",
+      "meaning": "water",
+      "text": "水"
+    },
+    "vocab-0052": {
+      "conceptId": "vocab-0052",
+      "meaning": "bread",
+      "text": "パン"
+    },
+    "vocab-0053": {
+      "conceptId": "vocab-0053",
+      "meaning": "milk",
+      "text": "牛乳"
+    },
+    "vocab-0054": {
+      "conceptId": "vocab-0054",
+      "meaning": "tea",
+      "text": "お茶"
+    },
+    "vocab-0055": {
+      "conceptId": "vocab-0055",
+      "meaning": "apple",
+      "text": "りんご"
+    },
+    "vocab-0056": {
+      "conceptId": "vocab-0056",
+      "meaning": "banana",
+      "text": "バナナ"
+    },
+    "vocab-0057": {
+      "conceptId": "vocab-0057",
+      "meaning": "cheese",
+      "text": "チーズ"
+    },
+    "vocab-0058": {
+      "conceptId": "vocab-0058",
+      "meaning": "soup",
+      "text": "スープ"
+    },
+    "vocab-0059": {
+      "conceptId": "vocab-0059",
+      "meaning": "juice",
+      "text": "ジュース"
+    },
+    "vocab-0060": {
+      "conceptId": "vocab-0060",
+      "meaning": "breakfast",
+      "text": "朝食"
+    },
+    "vocab-0061": {
+      "conceptId": "vocab-0061",
+      "meaning": "book",
+      "text": "本"
+    },
+    "vocab-0062": {
+      "conceptId": "vocab-0062",
+      "meaning": "notebook",
+      "text": "ノート"
+    },
+    "vocab-0063": {
+      "conceptId": "vocab-0063",
+      "meaning": "pen",
+      "text": "ペン"
+    },
+    "vocab-0064": {
+      "conceptId": "vocab-0064",
+      "meaning": "pencil",
+      "text": "鉛筆"
+    },
+    "vocab-0065": {
+      "conceptId": "vocab-0065",
+      "meaning": "desk",
+      "text": "机"
+    },
+    "vocab-0066": {
+      "conceptId": "vocab-0066",
+      "meaning": "chair",
+      "text": "椅子"
+    },
+    "vocab-0067": {
+      "conceptId": "vocab-0067",
+      "meaning": "board",
+      "text": "黒板"
+    },
+    "vocab-0068": {
+      "conceptId": "vocab-0068",
+      "meaning": "teacher",
+      "text": "先生"
+    },
+    "vocab-0069": {
+      "conceptId": "vocab-0069",
+      "meaning": "lesson",
+      "text": "授業"
+    },
+    "vocab-0070": {
+      "conceptId": "vocab-0070",
+      "meaning": "break",
+      "text": "休み時間"
+    },
+    "vocab-0071": {
+      "conceptId": "vocab-0071",
+      "meaning": "left",
+      "text": "左"
+    },
+    "vocab-0072": {
+      "conceptId": "vocab-0072",
+      "meaning": "right",
+      "text": "右"
+    },
+    "vocab-0073": {
+      "conceptId": "vocab-0073",
+      "meaning": "straight",
+      "text": "まっすぐ"
+    },
+    "vocab-0074": {
+      "conceptId": "vocab-0074",
+      "meaning": "near",
+      "text": "近く"
+    },
+    "vocab-0075": {
+      "conceptId": "vocab-0075",
+      "meaning": "far",
+      "text": "遠く"
+    },
+    "vocab-0076": {
+      "conceptId": "vocab-0076",
+      "meaning": "inside",
+      "text": "中"
+    },
+    "vocab-0077": {
+      "conceptId": "vocab-0077",
+      "meaning": "outside",
+      "text": "外"
+    },
+    "vocab-0078": {
+      "conceptId": "vocab-0078",
+      "meaning": "up",
+      "text": "上"
+    },
+    "vocab-0079": {
+      "conceptId": "vocab-0079",
+      "meaning": "down",
+      "text": "下"
+    },
+    "vocab-0080": {
+      "conceptId": "vocab-0080",
+      "meaning": "opposite",
+      "text": "向かい"
+    },
+    "vocab-0081": {
+      "conceptId": "vocab-0081",
+      "meaning": "police",
+      "text": "警察"
+    },
+    "vocab-0082": {
+      "conceptId": "vocab-0082",
+      "meaning": "ambulance",
+      "text": "救急車"
+    },
+    "vocab-0083": {
+      "conceptId": "vocab-0083",
+      "meaning": "fire",
+      "text": "火事"
+    },
+    "vocab-0084": {
+      "conceptId": "vocab-0084",
+      "meaning": "danger",
+      "text": "危険"
+    },
+    "vocab-0085": {
+      "conceptId": "vocab-0085",
+      "meaning": "pain",
+      "text": "痛み"
+    },
+    "vocab-0086": {
+      "conceptId": "vocab-0086",
+      "meaning": "doctor",
+      "text": "医者"
+    },
+    "vocab-0087": {
+      "conceptId": "vocab-0087",
+      "meaning": "emergency",
+      "text": "緊急事態"
+    },
+    "vocab-0088": {
+      "conceptId": "vocab-0088",
+      "meaning": "first aid",
+      "text": "応急手当"
+    },
+    "vocab-0089": {
+      "conceptId": "vocab-0089",
+      "meaning": "emergency number",
+      "text": "緊急通報番号"
+    },
+    "vocab-0090": {
+      "conceptId": "vocab-0090",
+      "meaning": "adult",
+      "text": "大人"
+    },
+    "vocab-0091": {
+      "conceptId": "vocab-0091",
+      "meaning": "who",
+      "text": "誰"
+    },
+    "vocab-0092": {
+      "conceptId": "vocab-0092",
+      "meaning": "what",
+      "text": "何"
+    },
+    "vocab-0093": {
+      "conceptId": "vocab-0093",
+      "meaning": "where",
+      "text": "どこ"
+    },
+    "vocab-0094": {
+      "conceptId": "vocab-0094",
+      "meaning": "when",
+      "text": "いつ"
+    },
+    "vocab-0095": {
+      "conceptId": "vocab-0095",
+      "meaning": "why",
+      "text": "なぜ"
+    },
+    "vocab-0096": {
+      "conceptId": "vocab-0096",
+      "meaning": "how",
+      "text": "どうやって"
+    },
+    "vocab-0097": {
+      "conceptId": "vocab-0097",
+      "meaning": "how many",
+      "text": "いくつ"
+    },
+    "vocab-0098": {
+      "conceptId": "vocab-0098",
+      "meaning": "what price",
+      "text": "いくら"
+    },
+    "vocab-0099": {
+      "conceptId": "vocab-0099",
+      "meaning": "which way",
+      "text": "どちらの道"
+    },
+    "vocab-0100": {
+      "conceptId": "vocab-0100",
+      "meaning": "what else",
+      "text": "他に何"
+    },
+    "vocab-0101": {
+      "conceptId": "vocab-0101",
+      "meaning": "grandmother",
+      "text": "祖母"
+    },
+    "vocab-0102": {
+      "conceptId": "vocab-0102",
+      "meaning": "grandfather",
+      "text": "祖父"
+    },
+    "vocab-0103": {
+      "conceptId": "vocab-0103",
+      "meaning": "aunt",
+      "text": "おば"
+    },
+    "vocab-0104": {
+      "conceptId": "vocab-0104",
+      "meaning": "uncle",
+      "text": "おじ"
+    },
+    "vocab-0105": {
+      "conceptId": "vocab-0105",
+      "meaning": "parents",
+      "text": "両親"
+    },
+    "vocab-0106": {
+      "conceptId": "vocab-0106",
+      "meaning": "grandparents",
+      "text": "祖父母"
+    },
+    "vocab-0107": {
+      "conceptId": "vocab-0107",
+      "meaning": "baby",
+      "text": "赤ちゃん"
+    },
+    "vocab-0108": {
+      "conceptId": "vocab-0108",
+      "meaning": "teenager",
+      "text": "十代の若者"
+    },
+    "vocab-0109": {
+      "conceptId": "vocab-0109",
+      "meaning": "neighbour",
+      "text": "隣人"
+    },
+    "vocab-0110": {
+      "conceptId": "vocab-0110",
+      "meaning": "guest",
+      "text": "客"
+    },
+    "vocab-0111": {
+      "conceptId": "vocab-0111",
+      "meaning": "woman",
+      "text": "女性"
+    },
+    "vocab-0112": {
+      "conceptId": "vocab-0112",
+      "meaning": "man",
+      "text": "男性"
+    },
+    "vocab-0113": {
+      "conceptId": "vocab-0113",
+      "meaning": "people",
+      "text": "人々"
+    },
+    "vocab-0114": {
+      "conceptId": "vocab-0114",
+      "meaning": "children",
+      "text": "子供たち"
+    },
+    "vocab-0115": {
+      "conceptId": "vocab-0115",
+      "meaning": "classmate",
+      "text": "クラスメート"
+    },
+    "vocab-0116": {
+      "conceptId": "vocab-0116",
+      "meaning": "student",
+      "text": "学生"
+    },
+    "vocab-0117": {
+      "conceptId": "vocab-0117",
+      "meaning": "driver",
+      "text": "運転手"
+    },
+    "vocab-0118": {
+      "conceptId": "vocab-0118",
+      "meaning": "seller",
+      "text": "販売員"
+    },
+    "vocab-0119": {
+      "conceptId": "vocab-0119",
+      "meaning": "passenger",
+      "text": "乗客"
+    },
+    "vocab-0120": {
+      "conceptId": "vocab-0120",
+      "meaning": "visitor",
+      "text": "訪問者"
+    },
+    "vocab-0121": {
+      "conceptId": "vocab-0121",
+      "meaning": "head",
+      "text": "頭"
+    },
+    "vocab-0122": {
+      "conceptId": "vocab-0122",
+      "meaning": "hair",
+      "text": "髪"
+    },
+    "vocab-0123": {
+      "conceptId": "vocab-0123",
+      "meaning": "face",
+      "text": "顔"
+    },
+    "vocab-0124": {
+      "conceptId": "vocab-0124",
+      "meaning": "eye",
+      "text": "目"
+    },
+    "vocab-0125": {
+      "conceptId": "vocab-0125",
+      "meaning": "ear",
+      "text": "耳"
+    },
+    "vocab-0126": {
+      "conceptId": "vocab-0126",
+      "meaning": "nose",
+      "text": "鼻"
+    },
+    "vocab-0127": {
+      "conceptId": "vocab-0127",
+      "meaning": "mouth",
+      "text": "口"
+    },
+    "vocab-0128": {
+      "conceptId": "vocab-0128",
+      "meaning": "tooth",
+      "text": "歯"
+    },
+    "vocab-0129": {
+      "conceptId": "vocab-0129",
+      "meaning": "tongue",
+      "text": "舌"
+    },
+    "vocab-0130": {
+      "conceptId": "vocab-0130",
+      "meaning": "neck",
+      "text": "首"
+    },
+    "vocab-0131": {
+      "conceptId": "vocab-0131",
+      "meaning": "palm",
+      "text": "手のひら"
+    },
+    "vocab-0132": {
+      "conceptId": "vocab-0132",
+      "meaning": "arm",
+      "text": "腕"
+    },
+    "vocab-0133": {
+      "conceptId": "vocab-0133",
+      "meaning": "finger",
+      "text": "指"
+    },
+    "vocab-0134": {
+      "conceptId": "vocab-0134",
+      "meaning": "leg",
+      "text": "脚"
+    },
+    "vocab-0135": {
+      "conceptId": "vocab-0135",
+      "meaning": "foot",
+      "text": "足"
+    },
+    "vocab-0136": {
+      "conceptId": "vocab-0136",
+      "meaning": "knee",
+      "text": "膝"
+    },
+    "vocab-0137": {
+      "conceptId": "vocab-0137",
+      "meaning": "back",
+      "text": "背中"
+    },
+    "vocab-0138": {
+      "conceptId": "vocab-0138",
+      "meaning": "stomach",
+      "text": "お腹"
+    },
+    "vocab-0139": {
+      "conceptId": "vocab-0139",
+      "meaning": "shoulder",
+      "text": "肩"
+    },
+    "vocab-0140": {
+      "conceptId": "vocab-0140",
+      "meaning": "skin",
+      "text": "皮膚"
+    },
+    "vocab-0141": {
+      "conceptId": "vocab-0141",
+      "meaning": "health",
+      "text": "健康"
+    },
+    "vocab-0142": {
+      "conceptId": "vocab-0142",
+      "meaning": "illness",
+      "text": "病気"
+    },
+    "vocab-0143": {
+      "conceptId": "vocab-0143",
+      "meaning": "a cold",
+      "text": "風邪"
+    },
+    "vocab-0144": {
+      "conceptId": "vocab-0144",
+      "meaning": "fever",
+      "text": "熱"
+    },
+    "vocab-0145": {
+      "conceptId": "vocab-0145",
+      "meaning": "cough",
+      "text": "咳"
+    },
+    "vocab-0146": {
+      "conceptId": "vocab-0146",
+      "meaning": "medicine",
+      "text": "薬"
+    },
+    "vocab-0147": {
+      "conceptId": "vocab-0147",
+      "meaning": "tablet",
+      "text": "錠剤"
+    },
+    "vocab-0148": {
+      "conceptId": "vocab-0148",
+      "meaning": "plaster",
+      "text": "絆創膏"
+    },
+    "vocab-0149": {
+      "conceptId": "vocab-0149",
+      "meaning": "bandage",
+      "text": "包帯"
+    },
+    "vocab-0150": {
+      "conceptId": "vocab-0150",
+      "meaning": "thermometer",
+      "text": "体温計"
+    },
+    "vocab-0151": {
+      "conceptId": "vocab-0151",
+      "meaning": "happy",
+      "text": "嬉しい"
+    },
+    "vocab-0152": {
+      "conceptId": "vocab-0152",
+      "meaning": "sad",
+      "text": "悲しい"
+    },
+    "vocab-0153": {
+      "conceptId": "vocab-0153",
+      "meaning": "angry",
+      "text": "怒っている"
+    },
+    "vocab-0154": {
+      "conceptId": "vocab-0154",
+      "meaning": "afraid",
+      "text": "怖い"
+    },
+    "vocab-0155": {
+      "conceptId": "vocab-0155",
+      "meaning": "calm",
+      "text": "落ち着いている"
+    },
+    "vocab-0156": {
+      "conceptId": "vocab-0156",
+      "meaning": "tired",
+      "text": "疲れた"
+    },
+    "vocab-0157": {
+      "conceptId": "vocab-0157",
+      "meaning": "hungry",
+      "text": "お腹がすいた"
+    },
+    "vocab-0158": {
+      "conceptId": "vocab-0158",
+      "meaning": "thirsty",
+      "text": "喉が渇いた"
+    },
+    "vocab-0159": {
+      "conceptId": "vocab-0159",
+      "meaning": "bored",
+      "text": "退屈している"
+    },
+    "vocab-0160": {
+      "conceptId": "vocab-0160",
+      "meaning": "surprised",
+      "text": "驚いた"
+    },
+    "vocab-0161": {
+      "conceptId": "vocab-0161",
+      "meaning": "coat",
+      "text": "コート"
+    },
+    "vocab-0162": {
+      "conceptId": "vocab-0162",
+      "meaning": "jacket",
+      "text": "ジャケット"
+    },
+    "vocab-0163": {
+      "conceptId": "vocab-0163",
+      "meaning": "shirt",
+      "text": "シャツ"
+    },
+    "vocab-0164": {
+      "conceptId": "vocab-0164",
+      "meaning": "trousers",
+      "text": "ズボン"
+    },
+    "vocab-0165": {
+      "conceptId": "vocab-0165",
+      "meaning": "dress",
+      "text": "ワンピース"
+    },
+    "vocab-0166": {
+      "conceptId": "vocab-0166",
+      "meaning": "socks",
+      "text": "靴下"
+    },
+    "vocab-0167": {
+      "conceptId": "vocab-0167",
+      "meaning": "footwear",
+      "text": "履物"
+    },
+    "vocab-0168": {
+      "conceptId": "vocab-0168",
+      "meaning": "hat",
+      "text": "帽子"
+    },
+    "vocab-0169": {
+      "conceptId": "vocab-0169",
+      "meaning": "scarf",
+      "text": "マフラー"
+    },
+    "vocab-0170": {
+      "conceptId": "vocab-0170",
+      "meaning": "gloves",
+      "text": "手袋"
+    },
+    "vocab-0171": {
+      "conceptId": "vocab-0171",
+      "meaning": "phone",
+      "text": "電話"
+    },
+    "vocab-0172": {
+      "conceptId": "vocab-0172",
+      "meaning": "computer",
+      "text": "コンピューター"
+    },
+    "vocab-0173": {
+      "conceptId": "vocab-0173",
+      "meaning": "screen",
+      "text": "画面"
+    },
+    "vocab-0174": {
+      "conceptId": "vocab-0174",
+      "meaning": "keyboard",
+      "text": "キーボード"
+    },
+    "vocab-0175": {
+      "conceptId": "vocab-0175",
+      "meaning": "mouse",
+      "text": "マウス"
+    },
+    "vocab-0176": {
+      "conceptId": "vocab-0176",
+      "meaning": "charger",
+      "text": "充電器"
+    },
+    "vocab-0177": {
+      "conceptId": "vocab-0177",
+      "meaning": "battery",
+      "text": "電池"
+    },
+    "vocab-0178": {
+      "conceptId": "vocab-0178",
+      "meaning": "message",
+      "text": "メッセージ"
+    },
+    "vocab-0179": {
+      "conceptId": "vocab-0179",
+      "meaning": "photo",
+      "text": "写真"
+    },
+    "vocab-0180": {
+      "conceptId": "vocab-0180",
+      "meaning": "internet",
+      "text": "インターネット"
+    },
+    "vocab-0181": {
+      "conceptId": "vocab-0181",
+      "meaning": "door",
+      "text": "ドア"
+    },
+    "vocab-0182": {
+      "conceptId": "vocab-0182",
+      "meaning": "window",
+      "text": "窓"
+    },
+    "vocab-0183": {
+      "conceptId": "vocab-0183",
+      "meaning": "wall",
+      "text": "壁"
+    },
+    "vocab-0184": {
+      "conceptId": "vocab-0184",
+      "meaning": "floor",
+      "text": "床"
+    },
+    "vocab-0185": {
+      "conceptId": "vocab-0185",
+      "meaning": "ceiling",
+      "text": "天井"
+    },
+    "vocab-0186": {
+      "conceptId": "vocab-0186",
+      "meaning": "roof",
+      "text": "屋根"
+    },
+    "vocab-0187": {
+      "conceptId": "vocab-0187",
+      "meaning": "stairs",
+      "text": "階段"
+    },
+    "vocab-0188": {
+      "conceptId": "vocab-0188",
+      "meaning": "room",
+      "text": "部屋"
+    },
+    "vocab-0189": {
+      "conceptId": "vocab-0189",
+      "meaning": "kitchen",
+      "text": "台所"
+    },
+    "vocab-0190": {
+      "conceptId": "vocab-0190",
+      "meaning": "bathroom",
+      "text": "浴室"
+    },
+    "vocab-0191": {
+      "conceptId": "vocab-0191",
+      "meaning": "bed",
+      "text": "ベッド"
+    },
+    "vocab-0192": {
+      "conceptId": "vocab-0192",
+      "meaning": "table",
+      "text": "テーブル"
+    },
+    "vocab-0193": {
+      "conceptId": "vocab-0193",
+      "meaning": "sofa",
+      "text": "ソファー"
+    },
+    "vocab-0194": {
+      "conceptId": "vocab-0194",
+      "meaning": "wardrobe",
+      "text": "洋服だんす"
+    },
+    "vocab-0195": {
+      "conceptId": "vocab-0195",
+      "meaning": "shelf",
+      "text": "棚"
+    },
+    "vocab-0196": {
+      "conceptId": "vocab-0196",
+      "meaning": "mirror",
+      "text": "鏡"
+    },
+    "vocab-0197": {
+      "conceptId": "vocab-0197",
+      "meaning": "lamp",
+      "text": "ランプ"
+    },
+    "vocab-0198": {
+      "conceptId": "vocab-0198",
+      "meaning": "carpet",
+      "text": "じゅうたん"
+    },
+    "vocab-0199": {
+      "conceptId": "vocab-0199",
+      "meaning": "blanket",
+      "text": "毛布"
+    },
+    "vocab-0200": {
+      "conceptId": "vocab-0200",
+      "meaning": "pillow",
+      "text": "枕"
+    },
+    "vocab-0201": {
+      "conceptId": "vocab-0201",
+      "meaning": "plate",
+      "text": "皿"
+    },
+    "vocab-0202": {
+      "conceptId": "vocab-0202",
+      "meaning": "cup",
+      "text": "カップ"
+    },
+    "vocab-0203": {
+      "conceptId": "vocab-0203",
+      "meaning": "glass",
+      "text": "ガラスのコップ"
+    },
+    "vocab-0204": {
+      "conceptId": "vocab-0204",
+      "meaning": "bowl",
+      "text": "ボウル"
+    },
+    "vocab-0205": {
+      "conceptId": "vocab-0205",
+      "meaning": "spoon",
+      "text": "スプーン"
+    },
+    "vocab-0206": {
+      "conceptId": "vocab-0206",
+      "meaning": "fork",
+      "text": "フォーク"
+    },
+    "vocab-0207": {
+      "conceptId": "vocab-0207",
+      "meaning": "knife",
+      "text": "ナイフ"
+    },
+    "vocab-0208": {
+      "conceptId": "vocab-0208",
+      "meaning": "bottle",
+      "text": "瓶"
+    },
+    "vocab-0209": {
+      "conceptId": "vocab-0209",
+      "meaning": "pot",
+      "text": "鍋"
+    },
+    "vocab-0210": {
+      "conceptId": "vocab-0210",
+      "meaning": "pan",
+      "text": "フライパン"
+    },
+    "vocab-0211": {
+      "conceptId": "vocab-0211",
+      "meaning": "soap",
+      "text": "石けん"
+    },
+    "vocab-0212": {
+      "conceptId": "vocab-0212",
+      "meaning": "towel",
+      "text": "タオル"
+    },
+    "vocab-0213": {
+      "conceptId": "vocab-0213",
+      "meaning": "toothbrush",
+      "text": "歯ブラシ"
+    },
+    "vocab-0214": {
+      "conceptId": "vocab-0214",
+      "meaning": "toothpaste",
+      "text": "歯磨き粉"
+    },
+    "vocab-0215": {
+      "conceptId": "vocab-0215",
+      "meaning": "shampoo",
+      "text": "シャンプー"
+    },
+    "vocab-0216": {
+      "conceptId": "vocab-0216",
+      "meaning": "comb",
+      "text": "くし"
+    },
+    "vocab-0217": {
+      "conceptId": "vocab-0217",
+      "meaning": "shower",
+      "text": "シャワー"
+    },
+    "vocab-0218": {
+      "conceptId": "vocab-0218",
+      "meaning": "bath",
+      "text": "風呂"
+    },
+    "vocab-0219": {
+      "conceptId": "vocab-0219",
+      "meaning": "toilet paper",
+      "text": "トイレットペーパー"
+    },
+    "vocab-0220": {
+      "conceptId": "vocab-0220",
+      "meaning": "tissue",
+      "text": "ティッシュ"
+    },
+    "vocab-0221": {
+      "conceptId": "vocab-0221",
+      "meaning": "pear",
+      "text": "梨"
+    },
+    "vocab-0222": {
+      "conceptId": "vocab-0222",
+      "meaning": "orange",
+      "text": "オレンジ"
+    },
+    "vocab-0223": {
+      "conceptId": "vocab-0223",
+      "meaning": "lemon",
+      "text": "レモン"
+    },
+    "vocab-0224": {
+      "conceptId": "vocab-0224",
+      "meaning": "grapes",
+      "text": "ぶどう"
+    },
+    "vocab-0225": {
+      "conceptId": "vocab-0225",
+      "meaning": "strawberry",
+      "text": "いちご"
+    },
+    "vocab-0226": {
+      "conceptId": "vocab-0226",
+      "meaning": "raspberry",
+      "text": "ラズベリー"
+    },
+    "vocab-0227": {
+      "conceptId": "vocab-0227",
+      "meaning": "cherry",
+      "text": "さくらんぼ"
+    },
+    "vocab-0228": {
+      "conceptId": "vocab-0228",
+      "meaning": "plum",
+      "text": "すもも"
+    },
+    "vocab-0229": {
+      "conceptId": "vocab-0229",
+      "meaning": "peach",
+      "text": "桃"
+    },
+    "vocab-0230": {
+      "conceptId": "vocab-0230",
+      "meaning": "watermelon",
+      "text": "すいか"
+    },
+    "vocab-0231": {
+      "conceptId": "vocab-0231",
+      "meaning": "potato",
+      "text": "じゃがいも"
+    },
+    "vocab-0232": {
+      "conceptId": "vocab-0232",
+      "meaning": "carrot",
+      "text": "にんじん"
+    },
+    "vocab-0233": {
+      "conceptId": "vocab-0233",
+      "meaning": "tomato",
+      "text": "トマト"
+    },
+    "vocab-0234": {
+      "conceptId": "vocab-0234",
+      "meaning": "cucumber",
+      "text": "きゅうり"
+    },
+    "vocab-0235": {
+      "conceptId": "vocab-0235",
+      "meaning": "onion",
+      "text": "玉ねぎ"
+    },
+    "vocab-0236": {
+      "conceptId": "vocab-0236",
+      "meaning": "garlic",
+      "text": "にんにく"
+    },
+    "vocab-0237": {
+      "conceptId": "vocab-0237",
+      "meaning": "cabbage",
+      "text": "キャベツ"
+    },
+    "vocab-0238": {
+      "conceptId": "vocab-0238",
+      "meaning": "pepper",
+      "text": "ピーマン"
+    },
+    "vocab-0239": {
+      "conceptId": "vocab-0239",
+      "meaning": "peas",
+      "text": "えんどう豆"
+    },
+    "vocab-0240": {
+      "conceptId": "vocab-0240",
+      "meaning": "beans",
+      "text": "豆"
+    },
+    "vocab-0241": {
+      "conceptId": "vocab-0241",
+      "meaning": "rice",
+      "text": "米"
+    },
+    "vocab-0242": {
+      "conceptId": "vocab-0242",
+      "meaning": "pasta",
+      "text": "パスタ"
+    },
+    "vocab-0243": {
+      "conceptId": "vocab-0243",
+      "meaning": "meat",
+      "text": "肉"
+    },
+    "vocab-0244": {
+      "conceptId": "vocab-0244",
+      "meaning": "chicken meat",
+      "text": "鶏肉"
+    },
+    "vocab-0245": {
+      "conceptId": "vocab-0245",
+      "meaning": "fish",
+      "text": "魚"
+    },
+    "vocab-0246": {
+      "conceptId": "vocab-0246",
+      "meaning": "egg",
+      "text": "卵"
+    },
+    "vocab-0247": {
+      "conceptId": "vocab-0247",
+      "meaning": "butter",
+      "text": "バター"
+    },
+    "vocab-0248": {
+      "conceptId": "vocab-0248",
+      "meaning": "yogurt",
+      "text": "ヨーグルト"
+    },
+    "vocab-0249": {
+      "conceptId": "vocab-0249",
+      "meaning": "salt",
+      "text": "塩"
+    },
+    "vocab-0250": {
+      "conceptId": "vocab-0250",
+      "meaning": "sugar",
+      "text": "砂糖"
+    },
+    "vocab-0251": {
+      "conceptId": "vocab-0251",
+      "meaning": "lunch",
+      "text": "昼食"
+    },
+    "vocab-0252": {
+      "conceptId": "vocab-0252",
+      "meaning": "dinner",
+      "text": "夕食"
+    },
+    "vocab-0253": {
+      "conceptId": "vocab-0253",
+      "meaning": "snack",
+      "text": "おやつ"
+    },
+    "vocab-0254": {
+      "conceptId": "vocab-0254",
+      "meaning": "sandwich",
+      "text": "サンドイッチ"
+    },
+    "vocab-0255": {
+      "conceptId": "vocab-0255",
+      "meaning": "salad",
+      "text": "サラダ"
+    },
+    "vocab-0256": {
+      "conceptId": "vocab-0256",
+      "meaning": "porridge",
+      "text": "おかゆ"
+    },
+    "vocab-0257": {
+      "conceptId": "vocab-0257",
+      "meaning": "cereal",
+      "text": "シリアル"
+    },
+    "vocab-0258": {
+      "conceptId": "vocab-0258",
+      "meaning": "pancake",
+      "text": "パンケーキ"
+    },
+    "vocab-0259": {
+      "conceptId": "vocab-0259",
+      "meaning": "cake",
+      "text": "ケーキ"
+    },
+    "vocab-0260": {
+      "conceptId": "vocab-0260",
+      "meaning": "ice cream",
+      "text": "アイスクリーム"
+    },
+    "vocab-0261": {
+      "conceptId": "vocab-0261",
+      "meaning": "please help",
+      "text": "助けてください"
+    },
+    "vocab-0262": {
+      "conceptId": "vocab-0262",
+      "meaning": "a little more",
+      "text": "もう少し"
+    },
+    "vocab-0263": {
+      "conceptId": "vocab-0263",
+      "meaning": "more slowly",
+      "text": "もっとゆっくり"
+    },
+    "vocab-0264": {
+      "conceptId": "vocab-0264",
+      "meaning": "not now",
+      "text": "今はだめ"
+    },
+    "vocab-0265": {
+      "conceptId": "vocab-0265",
+      "meaning": "no thank you",
+      "text": "いいえ結構です"
+    },
+    "vocab-0266": {
+      "conceptId": "vocab-0266",
+      "meaning": "excuse me",
+      "text": "すみません"
+    },
+    "vocab-0267": {
+      "conceptId": "vocab-0267",
+      "meaning": "good luck",
+      "text": "頑張って"
+    },
+    "vocab-0268": {
+      "conceptId": "vocab-0268",
+      "meaning": "well done",
+      "text": "よくできました"
+    },
+    "vocab-0269": {
+      "conceptId": "vocab-0269",
+      "meaning": "good afternoon",
+      "text": "こんにちは"
+    },
+    "vocab-0270": {
+      "conceptId": "vocab-0270",
+      "meaning": "with pleasure",
+      "text": "喜んで"
+    },
+    "vocab-0271": {
+      "conceptId": "vocab-0271",
+      "meaning": "money",
+      "text": "お金"
+    },
+    "vocab-0272": {
+      "conceptId": "vocab-0272",
+      "meaning": "price",
+      "text": "値段"
+    },
+    "vocab-0273": {
+      "conceptId": "vocab-0273",
+      "meaning": "change",
+      "text": "お釣り"
+    },
+    "vocab-0274": {
+      "conceptId": "vocab-0274",
+      "meaning": "receipt",
+      "text": "レシート"
+    },
+    "vocab-0275": {
+      "conceptId": "vocab-0275",
+      "meaning": "checkout",
+      "text": "レジ"
+    },
+    "vocab-0276": {
+      "conceptId": "vocab-0276",
+      "meaning": "basket",
+      "text": "かご"
+    },
+    "vocab-0277": {
+      "conceptId": "vocab-0277",
+      "meaning": "bag",
+      "text": "袋"
+    },
+    "vocab-0278": {
+      "conceptId": "vocab-0278",
+      "meaning": "size",
+      "text": "サイズ"
+    },
+    "vocab-0279": {
+      "conceptId": "vocab-0279",
+      "meaning": "discount",
+      "text": "割引"
+    },
+    "vocab-0280": {
+      "conceptId": "vocab-0280",
+      "meaning": "card",
+      "text": "カード"
+    },
+    "vocab-0281": {
+      "conceptId": "vocab-0281",
+      "meaning": "zero",
+      "text": "零"
+    },
+    "vocab-0282": {
+      "conceptId": "vocab-0282",
+      "meaning": "eleven",
+      "text": "十一"
+    },
+    "vocab-0283": {
+      "conceptId": "vocab-0283",
+      "meaning": "twelve",
+      "text": "十二"
+    },
+    "vocab-0284": {
+      "conceptId": "vocab-0284",
+      "meaning": "thirteen",
+      "text": "十三"
+    },
+    "vocab-0285": {
+      "conceptId": "vocab-0285",
+      "meaning": "fourteen",
+      "text": "十四"
+    },
+    "vocab-0286": {
+      "conceptId": "vocab-0286",
+      "meaning": "fifteen",
+      "text": "十五"
+    },
+    "vocab-0287": {
+      "conceptId": "vocab-0287",
+      "meaning": "sixteen",
+      "text": "十六"
+    },
+    "vocab-0288": {
+      "conceptId": "vocab-0288",
+      "meaning": "seventeen",
+      "text": "十七"
+    },
+    "vocab-0289": {
+      "conceptId": "vocab-0289",
+      "meaning": "eighteen",
+      "text": "十八"
+    },
+    "vocab-0290": {
+      "conceptId": "vocab-0290",
+      "meaning": "nineteen",
+      "text": "十九"
+    },
+    "vocab-0291": {
+      "conceptId": "vocab-0291",
+      "meaning": "twenty",
+      "text": "二十"
+    },
+    "vocab-0292": {
+      "conceptId": "vocab-0292",
+      "meaning": "thirty",
+      "text": "三十"
+    },
+    "vocab-0293": {
+      "conceptId": "vocab-0293",
+      "meaning": "forty",
+      "text": "四十"
+    },
+    "vocab-0294": {
+      "conceptId": "vocab-0294",
+      "meaning": "fifty",
+      "text": "五十"
+    },
+    "vocab-0295": {
+      "conceptId": "vocab-0295",
+      "meaning": "sixty",
+      "text": "六十"
+    },
+    "vocab-0296": {
+      "conceptId": "vocab-0296",
+      "meaning": "seventy",
+      "text": "七十"
+    },
+    "vocab-0297": {
+      "conceptId": "vocab-0297",
+      "meaning": "eighty",
+      "text": "八十"
+    },
+    "vocab-0298": {
+      "conceptId": "vocab-0298",
+      "meaning": "ninety",
+      "text": "九十"
+    },
+    "vocab-0299": {
+      "conceptId": "vocab-0299",
+      "meaning": "hundred",
+      "text": "百"
+    },
+    "vocab-0300": {
+      "conceptId": "vocab-0300",
+      "meaning": "thousand",
+      "text": "千"
+    },
+    "vocab-0301": {
+      "conceptId": "vocab-0301",
+      "meaning": "day",
+      "text": "日"
+    },
+    "vocab-0302": {
+      "conceptId": "vocab-0302",
+      "meaning": "night",
+      "text": "夜"
+    },
+    "vocab-0303": {
+      "conceptId": "vocab-0303",
+      "meaning": "morning",
+      "text": "朝"
+    },
+    "vocab-0304": {
+      "conceptId": "vocab-0304",
+      "meaning": "evening",
+      "text": "夕方"
+    },
+    "vocab-0305": {
+      "conceptId": "vocab-0305",
+      "meaning": "today",
+      "text": "今日"
+    },
+    "vocab-0306": {
+      "conceptId": "vocab-0306",
+      "meaning": "tomorrow",
+      "text": "明日"
+    },
+    "vocab-0307": {
+      "conceptId": "vocab-0307",
+      "meaning": "yesterday",
+      "text": "昨日"
+    },
+    "vocab-0308": {
+      "conceptId": "vocab-0308",
+      "meaning": "week",
+      "text": "週"
+    },
+    "vocab-0309": {
+      "conceptId": "vocab-0309",
+      "meaning": "month",
+      "text": "月"
+    },
+    "vocab-0310": {
+      "conceptId": "vocab-0310",
+      "meaning": "year",
+      "text": "年"
+    },
+    "vocab-0311": {
+      "conceptId": "vocab-0311",
+      "meaning": "Monday",
+      "text": "月曜日"
+    },
+    "vocab-0312": {
+      "conceptId": "vocab-0312",
+      "meaning": "Tuesday",
+      "text": "火曜日"
+    },
+    "vocab-0313": {
+      "conceptId": "vocab-0313",
+      "meaning": "Wednesday",
+      "text": "水曜日"
+    },
+    "vocab-0314": {
+      "conceptId": "vocab-0314",
+      "meaning": "Thursday",
+      "text": "木曜日"
+    },
+    "vocab-0315": {
+      "conceptId": "vocab-0315",
+      "meaning": "Friday",
+      "text": "金曜日"
+    },
+    "vocab-0316": {
+      "conceptId": "vocab-0316",
+      "meaning": "Saturday",
+      "text": "土曜日"
+    },
+    "vocab-0317": {
+      "conceptId": "vocab-0317",
+      "meaning": "Sunday",
+      "text": "日曜日"
+    },
+    "vocab-0318": {
+      "conceptId": "vocab-0318",
+      "meaning": "weekend",
+      "text": "週末"
+    },
+    "vocab-0319": {
+      "conceptId": "vocab-0319",
+      "meaning": "hour",
+      "text": "時間"
+    },
+    "vocab-0320": {
+      "conceptId": "vocab-0320",
+      "meaning": "minute",
+      "text": "分"
+    },
+    "vocab-0321": {
+      "conceptId": "vocab-0321",
+      "meaning": "January",
+      "text": "一月"
+    },
+    "vocab-0322": {
+      "conceptId": "vocab-0322",
+      "meaning": "February",
+      "text": "二月"
+    },
+    "vocab-0323": {
+      "conceptId": "vocab-0323",
+      "meaning": "March",
+      "text": "三月"
+    },
+    "vocab-0324": {
+      "conceptId": "vocab-0324",
+      "meaning": "April",
+      "text": "四月"
+    },
+    "vocab-0325": {
+      "conceptId": "vocab-0325",
+      "meaning": "May",
+      "text": "五月"
+    },
+    "vocab-0326": {
+      "conceptId": "vocab-0326",
+      "meaning": "June",
+      "text": "六月"
+    },
+    "vocab-0327": {
+      "conceptId": "vocab-0327",
+      "meaning": "July",
+      "text": "七月"
+    },
+    "vocab-0328": {
+      "conceptId": "vocab-0328",
+      "meaning": "August",
+      "text": "八月"
+    },
+    "vocab-0329": {
+      "conceptId": "vocab-0329",
+      "meaning": "September",
+      "text": "九月"
+    },
+    "vocab-0330": {
+      "conceptId": "vocab-0330",
+      "meaning": "October",
+      "text": "十月"
+    },
+    "vocab-0331": {
+      "conceptId": "vocab-0331",
+      "meaning": "November",
+      "text": "十一月"
+    },
+    "vocab-0332": {
+      "conceptId": "vocab-0332",
+      "meaning": "December",
+      "text": "十二月"
+    },
+    "vocab-0333": {
+      "conceptId": "vocab-0333",
+      "meaning": "spring",
+      "text": "春"
+    },
+    "vocab-0334": {
+      "conceptId": "vocab-0334",
+      "meaning": "summer",
+      "text": "夏"
+    },
+    "vocab-0335": {
+      "conceptId": "vocab-0335",
+      "meaning": "autumn",
+      "text": "秋"
+    },
+    "vocab-0336": {
+      "conceptId": "vocab-0336",
+      "meaning": "winter",
+      "text": "冬"
+    },
+    "vocab-0337": {
+      "conceptId": "vocab-0337",
+      "meaning": "season",
+      "text": "季節"
+    },
+    "vocab-0338": {
+      "conceptId": "vocab-0338",
+      "meaning": "weather",
+      "text": "天気"
+    },
+    "vocab-0339": {
+      "conceptId": "vocab-0339",
+      "meaning": "sun",
+      "text": "太陽"
+    },
+    "vocab-0340": {
+      "conceptId": "vocab-0340",
+      "meaning": "moon",
+      "text": "お月さま"
+    },
+    "vocab-0341": {
+      "conceptId": "vocab-0341",
+      "meaning": "rain",
+      "text": "雨"
+    },
+    "vocab-0342": {
+      "conceptId": "vocab-0342",
+      "meaning": "snow",
+      "text": "雪"
+    },
+    "vocab-0343": {
+      "conceptId": "vocab-0343",
+      "meaning": "wind",
+      "text": "風"
+    },
+    "vocab-0344": {
+      "conceptId": "vocab-0344",
+      "meaning": "cloud",
+      "text": "雲"
+    },
+    "vocab-0345": {
+      "conceptId": "vocab-0345",
+      "meaning": "fog",
+      "text": "霧"
+    },
+    "vocab-0346": {
+      "conceptId": "vocab-0346",
+      "meaning": "ice",
+      "text": "氷"
+    },
+    "vocab-0347": {
+      "conceptId": "vocab-0347",
+      "meaning": "thunder",
+      "text": "雷"
+    },
+    "vocab-0348": {
+      "conceptId": "vocab-0348",
+      "meaning": "storm",
+      "text": "嵐"
+    },
+    "vocab-0349": {
+      "conceptId": "vocab-0349",
+      "meaning": "rainbow",
+      "text": "虹"
+    },
+    "vocab-0350": {
+      "conceptId": "vocab-0350",
+      "meaning": "temperature",
+      "text": "気温"
+    },
+    "vocab-0351": {
+      "conceptId": "vocab-0351",
+      "meaning": "tree",
+      "text": "木"
+    },
+    "vocab-0352": {
+      "conceptId": "vocab-0352",
+      "meaning": "flower",
+      "text": "花"
+    },
+    "vocab-0353": {
+      "conceptId": "vocab-0353",
+      "meaning": "grass",
+      "text": "草"
+    },
+    "vocab-0354": {
+      "conceptId": "vocab-0354",
+      "meaning": "leaf",
+      "text": "葉"
+    },
+    "vocab-0355": {
+      "conceptId": "vocab-0355",
+      "meaning": "forest",
+      "text": "森"
+    },
+    "vocab-0356": {
+      "conceptId": "vocab-0356",
+      "meaning": "river",
+      "text": "川"
+    },
+    "vocab-0357": {
+      "conceptId": "vocab-0357",
+      "meaning": "lake",
+      "text": "湖"
+    },
+    "vocab-0358": {
+      "conceptId": "vocab-0358",
+      "meaning": "sea",
+      "text": "海"
+    },
+    "vocab-0359": {
+      "conceptId": "vocab-0359",
+      "meaning": "beach",
+      "text": "浜辺"
+    },
+    "vocab-0360": {
+      "conceptId": "vocab-0360",
+      "meaning": "stone",
+      "text": "石"
+    },
+    "vocab-0361": {
+      "conceptId": "vocab-0361",
+      "meaning": "dog",
+      "text": "犬"
+    },
+    "vocab-0362": {
+      "conceptId": "vocab-0362",
+      "meaning": "cat",
+      "text": "猫"
+    },
+    "vocab-0363": {
+      "conceptId": "vocab-0363",
+      "meaning": "horse",
+      "text": "馬"
+    },
+    "vocab-0364": {
+      "conceptId": "vocab-0364",
+      "meaning": "cow",
+      "text": "牛"
+    },
+    "vocab-0365": {
+      "conceptId": "vocab-0365",
+      "meaning": "pig",
+      "text": "豚"
+    },
+    "vocab-0366": {
+      "conceptId": "vocab-0366",
+      "meaning": "sheep",
+      "text": "羊"
+    },
+    "vocab-0367": {
+      "conceptId": "vocab-0367",
+      "meaning": "goat",
+      "text": "ヤギ"
+    },
+    "vocab-0368": {
+      "conceptId": "vocab-0368",
+      "meaning": "hen",
+      "text": "めんどり"
+    },
+    "vocab-0369": {
+      "conceptId": "vocab-0369",
+      "meaning": "duck",
+      "text": "アヒル"
+    },
+    "vocab-0370": {
+      "conceptId": "vocab-0370",
+      "meaning": "bird",
+      "text": "鳥"
+    },
+    "vocab-0371": {
+      "conceptId": "vocab-0371",
+      "meaning": "bus",
+      "text": "バス"
+    },
+    "vocab-0372": {
+      "conceptId": "vocab-0372",
+      "meaning": "tram",
+      "text": "路面電車"
+    },
+    "vocab-0373": {
+      "conceptId": "vocab-0373",
+      "meaning": "trolleybus",
+      "text": "トロリーバス"
+    },
+    "vocab-0374": {
+      "conceptId": "vocab-0374",
+      "meaning": "train",
+      "text": "列車"
+    },
+    "vocab-0375": {
+      "conceptId": "vocab-0375",
+      "meaning": "car",
+      "text": "車"
+    },
+    "vocab-0376": {
+      "conceptId": "vocab-0376",
+      "meaning": "bicycle",
+      "text": "自転車"
+    },
+    "vocab-0377": {
+      "conceptId": "vocab-0377",
+      "meaning": "taxi",
+      "text": "タクシー"
+    },
+    "vocab-0378": {
+      "conceptId": "vocab-0378",
+      "meaning": "station",
+      "text": "駅"
+    },
+    "vocab-0379": {
+      "conceptId": "vocab-0379",
+      "meaning": "airport",
+      "text": "空港"
+    },
+    "vocab-0380": {
+      "conceptId": "vocab-0380",
+      "meaning": "ticket",
+      "text": "切符"
+    },
+    "vocab-0381": {
+      "conceptId": "vocab-0381",
+      "meaning": "road",
+      "text": "道路"
+    },
+    "vocab-0382": {
+      "conceptId": "vocab-0382",
+      "meaning": "bridge",
+      "text": "橋"
+    },
+    "vocab-0383": {
+      "conceptId": "vocab-0383",
+      "meaning": "pedestrian crossing",
+      "text": "横断歩道"
+    },
+    "vocab-0384": {
+      "conceptId": "vocab-0384",
+      "meaning": "traffic lights",
+      "text": "信号機"
+    },
+    "vocab-0385": {
+      "conceptId": "vocab-0385",
+      "meaning": "pavement",
+      "text": "歩道"
+    },
+    "vocab-0386": {
+      "conceptId": "vocab-0386",
+      "meaning": "corner",
+      "text": "角"
+    },
+    "vocab-0387": {
+      "conceptId": "vocab-0387",
+      "meaning": "square",
+      "text": "広場"
+    },
+    "vocab-0388": {
+      "conceptId": "vocab-0388",
+      "meaning": "centre",
+      "text": "中心"
+    },
+    "vocab-0389": {
+      "conceptId": "vocab-0389",
+      "meaning": "address",
+      "text": "住所"
+    },
+    "vocab-0390": {
+      "conceptId": "vocab-0390",
+      "meaning": "city map",
+      "text": "市街地図"
+    },
+    "vocab-0391": {
+      "conceptId": "vocab-0391",
+      "meaning": "schoolbag",
+      "text": "通学かばん"
+    },
+    "vocab-0392": {
+      "conceptId": "vocab-0392",
+      "meaning": "ruler",
+      "text": "定規"
+    },
+    "vocab-0393": {
+      "conceptId": "vocab-0393",
+      "meaning": "eraser",
+      "text": "消しゴム"
+    },
+    "vocab-0394": {
+      "conceptId": "vocab-0394",
+      "meaning": "scissors",
+      "text": "はさみ"
+    },
+    "vocab-0395": {
+      "conceptId": "vocab-0395",
+      "meaning": "glue",
+      "text": "のり"
+    },
+    "vocab-0396": {
+      "conceptId": "vocab-0396",
+      "meaning": "paper",
+      "text": "紙"
+    },
+    "vocab-0397": {
+      "conceptId": "vocab-0397",
+      "meaning": "paint",
+      "text": "絵の具"
+    },
+    "vocab-0398": {
+      "conceptId": "vocab-0398",
+      "meaning": "brush",
+      "text": "筆"
+    },
+    "vocab-0399": {
+      "conceptId": "vocab-0399",
+      "meaning": "drawing",
+      "text": "絵"
+    },
+    "vocab-0400": {
+      "conceptId": "vocab-0400",
+      "meaning": "homework",
+      "text": "宿題"
+    },
+    "vocab-0401": {
+      "conceptId": "vocab-0401",
+      "meaning": "letter",
+      "text": "文字"
+    },
+    "vocab-0402": {
+      "conceptId": "vocab-0402",
+      "meaning": "word",
+      "text": "単語"
+    },
+    "vocab-0403": {
+      "conceptId": "vocab-0403",
+      "meaning": "phrase",
+      "text": "語句"
+    },
+    "vocab-0404": {
+      "conceptId": "vocab-0404",
+      "meaning": "sentence",
+      "text": "文"
+    },
+    "vocab-0405": {
+      "conceptId": "vocab-0405",
+      "meaning": "question",
+      "text": "質問"
+    },
+    "vocab-0406": {
+      "conceptId": "vocab-0406",
+      "meaning": "answer",
+      "text": "答え"
+    },
+    "vocab-0407": {
+      "conceptId": "vocab-0407",
+      "meaning": "page",
+      "text": "ページ"
+    },
+    "vocab-0408": {
+      "conceptId": "vocab-0408",
+      "meaning": "exercise",
+      "text": "練習問題"
+    },
+    "vocab-0409": {
+      "conceptId": "vocab-0409",
+      "meaning": "example",
+      "text": "例"
+    },
+    "vocab-0410": {
+      "conceptId": "vocab-0410",
+      "meaning": "mistake",
+      "text": "間違い"
+    },
+    "vocab-0411": {
+      "conceptId": "vocab-0411",
+      "meaning": "to go",
+      "text": "行く"
+    },
+    "vocab-0412": {
+      "conceptId": "vocab-0412",
+      "meaning": "to come",
+      "text": "来る"
+    },
+    "vocab-0413": {
+      "conceptId": "vocab-0413",
+      "meaning": "to walk",
+      "text": "歩く"
+    },
+    "vocab-0414": {
+      "conceptId": "vocab-0414",
+      "meaning": "to run",
+      "text": "走る"
+    },
+    "vocab-0415": {
+      "conceptId": "vocab-0415",
+      "meaning": "to sit",
+      "text": "座る"
+    },
+    "vocab-0416": {
+      "conceptId": "vocab-0416",
+      "meaning": "to stand",
+      "text": "立つ"
+    },
+    "vocab-0417": {
+      "conceptId": "vocab-0417",
+      "meaning": "to sleep",
+      "text": "寝る"
+    },
+    "vocab-0418": {
+      "conceptId": "vocab-0418",
+      "meaning": "to wake up",
+      "text": "起きる"
+    },
+    "vocab-0419": {
+      "conceptId": "vocab-0419",
+      "meaning": "to eat",
+      "text": "食べる"
+    },
+    "vocab-0420": {
+      "conceptId": "vocab-0420",
+      "meaning": "to drink",
+      "text": "飲む"
+    },
+    "vocab-0421": {
+      "conceptId": "vocab-0421",
+      "meaning": "to speak a language",
+      "text": "言語を話す"
+    },
+    "vocab-0422": {
+      "conceptId": "vocab-0422",
+      "meaning": "to say a word",
+      "text": "言葉を言う"
+    },
+    "vocab-0423": {
+      "conceptId": "vocab-0423",
+      "meaning": "to ask",
+      "text": "尋ねる"
+    },
+    "vocab-0424": {
+      "conceptId": "vocab-0424",
+      "meaning": "to answer",
+      "text": "答える"
+    },
+    "vocab-0425": {
+      "conceptId": "vocab-0425",
+      "meaning": "to listen",
+      "text": "耳を傾ける"
+    },
+    "vocab-0426": {
+      "conceptId": "vocab-0426",
+      "meaning": "to hear",
+      "text": "聞こえる"
+    },
+    "vocab-0427": {
+      "conceptId": "vocab-0427",
+      "meaning": "to read",
+      "text": "読む"
+    },
+    "vocab-0428": {
+      "conceptId": "vocab-0428",
+      "meaning": "to write",
+      "text": "書く"
+    },
+    "vocab-0429": {
+      "conceptId": "vocab-0429",
+      "meaning": "to learn",
+      "text": "学ぶ"
+    },
+    "vocab-0430": {
+      "conceptId": "vocab-0430",
+      "meaning": "to understand",
+      "text": "理解する"
+    },
+    "vocab-0431": {
+      "conceptId": "vocab-0431",
+      "meaning": "to see",
+      "text": "見える"
+    },
+    "vocab-0432": {
+      "conceptId": "vocab-0432",
+      "meaning": "to look at",
+      "text": "目を向ける"
+    },
+    "vocab-0433": {
+      "conceptId": "vocab-0433",
+      "meaning": "to watch",
+      "text": "観る"
+    },
+    "vocab-0434": {
+      "conceptId": "vocab-0434",
+      "meaning": "to find",
+      "text": "見つける"
+    },
+    "vocab-0435": {
+      "conceptId": "vocab-0435",
+      "meaning": "to search",
+      "text": "探す"
+    },
+    "vocab-0436": {
+      "conceptId": "vocab-0436",
+      "meaning": "to take",
+      "text": "取る"
+    },
+    "vocab-0437": {
+      "conceptId": "vocab-0437",
+      "meaning": "to give",
+      "text": "与える"
+    },
+    "vocab-0438": {
+      "conceptId": "vocab-0438",
+      "meaning": "to bring",
+      "text": "持ってくる"
+    },
+    "vocab-0439": {
+      "conceptId": "vocab-0439",
+      "meaning": "to buy",
+      "text": "買う"
+    },
+    "vocab-0440": {
+      "conceptId": "vocab-0440",
+      "meaning": "to pay",
+      "text": "払う"
+    },
+    "vocab-0441": {
+      "conceptId": "vocab-0441",
+      "meaning": "to open",
+      "text": "開ける"
+    },
+    "vocab-0442": {
+      "conceptId": "vocab-0442",
+      "meaning": "to close",
+      "text": "閉める"
+    },
+    "vocab-0443": {
+      "conceptId": "vocab-0443",
+      "meaning": "to start",
+      "text": "始める"
+    },
+    "vocab-0444": {
+      "conceptId": "vocab-0444",
+      "meaning": "to finish",
+      "text": "終える"
+    },
+    "vocab-0445": {
+      "conceptId": "vocab-0445",
+      "meaning": "to wait",
+      "text": "待つ"
+    },
+    "vocab-0446": {
+      "conceptId": "vocab-0446",
+      "meaning": "to help",
+      "text": "助ける"
+    },
+    "vocab-0447": {
+      "conceptId": "vocab-0447",
+      "meaning": "to play",
+      "text": "遊ぶ"
+    },
+    "vocab-0448": {
+      "conceptId": "vocab-0448",
+      "meaning": "to work",
+      "text": "働く"
+    },
+    "vocab-0449": {
+      "conceptId": "vocab-0449",
+      "meaning": "to wash",
+      "text": "洗う"
+    },
+    "vocab-0450": {
+      "conceptId": "vocab-0450",
+      "meaning": "to clean",
+      "text": "掃除する"
+    },
+    "vocab-0451": {
+      "conceptId": "vocab-0451",
+      "meaning": "big",
+      "text": "大きい"
+    },
+    "vocab-0452": {
+      "conceptId": "vocab-0452",
+      "meaning": "small",
+      "text": "小さい"
+    },
+    "vocab-0453": {
+      "conceptId": "vocab-0453",
+      "meaning": "long",
+      "text": "長い"
+    },
+    "vocab-0454": {
+      "conceptId": "vocab-0454",
+      "meaning": "short",
+      "text": "短い"
+    },
+    "vocab-0455": {
+      "conceptId": "vocab-0455",
+      "meaning": "wide",
+      "text": "広い"
+    },
+    "vocab-0456": {
+      "conceptId": "vocab-0456",
+      "meaning": "narrow",
+      "text": "狭い"
+    },
+    "vocab-0457": {
+      "conceptId": "vocab-0457",
+      "meaning": "high",
+      "text": "高い"
+    },
+    "vocab-0458": {
+      "conceptId": "vocab-0458",
+      "meaning": "low",
+      "text": "低い"
+    },
+    "vocab-0459": {
+      "conceptId": "vocab-0459",
+      "meaning": "heavy",
+      "text": "重い"
+    },
+    "vocab-0460": {
+      "conceptId": "vocab-0460",
+      "meaning": "light",
+      "text": "軽い"
+    },
+    "vocab-0461": {
+      "conceptId": "vocab-0461",
+      "meaning": "good",
+      "text": "良い"
+    },
+    "vocab-0462": {
+      "conceptId": "vocab-0462",
+      "meaning": "bad",
+      "text": "悪い"
+    },
+    "vocab-0463": {
+      "conceptId": "vocab-0463",
+      "meaning": "new",
+      "text": "新しい"
+    },
+    "vocab-0464": {
+      "conceptId": "vocab-0464",
+      "meaning": "old",
+      "text": "古い"
+    },
+    "vocab-0465": {
+      "conceptId": "vocab-0465",
+      "meaning": "clean",
+      "text": "きれい"
+    },
+    "vocab-0466": {
+      "conceptId": "vocab-0466",
+      "meaning": "dirty",
+      "text": "汚い"
+    },
+    "vocab-0467": {
+      "conceptId": "vocab-0467",
+      "meaning": "hot",
+      "text": "熱い"
+    },
+    "vocab-0468": {
+      "conceptId": "vocab-0468",
+      "meaning": "cold",
+      "text": "冷たい"
+    },
+    "vocab-0469": {
+      "conceptId": "vocab-0469",
+      "meaning": "warm",
+      "text": "暖かい"
+    },
+    "vocab-0470": {
+      "conceptId": "vocab-0470",
+      "meaning": "cool",
+      "text": "涼しい"
+    },
+    "vocab-0471": {
+      "conceptId": "vocab-0471",
+      "meaning": "red",
+      "text": "赤"
+    },
+    "vocab-0472": {
+      "conceptId": "vocab-0472",
+      "meaning": "blue",
+      "text": "青"
+    },
+    "vocab-0473": {
+      "conceptId": "vocab-0473",
+      "meaning": "green",
+      "text": "緑"
+    },
+    "vocab-0474": {
+      "conceptId": "vocab-0474",
+      "meaning": "yellow",
+      "text": "黄色"
+    },
+    "vocab-0475": {
+      "conceptId": "vocab-0475",
+      "meaning": "black",
+      "text": "黒"
+    },
+    "vocab-0476": {
+      "conceptId": "vocab-0476",
+      "meaning": "white",
+      "text": "白"
+    },
+    "vocab-0477": {
+      "conceptId": "vocab-0477",
+      "meaning": "grey",
+      "text": "灰色"
+    },
+    "vocab-0478": {
+      "conceptId": "vocab-0478",
+      "meaning": "brown",
+      "text": "茶色"
+    },
+    "vocab-0479": {
+      "conceptId": "vocab-0479",
+      "meaning": "pink",
+      "text": "ピンク"
+    },
+    "vocab-0480": {
+      "conceptId": "vocab-0480",
+      "meaning": "purple",
+      "text": "紫"
+    },
+    "vocab-0481": {
+      "conceptId": "vocab-0481",
+      "meaning": "and",
+      "text": "そして"
+    },
+    "vocab-0482": {
+      "conceptId": "vocab-0482",
+      "meaning": "or",
+      "text": "または"
+    },
+    "vocab-0483": {
+      "conceptId": "vocab-0483",
+      "meaning": "but",
+      "text": "しかし"
+    },
+    "vocab-0484": {
+      "conceptId": "vocab-0484",
+      "meaning": "because",
+      "text": "なぜなら"
+    },
+    "vocab-0485": {
+      "conceptId": "vocab-0485",
+      "meaning": "with me",
+      "text": "私と一緒に"
+    },
+    "vocab-0486": {
+      "conceptId": "vocab-0486",
+      "meaning": "without me",
+      "text": "私なしで"
+    },
+    "vocab-0487": {
+      "conceptId": "vocab-0487",
+      "meaning": "for you",
+      "text": "あなたのために"
+    },
+    "vocab-0488": {
+      "conceptId": "vocab-0488",
+      "meaning": "from home",
+      "text": "家から"
+    },
+    "vocab-0489": {
+      "conceptId": "vocab-0489",
+      "meaning": "to school",
+      "text": "学校へ"
+    },
+    "vocab-0490": {
+      "conceptId": "vocab-0490",
+      "meaning": "between us",
+      "text": "私たちの間に"
+    },
+    "vocab-0491": {
+      "conceptId": "vocab-0491",
+      "meaning": "I",
+      "text": "私"
+    },
+    "vocab-0492": {
+      "conceptId": "vocab-0492",
+      "meaning": "you",
+      "text": "あなた"
+    },
+    "vocab-0493": {
+      "conceptId": "vocab-0493",
+      "meaning": "he",
+      "text": "彼"
+    },
+    "vocab-0494": {
+      "conceptId": "vocab-0494",
+      "meaning": "she",
+      "text": "彼女"
+    },
+    "vocab-0495": {
+      "conceptId": "vocab-0495",
+      "meaning": "we",
+      "text": "私たち"
+    },
+    "vocab-0496": {
+      "conceptId": "vocab-0496",
+      "meaning": "they",
+      "text": "彼ら"
+    },
+    "vocab-0497": {
+      "conceptId": "vocab-0497",
+      "meaning": "this",
+      "text": "これ"
+    },
+    "vocab-0498": {
+      "conceptId": "vocab-0498",
+      "meaning": "that",
+      "text": "それ"
+    },
+    "vocab-0499": {
+      "conceptId": "vocab-0499",
+      "meaning": "everything",
+      "text": "すべて"
+    },
+    "vocab-0500": {
+      "conceptId": "vocab-0500",
+      "meaning": "nothing",
+      "text": "何もない"
+    },
+    "vocab-0501": {
+      "conceptId": "vocab-0501",
+      "meaning": "I need help",
+      "text": "助けが必要です"
+    },
+    "vocab-0502": {
+      "conceptId": "vocab-0502",
+      "meaning": "I need water",
+      "text": "水が必要です"
+    },
+    "vocab-0503": {
+      "conceptId": "vocab-0503",
+      "meaning": "I need a doctor",
+      "text": "医者が必要です"
+    },
+    "vocab-0504": {
+      "conceptId": "vocab-0504",
+      "meaning": "I don't understand",
+      "text": "分かりません"
+    },
+    "vocab-0505": {
+      "conceptId": "vocab-0505",
+      "meaning": "please call an ambulance",
+      "text": "救急車を呼んでください"
+    },
+    "vocab-0506": {
+      "conceptId": "vocab-0506",
+      "meaning": "please call the police",
+      "text": "警察を呼んでください"
+    },
+    "vocab-0507": {
+      "conceptId": "vocab-0507",
+      "meaning": "allergy",
+      "text": "アレルギー"
+    },
+    "vocab-0508": {
+      "conceptId": "vocab-0508",
+      "meaning": "without milk",
+      "text": "牛乳なしで"
+    },
+    "vocab-0509": {
+      "conceptId": "vocab-0509",
+      "meaning": "without sugar",
+      "text": "砂糖なしで"
+    },
+    "vocab-0510": {
+      "conceptId": "vocab-0510",
+      "meaning": "I need medicine",
+      "text": "薬が必要です"
+    }
+  }
+}

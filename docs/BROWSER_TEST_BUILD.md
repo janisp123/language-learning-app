@@ -1,4 +1,4 @@
-# Browser test build 0.4.6
+# Browser test build 0.4.7
 
 Implemented by Codex on 2026-11-16 at the owner's explicit request for a testable app. Based on main `0eca17305e695e53e72f2bf1ab6f72fa3e04ddb6`. This is a review/test build, not a verified public release or Android app.
 
@@ -6,7 +6,7 @@ Implemented by Codex on 2026-11-16 at the owner's explicit request for a testabl
 
 Download `downloads/language-learning-test.html` and open that file in a browser. No server, network, account or installation is needed. GitHub's source viewer and raw HTML view do not run the app; save/download the actual `.html` file first. On phones that do not open local HTML, use a desktop browser or the hosted route after authorized Pages deployment.
 
-Choose any of the six directions between Latvian, Russian and English, then Start practice. Tap one of four choices. Choices lock and feedback appears immediately; after 500 ms the app automatically registers the transition and displays the next prompt, lesson or completion screen. No Continue button is used. Restart returns to lesson one. Change direction opens the direction selector and discards the current session. Reopening/refreshing starts over; nothing is saved. Ten consecutive correct selections complete a lesson; the first two mistakes in a block move one prompt backward and reset the run. The third cumulative mistake restarts lesson one/question one and clears both counters. Correct answers do not clear mistakes; block completion or restart does. Direction is preserved on automatic restart, and stale answers are rejected. Completing the final block (currently block 51) ends the session with an explicit restart action.
+Choose any of the six directions between Latvian, Russian and English, or English → Japanese, then Start practice. Japanese answers use script only with the English interface. Tap one of four choices. Choices lock and feedback appears immediately; after 500 ms the app automatically registers the transition and displays the next prompt, lesson or completion screen. No Continue button is used. Restart returns to lesson one. Change direction opens the direction selector and discards the current session. Reopening/refreshing starts over; nothing is saved. Ten consecutive correct selections complete a lesson; the first two mistakes in a block move one prompt backward and reset the run. The third cumulative mistake restarts lesson one/question one and clears both counters. Correct answers do not clear mistakes; block completion or restart does. Direction is preserved on automatic restart, and stale answers are rejected. Completing the final block (currently block 51) ends the session with an explicit restart action.
 
 The build contains 51 blocks and 510 draft items: all original 500 plus ten practical requests/restrictions. Pronouns/help come earlier and the request block is lesson 11, after 100 introductory items. Lessons unlock sequentially; the theme list cannot skip ahead. Language attributes, immediate feedback and focus on the next prompt are retained. Correction text remains until the next answer; restart/direction changes cancel stale callbacks. The speaker plays only the current prompt on request. There are no answer time limits, microphone, rewards, tracking or saved progress; see AUDIO_MODULES.md.
 
@@ -66,3 +66,8 @@ The owner asked for a runnable app rather than further brainstorming; this recor
 
 ## Current-prompt autoplay and attribution (0.4.6)
 Each displayed prompt attempts source pronunciation once, including returns after mistakes. Replay remains available after browser autoplay rejection. Prompt changes, restart, direction change and completion cancel old sound; scoring and 500 ms transitions are unchanged. Landing and learning footers credit Made by Janis Paegle 2026 with the owner profile link and preserve project source links.
+
+
+## English → Japanese (0.4.7)
+
+Exactly seven directions are offered and accepted, with no Japanese reverse or Latvian/Russian pairings. Japanese translates all existing 510 meanings and uses the same answer IDs, distractors and rules. Script-only answers and English UI match the owner preference. Each current English prompt automatically plays once through existing bundled English recordings. The explicit catalog/runtime allowlist replaces automatic combination generation; target-only language modules do not need an interface pack. Content and pronunciation remain draft pending fluent human review.
