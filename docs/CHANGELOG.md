@@ -86,3 +86,14 @@ L-004, owner bug report: landing dark mode was not passed to the separate learni
 Baseline real-browser regression reproduced the missing theme. 46 Node / 29 Python tests pass, including keyboard/source-language toggle, URL cleanup, null history state, dark answer audio, toggle during pending answer, full course completion, restart/direction/theme reset, empty storage/cookies and320/1280px layout. Independent review found no actionable issue. All content/audio/directions/scoring preserved. Browser evidence: delivery/2026-11-17-learning-theme-browser.json. Source push/review delivery/integration pending; physical-device/full-screen-reader checks not run.
 
 0.4.10 review delivery: source23f6d37 pushed on PR #17, CI44123339528 passed before stable Drive upload. Downloaded full file matches exactly; receipt delivery/2026-11-17-learning-theme-drive-sync.json. No merge/publication at this checkpoint.
+
+
+## 2026-11-17 — 0.4.11 speaker-only green feedback (Codex)
+
+L-004, explicit owner request after a phone screenshot: activating an answer speaker highlighted the full answer row through answer-option:focus-within. Removed that shared row outline and confined green focus/active styling to the speaker button. Keyboard focus remains visible on both independent buttons. Answer text, grading, audio, 500 ms transitions, source/theme behavior and all content/recordings are unchanged.
+
+The touch-browser regression reproduced the original full-row outline and now passes, checking unchanged answer text styling, green speaker cell, previous highlight clearing and keyboard focus. 46 Node /29 Python tests pass; independent review found no actionable issue. Chromium touch checks at320/390/1280px in light/dark verify actual replay without progress/feedback changes and no overflow. Receipt: delivery/2026-11-17-speaker-highlight-browser.json. Physical-phone/full-screen-reader checks remain pending. Source/review delivery/integration pending.
+
+Prior-task completion: PR #17 dark learning mode is merged ataae5147, deployed by44127976379 and passed main CI44127976406. Actual hosted phone-layout checks passed; prior evidence preserved in delivery/2026-11-17-learning-theme-deployment.json and learning-theme-hosted-browser.json.
+
+0.4.11 review delivery: source b3cd10f pushed on PR #18; CI44167704597 passed. Stable Drive upload followed source push and downloaded full bytes compare exactly; receipt delivery/2026-11-17-speaker-highlight-drive-sync.json. No merge/publication at delivery.

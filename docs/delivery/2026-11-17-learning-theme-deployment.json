@@ -1,0 +1,23 @@
+{
+  "buildVersion": "0.4.10",
+  "pullRequest": 17,
+  "mergeCommit": "aae5147b1e04653901bc687f8e1d99a013ad2104",
+  "deploymentRun": 44127976379,
+  "deploymentConclusion": "success",
+  "mainCiRun": 44127976406,
+  "mainCiConclusion": "success",
+  "appUrl": "https://janisp123.github.io/language-learning-app/learn/",
+  "verifiedDate": "2026-11-17",
+  "appSha256": "58dd376dad8eb6b93490704b4003962c81d71285bb391e86dfbc48aa5dfc9e2b",
+  "appBytes": 21387711,
+  "hostedMatchesCanonicalAndDrive": true,
+  "driveReceipt": "2026-11-17-learning-theme-drive-sync.json",
+  "hostedBrowserReceipt": "2026-11-17-learning-theme-hosted-browser.json",
+  "status": {
+    "implemented": true,
+    "pushed": true,
+    "merged": true,
+    "driveDelivered": true,
+    "publiclyDeployed": true
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "buildVersion": "0.4.11",
+  "browser": "Chromium with touch emulation",
+  "checks": [
+    {
+      "width": 320,
+      "theme": "light",
+      "onlySpeakerGreen": true,
+      "rowOutlineNone": true,
+      "answerBackgroundUnchanged": true,
+      "audioPlayed": true,
+      "progressAndFeedbackUnchanged": true,
+      "noOverflow": true
+    },
+    {
+      "width": 320,
+      "theme": "dark",
+      "onlySpeakerGreen": true,
+      "rowOutlineNone": true,
+      "answerBackgroundUnchanged": true,
+      "audioPlayed": true,
+      "progressAndFeedbackUnchanged": true,
+      "noOverflow": true
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "onlySpeakerGreen": true,
+      "rowOutlineNone": true,
+      "answerBackgroundUnchanged": true,
+      "audioPlayed": true,
+      "progressAndFeedbackUnchanged": true,
+      "noOverflow": true
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "onlySpeakerGreen": true,
+      "rowOutlineNone": true,
+      "answerBackgroundUnchanged": true,
+      "audioPlayed": true,
+      "progressAndFeedbackUnchanged": true,
+      "noOverflow": true
+    },
+    {
+      "width": 1280,
+      "theme": "light",
+      "onlySpeakerGreen": true,
+      "rowOutlineNone": true,
+      "answerBackgroundUnchanged": true,
+      "audioPlayed": true,
+      "progressAndFeedbackUnchanged": true,
+      "noOverflow": true
+    },
+    {
+      "width": 1280,
+      "theme": "dark",
+      "onlySpeakerGreen": true,
+      "rowOutlineNone": true,
+      "answerBackgroundUnchanged": true,
+      "audioPlayed": true,
+      "progressAndFeedbackUnchanged": true,
+      "noOverflow": true
+    }
+  ],
+  "pageErrors": [],
+  "keyboardFocusVerifiedByRegression": true,
+  "priorDarkModeDeploymentVerified": true,
+  "notRun": [
+    "physical phone",
+    "full screen-reader audit"
+  ]
+}
