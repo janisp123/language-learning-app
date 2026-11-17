@@ -1,0 +1,21 @@
+{
+  "buildVersion": "0.4.9",
+  "browser": "Chromium",
+  "japaneseClipsDecodedNonSilent": 510,
+  "exactTranslationBindings": 510,
+  "japaneseQuestionsTraversed": 510,
+  "answerReplayBindingsWithoutGradingVerified": 2040,
+  "firstFourClipsActuallyPlayed": true,
+  "keyboardReplay": true,
+  "directions": 7,
+  "transition499And500ms": true,
+  "restartDirectionCompletionCancellation": true,
+  "storageAndCookiesEmpty": true,
+  "reloadReset": true,
+  "pageErrors": [],
+  "notRun": [
+    "physical devices",
+    "full screen-reader audit",
+    "fluent human pronunciation review"
+  ]
+}

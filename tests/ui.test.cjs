@@ -236,8 +236,16 @@ test('each answer speaker replays target pronunciation without grading, shufflin
   const current=$('choices').children[0].children[1];$('change').click();current.handlers.click();assert.equal($('audio-media').paused,true);
  }
 });
-test('Japanese answer speakers clearly mark missing recordings without changing answers',()=>{
- const $=mount(undefined,builtHtml,'en-ja');$('start').click();
- assert.equal($('choices').children.length,4);
- for(const row of $('choices').children){assert.equal(row.children.length,2);assert.equal(row.children[1].disabled,true);assert.ok(row.children[1]['aria-label']);assert.equal(row.children[0].disabled,false);}
+test('every Japanese answer speaker plays its exact Japanese clip without grading',()=>{
+ const pack=JSON.parse(builtHtml.match(/id="audio-data">([\s\S]*?)<\/script>/)[1]);
+ const $=mount(undefined,builtHtml,'en-ja');$('start').click();let appearances=0;
+ for(const lesson of course.lessons)for(const prompt of lesson.prompts){
+  for(const row of $('choices').children){
+   const [answer,speaker]=row.children;assert.equal(speaker.disabled,false,'Japanese pronunciation must be available');
+   const progress=$('progress').value;speaker.click();
+   assert.equal($('audio-media').src,pack.clips.ja[answer.dataset.optionId].src);assert.equal($('progress').value,progress);assert.equal(answer.disabled,false);
+  }
+  choose($,prompt.phraseId);$.tick(499);assert.equal(answerButtons($)[0].disabled,true);$.tick(1);appearances++;
+ }
+ assert.equal(appearances,510);assert.equal($('finished').hidden,false);assert.equal($('audio-media').paused,true);
 });

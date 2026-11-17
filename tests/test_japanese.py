@@ -22,7 +22,7 @@ class JapaneseTests(unittest.TestCase):
    self.assertNotRegex(phrase['ja'],r'[A-Za-z]')
   pack=load_audio(ROOT,course)
   self.assertEqual(pack['directions'],DIRECTIONS)
-  self.assertEqual(set(pack['clips']),{'lv','ru','en'})
+  self.assertEqual(set(pack['clips']),{'lv','ru','en','ja'})
   for phrase in course['phrases']:self.assertEqual(pack['clips']['en'][phrase['id']]['text'],phrase['en'])
   with tempfile.TemporaryDirectory() as tmp:
    html=build(ROOT,Path(tmp)/'app.html').read_text()

@@ -20,7 +20,7 @@ class AudioTests(unittest.TestCase):
         course, _ = load_content(ROOT)
         pack = load_audio(ROOT, course)
         self.assertEqual(set(pack['directions']), set(course['directions']))
-        self.assertEqual(set(pack['clips']), {d.split('-')[0] for d in course['directions']})
+        self.assertEqual(set(pack['clips']), set(course['languages']))
         for language, clips in pack['clips'].items():
             self.assertEqual(set(clips), {p['id'] for p in course['phrases']})
             for ident, clip in clips.items():
@@ -39,6 +39,19 @@ class AudioTests(unittest.TestCase):
             else: del changed['clips']['ru']
             with self.assertRaisesRegex(ValueError, 'coverage'):
                 load_audio(ROOT, course, manifest=changed)
+
+    def test_missing_japanese_target_audio_fails_the_all_phrases_contract(self):
+        from audio_loader import load_audio
+        from content_loader import load_content
+        course, _ = load_content(ROOT)
+        manifest = json.loads((ROOT/'content/audio/manifest.json').read_text())
+        self.assertEqual(len(manifest['clips'].get('ja', {})), 510, 'Japanese recordings must cover every answer')
+        for mode in ['clip', 'language']:
+            changed=copy.deepcopy(manifest)
+            if mode=='clip':del changed['clips']['ja']['vocab-0001']
+            else:del changed['clips']['ja']
+            with self.assertRaisesRegex(ValueError,'coverage'):
+                load_audio(ROOT,course,manifest=changed)
 
     def test_rejects_translation_hash_and_path_drift(self):
         from audio_loader import load_audio
