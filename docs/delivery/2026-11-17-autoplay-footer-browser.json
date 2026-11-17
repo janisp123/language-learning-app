@@ -1,0 +1,60 @@
+{
+  "buildVersion": "0.4.6",
+  "browser": "Chromium",
+  "viewport": [
+    390,
+    844
+  ],
+  "directions": [
+    {
+      "direction": "lv-ru",
+      "firstAdvanceWrongReturnRestartReplayCancellation": true,
+      "decodedPlayback": true,
+      "reloadReset": true,
+      "emptyStorage": true
+    },
+    {
+      "direction": "lv-en",
+      "firstAdvanceWrongReturnRestartReplayCancellation": true,
+      "decodedPlayback": true,
+      "reloadReset": true,
+      "emptyStorage": true
+    },
+    {
+      "direction": "ru-lv",
+      "firstAdvanceWrongReturnRestartReplayCancellation": true,
+      "decodedPlayback": true,
+      "reloadReset": true,
+      "emptyStorage": true
+    },
+    {
+      "direction": "ru-en",
+      "firstAdvanceWrongReturnRestartReplayCancellation": true,
+      "decodedPlayback": true,
+      "reloadReset": true,
+      "emptyStorage": true
+    },
+    {
+      "direction": "en-lv",
+      "firstAdvanceWrongReturnRestartReplayCancellation": true,
+      "decodedPlayback": true,
+      "reloadReset": true,
+      "emptyStorage": true
+    },
+    {
+      "direction": "en-ru",
+      "firstAdvanceWrongReturnRestartReplayCancellation": true,
+      "decodedPlayback": true,
+      "reloadReset": true,
+      "emptyStorage": true
+    }
+  ],
+  "rejectedAutoplayReplayEnabled": true,
+  "footerVerifiedBothPages": true,
+  "pageErrors": [],
+  "notRun": [
+    "physical devices",
+    "full screen-reader audit",
+    "fluent pronunciation review"
+  ]
+}
