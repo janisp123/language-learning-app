@@ -1,5 +1,11 @@
 # Current working checkpoint
 
+## Website update request (2026-11-17) — PARTIAL / integration confirmation pending
+
+Owner requested current app availability directly on the existing GitHub Pages site and a README website link. HTTPS landing and `/learn/` both return 200; hosted app still matches 0.4.3 (SHA-256 c83f9e14d25127c9f4855b2e33bf9147ff8de0933a63ae2b9d6766242375312d). README direct app, project website and hosted HTML links are prepared in PR #10, source 99ab6bb; its GitHub CI 44110830420 passed. Local 41 Node / 28 Python tests pass; all three links map to the staged public files, and staged app bytes match delivered 0.4.7. No app/content/audio changes in this documentation slice.
+
+Next: obtain explicit confirmation for merging PRs #7, #8, #9 and #10 into main and publishing 0.4.7, then integrate in order, inspect the existing Pages workflow result and verify public app/download hashes and hosted browser behavior. No merge or new deployment performed in this request yet. Preserve the existing Drive delivery; website publication needs independent evidence.
+
 As of 2026-11-17. **DONE: English → Japanese 0.4.7 implemented, verified, pushed on PR #9 and delivered through the stable Drive file. Integration pending; no merge/public deployment.** Isolated branch feat/english-to-japanese begins at bffcf17 (delivered autoplay/footer PR #8). Main last verified at 85e4dc400fe58075df806cf5d03d3c757a9f49bf (0.4.3); PR #7 at 51878ef remains open. No merge or public deployment performed. Latest known Pages workflow 44053240327 failed; hosted setup/verification remains pending.
 
 ## Completed independent slice: autoplay/footer 0.4.6
