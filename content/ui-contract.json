@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "staticKeys": [
+    "skip",
+    "brand-name",
+    "badge",
+    "draft",
+    "audience",
+    "welcome",
+    "intro",
+    "direction-caption",
+    "start",
+    "rules-title",
+    "rule-options",
+    "rule-complete",
+    "rule-mistakes",
+    "rule-reset",
+    "outline-summary",
+    "outline-note",
+    "restart",
+    "change",
+    "help",
+    "finished-caption",
+    "finished-title",
+    "finished-intro",
+    "again",
+    "choose",
+    "footer-caption",
+    "source-link",
+    "privacy-note"
+  ],
+  "messages": {
+    "pageTitle": [],
+    "lesson": [
+      "n",
+      "total"
+    ],
+    "progress": [
+      "n"
+    ],
+    "progressValue": [
+      "n"
+    ],
+    "mistakes": [
+      "n"
+    ],
+    "choices": [],
+    "wrong": [],
+    "back": [],
+    "reset": [],
+    "correct": [],
+    "nextLesson": [
+      "title"
+    ],
+    "completed": [],
+    "error": [],
+    "instruction": [
+      "language"
+    ],
+    "noscript": []
+  }
+}

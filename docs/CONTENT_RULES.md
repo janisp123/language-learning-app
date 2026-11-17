@@ -1,50 +1,44 @@
-# Content rules — practical language first
+# Content rules — basic words and short phrases
 
-**Purpose:** Let a learner handle realistic everyday situations using as few reusable words and structures as possible. This is **not** an encyclopedic vocabulary course or a formal grammar textbook.
+## Product scope — survival basics
 
-## V1 content boundaries
+The product focuses on **roughly 500 crucial words and short phrases** for everyday survival and basic communication. Practical usefulness is the selection criterion; 500 is an approximate scope, not a reason to pad the bank or continually expand it. Prioritize understanding essential speech, asking for help, expressing basic needs and handling common situations. Current development focuses on Russian ↔ Latvian.
 
-- First course: **Latvian ↔ Russian**, **ages 10–17**, ten short lessons only.
-- Build every prompt around a real situation a child in Latvia might encounter. Prioritize what another person may **say to the child**, as well as what the child needs to say.
-- Avoid irrelevant topics (work, office, dating, business, soup opinions, decorative vocabulary).
-- Reuse high-utility patterns: *Где...?* (Where ...?), *Можно...?* (May I...?), *Мне нужно...* (I need...), *Я не понимаю* (I don't understand).
-- Prefer one common, understandable way of communicating a meaning. Avoid introducing multiple synonyms merely for stylistic variety.
-- Keep Russian grammar and Latvian meaning defensible and comprehensible. "Simple" must **not** mean deliberately incorrect speech.
-- Teach functional short phrases alongside meaningful component words. Content should allow later recombination.
-- Use polite adult-facing `Вы` forms when talking to strangers, and age-appropriate `ты` with peers, without spending an entire lesson on formalities.
-- Safety phrases need to be explicit even if they require one-off vocabulary; teach seeking trusted help, not complying with unknown adults.
-- Numbers, prices, bus identifiers and basic addresses are introduced only insofar as necessary for the first ten situations. No arbitrary 500-word quota.
-- Distractors must be plausible, unique and unambiguously wrong for the question; avoid near-synonyms that could also be correct.
-- Validate both directions and pronunciation. Human fluent-language review should occur before public release; record whether it happened.
+Keep the experience small and focused. A broad language curriculum, advanced proficiency path and Duolingo-style feature expansion are outside this product's scope. Improve the usefulness, clarity, pronunciation and reuse of the essential bank before adding breadth. This clarification does not claim the current draft has passed a survival-usefulness audit. The present build still contains exactly 500 entries; changing that technical count requires an explicit content/validation update.
 
-## First ten situation themes
+The owner has revised the initial curriculum to **500 basic words and short phrases in 50 blocks of ten questions**, in Latvian, Russian and English, all six directed pairs, initially for ages 10–17. This supersedes the earlier ten-situation, sentence-based draft and its former limit on vocabulary count. The earlier draft remains archived, not active.
 
-| Order | Theme | Likely interactions |
-| --- | --- | --- |
-| 1 | Essential words | Hello, yes/no, thank you, please, goodbye |
-| 2 | Communication and help | I don't understand, repeat, slowly, do you speak Latvian? |
-| 3 | Identifying yourself | Name, age, questions from peers/adults, safe boundaries |
-| 4 | Finding places | Where is the toilet, exit, school, stop, shop? |
-| 5 | School | May I enter/leave, where is the teacher, what to do? |
-| 6 | Activities and friends | Play together, wait, my turn, stop, join |
-| 7 | Canteen and shops | May I have this, water, how much, by card, no thanks |
-| 8 | Street directions | Straight, left, right, near, far |
-| 9 | Public transport | Bus, stop, does this go to centre, when to exit? |
-| 10 | Safety and emergencies | I'm lost, leave me alone, help, call parent, 112 |
+## Communication efficiency and reuse take priority over style and grammar
 
-These are content categories rather than a claim about exact dialogue frequency or verified age-specific statistics. Exact prompts and distractors are authored and tested under L-003.
+Owner priority: reuse already-taught words, short phrases and phrase patterns as much as possible across blocks and future sentence lessons, even when the result sounds repetitive or less elegant. Before introducing a synonym or alternative expression, prefer a familiar expression that communicates the same meaning. Introduce new vocabulary only when it adds a crucial meaning or is needed to be understood, rather than to make a phrase more elegant or grammatically complete. Recombine familiar component words into new phrases rather than introducing unnecessary alternatives. Understandable fragments and grammatically imperfect phrasing are acceptable when they help a learner communicate with fewer words. The learner should be able to say something useful instead of hesitating between too many word choices.
 
-## Vocabulary economy review
+Repeated words within different useful phrases are encouraged; they do not require duplicate concept IDs for the same meaning or reduce answer-choice clarity. Keep existing permanent bindings intact. This principle guides content authoring and review; recording it does not claim that all 500 current entries have undergone a reuse audit.
 
-For every proposed new word or phrase ask:
-1. Does a realistic situation in the first ten lessons require it?
-2. Could a word or request pattern already taught express the same need understandably?
-3. Will it help with **multiple** other scenarios?
-4. Is the translation sensible in context both ways (LV→RU and RU→LV)?
-5. Is it appropriate, safe, pronounceable, and unambiguous for an 11-year-old?
+## Current curriculum
 
-Prefer less content, tested well, over more content that is never recalled. Strict repetition and the ten-correct rule live in the **engine**, not embedded as special logic in each lesson.
+- The first ten blocks contain only simple words and short phrases, never sentences. All 500 current items follow the same short-form approach, with at most four whitespace-separated words in each translation and no sentence-ending punctuation.
+- Teach reusable everyday meanings, including greetings, people, numbers, places, food, school, directions, safety and question words first. Later blocks expand household, health, shopping, time, nature, actions and descriptive vocabulary.
+- First ten blocks, in order: Greetings; People; Numbers one to ten; Useful words; Essential places; Basic food and drinks; In the classroom; Directions; Safety; Question words.
+- Do not confuse 500 learning items with 500 distinct dictionary lemmas or a verified frequency ranking. Short phrases and useful forms are included. See [VOCABULARY_500.md](VOCABULARY_500.md) for scope and review limits.
+- Prefer one common, understandable translation for a precise meaning. Avoid padding the list with synonyms, duplicate meanings or multiple superficially different versions of the same item.
+- Judge phrases by whether another person can understand the intended message. Formal grammar and stylistic naturalness are secondary to efficient use of familiar words; understandable imperfect phrasing is acceptable. Preserve the intended meaning and clear answer choices. Grammar review should identify misunderstandings, not require extra vocabulary solely for correctness.
+- Keep material safe and appropriate for young learners. No private information, adult/workplace topics or prompts encouraging unsafe compliance.
+- Distractors must be distinct and unambiguously wrong in all six directions. ID checks and distinct strings cannot establish semantic correctness; fluent human review of meanings and distractors remains pending before public release.
 
-## Future paths (architecture only)
+## Canonical modular authoring
 
-Possible paths: **5–9**, **10–17**, **18+**. Adult courses can use work/service conversations without forcing adult learners through school-specific material. Shared vocabulary should be referenced rather than copied; no future course is created until the owner approves it.
+Use `content/catalog.json`, `concepts.json`, `blocks/<id>.json` and `languages/<code>.json` as described in [CONTENT_MODULES.md](CONTENT_MODULES.md). Each question declares a permanent concept ID and explicit matching correct-answer ID; never align languages by array position or grade by visible text. Translation records repeat their concept ID and meaning. Do not repurpose old IDs when changing a meaning.
+
+The active course uses `vocab-0001` through `vocab-0500` and `basic-01` through `basic-50`. The original course remains under `archive/course-0.3/content/`, protected by its unchanged original baseline. A separate 0.4 vocabulary baseline protects all active meanings, translations, question IDs and answer/distractor bindings. Canonical authored modules are the source; generated HTML is never hand-edited.
+
+The catalog curriculum policy enforces the target item count, distinct concept coverage, form tags and short text limits. Increase the approved target when adding more vocabulary blocks; do not disable the policy to conceal incomplete coverage. New blocks/languages require data and translations, not engine edits. Every block still has ten questions, and the existing repetition/mistake rules remain unchanged.
+
+## Review every new item
+
+1. Is the meaning useful, concrete and distinct from existing items?
+2. Can this meaning be expressed with already-taught words or phrase patterns? Prefer their reuse over stylistic variety; add new words only for a useful meaning or necessary clarity.
+3. Is each translation short and understandable, conveying the same intended meaning with familiar words even if its grammar or style is imperfect?
+4. Is only one of the four choices defensibly correct in every direction?
+5. Is it appropriate and understandable for the intended age group?
+
+Other age paths and languages remain future possibilities requiring an owner decision.

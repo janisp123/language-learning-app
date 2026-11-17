@@ -1,0 +1,106 @@
+{
+  "id": "introductions",
+  "title": "Introducing yourself",
+  "prompts": [
+    {
+      "id": "introductions-prompt-01",
+      "phraseId": "introductions-phrase-01",
+      "distractorIds": [
+        "introductions-phrase-02",
+        "introductions-phrase-04",
+        "introductions-phrase-06"
+      ],
+      "correctAnswerId": "introductions-phrase-01"
+    },
+    {
+      "id": "introductions-prompt-02",
+      "phraseId": "introductions-phrase-02",
+      "distractorIds": [
+        "introductions-phrase-03",
+        "introductions-phrase-05",
+        "introductions-phrase-07"
+      ],
+      "correctAnswerId": "introductions-phrase-02"
+    },
+    {
+      "id": "introductions-prompt-03",
+      "phraseId": "introductions-phrase-03",
+      "distractorIds": [
+        "introductions-phrase-04",
+        "introductions-phrase-06",
+        "introductions-phrase-08"
+      ],
+      "correctAnswerId": "introductions-phrase-03"
+    },
+    {
+      "id": "introductions-prompt-04",
+      "phraseId": "introductions-phrase-04",
+      "distractorIds": [
+        "introductions-phrase-05",
+        "introductions-phrase-07",
+        "introductions-phrase-09"
+      ],
+      "correctAnswerId": "introductions-phrase-04"
+    },
+    {
+      "id": "introductions-prompt-05",
+      "phraseId": "introductions-phrase-05",
+      "distractorIds": [
+        "introductions-phrase-06",
+        "introductions-phrase-08",
+        "introductions-phrase-10"
+      ],
+      "correctAnswerId": "introductions-phrase-05"
+    },
+    {
+      "id": "introductions-prompt-06",
+      "phraseId": "introductions-phrase-06",
+      "distractorIds": [
+        "introductions-phrase-07",
+        "introductions-phrase-09",
+        "introductions-phrase-01"
+      ],
+      "correctAnswerId": "introductions-phrase-06"
+    },
+    {
+      "id": "introductions-prompt-07",
+      "phraseId": "introductions-phrase-07",
+      "distractorIds": [
+        "introductions-phrase-08",
+        "introductions-phrase-10",
+        "introductions-phrase-02"
+      ],
+      "correctAnswerId": "introductions-phrase-07"
+    },
+    {
+      "id": "introductions-prompt-08",
+      "phraseId": "introductions-phrase-08",
+      "distractorIds": [
+        "introductions-phrase-09",
+        "introductions-phrase-01",
+        "introductions-phrase-03"
+      ],
+      "correctAnswerId": "introductions-phrase-08"
+    },
+    {
+      "id": "introductions-prompt-09",
+      "phraseId": "introductions-phrase-09",
+      "distractorIds": [
+        "introductions-phrase-10",
+        "introductions-phrase-02",
+        "introductions-phrase-04"
+      ],
+      "correctAnswerId": "introductions-phrase-09"
+    },
+    {
+      "id": "introductions-prompt-10",
+      "phraseId": "introductions-phrase-10",
+      "distractorIds": [
+        "introductions-phrase-01",
+        "introductions-phrase-03",
+        "introductions-phrase-05"
+      ],
+      "correctAnswerId": "introductions-phrase-10"
+    }
+  ]
+}

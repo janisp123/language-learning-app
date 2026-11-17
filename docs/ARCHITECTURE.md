@@ -5,7 +5,7 @@
 ## Product goals and boundaries
 
 - **First audience:** 10–17-year-old learners; early focus is a child living in Latvia who needs practical spoken Russian in day-to-day encounters.
-- **First course:** Latvian ↔ Russian; both directions tested with the same curated content. **Ten lessons only** for the first public release.
+- **First course (owner-expanded):** Latvian, Russian and English; all six directed pairs use the same canonical content. The owner expanded the draft curriculum to **50 ten-question blocks / 500 basic words and short phrases**, with no sentences in the first ten blocks.
 - **Long term:** Separate age paths (5–9, 10–17, 18+) and more language pairs/lessons can be added **as content**, without changing the central learning rules. Do not build selection UIs or extra packs in v1.
 - **Reason for being:** Learning by mandatory cumulative repetition from lesson 1, not by collecting finished-lesson badges.
 
@@ -34,6 +34,12 @@ Keep reusable phrases/words referenced by stable IDs. Avoid accidental distinct 
 8. The highest lesson record never creates a skip shortcut. The next session always starts at lesson 1.
 
 **Storage nuance:** Current owner rule is **only save the highest lesson**. Therefore the in-lesson cursor, consecutive counter, and current session are **volatile**. Closing/restarting the Android app starts again from lesson 1 even on the same day. There is no daily-reset scheduler or last-practiced-date tracking. If a different same-day resume rule is ever wanted, it requires explicit product approval.
+
+**Owner block-rule update (2026-11-16):** Each lesson is a block of exactly ten questions. The first two wrong answers in that block move back one prompt (clamped at the first prompt) and clear the consecutive-correct count. The third mistake in that same block, even with correct answers between mistakes, restarts at lesson 1/prompt 1 and clears both mistake and consecutive counters. Correct answers within the block retain the mistake count; completing a block, manual restart or a new session resets it. Automatic restart preserves translation direction and never reduces an Android highest-lesson record. The block mistake count is volatile, never part of persisted progress.
+
+**Owner interaction update (2026-11-16):** In the browser test build, selecting an answer locks choices and shows feedback immediately. After 500 ms, apply the answer transition automatically; there is no Continue button. Preserve the last correction after transition until the next answer so it remains readable. Restarting or changing direction cancels the timer and invalidates stale callbacks. This timing changes UI interaction only, not the correct/incorrect navigation or ten-consecutive rule above.
+
+**Owner interface-language update:** The complete learning UI follows the selected source language: LV→RU/EN uses Latvian, RU→LV/EN uses Russian, EN→LV/RU uses English. Apply immediately on direction selection, including instructions, controls, lesson titles, progress/mistake labels, feedback, errors, completion, accessible labels and document language/title. Keep prompt/option text and language tags in their actual source/target languages. UI strings live separately from canonical learning content.
 
 **Question display:** A compact progress cue is optional; never turn internal consecutive-correct logic into an XP/score feature. Avoid noisy animations/celebrations. Audio should support functional comprehension rather than rewards; L-001 should choose reliable Android/browser playback without requiring user accounts or network services.
 
@@ -71,7 +77,15 @@ Only create directories when a small Codex task actually needs them. A lean impl
 - Define backup file versions; don't assume every future release can import every later format. Reject unsupported input safely and leave current data intact.
 - One course initially, but future records must not conflate language pairs or age paths. A record from another course must not silently set the current course's highest lesson.
 - Content and UI use explicit translation direction, not assumptions such as “all prompts are Russian”.
-- Defer features beyond the first ten lessons until **both** public web learning and Play download work reliably.
+- The owner has authorized 50 vocabulary blocks. Other feature expansion still requires a deliberate decision.
+
+## Three-language browser content
+
+The owner added English, then expanded the curriculum to 50 blocks / 500 words and short phrases (see VOCABULARY_500.md). Every phrase has LV/RU/EN text and all six source→target directions are supported. Keep the existing course/lesson/phrase/prompt IDs stable. Canonical sources now live in the catalog, concept registry, per-block files and per-language modules; the old combined file is removed. Use catalog language/block references, not filenames or hardcoded totals, to build the runtime. Direction-specific target instructions and source-language UI come from the three interface packs. Any future Android record must still be scoped to its course/language pair and age path; a shared content-bank ID alone is not a cross-pair progress key. No native persistence is implemented here.
+
+## Modular content and binding contract
+
+The owner requested data-only extension with existing questions/answers preserved. [Content modules](CONTENT_MODULES.md) define the catalog, concepts, blocks, language/UI modules and fixed UI application contract. Every question explicitly binds `phraseId` to the same `correctAnswerId`; translations repeat their concept ID and canonical meaning. Runtime question/answer ID, text, language, block and revision checks reject mixed presentations. The source loader fails on duplicates, missing/unknown IDs, incomplete translations or UI keys/placeholders, and ambiguous choices. Separate baseline digests protect the unchanged original draft under archive/course-0.3 and all 500 active vocabulary question/answer/translation bindings. More blocks and languages require data and translations, not engine whitelists or handwritten direction controls. Per-block size and learning rules remain fixed at the approved ten-question/three-mistake contract.
 
 ## Still requiring a deliberate technical decision
 

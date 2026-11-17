@@ -1,31 +1,27 @@
-# Language landing page
+# GitHub Pages publication
 
-**Prepared by:** Codex, 2026-11-16, at the owner's explicit request.  
-**Scope:** L-004 landing-page slice only; browser learning, Android and publication are not completed.  
-**Source baseline:** `ae1be9361eb26dba0cdbe08eeb154172880a441d`.
+The website uses the same GitHub Pages delivery pattern as the mental-health test: a landing page, an online-open action and a stable Drive-folder download action. The app is built from canonical content and the same builder as the verified offline copy.
 
-## Structure and design
+## Artifact
 
-Like the mental-health project's delivery structure, `index.html` is a self-contained static landing page in `docs/discovery-preview/`. It uses semantic HTML, inline CSS, system fonts and no JavaScript, dependencies, forms, tracking or storage. The language-app repository is its sole source; nothing in the mental-health repository is modified or copied as product content.
+- index.html: the landing page.
+- learn/index.html: the complete self-contained browser app with all 1,500 pronunciation clips.
+- language-learning-test.html: identical app bytes retained for parity/direct technical checks.
 
-The page uses a warm paper background, forest-green typography and illustrative phrase cards. Navigation leads to the approach, ten planned themes and availability. Native HTML disclosure elements provide the FAQ. Real actions are page anchors and the repository link. Browser/Android availability is plain status text, not dead buttons or invented download links. The page has no final brand-name claim, fake testimonials or invented release dates.
+The public download button points to the default Drive folder. No source tree, tests, private files or Git metadata enter the published artifact. Learning state is browser memory only.
 
-All application capabilities are labelled as planned. The illustrative phrase pair is not a reviewed lesson pack. No architecture dependency is selected or learning algorithm implemented here. This isolated page can be reviewed before L-001–L-003 are integrated; it does not satisfy the full L-004 acceptance criteria or authorize starting dependent learning work.
+## Account step
 
-## Review and publication
+In repository Settings → Pages → Build and deployment, choose Source: GitHub Actions. The GitHub connector does not expose this admin setting. The publishing workflow keeps configure-pages enablement false and preserves the selected repository access.
 
-1. Review the HTML in a browser, including narrow/desktop widths, keyboard focus, FAQ controls, 200% zoom and contrast. Local file opening requires no server or build. GitHub's source viewer does not render the page as a website.
-2. Obtain owner authorization to merge and publish. Merging the prepared workflow does **not** deploy; it supports manual dispatch only, restricted to main. No workflow run is started by this task.
-3. After publication is authorized, an owner enables GitHub Actions under repository Settings → Pages. `configure-pages` uses `enablement: false`; the workflow does not enable hosting or change account settings.
-4. Run **Publish approved language landing page** on main. It uploads only `dist/landing/index.html`, copied from this source. Do not publish the entire docs tree. Set any desired deployment approval in the `github-pages` environment before dispatch.
-5. Read the actual URL from the deployment result; verify HTTPS, content, links and mobile/desktop behavior at that URL. Only then announce it as live or add a canonical based on that verified destination. No canonical, sitemap, indexing or live URL is claimed by this preparation task.
+## Publishing
 
-The workflow follows the reference project's established official Actions versions. No changes to that project's workflows or its existing publication are made. Hosting request handling is distinct from app progress storage.
+The Publish language app website workflow runs on approved main-branch changes to site/app sources and delivery records, and can also be dispatched manually on main. It runs tests, stages the isolated artifact and deploys through GitHub Pages. A feature branch push cannot deploy.
 
-## Verification boundary
+After the source PR is merged, follow that existing workflow run. If it failed because Pages was not enabled yet, enable the Source setting and rerun only failed jobs. Avoid redundant deployments. Read the actual page_url/deployment result; a merge or successful build is not proof of a live site.
 
-Source checks cover HTML structure, unique IDs, valid fragment destinations, exactly ten themes, semantic language labels, no scripts/forms/remote assets/storage, and the workflow's manual-only trigger and isolated artifact. GitHub commit readback and PR scope are checked before handoff.
+Verify the public landing page, Learn action, language/direction selection and pronunciation. Download/read back the hosted learn/index.html and compare its SHA-256 with docs/delivery/2026-11-17-english-complete-drive-sync.json. Physical-phone and fluent pronunciation checks remain separate.
 
-Managed browser QA is unavailable in this environment because `cua_repl.js` is absent. Browser rendering, keyboard interaction, zoom, actual device use, public Pages deployment and live URL verification are **NOT RUN**; source inspection is not a substitute. No alternate browser-control path or preview server was started.
+## Current status
 
-**Next:** owner reviews the landing-page PR. L-004 remains active until the actual browser learning dependencies, implementation and full verification are completed.
+Owner requested website publication on 2026-11-17. Source synchronization recovered; publishing preparation uses build 0.4.3 with all languages/audio. Actual deployment and public URL verification remain pending until recorded in the current checkpoint.

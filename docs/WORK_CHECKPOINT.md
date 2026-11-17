@@ -1,37 +1,23 @@
 # Current working checkpoint
 
-**As of:** 2026-11-15 (Europe/Riga)  
-**Repository:** `janisp123/language-learning-app`  
-**Source of truth:** `main` after the initial documentation PR is merged.
+As of 2026-11-17. Branch feat/testable-browser-app, open PR #6; no merge/public release.
 
-## Verified state
+## Product and current build
 
-- Repository and initial README existed before setup.
-- Planning documents define product requirements, content boundaries, Codex collaboration, regression expectations and the ordered backlog. Initial setup [PR #1](https://github.com/janisp123/language-learning-app/pull/1) merged as `7b0ff0c6df6ff0fe3ccdc123c4655628b01ef825`; all nine documents were read back from `main` and checked for internal consistency/TD attribution.
-- **No executable Android app, browser learning experience, Pages deployment, CI pipeline, Play listing or release has been built or verified.**
-- New documentation is a handoff/plan, not an implementation.
+Approximately 500 survival words/phrases, with vocabulary reuse and understandable communication before style/formal grammar. The bank, player/view and learning engine are unchanged.
 
-## Current product decision
+Build 0.4.3 completes sound for all 500 questions in Latvian/Russian/English across all six directions: 1,500 embedded MP3 clips. Correct-target pronunciation follows either answer outcome, with previous-answer replay. Existing 500 ms navigation and cancellation remain unchanged. All-phrases coverage validation rejects missing recordings.
 
-First release = ten practical LV ↔ RU lessons for ages 10–17, with daily/fresh-session restart from lesson 1, 10 consecutive correct answers per lesson, wrong-answer step back, only Android's highest lesson retained, manual progress file transfer, anonymous unsaved browser experience, no ads or accounts.
+English online synthesis remained unreliable. All 500 English clips were generated offline using the installed Flite cmu_us_slt voice and saved in ten commits of fifty clips. The active manifest records provider per English clip; pending metadata was consolidated. tools/local_english.py is optional authoring tooling, never a runtime dependency. tools/generate_audio.py regenerates a registered English clip without gTTS/network. Russian/Latvian recordings remain byte-identical.
 
-## Blockers / owner decisions
+## Verification
 
-- L-001 must choose a sustainable cross-platform approach and pronunciation delivery before large coding work.
-- Final public app name and source-code/content licenses are undecided.
-- Google Play verification, required testing, listing assets and publication have not occurred.
-- Browser and Android delivery must be tested independently before release.
+36 Node and 20 Python tests pass locally, including all 500 questions in every direction, embedded bytes, content locks, full coverage and offline English generation without the online provider. All 1,500 MP3 clips decode. Chrome preview verified English playback duration/played ranges, replay/reset cancellation and English-source UI with Russian audio. File:// checks remain blocked by Cloud Chrome policy; physical phones and fluent pronunciation review remain pending.
 
-## One next action (baseline main; see current branch note below)
+## Delivery and synchronization
 
-**Owner starts Codex on L-001**: inspect the repository, propose the minimal platform/content/engine architecture, record decisions and tests; do not implement the full app or publish. After approved architecture, proceed with the next small TD item.
+Default Drive folder Git_dump/language-learning-app, ID 1U6ewdAD-HsthuchnzVOeWOSs4hmM-EAX; stable HTML ID 1594pGCAm3E7hOq0-oSwLFh8z4WtRI3vd. Final 0.4.3 HTML is uploaded and downloaded back with exact byte equality: c83f9e14d25127c9f4855b2e33bf9147ff8de0933a63ae2b9d6766242375312d. Build source commit d8ab062c6334c393b93acab7d4b14df605c2e95b. See delivery/2026-11-17-english-complete-drive-sync.json. GitHub synchronization recovered on 2026-11-17; full source through e43c643 is now on PR #6. The source backup remains in Drive. Owner requested GitHub Pages publication; the landing copy and main-only publishing trigger are prepared. Pages admin Source must be GitHub Actions; account confirmation and actual deployment/public URL checks remain pending.
 
-**Documentation synchronization:** Treat this checkpoint as applying to `main` only after verifying the setup PR merged; until then, use the actual branch/PR state. Never infer a merge from this text.
+## Next action
 
-## 2026-11-16 — Owner-requested landing-page review branch
-
-**Scope:** `feat/language-landing-page`, based on main `ae1be9361eb26dba0cdbe08eeb154172880a441d`; not evidence of integration.
-**Status:** PARTIAL — Codex prepared the standalone L-004 landing page in `docs/discovery-preview/index.html`, matching the mental-health project's source/delivery structure. Prepared manual-only Pages workflow uploads just that HTML; no workflow was run and no settings changed.
-**Product state:** No browser learning, Android app or Play listing. Source labels those capabilities as planned. Existing architecture PR #3 and lessons PR #4 remain separate, unmerged work.
-**Verification:** HTML/link/privacy/workflow source checks and GitHub readback are recorded in the PR. Browser/device/zoom/live-site checks are NOT RUN because managed browser tooling is unavailable; no app checks are claimed.
-**Next action:** owner reviews the landing-page PR. Merge/publication require authorization; full L-004 remains incomplete. Preserve the separate PRs' checkpoint/TD changes when integrating them.
+Finish the checked PR integration and existing Pages deployment, verify the returned public URL and hosted app hash; if account setup blocks deployment, wait for owner to select GitHub Actions in Settings → Pages. Earlier checkpoint: history/WORK_CHECKPOINT-before-english-completion.md.

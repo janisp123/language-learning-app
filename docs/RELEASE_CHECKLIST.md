@@ -4,8 +4,8 @@
 
 ## Before publishing the browser version
 - [ ] Real `Learn` button opens a functioning lesson from the actual GitHub Pages public URL.
-- [ ] LV → RU and RU → LV tested with human-readable, checked content.
-- [ ] Correct goes forward, incorrect one prompt back, **ten consecutive correct** completes a lesson; answer locations reshuffle.
+- [ ] All six directions between Latvian, Russian and English tested with human-readable, checked content. Entire UI follows the source language (LV, RU or EN), including load-error direction changes, completion and accessible labels; prompt/answer language tags remain correct.
+- [ ] Correct goes forward, incorrect one prompt back, **ten consecutive correct** completes a lesson; answer locations reshuffle. Each block has ten questions; the third cumulative mistake in one block restarts at lesson 1/question 1. Check nonconsecutive mistakes and count reset on block completion.
 - [ ] Close/reload starts at lesson 1; no saved browser progress, analytics, cookies, IndexedDB or server calls.
 - [ ] Mobile layouts, large touch targets, readable language/audio, keyboard behavior and screen-reader basics checked.
 - [ ] No fake Google Play link; landing page accurately says what is currently available.
@@ -24,9 +24,10 @@
 - [ ] Owner explicitly approves public release; live listing URL independently confirmed before enabling Play download button.
 
 ## Before marking a task DONE
+- [ ] Modular content loader, independent UI contract, runtime answer-binding checks and active/archive content identity digests pass; authored modules are the only editable content source.
 - [ ] Relevant TD item references a PR/commit and the tests that were actually run.
 - [ ] Changelog records implementation/verification attribution accurately.
 - [ ] Work checkpoint reflects the exact tested or published state and one next action.
 - [ ] Unverified items remain clearly marked TODO/BLOCKED, not quietly passed.
 
-**Scope freeze:** no payments, ads, accounts, cloud data, extra languages/ages or lessons until the first ten-lesson app is usable on both surfaces and available on Google Play.
+**Approved curriculum:** 50 blocks of ten questions / 500 basic words and short phrases; first ten blocks contain no sentences. Check every block in all six directions. Payments, ads, accounts, cloud data and additional languages/ages remain out of scope.

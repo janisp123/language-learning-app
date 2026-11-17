@@ -1,0 +1,106 @@
+{
+  "id": "shops",
+  "title": "Canteen and shops",
+  "prompts": [
+    {
+      "id": "shops-prompt-01",
+      "phraseId": "shops-phrase-01",
+      "distractorIds": [
+        "shops-phrase-02",
+        "shops-phrase-04",
+        "shops-phrase-06"
+      ],
+      "correctAnswerId": "shops-phrase-01"
+    },
+    {
+      "id": "shops-prompt-02",
+      "phraseId": "shops-phrase-02",
+      "distractorIds": [
+        "shops-phrase-03",
+        "shops-phrase-05",
+        "shops-phrase-07"
+      ],
+      "correctAnswerId": "shops-phrase-02"
+    },
+    {
+      "id": "shops-prompt-03",
+      "phraseId": "shops-phrase-03",
+      "distractorIds": [
+        "shops-phrase-04",
+        "shops-phrase-06",
+        "shops-phrase-08"
+      ],
+      "correctAnswerId": "shops-phrase-03"
+    },
+    {
+      "id": "shops-prompt-04",
+      "phraseId": "shops-phrase-04",
+      "distractorIds": [
+        "shops-phrase-05",
+        "shops-phrase-07",
+        "shops-phrase-09"
+      ],
+      "correctAnswerId": "shops-phrase-04"
+    },
+    {
+      "id": "shops-prompt-05",
+      "phraseId": "shops-phrase-05",
+      "distractorIds": [
+        "shops-phrase-06",
+        "shops-phrase-08",
+        "shops-phrase-10"
+      ],
+      "correctAnswerId": "shops-phrase-05"
+    },
+    {
+      "id": "shops-prompt-06",
+      "phraseId": "shops-phrase-06",
+      "distractorIds": [
+        "shops-phrase-07",
+        "shops-phrase-09",
+        "shops-phrase-01"
+      ],
+      "correctAnswerId": "shops-phrase-06"
+    },
+    {
+      "id": "shops-prompt-07",
+      "phraseId": "shops-phrase-07",
+      "distractorIds": [
+        "shops-phrase-08",
+        "shops-phrase-10",
+        "shops-phrase-02"
+      ],
+      "correctAnswerId": "shops-phrase-07"
+    },
+    {
+      "id": "shops-prompt-08",
+      "phraseId": "shops-phrase-08",
+      "distractorIds": [
+        "shops-phrase-09",
+        "shops-phrase-01",
+        "shops-phrase-03"
+      ],
+      "correctAnswerId": "shops-phrase-08"
+    },
+    {
+      "id": "shops-prompt-09",
+      "phraseId": "shops-phrase-09",
+      "distractorIds": [
+        "shops-phrase-10",
+        "shops-phrase-02",
+        "shops-phrase-04"
+      ],
+      "correctAnswerId": "shops-phrase-09"
+    },
+    {
+      "id": "shops-prompt-10",
+      "phraseId": "shops-phrase-10",
+      "distractorIds": [
+        "shops-phrase-01",
+        "shops-phrase-03",
+        "shops-phrase-05"
+      ],
+      "correctAnswerId": "shops-phrase-10"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": "basic-21",
+  "title": "Kitchen items",
+  "prompts": [
+    {
+      "id": "basic-21-prompt-01",
+      "phraseId": "vocab-0201",
+      "correctAnswerId": "vocab-0201",
+      "distractorIds": [
+        "vocab-0202",
+        "vocab-0204",
+        "vocab-0206"
+      ]
+    },
+    {
+      "id": "basic-21-prompt-02",
+      "phraseId": "vocab-0202",
+      "correctAnswerId": "vocab-0202",
+      "distractorIds": [
+        "vocab-0203",
+        "vocab-0205",
+        "vocab-0207"
+      ]
+    },
+    {
+      "id": "basic-21-prompt-03",
+      "phraseId": "vocab-0203",
+      "correctAnswerId": "vocab-0203",
+      "distractorIds": [
+        "vocab-0204",
+        "vocab-0206",
+        "vocab-0208"
+      ]
+    },
+    {
+      "id": "basic-21-prompt-04",
+      "phraseId": "vocab-0204",
+      "correctAnswerId": "vocab-0204",
+      "distractorIds": [
+        "vocab-0205",
+        "vocab-0207",
+        "vocab-0209"
+      ]
+    },
+    {
+      "id": "basic-21-prompt-05",
+      "phraseId": "vocab-0205",
+      "correctAnswerId": "vocab-0205",
+      "distractorIds": [
+        "vocab-0206",
+        "vocab-0208",
+        "vocab-0210"
+      ]
+    },
+    {
+      "id": "basic-21-prompt-06",
+      "phraseId": "vocab-0206",
+      "correctAnswerId": "vocab-0206",
+      "distractorIds": [
+        "vocab-0207",
+        "vocab-0209",
+        "vocab-0201"
+      ]
+    },
+    {
+      "id": "basic-21-prompt-07",
+      "phraseId": "vocab-0207",
+      "correctAnswerId": "vocab-0207",
+      "distractorIds": [
+        "vocab-0208",
+        "vocab-0210",
+        "vocab-0202"
+      ]
+    },
+    {
+      "id": "basic-21-prompt-08",
+      "phraseId": "vocab-0208",
+      "correctAnswerId": "vocab-0208",
+      "distractorIds": [
+        "vocab-0209",
+        "vocab-0201",
+        "vocab-0203"
+      ]
+    },
+    {
+      "id": "basic-21-prompt-09",
+      "phraseId": "vocab-0209",
+      "correctAnswerId": "vocab-0209",
+      "distractorIds": [
+        "vocab-0210",
+        "vocab-0202",
+        "vocab-0204"
+      ]
+    },
+    {
+      "id": "basic-21-prompt-10",
+      "phraseId": "vocab-0210",
+      "correctAnswerId": "vocab-0210",
+      "distractorIds": [
+        "vocab-0201",
+        "vocab-0203",
+        "vocab-0205"
+      ]
+    }
+  ]
+}

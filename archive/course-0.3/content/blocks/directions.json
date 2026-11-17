@@ -1,0 +1,106 @@
+{
+  "id": "directions",
+  "title": "Street directions",
+  "prompts": [
+    {
+      "id": "directions-prompt-01",
+      "phraseId": "directions-phrase-01",
+      "distractorIds": [
+        "directions-phrase-02",
+        "directions-phrase-04",
+        "directions-phrase-06"
+      ],
+      "correctAnswerId": "directions-phrase-01"
+    },
+    {
+      "id": "directions-prompt-02",
+      "phraseId": "directions-phrase-02",
+      "distractorIds": [
+        "directions-phrase-03",
+        "directions-phrase-05",
+        "directions-phrase-07"
+      ],
+      "correctAnswerId": "directions-phrase-02"
+    },
+    {
+      "id": "directions-prompt-03",
+      "phraseId": "directions-phrase-03",
+      "distractorIds": [
+        "directions-phrase-04",
+        "directions-phrase-06",
+        "directions-phrase-08"
+      ],
+      "correctAnswerId": "directions-phrase-03"
+    },
+    {
+      "id": "directions-prompt-04",
+      "phraseId": "directions-phrase-04",
+      "distractorIds": [
+        "directions-phrase-05",
+        "directions-phrase-07",
+        "directions-phrase-09"
+      ],
+      "correctAnswerId": "directions-phrase-04"
+    },
+    {
+      "id": "directions-prompt-05",
+      "phraseId": "directions-phrase-05",
+      "distractorIds": [
+        "directions-phrase-06",
+        "directions-phrase-08",
+        "directions-phrase-10"
+      ],
+      "correctAnswerId": "directions-phrase-05"
+    },
+    {
+      "id": "directions-prompt-06",
+      "phraseId": "directions-phrase-06",
+      "distractorIds": [
+        "directions-phrase-07",
+        "directions-phrase-09",
+        "directions-phrase-01"
+      ],
+      "correctAnswerId": "directions-phrase-06"
+    },
+    {
+      "id": "directions-prompt-07",
+      "phraseId": "directions-phrase-07",
+      "distractorIds": [
+        "directions-phrase-08",
+        "directions-phrase-10",
+        "directions-phrase-02"
+      ],
+      "correctAnswerId": "directions-phrase-07"
+    },
+    {
+      "id": "directions-prompt-08",
+      "phraseId": "directions-phrase-08",
+      "distractorIds": [
+        "directions-phrase-09",
+        "directions-phrase-01",
+        "directions-phrase-03"
+      ],
+      "correctAnswerId": "directions-phrase-08"
+    },
+    {
+      "id": "directions-prompt-09",
+      "phraseId": "directions-phrase-09",
+      "distractorIds": [
+        "directions-phrase-10",
+        "directions-phrase-02",
+        "directions-phrase-04"
+      ],
+      "correctAnswerId": "directions-phrase-09"
+    },
+    {
+      "id": "directions-prompt-10",
+      "phraseId": "directions-phrase-10",
+      "distractorIds": [
+        "directions-phrase-01",
+        "directions-phrase-03",
+        "directions-phrase-05"
+      ],
+      "correctAnswerId": "directions-phrase-10"
+    }
+  ]
+}

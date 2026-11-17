@@ -1,0 +1,106 @@
+{
+  "id": "school",
+  "title": "At school",
+  "prompts": [
+    {
+      "id": "school-prompt-01",
+      "phraseId": "school-phrase-01",
+      "distractorIds": [
+        "school-phrase-02",
+        "school-phrase-04",
+        "school-phrase-06"
+      ],
+      "correctAnswerId": "school-phrase-01"
+    },
+    {
+      "id": "school-prompt-02",
+      "phraseId": "school-phrase-02",
+      "distractorIds": [
+        "school-phrase-03",
+        "school-phrase-05",
+        "school-phrase-07"
+      ],
+      "correctAnswerId": "school-phrase-02"
+    },
+    {
+      "id": "school-prompt-03",
+      "phraseId": "school-phrase-03",
+      "distractorIds": [
+        "school-phrase-04",
+        "school-phrase-06",
+        "school-phrase-08"
+      ],
+      "correctAnswerId": "school-phrase-03"
+    },
+    {
+      "id": "school-prompt-04",
+      "phraseId": "school-phrase-04",
+      "distractorIds": [
+        "school-phrase-05",
+        "school-phrase-07",
+        "school-phrase-09"
+      ],
+      "correctAnswerId": "school-phrase-04"
+    },
+    {
+      "id": "school-prompt-05",
+      "phraseId": "school-phrase-05",
+      "distractorIds": [
+        "school-phrase-06",
+        "school-phrase-08",
+        "school-phrase-10"
+      ],
+      "correctAnswerId": "school-phrase-05"
+    },
+    {
+      "id": "school-prompt-06",
+      "phraseId": "school-phrase-06",
+      "distractorIds": [
+        "school-phrase-07",
+        "school-phrase-09",
+        "school-phrase-01"
+      ],
+      "correctAnswerId": "school-phrase-06"
+    },
+    {
+      "id": "school-prompt-07",
+      "phraseId": "school-phrase-07",
+      "distractorIds": [
+        "school-phrase-08",
+        "school-phrase-10",
+        "school-phrase-02"
+      ],
+      "correctAnswerId": "school-phrase-07"
+    },
+    {
+      "id": "school-prompt-08",
+      "phraseId": "school-phrase-08",
+      "distractorIds": [
+        "school-phrase-09",
+        "school-phrase-01",
+        "school-phrase-03"
+      ],
+      "correctAnswerId": "school-phrase-08"
+    },
+    {
+      "id": "school-prompt-09",
+      "phraseId": "school-phrase-09",
+      "distractorIds": [
+        "school-phrase-10",
+        "school-phrase-02",
+        "school-phrase-04"
+      ],
+      "correctAnswerId": "school-phrase-09"
+    },
+    {
+      "id": "school-prompt-10",
+      "phraseId": "school-phrase-10",
+      "distractorIds": [
+        "school-phrase-01",
+        "school-phrase-03",
+        "school-phrase-05"
+      ],
+      "correctAnswerId": "school-phrase-10"
+    }
+  ]
+}

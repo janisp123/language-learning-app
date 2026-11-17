@@ -1,0 +1,580 @@
+{
+  "schemaVersion": 1,
+  "id": "lv",
+  "translations": {
+    "essentials-phrase-01": {
+      "conceptId": "essentials-phrase-01",
+      "meaning": "Hello!",
+      "text": "Sveiki!"
+    },
+    "essentials-phrase-02": {
+      "conceptId": "essentials-phrase-02",
+      "meaning": "Yes.",
+      "text": "Jā."
+    },
+    "essentials-phrase-03": {
+      "conceptId": "essentials-phrase-03",
+      "meaning": "No.",
+      "text": "Nē."
+    },
+    "essentials-phrase-04": {
+      "conceptId": "essentials-phrase-04",
+      "meaning": "Thank you!",
+      "text": "Paldies!"
+    },
+    "essentials-phrase-05": {
+      "conceptId": "essentials-phrase-05",
+      "meaning": "Please!",
+      "text": "Lūdzu!"
+    },
+    "essentials-phrase-06": {
+      "conceptId": "essentials-phrase-06",
+      "meaning": "Goodbye!",
+      "text": "Uz redzēšanos!"
+    },
+    "essentials-phrase-07": {
+      "conceptId": "essentials-phrase-07",
+      "meaning": "Excuse me!",
+      "text": "Atvainojiet!"
+    },
+    "essentials-phrase-08": {
+      "conceptId": "essentials-phrase-08",
+      "meaning": "Good morning!",
+      "text": "Labrīt!"
+    },
+    "essentials-phrase-09": {
+      "conceptId": "essentials-phrase-09",
+      "meaning": "Good night!",
+      "text": "Ar labu nakti!"
+    },
+    "essentials-phrase-10": {
+      "conceptId": "essentials-phrase-10",
+      "meaning": "Okay.",
+      "text": "Labi."
+    },
+    "communication-phrase-01": {
+      "conceptId": "communication-phrase-01",
+      "meaning": "I don't understand.",
+      "text": "Es nesaprotu."
+    },
+    "communication-phrase-02": {
+      "conceptId": "communication-phrase-02",
+      "meaning": "Please repeat.",
+      "text": "Atkārtojiet, lūdzu."
+    },
+    "communication-phrase-03": {
+      "conceptId": "communication-phrase-03",
+      "meaning": "Please speak more slowly.",
+      "text": "Runājiet lēnāk, lūdzu."
+    },
+    "communication-phrase-04": {
+      "conceptId": "communication-phrase-04",
+      "meaning": "Do you speak Latvian?",
+      "text": "Vai jūs runājat latviski?"
+    },
+    "communication-phrase-05": {
+      "conceptId": "communication-phrase-05",
+      "meaning": "I need help.",
+      "text": "Man vajag palīdzību."
+    },
+    "communication-phrase-06": {
+      "conceptId": "communication-phrase-06",
+      "meaning": "What does that mean?",
+      "text": "Ko tas nozīmē?"
+    },
+    "communication-phrase-07": {
+      "conceptId": "communication-phrase-07",
+      "meaning": "Please show me.",
+      "text": "Parādiet, lūdzu."
+    },
+    "communication-phrase-08": {
+      "conceptId": "communication-phrase-08",
+      "meaning": "I don't know.",
+      "text": "Es nezinu."
+    },
+    "communication-phrase-09": {
+      "conceptId": "communication-phrase-09",
+      "meaning": "I speak a little Russian.",
+      "text": "Es mazliet runāju krieviski."
+    },
+    "communication-phrase-10": {
+      "conceptId": "communication-phrase-10",
+      "meaning": "How do you say that in Russian?",
+      "text": "Kā to pateikt krieviski?"
+    },
+    "introductions-phrase-01": {
+      "conceptId": "introductions-phrase-01",
+      "meaning": "What is your name?",
+      "text": "Kā tevi sauc?"
+    },
+    "introductions-phrase-02": {
+      "conceptId": "introductions-phrase-02",
+      "meaning": "My name is...",
+      "text": "Mani sauc..."
+    },
+    "introductions-phrase-03": {
+      "conceptId": "introductions-phrase-03",
+      "meaning": "How old are you?",
+      "text": "Cik tev gadu?"
+    },
+    "introductions-phrase-04": {
+      "conceptId": "introductions-phrase-04",
+      "meaning": "I'm eleven years old.",
+      "text": "Man ir vienpadsmit gadi."
+    },
+    "introductions-phrase-05": {
+      "conceptId": "introductions-phrase-05",
+      "meaning": "I go to school.",
+      "text": "Es mācos skolā."
+    },
+    "introductions-phrase-06": {
+      "conceptId": "introductions-phrase-06",
+      "meaning": "I'm from Latvia.",
+      "text": "Es esmu no Latvijas."
+    },
+    "introductions-phrase-07": {
+      "conceptId": "introductions-phrase-07",
+      "meaning": "Nice to meet you!",
+      "text": "Prieks iepazīties!"
+    },
+    "introductions-phrase-08": {
+      "conceptId": "introductions-phrase-08",
+      "meaning": "I'm waiting for my mum.",
+      "text": "Es gaidu mammu."
+    },
+    "introductions-phrase-09": {
+      "conceptId": "introductions-phrase-09",
+      "meaning": "I won't tell you my address.",
+      "text": "Es neteikšu savu adresi."
+    },
+    "introductions-phrase-10": {
+      "conceptId": "introductions-phrase-10",
+      "meaning": "I don't know you.",
+      "text": "Es tevi nepazīstu."
+    },
+    "places-phrase-01": {
+      "conceptId": "places-phrase-01",
+      "meaning": "Where is the toilet?",
+      "text": "Kur ir tualete?"
+    },
+    "places-phrase-02": {
+      "conceptId": "places-phrase-02",
+      "meaning": "Where is the exit?",
+      "text": "Kur ir izeja?"
+    },
+    "places-phrase-03": {
+      "conceptId": "places-phrase-03",
+      "meaning": "Where is the school?",
+      "text": "Kur ir skola?"
+    },
+    "places-phrase-04": {
+      "conceptId": "places-phrase-04",
+      "meaning": "Where is the bus stop?",
+      "text": "Kur ir pietura?"
+    },
+    "places-phrase-05": {
+      "conceptId": "places-phrase-05",
+      "meaning": "Where is the shop?",
+      "text": "Kur ir veikals?"
+    },
+    "places-phrase-06": {
+      "conceptId": "places-phrase-06",
+      "meaning": "Where is the entrance?",
+      "text": "Kur ir ieeja?"
+    },
+    "places-phrase-07": {
+      "conceptId": "places-phrase-07",
+      "meaning": "Where is the pharmacy?",
+      "text": "Kur ir aptieka?"
+    },
+    "places-phrase-08": {
+      "conceptId": "places-phrase-08",
+      "meaning": "It's here.",
+      "text": "Tas ir šeit."
+    },
+    "places-phrase-09": {
+      "conceptId": "places-phrase-09",
+      "meaning": "It's there.",
+      "text": "Tas ir tur."
+    },
+    "places-phrase-10": {
+      "conceptId": "places-phrase-10",
+      "meaning": "It's next to the school.",
+      "text": "Tas ir blakus skolai."
+    },
+    "school-phrase-01": {
+      "conceptId": "school-phrase-01",
+      "meaning": "May I come in?",
+      "text": "Vai drīkst ienākt?"
+    },
+    "school-phrase-02": {
+      "conceptId": "school-phrase-02",
+      "meaning": "May I go out?",
+      "text": "Vai drīkst iziet?"
+    },
+    "school-phrase-03": {
+      "conceptId": "school-phrase-03",
+      "meaning": "Where is the teacher?",
+      "text": "Kur ir skolotājs?"
+    },
+    "school-phrase-04": {
+      "conceptId": "school-phrase-04",
+      "meaning": "What do I need to do?",
+      "text": "Kas jādara?"
+    },
+    "school-phrase-05": {
+      "conceptId": "school-phrase-05",
+      "meaning": "Open the book.",
+      "text": "Atver grāmatu."
+    },
+    "school-phrase-06": {
+      "conceptId": "school-phrase-06",
+      "meaning": "Close the door.",
+      "text": "Aizver durvis."
+    },
+    "school-phrase-07": {
+      "conceptId": "school-phrase-07",
+      "meaning": "Write the answer.",
+      "text": "Uzraksti atbildi."
+    },
+    "school-phrase-08": {
+      "conceptId": "school-phrase-08",
+      "meaning": "Please read.",
+      "text": "Izlasi, lūdzu."
+    },
+    "school-phrase-09": {
+      "conceptId": "school-phrase-09",
+      "meaning": "I don't have a pen.",
+      "text": "Man nav pildspalvas."
+    },
+    "school-phrase-10": {
+      "conceptId": "school-phrase-10",
+      "meaning": "The lesson is over.",
+      "text": "Stunda ir beigusies."
+    },
+    "friends-phrase-01": {
+      "conceptId": "friends-phrase-01",
+      "meaning": "Let's play together!",
+      "text": "Spēlēsim kopā!"
+    },
+    "friends-phrase-02": {
+      "conceptId": "friends-phrase-02",
+      "meaning": "Please wait.",
+      "text": "Pagaidi, lūdzu."
+    },
+    "friends-phrase-03": {
+      "conceptId": "friends-phrase-03",
+      "meaning": "It's my turn.",
+      "text": "Tagad ir mana kārta."
+    },
+    "friends-phrase-04": {
+      "conceptId": "friends-phrase-04",
+      "meaning": "May I join in?",
+      "text": "Vai es drīkstu pievienoties?"
+    },
+    "friends-phrase-05": {
+      "conceptId": "friends-phrase-05",
+      "meaning": "Stop!",
+      "text": "Apstājies!"
+    },
+    "friends-phrase-06": {
+      "conceptId": "friends-phrase-06",
+      "meaning": "Come here!",
+      "text": "Nāc šurp!"
+    },
+    "friends-phrase-07": {
+      "conceptId": "friends-phrase-07",
+      "meaning": "Let's go outside!",
+      "text": "Ejam ārā!"
+    },
+    "friends-phrase-08": {
+      "conceptId": "friends-phrase-08",
+      "meaning": "Do you want to play?",
+      "text": "Vai tu gribi spēlēt?"
+    },
+    "friends-phrase-09": {
+      "conceptId": "friends-phrase-09",
+      "meaning": "I don't want to.",
+      "text": "Es negribu."
+    },
+    "friends-phrase-10": {
+      "conceptId": "friends-phrase-10",
+      "meaning": "See you tomorrow!",
+      "text": "Tiekamies rīt!"
+    },
+    "shops-phrase-01": {
+      "conceptId": "shops-phrase-01",
+      "meaning": "May I have this?",
+      "text": "Vai drīkst šo?"
+    },
+    "shops-phrase-02": {
+      "conceptId": "shops-phrase-02",
+      "meaning": "Water, please.",
+      "text": "Ūdeni, lūdzu."
+    },
+    "shops-phrase-03": {
+      "conceptId": "shops-phrase-03",
+      "meaning": "How much does this cost?",
+      "text": "Cik tas maksā?"
+    },
+    "shops-phrase-04": {
+      "conceptId": "shops-phrase-04",
+      "meaning": "Can I pay by card?",
+      "text": "Vai var maksāt ar karti?"
+    },
+    "shops-phrase-05": {
+      "conceptId": "shops-phrase-05",
+      "meaning": "No, thank you.",
+      "text": "Nē, paldies."
+    },
+    "shops-phrase-06": {
+      "conceptId": "shops-phrase-06",
+      "meaning": "I need a bag.",
+      "text": "Man vajag maisiņu."
+    },
+    "shops-phrase-07": {
+      "conceptId": "shops-phrase-07",
+      "meaning": "Where is the checkout?",
+      "text": "Kur ir kase?"
+    },
+    "shops-phrase-08": {
+      "conceptId": "shops-phrase-08",
+      "meaning": "One, please.",
+      "text": "Vienu, lūdzu."
+    },
+    "shops-phrase-09": {
+      "conceptId": "shops-phrase-09",
+      "meaning": "Without sugar, please.",
+      "text": "Bez cukura, lūdzu."
+    },
+    "shops-phrase-10": {
+      "conceptId": "shops-phrase-10",
+      "meaning": "I'm allergic to nuts.",
+      "text": "Man ir alerģija pret riekstiem."
+    },
+    "directions-phrase-01": {
+      "conceptId": "directions-phrase-01",
+      "meaning": "Go straight.",
+      "text": "Ejiet taisni."
+    },
+    "directions-phrase-02": {
+      "conceptId": "directions-phrase-02",
+      "meaning": "Turn left.",
+      "text": "Pagriezieties pa kreisi."
+    },
+    "directions-phrase-03": {
+      "conceptId": "directions-phrase-03",
+      "meaning": "Turn right.",
+      "text": "Pagriezieties pa labi."
+    },
+    "directions-phrase-04": {
+      "conceptId": "directions-phrase-04",
+      "meaning": "It's nearby.",
+      "text": "Tas ir tuvu."
+    },
+    "directions-phrase-05": {
+      "conceptId": "directions-phrase-05",
+      "meaning": "It's far away.",
+      "text": "Tas ir tālu."
+    },
+    "directions-phrase-06": {
+      "conceptId": "directions-phrase-06",
+      "meaning": "Cross the street.",
+      "text": "Pārejiet pāri ielai."
+    },
+    "directions-phrase-07": {
+      "conceptId": "directions-phrase-07",
+      "meaning": "Wait at the traffic lights.",
+      "text": "Pagaidiet pie luksofora."
+    },
+    "directions-phrase-08": {
+      "conceptId": "directions-phrase-08",
+      "meaning": "Where is the pedestrian crossing?",
+      "text": "Kur ir gājēju pāreja?"
+    },
+    "directions-phrase-09": {
+      "conceptId": "directions-phrase-09",
+      "meaning": "I'm looking for this street.",
+      "text": "Es meklēju šo ielu."
+    },
+    "directions-phrase-10": {
+      "conceptId": "directions-phrase-10",
+      "meaning": "Is this the right way?",
+      "text": "Vai tas ir pareizais ceļš?"
+    },
+    "transport-phrase-01": {
+      "conceptId": "transport-phrase-01",
+      "meaning": "Does this bus go to the centre?",
+      "text": "Vai šis autobuss brauc uz centru?"
+    },
+    "transport-phrase-02": {
+      "conceptId": "transport-phrase-02",
+      "meaning": "Where do I need to get off?",
+      "text": "Kur man jāizkāpj?"
+    },
+    "transport-phrase-03": {
+      "conceptId": "transport-phrase-03",
+      "meaning": "The next stop.",
+      "text": "Nākamā pietura."
+    },
+    "transport-phrase-04": {
+      "conceptId": "transport-phrase-04",
+      "meaning": "I need a ticket.",
+      "text": "Man vajag biļeti."
+    },
+    "transport-phrase-05": {
+      "conceptId": "transport-phrase-05",
+      "meaning": "What time does the bus arrive?",
+      "text": "Cikos pienāk autobuss?"
+    },
+    "transport-phrase-06": {
+      "conceptId": "transport-phrase-06",
+      "meaning": "Is this seat free?",
+      "text": "Vai šī vieta ir brīva?"
+    },
+    "transport-phrase-07": {
+      "conceptId": "transport-phrase-07",
+      "meaning": "I'll get off here.",
+      "text": "Es izkāpšu šeit."
+    },
+    "transport-phrase-08": {
+      "conceptId": "transport-phrase-08",
+      "meaning": "Where is bus number five?",
+      "text": "Kur ir autobuss ar numuru pieci?"
+    },
+    "transport-phrase-09": {
+      "conceptId": "transport-phrase-09",
+      "meaning": "The bus is late.",
+      "text": "Autobuss kavējas."
+    },
+    "transport-phrase-10": {
+      "conceptId": "transport-phrase-10",
+      "meaning": "Please let me through.",
+      "text": "Lūdzu, palaidiet mani garām."
+    },
+    "safety-phrase-01": {
+      "conceptId": "safety-phrase-01",
+      "meaning": "I can't find my way.",
+      "text": "Es nevaru atrast ceļu."
+    },
+    "safety-phrase-02": {
+      "conceptId": "safety-phrase-02",
+      "meaning": "Leave me alone!",
+      "text": "Liec mani mierā!"
+    },
+    "safety-phrase-03": {
+      "conceptId": "safety-phrase-03",
+      "meaning": "Help!",
+      "text": "Palīgā!"
+    },
+    "safety-phrase-04": {
+      "conceptId": "safety-phrase-04",
+      "meaning": "Call my parents.",
+      "text": "Piezvaniet maniem vecākiem."
+    },
+    "safety-phrase-05": {
+      "conceptId": "safety-phrase-05",
+      "meaning": "Call 112.",
+      "text": "Zvaniet uz numuru 112."
+    },
+    "safety-phrase-06": {
+      "conceptId": "safety-phrase-06",
+      "meaning": "I need a doctor.",
+      "text": "Man vajag ārstu."
+    },
+    "safety-phrase-07": {
+      "conceptId": "safety-phrase-07",
+      "meaning": "Don't touch me!",
+      "text": "Neaiztiec mani!"
+    },
+    "safety-phrase-08": {
+      "conceptId": "safety-phrase-08",
+      "meaning": "I won't go with you.",
+      "text": "Es neiešu tev līdzi."
+    },
+    "safety-phrase-09": {
+      "conceptId": "safety-phrase-09",
+      "meaning": "Where are the police?",
+      "text": "Kur ir policija?"
+    },
+    "safety-phrase-10": {
+      "conceptId": "safety-phrase-10",
+      "meaning": "I'm scared.",
+      "text": "Man ir bail."
+    }
+  },
+  "ui": {
+    "static": {
+      "skip": "Pāriet uz uzdevumiem",
+      "brand-name": "Valodu mācīšanās",
+      "badge": "Izmēģinājuma versija 0.3",
+      "draft": "Mācību materiāls vēl jāpārbauda valodu pratējiem · skaņas pagaidām nav",
+      "audience": "Valodas ikdienai · 10–17 gadiem",
+      "welcome": "Mazliet prakses. Sāc ar pamatiem.",
+      "intro": "Īsas nodarbības ikdienas situācijām. Izvēlies mācību virzienu un sāc pirmo nodarbību.",
+      "direction-caption": "Mācību virziens",
+      "start": "Sākt mācīties",
+      "rules-title": "Kā mācīties",
+      "rule-options": "Izvēlies vienu no četrām atbildēm. Atbildes pārbaude parādās uzreiz, un pēc 0,5 sekundēm atveras nākamais jautājums. Atbilžu secība katru reizi mainās.",
+      "rule-complete": "Katrā nodarbībā ir desmit jautājumu bloks. Desmit pareizas atbildes pēc kārtas pabeidz nodarbību.",
+      "rule-mistakes": "Kļūda atgriež vienu jautājumu atpakaļ un pārtrauc pareizo atbilžu virkni. Trešā kļūda tajā pašā blokā atgriež 1. nodarbības 1. jautājumā, arī tad, ja starp kļūdām bija pareizas atbildes.",
+      "rule-reset": "Jaunā blokā vai sākot no jauna, kļūdu skaits tiek atiestatīts. Pārlūkā progress netiek saglabāts.",
+      "outline-summary": "Apskatīt nodarbību tēmas",
+      "outline-note": "Nodarbības jāapgūst pēc kārtas. Šis saraksts neļauj izlaist nodarbības.",
+      "restart": "Sākt no 1. nodarbības",
+      "change": "Mainīt mācību virzienu",
+      "help": "Atbildes un progress paliek tikai šīs lapas atmiņā. Aizverot vai pārlādējot lapu, viss sākas no jauna.",
+      "finished-caption": "Mācību reize pabeigta",
+      "finished-title": "Visas nodarbības ir izpildītas.",
+      "finished-intro": "Atgriezies pie pamatiem, kad vēlies pavingrināties vēlreiz.",
+      "again": "Atkal sākt no 1. nodarbības",
+      "choose": "Izvēlēties citu mācību virzienu",
+      "footer-caption": "Bezmaksas izmēģinājuma versija · bez konta, reklāmām un saglabāta progresa pārlūkā",
+      "source-link": "Pirmkods un atsauksmes GitHub",
+      "privacy-note": "Publiskajās GitHub atsauksmēs neraksti personas datus."
+    },
+    "messages": {
+      "pageTitle": "Valodu mācīšanās — izmēģinājuma versija",
+      "lesson": "Nodarbība {n} no {total}",
+      "progress": "Pareizas atbildes pēc kārtas: {n} no 10",
+      "progressValue": "{n} no 10",
+      "mistakes": "Kļūdas šajā blokā: {n} no 3",
+      "choices": "Tulkojuma varianti",
+      "wrong": "Nav pareizi. Pareizais tulkojums: ",
+      "back": " Atgriežamies vienu jautājumu atpakaļ; pareizo atbilžu virkne sākas no jauna.",
+      "reset": " Trešā kļūda šajā blokā. Sākam no 1. nodarbības 1. jautājuma.",
+      "correct": "Pareizi. Pārejam pie nākamā jautājuma.",
+      "nextLesson": "Pareizi. Nākamā tēma: {title}.",
+      "completed": "Pareizi. Pēdējā nodarbība ir pabeigta.",
+      "error": "Neizdevās ielādēt mācību materiālu. Lejupielādē izmēģinājuma versiju vēlreiz vai ziņo par problēmu GitHub.",
+      "instruction": "Izvēlies tulkojumu {language} valodā",
+      "noscript": "Lai pildītu uzdevumus, ieslēdz JavaScript. Lejupielādētajam HTML failam konts un internets nav vajadzīgs."
+    },
+    "lessons": {
+      "essentials": "Svarīgākie vārdi",
+      "communication": "Saziņa un palīdzība",
+      "introductions": "Iepazīšanās",
+      "places": "Vietu atrašana",
+      "school": "Skolā",
+      "friends": "Nodarbības un draugi",
+      "shops": "Ēdnīcā un veikalā",
+      "directions": "Ceļa norādes",
+      "transport": "Sabiedriskais transports",
+      "safety": "Drošība un ārkārtas situācijas"
+    },
+    "names": {
+      "lv": {
+        "label": "Latviešu",
+        "target": "latviešu"
+      },
+      "ru": {
+        "label": "Krievu",
+        "target": "krievu"
+      },
+      "en": {
+        "label": "Angļu",
+        "target": "angļu"
+      }
+    }
+  }
+}

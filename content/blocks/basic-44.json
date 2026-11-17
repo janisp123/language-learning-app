@@ -1,0 +1,106 @@
+{
+  "id": "basic-44",
+  "title": "Finding and exchanging",
+  "prompts": [
+    {
+      "id": "basic-44-prompt-01",
+      "phraseId": "vocab-0431",
+      "correctAnswerId": "vocab-0431",
+      "distractorIds": [
+        "vocab-0432",
+        "vocab-0434",
+        "vocab-0436"
+      ]
+    },
+    {
+      "id": "basic-44-prompt-02",
+      "phraseId": "vocab-0432",
+      "correctAnswerId": "vocab-0432",
+      "distractorIds": [
+        "vocab-0433",
+        "vocab-0435",
+        "vocab-0437"
+      ]
+    },
+    {
+      "id": "basic-44-prompt-03",
+      "phraseId": "vocab-0433",
+      "correctAnswerId": "vocab-0433",
+      "distractorIds": [
+        "vocab-0434",
+        "vocab-0436",
+        "vocab-0438"
+      ]
+    },
+    {
+      "id": "basic-44-prompt-04",
+      "phraseId": "vocab-0434",
+      "correctAnswerId": "vocab-0434",
+      "distractorIds": [
+        "vocab-0435",
+        "vocab-0437",
+        "vocab-0439"
+      ]
+    },
+    {
+      "id": "basic-44-prompt-05",
+      "phraseId": "vocab-0435",
+      "correctAnswerId": "vocab-0435",
+      "distractorIds": [
+        "vocab-0436",
+        "vocab-0438",
+        "vocab-0440"
+      ]
+    },
+    {
+      "id": "basic-44-prompt-06",
+      "phraseId": "vocab-0436",
+      "correctAnswerId": "vocab-0436",
+      "distractorIds": [
+        "vocab-0437",
+        "vocab-0439",
+        "vocab-0431"
+      ]
+    },
+    {
+      "id": "basic-44-prompt-07",
+      "phraseId": "vocab-0437",
+      "correctAnswerId": "vocab-0437",
+      "distractorIds": [
+        "vocab-0438",
+        "vocab-0440",
+        "vocab-0432"
+      ]
+    },
+    {
+      "id": "basic-44-prompt-08",
+      "phraseId": "vocab-0438",
+      "correctAnswerId": "vocab-0438",
+      "distractorIds": [
+        "vocab-0439",
+        "vocab-0431",
+        "vocab-0433"
+      ]
+    },
+    {
+      "id": "basic-44-prompt-09",
+      "phraseId": "vocab-0439",
+      "correctAnswerId": "vocab-0439",
+      "distractorIds": [
+        "vocab-0440",
+        "vocab-0432",
+        "vocab-0434"
+      ]
+    },
+    {
+      "id": "basic-44-prompt-10",
+      "phraseId": "vocab-0440",
+      "correctAnswerId": "vocab-0440",
+      "distractorIds": [
+        "vocab-0431",
+        "vocab-0433",
+        "vocab-0435"
+      ]
+    }
+  ]
+}

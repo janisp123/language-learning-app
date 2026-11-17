@@ -1,0 +1,106 @@
+{
+  "id": "communication",
+  "title": "Communication and help",
+  "prompts": [
+    {
+      "id": "communication-prompt-01",
+      "phraseId": "communication-phrase-01",
+      "distractorIds": [
+        "communication-phrase-02",
+        "communication-phrase-04",
+        "communication-phrase-06"
+      ],
+      "correctAnswerId": "communication-phrase-01"
+    },
+    {
+      "id": "communication-prompt-02",
+      "phraseId": "communication-phrase-02",
+      "distractorIds": [
+        "communication-phrase-03",
+        "communication-phrase-05",
+        "communication-phrase-07"
+      ],
+      "correctAnswerId": "communication-phrase-02"
+    },
+    {
+      "id": "communication-prompt-03",
+      "phraseId": "communication-phrase-03",
+      "distractorIds": [
+        "communication-phrase-04",
+        "communication-phrase-06",
+        "communication-phrase-08"
+      ],
+      "correctAnswerId": "communication-phrase-03"
+    },
+    {
+      "id": "communication-prompt-04",
+      "phraseId": "communication-phrase-04",
+      "distractorIds": [
+        "communication-phrase-05",
+        "communication-phrase-07",
+        "communication-phrase-09"
+      ],
+      "correctAnswerId": "communication-phrase-04"
+    },
+    {
+      "id": "communication-prompt-05",
+      "phraseId": "communication-phrase-05",
+      "distractorIds": [
+        "communication-phrase-06",
+        "communication-phrase-08",
+        "communication-phrase-10"
+      ],
+      "correctAnswerId": "communication-phrase-05"
+    },
+    {
+      "id": "communication-prompt-06",
+      "phraseId": "communication-phrase-06",
+      "distractorIds": [
+        "communication-phrase-07",
+        "communication-phrase-09",
+        "communication-phrase-01"
+      ],
+      "correctAnswerId": "communication-phrase-06"
+    },
+    {
+      "id": "communication-prompt-07",
+      "phraseId": "communication-phrase-07",
+      "distractorIds": [
+        "communication-phrase-08",
+        "communication-phrase-10",
+        "communication-phrase-02"
+      ],
+      "correctAnswerId": "communication-phrase-07"
+    },
+    {
+      "id": "communication-prompt-08",
+      "phraseId": "communication-phrase-08",
+      "distractorIds": [
+        "communication-phrase-09",
+        "communication-phrase-01",
+        "communication-phrase-03"
+      ],
+      "correctAnswerId": "communication-phrase-08"
+    },
+    {
+      "id": "communication-prompt-09",
+      "phraseId": "communication-phrase-09",
+      "distractorIds": [
+        "communication-phrase-10",
+        "communication-phrase-02",
+        "communication-phrase-04"
+      ],
+      "correctAnswerId": "communication-phrase-09"
+    },
+    {
+      "id": "communication-prompt-10",
+      "phraseId": "communication-phrase-10",
+      "distractorIds": [
+        "communication-phrase-01",
+        "communication-phrase-03",
+        "communication-phrase-05"
+      ],
+      "correctAnswerId": "communication-phrase-10"
+    }
+  ]
+}

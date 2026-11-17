@@ -1,0 +1,28 @@
+name: Browser test build checks
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: npm test
+      - run: python -m unittest discover -s tests -p 'test_*.py' -v
+      - run: python tools/build_browser.py
+      - name: Verify committed download matches canonical sources
+        run: cmp dist/language-learning-test.html downloads/language-learning-test.html
+      - uses: actions/upload-artifact@v4
+        with:
+          name: language-learning-test
+          path: dist/language-learning-test.html

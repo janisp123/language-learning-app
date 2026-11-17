@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="<!--DEFAULT-LANGUAGE-->">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#183f36">
+  <title><!--TITLE--></title>
+  <!--STYLE-->
+</head>
+<body>
+  <a id="skip" class="skip" href="#main"><!--TEXT:skip--></a>
+  <header class="header"><span class="brand"><span aria-hidden="true">↔</span> <span id="brand-name"><!--TEXT:brand-name--></span></span><span id="badge" class="badge"><!--TEXT:badge--></span></header>
+  <main id="main" tabindex="-1">
+    <p id="draft" class="draft"><!--TEXT:draft--></p>
+    <p id="error" class="error" role="alert" hidden></p>
+    <section id="setup" aria-labelledby="welcome">
+      <p id="audience" class="eyebrow"><!--TEXT:audience--></p>
+      <h1 id="welcome"><!--TEXT:welcome--></h1>
+      <p id="intro" class="lead"><!--TEXT:intro--></p>
+      <label id="direction-caption" for="direction"><!--TEXT:direction-caption--></label>
+      <select id="direction"><!--DIRECTIONS--></select>
+      <button class="primary start" id="start" type="button"><!--TEXT:start--></button>
+      <div class="rules"><h2 id="rules-title"><!--TEXT:rules-title--></h2><ul><li id="rule-options"><!--TEXT:rule-options--></li><li id="rule-complete"><!--TEXT:rule-complete--></li><li id="rule-mistakes"><!--TEXT:rule-mistakes--></li><li id="rule-reset"><!--TEXT:rule-reset--></li></ul></div>
+      <details class="course-outline"><summary id="outline-summary"><!--TEXT:outline-summary--></summary><ol id="lesson-list"></ol><p id="outline-note" class="small"><!--TEXT:outline-note--></p></details>
+    </section>
+    <section id="practice" aria-labelledby="lesson-title" hidden>
+      <div class="lesson-top"><p class="eyebrow" id="lesson-label"></p><span id="direction-label" class="small"></span></div>
+      <h1 id="lesson-title"></h1>
+      <div class="progress-row"><label for="progress" id="progress-label"></label><progress id="progress" max="10" value="0"></progress></div>
+      <p class="small" id="mistakes"></p>
+      <article class="question-card" aria-labelledby="question">
+        <p id="instruction" class="eyebrow"></p><h2 id="question" tabindex="-1"></h2>
+        <div id="choices" class="choices"></div>
+      </article>
+      <div id="feedback" class="feedback" role="status" aria-live="polite" aria-atomic="true"></div>
+      <div id="audio-panel" class="audio-panel" hidden>
+        <audio id="audio-media" preload="none"></audio>
+        <p><span id="audio-caption"></span> <strong id="audio-label"></strong></p>
+        <button id="audio-replay" class="quiet" type="button"></button>
+        <p id="audio-error" class="small" role="status" aria-live="polite"></p>
+      </div>
+      <div class="practice-actions"><button id="restart" class="quiet" type="button"><!--TEXT:restart--></button><button id="change" class="quiet" type="button"><!--TEXT:change--></button></div>
+      <p id="help" class="small help"><!--TEXT:help--></p>
+    </section>
+    <section id="finished" aria-labelledby="finished-title" hidden>
+      <p id="finished-caption" class="eyebrow"><!--TEXT:finished-caption--></p><h1 id="finished-title" tabindex="-1"><!--TEXT:finished-title--></h1><p id="finished-intro" class="lead"><!--TEXT:finished-intro--></p><button id="again" class="primary" type="button"><!--TEXT:again--></button><button id="choose" class="quiet" type="button"><!--TEXT:choose--></button>
+    </section>
+    <noscript><!--NOSCRIPT--></noscript>
+  </main>
+  <footer><p id="footer-caption"><!--TEXT:footer-caption--></p><a id="source-link" href="https://github.com/janisp123/language-learning-app"><!--TEXT:source-link--></a><p id="privacy-note" class="small"><!--TEXT:privacy-note--></p></footer>
+  <script type="application/json" id="course-data"><!--COURSE--></script>
+  <script type="application/json" id="ui-data"><!--UI--></script>
+  <script type="application/json" id="audio-data"><!--AUDIO-DATA--></script>
+  <!--ENGINE-->
+  <!--AUDIO-MODULES-->
+  <!--APP-->
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "version": "0.4.3",
+  "sourceCommit": "d8ab062c6334c393b93acab7d4b14df605c2e95b",
+  "driveFileId": "1594pGCAm3E7hOq0-oSwLFh8z4WtRI3vd",
+  "folderId": "1U6ewdAD-HsthuchnzVOeWOSs4hmM-EAX",
+  "sha256": "c83f9e14d25127c9f4855b2e33bf9147ff8de0933a63ae2b9d6766242375312d",
+  "bytes": 15322295,
+  "readbackVerified": true,
+  "verifiedDate": "2026-11-17",
+  "coverage": {
+    "lv": 500,
+    "ru": 500,
+    "en": 500
+  },
+  "directions": 6,
+  "tests": {
+    "node": 36,
+    "python": 20,
+    "decodedMp3": 1500
+  },
+  "englishProvider": "Flite cmu_us_slt, locally generated",
+  "sourcePush": "BLOCKED: shared proxy/upstream HTTP 503; local commits retained",
+  "browser": "Chrome HTTP preview: English duration/played range/replay/reset; English-source UI/Russian-target playback",
+  "notRun": [
+    "physical phones",
+    "fluent pronunciation review",
+    "local-file opening (Cloud Chrome URL policy)"
+  ]
+}
