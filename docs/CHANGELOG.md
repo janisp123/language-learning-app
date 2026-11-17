@@ -1,3 +1,7 @@
+## 2026-11-17 — GitHub Pages publication preparation
+
+Owner requested online availability like the mental-health test. Codex updated the existing landing copy to about 500 survival essentials and complete LV/RU/EN audio, linked the stable Drive folder for downloads, and enabled main-only publication triggers in the existing Pages workflow. Source synchronization recovered; completed audio commits are now on PR #6. Build/site/download bytes match the verified Drive artifact. Pages Source selection, checked integration and live URL verification remain pending until delivery evidence is recorded.
+
 ## 2026-11-17 — English complete, full audio build 0.4.3
 
 Codex completed all 500 English recordings offline with Flite cmu_us_slt after online synthesis failures, saving ten batches of fifty. Enabled all six directions through the existing manifest; consolidated pending records. No changes to vocabulary, player/view or engine; RU/LV clips retained. Added optional network-free authoring helper and regression. 36 Node/20 Python checks pass locally; all 1,500 MP3 clips decode; Chrome English playback/replay/cancellation and English-source UI verified. Human pronunciation/device review pending. Drive HTML replaced in place and downloaded back with exact byte equality; build source d8ab062, full evidence in delivery/2026-11-17-english-complete-drive-sync.json. GitHub push remains blocked by proxy HTTP 503; local commits preserve progress. No merge/publication.

@@ -1,25 +1,27 @@
-# Browser test-build publication
+# GitHub Pages publication
 
-The owner-requested landing page was integrated via PR #5. This branch adds a real browser test app, generated from canonical data and engine/UI source; see [test-build instructions](../BROWSER_TEST_BUILD.md).
+The website uses the same GitHub Pages delivery pattern as the mental-health test: a landing page, an online-open action and a stable Drive-folder download action. The app is built from canonical content and the same builder as the verified offline copy.
 
-The ordinary checks workflow runs engine/content/UI-wiring and packaging tests and uploads the standalone HTML artifact. The committed `downloads/language-learning-test.html` is an immediate offline testing route without hosting.
+## Artifact
 
-The manual Pages workflow stages only:
-- `index.html`: the static landing page with a link to the test app.
-- `learn/index.html`: the generated self-contained browser app.
-- `language-learning-test.html`: the exact same generated app bytes for download.
+- index.html: the landing page.
+- learn/index.html: the complete self-contained browser app with all 1,500 pronunciation clips.
+- language-learning-test.html: identical app bytes retained for parity/direct technical checks.
 
-No docs tree, tests, source repository metadata or private files enter the Pages artifact. There are no remote runtime dependencies or saved browser progress. The landing page remains script-free; JavaScript in the app performs learning interactions locally.
+The public download button points to the default Drive folder. No source tree, tests, private files or Git metadata enter the published artifact. Learning state is browser memory only.
 
-## Publish only when authorized
+## Account step
 
-1. Review/merge the browser test-build PR with owner authorization.
-2. Owner enables GitHub Actions in Settings → Pages. The workflow uses `enablement: false` and does not enable hosting.
-3. Manually run the Pages workflow on main; merge alone does not deploy. It tests and packages the app before upload/deployment.
-4. Read the actual URL from the deployment result and verify the real landing, `learn/` route and downloaded HTML. Confirm deployed app/download bytes match the checked source build.
-5. Test narrow/desktop layout, keyboard/screen-reader/zoom, both directions and refresh reset in an actual browser. Record unrun physical-device and language-review checks separately.
-6. Only then describe a hosted URL as live or add a canonical. No live URL, indexing result or Android release is claimed by this branch.
+In repository Settings → Pages → Build and deployment, choose Source: GitHub Actions. The GitHub connector does not expose this admin setting. The publishing workflow keeps configure-pages enablement false and preserves the selected repository access.
 
-## Current limits
+## Publishing
 
-The downloadable HTML is prepared for testing. Automated tests are recorded in the browser-build guide. Managed browser tooling is unavailable, so real browser rendering/interaction, physical devices, deployment and public HTTPS checks remain NOT RUN. Draft course content needs fluent human review. A testable file is not evidence of public release readiness.
+The Publish language app website workflow runs on approved main-branch changes to site/app sources and delivery records, and can also be dispatched manually on main. It runs tests, stages the isolated artifact and deploys through GitHub Pages. A feature branch push cannot deploy.
+
+After the source PR is merged, follow that existing workflow run. If it failed because Pages was not enabled yet, enable the Source setting and rerun only failed jobs. Avoid redundant deployments. Read the actual page_url/deployment result; a merge or successful build is not proof of a live site.
+
+Verify the public landing page, Learn action, language/direction selection and pronunciation. Download/read back the hosted learn/index.html and compare its SHA-256 with docs/delivery/2026-11-17-english-complete-drive-sync.json. Physical-phone and fluent pronunciation checks remain separate.
+
+## Current status
+
+Owner requested website publication on 2026-11-17. Source synchronization recovered; publishing preparation uses build 0.4.3 with all languages/audio. Actual deployment and public URL verification remain pending until recorded in the current checkpoint.

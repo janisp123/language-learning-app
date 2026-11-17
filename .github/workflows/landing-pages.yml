@@ -1,7 +1,19 @@
-name: Publish approved language browser test build
+name: Publish language app website
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'audio/**'
+      - 'content/**'
+      - 'core/**'
+      - 'web/**'
+      - 'tools/**'
+      - 'package.json'
+      - 'docs/discovery-preview/**'
+      - 'docs/delivery/**'
+      - '.github/workflows/landing-pages.yml'
 
 permissions:
   contents: read
