@@ -1,23 +1,21 @@
 # Current working checkpoint
 
-As of 2026-11-17. Repository: janisp123/language-learning-app.
+As of 2026-11-17. Branch: feat/testable-browser-app, open PR #6; no merge/public release.
 
-## Current source and behavior
+## Product and current batch
 
-- Product scope: approximately 500 crucial words/phrases for survival basics, with current development focused on Russian ↔ Latvian. Maximize reuse of familiar words and patterns. Understandable imperfect grammar is acceptable; efficient communication takes priority over style/formal correctness. Improve essential usefulness and pronunciation; broad curriculum/feature expansion is outside scope. This is recorded in CONTENT_RULES.md and AGENTS.md; no vocabulary audit or runtime change is claimed.
-- Main remains 0eca173; implementation continues in open PR #6, feat/testable-browser-app, from a811593. No merge or public publication.
-- Browser build 0.4.1 retains 500 vocabulary items/50 blocks and all existing text directions. Audio scope is only first ten questions (vocab-0001…vocab-0010), Russian ↔ Latvian.
-- Twenty embedded synthetic pronunciation clips; correct-target audio after either answer outcome, plus labeled previous-answer replay. Existing 500 ms transitions/three-mistake rules unchanged. Restart/direction changes stop audio.
-- Independent manifest, loader, player and view modules: see AUDIO_MODULES.md. Changing one clip requires one asset/manifest update, not engine changes. Content/archived identity locks remain intact.
+Approximately 500 survival words/phrases; reuse familiar words and understandable phrasing before formal grammar/style. Current bank and grading are unchanged.
 
-## Verification
+Build 0.4.2 batch 1 enables pronunciation for all 500 questions in Russian ↔ Latvian: 1,000 bundled clips. Automatic correct-target pronunciation and replay keep the accepted 500 ms navigation. Player/view/engine unchanged. Manifest all-phrases policy rejects incomplete enabled-language coverage.
 
-36 Node and 16 Python tests pass. All twenty MP3 files decode. Chrome preview verified embedded playback, played ranges, replay and restart cancellation in both target languages. Cloud Chrome rejects file://, so actual downloaded-file opening, physical phones and fluent pronunciation review remain NOT RUN. Android/release/licensing remain unfinished.
+English expansion is PARTIAL, NOT DELIVERED: 111 clips generated before the synthesis service returned HTTP 503. Cached files and content/audio/pending/english.json preserve that progress; English audio is not enabled in this batch. Full expansion plan: superpowers/plans/2026-11-17-full-audio.md. Do not regenerate valid existing RU/LV recordings.
 
-## Distribution
+## Verification and delivery
 
-Default Drive folder: Git_dump/language-learning-app, ID 1U6ewdAD-HsthuchnzVOeWOSs4hmM-EAX. Stable HTML ID 1594pGCAm3E7hOq0-oSwLFh8z4WtRI3vd. Build source 851fdea6173dafe2794f79b1b53f6036a2a44621 is pushed to PR #6. Drive HTML was replaced in place and downloaded back: exact bytes match, SHA-256 47da152e7e85f475d8d1f68e59ab53c9ab88ef117ea3560c5d7853634e6997c1. GitHub CI run 44025844650 passed. See delivery/2026-11-17-audio-drive-sync.json.
+36 Node and 17 Python tests pass, including full 500-item audio traversal in both enabled directions, exact embedded bytes, text/hash/path integrity and missing-coverage rejection. Native decoder verification and Drive delivery are being finalized; do not infer delivery from local files. Human pronunciation and physical-phone checks remain pending.
 
-## One next action
+Default Drive folder: Git_dump/language-learning-app, ID 1U6ewdAD-HsthuchnzVOeWOSs4hmM-EAX. Preserve HTML ID 1594pGCAm3E7hOq0-oSwLFh8z4WtRI3vd. See delivery evidence for the exact distributed source/hash.
 
-Owner downloads the updated HTML from the default Drive folder and tests first-block sound in both directions on their device. Earlier implementation history: history/WORK_CHECKPOINT-before-first-block-audio.md. Broader architecture PR #3 and workflow PR #4 remain separate.
+## Next action
+
+Deliver verified RU/LV batch, then resume English when synthesis is available. Earlier checkpoint: history/WORK_CHECKPOINT-before-full-audio.md.

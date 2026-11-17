@@ -51,24 +51,26 @@ function mount(data=course,bundle=null,initialDirection='lv-ru'){
   return $;
 }
 function choose($,id){const button=$('choices').children.find(b=>b.dataset.optionId===id);assert.ok(button);button.click();}
-test('standalone audio follows correct targets for ten questions only in Russian–Latvian directions',()=>{
+test('standalone audio covers every question in both Russian–Latvian directions with correct target binding',()=>{
   const html=fs.readFileSync(path.join(root,'downloads/language-learning-test.html'),'utf8');
+  const bank=new Map(course.phrases.map(p=>[p.id,p]));
   for(const direction of ['lv-ru','ru-lv']){
-    const target=direction.split('-')[1];const $=mount(undefined,html,direction);$('start').click();
-    for(let i=0;i<10;i++){
-      const prompt=course.lessons[0].prompts[i];
-      const option=i===0 ? $('choices').children.find(b=>b.dataset.optionId!==prompt.phraseId).dataset.optionId : prompt.phraseId;
-      choose($,option);assert.equal($('audio-label').textContent,course.phrases.find(p=>p.id===prompt.phraseId)[target]);
-      assert.equal($('audio-panel').hidden,false);assert.match($('audio-media').src,/^data:audio\/mpeg;base64,/);
-      $.tick(500);
-      if(i===0){$('restart').click();choose($,prompt.phraseId);$.tick(500);}
+    const [source,target]=direction.split('-');
+    const $=mount(undefined,html,source+'-'+target);$('start').click();let count=0;
+    for(const lesson of course.lessons)for(const prompt of lesson.prompts){
+      choose($,prompt.phraseId);count++;
+      assert.equal($('audio-label').textContent,bank.get(prompt.phraseId)[target]);
+      assert.equal($('audio-label').lang,target);assert.equal($('audio-panel').hidden,false);
+      assert.match($('audio-media').src,/^data:audio\/mpeg;base64,/);$.tick(500);
     }
-    assert.equal($('audio-media').playCount,11);
-    choose($,course.lessons[1].prompts[0].phraseId);assert.equal($('audio-panel').hidden,true);assert.equal($('audio-media').playCount,11);
-    $('restart').click();assert.equal($('audio-media').paused,true);
+    assert.equal($('audio-media').playCount,course.phrases.length);
+    assert.equal(count,500);assert.equal($('finished').hidden,false);
+    $('again').click();assert.equal($('audio-media').paused,true);
+    const prompt=course.lessons[0].prompts[0];
+    choose($,$('choices').children.find(b=>b.dataset.optionId!==prompt.phraseId).dataset.optionId);
+    assert.equal($('audio-label').textContent,bank.get(prompt.phraseId)[target]);
+    assert.equal($('audio-panel').hidden,false);
   }
-  const $=mount(undefined,html,'en-ru');$('start').click();choose($,course.lessons[0].prompts[0].phraseId);
-  assert.equal($('audio-panel').hidden,true);assert.equal($('audio-media').playCount,undefined);
 });
 test('answer locks immediately, advances only at 500ms, then wrong steps back automatically',()=>{
   const $=mount();assert.equal($('setup').hidden,false);assert.equal($('error').hidden,true);

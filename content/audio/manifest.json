@@ -61,6 +61,2456 @@
         "text": "спокойной ночи",
         "file": "audio/ru/vocab-0010.mp3",
         "sha256": "908922c4d76fd4894bd10d0beb5ca8ae6998c373bbd545a44cc9ec2ad4f7f062"
+      },
+      "vocab-0012": {
+        "text": "ребёнок",
+        "file": "audio/ru/vocab-0012.mp3",
+        "sha256": "e258b8533e383fa605ec9b39b38d99953169906adb564434d6e7e8b62a992e8d"
+      },
+      "vocab-0011": {
+        "text": "человек",
+        "file": "audio/ru/vocab-0011.mp3",
+        "sha256": "c470a3a698897f5bac8bbe4228a3ffab15d8fcb4c40a804ce47b943929677074"
+      },
+      "vocab-0013": {
+        "text": "мальчик",
+        "file": "audio/ru/vocab-0013.mp3",
+        "sha256": "a9856d7ead9a0aa05926fac777be2b16d2948e363156ee23fc9d7a907148673e"
+      },
+      "vocab-0014": {
+        "text": "девочка",
+        "file": "audio/ru/vocab-0014.mp3",
+        "sha256": "b4ff75780efabd5d3b92ba75b9f8ef546b509d9583549d6d2371a23da140b4c5"
+      },
+      "vocab-0015": {
+        "text": "друг",
+        "file": "audio/ru/vocab-0015.mp3",
+        "sha256": "3ff1e4db016d9db3061b4a462d2b2b3014f729105a1781f99e8f940b5869ecab"
+      },
+      "vocab-0016": {
+        "text": "семья",
+        "file": "audio/ru/vocab-0016.mp3",
+        "sha256": "e48de89791a04437bd86fb20bfec5c29f2dc3bb227c6bf204fd612cecb224d24"
+      },
+      "vocab-0017": {
+        "text": "мать",
+        "file": "audio/ru/vocab-0017.mp3",
+        "sha256": "cbfbc7e5896ae8462bf04948109494e28763566789306e43282e189dcf5d0f48"
+      },
+      "vocab-0018": {
+        "text": "отец",
+        "file": "audio/ru/vocab-0018.mp3",
+        "sha256": "9f9cc88009086e236e65e78fb1dec9ce0decd6b5a602eb24966381ba27c7bc3c"
+      },
+      "vocab-0019": {
+        "text": "сестра",
+        "file": "audio/ru/vocab-0019.mp3",
+        "sha256": "b25c9ec54e351296203b3920822a0c09e00830858935d7fa5e79ccd485a49562"
+      },
+      "vocab-0020": {
+        "text": "брат",
+        "file": "audio/ru/vocab-0020.mp3",
+        "sha256": "06b690bd2aedbaafef77341837ebf1507e538f1ae0ebe38a67b2ace54d72b456"
+      },
+      "vocab-0021": {
+        "text": "один",
+        "file": "audio/ru/vocab-0021.mp3",
+        "sha256": "082d8e39af4c50980c0667bbdf9e0c501055b48f83203248d3fcc24621b1b1a6"
+      },
+      "vocab-0022": {
+        "text": "два",
+        "file": "audio/ru/vocab-0022.mp3",
+        "sha256": "9b70a641f41554bd52ff610a1f4ee28e75d4fcafa44d341b4c441ae676cca091"
+      },
+      "vocab-0024": {
+        "text": "четыре",
+        "file": "audio/ru/vocab-0024.mp3",
+        "sha256": "d81ceec2d00727b8ab74e3d7a7f065e040f21cc61b0ad09181ffa7d0a1f44568"
+      },
+      "vocab-0023": {
+        "text": "три",
+        "file": "audio/ru/vocab-0023.mp3",
+        "sha256": "a0ebeafd72dae2fc47f40e0c45371f30732721d5744de2a865c9e4b976dd8486"
+      },
+      "vocab-0025": {
+        "text": "пять",
+        "file": "audio/ru/vocab-0025.mp3",
+        "sha256": "7324f1b43578c5fab2240806c82c52ed09273bba32be9d6d488117f33d5b86a5"
+      },
+      "vocab-0026": {
+        "text": "шесть",
+        "file": "audio/ru/vocab-0026.mp3",
+        "sha256": "2039ee10029468496642c578c7bedc5fc08bceb3169b0e100152656ceb25083d"
+      },
+      "vocab-0027": {
+        "text": "семь",
+        "file": "audio/ru/vocab-0027.mp3",
+        "sha256": "47857842b5741d62ea28a01e764ac35ab694686bcdda7a18191dc3dbb302877f"
+      },
+      "vocab-0028": {
+        "text": "восемь",
+        "file": "audio/ru/vocab-0028.mp3",
+        "sha256": "198e5149508b3221d34ac6d404d0acf02b7bb538bbcdeada78c206fad3a08163"
+      },
+      "vocab-0029": {
+        "text": "девять",
+        "file": "audio/ru/vocab-0029.mp3",
+        "sha256": "dd01d11e43db201f19d4e1c37a093dfa1a8085b621149151ec239feaa9f59aed"
+      },
+      "vocab-0030": {
+        "text": "десять",
+        "file": "audio/ru/vocab-0030.mp3",
+        "sha256": "b6f28e57f16980b9c1077aaf250348e743aee7edc952d62f6868a2b20cb92533"
+      },
+      "vocab-0031": {
+        "text": "помощь",
+        "file": "audio/ru/vocab-0031.mp3",
+        "sha256": "2b0e93cb86c9b0c1d3e894a640edd3535db75a4bf0540be3b89503f70b12de8e"
+      },
+      "vocab-0032": {
+        "text": "стоп",
+        "file": "audio/ru/vocab-0032.mp3",
+        "sha256": "903f7403cc3fc2a28db641d422299acac13b52d3d77bf60cec947bc925f75d34"
+      },
+      "vocab-0033": {
+        "text": "здесь",
+        "file": "audio/ru/vocab-0033.mp3",
+        "sha256": "a20c9441cd499b001bb6aa4babea98f181702f06f0d7fb7424dfd096f5a6c625"
+      },
+      "vocab-0035": {
+        "text": "сейчас",
+        "file": "audio/ru/vocab-0035.mp3",
+        "sha256": "39c9cdaea0dd011d4c40fdb2751c3f9391e5c8c90ac756bfb2a09071066bce2d"
+      },
+      "vocab-0034": {
+        "text": "там",
+        "file": "audio/ru/vocab-0034.mp3",
+        "sha256": "4c3ccef402291e7163d80eb3b2a916459cac2df061a295f8f8fb0509f05d5c48"
+      },
+      "vocab-0036": {
+        "text": "позже",
+        "file": "audio/ru/vocab-0036.mp3",
+        "sha256": "0aea756ac873fd221e57c56de1528f6ebc2efb62c9653273193e9ad24f838db1"
+      },
+      "vocab-0037": {
+        "text": "вместе",
+        "file": "audio/ru/vocab-0037.mp3",
+        "sha256": "6444082374b914264d46fac06b725e2f49f84a4a615b4eafaaed70989867b674"
+      },
+      "vocab-0038": {
+        "text": "снова",
+        "file": "audio/ru/vocab-0038.mp3",
+        "sha256": "cf4eac90b7b6a5e98b3a744576bb3cf3a71039dfae5589b46f76f2acf704613c"
+      },
+      "vocab-0039": {
+        "text": "медленно",
+        "file": "audio/ru/vocab-0039.mp3",
+        "sha256": "17d5fa8dca8693fa7377e95e09daf32a67e9afe20e944898d5cd445e1a13cd10"
+      },
+      "vocab-0040": {
+        "text": "быстро",
+        "file": "audio/ru/vocab-0040.mp3",
+        "sha256": "b4d36f7c4034ae724dff61618ef64f876d6675e5ca561bf4cc475cad66c0f997"
+      },
+      "vocab-0042": {
+        "text": "школа",
+        "file": "audio/ru/vocab-0042.mp3",
+        "sha256": "f98e6ba75cf2b3d546dc12859f6f73e7d3c08971493cd5d2a07c1e12336b8089"
+      },
+      "vocab-0041": {
+        "text": "дом",
+        "file": "audio/ru/vocab-0041.mp3",
+        "sha256": "bd2f963274822f7d0a415f181b4b2f55c974bdbfd41f1575e84d3713dcfc48b2"
+      },
+      "vocab-0043": {
+        "text": "магазин",
+        "file": "audio/ru/vocab-0043.mp3",
+        "sha256": "4cc689e699c609e577e6d1c67de4d616c9d6f00d014fc2953460a5caa78939f4"
+      },
+      "vocab-0044": {
+        "text": "аптека",
+        "file": "audio/ru/vocab-0044.mp3",
+        "sha256": "a4a991eddbe9586b6e5ece533c95367736c6125dbdc839fa993f6788b6f912c1"
+      },
+      "vocab-0045": {
+        "text": "больница",
+        "file": "audio/ru/vocab-0045.mp3",
+        "sha256": "9d4a762384318fb6a1da06a7f0b29d72b9e256fe6ed6840141414d55c4446433"
+      },
+      "vocab-0046": {
+        "text": "парк",
+        "file": "audio/ru/vocab-0046.mp3",
+        "sha256": "e02fcb25ebfdc96796b797cbee6496fc701b96781ba9d0c3634fda57c96e7ff8"
+      },
+      "vocab-0047": {
+        "text": "улица",
+        "file": "audio/ru/vocab-0047.mp3",
+        "sha256": "1bb64be7d505622f8d95dc4a2753325395c9c544558dc75f8c4aab6e8ab03a03"
+      },
+      "vocab-0048": {
+        "text": "автобусная остановка",
+        "file": "audio/ru/vocab-0048.mp3",
+        "sha256": "c8801c94182e8d55b5e9d9060df60eeb8e04ca9cc20f4834f978f098db81353e"
+      },
+      "vocab-0050": {
+        "text": "выход",
+        "file": "audio/ru/vocab-0050.mp3",
+        "sha256": "e8017d4d8ab500cf53905fbded0a71b2b01babb60dc01ed3aa984bdf20e7b031"
+      },
+      "vocab-0049": {
+        "text": "туалет",
+        "file": "audio/ru/vocab-0049.mp3",
+        "sha256": "0b29b64a24c95026d146092fc29077995fb70717f06e117adea833abc62bd98e"
+      },
+      "vocab-0051": {
+        "text": "вода",
+        "file": "audio/ru/vocab-0051.mp3",
+        "sha256": "2d40a6051655a9e2170d0cd6a2923d2a23bead65e2003b2202fe90362c0356eb"
+      },
+      "vocab-0052": {
+        "text": "хлеб",
+        "file": "audio/ru/vocab-0052.mp3",
+        "sha256": "5cf62b5583f78ad9a2f4b069d17771e09d293134373e3135ed6b34ed3d3be706"
+      },
+      "vocab-0053": {
+        "text": "молоко",
+        "file": "audio/ru/vocab-0053.mp3",
+        "sha256": "6d8715782734c4cf18fc4597351ceb53e97652005410bf8b64159aca4b7e8b50"
+      },
+      "vocab-0054": {
+        "text": "чай",
+        "file": "audio/ru/vocab-0054.mp3",
+        "sha256": "f4fd5d825ffc49d981cdb1f085b9deb088d214dba70dd3ed027922722ae126bf"
+      },
+      "vocab-0055": {
+        "text": "яблоко",
+        "file": "audio/ru/vocab-0055.mp3",
+        "sha256": "896d029efd6c63e12110b2d6f5e30374c1fcb783f3c82b4623f95377b0c421f7"
+      },
+      "vocab-0056": {
+        "text": "банан",
+        "file": "audio/ru/vocab-0056.mp3",
+        "sha256": "ce1bb660398f619ea0c1eaf2ab7e45db93bbcbf2a15bbe642811a5bdbcca6181"
+      },
+      "vocab-0057": {
+        "text": "сыр",
+        "file": "audio/ru/vocab-0057.mp3",
+        "sha256": "ec3a11d6c4b2092bb393d1a24ba750748d01fdd0bd9cf606bd61fa9d7fd439bf"
+      },
+      "vocab-0058": {
+        "text": "суп",
+        "file": "audio/ru/vocab-0058.mp3",
+        "sha256": "29450c8d2eb1c90cb0cbc5d9b4d3f39f5ac43d0c581b5d18774145a6ebc45f3a"
+      },
+      "vocab-0059": {
+        "text": "сок",
+        "file": "audio/ru/vocab-0059.mp3",
+        "sha256": "5321d0f5115274c87bc0795d461c4080f96b0b677cba2d75085d28f529e7dfdd"
+      },
+      "vocab-0060": {
+        "text": "завтрак",
+        "file": "audio/ru/vocab-0060.mp3",
+        "sha256": "6be9e079158ce967e2a4f06cc374b6eba37cdadca1499b0c3b006f1b57ddcd25"
+      },
+      "vocab-0061": {
+        "text": "книга",
+        "file": "audio/ru/vocab-0061.mp3",
+        "sha256": "ced38d0c6adc88482faa0e8ff8424b927b7f58c6b8a0831995725a8408a1f442"
+      },
+      "vocab-0062": {
+        "text": "тетрадь",
+        "file": "audio/ru/vocab-0062.mp3",
+        "sha256": "737795ee7251af93745ec9d5edc099bd0e0ae4d14769503c06c2d121fcb46123"
+      },
+      "vocab-0064": {
+        "text": "карандаш",
+        "file": "audio/ru/vocab-0064.mp3",
+        "sha256": "cee4d9fca7faee71fb87bbd8ee3b2c8e08761c0c497c00735cf366d3f0ef717a"
+      },
+      "vocab-0063": {
+        "text": "ручка",
+        "file": "audio/ru/vocab-0063.mp3",
+        "sha256": "31d72bd5b473a628d964519251a05c54b5038b849198c841a33f77422b0c3e9f"
+      },
+      "vocab-0065": {
+        "text": "письменный стол",
+        "file": "audio/ru/vocab-0065.mp3",
+        "sha256": "59279f677d2e9fc2cc6f35f9d8d7f581d4ecebf5ebd7d68c1a8cafb9c2a9b1e5"
+      },
+      "vocab-0067": {
+        "text": "доска",
+        "file": "audio/ru/vocab-0067.mp3",
+        "sha256": "b2c016005d97e07076b1a9437a220603f957ce334497c20625f66dd9d2f0f211"
+      },
+      "vocab-0066": {
+        "text": "стул",
+        "file": "audio/ru/vocab-0066.mp3",
+        "sha256": "3849079a1a197452b5743f26725ec68aa6e5067b4d0143edcea222a6833243cd"
+      },
+      "vocab-0068": {
+        "text": "учитель",
+        "file": "audio/ru/vocab-0068.mp3",
+        "sha256": "bf02eb2a521e55ddc249f20e9ecd42e023b83b9842f345a76cf938c5658cc89c"
+      },
+      "vocab-0069": {
+        "text": "урок",
+        "file": "audio/ru/vocab-0069.mp3",
+        "sha256": "8f19c798ff20ed512e5fec65ba6a7e0c985a65accc89a777b039cd0d2512f520"
+      },
+      "vocab-0071": {
+        "text": "налево",
+        "file": "audio/ru/vocab-0071.mp3",
+        "sha256": "e9b12e97760d930a5a8f5f5f8150c6acefbe1dbc1b81b3d0846b9d58fe4388d0"
+      },
+      "vocab-0070": {
+        "text": "перемена",
+        "file": "audio/ru/vocab-0070.mp3",
+        "sha256": "58ce2640423b905dd8ec33872f491c9904dbcaaeee182264ee40faebd930e916"
+      },
+      "vocab-0072": {
+        "text": "направо",
+        "file": "audio/ru/vocab-0072.mp3",
+        "sha256": "67fbfc4b9689fba51dbed1efc0d6733f5b765712a6d5afec6e19e37f2138c89a"
+      },
+      "vocab-0073": {
+        "text": "прямо",
+        "file": "audio/ru/vocab-0073.mp3",
+        "sha256": "7a7368449070ca22e20f1f471bfad4259515e5344738ce9f53c11ede10feed99"
+      },
+      "vocab-0074": {
+        "text": "близко",
+        "file": "audio/ru/vocab-0074.mp3",
+        "sha256": "e04cae714c3924b0af9a4953d1f354b263afc0c5e8856926d763c4da67802aaa"
+      },
+      "vocab-0075": {
+        "text": "далеко",
+        "file": "audio/ru/vocab-0075.mp3",
+        "sha256": "7d6def162308898e5c31c83a21b180d79ecc46678773039441838db48197fe42"
+      },
+      "vocab-0076": {
+        "text": "внутри",
+        "file": "audio/ru/vocab-0076.mp3",
+        "sha256": "c807e01824f7f29d7db69f6d5a322528593d249cb7f3bf7287cfc5e648a01670"
+      },
+      "vocab-0077": {
+        "text": "снаружи",
+        "file": "audio/ru/vocab-0077.mp3",
+        "sha256": "11b24073f40953db92d3485e8b01c2585a90ff2accd17044392a3a75470c731c"
+      },
+      "vocab-0078": {
+        "text": "вверх",
+        "file": "audio/ru/vocab-0078.mp3",
+        "sha256": "9882dbfcfce3868bb358209599d700b47c3f0a2733c27af3df446eb313d7c749"
+      },
+      "vocab-0079": {
+        "text": "вниз",
+        "file": "audio/ru/vocab-0079.mp3",
+        "sha256": "53410b8459b1cc3c907b085d1fabc2046840cc4645f9446e0f7fa0dd5322e52c"
+      },
+      "vocab-0080": {
+        "text": "напротив",
+        "file": "audio/ru/vocab-0080.mp3",
+        "sha256": "4d50bb7552689880a05a05522d745fd9671687963eff83dd9c43d5daf72520ab"
+      },
+      "vocab-0081": {
+        "text": "полиция",
+        "file": "audio/ru/vocab-0081.mp3",
+        "sha256": "d8c6b50af844af420a1f23ca42d0a7ce4f835cedd3463173722b34afbec1256e"
+      },
+      "vocab-0083": {
+        "text": "огонь",
+        "file": "audio/ru/vocab-0083.mp3",
+        "sha256": "ca5995aeaf66db081df555ab5eb605cd5b8765e93eee0d8d8e751e7b075cb5cc"
+      },
+      "vocab-0082": {
+        "text": "скорая помощь",
+        "file": "audio/ru/vocab-0082.mp3",
+        "sha256": "b86fbd6b5480494386a81c00ae6cd8cd020489c637c8cdaa444a4bca9cd39044"
+      },
+      "vocab-0084": {
+        "text": "опасность",
+        "file": "audio/ru/vocab-0084.mp3",
+        "sha256": "32b1f430deed8867c24d015c37c61b96f4b72d252bf4cba3c1f7cefe4d3be890"
+      },
+      "vocab-0085": {
+        "text": "боль",
+        "file": "audio/ru/vocab-0085.mp3",
+        "sha256": "6736ee938f468c6592d3f5b12d108032d4730ee0240b13f214f659e0a36747d4"
+      },
+      "vocab-0086": {
+        "text": "врач",
+        "file": "audio/ru/vocab-0086.mp3",
+        "sha256": "a29ca1745b767132936b1cef5d3a3b3fec33e565dfa3fe74745e4bdbf866607e"
+      },
+      "vocab-0087": {
+        "text": "чрезвычайная ситуация",
+        "file": "audio/ru/vocab-0087.mp3",
+        "sha256": "0edb079c26787323f9cd90eddc7775727202b899001343afa5d413d652f46e08"
+      },
+      "vocab-0089": {
+        "text": "экстренный номер",
+        "file": "audio/ru/vocab-0089.mp3",
+        "sha256": "a5219bde8d45b11a81b090251613af455eb28be8fe4215583b56a218f3d5dfdd"
+      },
+      "vocab-0088": {
+        "text": "первая помощь",
+        "file": "audio/ru/vocab-0088.mp3",
+        "sha256": "89523a1bd981d2c273e0baa64362722b61d0aac36d6363c35091c65c276a3d1f"
+      },
+      "vocab-0090": {
+        "text": "взрослый",
+        "file": "audio/ru/vocab-0090.mp3",
+        "sha256": "18bdf3c40cf3082c4d1ca35ac4bf2b48f03014162bf78522cd79fff67b483e4e"
+      },
+      "vocab-0091": {
+        "text": "кто",
+        "file": "audio/ru/vocab-0091.mp3",
+        "sha256": "cdd13591d013066cd180e58488e86b46f5d06eb7f7014e2e14281e516be30b02"
+      },
+      "vocab-0093": {
+        "text": "где",
+        "file": "audio/ru/vocab-0093.mp3",
+        "sha256": "229e857ac0b0964282d56dcc20c1738ba6b6113a3e70e18ae6677502642b9988"
+      },
+      "vocab-0092": {
+        "text": "что",
+        "file": "audio/ru/vocab-0092.mp3",
+        "sha256": "0452f25b00196982c326cac5efa5e90c04f97eae7df68bcb45f5a5b26d4878d3"
+      },
+      "vocab-0094": {
+        "text": "когда",
+        "file": "audio/ru/vocab-0094.mp3",
+        "sha256": "531b6f8c1b26dc00de8b829fdf69bfb62646a904e8a54ed1f7a7962dd6b5c52d"
+      },
+      "vocab-0095": {
+        "text": "почему",
+        "file": "audio/ru/vocab-0095.mp3",
+        "sha256": "6326ba63dc3ee0138095fdc6cae35ae4076c3bc9db979a12d60e98b1c8ebc56b"
+      },
+      "vocab-0097": {
+        "text": "сколько",
+        "file": "audio/ru/vocab-0097.mp3",
+        "sha256": "7b2209911dc5199a2ac42da5106b90f57370f6e90a3bcd8ee36e49ad93819e4f"
+      },
+      "vocab-0096": {
+        "text": "как",
+        "file": "audio/ru/vocab-0096.mp3",
+        "sha256": "60eb89e83a12afcaa6adc712d3639f159b989784be150bcdfd5bb7d4e37706fa"
+      },
+      "vocab-0098": {
+        "text": "какая цена",
+        "file": "audio/ru/vocab-0098.mp3",
+        "sha256": "84c1c951f2511de6ef6ccbc3a34adc5626919c853fcc8fe14f81d8a32a45899d"
+      },
+      "vocab-0099": {
+        "text": "в какую сторону",
+        "file": "audio/ru/vocab-0099.mp3",
+        "sha256": "d22bb2ef05c1b6173c19370da92dfe7850b1be57f3a791c2aa60439a1feb2307"
+      },
+      "vocab-0100": {
+        "text": "что ещё",
+        "file": "audio/ru/vocab-0100.mp3",
+        "sha256": "1ea3b3e7a782e2d1cfc51d9a0aad4aaa29e22903b2cc7f103c328b6d4841a003"
+      },
+      "vocab-0101": {
+        "text": "бабушка",
+        "file": "audio/ru/vocab-0101.mp3",
+        "sha256": "9ed3da3e23fef58d0608859cf5bfb625c4a14632a0ef97d07d938977235d86d3"
+      },
+      "vocab-0102": {
+        "text": "дедушка",
+        "file": "audio/ru/vocab-0102.mp3",
+        "sha256": "2a6c1ebe25b5c9978a5a0508012998f8a46945f8e30e01ded84af461a90944ce"
+      },
+      "vocab-0103": {
+        "text": "тётя",
+        "file": "audio/ru/vocab-0103.mp3",
+        "sha256": "0b8bf6667d790ef61bfdfc22b7de1580f5c66ae7c29081837431a04ca6fe9836"
+      },
+      "vocab-0104": {
+        "text": "дядя",
+        "file": "audio/ru/vocab-0104.mp3",
+        "sha256": "3be667bf47f60802153e1ddd981d896ef2cbd86103e356c03ce9835c942c1cd3"
+      },
+      "vocab-0105": {
+        "text": "родители",
+        "file": "audio/ru/vocab-0105.mp3",
+        "sha256": "03c114fd670aaa1e39078207e126160864edbaa842f5a6c2961df7b0e4616e3b"
+      },
+      "vocab-0106": {
+        "text": "бабушка и дедушка",
+        "file": "audio/ru/vocab-0106.mp3",
+        "sha256": "50e0171eb3c67d4566f4d045113823f67e6cc066ce3b5704ef3e62ce120071db"
+      },
+      "vocab-0107": {
+        "text": "младенец",
+        "file": "audio/ru/vocab-0107.mp3",
+        "sha256": "f582e43c34fccdc1012c2a1a316697da5c1880509e38e0400ed71b1026f50b73"
+      },
+      "vocab-0108": {
+        "text": "подросток",
+        "file": "audio/ru/vocab-0108.mp3",
+        "sha256": "b886673dfe1e10cab194576620e9518de87618fede3da48403c24176f6a85669"
+      },
+      "vocab-0109": {
+        "text": "сосед",
+        "file": "audio/ru/vocab-0109.mp3",
+        "sha256": "fcddd4200989fcb32d1ccf1adb337aa58ac42f4e23434a508eb3c6c8fb248865"
+      },
+      "vocab-0113": {
+        "text": "люди",
+        "file": "audio/ru/vocab-0113.mp3",
+        "sha256": "0484b40110e6e544cf1588b3a12d4695327f6860eff9b340ad54169332f2723e"
+      },
+      "vocab-0110": {
+        "text": "гость",
+        "file": "audio/ru/vocab-0110.mp3",
+        "sha256": "03ecd9467078c1d3a00c3c213a4a8b9f2a560df4bf97ad1562f7ffdb6070f0c4"
+      },
+      "vocab-0112": {
+        "text": "мужчина",
+        "file": "audio/ru/vocab-0112.mp3",
+        "sha256": "d4ad92655f219f2bce1d5feed5755df38cdf38a9c3abf2a5c4c6f851dce5d72e"
+      },
+      "vocab-0111": {
+        "text": "женщина",
+        "file": "audio/ru/vocab-0111.mp3",
+        "sha256": "3b9a312e8ae7918b539e4258d89bd9e2f72b5ebc18aefb49b40e7241be473c45"
+      },
+      "vocab-0114": {
+        "text": "дети",
+        "file": "audio/ru/vocab-0114.mp3",
+        "sha256": "22aa39aed5064318cdd29e0bca2e03eefbf8ad15ebbb42da2fc13e2a7e416275"
+      },
+      "vocab-0116": {
+        "text": "школьник",
+        "file": "audio/ru/vocab-0116.mp3",
+        "sha256": "4666874d43ae649c11d7d50d19cbc61cf005509d41c10ab50a08bbf412992f40"
+      },
+      "vocab-0115": {
+        "text": "одноклассник",
+        "file": "audio/ru/vocab-0115.mp3",
+        "sha256": "a90f37abb9db0409e77ea5382b0716d4ef40159290c769602b20368b0ec8c70f"
+      },
+      "vocab-0117": {
+        "text": "водитель",
+        "file": "audio/ru/vocab-0117.mp3",
+        "sha256": "3fd08f8cc8d8d7930e6b70426262e690018ce3ebb7bf94485aeca3921697b761"
+      },
+      "vocab-0118": {
+        "text": "продавец",
+        "file": "audio/ru/vocab-0118.mp3",
+        "sha256": "2b2082738928e0ecdeb31c90c5ba634e5457f186438b169741ad3802573e1533"
+      },
+      "vocab-0120": {
+        "text": "посетитель",
+        "file": "audio/ru/vocab-0120.mp3",
+        "sha256": "3f8a9a157444e4a1cdc4749a86182d8afb1dbac2abbf0e7d032cd5bd75f5fc99"
+      },
+      "vocab-0121": {
+        "text": "голова",
+        "file": "audio/ru/vocab-0121.mp3",
+        "sha256": "c8ed7ce0007581786e4118b000872039f866315b30ec8c79a4cdc65e4dcc382f"
+      },
+      "vocab-0119": {
+        "text": "пассажир",
+        "file": "audio/ru/vocab-0119.mp3",
+        "sha256": "5609c9fc3fbfe387f382c4ef1479a256c7204fc51b37ef43d938034371946bbd"
+      },
+      "vocab-0122": {
+        "text": "волосы",
+        "file": "audio/ru/vocab-0122.mp3",
+        "sha256": "4fa915a57b872871de884a008fdf706430624e7542235a5daede1f47468d4ba6"
+      },
+      "vocab-0123": {
+        "text": "лицо",
+        "file": "audio/ru/vocab-0123.mp3",
+        "sha256": "77f39191e2370c41a0e5bfa80a6b81a834dcf375ce29044e1a3c8791b70033b8"
+      },
+      "vocab-0125": {
+        "text": "ухо",
+        "file": "audio/ru/vocab-0125.mp3",
+        "sha256": "32358cef7204aa39195766178e1598bebe5b9d0d2f655c2a915550a76a8a8d71"
+      },
+      "vocab-0124": {
+        "text": "глаз",
+        "file": "audio/ru/vocab-0124.mp3",
+        "sha256": "ec5c183b41b2ff78544d2d1b37f20c269bf74b349a9cb6e9412f65dc8bed74a8"
+      },
+      "vocab-0126": {
+        "text": "нос",
+        "file": "audio/ru/vocab-0126.mp3",
+        "sha256": "7b25e79bca1077383b241bce7e0ee49da94f7d582006a8506c8416ae34100fb1"
+      },
+      "vocab-0127": {
+        "text": "рот",
+        "file": "audio/ru/vocab-0127.mp3",
+        "sha256": "fd2c65823a5c1313e2cb0c7a494b5d41fb4e4e82da27aad32832e77bda200b95"
+      },
+      "vocab-0129": {
+        "text": "язык",
+        "file": "audio/ru/vocab-0129.mp3",
+        "sha256": "aedf75bfba71932d7973c4c58ef57d5a4e274635d8589e17d4231a8809adba74"
+      },
+      "vocab-0128": {
+        "text": "зуб",
+        "file": "audio/ru/vocab-0128.mp3",
+        "sha256": "5c33ca5893bf5b77a4f4faf6168a0d99f4215de62782d2a0de040f6a2faae714"
+      },
+      "vocab-0130": {
+        "text": "шея",
+        "file": "audio/ru/vocab-0130.mp3",
+        "sha256": "110f2c56f6d5a28032aa33d6fcc54b730fd66c898d8a7c8eb216c2997d06112d"
+      },
+      "vocab-0131": {
+        "text": "ладонь",
+        "file": "audio/ru/vocab-0131.mp3",
+        "sha256": "e3133be2419a4aef12630343db490992c45fcce48754d26c3c7f03c4b02a34d6"
+      },
+      "vocab-0132": {
+        "text": "рука",
+        "file": "audio/ru/vocab-0132.mp3",
+        "sha256": "c0363bb415108a5d0002fa2e3e5d7cd00ef8f24cb00fa7f4b40dfafc0ff16d03"
+      },
+      "vocab-0133": {
+        "text": "палец",
+        "file": "audio/ru/vocab-0133.mp3",
+        "sha256": "06a2671b03ed9d2ba5f099ea64a4fb22a7ecfdaa8c7ff49bfe7f70593fc6fb91"
+      },
+      "vocab-0134": {
+        "text": "нога",
+        "file": "audio/ru/vocab-0134.mp3",
+        "sha256": "76ca5745c526e4748e8a4662b4b7705ae7653e77c79311d876e45bbf84f15f6c"
+      },
+      "vocab-0135": {
+        "text": "стопа",
+        "file": "audio/ru/vocab-0135.mp3",
+        "sha256": "eed3bda325ead407de84023c9cb4e8e3ccf817836bebc490bd3bf51cdd919190"
+      },
+      "vocab-0136": {
+        "text": "колено",
+        "file": "audio/ru/vocab-0136.mp3",
+        "sha256": "8a34d6514eecbe5e7d1229730a3ddcffd10f2228311e9fe25f7617d6986a0a2e"
+      },
+      "vocab-0137": {
+        "text": "спина",
+        "file": "audio/ru/vocab-0137.mp3",
+        "sha256": "9228a60b50baedde45eab03e916d6e1e9684e84429422fefb2f956247e8c5451"
+      },
+      "vocab-0138": {
+        "text": "живот",
+        "file": "audio/ru/vocab-0138.mp3",
+        "sha256": "107be3f9304dc76cf803ece445db6391bff26a16806cc76fb87f4cccb159a448"
+      },
+      "vocab-0139": {
+        "text": "плечо",
+        "file": "audio/ru/vocab-0139.mp3",
+        "sha256": "442a9cef0c7051ebf4b8f0a58e0e521c5a6a21b6b0d594bdb03f38305abf4d50"
+      },
+      "vocab-0140": {
+        "text": "кожа",
+        "file": "audio/ru/vocab-0140.mp3",
+        "sha256": "7aaa692bf2e6ee1739b2d75df3c037239e0865b6b099ac1356cb47db87bf14b5"
+      },
+      "vocab-0141": {
+        "text": "здоровье",
+        "file": "audio/ru/vocab-0141.mp3",
+        "sha256": "a8a6d4d8478f81c6b5cb4cec02e42d6dd6d489d58861bb5f398c960dee147ebd"
+      },
+      "vocab-0142": {
+        "text": "болезнь",
+        "file": "audio/ru/vocab-0142.mp3",
+        "sha256": "5aec86435bc7c2f26db1f33ce97cd2dcd2f2d8cd8f449fadf27334d5b137fbe4"
+      },
+      "vocab-0143": {
+        "text": "простуда",
+        "file": "audio/ru/vocab-0143.mp3",
+        "sha256": "858fee4879bb2ce5150908775f9dd5c7d495f7a783be36870823b393b22cf87c"
+      },
+      "vocab-0144": {
+        "text": "лихорадка",
+        "file": "audio/ru/vocab-0144.mp3",
+        "sha256": "a5db0fbcaa59f9812101b8f7f8cf68e690c755c7e340f05df9c7d8450ae7fcb8"
+      },
+      "vocab-0145": {
+        "text": "кашель",
+        "file": "audio/ru/vocab-0145.mp3",
+        "sha256": "239c8c6dfa6fa845e4d75a145e016f7c98b26156cd9f08efd1ab4034c9b92673"
+      },
+      "vocab-0146": {
+        "text": "лекарство",
+        "file": "audio/ru/vocab-0146.mp3",
+        "sha256": "0de5f140ae41f2689acf19dad8bc4005f8aedaf80c77f97e1d3859ca3db7c1b0"
+      },
+      "vocab-0147": {
+        "text": "таблетка",
+        "file": "audio/ru/vocab-0147.mp3",
+        "sha256": "0dedaf9e3bf627a5899115f6843f674903f93e173c04acd56b237d11af1cba4b"
+      },
+      "vocab-0148": {
+        "text": "пластырь",
+        "file": "audio/ru/vocab-0148.mp3",
+        "sha256": "b662dbc81e7b049226a8ae9d2db6b85dd040610532949e7cb38c1282a3899673"
+      },
+      "vocab-0149": {
+        "text": "повязка",
+        "file": "audio/ru/vocab-0149.mp3",
+        "sha256": "414bc7db3e603acad7871368061aa6096dd3bcbdb74f4aacc19501fab931e4c5"
+      },
+      "vocab-0150": {
+        "text": "термометр",
+        "file": "audio/ru/vocab-0150.mp3",
+        "sha256": "dd7affc92d24c86facd3ac501f0b8639d1c2135c818d4c51a13fcb6d3385590b"
+      },
+      "vocab-0151": {
+        "text": "радостный",
+        "file": "audio/ru/vocab-0151.mp3",
+        "sha256": "b014053d5831345a6134be639ac1c3f40e02f72e32162b0ad2e6d22a84d874a3"
+      },
+      "vocab-0152": {
+        "text": "грустный",
+        "file": "audio/ru/vocab-0152.mp3",
+        "sha256": "797531499d4a5501f16c66a436a784ee5e8e4e066b2b78e38301283177e7abb7"
+      },
+      "vocab-0153": {
+        "text": "сердитый",
+        "file": "audio/ru/vocab-0153.mp3",
+        "sha256": "59b2f916da1231491f02cf43ac4e1e7d3812dd8edb9dab4a2b7ec2233ca3604e"
+      },
+      "vocab-0154": {
+        "text": "испуганный",
+        "file": "audio/ru/vocab-0154.mp3",
+        "sha256": "2bb09c4e4614af4a80aa97ff9ec3ae13cb34a46e1d946d017bdc7e380457557d"
+      },
+      "vocab-0155": {
+        "text": "спокойный",
+        "file": "audio/ru/vocab-0155.mp3",
+        "sha256": "11487f9f53c8e99ec50d202b24d1acc9eea7ab3c44e9c14ddf4d6e20e5a1550a"
+      },
+      "vocab-0156": {
+        "text": "уставший",
+        "file": "audio/ru/vocab-0156.mp3",
+        "sha256": "8c2db289bdad6861bf9052c440610dd8218930b8a9069d3a357897817387c5ee"
+      },
+      "vocab-0157": {
+        "text": "голодный",
+        "file": "audio/ru/vocab-0157.mp3",
+        "sha256": "1d0200e9cdf977b23817d1ab700b3ab79877cacdceaf426115e28abb4405185d"
+      },
+      "vocab-0158": {
+        "text": "испытывающий жажду",
+        "file": "audio/ru/vocab-0158.mp3",
+        "sha256": "ccdf9a4d0466891f1c9c18c2447b4bc9605bf58a10be6acb3622f032e057ca0b"
+      },
+      "vocab-0159": {
+        "text": "скучающий",
+        "file": "audio/ru/vocab-0159.mp3",
+        "sha256": "78aca3cd52bf64f2f595907741a7abf320cdda1eb0a3dd9ee6d75986a0e5bd37"
+      },
+      "vocab-0160": {
+        "text": "удивлённый",
+        "file": "audio/ru/vocab-0160.mp3",
+        "sha256": "4af8192f2ee28b1ab1e43ad99573219b8d3b7dac0f7cdf3d0a7e052aba59d2fd"
+      },
+      "vocab-0161": {
+        "text": "пальто",
+        "file": "audio/ru/vocab-0161.mp3",
+        "sha256": "90885ccbd38e6f3e4f18d753324c87fb079f5baba9e3b9a9b1b200e4014a0a01"
+      },
+      "vocab-0162": {
+        "text": "куртка",
+        "file": "audio/ru/vocab-0162.mp3",
+        "sha256": "2f376f126967fd97faddbe5ab6f50999ed6dc801ddb4b71336b7ff4eec10ee26"
+      },
+      "vocab-0163": {
+        "text": "рубашка",
+        "file": "audio/ru/vocab-0163.mp3",
+        "sha256": "360a6c99406fbf11661af6029ac2e5114e83f227b61aa3b4a23664b422858c9c"
+      },
+      "vocab-0165": {
+        "text": "платье",
+        "file": "audio/ru/vocab-0165.mp3",
+        "sha256": "1370df575f877268633a695e3a47f9d0148b3fcadd884cd87be61cb965bf08ea"
+      },
+      "vocab-0164": {
+        "text": "брюки",
+        "file": "audio/ru/vocab-0164.mp3",
+        "sha256": "d5e633e6f59472bc8c9511556308043f0ade40e88e7712b0ac0dd9a435fa1490"
+      },
+      "vocab-0166": {
+        "text": "носки",
+        "file": "audio/ru/vocab-0166.mp3",
+        "sha256": "b27bb0205fb16ee4d255d2b351859e07c1337840d0aa1ee931dafbde73a55cf1"
+      },
+      "vocab-0167": {
+        "text": "обувь",
+        "file": "audio/ru/vocab-0167.mp3",
+        "sha256": "a109a1c7c86f14aacc4b3544808e7eab61a6754a464ef366bef4b2302f25492b"
+      },
+      "vocab-0168": {
+        "text": "шапка",
+        "file": "audio/ru/vocab-0168.mp3",
+        "sha256": "d94173f838066d115a7f0b48e4f78a4128230fa6d1301505e6fd922305425046"
+      },
+      "vocab-0169": {
+        "text": "шарф",
+        "file": "audio/ru/vocab-0169.mp3",
+        "sha256": "bba7895bdbeebdd2738e641630b0c7f686a929129b75095c5751f966ea3dd843"
+      },
+      "vocab-0170": {
+        "text": "перчатки",
+        "file": "audio/ru/vocab-0170.mp3",
+        "sha256": "5651a0062b73286b024c597761ddb40addccb3a792c0c3a5a5d535f0f9653da0"
+      },
+      "vocab-0172": {
+        "text": "компьютер",
+        "file": "audio/ru/vocab-0172.mp3",
+        "sha256": "22315c2c0cd11fc6763f231df2d015fa98649d7c5c7267fb4c0b6ac3563cc76b"
+      },
+      "vocab-0171": {
+        "text": "телефон",
+        "file": "audio/ru/vocab-0171.mp3",
+        "sha256": "61fc114c897279dc85145d7bb6d7a8a3e850b6a1a4ce6f4a1b20228921de1d37"
+      },
+      "vocab-0173": {
+        "text": "экран",
+        "file": "audio/ru/vocab-0173.mp3",
+        "sha256": "24db1bdf3ef1ce36cbbfa90637a9d2177ae8107bfed101332433ccfb4ad73195"
+      },
+      "vocab-0175": {
+        "text": "компьютерная мышь",
+        "file": "audio/ru/vocab-0175.mp3",
+        "sha256": "eb4dd4e73f7e56401b5161c3a74fb3da87a4672522faabe0505aa2150e17555c"
+      },
+      "vocab-0174": {
+        "text": "клавиатура",
+        "file": "audio/ru/vocab-0174.mp3",
+        "sha256": "a6e133746bd3ce492ab43f87751c03745c259b58ea4f3edfee71d6150bea0569"
+      },
+      "vocab-0176": {
+        "text": "зарядное устройство",
+        "file": "audio/ru/vocab-0176.mp3",
+        "sha256": "350befc40a91cdb1f3bf9aeb49c115bed326a7ff80d6b92e036e3b3d98e4e606"
+      },
+      "vocab-0177": {
+        "text": "батарейка",
+        "file": "audio/ru/vocab-0177.mp3",
+        "sha256": "31f0856d7adeb0c4a78443ca0c076049db029fd1a116d90447f7350dc35e57d6"
+      },
+      "vocab-0178": {
+        "text": "сообщение",
+        "file": "audio/ru/vocab-0178.mp3",
+        "sha256": "42b6692cfd2c086532a8e36dc9ebc0d87f63e9bc3b32f9cff99e7046fdff84ff"
+      },
+      "vocab-0179": {
+        "text": "фотография",
+        "file": "audio/ru/vocab-0179.mp3",
+        "sha256": "9fc88e68aa9dc902a7241ef3e71784d99afac9e75fc7959fd8828372dcc44e2d"
+      },
+      "vocab-0180": {
+        "text": "интернет",
+        "file": "audio/ru/vocab-0180.mp3",
+        "sha256": "59a9a32d3aece53a2fe0b1e0e24f58ec841134bcb3976c0fa1950503a72ad747"
+      },
+      "vocab-0181": {
+        "text": "дверь",
+        "file": "audio/ru/vocab-0181.mp3",
+        "sha256": "614cd990348299057accfe6c48a2cbbc0368cadc8d0ecd85af252598d55f1b4c"
+      },
+      "vocab-0183": {
+        "text": "стена",
+        "file": "audio/ru/vocab-0183.mp3",
+        "sha256": "c605cb31df502c0efe09a9832950340e4419f717759c23a3f5d87b0ac0385882"
+      },
+      "vocab-0182": {
+        "text": "окно",
+        "file": "audio/ru/vocab-0182.mp3",
+        "sha256": "fcdc34488e563f0bc41cacf7ea3cd981cfb24230f250801f3bb744f790f7faca"
+      },
+      "vocab-0184": {
+        "text": "пол",
+        "file": "audio/ru/vocab-0184.mp3",
+        "sha256": "b1e5fd62eb85ee13417ee45c60795a112ebe51ef656af6f907734839a1d51194"
+      },
+      "vocab-0185": {
+        "text": "потолок",
+        "file": "audio/ru/vocab-0185.mp3",
+        "sha256": "bb611cfe73cdc05dc421cb03735d12a78505c7262a588eca8585419e3c1651c9"
+      },
+      "vocab-0188": {
+        "text": "комната",
+        "file": "audio/ru/vocab-0188.mp3",
+        "sha256": "99672af6981af15289700516f583ea4be66442611240c06ed68a571ed629ac9b"
+      },
+      "vocab-0187": {
+        "text": "лестница",
+        "file": "audio/ru/vocab-0187.mp3",
+        "sha256": "64246c8451bab6c1e6fc114810320c6606b60f397cdd262fd4f382d26f0b6786"
+      },
+      "vocab-0186": {
+        "text": "крыша",
+        "file": "audio/ru/vocab-0186.mp3",
+        "sha256": "a847a8f1c5ba28fe41488d1a0ca8da3cbfba43ae8f83791d17d3cfb8f09a993f"
+      },
+      "vocab-0189": {
+        "text": "кухня",
+        "file": "audio/ru/vocab-0189.mp3",
+        "sha256": "378c369850cc3f7c154e6c1775727311284eef8ba960d0cb51ae4106fb18ee6f"
+      },
+      "vocab-0190": {
+        "text": "ванная комната",
+        "file": "audio/ru/vocab-0190.mp3",
+        "sha256": "edbcb79d5618a50c5c40d593644c3d40311466ed80b335870c0fb94ac3574010"
+      },
+      "vocab-0191": {
+        "text": "кровать",
+        "file": "audio/ru/vocab-0191.mp3",
+        "sha256": "fcf5fb6e3a6bb8fdc83c5388664d34678edf25f48e21a5bece172a25aa915fa5"
+      },
+      "vocab-0192": {
+        "text": "стол",
+        "file": "audio/ru/vocab-0192.mp3",
+        "sha256": "396e6b7fe0e92c3a4aab32376a70582426f3be07b340a658e669e5204b133d8a"
+      },
+      "vocab-0193": {
+        "text": "диван",
+        "file": "audio/ru/vocab-0193.mp3",
+        "sha256": "2c4966f72dc61826049afcc252df1c117a79f0a902d57f1946ac18857eaa2cd0"
+      },
+      "vocab-0194": {
+        "text": "шкаф",
+        "file": "audio/ru/vocab-0194.mp3",
+        "sha256": "6f768a02e5775f0b0f558960233297c70c9e23dd045211feee9bab061826704c"
+      },
+      "vocab-0196": {
+        "text": "зеркало",
+        "file": "audio/ru/vocab-0196.mp3",
+        "sha256": "4bd908875698e2233f98582fae541bfd42320be7b3f827271cb8874f3aaf2e00"
+      },
+      "vocab-0195": {
+        "text": "полка",
+        "file": "audio/ru/vocab-0195.mp3",
+        "sha256": "c87a9316abcabb77283fd1dea38c43a954995e81535ae5c0d7debb500ffca72d"
+      },
+      "vocab-0197": {
+        "text": "лампа",
+        "file": "audio/ru/vocab-0197.mp3",
+        "sha256": "ccdbc355e7246a4f3835d5cfe6c2bf556921ca99d1cbcf1cc4cd90dcada61ab2"
+      },
+      "vocab-0199": {
+        "text": "одеяло",
+        "file": "audio/ru/vocab-0199.mp3",
+        "sha256": "37d5badf4ff10c05e82c7dbf177e027e78b90a5e164c311e013f1dd1f79cb34a"
+      },
+      "vocab-0198": {
+        "text": "ковёр",
+        "file": "audio/ru/vocab-0198.mp3",
+        "sha256": "d3a1df72506f4b9aeda251ebb42b791b2dab83d241eebc0a3131ae65b0593bc8"
+      },
+      "vocab-0200": {
+        "text": "подушка",
+        "file": "audio/ru/vocab-0200.mp3",
+        "sha256": "b59755f8ecfb362a4585c7890c8177c077d157ccfac9b9b379eb882ac459c032"
+      },
+      "vocab-0201": {
+        "text": "тарелка",
+        "file": "audio/ru/vocab-0201.mp3",
+        "sha256": "1a37061111551e43880b36730a301c9b4185659b8df43ca4804b8fc288c7e96d"
+      },
+      "vocab-0202": {
+        "text": "чашка",
+        "file": "audio/ru/vocab-0202.mp3",
+        "sha256": "3a8819cd37f08cebf43d2ce36512844269751fd36003cc3a9a9d7a579c514dba"
+      },
+      "vocab-0203": {
+        "text": "стакан",
+        "file": "audio/ru/vocab-0203.mp3",
+        "sha256": "57cbee831a6bae1ad293691edf00ccd7eaa4bace9c38cd61bad034f5bb3c8e0c"
+      },
+      "vocab-0204": {
+        "text": "миска",
+        "file": "audio/ru/vocab-0204.mp3",
+        "sha256": "1ae91c40d68a5dacb32a2296a6a4a9148c49130cf9d9cb484945d2a25cebbfd9"
+      },
+      "vocab-0205": {
+        "text": "ложка",
+        "file": "audio/ru/vocab-0205.mp3",
+        "sha256": "9cd839b1eb3e0736a4257e199a5c285e215922453b80f9c9b6c6d3837e866658"
+      },
+      "vocab-0206": {
+        "text": "вилка",
+        "file": "audio/ru/vocab-0206.mp3",
+        "sha256": "6a00e793916f64eb15845ef643d5e90ba291931f22ce194c68be9fe9a3662f2b"
+      },
+      "vocab-0207": {
+        "text": "нож",
+        "file": "audio/ru/vocab-0207.mp3",
+        "sha256": "1b83be97746f409be37ece2e58fe43dba56d32aaa1138b94abc9c5feea1c7736"
+      },
+      "vocab-0208": {
+        "text": "бутылка",
+        "file": "audio/ru/vocab-0208.mp3",
+        "sha256": "367b44d098d8a061764727aa5b1e9e01f1df76d965f0518634353eeb69380e54"
+      },
+      "vocab-0209": {
+        "text": "кастрюля",
+        "file": "audio/ru/vocab-0209.mp3",
+        "sha256": "fc0053d1b066fb96eb7a85463ab756a6d3d520165589440368fce70504ea762a"
+      },
+      "vocab-0210": {
+        "text": "сковорода",
+        "file": "audio/ru/vocab-0210.mp3",
+        "sha256": "1f074b60ff6f38fe8fc66c0c019ffd2157df0e9250d2ce4e5e648eef90b3790e"
+      },
+      "vocab-0211": {
+        "text": "мыло",
+        "file": "audio/ru/vocab-0211.mp3",
+        "sha256": "eac5ffb586bd72f2c0507cda76f79a23d89a6c6ab7db38facfae02441f83fbf1"
+      },
+      "vocab-0212": {
+        "text": "полотенце",
+        "file": "audio/ru/vocab-0212.mp3",
+        "sha256": "f41fbf3394f49a52f055bfcf78ec91ca0db70008fbdf34c1c84d060490a3c5a1"
+      },
+      "vocab-0213": {
+        "text": "зубная щётка",
+        "file": "audio/ru/vocab-0213.mp3",
+        "sha256": "6fffb783fe4bdff2604b033b4fb9141a113591a9b6de2ce517d18f81e71f0d10"
+      },
+      "vocab-0214": {
+        "text": "зубная паста",
+        "file": "audio/ru/vocab-0214.mp3",
+        "sha256": "7e3b8ad60fb2f19e54369f9ecb26db7968bcc0e91cf45616409b70f1a1d389a3"
+      },
+      "vocab-0215": {
+        "text": "шампунь",
+        "file": "audio/ru/vocab-0215.mp3",
+        "sha256": "b8997c2db23ea1cdbfe0a86a534418222c5dbb1578ff0da4e0b7781ca35857c9"
+      },
+      "vocab-0216": {
+        "text": "расчёска",
+        "file": "audio/ru/vocab-0216.mp3",
+        "sha256": "5f117ad0bc9679a60f5f353789b0a826903a4e01a02d3a49665b80dc8ac92239"
+      },
+      "vocab-0217": {
+        "text": "душ",
+        "file": "audio/ru/vocab-0217.mp3",
+        "sha256": "c498c1a14c9f80b8d6edb8a9a4cc899507e6fd50c7553e75c7eb4f4e10440d8c"
+      },
+      "vocab-0218": {
+        "text": "ванна",
+        "file": "audio/ru/vocab-0218.mp3",
+        "sha256": "ac0821b6aaccff2adce55f3970ed4d4c63c9794fbd9ae902df956b74da86b7d0"
+      },
+      "vocab-0219": {
+        "text": "туалетная бумага",
+        "file": "audio/ru/vocab-0219.mp3",
+        "sha256": "ed1d8024074c212f61782383ab17f1d92b368c6c87cdcc14410c63c0772489b5"
+      },
+      "vocab-0222": {
+        "text": "апельсин",
+        "file": "audio/ru/vocab-0222.mp3",
+        "sha256": "a7888574cc1d277336f542a0fca80167030cca006704abc21a600d25672beb06"
+      },
+      "vocab-0220": {
+        "text": "бумажный платок",
+        "file": "audio/ru/vocab-0220.mp3",
+        "sha256": "8e113cc5512850c765dffe0d5d0eadcde2a70bedc1da38b1c5a060ada173442d"
+      },
+      "vocab-0221": {
+        "text": "груша",
+        "file": "audio/ru/vocab-0221.mp3",
+        "sha256": "2fa58a4d13947310fb2acdd098dfc4f554a17fde48db26197297e18aca62efe2"
+      },
+      "vocab-0223": {
+        "text": "лимон",
+        "file": "audio/ru/vocab-0223.mp3",
+        "sha256": "ac65631d7c7e6159ae33adfb949ad6e1aa2f1863108a81c1fe87538551d6dd2a"
+      },
+      "vocab-0224": {
+        "text": "виноград",
+        "file": "audio/ru/vocab-0224.mp3",
+        "sha256": "bf988c50869efb5a05b13323dbd0606bb280f7a486181c5c4e91b4862b812704"
+      },
+      "vocab-0225": {
+        "text": "клубника",
+        "file": "audio/ru/vocab-0225.mp3",
+        "sha256": "d79dc6bc662655d1a2f6c78daba4dfb7916c1b0e90f98bd400ee947d89042e89"
+      },
+      "vocab-0226": {
+        "text": "малина",
+        "file": "audio/ru/vocab-0226.mp3",
+        "sha256": "9cf753834177a21851e7d99b59b455c835ac735c6d65d1c65972fb508e4f6d2e"
+      },
+      "vocab-0228": {
+        "text": "слива",
+        "file": "audio/ru/vocab-0228.mp3",
+        "sha256": "6d3c5fcf42ae9b29850cc4191f94f10823bffd166507bb62594810ec1501be56"
+      },
+      "vocab-0229": {
+        "text": "персик",
+        "file": "audio/ru/vocab-0229.mp3",
+        "sha256": "3ab5b9f29028f13d0e0c5be1c31999d93b82fcf0e10fe1a041d949f3b1554507"
+      },
+      "vocab-0227": {
+        "text": "вишня",
+        "file": "audio/ru/vocab-0227.mp3",
+        "sha256": "ff1bf265fa7be60d5c5f416e3880b07bd12a50076c3f4af0699c08fa2e29b881"
+      },
+      "vocab-0230": {
+        "text": "арбуз",
+        "file": "audio/ru/vocab-0230.mp3",
+        "sha256": "302ad8139a10205baad89fe2580376bc213466acd73ac4220d97203ebf1ec8ca"
+      },
+      "vocab-0232": {
+        "text": "морковь",
+        "file": "audio/ru/vocab-0232.mp3",
+        "sha256": "be84d257b1a96fa0e3cf78b3b6efe59e393d6ad06e2810ea4b0d86de5e5f5eec"
+      },
+      "vocab-0234": {
+        "text": "огурец",
+        "file": "audio/ru/vocab-0234.mp3",
+        "sha256": "f1d819d467e3badfffef09f977fba91f128d3a4c6af7b5308d3cc90ed0d1fa73"
+      },
+      "vocab-0231": {
+        "text": "картофель",
+        "file": "audio/ru/vocab-0231.mp3",
+        "sha256": "0ab33d39507a319252a8db3e82f38e3c93483c66410d6e660156df39b7607088"
+      },
+      "vocab-0233": {
+        "text": "помидор",
+        "file": "audio/ru/vocab-0233.mp3",
+        "sha256": "9ff8b9a607a0b1983903fe9c7601436bd6185181bed7a229d10daa0d49ab886e"
+      },
+      "vocab-0235": {
+        "text": "лук",
+        "file": "audio/ru/vocab-0235.mp3",
+        "sha256": "b3405282c5e0ff9fa4867a1770e1ceb547bb3e355f791d594b1651c9db60b65c"
+      },
+      "vocab-0237": {
+        "text": "капуста",
+        "file": "audio/ru/vocab-0237.mp3",
+        "sha256": "f355a258c8ab777f4fc8be2cfc94404cef3c30f9efb9b574dcffe6a862d00ef7"
+      },
+      "vocab-0236": {
+        "text": "чеснок",
+        "file": "audio/ru/vocab-0236.mp3",
+        "sha256": "177b6dc790abde1e6d297b778e87f7a75f622c0fb19f24c8d33e74e07dd21405"
+      },
+      "vocab-0238": {
+        "text": "сладкий перец",
+        "file": "audio/ru/vocab-0238.mp3",
+        "sha256": "a5a611cf8b36856e88c48765d10c7c80c6d2a26bf99d73b8e8efe008bcb97baf"
+      },
+      "vocab-0239": {
+        "text": "горох",
+        "file": "audio/ru/vocab-0239.mp3",
+        "sha256": "79b6d8f0f5134b5e016edcff859f7cb433e0113ed19a17afaea89eeb86048755"
+      },
+      "vocab-0240": {
+        "text": "фасоль",
+        "file": "audio/ru/vocab-0240.mp3",
+        "sha256": "14f9ace62ef5f2cf3dc91275623773c7ab4a8a0b95fe07edbc1293c2739fdc25"
+      },
+      "vocab-0242": {
+        "text": "макароны",
+        "file": "audio/ru/vocab-0242.mp3",
+        "sha256": "44fc3a7ab8eadcf8c787a5fa8f7a12423c2705e44d8075a0f52a0c15f1914a71"
+      },
+      "vocab-0241": {
+        "text": "рис",
+        "file": "audio/ru/vocab-0241.mp3",
+        "sha256": "794b4ccbdc889f2c174e91d0d01b96ab4daacd988e3da4c6f26f59956b6e9114"
+      },
+      "vocab-0243": {
+        "text": "мясо",
+        "file": "audio/ru/vocab-0243.mp3",
+        "sha256": "6c5730eb94db914e20c29b1c3c8f3b78cb3dda5e308718f3c256cb595f4c9398"
+      },
+      "vocab-0244": {
+        "text": "курятина",
+        "file": "audio/ru/vocab-0244.mp3",
+        "sha256": "209c8bc0d126f05f82245986d713481ee5b09feaebc2633aef6ade690c81444e"
+      },
+      "vocab-0246": {
+        "text": "яйцо",
+        "file": "audio/ru/vocab-0246.mp3",
+        "sha256": "7cb9a3066e557abc48d9a9f85be6835bcffb687200e2299ce722ea2e7aef8418"
+      },
+      "vocab-0245": {
+        "text": "рыба",
+        "file": "audio/ru/vocab-0245.mp3",
+        "sha256": "69ed1d0b53d6252ed0cf3efaca705b19907c20cd9379055868c6bc23411997ad"
+      },
+      "vocab-0248": {
+        "text": "йогурт",
+        "file": "audio/ru/vocab-0248.mp3",
+        "sha256": "d788ee95556b213f4cc21783606e738001e7cacbcb5cda81ecc42e4ab0989ec4"
+      },
+      "vocab-0247": {
+        "text": "сливочное масло",
+        "file": "audio/ru/vocab-0247.mp3",
+        "sha256": "9726368aa49900d1fa34aa333e97d00c8cf46800709fe55333775d37f958494f"
+      },
+      "vocab-0250": {
+        "text": "сахар",
+        "file": "audio/ru/vocab-0250.mp3",
+        "sha256": "3cf36c1b467adb2e322cfae46e99aab7077efccf1ad14c1390c3683f2313b353"
+      },
+      "vocab-0249": {
+        "text": "соль",
+        "file": "audio/ru/vocab-0249.mp3",
+        "sha256": "0167318cf010721e8fa1072d1354fc26319f0d0e85daa3579f939bc444c097f0"
+      },
+      "vocab-0251": {
+        "text": "обед",
+        "file": "audio/ru/vocab-0251.mp3",
+        "sha256": "9b66d32132439a18c27fe22adf63306236a4a773d8155e78eca923a5e62ca7fc"
+      },
+      "vocab-0252": {
+        "text": "ужин",
+        "file": "audio/ru/vocab-0252.mp3",
+        "sha256": "09f909d145e6cb358c64df33293c0f3e9353cc6081e4ecf362fe9eb55622807d"
+      },
+      "vocab-0254": {
+        "text": "бутерброд",
+        "file": "audio/ru/vocab-0254.mp3",
+        "sha256": "153cf4e588f0434caca6a95293d1fad74d5bf37771c0cdf6477097524a0c803f"
+      },
+      "vocab-0253": {
+        "text": "перекус",
+        "file": "audio/ru/vocab-0253.mp3",
+        "sha256": "210909d790a412b82b3c1eb784e0ee53625d7511ac057ec8d7add4e7f5a37fa5"
+      },
+      "vocab-0256": {
+        "text": "каша",
+        "file": "audio/ru/vocab-0256.mp3",
+        "sha256": "d203d6bc3fae00461b56d849bd48c72407babcec8a8cbd6a0e8136a4f068eb8d"
+      },
+      "vocab-0255": {
+        "text": "салат",
+        "file": "audio/ru/vocab-0255.mp3",
+        "sha256": "f49db8aa9504b76ce46b99784a822b5cb9867329e4688bec75f371063f8f60ab"
+      },
+      "vocab-0257": {
+        "text": "хлопья для завтрака",
+        "file": "audio/ru/vocab-0257.mp3",
+        "sha256": "cce0c9313cc0815664316236b3943f2f68a72f0c96d185c321029a2625b46103"
+      },
+      "vocab-0258": {
+        "text": "блин",
+        "file": "audio/ru/vocab-0258.mp3",
+        "sha256": "016c541af962b886e055de49249cae272a8f1e78ed3fc374124b91a147b227a0"
+      },
+      "vocab-0259": {
+        "text": "пирожное",
+        "file": "audio/ru/vocab-0259.mp3",
+        "sha256": "cc429a5d9d6a8ac124c3bc973fdf666b5c6914dc038a6dcfb418e5cbac264d9c"
+      },
+      "vocab-0260": {
+        "text": "мороженое",
+        "file": "audio/ru/vocab-0260.mp3",
+        "sha256": "08fb04c18144f3c0930076caf532c1d673bfe05ffb1c2a7522fdf6881b80aa02"
+      },
+      "vocab-0261": {
+        "text": "помогите пожалуйста",
+        "file": "audio/ru/vocab-0261.mp3",
+        "sha256": "31e849588778b88e61dd3716371da205e8fc8b5d797fa96829a98893741ae887"
+      },
+      "vocab-0262": {
+        "text": "ещё немного",
+        "file": "audio/ru/vocab-0262.mp3",
+        "sha256": "96a85f811c8c608002aa9db932841182429348ab52c8befa34e7536183b9cf61"
+      },
+      "vocab-0263": {
+        "text": "помедленнее",
+        "file": "audio/ru/vocab-0263.mp3",
+        "sha256": "c488de69c552a7b22396739bc6b1e810cb2f344a1e6e8b7fa6b1523a86937e7f"
+      },
+      "vocab-0264": {
+        "text": "не сейчас",
+        "file": "audio/ru/vocab-0264.mp3",
+        "sha256": "f8001349de175f009e56a8617a2a030d41778d5e2831e76182d4812fb1926690"
+      },
+      "vocab-0265": {
+        "text": "нет спасибо",
+        "file": "audio/ru/vocab-0265.mp3",
+        "sha256": "d06b30a5e7dace2b8b3610e10b4a1c3cfa23072bd6d6555d317eb0ca377538a9"
+      },
+      "vocab-0266": {
+        "text": "извините",
+        "file": "audio/ru/vocab-0266.mp3",
+        "sha256": "e26d883020a7db420919821c4ec575c2a1dfa39991b73432fe7155d4da5ad27a"
+      },
+      "vocab-0267": {
+        "text": "удачи",
+        "file": "audio/ru/vocab-0267.mp3",
+        "sha256": "8c1787775954670f711e91e1883acf12c7c4f5c692373e5b416ada47c64b65f4"
+      },
+      "vocab-0268": {
+        "text": "молодец",
+        "file": "audio/ru/vocab-0268.mp3",
+        "sha256": "38ec6873f228c7b00871dc8396e88bb13a68d9ba69479f5230d8aec1fcaba8f3"
+      },
+      "vocab-0270": {
+        "text": "с удовольствием",
+        "file": "audio/ru/vocab-0270.mp3",
+        "sha256": "575d321a27caa1c755f92602e2c01804d0a2ede56f2b7438c596998ada387cb9"
+      },
+      "vocab-0269": {
+        "text": "добрый день",
+        "file": "audio/ru/vocab-0269.mp3",
+        "sha256": "a0b8c84e8d4a8621818659d439c169ebbfa104b8907f8d1563abd582938abb3a"
+      },
+      "vocab-0271": {
+        "text": "деньги",
+        "file": "audio/ru/vocab-0271.mp3",
+        "sha256": "9fe940ed80117217e62150cefe24812b6862c8c46c2c600e171c936adbc86d0d"
+      },
+      "vocab-0272": {
+        "text": "цена",
+        "file": "audio/ru/vocab-0272.mp3",
+        "sha256": "7e8eac05fba9a8c8772ae5954dd89fe3d72dd016914a5a76aa0f4f611eaff291"
+      },
+      "vocab-0274": {
+        "text": "чек",
+        "file": "audio/ru/vocab-0274.mp3",
+        "sha256": "27307805693328a8d627182932935f4a0b4014824c054345bdc7d6819bd0bf76"
+      },
+      "vocab-0273": {
+        "text": "сдача",
+        "file": "audio/ru/vocab-0273.mp3",
+        "sha256": "193e7fadab1ac98c0268a8d945c91e8d966f9d70179114e0c9a794efb7465372"
+      },
+      "vocab-0275": {
+        "text": "касса",
+        "file": "audio/ru/vocab-0275.mp3",
+        "sha256": "8d17de83996ed8e1b068768cba2d5c8963fe56de8a0fee9890cc104f65135d1f"
+      },
+      "vocab-0276": {
+        "text": "корзина",
+        "file": "audio/ru/vocab-0276.mp3",
+        "sha256": "455c1869d739bdfdba7f3f5ab7fcff393c2279ee571021735eb891ef7a91efb5"
+      },
+      "vocab-0277": {
+        "text": "сумка",
+        "file": "audio/ru/vocab-0277.mp3",
+        "sha256": "ef465697b91508f42616b269b17580437ac34b65eff526658b4f2376a12625e4"
+      },
+      "vocab-0279": {
+        "text": "скидка",
+        "file": "audio/ru/vocab-0279.mp3",
+        "sha256": "cdabaa4a8747f9dd0a59387bef545aaa1a8e1f59b328df947506f3e14c7d8000"
+      },
+      "vocab-0278": {
+        "text": "размер",
+        "file": "audio/ru/vocab-0278.mp3",
+        "sha256": "15e24b075e4e7e372a03867e2d39e8979daf3044f5c6927b823f9e5bbeee4d49"
+      },
+      "vocab-0280": {
+        "text": "карта",
+        "file": "audio/ru/vocab-0280.mp3",
+        "sha256": "0f8c6f5d9382b71e54cd45b5f72c7aba51f0b8be60d90aea3fb189bf8a63fdf1"
+      },
+      "vocab-0281": {
+        "text": "ноль",
+        "file": "audio/ru/vocab-0281.mp3",
+        "sha256": "1040045a1894124f39f0474d1834d5f9fe2ac5e3ce63f36e2920a15201f38055"
+      },
+      "vocab-0282": {
+        "text": "одиннадцать",
+        "file": "audio/ru/vocab-0282.mp3",
+        "sha256": "bc39a9664e0eb3dde974dfed72e8a797f0080d49d807700348959c6cc7884443"
+      },
+      "vocab-0283": {
+        "text": "двенадцать",
+        "file": "audio/ru/vocab-0283.mp3",
+        "sha256": "ddc9efb70b0e7cb83ec66c41f3d930381ebf52dd56cae2413145a703f4ede543"
+      },
+      "vocab-0284": {
+        "text": "тринадцать",
+        "file": "audio/ru/vocab-0284.mp3",
+        "sha256": "cf4e71485a2f79e23ccd3b410b8cbeed5e2e44e2cbb3df7158a858535d0d09b9"
+      },
+      "vocab-0287": {
+        "text": "шестнадцать",
+        "file": "audio/ru/vocab-0287.mp3",
+        "sha256": "03302215884596a26c97edb184f18cd918c04e379bb4574a6b3c33d6d13330e9"
+      },
+      "vocab-0285": {
+        "text": "четырнадцать",
+        "file": "audio/ru/vocab-0285.mp3",
+        "sha256": "a7d9b0b5af23cb0d62fc032f4b02a7ebae00d1e6ae1dcea7003beb58e3441826"
+      },
+      "vocab-0286": {
+        "text": "пятнадцать",
+        "file": "audio/ru/vocab-0286.mp3",
+        "sha256": "6ef68413bbb15f95d16c8f6d6e97afceb37901d9d394872ed1c606600bdbeea9"
+      },
+      "vocab-0288": {
+        "text": "семнадцать",
+        "file": "audio/ru/vocab-0288.mp3",
+        "sha256": "e98bed5527f613bd12d155204a886e96e8164e33a1c0201ff28e28bc733ee3c4"
+      },
+      "vocab-0290": {
+        "text": "девятнадцать",
+        "file": "audio/ru/vocab-0290.mp3",
+        "sha256": "5fb57954cad9f27ede66cfd9c436210262ac9759e61dd93cc50c79e160da2bb0"
+      },
+      "vocab-0289": {
+        "text": "восемнадцать",
+        "file": "audio/ru/vocab-0289.mp3",
+        "sha256": "78227c7873abe8897b735e4d0fd4934790edcaa98a91de8e60dc97bb5ed57488"
+      },
+      "vocab-0291": {
+        "text": "двадцать",
+        "file": "audio/ru/vocab-0291.mp3",
+        "sha256": "b214b3a2fded1349c75b87747cf5e0ac7fcb8428bdc9ce5c91efe3853d0d4af0"
+      },
+      "vocab-0292": {
+        "text": "тридцать",
+        "file": "audio/ru/vocab-0292.mp3",
+        "sha256": "86fda50ec00600f0ce19eb144f1647a431e363b5ee55e94f900d1b0810053354"
+      },
+      "vocab-0294": {
+        "text": "пятьдесят",
+        "file": "audio/ru/vocab-0294.mp3",
+        "sha256": "ebfab65ca6eea5c371f1d1be0fea3b3aa3807e7bab64d1812bec039d88f5b2f9"
+      },
+      "vocab-0293": {
+        "text": "сорок",
+        "file": "audio/ru/vocab-0293.mp3",
+        "sha256": "aa6e00d6d39378651e6e12cc30e00c1542c39b00e07c13ae38788dd987613cd0"
+      },
+      "vocab-0295": {
+        "text": "шестьдесят",
+        "file": "audio/ru/vocab-0295.mp3",
+        "sha256": "6cace4083d0018d3c24a1e7f8331fac46b975c68ede740073feb7e1d3e7dd73b"
+      },
+      "vocab-0296": {
+        "text": "семьдесят",
+        "file": "audio/ru/vocab-0296.mp3",
+        "sha256": "606b3946df9097f71e979adfd0739b643494fb0ffce7237e5a02c6198e1c6e9a"
+      },
+      "vocab-0297": {
+        "text": "восемьдесят",
+        "file": "audio/ru/vocab-0297.mp3",
+        "sha256": "40c9b6b7440225c7b1e52efe282095ba76cb3d7d4964287c0172df952d91ecee"
+      },
+      "vocab-0298": {
+        "text": "девяносто",
+        "file": "audio/ru/vocab-0298.mp3",
+        "sha256": "454c6b32d664e2603f33555325d90095f6c9b83d9693ac21f87498140005e966"
+      },
+      "vocab-0299": {
+        "text": "сто",
+        "file": "audio/ru/vocab-0299.mp3",
+        "sha256": "61c170d01acd88a9b894d5c33c30f0f6570cd9bb5c28e714239e3b3d7000c278"
+      },
+      "vocab-0300": {
+        "text": "тысяча",
+        "file": "audio/ru/vocab-0300.mp3",
+        "sha256": "231c6760d33a6df7235ee7cbc76cad9576cfb0e48d897791f12dc68d1a5837b4"
+      },
+      "vocab-0301": {
+        "text": "день",
+        "file": "audio/ru/vocab-0301.mp3",
+        "sha256": "ed018d7ba16a53bb46615df12b7a89556300929271cdb0e0c5c026d4a914ac47"
+      },
+      "vocab-0302": {
+        "text": "ночь",
+        "file": "audio/ru/vocab-0302.mp3",
+        "sha256": "86cdebc0401c105848828517962ae88d8ddc04c7f340ac5cfbc651972a59fb36"
+      },
+      "vocab-0304": {
+        "text": "вечер",
+        "file": "audio/ru/vocab-0304.mp3",
+        "sha256": "173621abe61e8b2dd3f373ba293498d069215ca70eb0c57242a2bc736734ed11"
+      },
+      "vocab-0303": {
+        "text": "утро",
+        "file": "audio/ru/vocab-0303.mp3",
+        "sha256": "c72922b24a14ac28e3e86214e361023565f3f35a31648c4b2bd39571b20e7892"
+      },
+      "vocab-0305": {
+        "text": "сегодня",
+        "file": "audio/ru/vocab-0305.mp3",
+        "sha256": "2a632e07e39332df256e5d4f88b992141dfff22b72d1c3da1ef7ecf1634ffb81"
+      },
+      "vocab-0306": {
+        "text": "завтра",
+        "file": "audio/ru/vocab-0306.mp3",
+        "sha256": "dec9de0a094bc58939c48a1f1eecff6a8f96b1fd3e42b590f5407af11c1b8b39"
+      },
+      "vocab-0308": {
+        "text": "неделя",
+        "file": "audio/ru/vocab-0308.mp3",
+        "sha256": "f274ada24377c83813da6cb817882745d945f403f131e2a18817616b7bbd8cad"
+      },
+      "vocab-0307": {
+        "text": "вчера",
+        "file": "audio/ru/vocab-0307.mp3",
+        "sha256": "dcf5577a9973cf39d2a585c91a653310ec79d8456814787bb6776e4724fd5db2"
+      },
+      "vocab-0309": {
+        "text": "месяц",
+        "file": "audio/ru/vocab-0309.mp3",
+        "sha256": "705fded2cb7c850248ccbdff617278e336a41ebc538a143dce493ef43c166d7b"
+      },
+      "vocab-0310": {
+        "text": "год",
+        "file": "audio/ru/vocab-0310.mp3",
+        "sha256": "3ff2119b3a608be110d0fca5bb4112f69c85f7669df82a5d6a63d5bcd0a235b9"
+      },
+      "vocab-0311": {
+        "text": "понедельник",
+        "file": "audio/ru/vocab-0311.mp3",
+        "sha256": "09ac23dabe6bd30700745c40688ad66ef2cba306e1e3f7d32e34400503e6c068"
+      },
+      "vocab-0313": {
+        "text": "среда",
+        "file": "audio/ru/vocab-0313.mp3",
+        "sha256": "7be6c57343478af233d936769e0d0ca038c4af64390df2785efa069904f1ff47"
+      },
+      "vocab-0312": {
+        "text": "вторник",
+        "file": "audio/ru/vocab-0312.mp3",
+        "sha256": "b626699bec1e7977a1b8770806197b4603d318d36ef253b7c5f15c40adec776b"
+      },
+      "vocab-0314": {
+        "text": "четверг",
+        "file": "audio/ru/vocab-0314.mp3",
+        "sha256": "2dc0fb08246204bf812057a0e102ef2cbcb45cb743722975e50133d6964e224e"
+      },
+      "vocab-0316": {
+        "text": "суббота",
+        "file": "audio/ru/vocab-0316.mp3",
+        "sha256": "3ef324fe7847ce6a8acd929fcd8fe27f04d5fb258189306c32bc0718d663ec36"
+      },
+      "vocab-0315": {
+        "text": "пятница",
+        "file": "audio/ru/vocab-0315.mp3",
+        "sha256": "03a459b156ab8738762f1244b52cc8cc4c9ba241d5c4826ea591fa6cb881332d"
+      },
+      "vocab-0317": {
+        "text": "воскресенье",
+        "file": "audio/ru/vocab-0317.mp3",
+        "sha256": "da7cfeecce1812119a96bb3c69f85a7f6458c3fecc9f0ce0022d18228153c0f2"
+      },
+      "vocab-0318": {
+        "text": "выходные",
+        "file": "audio/ru/vocab-0318.mp3",
+        "sha256": "010b63c0db3b625148f15a4ac6fea8e32c61b0951380736233812c7431f362a9"
+      },
+      "vocab-0319": {
+        "text": "час",
+        "file": "audio/ru/vocab-0319.mp3",
+        "sha256": "4c800eca29982b6365fe715c02e0362b46cebc3ec3898765a638d7e6287f6d4c"
+      },
+      "vocab-0320": {
+        "text": "минута",
+        "file": "audio/ru/vocab-0320.mp3",
+        "sha256": "07117cd66f454bafec8b1eb51e47ece3bef1a4691dfb165bdc80eb5c5b7abee5"
+      },
+      "vocab-0321": {
+        "text": "январь",
+        "file": "audio/ru/vocab-0321.mp3",
+        "sha256": "89a91b9cdb985986b6e1ece1ecf652f3d52962e43f6c7534c8f2435a34380418"
+      },
+      "vocab-0323": {
+        "text": "март",
+        "file": "audio/ru/vocab-0323.mp3",
+        "sha256": "2efd6aeb9976cf2b5a031406076fc2d600feeca344dc1dbc10f7f116a8225be3"
+      },
+      "vocab-0324": {
+        "text": "апрель",
+        "file": "audio/ru/vocab-0324.mp3",
+        "sha256": "20115ecb348acf269709395045a96a7c12d3d2762f9658b2d06e547b220eaf07"
+      },
+      "vocab-0322": {
+        "text": "февраль",
+        "file": "audio/ru/vocab-0322.mp3",
+        "sha256": "a67687a85a25a66ba1724145fb5f234f32e2667fbdf7754860bf1e37597bfd23"
+      },
+      "vocab-0325": {
+        "text": "май",
+        "file": "audio/ru/vocab-0325.mp3",
+        "sha256": "7b0de01d1fe87bab2f93a4678b6ca74179817626d83d42f9863c0164f1097c42"
+      },
+      "vocab-0326": {
+        "text": "июнь",
+        "file": "audio/ru/vocab-0326.mp3",
+        "sha256": "e9adf8b233c3cfcb7484d57bf9b0a79d718183c192e367f501aba97aa86e8d86"
+      },
+      "vocab-0327": {
+        "text": "июль",
+        "file": "audio/ru/vocab-0327.mp3",
+        "sha256": "d083dce9f1fcc51e153b747be3cadfb6c7ef3bac8120986b6ced2ad1c57dec63"
+      },
+      "vocab-0328": {
+        "text": "август",
+        "file": "audio/ru/vocab-0328.mp3",
+        "sha256": "cca7274629664469c91f1cb8e40b7a813c093e528b4b1259d46506471c25ecb6"
+      },
+      "vocab-0329": {
+        "text": "сентябрь",
+        "file": "audio/ru/vocab-0329.mp3",
+        "sha256": "2834b06c1b7d55c3659fdceeba96271a366c625c7dfbde4916548a794df6b897"
+      },
+      "vocab-0330": {
+        "text": "октябрь",
+        "file": "audio/ru/vocab-0330.mp3",
+        "sha256": "78442420c1c04f247b51d748a26e3b0651fdd825547c03e2618dc394f44fbf1c"
+      },
+      "vocab-0333": {
+        "text": "весна",
+        "file": "audio/ru/vocab-0333.mp3",
+        "sha256": "e0197a8cbbf8f5648758be59639ed031ce164a917c82d20ff3cf3b8dd5e3836c"
+      },
+      "vocab-0331": {
+        "text": "ноябрь",
+        "file": "audio/ru/vocab-0331.mp3",
+        "sha256": "d8db4c289bc83f98805c3122462929ec08072dd091e12e16ff0acc2005750c71"
+      },
+      "vocab-0332": {
+        "text": "декабрь",
+        "file": "audio/ru/vocab-0332.mp3",
+        "sha256": "4c575613d95ce0e8481816ec2fae4f9f0e52da7dedf58562cc658d78897afea7"
+      },
+      "vocab-0334": {
+        "text": "лето",
+        "file": "audio/ru/vocab-0334.mp3",
+        "sha256": "3b50dfe26e3f10a83adda2be1e8ce2e35dd1e65ed754d4cbb59e2978f86f10eb"
+      },
+      "vocab-0336": {
+        "text": "зима",
+        "file": "audio/ru/vocab-0336.mp3",
+        "sha256": "3bd445db1eef7b58d177136e533f6c493cae99e5b237976f19796c9cfba4b3f4"
+      },
+      "vocab-0335": {
+        "text": "осень",
+        "file": "audio/ru/vocab-0335.mp3",
+        "sha256": "3a1bcf7960ab89d85fbe191ce84a3dc7b88ffd4a41679239d2d7ede580e5d97f"
+      },
+      "vocab-0337": {
+        "text": "время года",
+        "file": "audio/ru/vocab-0337.mp3",
+        "sha256": "badfa4e2ff010ddfc9259464d2faf52e2871dc8af3a24eae86c62516bd681ce3"
+      },
+      "vocab-0338": {
+        "text": "погода",
+        "file": "audio/ru/vocab-0338.mp3",
+        "sha256": "4de5212f6ba2a290c09d3342d3cf6a7d5f78c226281e5807691c79f334d8c172"
+      },
+      "vocab-0339": {
+        "text": "солнце",
+        "file": "audio/ru/vocab-0339.mp3",
+        "sha256": "cfbc635ec915189797672ad4373c2ab19182009dc04794ca5a257c17d8468165"
+      },
+      "vocab-0340": {
+        "text": "луна",
+        "file": "audio/ru/vocab-0340.mp3",
+        "sha256": "da20da9abcb77ab3f8dd5f609a5f018d075874d9fcb608266f2af53917fc0c5d"
+      },
+      "vocab-0341": {
+        "text": "дождь",
+        "file": "audio/ru/vocab-0341.mp3",
+        "sha256": "46091d07528539a18fbcdb9662b7d1876706d8e1cffe936628002c92c00169d8"
+      },
+      "vocab-0342": {
+        "text": "снег",
+        "file": "audio/ru/vocab-0342.mp3",
+        "sha256": "9d4def2595df82a299b0193dc6d27db08b004837bd7b8e30a5549ce1a8d893b7"
+      },
+      "vocab-0343": {
+        "text": "ветер",
+        "file": "audio/ru/vocab-0343.mp3",
+        "sha256": "f01df65eb1373cee78ea53dd54a21aafb042eea1298b5af780d179623305e9c9"
+      },
+      "vocab-0344": {
+        "text": "облако",
+        "file": "audio/ru/vocab-0344.mp3",
+        "sha256": "bb17b0aba5530b618dfaa96a819ba46b4c23cbd57ecd51941050f87fbd6e3fd8"
+      },
+      "vocab-0345": {
+        "text": "туман",
+        "file": "audio/ru/vocab-0345.mp3",
+        "sha256": "b4ba13306b677470497761e5a2fa158e28a5241d99afbdfbb484867fdb326c0e"
+      },
+      "vocab-0347": {
+        "text": "гром",
+        "file": "audio/ru/vocab-0347.mp3",
+        "sha256": "486b0892448a2eaa0f149ad2f684124e9b65b78853c7f171198227c9076ddf8a"
+      },
+      "vocab-0348": {
+        "text": "буря",
+        "file": "audio/ru/vocab-0348.mp3",
+        "sha256": "7372c60e52c09eda6991d38ace5e325cd57e68b9468cf90b3a6595364c270d68"
+      },
+      "vocab-0346": {
+        "text": "лёд",
+        "file": "audio/ru/vocab-0346.mp3",
+        "sha256": "54be92333dbd56e4d3f3fd49dee4c3b2f47344db14b5c10284eaac18efef2471"
+      },
+      "vocab-0350": {
+        "text": "температура",
+        "file": "audio/ru/vocab-0350.mp3",
+        "sha256": "e8ba5345c9eccb7443ee0779930171be546ba64b5d30ea819bb3836ac4ab253a"
+      },
+      "vocab-0349": {
+        "text": "радуга",
+        "file": "audio/ru/vocab-0349.mp3",
+        "sha256": "2d21106358a5fe145768106969fc90acf5a282ebba25347e3732a5cc086b0451"
+      },
+      "vocab-0352": {
+        "text": "цветок",
+        "file": "audio/ru/vocab-0352.mp3",
+        "sha256": "0639b3243c1a1eedc4cb46107c7d8db859cc376305e83cb21fedff62854727ae"
+      },
+      "vocab-0351": {
+        "text": "дерево",
+        "file": "audio/ru/vocab-0351.mp3",
+        "sha256": "965136f986c0d4021191354e890d076961985138e779821f9263c50909962542"
+      },
+      "vocab-0353": {
+        "text": "трава",
+        "file": "audio/ru/vocab-0353.mp3",
+        "sha256": "fd4ad0d2579afbcfcfa81a803b8a9117b8e85515d0f06e26c85907baff615c7c"
+      },
+      "vocab-0354": {
+        "text": "лист",
+        "file": "audio/ru/vocab-0354.mp3",
+        "sha256": "dd9f0b3dfadaab631266d8762d054af57bbabc3e0a4c0f74e56c55959152a46b"
+      },
+      "vocab-0355": {
+        "text": "лес",
+        "file": "audio/ru/vocab-0355.mp3",
+        "sha256": "8c972d4ebf1b2aee4fcab6e83c29106789822d06d8731525255e63722956485d"
+      },
+      "vocab-0356": {
+        "text": "река",
+        "file": "audio/ru/vocab-0356.mp3",
+        "sha256": "5a10a68f805d64b5b02a8531477482213e3b215b32f49dc15803572afa2d3775"
+      },
+      "vocab-0357": {
+        "text": "озеро",
+        "file": "audio/ru/vocab-0357.mp3",
+        "sha256": "7d37cf481e837045473418c7b8ef0b2ae3b46a32b6bc2e02513a17b553654b16"
+      },
+      "vocab-0358": {
+        "text": "море",
+        "file": "audio/ru/vocab-0358.mp3",
+        "sha256": "17c9437a1ba6ab614efe29b67970ea0f09ebcbca520c2d88914bfacfe0cd0e97"
+      },
+      "vocab-0359": {
+        "text": "пляж",
+        "file": "audio/ru/vocab-0359.mp3",
+        "sha256": "5b74adc93945bf1e82c95f58ae7f1d4e3d3432bbbea75076fe136b151f262ba5"
+      },
+      "vocab-0360": {
+        "text": "камень",
+        "file": "audio/ru/vocab-0360.mp3",
+        "sha256": "2da2bfd4e93566bcde62003bdc7976e9d215f6fece3714d001b083716bb9c556"
+      },
+      "vocab-0361": {
+        "text": "собака",
+        "file": "audio/ru/vocab-0361.mp3",
+        "sha256": "e0d03fd525113af0747796f3efbe73362e29d1457e82e06a553dc128b3024ac9"
+      },
+      "vocab-0362": {
+        "text": "кошка",
+        "file": "audio/ru/vocab-0362.mp3",
+        "sha256": "88e0691b369418794d5baa9cd592f420f73163c3a4dbf04b6c56a142e5c7b9fd"
+      },
+      "vocab-0363": {
+        "text": "лошадь",
+        "file": "audio/ru/vocab-0363.mp3",
+        "sha256": "95c1313f48dce513787884c376958ee275d5007259137a4ae720b8bdf49e43c7"
+      },
+      "vocab-0364": {
+        "text": "корова",
+        "file": "audio/ru/vocab-0364.mp3",
+        "sha256": "f947591eb3159f84ebf2bb82b0781d8506843e66f5add6b4ca73ed3372565ce2"
+      },
+      "vocab-0365": {
+        "text": "свинья",
+        "file": "audio/ru/vocab-0365.mp3",
+        "sha256": "657e0f35c22d8169ee32bce5bfdd2232e1a239f77f669da819e73716b5ee56bd"
+      },
+      "vocab-0366": {
+        "text": "овца",
+        "file": "audio/ru/vocab-0366.mp3",
+        "sha256": "918c6d5e6598bbe03f0041ff550fd0f4b46b3ee3e262d4e14c1df050c7cc654b"
+      },
+      "vocab-0367": {
+        "text": "коза",
+        "file": "audio/ru/vocab-0367.mp3",
+        "sha256": "a64802727b2b4aeb1db0f752545205af7dfa2e0993f7efaed665c1c90dd7d46f"
+      },
+      "vocab-0369": {
+        "text": "утка",
+        "file": "audio/ru/vocab-0369.mp3",
+        "sha256": "cb47d9214c0c91f3d0c8d0ce992ceaf52b33e987049736b81bb0ff944807b1fb"
+      },
+      "vocab-0368": {
+        "text": "курица",
+        "file": "audio/ru/vocab-0368.mp3",
+        "sha256": "936c624d63bb166f33c594d7c431b9bc7aa0f826334f5dd541f8d0ca6f27171b"
+      },
+      "vocab-0370": {
+        "text": "птица",
+        "file": "audio/ru/vocab-0370.mp3",
+        "sha256": "16f5017c335d2b04af16c50a2c26e57dddc096fc5ff2880da63deccd022a11ac"
+      },
+      "vocab-0371": {
+        "text": "автобус",
+        "file": "audio/ru/vocab-0371.mp3",
+        "sha256": "8929a547c31e3d436b79edc1cd3bcf1c896513566cba2dd19d17a6ca7a59aa94"
+      },
+      "vocab-0372": {
+        "text": "трамвай",
+        "file": "audio/ru/vocab-0372.mp3",
+        "sha256": "bf88ca9817526d93f942acfa1f114717dd10a592e79bd4085f6153d820a7f307"
+      },
+      "vocab-0373": {
+        "text": "троллейбус",
+        "file": "audio/ru/vocab-0373.mp3",
+        "sha256": "ea28348b03596a133a494a69cf588a1b54489b212e3da67b8c20ab4a35720740"
+      },
+      "vocab-0375": {
+        "text": "машина",
+        "file": "audio/ru/vocab-0375.mp3",
+        "sha256": "1edc1a99b8376bdce7b025a0091cdd8ef3e663380945f7730896925f66a28fee"
+      },
+      "vocab-0374": {
+        "text": "поезд",
+        "file": "audio/ru/vocab-0374.mp3",
+        "sha256": "269a231ab51ec6467bfd7013326dde220b35afed933c352a9b06dc558c7af85e"
+      },
+      "vocab-0376": {
+        "text": "велосипед",
+        "file": "audio/ru/vocab-0376.mp3",
+        "sha256": "370ca788400de3df187589d85eb6d4578be3337a2c92616172691b1987101fa4"
+      },
+      "vocab-0377": {
+        "text": "такси",
+        "file": "audio/ru/vocab-0377.mp3",
+        "sha256": "d82feb911cde5e5f5b22f4388b7a0796b8cddb06e8374eea9d956e787c25ea25"
+      },
+      "vocab-0379": {
+        "text": "аэропорт",
+        "file": "audio/ru/vocab-0379.mp3",
+        "sha256": "dd79471b03fcd6e9246e6f97827e31360354930a8143a165b817020a5199308f"
+      },
+      "vocab-0380": {
+        "text": "билет",
+        "file": "audio/ru/vocab-0380.mp3",
+        "sha256": "fb7fc77dd923a9d6665dfc025bbd5034f2127b36506dbcbb5edeaae3f05d6206"
+      },
+      "vocab-0381": {
+        "text": "дорога",
+        "file": "audio/ru/vocab-0381.mp3",
+        "sha256": "567c5da9a9f92253ab11a4f500ea033862fd152d0e8e6d4c97dd7d6cafc6862a"
+      },
+      "vocab-0382": {
+        "text": "мост",
+        "file": "audio/ru/vocab-0382.mp3",
+        "sha256": "a375b203cdc39033375493ce9766db34c05c65b6589c211acd13ebf576e7969f"
+      },
+      "vocab-0383": {
+        "text": "пешеходный переход",
+        "file": "audio/ru/vocab-0383.mp3",
+        "sha256": "a258e2830368016ce73b6095210801075fc6d058ca5abad7a758c567264976bf"
+      },
+      "vocab-0384": {
+        "text": "светофор",
+        "file": "audio/ru/vocab-0384.mp3",
+        "sha256": "a6d13b9f1495807bd5f1956558b077ffcfb701944e60d3a81aec01fbcc0e2405"
+      },
+      "vocab-0385": {
+        "text": "тротуар",
+        "file": "audio/ru/vocab-0385.mp3",
+        "sha256": "462cca1ebd4bec09ce4f42d25513b8c052b3c520f7c57f32a21850659a33a4e2"
+      },
+      "vocab-0386": {
+        "text": "угол",
+        "file": "audio/ru/vocab-0386.mp3",
+        "sha256": "822980eea62cbd73b1528b4b740f35f2df649ddd8819630596f5fee144bac325"
+      },
+      "vocab-0387": {
+        "text": "площадь",
+        "file": "audio/ru/vocab-0387.mp3",
+        "sha256": "e01a466f0cee7939d231ea70f52046ff1a66bf7779126b7367934a1cfc396593"
+      },
+      "vocab-0378": {
+        "text": "станция",
+        "file": "audio/ru/vocab-0378.mp3",
+        "sha256": "c2f3d5ccd1c8cb3cce0c07205a24c65ea19b80cd7e64c2bb32951d503df39df8"
+      },
+      "vocab-0388": {
+        "text": "центр",
+        "file": "audio/ru/vocab-0388.mp3",
+        "sha256": "406d7fef0ecbd8c902bb13ccf13891f04d305c742301bb7d1505f512c741d75e"
+      },
+      "vocab-0389": {
+        "text": "адрес",
+        "file": "audio/ru/vocab-0389.mp3",
+        "sha256": "45b2345ffdabcbb0398de0f06505d6b1e11e2133585b37d228435041962f7907"
+      },
+      "vocab-0390": {
+        "text": "карта города",
+        "file": "audio/ru/vocab-0390.mp3",
+        "sha256": "9a6e747565e35eddd16066f035240103ae457a348f8cfb9e8f32fb0ff7a2201d"
+      },
+      "vocab-0392": {
+        "text": "линейка",
+        "file": "audio/ru/vocab-0392.mp3",
+        "sha256": "33ca425c8209f1339b10e54684fcd3264cc7eb1caf224e18d20be23b36aded61"
+      },
+      "vocab-0391": {
+        "text": "школьный рюкзак",
+        "file": "audio/ru/vocab-0391.mp3",
+        "sha256": "fc31116cb20d4d0ec66bae0069cb2a940b2d31ac40d52b40bde147d6b12f03bd"
+      },
+      "vocab-0393": {
+        "text": "ластик",
+        "file": "audio/ru/vocab-0393.mp3",
+        "sha256": "c23218e0ebc37c9bcd8ea12de6690da28a4aa232d9846f1f2bcf7408619ec1e1"
+      },
+      "vocab-0394": {
+        "text": "ножницы",
+        "file": "audio/ru/vocab-0394.mp3",
+        "sha256": "6dc1235e41f7421ea53c7dfbaf102fad4025ba4015b777921560b8855159c7f6"
+      },
+      "vocab-0395": {
+        "text": "клей",
+        "file": "audio/ru/vocab-0395.mp3",
+        "sha256": "f00df7252686d956447897b57f38db4ba4950f66d4a2f4cb9edd242c50822c4c"
+      },
+      "vocab-0396": {
+        "text": "бумага",
+        "file": "audio/ru/vocab-0396.mp3",
+        "sha256": "890d68c62b7257ef6b065a6e29667944fb86b92d01c1aa9ab3e54308c7a194c0"
+      },
+      "vocab-0398": {
+        "text": "кисть",
+        "file": "audio/ru/vocab-0398.mp3",
+        "sha256": "c5e1c330f1552934524a1b76981c774cb050612a525ccd89dfd643dc92180d89"
+      },
+      "vocab-0397": {
+        "text": "краска",
+        "file": "audio/ru/vocab-0397.mp3",
+        "sha256": "e73cd6ffffd76fa485d8a38f72899ad2984417e70099c44a67c058c9cb5b5f44"
+      },
+      "vocab-0399": {
+        "text": "рисунок",
+        "file": "audio/ru/vocab-0399.mp3",
+        "sha256": "23be9ee63027409271da9aa454cda5f1a89adb8a6fef5ba0da70dc00ff439314"
+      },
+      "vocab-0400": {
+        "text": "домашнее задание",
+        "file": "audio/ru/vocab-0400.mp3",
+        "sha256": "8f8d47e007398b308274eda172c9546e3c53c6353d6567f0d741d0bd242e53e5"
+      },
+      "vocab-0401": {
+        "text": "буква",
+        "file": "audio/ru/vocab-0401.mp3",
+        "sha256": "259fe8a9a9954f667079069f5afb5573a286f00fabf8fe2aedfe615f5beadb59"
+      },
+      "vocab-0402": {
+        "text": "слово",
+        "file": "audio/ru/vocab-0402.mp3",
+        "sha256": "96b63ebc5f2a49638b59dff83b7d429ffcea4b7d5ddcaf5bb726aed836c7adda"
+      },
+      "vocab-0403": {
+        "text": "фраза",
+        "file": "audio/ru/vocab-0403.mp3",
+        "sha256": "ec8b1d36978336d2cafd39454ee88ba3be1a1c1447d606132df757bf4efb9bd3"
+      },
+      "vocab-0405": {
+        "text": "вопрос",
+        "file": "audio/ru/vocab-0405.mp3",
+        "sha256": "2fb64abb9bd5958819577b4c98675f7a219f31b17e713a8a66ba1e922e0463b9"
+      },
+      "vocab-0404": {
+        "text": "предложение",
+        "file": "audio/ru/vocab-0404.mp3",
+        "sha256": "978047671fb3befba07680218481b24836acd1dbdbd8733aeffaf17771a43ed9"
+      },
+      "vocab-0406": {
+        "text": "ответ",
+        "file": "audio/ru/vocab-0406.mp3",
+        "sha256": "6d0dbb397ec723347dd72e35adab39dd5cd4f6d7eac1a4a3f8cfee865e8ef193"
+      },
+      "vocab-0408": {
+        "text": "упражнение",
+        "file": "audio/ru/vocab-0408.mp3",
+        "sha256": "b751b76fabc32b4df5fc09f7c2ad0e795e0ec7439321ff598dba04d6145f1302"
+      },
+      "vocab-0407": {
+        "text": "страница",
+        "file": "audio/ru/vocab-0407.mp3",
+        "sha256": "0b264471068813fffe93f34a16fe1f9a1abfcc0dd8d24f07017cacf19229c970"
+      },
+      "vocab-0409": {
+        "text": "пример",
+        "file": "audio/ru/vocab-0409.mp3",
+        "sha256": "1273dd99153cd98be8db401588c7c083c731694a87f446b80f2f06902c4ec2be"
+      },
+      "vocab-0410": {
+        "text": "ошибка",
+        "file": "audio/ru/vocab-0410.mp3",
+        "sha256": "90af8063f24a6609fe8835ef20b079c1f81ed83295b70b15493905a184a78628"
+      },
+      "vocab-0411": {
+        "text": "идти",
+        "file": "audio/ru/vocab-0411.mp3",
+        "sha256": "ff201ee63b7688dfc221b79a1b707aa80de162e5e03553c643f5abc6b9d12d03"
+      },
+      "vocab-0413": {
+        "text": "гулять",
+        "file": "audio/ru/vocab-0413.mp3",
+        "sha256": "7956466f284a53783101187b47c594757adb1a5500f4e623583d943a09edcbc9"
+      },
+      "vocab-0412": {
+        "text": "приходить",
+        "file": "audio/ru/vocab-0412.mp3",
+        "sha256": "9364b196e3080589d905f2a7154113b093a7fd504aae026c87c6fb53750dc191"
+      },
+      "vocab-0414": {
+        "text": "бегать",
+        "file": "audio/ru/vocab-0414.mp3",
+        "sha256": "3809518c62212d36c37e0632eaf04aa443665b2aab5627b6adeceed430093ce7"
+      },
+      "vocab-0415": {
+        "text": "сидеть",
+        "file": "audio/ru/vocab-0415.mp3",
+        "sha256": "17635b60042ebe0df2be8e19fc1d789f5e71d4494aaeaa0316c0c11449f0496b"
+      },
+      "vocab-0417": {
+        "text": "спать",
+        "file": "audio/ru/vocab-0417.mp3",
+        "sha256": "47cfa055e060bafd41f06d4f0910fc31d63fb79ebf1ff2744ae0bcd77a9415db"
+      },
+      "vocab-0416": {
+        "text": "стоять",
+        "file": "audio/ru/vocab-0416.mp3",
+        "sha256": "68683fd9c06da6b37640dcf6798aed38ece6e44d091481fb976ed16e0d98f98c"
+      },
+      "vocab-0418": {
+        "text": "просыпаться",
+        "file": "audio/ru/vocab-0418.mp3",
+        "sha256": "35136153de2d925fbcd13188ecf29dd4081d4b019c85e2e5e6f144a4f633b815"
+      },
+      "vocab-0419": {
+        "text": "есть",
+        "file": "audio/ru/vocab-0419.mp3",
+        "sha256": "826a6b40e8d2f9139419a835d7cbcecceb26370987c393c176aa3a74004ae831"
+      },
+      "vocab-0420": {
+        "text": "пить",
+        "file": "audio/ru/vocab-0420.mp3",
+        "sha256": "b93a6988bb4649535fd5502071d8630251553ab9a3528574f39c07464ba6bca2"
+      },
+      "vocab-0421": {
+        "text": "говорить на языке",
+        "file": "audio/ru/vocab-0421.mp3",
+        "sha256": "713b8a2dba5a2f03ce6105faec1ee4667f2f06579995bee04700833d2eab4716"
+      },
+      "vocab-0422": {
+        "text": "сказать слово",
+        "file": "audio/ru/vocab-0422.mp3",
+        "sha256": "952cf609c635d071df1a9e2d3faf3ad13be9c9bf2d933f900fddba833e074e4a"
+      },
+      "vocab-0423": {
+        "text": "спрашивать",
+        "file": "audio/ru/vocab-0423.mp3",
+        "sha256": "a91339c9667937bbb2ec9fefc50489bb0dfb334697ace6ae3e9266108db22844"
+      },
+      "vocab-0424": {
+        "text": "отвечать",
+        "file": "audio/ru/vocab-0424.mp3",
+        "sha256": "05fc50d6a18add19c2b50504345d6087f29fe8c79cd006c8958d12de1513ca01"
+      },
+      "vocab-0425": {
+        "text": "слушать",
+        "file": "audio/ru/vocab-0425.mp3",
+        "sha256": "989c0c39ba864ecfddd0c308e8069314ea0fb7909602e94365e4b0accf985c25"
+      },
+      "vocab-0427": {
+        "text": "читать",
+        "file": "audio/ru/vocab-0427.mp3",
+        "sha256": "d7b9c5c023394f16484f8f9e2b39847f63f15da84fe50667b00c855a68091543"
+      },
+      "vocab-0426": {
+        "text": "слышать",
+        "file": "audio/ru/vocab-0426.mp3",
+        "sha256": "e53f1e36b5b639c640a9c1cf21f6e0cbd4994a846c60cbc37590c3ae338575e5"
+      },
+      "vocab-0428": {
+        "text": "писать",
+        "file": "audio/ru/vocab-0428.mp3",
+        "sha256": "fbb3fa08dc86435da193b1525abfc29cdf4a9af5770844639623467107873431"
+      },
+      "vocab-0429": {
+        "text": "учиться",
+        "file": "audio/ru/vocab-0429.mp3",
+        "sha256": "1fdf3dec124bf7d48202aaac56aa6d38bcceb74783af38152d4587421c0bcca7"
+      },
+      "vocab-0430": {
+        "text": "понимать",
+        "file": "audio/ru/vocab-0430.mp3",
+        "sha256": "da06f8985a01a06200dce362838de7b7255851ec165642182682c9742b36a5ca"
+      },
+      "vocab-0431": {
+        "text": "видеть",
+        "file": "audio/ru/vocab-0431.mp3",
+        "sha256": "b7c57ae2ec81123ba57661339cf1f763ba84c11a1915b4fc70739af2be94b966"
+      },
+      "vocab-0432": {
+        "text": "смотреть на",
+        "file": "audio/ru/vocab-0432.mp3",
+        "sha256": "901d66ba6c6106f0ccfcfb92a7835fc9c180786d9baad79598727b4ac6d746d3"
+      },
+      "vocab-0433": {
+        "text": "наблюдать",
+        "file": "audio/ru/vocab-0433.mp3",
+        "sha256": "acbc8082af40ba0b3cc493cb869be72d9c7684716483bb876384a27d87ed3570"
+      },
+      "vocab-0434": {
+        "text": "находить",
+        "file": "audio/ru/vocab-0434.mp3",
+        "sha256": "3777518402884077bf0b133df51356e1d10fe5364c12f3d911e62b0d39e11c2d"
+      },
+      "vocab-0435": {
+        "text": "искать",
+        "file": "audio/ru/vocab-0435.mp3",
+        "sha256": "d3f49813245662f01cec65d7f64ba022aaddc74a42c8fb99c74349aff05f6999"
+      },
+      "vocab-0436": {
+        "text": "брать",
+        "file": "audio/ru/vocab-0436.mp3",
+        "sha256": "fde43020bfae1c15eaf676b0f0986963f8d79e186f57967f4c4fe314bbbab1a9"
+      },
+      "vocab-0437": {
+        "text": "давать",
+        "file": "audio/ru/vocab-0437.mp3",
+        "sha256": "0bec3457c95a6e240d887822eca1d981e269aa9fdf234f615b0c66785d062eb2"
+      },
+      "vocab-0438": {
+        "text": "приносить",
+        "file": "audio/ru/vocab-0438.mp3",
+        "sha256": "9cda2bde66955e8f04887dd4d04c0a8d1958b831784fd8524f353c920aa86832"
+      },
+      "vocab-0439": {
+        "text": "покупать",
+        "file": "audio/ru/vocab-0439.mp3",
+        "sha256": "3939d2a3617c731b9dde06d39c356da2614cbf95c42235edd5d99aa0404a0aef"
+      },
+      "vocab-0441": {
+        "text": "открывать",
+        "file": "audio/ru/vocab-0441.mp3",
+        "sha256": "3f953d27f6ae3f7648a618fe5b4d0e7995935e219fe95d7b232db500e3281950"
+      },
+      "vocab-0440": {
+        "text": "платить",
+        "file": "audio/ru/vocab-0440.mp3",
+        "sha256": "4d931d6dd077e0c36a021c860d946fca15d68c9e584d42e0f464883d46463201"
+      },
+      "vocab-0442": {
+        "text": "закрывать",
+        "file": "audio/ru/vocab-0442.mp3",
+        "sha256": "1e0fa2b5465762824bfcadc4c043d8c40fb509ec085e8cd85c43908ab44faad1"
+      },
+      "vocab-0443": {
+        "text": "начинать",
+        "file": "audio/ru/vocab-0443.mp3",
+        "sha256": "533ee28b3406ef58093ca46862467af662c55df42b2b679fb12818fed8f05adb"
+      },
+      "vocab-0445": {
+        "text": "ждать",
+        "file": "audio/ru/vocab-0445.mp3",
+        "sha256": "389bb1f5662dc5c4823fcc25daa374176f61bd33cc6303307a021ceeb6a60c78"
+      },
+      "vocab-0444": {
+        "text": "заканчивать",
+        "file": "audio/ru/vocab-0444.mp3",
+        "sha256": "d6cc8c407df68ecc9ccc8a59bb2f09a31c61595eba150236bc77f7fa386ad3f0"
+      },
+      "vocab-0446": {
+        "text": "помогать",
+        "file": "audio/ru/vocab-0446.mp3",
+        "sha256": "327b3b9cf188d483871e3c7df4b91516df103afddc97df7bf8367e5a62228ec6"
+      },
+      "vocab-0448": {
+        "text": "работать",
+        "file": "audio/ru/vocab-0448.mp3",
+        "sha256": "0f3916ca16f462250c8f2b01ddac71101ee669af37099194e2d672dbf4f2965a"
+      },
+      "vocab-0447": {
+        "text": "играть",
+        "file": "audio/ru/vocab-0447.mp3",
+        "sha256": "6f96070c96d55f23fa7e655efbac6babbea56050012223f50e1dac44ee9479e0"
+      },
+      "vocab-0449": {
+        "text": "мыть",
+        "file": "audio/ru/vocab-0449.mp3",
+        "sha256": "25b16daa77f26f7c8c9b068658082e6cb3188059cde4c73d0f185e80acb9f9b7"
+      },
+      "vocab-0450": {
+        "text": "чистить",
+        "file": "audio/ru/vocab-0450.mp3",
+        "sha256": "784a1739c5b3a60f068bcbaa29f24e9f38571d556b049dbcdf8af9444dbefe26"
+      },
+      "vocab-0451": {
+        "text": "большой",
+        "file": "audio/ru/vocab-0451.mp3",
+        "sha256": "33b89c3db7c623c1aef14912f034a29a9cd1ca13ecfabd24c253c02373281578"
+      },
+      "vocab-0452": {
+        "text": "маленький",
+        "file": "audio/ru/vocab-0452.mp3",
+        "sha256": "e9520f2756fc8a8ddf51f0e8b8bb4d861271cfd8df5516096e708a1973c26257"
+      },
+      "vocab-0453": {
+        "text": "длинный",
+        "file": "audio/ru/vocab-0453.mp3",
+        "sha256": "4dea39e3ea0a19f95565be642401ba57ba98f74e299c58855511fd6f8c71f336"
+      },
+      "vocab-0454": {
+        "text": "короткий",
+        "file": "audio/ru/vocab-0454.mp3",
+        "sha256": "9920b703d60866d551bd3f46914a6c004d06e50ba06df86f2ea79102b37a102f"
+      },
+      "vocab-0456": {
+        "text": "узкий",
+        "file": "audio/ru/vocab-0456.mp3",
+        "sha256": "00d070e3b9d848aa6e8bdf1dc574c1027609eaefa2e0ce004acda0663e43f267"
+      },
+      "vocab-0455": {
+        "text": "широкий",
+        "file": "audio/ru/vocab-0455.mp3",
+        "sha256": "b8ac273f8b6bfe678f1c62a0d701c0353d7b76778f0fdf298d69a8ffea64b61b"
+      },
+      "vocab-0457": {
+        "text": "высокий",
+        "file": "audio/ru/vocab-0457.mp3",
+        "sha256": "cbe0a641b1881eae7bfb47895baf49a8d4b1842f76815871b965207aa81b964d"
+      },
+      "vocab-0458": {
+        "text": "низкий",
+        "file": "audio/ru/vocab-0458.mp3",
+        "sha256": "fd50f8f781be3e161306da003c00bf82bdca8c338200d1cf6ea1b03e3b96ba4b"
+      },
+      "vocab-0459": {
+        "text": "тяжёлый",
+        "file": "audio/ru/vocab-0459.mp3",
+        "sha256": "b76e11c217f85747dc6516e2310a727d0f845e17f0ce887c8f3bae2253610c8f"
+      },
+      "vocab-0460": {
+        "text": "лёгкий",
+        "file": "audio/ru/vocab-0460.mp3",
+        "sha256": "9f0d84febb14c76d0b98a7c9f4032c2b9e03fed481387511ddacf701e7feb74b"
+      },
+      "vocab-0461": {
+        "text": "хороший",
+        "file": "audio/ru/vocab-0461.mp3",
+        "sha256": "d6b1defc6bc092814aaa51fa174490848d1e1d27be18e7b3e33adee0d9293f5f"
+      },
+      "vocab-0462": {
+        "text": "плохой",
+        "file": "audio/ru/vocab-0462.mp3",
+        "sha256": "3c3acfcfb3e20efc80a94fc36b6041e5ca815f09297dbc821c9a15ad2d5bf0b2"
+      },
+      "vocab-0464": {
+        "text": "старый",
+        "file": "audio/ru/vocab-0464.mp3",
+        "sha256": "1377f9b2451323fe506ae328f0c9b6b7f7782215f4bd7d63bc5b36c7902ff7f2"
+      },
+      "vocab-0463": {
+        "text": "новый",
+        "file": "audio/ru/vocab-0463.mp3",
+        "sha256": "8580e41570ec0a6a3ee8088acb936a43fa9c4735c000eeb83656f7dfdc10b999"
+      },
+      "vocab-0465": {
+        "text": "чистый",
+        "file": "audio/ru/vocab-0465.mp3",
+        "sha256": "efbe75299a8bc6725042f9e23eee58cfa35569e171ee7bad3f155d078335c91a"
+      },
+      "vocab-0466": {
+        "text": "грязный",
+        "file": "audio/ru/vocab-0466.mp3",
+        "sha256": "1439b7178e621931303a231108d122631e748ea17d0e0ac9558118d7c5d82b15"
+      },
+      "vocab-0468": {
+        "text": "холодный",
+        "file": "audio/ru/vocab-0468.mp3",
+        "sha256": "5c10ab590c9095b52766a48dab030002b3fa20615f9bba8a11317784ee073482"
+      },
+      "vocab-0467": {
+        "text": "горячий",
+        "file": "audio/ru/vocab-0467.mp3",
+        "sha256": "c664b8616b6681163b3b84c368e01d2f5272ed9f216a91f6ebfe694f6eecbdea"
+      },
+      "vocab-0469": {
+        "text": "тёплый",
+        "file": "audio/ru/vocab-0469.mp3",
+        "sha256": "d9f2dadbcfdaafdb988ff633cc77c7ee185002eb698cdc5d5005b4ad0bd3b5ec"
+      },
+      "vocab-0470": {
+        "text": "прохладный",
+        "file": "audio/ru/vocab-0470.mp3",
+        "sha256": "6fae40ce76c2c3c45d99230072e367f0ef8004a7abd7b12aebbe0b49a2f6c046"
+      },
+      "vocab-0471": {
+        "text": "красный",
+        "file": "audio/ru/vocab-0471.mp3",
+        "sha256": "80252968f65a48357993530b400c75d54945759ed73fe55e5259f99a0208721b"
+      },
+      "vocab-0472": {
+        "text": "синий",
+        "file": "audio/ru/vocab-0472.mp3",
+        "sha256": "0df236ae2b0bd41240f981c608a6570a4dbfa193b49639d131383195b29f9a16"
+      },
+      "vocab-0473": {
+        "text": "зелёный",
+        "file": "audio/ru/vocab-0473.mp3",
+        "sha256": "4161c7224291cf42ed0a765a9eb03b35f5e5b9fabdbef6a082f8d9e4888c380a"
+      },
+      "vocab-0474": {
+        "text": "жёлтый",
+        "file": "audio/ru/vocab-0474.mp3",
+        "sha256": "5026316ac2a3a84d61769c96f29232fc5bc4cc2f01f0d70e889406ed16079469"
+      },
+      "vocab-0476": {
+        "text": "белый",
+        "file": "audio/ru/vocab-0476.mp3",
+        "sha256": "e3e44c079dc4296c2227a1bec736825e45411dec196363bf416dda25ca75f199"
+      },
+      "vocab-0475": {
+        "text": "чёрный",
+        "file": "audio/ru/vocab-0475.mp3",
+        "sha256": "1ab47c68ff9e01027422b63af424d651adef1fd584cce74285ee35cdb1f547f3"
+      },
+      "vocab-0477": {
+        "text": "серый",
+        "file": "audio/ru/vocab-0477.mp3",
+        "sha256": "6eac25d86a9f9f45e0197e0341b09c408a2ac5559fe961ba3c6f6e2818b05572"
+      },
+      "vocab-0478": {
+        "text": "коричневый",
+        "file": "audio/ru/vocab-0478.mp3",
+        "sha256": "28caf79396768471a7da018f8438713ff0de625997a432bcaac5dba8fff3e3e7"
+      },
+      "vocab-0479": {
+        "text": "розовый",
+        "file": "audio/ru/vocab-0479.mp3",
+        "sha256": "39e849a487448ed647d89af45b78b667dbf2e7e558d3dac7363adfabe03d649a"
+      },
+      "vocab-0480": {
+        "text": "фиолетовый",
+        "file": "audio/ru/vocab-0480.mp3",
+        "sha256": "7695137e06f1795defa345628b54c74c8dd13baabbe032281f5c7dda00f40272"
+      },
+      "vocab-0481": {
+        "text": "и",
+        "file": "audio/ru/vocab-0481.mp3",
+        "sha256": "26374ff36e85b21228e5f9c2c57a92e63f34459c67bd41036289be3ac0443fa9"
+      },
+      "vocab-0482": {
+        "text": "или",
+        "file": "audio/ru/vocab-0482.mp3",
+        "sha256": "cd8a1cdd8245ffbf01c87d14f05220a37405b7158828871d9d991b48c18daf07"
+      },
+      "vocab-0483": {
+        "text": "но",
+        "file": "audio/ru/vocab-0483.mp3",
+        "sha256": "750923c478329400090b23fdb57c04657ef3bd3b2fbb05b29417a03bad0e663e"
+      },
+      "vocab-0484": {
+        "text": "потому что",
+        "file": "audio/ru/vocab-0484.mp3",
+        "sha256": "e798b589f58ef17ec40252692b3e5e1a98891b51fc1310778fd4bbb6f70eef49"
+      },
+      "vocab-0485": {
+        "text": "со мной",
+        "file": "audio/ru/vocab-0485.mp3",
+        "sha256": "3f54924e2c3da6cb256172bb1af15fbfe4a741ab06257f72838db0e2cc706fc7"
+      },
+      "vocab-0486": {
+        "text": "без меня",
+        "file": "audio/ru/vocab-0486.mp3",
+        "sha256": "496a792d0044e6f607517bfa76d7410d75916123822f239c86bb84e9817374d7"
+      },
+      "vocab-0487": {
+        "text": "для тебя",
+        "file": "audio/ru/vocab-0487.mp3",
+        "sha256": "dea4e8776240bb7b14b77309c4c95be83638a27b2394fd63d8f9e6065fcf2b8d"
+      },
+      "vocab-0488": {
+        "text": "из дома",
+        "file": "audio/ru/vocab-0488.mp3",
+        "sha256": "eee289b015fe1213e4e66eac3bd3d76b51fd2a47535848d0f2875324d82d33da"
+      },
+      "vocab-0489": {
+        "text": "в школу",
+        "file": "audio/ru/vocab-0489.mp3",
+        "sha256": "b9accb06b8e6f0188dc5202e7927aeeea5b6645f8a9d582c6a6ca68b422389fa"
+      },
+      "vocab-0490": {
+        "text": "между нами",
+        "file": "audio/ru/vocab-0490.mp3",
+        "sha256": "f5c1ca93a02315cbfcee1049315b314008e692c98ff05409ad883d3c8ae5ec7f"
+      },
+      "vocab-0492": {
+        "text": "ты",
+        "file": "audio/ru/vocab-0492.mp3",
+        "sha256": "52b455803d9101485d9141a5ff7ef976842bc7b7943a2d76eda5d649a4255dd9"
+      },
+      "vocab-0491": {
+        "text": "я",
+        "file": "audio/ru/vocab-0491.mp3",
+        "sha256": "f5ec46782a7477efac1c1d3b78fdbff062e1e1c793d18b158464361133dd6afa"
+      },
+      "vocab-0493": {
+        "text": "он",
+        "file": "audio/ru/vocab-0493.mp3",
+        "sha256": "e254dc591de2e69a39c0b5c8fbf83cd5ca1ead024c6fd243852c362828280907"
+      },
+      "vocab-0494": {
+        "text": "она",
+        "file": "audio/ru/vocab-0494.mp3",
+        "sha256": "062b7d43aabcdf76a6259791b893036220d1fd67e59c781612b438625ca2ac5a"
+      },
+      "vocab-0495": {
+        "text": "мы",
+        "file": "audio/ru/vocab-0495.mp3",
+        "sha256": "7f2481b15dd6620ecb460276f5568b93dc27321ff6a884e32bbfa1a24dc58f04"
+      },
+      "vocab-0497": {
+        "text": "этот",
+        "file": "audio/ru/vocab-0497.mp3",
+        "sha256": "26e9f7728f66a95364e3da397043cf690b1bb319692c49122a49c8cb83a597e7"
+      },
+      "vocab-0496": {
+        "text": "они",
+        "file": "audio/ru/vocab-0496.mp3",
+        "sha256": "e1ea10f56015fb3437f9a997f044e93c077a7e58338c125c2c641e8f1db110ea"
+      },
+      "vocab-0498": {
+        "text": "тот",
+        "file": "audio/ru/vocab-0498.mp3",
+        "sha256": "cac6a880c0ba91e66fa92bcbc837d4f16b5f302d819dca9e5f779ffab3a28cea"
+      },
+      "vocab-0499": {
+        "text": "всё",
+        "file": "audio/ru/vocab-0499.mp3",
+        "sha256": "4a79cf9c8b2217dc865fad9f3a07f81a42e0b2afed5b5eb046e55815e3b455d2"
+      },
+      "vocab-0500": {
+        "text": "ничего",
+        "file": "audio/ru/vocab-0500.mp3",
+        "sha256": "5d2eb8a70fc72374872b2ddb8ba8dab473458aabcef7a5744ae5b9118e52fe06"
       }
     },
     "lv": {
@@ -113,7 +2563,2458 @@
         "text": "ar labu nakti",
         "file": "audio/lv/vocab-0010.mp3",
         "sha256": "3605e32b1fdbf086a0d4f9b73aa9c8ae104fe6ffd92d2a3ae460c95ea367e09e"
+      },
+      "vocab-0011": {
+        "text": "cilvēks",
+        "file": "audio/lv/vocab-0011.mp3",
+        "sha256": "686e79a054d4473c1f4164e7f13b3a26d11bf33d7d0924db69a7abce9b1f84fc"
+      },
+      "vocab-0013": {
+        "text": "zēns",
+        "file": "audio/lv/vocab-0013.mp3",
+        "sha256": "4fc6dae3a36bf21f91b77ca95b042b38e1d6b0b8417620da8b32ea908f555632"
+      },
+      "vocab-0014": {
+        "text": "meitene",
+        "file": "audio/lv/vocab-0014.mp3",
+        "sha256": "d1f17bfc229da0c1078f1be7a5bc60faf092fa581af0c61bfe22b16c2846218f"
+      },
+      "vocab-0017": {
+        "text": "māte",
+        "file": "audio/lv/vocab-0017.mp3",
+        "sha256": "a941c07cf5dfd3f3af28c3de368da5d6d13850c912c67a44d74a597a78050e1c"
+      },
+      "vocab-0015": {
+        "text": "draugs",
+        "file": "audio/lv/vocab-0015.mp3",
+        "sha256": "f99c1e77953db93e0c6d53c4b2281831efb14316d0b3189b586f2644fdbc8b74"
+      },
+      "vocab-0016": {
+        "text": "ģimene",
+        "file": "audio/lv/vocab-0016.mp3",
+        "sha256": "a1ef528aa73b676a94110ac7116475c4e7447a93197f6170bb80d7d044f18f19"
+      },
+      "vocab-0018": {
+        "text": "tēvs",
+        "file": "audio/lv/vocab-0018.mp3",
+        "sha256": "1c76f19c2e34e81c7b7f936e430a953ab55a9c6a215af3987fb344281c200b20"
+      },
+      "vocab-0019": {
+        "text": "māsa",
+        "file": "audio/lv/vocab-0019.mp3",
+        "sha256": "10311cf904d07f983118ef3deae21e99110ca0481eec37582e505504db3dcd71"
+      },
+      "vocab-0020": {
+        "text": "brālis",
+        "file": "audio/lv/vocab-0020.mp3",
+        "sha256": "d2378f8494b371244d71cf639856989beded584234237c8529ce6bc22984764c"
+      },
+      "vocab-0021": {
+        "text": "viens",
+        "file": "audio/lv/vocab-0021.mp3",
+        "sha256": "fbd176a74703be157ea3bd7c6e3cb36fe5d057243d1805666ac23a342627d088"
+      },
+      "vocab-0022": {
+        "text": "divi",
+        "file": "audio/lv/vocab-0022.mp3",
+        "sha256": "3bf2b30f3db18fdd535901456e77f0d984d722b602feb7ee754aee1272da45c8"
+      },
+      "vocab-0023": {
+        "text": "trīs",
+        "file": "audio/lv/vocab-0023.mp3",
+        "sha256": "6a4b7ab34536f57ea88282e0ce406162f54783cd7e2121e3067e13b51a73d75e"
+      },
+      "vocab-0012": {
+        "text": "bērns",
+        "file": "audio/lv/vocab-0012.mp3",
+        "sha256": "3eb29db1c5cf29022a724130aec8179255587f1b6b3d14e875ae57cae0e8ed8c"
+      },
+      "vocab-0024": {
+        "text": "četri",
+        "file": "audio/lv/vocab-0024.mp3",
+        "sha256": "ec055f6e51b9e8abc2788ad88c54b0087068f0a6e78e91478242fd4cb774c76b"
+      },
+      "vocab-0026": {
+        "text": "seši",
+        "file": "audio/lv/vocab-0026.mp3",
+        "sha256": "4a7d3163f096e1619a6f27784dfeb052d635f1aa4862e923fb59a529051a7997"
+      },
+      "vocab-0025": {
+        "text": "pieci",
+        "file": "audio/lv/vocab-0025.mp3",
+        "sha256": "3421aa478577c717f15da2d73dd7b62d21ef3bdd32f655c34ebea157d28bb889"
+      },
+      "vocab-0027": {
+        "text": "septiņi",
+        "file": "audio/lv/vocab-0027.mp3",
+        "sha256": "10ed83708b43e17e671978beca6dff87c812cc84e87153749125ea3d3a3cf7fe"
+      },
+      "vocab-0028": {
+        "text": "astoņi",
+        "file": "audio/lv/vocab-0028.mp3",
+        "sha256": "ff1ad5d394154ae7d4d8f931f0bb832821c39d30df7238bd53cabc1e01169dd4"
+      },
+      "vocab-0029": {
+        "text": "deviņi",
+        "file": "audio/lv/vocab-0029.mp3",
+        "sha256": "b9d5f22cb14a8b6ad48f713fff77f8293d6447db7eba9626f82a9400ccf3b917"
+      },
+      "vocab-0030": {
+        "text": "desmit",
+        "file": "audio/lv/vocab-0030.mp3",
+        "sha256": "561309ac32624d919713c35a6b73b2e5249dedf8abc0b667fa2af3b129bb7de2"
+      },
+      "vocab-0031": {
+        "text": "palīdzība",
+        "file": "audio/lv/vocab-0031.mp3",
+        "sha256": "dd0c0d1df27ffa963fe101cec9abdb7464cd985168244db43c3bfab9a02ace92"
+      },
+      "vocab-0032": {
+        "text": "stop",
+        "file": "audio/lv/vocab-0032.mp3",
+        "sha256": "1023724f929ba2f30810800139a81d93fab9e587a92979679a6770d4ce7e5566"
+      },
+      "vocab-0034": {
+        "text": "tur",
+        "file": "audio/lv/vocab-0034.mp3",
+        "sha256": "f88fbce265a763f9ab9ab91054a202fd7b6f838e1db2f9cee5d37e880c439a8a"
+      },
+      "vocab-0033": {
+        "text": "šeit",
+        "file": "audio/lv/vocab-0033.mp3",
+        "sha256": "dbd9ef6f3ee993830a12e6e170a0ba9322f5242a408b4520713fc1add9628df4"
+      },
+      "vocab-0035": {
+        "text": "tagad",
+        "file": "audio/lv/vocab-0035.mp3",
+        "sha256": "c7a21c6511e729a59f5152996828d07684b19d8c681a1e45779a08e7cd7d6862"
+      },
+      "vocab-0036": {
+        "text": "vēlāk",
+        "file": "audio/lv/vocab-0036.mp3",
+        "sha256": "b29b00254f19059910840f4802aed516a4b973c084b1f312a40587760f7b5c4a"
+      },
+      "vocab-0037": {
+        "text": "kopā",
+        "file": "audio/lv/vocab-0037.mp3",
+        "sha256": "7f6a0a9c23e36d1871c3c03fdc4fec6abc550e41123313dbad88515665524f62"
+      },
+      "vocab-0038": {
+        "text": "atkal",
+        "file": "audio/lv/vocab-0038.mp3",
+        "sha256": "e09f717258873182eb4f3c125dc25b71bd132db8d6f2f27092e1748b94728525"
+      },
+      "vocab-0039": {
+        "text": "lēnām",
+        "file": "audio/lv/vocab-0039.mp3",
+        "sha256": "e31aa2ba7d460a62b943fa011ce3c553fcc548de639f79d68b3217e36c5916ef"
+      },
+      "vocab-0041": {
+        "text": "mājas",
+        "file": "audio/lv/vocab-0041.mp3",
+        "sha256": "fc62f36df56d976f564b8b51b5dcd9b9fa349d55bb8ef7c999322c2977e0f8a0"
+      },
+      "vocab-0042": {
+        "text": "skola",
+        "file": "audio/lv/vocab-0042.mp3",
+        "sha256": "5ed43660f185340e687e89aee559738fb1f4b747530e6bf0ba751341f0b3bbfc"
+      },
+      "vocab-0043": {
+        "text": "veikals",
+        "file": "audio/lv/vocab-0043.mp3",
+        "sha256": "12fb3691f965d681a7ef85bde37376fd2bd98f722f30742d4db1d082ea6094ab"
+      },
+      "vocab-0044": {
+        "text": "aptieka",
+        "file": "audio/lv/vocab-0044.mp3",
+        "sha256": "f0bf7bb9d95874e116f985c1275287da6bee5d6e0663f318ba7845b4978d2196"
+      },
+      "vocab-0045": {
+        "text": "slimnīca",
+        "file": "audio/lv/vocab-0045.mp3",
+        "sha256": "066a1be3318fd92798706eebefff853e3b26ae94b87610a39e5f33e2daf6603a"
+      },
+      "vocab-0046": {
+        "text": "parks",
+        "file": "audio/lv/vocab-0046.mp3",
+        "sha256": "93b70c05c305d8310ab47d04f3a1c61f7a0bd3d8019183f1362cb7e6a3f0f1ff"
+      },
+      "vocab-0047": {
+        "text": "iela",
+        "file": "audio/lv/vocab-0047.mp3",
+        "sha256": "40cc0b50d08139619ad2149cc6fd4d2a1e18bc6d255d1f55cd564e04c8aa7c02"
+      },
+      "vocab-0048": {
+        "text": "autobusa pietura",
+        "file": "audio/lv/vocab-0048.mp3",
+        "sha256": "2f0d324f7a3fb972a2a0ad6dc0b333deb6a86451e41363da6ce1a84eacdd26a2"
+      },
+      "vocab-0049": {
+        "text": "tualete",
+        "file": "audio/lv/vocab-0049.mp3",
+        "sha256": "f0e7312f77790136ab7354dacd83ec8de76b208cc87e52fef6a5e5a035954d91"
+      },
+      "vocab-0050": {
+        "text": "izeja",
+        "file": "audio/lv/vocab-0050.mp3",
+        "sha256": "e2c57d07b139e23f1e6c2066356bcb570766ceebc2852fe1456ddf3d288ece0f"
+      },
+      "vocab-0051": {
+        "text": "ūdens",
+        "file": "audio/lv/vocab-0051.mp3",
+        "sha256": "f5f085c7dd55fc10c94269fadfe1d9ed036f4b1ffe256cd5f069f3404a9c4e46"
+      },
+      "vocab-0052": {
+        "text": "maize",
+        "file": "audio/lv/vocab-0052.mp3",
+        "sha256": "0819f5afe8dab639386b5786bd8e29270ba0cd56e17b1afa6d728c64f58111f1"
+      },
+      "vocab-0053": {
+        "text": "piens",
+        "file": "audio/lv/vocab-0053.mp3",
+        "sha256": "7044fd04c10f9664a32cb2f15e7a369ce2cb05a6a2ed5cc08895886332fd7bfe"
+      },
+      "vocab-0054": {
+        "text": "tēja",
+        "file": "audio/lv/vocab-0054.mp3",
+        "sha256": "3f5ae65b1ae240d88aa500ea980fce61987eea0580348896bf7b4623f4292d22"
+      },
+      "vocab-0040": {
+        "text": "ātri",
+        "file": "audio/lv/vocab-0040.mp3",
+        "sha256": "e5afbafe6ad460f153b67df5e8b71c64efef1cd739ea0ab9d1c0313cf23dd0b2"
+      },
+      "vocab-0056": {
+        "text": "banāns",
+        "file": "audio/lv/vocab-0056.mp3",
+        "sha256": "f3de410f08000bc3b379ee63e8b74a12240e67530c4f5084ab526fc80b570ea0"
+      },
+      "vocab-0057": {
+        "text": "siers",
+        "file": "audio/lv/vocab-0057.mp3",
+        "sha256": "e38a2668842c0fb43ebf3fd08565536804a02fe655bd89b1e1413b2508481d29"
+      },
+      "vocab-0058": {
+        "text": "zupa",
+        "file": "audio/lv/vocab-0058.mp3",
+        "sha256": "848d503298a639516c550910b2e1412c398a1b7011b2cc1a16b7a4b4085ae39c"
+      },
+      "vocab-0059": {
+        "text": "sula",
+        "file": "audio/lv/vocab-0059.mp3",
+        "sha256": "4ca69c1bb91b0d8d42ed3a3e8799ec0475ca0d66c227500940a65fb8600161c9"
+      },
+      "vocab-0060": {
+        "text": "brokastis",
+        "file": "audio/lv/vocab-0060.mp3",
+        "sha256": "d6b3e21968fd06229d5b0b4adc248688ba5f2e7465475b0181a5cc8b5ed58153"
+      },
+      "vocab-0061": {
+        "text": "grāmata",
+        "file": "audio/lv/vocab-0061.mp3",
+        "sha256": "9dbafa57ddb622cb8ecb5725c71f23b54cd5de443a644afc6a188e63be0c1d45"
+      },
+      "vocab-0063": {
+        "text": "pildspalva",
+        "file": "audio/lv/vocab-0063.mp3",
+        "sha256": "32b4e54c74ad6a8e032829c16bcd9cdc8a9dbbe5aaadb839307231a0274e9abd"
+      },
+      "vocab-0062": {
+        "text": "burtnīca",
+        "file": "audio/lv/vocab-0062.mp3",
+        "sha256": "e80b3f75349ece8190ec5b747f46457003c8ee73c3e36fa06ef7cfa596ab547b"
+      },
+      "vocab-0064": {
+        "text": "zīmulis",
+        "file": "audio/lv/vocab-0064.mp3",
+        "sha256": "f83eff64489b41b7ea03e35f240163c16a143ec558f6ba2662cb3309676c4960"
+      },
+      "vocab-0055": {
+        "text": "ābols",
+        "file": "audio/lv/vocab-0055.mp3",
+        "sha256": "dbe713135da0bb8b3438356f9098633a214d3523e654ea7a00d951345723ef3d"
+      },
+      "vocab-0065": {
+        "text": "rakstāmgalds",
+        "file": "audio/lv/vocab-0065.mp3",
+        "sha256": "45ef7addd6431371b7a84366aac8f31590771f8c9ab49868946bfb03a0f2306c"
+      },
+      "vocab-0067": {
+        "text": "tāfele",
+        "file": "audio/lv/vocab-0067.mp3",
+        "sha256": "cc03f02a838c38862341cc2c26b67dd1e93be11394ab18261d5a6f41b070051e"
+      },
+      "vocab-0068": {
+        "text": "skolotājs",
+        "file": "audio/lv/vocab-0068.mp3",
+        "sha256": "8ad04d42e8ee31b42c03aaa24bd1f27c976409753cea5f8d46f550b06fb49420"
+      },
+      "vocab-0069": {
+        "text": "mācību stunda",
+        "file": "audio/lv/vocab-0069.mp3",
+        "sha256": "9d6e5333a1797da8a9271d12b04f6a848458c2162a1e882355afb65fad4002f4"
+      },
+      "vocab-0070": {
+        "text": "starpbrīdis",
+        "file": "audio/lv/vocab-0070.mp3",
+        "sha256": "80c587504de3814fc5f46fdcc843ac11a3b3cfa0e111641f885359424c766e01"
+      },
+      "vocab-0071": {
+        "text": "pa kreisi",
+        "file": "audio/lv/vocab-0071.mp3",
+        "sha256": "7d37f8783fc9fd1ce8c4b193c529dad06269f8d39654fa8f94a62dda01f6f0fa"
+      },
+      "vocab-0072": {
+        "text": "pa labi",
+        "file": "audio/lv/vocab-0072.mp3",
+        "sha256": "c53cb6ade9119ccc72ae7985f4b9a6b56b70cc0881c97c083a1696dc867cc0d2"
+      },
+      "vocab-0073": {
+        "text": "taisni",
+        "file": "audio/lv/vocab-0073.mp3",
+        "sha256": "1f63ea5c8768378cafebcf893b309a345e00d935a26d0a9ab9ee8e1390f963a5"
+      },
+      "vocab-0074": {
+        "text": "tuvu",
+        "file": "audio/lv/vocab-0074.mp3",
+        "sha256": "7cf07872b4afda7fa3a8ede91d8573eb39af1711ecb30d84fbae55883a62c0a8"
+      },
+      "vocab-0075": {
+        "text": "tālu",
+        "file": "audio/lv/vocab-0075.mp3",
+        "sha256": "5a0f96e15ffc68df83e43a9fc44e1b96b0ae876b6a8ba93bf0c39f5427bf20a5"
+      },
+      "vocab-0076": {
+        "text": "iekšā",
+        "file": "audio/lv/vocab-0076.mp3",
+        "sha256": "f0291c4fd5929a8ddb10619f3aeb5b66d4a541d4009698a6b1cccb448765e665"
+      },
+      "vocab-0077": {
+        "text": "ārā",
+        "file": "audio/lv/vocab-0077.mp3",
+        "sha256": "534f1b6820e0ed144c9d81a7c71abdffb74a9a33e72c2fbcf04045a7837bedaf"
+      },
+      "vocab-0079": {
+        "text": "lejup",
+        "file": "audio/lv/vocab-0079.mp3",
+        "sha256": "f3e4e655da630eb933d2b1281a29f1e91b5288709938d09e3e85a222148bc781"
+      },
+      "vocab-0080": {
+        "text": "pretī",
+        "file": "audio/lv/vocab-0080.mp3",
+        "sha256": "b6d0e51bed46a1471fcfda2cc29e299af9d50062216240c14a7ca8516b811d54"
+      },
+      "vocab-0066": {
+        "text": "krēsls",
+        "file": "audio/lv/vocab-0066.mp3",
+        "sha256": "07a13821e2be1e70192ee4b819de7c59a55850623a3dd9d53b2d1c5896ae392f"
+      },
+      "vocab-0081": {
+        "text": "policija",
+        "file": "audio/lv/vocab-0081.mp3",
+        "sha256": "21dc6ef8da420927c6d8f6a2e9b2585ea293019e0bed37ff09e92245a1018d2e"
+      },
+      "vocab-0083": {
+        "text": "uguns",
+        "file": "audio/lv/vocab-0083.mp3",
+        "sha256": "4786b7c340ce6c2520db76b3d72df1a7e0c711e0ef487e74f9213db2ff0b45a9"
+      },
+      "vocab-0084": {
+        "text": "briesmas",
+        "file": "audio/lv/vocab-0084.mp3",
+        "sha256": "dde98498fcf6ae2e5ee72122e082467490c86286beb4f607e3fc87121e2fe598"
+      },
+      "vocab-0078": {
+        "text": "augšup",
+        "file": "audio/lv/vocab-0078.mp3",
+        "sha256": "43aa37f79d70b15ceb2b2ac28adfaa112b4a09d3f24833591befcae440391168"
+      },
+      "vocab-0085": {
+        "text": "sāpes",
+        "file": "audio/lv/vocab-0085.mp3",
+        "sha256": "649359cc3585ef0b33fc61c03531c36dd33798c4582e107228ef7ea98acaa507"
+      },
+      "vocab-0086": {
+        "text": "ārsts",
+        "file": "audio/lv/vocab-0086.mp3",
+        "sha256": "fa2a15c82cf1fcaef032474777d1242f2e9b40a383ff424a0b0e3e805e82dc73"
+      },
+      "vocab-0087": {
+        "text": "ārkārtas situācija",
+        "file": "audio/lv/vocab-0087.mp3",
+        "sha256": "d9cc59ba4d841fddc020942795a76f7f85e851a704d1cf0f27f0974a45cdefe2"
+      },
+      "vocab-0082": {
+        "text": "neatliekamā palīdzība",
+        "file": "audio/lv/vocab-0082.mp3",
+        "sha256": "eb30272264956be1a1273aab43936048ecd0060704df6d752ac2bc99dc072d03"
+      },
+      "vocab-0088": {
+        "text": "pirmā palīdzība",
+        "file": "audio/lv/vocab-0088.mp3",
+        "sha256": "b5e0c28891630faddd5855e073d13166768aabc4eb1adda4bfc37979d860e290"
+      },
+      "vocab-0090": {
+        "text": "pieaugušais",
+        "file": "audio/lv/vocab-0090.mp3",
+        "sha256": "0301a7d44fc5a2323ebbeb1baef452d2608b6d49a69346d8e672d39ee38d5d03"
+      },
+      "vocab-0091": {
+        "text": "kurš",
+        "file": "audio/lv/vocab-0091.mp3",
+        "sha256": "8b7ce5f1d751e3574a99f4e16e49c679873acd32d6a3d868565df0ec26846045"
+      },
+      "vocab-0093": {
+        "text": "kur",
+        "file": "audio/lv/vocab-0093.mp3",
+        "sha256": "05dbf30aa6c1d402550e85b261b6339b9c87eca68c0a732b68b80b651ca077e4"
+      },
+      "vocab-0094": {
+        "text": "kad",
+        "file": "audio/lv/vocab-0094.mp3",
+        "sha256": "c80b109979240b638950002542712ff885e95151b556089321aa7e2f6675af41"
+      },
+      "vocab-0095": {
+        "text": "kāpēc",
+        "file": "audio/lv/vocab-0095.mp3",
+        "sha256": "b60eb6ca9f9872b91ca59f2f4a728619d256f3dc67ccbb6b5abcfd33557fce5f"
+      },
+      "vocab-0096": {
+        "text": "kā",
+        "file": "audio/lv/vocab-0096.mp3",
+        "sha256": "082d7084495cd5a009ca11c451f28233a3bc30afb23b7395d82027a85a23185d"
+      },
+      "vocab-0089": {
+        "text": "ārkārtas palīdzības izsaukuma numurs",
+        "file": "audio/lv/vocab-0089.mp3",
+        "sha256": "518ae4b55ffca6beae88317dbaa816109b9bbfb774102b7318d87abceb1e3a19"
+      },
+      "vocab-0097": {
+        "text": "cik",
+        "file": "audio/lv/vocab-0097.mp3",
+        "sha256": "dae60fd45b5c81f2fad7cfd533530a6c6c9ae6353dc5ef4f3e0ffa841999f8df"
+      },
+      "vocab-0098": {
+        "text": "kāda cena",
+        "file": "audio/lv/vocab-0098.mp3",
+        "sha256": "f52b34e192bc645b6fc027b48c5a59a487d9db0b6ade68b3fda132aed3be46b7"
+      },
+      "vocab-0099": {
+        "text": "kurā virzienā",
+        "file": "audio/lv/vocab-0099.mp3",
+        "sha256": "0dda088721b5608a78e26176896ab890212444d36d645d4eebd21d53c1bfffdc"
+      },
+      "vocab-0092": {
+        "text": "kas",
+        "file": "audio/lv/vocab-0092.mp3",
+        "sha256": "3d4bbba0a25905ac588e306584b9efee9cbffc9fcc1ac4eedd456675644c8e4f"
+      },
+      "vocab-0100": {
+        "text": "kas vēl",
+        "file": "audio/lv/vocab-0100.mp3",
+        "sha256": "e09c23bf676b9aef3b4842967a4075cde0adbb125ad4d816441683e91bca30a8"
+      },
+      "vocab-0101": {
+        "text": "vecmāmiņa",
+        "file": "audio/lv/vocab-0101.mp3",
+        "sha256": "7e3decd83a9588d7a2de72cd9f87b581894c36686d9e9808fb9260884ec4f443"
+      },
+      "vocab-0102": {
+        "text": "vectētiņš",
+        "file": "audio/lv/vocab-0102.mp3",
+        "sha256": "e2d19a774dae4948be87a226452aa4cf1a9350df211df7e21b912e1207856350"
+      },
+      "vocab-0103": {
+        "text": "tante",
+        "file": "audio/lv/vocab-0103.mp3",
+        "sha256": "4858959bb8a6a09d944af69d1ebb23095665801a3c274ea2ad6eda62d6036a49"
+      },
+      "vocab-0106": {
+        "text": "vecvecāki",
+        "file": "audio/lv/vocab-0106.mp3",
+        "sha256": "f3e845ce1586107cefa2199e72e0716161c88c6540dcb53347e5682672cf35b0"
+      },
+      "vocab-0107": {
+        "text": "zīdainis",
+        "file": "audio/lv/vocab-0107.mp3",
+        "sha256": "b0e0bf4bba7a33b6815b3588ba5cd8d94c7c1dea64f58d415f05b96f5cf3810c"
+      },
+      "vocab-0109": {
+        "text": "kaimiņš",
+        "file": "audio/lv/vocab-0109.mp3",
+        "sha256": "1e868b6759402c070c5587886ca0bcf682b418a452d1b8175c567dd717ef88d6"
+      },
+      "vocab-0108": {
+        "text": "pusaudzis",
+        "file": "audio/lv/vocab-0108.mp3",
+        "sha256": "33411c5d81ec77122d51caaa720cb6a1afcf4fa4131e95060c31646a228742ef"
+      },
+      "vocab-0110": {
+        "text": "viesis",
+        "file": "audio/lv/vocab-0110.mp3",
+        "sha256": "8a9a7650389396f6dff830a089eaa3d7c6f330c58a9a3b61e47d33fa7a8d9e50"
+      },
+      "vocab-0111": {
+        "text": "sieviete",
+        "file": "audio/lv/vocab-0111.mp3",
+        "sha256": "6a9e74148652d5c1c2d92679920189f56d336e21fadf3bdaa0f609818c225b89"
+      },
+      "vocab-0105": {
+        "text": "vecāki",
+        "file": "audio/lv/vocab-0105.mp3",
+        "sha256": "e31c360586e2fc27b075e7bfb055f53c1159d8575456b29893478d0c7627a2dc"
+      },
+      "vocab-0112": {
+        "text": "vīrietis",
+        "file": "audio/lv/vocab-0112.mp3",
+        "sha256": "7eb0379b04dfbcafba83cf21540c2852f2951181c089ed44c85300dfbeda8f7b"
+      },
+      "vocab-0104": {
+        "text": "tēvocis",
+        "file": "audio/lv/vocab-0104.mp3",
+        "sha256": "acb97f807587ad58848a8ddea3c598969c5eca83f9f5de21eb67c76b84b9d533"
+      },
+      "vocab-0113": {
+        "text": "cilvēki",
+        "file": "audio/lv/vocab-0113.mp3",
+        "sha256": "67ae323c9417bd1d482992e20f42f362d153549bc44a5ad99da7defec1601ca6"
+      },
+      "vocab-0114": {
+        "text": "bērni",
+        "file": "audio/lv/vocab-0114.mp3",
+        "sha256": "4e5294f4fdc3152bc0adb2c85b097f77e7ef2de0839986d91003a2a84457951c"
+      },
+      "vocab-0115": {
+        "text": "klasesbiedrs",
+        "file": "audio/lv/vocab-0115.mp3",
+        "sha256": "69427ba57cdf8d79eca294dc50401a70bb8766d9b5a277c1aa3b13e065c670a4"
+      },
+      "vocab-0116": {
+        "text": "skolēns",
+        "file": "audio/lv/vocab-0116.mp3",
+        "sha256": "a908924cab51abae5972ef8bfff9d2c9264f30e55e402c5e376cdfec1413a548"
+      },
+      "vocab-0117": {
+        "text": "vadītājs",
+        "file": "audio/lv/vocab-0117.mp3",
+        "sha256": "a2d8f13d707f48b13e1489f063b7cd700613351d63d06d70ab9fb64304fd0e5a"
+      },
+      "vocab-0118": {
+        "text": "pārdevējs",
+        "file": "audio/lv/vocab-0118.mp3",
+        "sha256": "45d2e254e3e26d3e4e8419de6ac3ee09e0da4ea7126f80a1817175fa0a687520"
+      },
+      "vocab-0119": {
+        "text": "pasažieris",
+        "file": "audio/lv/vocab-0119.mp3",
+        "sha256": "18a45d9df7a3c66d1909b802600085ded748875592709407932c2a7225c501e0"
+      },
+      "vocab-0120": {
+        "text": "apmeklētājs",
+        "file": "audio/lv/vocab-0120.mp3",
+        "sha256": "9b4127daeebb423ef91f99270d0dee18eff6d06a690045528e08f37d50a6f042"
+      },
+      "vocab-0121": {
+        "text": "galva",
+        "file": "audio/lv/vocab-0121.mp3",
+        "sha256": "98a803399f17c4232d4920badac1574c8fddca784be38ebc62eff0a93da257ee"
+      },
+      "vocab-0122": {
+        "text": "mati",
+        "file": "audio/lv/vocab-0122.mp3",
+        "sha256": "8012f62c9af7657d2a9baa579a9561cee48f20b1b3a33df730df3e9980e808e1"
+      },
+      "vocab-0123": {
+        "text": "seja",
+        "file": "audio/lv/vocab-0123.mp3",
+        "sha256": "16f659230e2e236e2d2b8b098376e8ea0a148f84027e82eb02d4dcf6400d8da0"
+      },
+      "vocab-0124": {
+        "text": "acs",
+        "file": "audio/lv/vocab-0124.mp3",
+        "sha256": "3e0ca0c0afc83dc3d74eb766acddf2c132d8e1b2a8e951944af31dd88d1a59c3"
+      },
+      "vocab-0125": {
+        "text": "auss",
+        "file": "audio/lv/vocab-0125.mp3",
+        "sha256": "352c03009aa797e99b842183e502d1d7ce6c249c88e9a69d42a426b3304e80bd"
+      },
+      "vocab-0126": {
+        "text": "deguns",
+        "file": "audio/lv/vocab-0126.mp3",
+        "sha256": "852d0b21a8864664450c5c33a02b4e11224746d02a85dbb082a0178e1bad7b4a"
+      },
+      "vocab-0127": {
+        "text": "mute",
+        "file": "audio/lv/vocab-0127.mp3",
+        "sha256": "033a0b6450d8b605b18c5daa5c1e2cbcd7c4d68bd5e952bd3e7f4c8b6bd97efe"
+      },
+      "vocab-0128": {
+        "text": "zobs",
+        "file": "audio/lv/vocab-0128.mp3",
+        "sha256": "a699f05345a652295a5a585ff1f4a72483993f39ee045e71024043bab6d90da4"
+      },
+      "vocab-0129": {
+        "text": "mēle",
+        "file": "audio/lv/vocab-0129.mp3",
+        "sha256": "487f20f18f0055759d019787ac2710d8614343b86b217b633fb4ea2e9bc87f17"
+      },
+      "vocab-0130": {
+        "text": "kakls",
+        "file": "audio/lv/vocab-0130.mp3",
+        "sha256": "d447a2e015983a5d334beeebfcbd61676a574246a019da681ae34b6f1d7c39a7"
+      },
+      "vocab-0131": {
+        "text": "plauksta",
+        "file": "audio/lv/vocab-0131.mp3",
+        "sha256": "8a938a12171af3dbfe59757235b377ddb3c3d9d905c4a329076399283129f32b"
+      },
+      "vocab-0132": {
+        "text": "roka",
+        "file": "audio/lv/vocab-0132.mp3",
+        "sha256": "f096200a50467c6d155dcb6f224557dfdc4554dbb2dfb77caf9cfc980c240728"
+      },
+      "vocab-0133": {
+        "text": "pirksts",
+        "file": "audio/lv/vocab-0133.mp3",
+        "sha256": "d2ae30e6d721254b2979eef64c1299ba36da6fdb45abd6b6c26d437ed740f803"
+      },
+      "vocab-0134": {
+        "text": "kāja",
+        "file": "audio/lv/vocab-0134.mp3",
+        "sha256": "aba223c7af7049b55321f540b42f58f6aa90b9eded238a4db690b9b15e356d21"
+      },
+      "vocab-0135": {
+        "text": "pēda",
+        "file": "audio/lv/vocab-0135.mp3",
+        "sha256": "06183615b14d71b3160c2445da0090e2b8eba18af70e096f155bdebf78a008d6"
+      },
+      "vocab-0137": {
+        "text": "mugura",
+        "file": "audio/lv/vocab-0137.mp3",
+        "sha256": "3a2c7fadeb5959b19a4acb5b4e3b9fa4f382d0485bf1ed5f9a0dcc990c320da0"
+      },
+      "vocab-0138": {
+        "text": "vēders",
+        "file": "audio/lv/vocab-0138.mp3",
+        "sha256": "eb571fd6ed5256d00902aa5b810eec9bc83e244f12d4b17090bcadcfe91d13f4"
+      },
+      "vocab-0139": {
+        "text": "plecs",
+        "file": "audio/lv/vocab-0139.mp3",
+        "sha256": "aa7ec7eb465b3790c39a75d60fde3dcda549ebdbbf70c6e9edf012d260535fea"
+      },
+      "vocab-0140": {
+        "text": "āda",
+        "file": "audio/lv/vocab-0140.mp3",
+        "sha256": "06d43840a5eb42ccdf316b2fa71cc37bb0a6c7257bb7ef04a6480faad2b9bc2b"
+      },
+      "vocab-0141": {
+        "text": "veselība",
+        "file": "audio/lv/vocab-0141.mp3",
+        "sha256": "84aa429a055c2251912452022ea30fee694d05b9ecd64d5f4c83bffe1b717a02"
+      },
+      "vocab-0142": {
+        "text": "slimība",
+        "file": "audio/lv/vocab-0142.mp3",
+        "sha256": "afa512b5b12b2f0040a0cb21e37b0d6afda07c7e7f04ba940e06b5401dcd7954"
+      },
+      "vocab-0143": {
+        "text": "saaukstēšanās",
+        "file": "audio/lv/vocab-0143.mp3",
+        "sha256": "60f3fa9e975f0b617c4dc2cabecd6851df2457b24cd725238e485448fe621604"
+      },
+      "vocab-0144": {
+        "text": "drudzis",
+        "file": "audio/lv/vocab-0144.mp3",
+        "sha256": "ae3bd29edaa3e514b7bd1163ab1e7d0539b4653fd315f263665bcde6f5ae33e8"
+      },
+      "vocab-0145": {
+        "text": "klepus",
+        "file": "audio/lv/vocab-0145.mp3",
+        "sha256": "b3a3e6051cdb8233ec8946226a6f8a3186302b2ab42bff13301bc35c88d951b2"
+      },
+      "vocab-0146": {
+        "text": "zāles",
+        "file": "audio/lv/vocab-0146.mp3",
+        "sha256": "57ae51766740039f58c1d604d005a9ca75f8e36b134570d529cc2de75d9a8126"
+      },
+      "vocab-0147": {
+        "text": "tablete",
+        "file": "audio/lv/vocab-0147.mp3",
+        "sha256": "dab82b1528484279797c03e0e6f6ae82ff471d39403c9b56f87185d6f39ac2db"
+      },
+      "vocab-0148": {
+        "text": "plāksteris",
+        "file": "audio/lv/vocab-0148.mp3",
+        "sha256": "e3b395a5806bb51f96fb65dc048e4c909a698e1463b27f4b6b9f25479765444e"
+      },
+      "vocab-0136": {
+        "text": "celis",
+        "file": "audio/lv/vocab-0136.mp3",
+        "sha256": "98e4df4508b9b93d15351e36d469c3e40ae5aee4a06d4908be9011b3ce88f266"
+      },
+      "vocab-0149": {
+        "text": "pārsējs",
+        "file": "audio/lv/vocab-0149.mp3",
+        "sha256": "66be6cdfde9049f84e6a15d8d3be6013fd3cc873997cb1762a6ae14034d02ef5"
+      },
+      "vocab-0151": {
+        "text": "priecīgs",
+        "file": "audio/lv/vocab-0151.mp3",
+        "sha256": "7ee849f504fa06a4860277d880c1651191ae6ccec9d0ea7ad3135a578bade340"
+      },
+      "vocab-0150": {
+        "text": "termometrs",
+        "file": "audio/lv/vocab-0150.mp3",
+        "sha256": "dd8590930b117edd625a4ec4f5683b8a56e1623c780c928b02ad8135916c6026"
+      },
+      "vocab-0153": {
+        "text": "dusmīgs",
+        "file": "audio/lv/vocab-0153.mp3",
+        "sha256": "ea4787b64c83378be15eaa4bc37bd65ab8d4b84fe1dd62868997257c455e8ac9"
+      },
+      "vocab-0154": {
+        "text": "nobijies",
+        "file": "audio/lv/vocab-0154.mp3",
+        "sha256": "63b484971763ba851fe4edbf3d46cb1c69626f56fbe84221ec5453fe45679bb1"
+      },
+      "vocab-0155": {
+        "text": "mierīgs",
+        "file": "audio/lv/vocab-0155.mp3",
+        "sha256": "d4a5b6e80a10b2b7d946379ccdbb4e231eefb9f50cc79be99df9bfb995d05e5d"
+      },
+      "vocab-0156": {
+        "text": "noguris",
+        "file": "audio/lv/vocab-0156.mp3",
+        "sha256": "3404dfabc0d74881313c67d7bd30af490d7d1a5bf21c190e6312a401439bc3e3"
+      },
+      "vocab-0158": {
+        "text": "izslāpis",
+        "file": "audio/lv/vocab-0158.mp3",
+        "sha256": "9c12b9fa7025e382899c23bc7d46a04cdea17c8d646914efeca4e5504dbe937c"
+      },
+      "vocab-0157": {
+        "text": "izsalcis",
+        "file": "audio/lv/vocab-0157.mp3",
+        "sha256": "fb0cb7c4ead8db0825e2db5deb4462ad16e43f7688ac0719fa30970ed5678822"
+      },
+      "vocab-0159": {
+        "text": "garlaikots",
+        "file": "audio/lv/vocab-0159.mp3",
+        "sha256": "671317d5dd3cef2eb52c493a0cb9509950aa39e53373cfbf66a068c1a1079c7f"
+      },
+      "vocab-0160": {
+        "text": "pārsteigts",
+        "file": "audio/lv/vocab-0160.mp3",
+        "sha256": "b7edf73d62229070615bd17ee9b4c5647da4ac81bbf79c776fda3fcefa28d094"
+      },
+      "vocab-0161": {
+        "text": "mētelis",
+        "file": "audio/lv/vocab-0161.mp3",
+        "sha256": "a431c9a46f15dcf3ad5b4fb30302d3944ef4cc5378f4f67e7d01fc2690ce27cb"
+      },
+      "vocab-0162": {
+        "text": "jaka",
+        "file": "audio/lv/vocab-0162.mp3",
+        "sha256": "b72715c60839d2cbedc67fbf9541c6fc99e6e038a62f55b1a6f24f638aa9bde8"
+      },
+      "vocab-0152": {
+        "text": "bēdīgs",
+        "file": "audio/lv/vocab-0152.mp3",
+        "sha256": "94349a4a09e48b5f99e972568c72f544da301e160f736aa69b6e18abe40c8fba"
+      },
+      "vocab-0164": {
+        "text": "bikses",
+        "file": "audio/lv/vocab-0164.mp3",
+        "sha256": "ba420d0584f52edd9b52f4457e5f198694dc8b1d8a53cba107990cf835c1bba5"
+      },
+      "vocab-0163": {
+        "text": "krekls",
+        "file": "audio/lv/vocab-0163.mp3",
+        "sha256": "3cc2cdab35d70e93212c34480e63ad5b17c6aeed280ea5277780c97b94df8fc4"
+      },
+      "vocab-0165": {
+        "text": "kleita",
+        "file": "audio/lv/vocab-0165.mp3",
+        "sha256": "15dc9177a69b743eb6d1dd68cbb4f3ac5ba4e376c43f44744119907ce1b0a9e1"
+      },
+      "vocab-0166": {
+        "text": "zeķes",
+        "file": "audio/lv/vocab-0166.mp3",
+        "sha256": "366a1df4281d71206559b7d8630640e45e0e6b80fd31f994edbee3e7f19e384e"
+      },
+      "vocab-0167": {
+        "text": "apavi",
+        "file": "audio/lv/vocab-0167.mp3",
+        "sha256": "fce2d9abaac8e37144e0dab58be29f5c4ec23ee519c0606791536e9b41e78d8b"
+      },
+      "vocab-0168": {
+        "text": "cepure",
+        "file": "audio/lv/vocab-0168.mp3",
+        "sha256": "29ebdd776c3aa626f1a3d5665fcd9b117857185fdf4c5300d7f3d6e26199b296"
+      },
+      "vocab-0169": {
+        "text": "šalle",
+        "file": "audio/lv/vocab-0169.mp3",
+        "sha256": "d25deed3cf38c6aea7617e7a10cbb34b59618bd1c5fb6744ac3db3f73808890c"
+      },
+      "vocab-0170": {
+        "text": "cimdi",
+        "file": "audio/lv/vocab-0170.mp3",
+        "sha256": "cd5b2a455c447469b8bfcb507e48f9c388d9f4edc0b667714f93c6a5f485783c"
+      },
+      "vocab-0172": {
+        "text": "dators",
+        "file": "audio/lv/vocab-0172.mp3",
+        "sha256": "b54199d70d63a4dc1ec7daf0733b0aa942c920b4f82e629fc8337182ce810d24"
+      },
+      "vocab-0173": {
+        "text": "ekrāns",
+        "file": "audio/lv/vocab-0173.mp3",
+        "sha256": "e734767ff471d01ca6beb66871aa2d2f45429d03d3efd906b3334c763ed0effb"
+      },
+      "vocab-0174": {
+        "text": "tastatūra",
+        "file": "audio/lv/vocab-0174.mp3",
+        "sha256": "cc73417be8ca1e7397778680e217acdeea976f8095863cf3e4f366c80f5e70b6"
+      },
+      "vocab-0176": {
+        "text": "lādētājs",
+        "file": "audio/lv/vocab-0176.mp3",
+        "sha256": "3470f56819668829dd195878ab1cdf2b9e735bd601caa0ac078d552155cb23af"
+      },
+      "vocab-0175": {
+        "text": "datorpele",
+        "file": "audio/lv/vocab-0175.mp3",
+        "sha256": "3eb69fa50210bfa0df5b9d92f3c29a6f4e205fcaf25a8fa5fee46d39421f0992"
+      },
+      "vocab-0177": {
+        "text": "baterija",
+        "file": "audio/lv/vocab-0177.mp3",
+        "sha256": "027edf40a8e9defdeec0befdb60a0805a2ce9f1a03ce3c0b4daed2a83aec8a6e"
+      },
+      "vocab-0178": {
+        "text": "ziņa",
+        "file": "audio/lv/vocab-0178.mp3",
+        "sha256": "cbaf39f6f91e77a3b4ac9937fd97efc30f56e5fe5e0d5ed088780eb272594c87"
+      },
+      "vocab-0179": {
+        "text": "fotogrāfija",
+        "file": "audio/lv/vocab-0179.mp3",
+        "sha256": "8c0527ae982c3c5e521e83cf7e2adeaf468a31aa4ff40a48b45744e0370caf10"
+      },
+      "vocab-0180": {
+        "text": "internets",
+        "file": "audio/lv/vocab-0180.mp3",
+        "sha256": "05a00ee9d6adcc80465eb66d2480075fd5b114f22cac9195847e4bcd4d7d3339"
+      },
+      "vocab-0181": {
+        "text": "durvis",
+        "file": "audio/lv/vocab-0181.mp3",
+        "sha256": "1abc1bea33c601263e41b8f1e3c60b948079f1335ecd66c138af5cffd78a18a8"
+      },
+      "vocab-0171": {
+        "text": "tālrunis",
+        "file": "audio/lv/vocab-0171.mp3",
+        "sha256": "e8d59efb7fededa9045866c22c4a8ece2a72bee1d9e48a725f2595580257af57"
+      },
+      "vocab-0182": {
+        "text": "logs",
+        "file": "audio/lv/vocab-0182.mp3",
+        "sha256": "d2f07c31fa59d504ad5046f817011262da17400a936264a8a27575616b095636"
+      },
+      "vocab-0183": {
+        "text": "siena",
+        "file": "audio/lv/vocab-0183.mp3",
+        "sha256": "a96445a2aea8c762c9315d00fe910c34b4e304621140b35d9fd03fad2ec40f21"
+      },
+      "vocab-0184": {
+        "text": "grīda",
+        "file": "audio/lv/vocab-0184.mp3",
+        "sha256": "9be2295d4752797bad936f6a02e72302e4bfe16012b4a479aaa74aede13891dc"
+      },
+      "vocab-0186": {
+        "text": "jumts",
+        "file": "audio/lv/vocab-0186.mp3",
+        "sha256": "284c2623f968861f19e2303ae71bbeaac00d412840327bd4154811c611f7b929"
+      },
+      "vocab-0187": {
+        "text": "kāpnes",
+        "file": "audio/lv/vocab-0187.mp3",
+        "sha256": "a34fb7d6a973cef9695f04e1f09a1619f99c88563c1da35a8d38b2d5dedc6482"
+      },
+      "vocab-0185": {
+        "text": "griesti",
+        "file": "audio/lv/vocab-0185.mp3",
+        "sha256": "76966d6b42dba0478cf0e7cf34a359906a283558e3bdbb5c8d6e4804fffc43ce"
+      },
+      "vocab-0188": {
+        "text": "istaba",
+        "file": "audio/lv/vocab-0188.mp3",
+        "sha256": "b6a9ea02f734e3d44a39a1ffe28cd5ae3f96b5ded6853fc936f1a0094a1f3f13"
+      },
+      "vocab-0189": {
+        "text": "virtuve",
+        "file": "audio/lv/vocab-0189.mp3",
+        "sha256": "0bc2ca90669a213d337674c5bfd96ddf1a35da9cc7c731a35ff622c1f52f37a1"
+      },
+      "vocab-0191": {
+        "text": "gulta",
+        "file": "audio/lv/vocab-0191.mp3",
+        "sha256": "6f5d2eb69f313fbac5acc31f12f8a5bcc12e53aea01df1c84e7a2faff5a79771"
+      },
+      "vocab-0190": {
+        "text": "vannasistaba",
+        "file": "audio/lv/vocab-0190.mp3",
+        "sha256": "1c8d091bdf3674fe10eb9f5db00b38178f10f32b878da220c0a100e927975fec"
+      },
+      "vocab-0192": {
+        "text": "galds",
+        "file": "audio/lv/vocab-0192.mp3",
+        "sha256": "8d01769eb5e644bd54017cbb412f7c93b8e3535b3c25cba644f9ac0ee1ed4423"
+      },
+      "vocab-0193": {
+        "text": "dīvāns",
+        "file": "audio/lv/vocab-0193.mp3",
+        "sha256": "edaac52045dd8d292093b4ea176af30f66c48a0c46b27474a51e39751cd9f1e4"
+      },
+      "vocab-0194": {
+        "text": "skapis",
+        "file": "audio/lv/vocab-0194.mp3",
+        "sha256": "1bdcb84fe35dfe0bee9d1ef70826d2871fa3a68aed958ce966a97e2dd9508893"
+      },
+      "vocab-0196": {
+        "text": "spogulis",
+        "file": "audio/lv/vocab-0196.mp3",
+        "sha256": "4bb92ed86fe75f766c687527c057308f0878808cbfd5465762264751fefd3d08"
+      },
+      "vocab-0197": {
+        "text": "lampa",
+        "file": "audio/lv/vocab-0197.mp3",
+        "sha256": "1e4a33fdf1378dc938081c1d8be60b5efed9156d72525aaf3f8e441dfbe39015"
+      },
+      "vocab-0199": {
+        "text": "sega",
+        "file": "audio/lv/vocab-0199.mp3",
+        "sha256": "70e46f698f933147bb60784694537c1b0e34ca83a8c4f2337990d63d5ab6199f"
+      },
+      "vocab-0200": {
+        "text": "spilvens",
+        "file": "audio/lv/vocab-0200.mp3",
+        "sha256": "eace679e6212ce5dca38dee8038518b9249db8b5cf4617e32a7e7205f3783357"
+      },
+      "vocab-0201": {
+        "text": "šķīvis",
+        "file": "audio/lv/vocab-0201.mp3",
+        "sha256": "5608d334b4bd3528d6e76cfc432e107ad164562ddc5f1b469be1e9f90676b8f5"
+      },
+      "vocab-0202": {
+        "text": "tase",
+        "file": "audio/lv/vocab-0202.mp3",
+        "sha256": "24dbeb779efd6a50e60b3bf1d83163d9956c8dc7ad8873572f6ca2de1e17f42e"
+      },
+      "vocab-0195": {
+        "text": "plaukts",
+        "file": "audio/lv/vocab-0195.mp3",
+        "sha256": "34edeb04159636cecbfb1a9076387d0c304a9a0cf641431c65c73054f6632cef"
+      },
+      "vocab-0203": {
+        "text": "glāze",
+        "file": "audio/lv/vocab-0203.mp3",
+        "sha256": "8d77169c5935b1bb9bc75d4db6ccc0b996a1c9177681b0d2968be2f8c9034e73"
+      },
+      "vocab-0204": {
+        "text": "bļoda",
+        "file": "audio/lv/vocab-0204.mp3",
+        "sha256": "55391c4e0816915ebd572526d811b8717646e3b624f8e5eb80eb7e031754024f"
+      },
+      "vocab-0205": {
+        "text": "karote",
+        "file": "audio/lv/vocab-0205.mp3",
+        "sha256": "1d136a34b69f88bea3eb607d3b2fc107eee0153fd30b813f4760e5ea6f2b0255"
+      },
+      "vocab-0206": {
+        "text": "dakša",
+        "file": "audio/lv/vocab-0206.mp3",
+        "sha256": "cef77c00f82922441941ff61096c1b6b7cd493a3e7c687a30e8a7eaf53be191f"
+      },
+      "vocab-0207": {
+        "text": "nazis",
+        "file": "audio/lv/vocab-0207.mp3",
+        "sha256": "edcb880182057585f8156a81a48952ffadfdbf221dae89050ea2de8c53998bf9"
+      },
+      "vocab-0209": {
+        "text": "katls",
+        "file": "audio/lv/vocab-0209.mp3",
+        "sha256": "32537c244ee9a4e6fdfed98e33c98ca0393960ca0ad9b66eee2a60da6bf019a3"
+      },
+      "vocab-0208": {
+        "text": "pudele",
+        "file": "audio/lv/vocab-0208.mp3",
+        "sha256": "75999d067410984d06f54d3b869eae0ae4a7480ddc92d59789720390b9dd2489"
+      },
+      "vocab-0210": {
+        "text": "panna",
+        "file": "audio/lv/vocab-0210.mp3",
+        "sha256": "628fb7d53b3c7e65c8e45d9aa770fb2b5ad3a9acfec617c4c9682da4f92c151e"
+      },
+      "vocab-0198": {
+        "text": "paklājs",
+        "file": "audio/lv/vocab-0198.mp3",
+        "sha256": "345ee341c066bfd3e26afd3ebf355823dc9340c5645b36ed59faac3ff2d876f1"
+      },
+      "vocab-0212": {
+        "text": "dvielis",
+        "file": "audio/lv/vocab-0212.mp3",
+        "sha256": "3e4880cfc4abd249a5032105f2caee448fa142f5dca480e28bdf511335638e8e"
+      },
+      "vocab-0211": {
+        "text": "ziepes",
+        "file": "audio/lv/vocab-0211.mp3",
+        "sha256": "9d92082d39806a837cb7b8b9ddd680237105e409615a6b4c539e539903570056"
+      },
+      "vocab-0213": {
+        "text": "zobu suka",
+        "file": "audio/lv/vocab-0213.mp3",
+        "sha256": "a3c9542586befa0d58d05dafa26d4b9b9154f088ba7f8d933560dad29128141a"
+      },
+      "vocab-0214": {
+        "text": "zobu pasta",
+        "file": "audio/lv/vocab-0214.mp3",
+        "sha256": "43278d6a36b5267351fe1625d70036df38e132c3caf21e7fbf8541c34389c8ec"
+      },
+      "vocab-0217": {
+        "text": "duša",
+        "file": "audio/lv/vocab-0217.mp3",
+        "sha256": "bc54c3c6a083b6a5401875f6a861821410ee5d41cb958e7a2f380455c32b6013"
+      },
+      "vocab-0215": {
+        "text": "šampūns",
+        "file": "audio/lv/vocab-0215.mp3",
+        "sha256": "6a11b3da96ab6c5db9012e1e9f32a22723c66839c154873a917b84cdb9d815eb"
+      },
+      "vocab-0216": {
+        "text": "ķemme",
+        "file": "audio/lv/vocab-0216.mp3",
+        "sha256": "20cb5c87a1461ebbb79c3a679e6c11eae23826540007cf232675195c72787abb"
+      },
+      "vocab-0219": {
+        "text": "tualetes papīrs",
+        "file": "audio/lv/vocab-0219.mp3",
+        "sha256": "99a6865daf8e844d561cc2d8826d1a14413aa313fabd18a02712553f2a2e4a2e"
+      },
+      "vocab-0220": {
+        "text": "papīra kabatlakatiņš",
+        "file": "audio/lv/vocab-0220.mp3",
+        "sha256": "2e49c5282fc6fae4cb6136cb779f040e5950ecaf2966740c4087f6984cdf6db0"
+      },
+      "vocab-0221": {
+        "text": "bumbieris",
+        "file": "audio/lv/vocab-0221.mp3",
+        "sha256": "8bbf4905ee18edecee4f97adfa76b263f0a5ad99be32394948340fc4794aa8cc"
+      },
+      "vocab-0222": {
+        "text": "apelsīns",
+        "file": "audio/lv/vocab-0222.mp3",
+        "sha256": "fb95e5f466f4d989d4df3fb0f2c862e7e825c951e68f48cbc55ca8d8656c09ff"
+      },
+      "vocab-0224": {
+        "text": "vīnogas",
+        "file": "audio/lv/vocab-0224.mp3",
+        "sha256": "b768a57dd46b5c441b8d74a9f67b7303cdc43111ea9d96c7a020d47df52799c3"
+      },
+      "vocab-0223": {
+        "text": "citrons",
+        "file": "audio/lv/vocab-0223.mp3",
+        "sha256": "3612f9300ac2a856e3bbca58edb75f1c74dfd3c30572ac1f5e3df8a124796279"
+      },
+      "vocab-0225": {
+        "text": "zemene",
+        "file": "audio/lv/vocab-0225.mp3",
+        "sha256": "5c8392b72dec9698eea56bc968a0e312b7fc2190aa128698fa77c935caac2851"
+      },
+      "vocab-0226": {
+        "text": "avene",
+        "file": "audio/lv/vocab-0226.mp3",
+        "sha256": "fcccdf442477cb3e052daddc6ec4883ab716dfb8b782a1973303956c0457b785"
+      },
+      "vocab-0227": {
+        "text": "ķirsis",
+        "file": "audio/lv/vocab-0227.mp3",
+        "sha256": "246bc9b08c0e2cbab9565821a9c1e48c040311ef522f1e8c5a46f1ee9e2d34d5"
+      },
+      "vocab-0218": {
+        "text": "vanna",
+        "file": "audio/lv/vocab-0218.mp3",
+        "sha256": "dc603d550bde75bcb933cb18bac2bf69a7f2ad80f623dbd786fe031c10403cb0"
+      },
+      "vocab-0228": {
+        "text": "plūme",
+        "file": "audio/lv/vocab-0228.mp3",
+        "sha256": "f001bbec1d4e07a3d69e964a3b129d6f49ce1a7aab1d70c52f243ea356b5140a"
+      },
+      "vocab-0229": {
+        "text": "persiks",
+        "file": "audio/lv/vocab-0229.mp3",
+        "sha256": "a4417b61a5484ab231aed84ffb7b6755db5ed8ad1f7e0b983049f1876b820271"
+      },
+      "vocab-0230": {
+        "text": "arbūzs",
+        "file": "audio/lv/vocab-0230.mp3",
+        "sha256": "e8b34118f881e03783dd03ed0952b8116fa4583382c6016b6f5c51d59acea8f5"
+      },
+      "vocab-0232": {
+        "text": "burkāns",
+        "file": "audio/lv/vocab-0232.mp3",
+        "sha256": "7b7f456f2dc58bcc7430fbbdc22ce0ac40a1ff27d5e86e72e5ed1f6f641fdce1"
+      },
+      "vocab-0233": {
+        "text": "tomāts",
+        "file": "audio/lv/vocab-0233.mp3",
+        "sha256": "f97f3d880f95eadd7c0588aa94fc46b0fe20cbc7e36f4c7673cd0ec4545f2266"
+      },
+      "vocab-0234": {
+        "text": "gurķis",
+        "file": "audio/lv/vocab-0234.mp3",
+        "sha256": "52673432f28bd6d9d0932a48986bf327e03a4827bb2cbed1ed8f3bbe1880ffbf"
+      },
+      "vocab-0235": {
+        "text": "sīpols",
+        "file": "audio/lv/vocab-0235.mp3",
+        "sha256": "95b044c3914bdeff614855684bbeca9c0808e8438f226eaefbe1bb05a816d8a7"
+      },
+      "vocab-0236": {
+        "text": "ķiploks",
+        "file": "audio/lv/vocab-0236.mp3",
+        "sha256": "b0d008520089e6e9be692a3b770e9d9232c3d6bd0548a5e7783f21d408a572c0"
+      },
+      "vocab-0237": {
+        "text": "kāposts",
+        "file": "audio/lv/vocab-0237.mp3",
+        "sha256": "232c668a935a5947bcfa45eb5aebff4c7282354772f0d1dff30dafa292b0088c"
+      },
+      "vocab-0238": {
+        "text": "paprika",
+        "file": "audio/lv/vocab-0238.mp3",
+        "sha256": "195c479d0d8c0e80c3a4289a869a6bd54a11892badbb98ffb9bbb7f9b7319820"
+      },
+      "vocab-0239": {
+        "text": "zirņi",
+        "file": "audio/lv/vocab-0239.mp3",
+        "sha256": "bb84b4f80ac58e102d8fc3664a157e943b4c5b4c839afe7f32ab869d357a0b50"
+      },
+      "vocab-0240": {
+        "text": "pupas",
+        "file": "audio/lv/vocab-0240.mp3",
+        "sha256": "e1d882209350b12d1d45f0bad20382b405c8aa91acb42cd618a8abc8492cea04"
+      },
+      "vocab-0241": {
+        "text": "rīsi",
+        "file": "audio/lv/vocab-0241.mp3",
+        "sha256": "1d5a2fd451ff845cd6f7599f4f49b59f490be90eade051a9475a010669656bcf"
+      },
+      "vocab-0242": {
+        "text": "makaroni",
+        "file": "audio/lv/vocab-0242.mp3",
+        "sha256": "bea2d919d82b2fac86c16e682c77907a229bad484efaae5aafec95e57c1ee7ec"
+      },
+      "vocab-0243": {
+        "text": "gaļa",
+        "file": "audio/lv/vocab-0243.mp3",
+        "sha256": "0540fa4ae5401378f0154280c88d8f3839ea6cac3251a3dd235da665571accbf"
+      },
+      "vocab-0231": {
+        "text": "kartupelis",
+        "file": "audio/lv/vocab-0231.mp3",
+        "sha256": "d3b66fedcd4076588140bc52fb39606ef3721290412aac5e3c579d9eb348504d"
+      },
+      "vocab-0245": {
+        "text": "zivs",
+        "file": "audio/lv/vocab-0245.mp3",
+        "sha256": "ec2defea0d173ff75fab42d374e69533d8ccb2d7f834111109dd34b6a9bedc60"
+      },
+      "vocab-0244": {
+        "text": "vistas gaļa",
+        "file": "audio/lv/vocab-0244.mp3",
+        "sha256": "e10b6084d6bd25c4633c2757b05612d69270cba2b66e56e77bdc2ef9ac140b6a"
+      },
+      "vocab-0246": {
+        "text": "ola",
+        "file": "audio/lv/vocab-0246.mp3",
+        "sha256": "d0768c018c6078476c663cd6731f70ba71c1c8bc98fa8595f07d489a7b155bc9"
+      },
+      "vocab-0247": {
+        "text": "sviests",
+        "file": "audio/lv/vocab-0247.mp3",
+        "sha256": "dd53d18c33bb9abd47bcd2851b5d5c1e7a9b470129b78864c7cca8eb26c3529e"
+      },
+      "vocab-0248": {
+        "text": "jogurts",
+        "file": "audio/lv/vocab-0248.mp3",
+        "sha256": "1a89c5d8ce7da77e7c16ff4eedb833536e0d2733b032371a3cbc27bd04c4af44"
+      },
+      "vocab-0249": {
+        "text": "sāls",
+        "file": "audio/lv/vocab-0249.mp3",
+        "sha256": "7da909ba53c0256cb283228d7f28b86c1e6396587d647aeb975e72b27d042030"
+      },
+      "vocab-0250": {
+        "text": "cukurs",
+        "file": "audio/lv/vocab-0250.mp3",
+        "sha256": "091068b19c7e5f8443a9f873786b4d23f832dd9e42d15fa93db897460bee78eb"
+      },
+      "vocab-0251": {
+        "text": "pusdienas",
+        "file": "audio/lv/vocab-0251.mp3",
+        "sha256": "a6b0f792082a0f548c2982dfe53c0a2496210197073699296021814ff6031b2d"
+      },
+      "vocab-0252": {
+        "text": "vakariņas",
+        "file": "audio/lv/vocab-0252.mp3",
+        "sha256": "e7d16d67d547f5409674dcdfe63cc50762530e465287eb34d0d6cbb831632b07"
+      },
+      "vocab-0253": {
+        "text": "uzkoda",
+        "file": "audio/lv/vocab-0253.mp3",
+        "sha256": "9f1cf4482ca8ee262db9ba7990d7bc704703a66dc87a3d0a3767798ddd4d14c8"
+      },
+      "vocab-0254": {
+        "text": "sviestmaize",
+        "file": "audio/lv/vocab-0254.mp3",
+        "sha256": "e944b99cbd15bcbc8b32dcca4c27fd568d0a0c72f31dd944a70d8b02d807ac78"
+      },
+      "vocab-0255": {
+        "text": "salāti",
+        "file": "audio/lv/vocab-0255.mp3",
+        "sha256": "e252173a05cc20703d43ca450a2432fdab8a96b6214831b3f395713252b77721"
+      },
+      "vocab-0256": {
+        "text": "putra",
+        "file": "audio/lv/vocab-0256.mp3",
+        "sha256": "ffb313f137a31000d503f4b639aae61cd36e4cbd6360a196d2ecc3508efabbb0"
+      },
+      "vocab-0257": {
+        "text": "brokastu pārslas",
+        "file": "audio/lv/vocab-0257.mp3",
+        "sha256": "b364881f13926cfb40a156c8faa4f5e4e91e7ef2aabd8a427db0af579c75b429"
+      },
+      "vocab-0258": {
+        "text": "pankūka",
+        "file": "audio/lv/vocab-0258.mp3",
+        "sha256": "9cb4a055a8cfec38b36b309f597ac8bbd2baff00cd1c3f9033cec7e7cdc721ea"
+      },
+      "vocab-0260": {
+        "text": "saldējums",
+        "file": "audio/lv/vocab-0260.mp3",
+        "sha256": "d8d89f04aff23129739163ba1399c43ad83765fc4f4c349ef7fc70893c314d01"
+      },
+      "vocab-0263": {
+        "text": "lēnāk",
+        "file": "audio/lv/vocab-0263.mp3",
+        "sha256": "287490eb56772ae5c754c1980a80d69ff18a6f2692470b9ddd6593c2e19440cc"
+      },
+      "vocab-0262": {
+        "text": "vēl mazliet",
+        "file": "audio/lv/vocab-0262.mp3",
+        "sha256": "5ac02dc08a19f0072dd1b9b9e18bf00dad85b24e358310607cf58cd98c3e84eb"
+      },
+      "vocab-0264": {
+        "text": "ne tagad",
+        "file": "audio/lv/vocab-0264.mp3",
+        "sha256": "5cb71fe70d3704a50e8322d6b4d0b3e0a3aaaf6bbc750dd454f848b4da2d99aa"
+      },
+      "vocab-0265": {
+        "text": "nē paldies",
+        "file": "audio/lv/vocab-0265.mp3",
+        "sha256": "51589905d08c7d3d9dca2bd61a716801d3956ca234daa337fdc9c99a4376e6c0"
+      },
+      "vocab-0267": {
+        "text": "lai veicas",
+        "file": "audio/lv/vocab-0267.mp3",
+        "sha256": "d5087aa5e8544f181a901697f2ab2a886e5ed84da593baf4dbc741ea93b2fbff"
+      },
+      "vocab-0268": {
+        "text": "malacis",
+        "file": "audio/lv/vocab-0268.mp3",
+        "sha256": "70d6786fde800a9d70555ae8dde638ec138b4dd7abadabd63dc2a82911544be2"
+      },
+      "vocab-0259": {
+        "text": "kūka",
+        "file": "audio/lv/vocab-0259.mp3",
+        "sha256": "23b8113f6cd5a646b9b95ef8a6f2f94cca54125317485d5b25a6b65853fe31af"
+      },
+      "vocab-0261": {
+        "text": "palīdziet lūdzu",
+        "file": "audio/lv/vocab-0261.mp3",
+        "sha256": "00a864cdcc1fdfcefdeedcd9f65c043a247988d8c6e78134f1eaad0bfb1929f5"
+      },
+      "vocab-0269": {
+        "text": "labdien",
+        "file": "audio/lv/vocab-0269.mp3",
+        "sha256": "6cc3c8a00db373c0559f48171257d3e65c2575507c192fa99b886e07b0066615"
+      },
+      "vocab-0270": {
+        "text": "ar prieku",
+        "file": "audio/lv/vocab-0270.mp3",
+        "sha256": "70f90402a5d38ebbb502f2a176473c2f3c039b1b3c4dd4f3d2dfb1dd674695dd"
+      },
+      "vocab-0271": {
+        "text": "nauda",
+        "file": "audio/lv/vocab-0271.mp3",
+        "sha256": "d85f1fef58e46c996ad844dee4aed34bf196e4d098c2f6ecd2c5338c0d323cce"
+      },
+      "vocab-0272": {
+        "text": "cena",
+        "file": "audio/lv/vocab-0272.mp3",
+        "sha256": "732eb09aac8c14cb8d12b934069337ea81c7d2ac426c2a7fe97e92e095f4de22"
+      },
+      "vocab-0266": {
+        "text": "atvainojiet",
+        "file": "audio/lv/vocab-0266.mp3",
+        "sha256": "6f1b7c670e5cccb93e50d12e20979360304c7056f983c444765a984b51d94229"
+      },
+      "vocab-0273": {
+        "text": "atlikums",
+        "file": "audio/lv/vocab-0273.mp3",
+        "sha256": "57b70804dba782a26d2c31d1286ac483a704fee60d20f3539eaa3a1eeacaeb6c"
+      },
+      "vocab-0274": {
+        "text": "čeks",
+        "file": "audio/lv/vocab-0274.mp3",
+        "sha256": "6dfc8e257f208f87c88b294afe9475f16b534fe256cf974fe3ea1e5a12bf82de"
+      },
+      "vocab-0276": {
+        "text": "grozs",
+        "file": "audio/lv/vocab-0276.mp3",
+        "sha256": "31f8d87e4250812584d9d5d66fcf4e34c624ab53df0d5bd687d908e6a4950515"
+      },
+      "vocab-0275": {
+        "text": "kase",
+        "file": "audio/lv/vocab-0275.mp3",
+        "sha256": "77d735f9b0321f7e075b756a0908c080b3b466c6bf890b9d9f23a1a58cb0ab9f"
+      },
+      "vocab-0277": {
+        "text": "soma",
+        "file": "audio/lv/vocab-0277.mp3",
+        "sha256": "2849792f759b52278a0610b5b48693b0247c00c694514b0e6c23fa3d39f694bb"
+      },
+      "vocab-0278": {
+        "text": "izmērs",
+        "file": "audio/lv/vocab-0278.mp3",
+        "sha256": "14ce77119ee2388306155fe4fca8b1a120ae1c73453289d1e17e097e99f47182"
+      },
+      "vocab-0279": {
+        "text": "atlaide",
+        "file": "audio/lv/vocab-0279.mp3",
+        "sha256": "7891f37d88e950126ddda517a62eb1eab96f9fb47a400987f16765492e45fb0f"
+      },
+      "vocab-0281": {
+        "text": "nulle",
+        "file": "audio/lv/vocab-0281.mp3",
+        "sha256": "d6795dd61de57826f93b28bc08b267cc5bc7fd56930b5869a853e69f66227c76"
+      },
+      "vocab-0280": {
+        "text": "karte",
+        "file": "audio/lv/vocab-0280.mp3",
+        "sha256": "0802dd1fba5112c2e46644b8cbd989ef3f68ce9b4bc3c4c25e34e3a444f144dc"
+      },
+      "vocab-0283": {
+        "text": "divpadsmit",
+        "file": "audio/lv/vocab-0283.mp3",
+        "sha256": "d00f60ddf25613a958532e9bfcfcad4c25c3b0ca56ebe994a5541c88d3ba970c"
+      },
+      "vocab-0284": {
+        "text": "trīspadsmit",
+        "file": "audio/lv/vocab-0284.mp3",
+        "sha256": "965de454497e4594aab1d4487244f4916d37d494adb8f3be3190132770608887"
+      },
+      "vocab-0285": {
+        "text": "četrpadsmit",
+        "file": "audio/lv/vocab-0285.mp3",
+        "sha256": "5da73c8019609ccd659650c8f1feec70097677d22ba8a28c57a1a43abe35342c"
+      },
+      "vocab-0286": {
+        "text": "piecpadsmit",
+        "file": "audio/lv/vocab-0286.mp3",
+        "sha256": "67e434224b00b2741787392dbbdf840ec02ac6a05fe948b7c72952945b620e27"
+      },
+      "vocab-0287": {
+        "text": "sešpadsmit",
+        "file": "audio/lv/vocab-0287.mp3",
+        "sha256": "52d77ea6f70e7afd606d7a38447f06fbee2b0fca97856421468aea770aceeb63"
+      },
+      "vocab-0288": {
+        "text": "septiņpadsmit",
+        "file": "audio/lv/vocab-0288.mp3",
+        "sha256": "2f213be8adf677821a9263240df173cc516fd46f65f1fd5053de114edf496776"
+      },
+      "vocab-0289": {
+        "text": "astoņpadsmit",
+        "file": "audio/lv/vocab-0289.mp3",
+        "sha256": "d917127b30f6e4bdc25a96cc5c0b25f0d16b0a624cac2324bd1edb16add94554"
+      },
+      "vocab-0290": {
+        "text": "deviņpadsmit",
+        "file": "audio/lv/vocab-0290.mp3",
+        "sha256": "cbd6cc87b37d9f4af75c20daff29de1811b964da03583fd4103bb5f80c7fcf1c"
+      },
+      "vocab-0291": {
+        "text": "divdesmit",
+        "file": "audio/lv/vocab-0291.mp3",
+        "sha256": "827848e4f155f18b33824d3c5295cef0f65073aeb6d896912e886a8bfd99045c"
+      },
+      "vocab-0292": {
+        "text": "trīsdesmit",
+        "file": "audio/lv/vocab-0292.mp3",
+        "sha256": "0dd6ea267975c51d67d4eb3df53f6b11c89b7af47a627badd9443d761de8dae1"
+      },
+      "vocab-0282": {
+        "text": "vienpadsmit",
+        "file": "audio/lv/vocab-0282.mp3",
+        "sha256": "8fac527c6f08f2ab9f146f3b485eaf38db328a3b1c14b6b49cce228e30c0b1e4"
+      },
+      "vocab-0293": {
+        "text": "četrdesmit",
+        "file": "audio/lv/vocab-0293.mp3",
+        "sha256": "344257e66739254153e793f278f1500b005ce058804c90514fddbcfdeab7ec42"
+      },
+      "vocab-0294": {
+        "text": "piecdesmit",
+        "file": "audio/lv/vocab-0294.mp3",
+        "sha256": "0a35bea7b474c4b1f2e799de75a4a30e698af28938d48ab71236f084fe65f19c"
+      },
+      "vocab-0295": {
+        "text": "sešdesmit",
+        "file": "audio/lv/vocab-0295.mp3",
+        "sha256": "4e3cecfbde14c0c7581918e4ecadd6478ec7581d5996ce76d19037b89607ecad"
+      },
+      "vocab-0296": {
+        "text": "septiņdesmit",
+        "file": "audio/lv/vocab-0296.mp3",
+        "sha256": "a6a8532b778f674a76f1f2d0dccbbcf24232f97630526ec912056c214d4139b9"
+      },
+      "vocab-0297": {
+        "text": "astoņdesmit",
+        "file": "audio/lv/vocab-0297.mp3",
+        "sha256": "0ec724f34b39186ad5d659d6089c60a1a2a3065f086528b5115efe4611d14269"
+      },
+      "vocab-0298": {
+        "text": "deviņdesmit",
+        "file": "audio/lv/vocab-0298.mp3",
+        "sha256": "58f2ef976976c6fe5b022761c3aa6e86eaaf5360fbdfadec293e081fb1a0769e"
+      },
+      "vocab-0299": {
+        "text": "simts",
+        "file": "audio/lv/vocab-0299.mp3",
+        "sha256": "9a39be94156c9ac3f7040d211b66bdab6c60641579cd4253ad35f0d51658072a"
+      },
+      "vocab-0300": {
+        "text": "tūkstotis",
+        "file": "audio/lv/vocab-0300.mp3",
+        "sha256": "24f7b60cfe890648c796e4dc0a5609e874f8c71c121e804fd5a85b2b20a6bcb9"
+      },
+      "vocab-0301": {
+        "text": "diena",
+        "file": "audio/lv/vocab-0301.mp3",
+        "sha256": "f70cb5c74cb34057f56d16dcc3b3c1c46d8876d0ac3820541e3ddbb083100c60"
+      },
+      "vocab-0302": {
+        "text": "nakts",
+        "file": "audio/lv/vocab-0302.mp3",
+        "sha256": "e8415bde6a5a670ebcbad2e87053f05aa7adbc42d2450a7be7a6b537bd99ad1a"
+      },
+      "vocab-0306": {
+        "text": "rīt",
+        "file": "audio/lv/vocab-0306.mp3",
+        "sha256": "d52713eca7dc1df8b0fe4c153b4554c6f6875617b3c1fbf2c75410364914e541"
+      },
+      "vocab-0304": {
+        "text": "vakars",
+        "file": "audio/lv/vocab-0304.mp3",
+        "sha256": "e91c0b0a63d2ed8a633fce01ce138ce71098fcc1c52ddc1f17f2c4a2fb8c3c4d"
+      },
+      "vocab-0303": {
+        "text": "rīts",
+        "file": "audio/lv/vocab-0303.mp3",
+        "sha256": "5a7bf90cad000df9660658617a88a42fc6c63c9e6917052001f7dd7f570083f1"
+      },
+      "vocab-0305": {
+        "text": "šodien",
+        "file": "audio/lv/vocab-0305.mp3",
+        "sha256": "bd2b8a9f3d55d3fa75f5216eea24f51706bd5b3c4aadb9abad00843015ea9cb8"
+      },
+      "vocab-0307": {
+        "text": "vakar",
+        "file": "audio/lv/vocab-0307.mp3",
+        "sha256": "76cded34128d5f3cf8cc086dfb50278152f69cb9010eb6d8f69752c7ba3ba580"
+      },
+      "vocab-0308": {
+        "text": "nedēļa",
+        "file": "audio/lv/vocab-0308.mp3",
+        "sha256": "49d8b0517e4bff16eb89b6716bb2c408bb10e72092e3b518b4133da4056e2a92"
+      },
+      "vocab-0309": {
+        "text": "mēnesis",
+        "file": "audio/lv/vocab-0309.mp3",
+        "sha256": "a8842f7d4fa16c6ab9e2f847abe83aeade226d6a53666ffdc01a8d3fc389c989"
+      },
+      "vocab-0310": {
+        "text": "gads",
+        "file": "audio/lv/vocab-0310.mp3",
+        "sha256": "983b283becfba1bab7c2f4b316c771bf3096a432c92f8128c4ae93c5d7449a30"
+      },
+      "vocab-0312": {
+        "text": "otrdiena",
+        "file": "audio/lv/vocab-0312.mp3",
+        "sha256": "d9bb0323f8f2ef268d0ca5bfecaaf0cca2b9d31757c3b471986a872e8ed9c495"
+      },
+      "vocab-0313": {
+        "text": "trešdiena",
+        "file": "audio/lv/vocab-0313.mp3",
+        "sha256": "73047009cf4cd6c7ea2e2d133c93f906492cebad3ff44f20031b0d8d0bebf495"
+      },
+      "vocab-0314": {
+        "text": "ceturtdiena",
+        "file": "audio/lv/vocab-0314.mp3",
+        "sha256": "d1700ac032d9cc4d903a45e0604a31b2121009baba238be056973b64654047b9"
+      },
+      "vocab-0315": {
+        "text": "piektdiena",
+        "file": "audio/lv/vocab-0315.mp3",
+        "sha256": "51252ee6688cdbff58095f987f45d2d6396c4a4bf85f60079e58a957f4d68619"
+      },
+      "vocab-0316": {
+        "text": "sestdiena",
+        "file": "audio/lv/vocab-0316.mp3",
+        "sha256": "776d28e6c095db7e0e15dae6a9f0cbe322a12082c3df79f090633e3078febb5d"
+      },
+      "vocab-0318": {
+        "text": "nedēļas nogale",
+        "file": "audio/lv/vocab-0318.mp3",
+        "sha256": "015f296870a7cca41154f78122c8ab6130796ef186566681c6dccf91fb5d17f7"
+      },
+      "vocab-0319": {
+        "text": "stunda",
+        "file": "audio/lv/vocab-0319.mp3",
+        "sha256": "11f4b840c41c7ea09e5e90f6996eb2a060fe03ecdd966267f8667673ae720b31"
+      },
+      "vocab-0320": {
+        "text": "minūte",
+        "file": "audio/lv/vocab-0320.mp3",
+        "sha256": "f153892c8b2973f79f1fc7c2a0009a2307f66a0d0cb0b6e6fd05f7269f9c556e"
+      },
+      "vocab-0311": {
+        "text": "pirmdiena",
+        "file": "audio/lv/vocab-0311.mp3",
+        "sha256": "4d03c4f40f743b3072cbf923135fbf89f64531ca5abb237c690a098691673bf5"
+      },
+      "vocab-0321": {
+        "text": "janvāris",
+        "file": "audio/lv/vocab-0321.mp3",
+        "sha256": "8faabb38fc8a910878d22562e68d6bed19732ca9e54d4e5a6a5a61715acdd2f5"
+      },
+      "vocab-0322": {
+        "text": "februāris",
+        "file": "audio/lv/vocab-0322.mp3",
+        "sha256": "3301eff97d87d92a937e1afc17befbcc1cf578d72e75f503de032bc5a717445b"
+      },
+      "vocab-0324": {
+        "text": "aprīlis",
+        "file": "audio/lv/vocab-0324.mp3",
+        "sha256": "8c2acef6b2ee9f3faefbf1f61d0f069642c061316f6887f291868567442554cb"
+      },
+      "vocab-0323": {
+        "text": "marts",
+        "file": "audio/lv/vocab-0323.mp3",
+        "sha256": "3c801977b51345d13d41345514fb1cef1dbbb678de318982d33551731fe8ba1c"
+      },
+      "vocab-0325": {
+        "text": "maijs",
+        "file": "audio/lv/vocab-0325.mp3",
+        "sha256": "a25e5f5137c0ad3828e4f5bfd99e9b5bea9e79182588eed5abbe9722c651fe6e"
+      },
+      "vocab-0326": {
+        "text": "jūnijs",
+        "file": "audio/lv/vocab-0326.mp3",
+        "sha256": "365a973e4f485fbbba21d523bf9fd7d73719136af661d5580eb46de9c7d1b35f"
+      },
+      "vocab-0327": {
+        "text": "jūlijs",
+        "file": "audio/lv/vocab-0327.mp3",
+        "sha256": "a428771f59f21f831777c08d9edc295ee6933ec2017e4978b6d180142b087439"
+      },
+      "vocab-0317": {
+        "text": "svētdiena",
+        "file": "audio/lv/vocab-0317.mp3",
+        "sha256": "ca1da4743f4ada754201d6ae9d2d02e1aab2cca2dff65f624ecfc4e98f324e83"
+      },
+      "vocab-0329": {
+        "text": "septembris",
+        "file": "audio/lv/vocab-0329.mp3",
+        "sha256": "e1ba483df4301db8fe143e3d806639e38dbf0434d73265710a035e41fb7aedea"
+      },
+      "vocab-0331": {
+        "text": "novembris",
+        "file": "audio/lv/vocab-0331.mp3",
+        "sha256": "c427cc4a407c05ab97854fde336646156edc1964755895ac7f81c3b07af2ee1a"
+      },
+      "vocab-0332": {
+        "text": "decembris",
+        "file": "audio/lv/vocab-0332.mp3",
+        "sha256": "ec637e64d851905a516dbf4c11996c4b94953e71eb51e54220d0f3d599c71f7b"
+      },
+      "vocab-0333": {
+        "text": "pavasaris",
+        "file": "audio/lv/vocab-0333.mp3",
+        "sha256": "80a2abcf8ac2dec2fa57a1fe90761a8530db7654de8bb09c7be033af9cab94d2"
+      },
+      "vocab-0334": {
+        "text": "vasara",
+        "file": "audio/lv/vocab-0334.mp3",
+        "sha256": "6519228ea60a38ed4f62b5837d0aae5bb9f3b655a1e699c3f1553c6138d7ed56"
+      },
+      "vocab-0336": {
+        "text": "ziema",
+        "file": "audio/lv/vocab-0336.mp3",
+        "sha256": "ed9777420b1c3cedc3a66207650feda9402df9f2912b111145c1846c06281174"
+      },
+      "vocab-0335": {
+        "text": "rudens",
+        "file": "audio/lv/vocab-0335.mp3",
+        "sha256": "d62ac7d3e8c0676b73a6b0d83a01ac9017b5ab15905a402ee9bec8b6c8669d2b"
+      },
+      "vocab-0330": {
+        "text": "oktobris",
+        "file": "audio/lv/vocab-0330.mp3",
+        "sha256": "358eccff6c1b0b1a0f7742bdb4bb66df5648411c8916d6e2a77cf3aec345d75e"
+      },
+      "vocab-0328": {
+        "text": "augusts",
+        "file": "audio/lv/vocab-0328.mp3",
+        "sha256": "8779ea2888d9adacd22b3c18094527198d3961d613380f7fbe9c05b93b319a3d"
+      },
+      "vocab-0337": {
+        "text": "gadalaiks",
+        "file": "audio/lv/vocab-0337.mp3",
+        "sha256": "34ebd3578ee18cc8c0638af8eda3caac3573b5df9b0b971f2597bfcb696ad621"
+      },
+      "vocab-0338": {
+        "text": "laikapstākļi",
+        "file": "audio/lv/vocab-0338.mp3",
+        "sha256": "6f3742fdb6b73bd655c2b92dd18c01ab186aa86e1b4e4fa1425c124e4a14a12b"
+      },
+      "vocab-0339": {
+        "text": "saule",
+        "file": "audio/lv/vocab-0339.mp3",
+        "sha256": "bd78e10038bd9f5e09c31b979391f3cc552888051aef52e1353d2f3f5479f661"
+      },
+      "vocab-0340": {
+        "text": "mēness",
+        "file": "audio/lv/vocab-0340.mp3",
+        "sha256": "c634cf31194d4d0f129317111f3f6125645e68506f27d78d4a9cc9a004987dd7"
+      },
+      "vocab-0341": {
+        "text": "lietus",
+        "file": "audio/lv/vocab-0341.mp3",
+        "sha256": "c865254496a3f4b3880301601589ef002ca0e6988edcf73d34c4cb56a74b4a0c"
+      },
+      "vocab-0343": {
+        "text": "vējš",
+        "file": "audio/lv/vocab-0343.mp3",
+        "sha256": "9cc2c76d1b96971e2cafc35c9cc6d0cd776b3edccf2e63daf0a678a5d21832e0"
+      },
+      "vocab-0342": {
+        "text": "sniegs",
+        "file": "audio/lv/vocab-0342.mp3",
+        "sha256": "6cda681fe4edd0cd29d45b7759b6d782bcc0c58f25b5aa7d8191879ec8b60462"
+      },
+      "vocab-0344": {
+        "text": "mākonis",
+        "file": "audio/lv/vocab-0344.mp3",
+        "sha256": "c6e4222f15d37059d61f2a26a84cafea2d0901f21c4c6bfb24eaff717e3720be"
+      },
+      "vocab-0345": {
+        "text": "migla",
+        "file": "audio/lv/vocab-0345.mp3",
+        "sha256": "6b211548aeb2e8a6c51ce5b9155c2050d3cea663f5ec93dd21d9ef21c3e9c4e0"
+      },
+      "vocab-0348": {
+        "text": "vētra",
+        "file": "audio/lv/vocab-0348.mp3",
+        "sha256": "96969012d21a908f309dcf6b62a678cd60d15c9bdc9de5a36c23b9c0b97a7713"
+      },
+      "vocab-0346": {
+        "text": "ledus",
+        "file": "audio/lv/vocab-0346.mp3",
+        "sha256": "19c09ef584bc0d626fc0bebd38794dea2b992b185ce770eaa228c3e4ef8f4536"
+      },
+      "vocab-0349": {
+        "text": "varavīksne",
+        "file": "audio/lv/vocab-0349.mp3",
+        "sha256": "cb7077861ef661af4d0a20970927b314c24a5450c881f2578b95ac9dde2893f4"
+      },
+      "vocab-0350": {
+        "text": "temperatūra",
+        "file": "audio/lv/vocab-0350.mp3",
+        "sha256": "b70a2807a279215ace98502cf43e943843abcd4a6aa2260672e0caddb0a83db6"
+      },
+      "vocab-0351": {
+        "text": "koks",
+        "file": "audio/lv/vocab-0351.mp3",
+        "sha256": "9e62a7db4883acb315e42d05bc84e1390fb791dcfaf68a5b8eeb8c1765dcebcb"
+      },
+      "vocab-0352": {
+        "text": "puķe",
+        "file": "audio/lv/vocab-0352.mp3",
+        "sha256": "256ef846249f3b4f1635b06ff61ffb0052a18c80910d7bd4c3991501b4f07690"
+      },
+      "vocab-0353": {
+        "text": "zāle",
+        "file": "audio/lv/vocab-0353.mp3",
+        "sha256": "609f0a2a2cbed2cfbc4c59db5b912785d18da382a495ada6841035d9ab334305"
+      },
+      "vocab-0354": {
+        "text": "lapa",
+        "file": "audio/lv/vocab-0354.mp3",
+        "sha256": "d93d02096a608c0acae0fb28108ddaca849ebe3b39664f94f58384f8f63d335f"
+      },
+      "vocab-0355": {
+        "text": "mežs",
+        "file": "audio/lv/vocab-0355.mp3",
+        "sha256": "f6cad4b714e4360a183a67185f3fa4290484e6bd3cba08f28f29d2df4cc8168c"
+      },
+      "vocab-0356": {
+        "text": "upe",
+        "file": "audio/lv/vocab-0356.mp3",
+        "sha256": "20272baec668d55bf839b2fae775e7f83d6cb2a934975a85dfa30a07d0150500"
+      },
+      "vocab-0358": {
+        "text": "jūra",
+        "file": "audio/lv/vocab-0358.mp3",
+        "sha256": "7a831de2e9806e344e85bf93a19055d0d6411f79502aa8fe9f8eff2f04668fb0"
+      },
+      "vocab-0357": {
+        "text": "ezers",
+        "file": "audio/lv/vocab-0357.mp3",
+        "sha256": "028c07007b06b68f8fa89d45176aada462466131353053e981385bb4f223b2f4"
+      },
+      "vocab-0359": {
+        "text": "pludmale",
+        "file": "audio/lv/vocab-0359.mp3",
+        "sha256": "4190638e647614fd50d9f993b8b667bfb331bfc06008a009db13b50a967da5d4"
+      },
+      "vocab-0347": {
+        "text": "pērkons",
+        "file": "audio/lv/vocab-0347.mp3",
+        "sha256": "f536b765a02fdd8225658e1a3f0e03e66069aa5c8e80a56b380d11dc4c66419f"
+      },
+      "vocab-0361": {
+        "text": "suns",
+        "file": "audio/lv/vocab-0361.mp3",
+        "sha256": "075ce1e03799b30f2b4635bd9f67b1692eb969c9720c4fe01a29300a27cb9ea6"
+      },
+      "vocab-0360": {
+        "text": "akmens",
+        "file": "audio/lv/vocab-0360.mp3",
+        "sha256": "fab451cafc523c3b18b8b19c379924c4bbe91a5a6efc1f2f8f7cdeebb19c64b5"
+      },
+      "vocab-0365": {
+        "text": "cūka",
+        "file": "audio/lv/vocab-0365.mp3",
+        "sha256": "3175ba82d52a17647f37361c070cfeaffedf107be3bb6d867b5937468ddc3537"
+      },
+      "vocab-0363": {
+        "text": "zirgs",
+        "file": "audio/lv/vocab-0363.mp3",
+        "sha256": "fc8f4aeade3945c18bcc666043c686b39f0192ad7d7d58c557c48698977fd90f"
+      },
+      "vocab-0364": {
+        "text": "govs",
+        "file": "audio/lv/vocab-0364.mp3",
+        "sha256": "c850b2f3ebcb5b8e7d9312c37815240132fdec121191064ef8e7982d87743eb2"
+      },
+      "vocab-0366": {
+        "text": "aita",
+        "file": "audio/lv/vocab-0366.mp3",
+        "sha256": "9e34adf0243438a23474b8ec578f644e43035794cb595b6f8b11622613e273eb"
+      },
+      "vocab-0367": {
+        "text": "kaza",
+        "file": "audio/lv/vocab-0367.mp3",
+        "sha256": "e618b40ce58ef5bb789f874afd1346f6191723a68d9596dd71e35a20e6c50814"
+      },
+      "vocab-0368": {
+        "text": "vista",
+        "file": "audio/lv/vocab-0368.mp3",
+        "sha256": "7907fc85c9b9b254e4e1364759fc6a61f437cca030ff582c3b7c5a153996836e"
+      },
+      "vocab-0369": {
+        "text": "pīle",
+        "file": "audio/lv/vocab-0369.mp3",
+        "sha256": "0dd1ee011057c975d66592ea0404c11fcaacc45af132deb8857b38ae7d29c9ee"
+      },
+      "vocab-0370": {
+        "text": "putns",
+        "file": "audio/lv/vocab-0370.mp3",
+        "sha256": "eebd335a8fa9672ed7bee5b338c7ba7fdb186aa5382cc427146ac2e00232cd26"
+      },
+      "vocab-0371": {
+        "text": "autobuss",
+        "file": "audio/lv/vocab-0371.mp3",
+        "sha256": "802536a7309e5955119bf1ee53363c93fe140baa92962aaea980cd001961a465"
+      },
+      "vocab-0362": {
+        "text": "kaķis",
+        "file": "audio/lv/vocab-0362.mp3",
+        "sha256": "4a8c5ed48c7c720df96a9434614b03ef7fa22328bd98c5257a44d5c8b6d9b6df"
+      },
+      "vocab-0372": {
+        "text": "tramvajs",
+        "file": "audio/lv/vocab-0372.mp3",
+        "sha256": "bd912097e1b1d86ea32c4d1eba7af74e6073fb6a85783dae330639a8f0b88645"
+      },
+      "vocab-0374": {
+        "text": "vilciens",
+        "file": "audio/lv/vocab-0374.mp3",
+        "sha256": "fa7f860f9ca1b30b5595ab297db5162fec83cb68ec26aedaa42add0387d2f00f"
+      },
+      "vocab-0373": {
+        "text": "trolejbuss",
+        "file": "audio/lv/vocab-0373.mp3",
+        "sha256": "789f30179484164880f584c26589543d74eda53f64747b8edfeb2609ed8d8a93"
+      },
+      "vocab-0375": {
+        "text": "automašīna",
+        "file": "audio/lv/vocab-0375.mp3",
+        "sha256": "bed727a75170cb61c6d536cb61ab670a554d2b5a3c30e6a5aa6438a5897e082f"
+      },
+      "vocab-0376": {
+        "text": "velosipēds",
+        "file": "audio/lv/vocab-0376.mp3",
+        "sha256": "3782566ed365edacc4f2630ff7b0bf887635678f7a88e89caba2c6087f1cbcfd"
+      },
+      "vocab-0377": {
+        "text": "taksometrs",
+        "file": "audio/lv/vocab-0377.mp3",
+        "sha256": "87a73d5b8ec7da6005b331828bbb56a0b210fc3abface1cb9760a72ffe59e6cc"
+      },
+      "vocab-0379": {
+        "text": "lidosta",
+        "file": "audio/lv/vocab-0379.mp3",
+        "sha256": "b6666f4cf974040f06d7bd565812e4a79b8f8db279aee13c911f943b85215c4a"
+      },
+      "vocab-0378": {
+        "text": "stacija",
+        "file": "audio/lv/vocab-0378.mp3",
+        "sha256": "99dcb3c79d4c17fed8e800509fb26e0f80afbd0450fb0abf757dccdb23003b85"
+      },
+      "vocab-0381": {
+        "text": "ceļš",
+        "file": "audio/lv/vocab-0381.mp3",
+        "sha256": "5dee24a48443b877721ab6c98c4b0b1a37db310d783ed42ac985dfa52408208a"
+      },
+      "vocab-0380": {
+        "text": "biļete",
+        "file": "audio/lv/vocab-0380.mp3",
+        "sha256": "a87d84935bae0e28b7c73916bd2a2b46397a420b3209f4e4959856bcdf7018f7"
+      },
+      "vocab-0382": {
+        "text": "tilts",
+        "file": "audio/lv/vocab-0382.mp3",
+        "sha256": "5fc0461824400695e41496c6cf3c979953f10137459ab506444e6532ccc44c15"
+      },
+      "vocab-0383": {
+        "text": "gājēju pāreja",
+        "file": "audio/lv/vocab-0383.mp3",
+        "sha256": "2f5bf37b59b490e62815cc8d3bdffa4a27e8de89b056ad397904c477f0d7f115"
+      },
+      "vocab-0384": {
+        "text": "luksofors",
+        "file": "audio/lv/vocab-0384.mp3",
+        "sha256": "84b60a1137e52312093bbd4713a2213c0b7f661d55729a5a015c88cf23f54988"
+      },
+      "vocab-0385": {
+        "text": "ietve",
+        "file": "audio/lv/vocab-0385.mp3",
+        "sha256": "2eca3801972b0074cc03ca0efa206ae30c5b9fc6dc523534081c4b4fc1d44fe4"
+      },
+      "vocab-0386": {
+        "text": "stūris",
+        "file": "audio/lv/vocab-0386.mp3",
+        "sha256": "ec44729c50caa04ed5d574e3901fc8925284c4d3957d896939042b183cbe1fa5"
+      },
+      "vocab-0387": {
+        "text": "laukums",
+        "file": "audio/lv/vocab-0387.mp3",
+        "sha256": "f383b2fca615f7de3dbb6c639cd44cde7bde6ca9a2ea50bcb03b2e6a9030fc33"
+      },
+      "vocab-0388": {
+        "text": "centrs",
+        "file": "audio/lv/vocab-0388.mp3",
+        "sha256": "0690ee96a0606c826064ad0d1ab2a7e645d91a7031b21314c3d2071464618bf7"
+      },
+      "vocab-0389": {
+        "text": "adrese",
+        "file": "audio/lv/vocab-0389.mp3",
+        "sha256": "bcc16dffd9249e814f17d7794224d03f1dfbdec4e1b988a63880dbd4126e0b33"
+      },
+      "vocab-0390": {
+        "text": "pilsētas karte",
+        "file": "audio/lv/vocab-0390.mp3",
+        "sha256": "63f619e7ce1db71491535bc222bcd81a5c6c99f93c4c1a9771167628f5a49e68"
+      },
+      "vocab-0391": {
+        "text": "skolas soma",
+        "file": "audio/lv/vocab-0391.mp3",
+        "sha256": "c1fbd50a338bc6d244bca331b13de2a8f1727ed6dfc8d57cbd0fc8b9fb4b8cf6"
+      },
+      "vocab-0392": {
+        "text": "lineāls",
+        "file": "audio/lv/vocab-0392.mp3",
+        "sha256": "6f56c6b45bc3ff8a21e8343f25bbd33cc24c979cb14f5a7057354e14a3d188a9"
+      },
+      "vocab-0393": {
+        "text": "dzēšgumija",
+        "file": "audio/lv/vocab-0393.mp3",
+        "sha256": "6daad5f640e1bbe924215b0079d8bad5d571f632d8085039276f321038047f94"
+      },
+      "vocab-0394": {
+        "text": "šķēres",
+        "file": "audio/lv/vocab-0394.mp3",
+        "sha256": "4ec7019eca75c47f511aa479f00d29707b01d6ddbd21225ca32a6cb011aa88a7"
+      },
+      "vocab-0395": {
+        "text": "līme",
+        "file": "audio/lv/vocab-0395.mp3",
+        "sha256": "3611f45a3ca48d09159d121830da0918d2f0c5877b56e2c3e893ad22824f4aef"
+      },
+      "vocab-0396": {
+        "text": "papīrs",
+        "file": "audio/lv/vocab-0396.mp3",
+        "sha256": "974c1c62a127b73b82ba2b1613a3f38cd5466696f9d00a7df6c26aa20675fcd4"
+      },
+      "vocab-0397": {
+        "text": "krāsa",
+        "file": "audio/lv/vocab-0397.mp3",
+        "sha256": "e278a399b32c89c3e0867cb1d04a95a6f6ee4b6d15b87c83bfbb3bec24bd3c93"
+      },
+      "vocab-0398": {
+        "text": "ota",
+        "file": "audio/lv/vocab-0398.mp3",
+        "sha256": "368a86298f97f77eb83fac6d0ea864716d71b23631eb3cb19def9eb16bcbc432"
+      },
+      "vocab-0399": {
+        "text": "zīmējums",
+        "file": "audio/lv/vocab-0399.mp3",
+        "sha256": "565de5bb503e22cf625d1819a16cfb1ef312322294b4b54aaf4dd00f35b3aabd"
+      },
+      "vocab-0400": {
+        "text": "mājasdarbs",
+        "file": "audio/lv/vocab-0400.mp3",
+        "sha256": "1a0bedf71d5b08611c9d87fc8ac73c5497814927ec5162b3513ab83a01e731e0"
+      },
+      "vocab-0401": {
+        "text": "burts",
+        "file": "audio/lv/vocab-0401.mp3",
+        "sha256": "5cb19bd4164fa36723ba5ebc34932db397cd9d514a6b878f2fadbc08081b2cfe"
+      },
+      "vocab-0402": {
+        "text": "vārds",
+        "file": "audio/lv/vocab-0402.mp3",
+        "sha256": "3fb6f7b809acd7b77da3968fa7ef901d4e725900ee4f8230c312d38abe2fe805"
+      },
+      "vocab-0403": {
+        "text": "frāze",
+        "file": "audio/lv/vocab-0403.mp3",
+        "sha256": "46dca2c014a8874caffbe0322b79b84c5bc112f9b6eabf311fe5b1e35e3f9824"
+      },
+      "vocab-0404": {
+        "text": "teikums",
+        "file": "audio/lv/vocab-0404.mp3",
+        "sha256": "7230f3b2f8616357b03f84a71015e4e95184e3accaf94d54b073ca7d4f05af80"
+      },
+      "vocab-0406": {
+        "text": "atbilde",
+        "file": "audio/lv/vocab-0406.mp3",
+        "sha256": "cab21fce785830d519342870461ca3d8d973585447fd6aa6952c4a3d32807b57"
+      },
+      "vocab-0408": {
+        "text": "uzdevums",
+        "file": "audio/lv/vocab-0408.mp3",
+        "sha256": "5d46f6def2c52ad1e8f64b960fbc13f33614ba4bed70b3b786138ee750832556"
+      },
+      "vocab-0409": {
+        "text": "piemērs",
+        "file": "audio/lv/vocab-0409.mp3",
+        "sha256": "91b6f0de2b867edd684a9e06401078160f98ae1114d39f06a04dc4e28c043a53"
+      },
+      "vocab-0410": {
+        "text": "kļūda",
+        "file": "audio/lv/vocab-0410.mp3",
+        "sha256": "6e34c1e0d448d126757a2b42b4cc5b5755a98f983168086cc9843a6d0ad95121"
+      },
+      "vocab-0411": {
+        "text": "iet",
+        "file": "audio/lv/vocab-0411.mp3",
+        "sha256": "d1655ffcc851be38603f61f5a10128cd2fbf075ff1aade07dcd53ded72ed0c6e"
+      },
+      "vocab-0412": {
+        "text": "nākt",
+        "file": "audio/lv/vocab-0412.mp3",
+        "sha256": "cb4e702a06bbfc8a4229eeeaa08facc74aacf4b0e23c2d9385ff1e3ca8458879"
+      },
+      "vocab-0413": {
+        "text": "staigāt",
+        "file": "audio/lv/vocab-0413.mp3",
+        "sha256": "60604142304c2a02194447afae640c3baa28fb91599c5640509aa3e2bc774780"
+      },
+      "vocab-0405": {
+        "text": "jautājums",
+        "file": "audio/lv/vocab-0405.mp3",
+        "sha256": "1649527029a8bc6487ce4f2caab1c0f47881211c880745039181160434d4a5ae"
+      },
+      "vocab-0407": {
+        "text": "lappuse",
+        "file": "audio/lv/vocab-0407.mp3",
+        "sha256": "3edb1cc944f0b329aad4bddb07df90873d1be93af1ffa96d5e77f160fced3509"
+      },
+      "vocab-0414": {
+        "text": "skriet",
+        "file": "audio/lv/vocab-0414.mp3",
+        "sha256": "022f2e4174489defce4140a6e7465e2d545262714270407d97a08321fdb28224"
+      },
+      "vocab-0415": {
+        "text": "sēdēt",
+        "file": "audio/lv/vocab-0415.mp3",
+        "sha256": "26763736e29d5c7372190a77fe87da8bfc340609afbe8561c7f8be404e8f5b6a"
+      },
+      "vocab-0416": {
+        "text": "stāvēt",
+        "file": "audio/lv/vocab-0416.mp3",
+        "sha256": "940eaea345770fc6a0635319d8a5ef2385b3bb8b4dd2295b98be2005f60aca00"
+      },
+      "vocab-0417": {
+        "text": "gulēt",
+        "file": "audio/lv/vocab-0417.mp3",
+        "sha256": "ce7d6d0f2a0ac88b36cc822fdc01837d5fc0da9d21f02e6450b53e4f011fe181"
+      },
+      "vocab-0418": {
+        "text": "pamosties",
+        "file": "audio/lv/vocab-0418.mp3",
+        "sha256": "2debacee703153dd2408355f877489b02d148ef5da7d8f1696a3f3fc9d696190"
+      },
+      "vocab-0419": {
+        "text": "ēst",
+        "file": "audio/lv/vocab-0419.mp3",
+        "sha256": "f99110fd1ce2f8399cad58926c2d80e01778385ef3c5de486e528b52c3b35059"
+      },
+      "vocab-0420": {
+        "text": "dzert",
+        "file": "audio/lv/vocab-0420.mp3",
+        "sha256": "a58c1195daabc0825588bb660bd92f66ea49bb3182b6d3823eb5c36b920dfe12"
+      },
+      "vocab-0421": {
+        "text": "runāt valodā",
+        "file": "audio/lv/vocab-0421.mp3",
+        "sha256": "854b2ac7914bd930f9960ea468e2a908ad589a2665d38ec67f8e1bac46cb9b04"
+      },
+      "vocab-0422": {
+        "text": "pateikt vārdu",
+        "file": "audio/lv/vocab-0422.mp3",
+        "sha256": "8bfeabe2a1e22d47a2a71799926e3dea7b1b15d45c85c1a031e948909041d52f"
+      },
+      "vocab-0423": {
+        "text": "jautāt",
+        "file": "audio/lv/vocab-0423.mp3",
+        "sha256": "53ef2559779bb4fa4503a5d9a9a5422ffc626f1dcecc24d2c93f5cfad6daa30d"
+      },
+      "vocab-0425": {
+        "text": "klausīties",
+        "file": "audio/lv/vocab-0425.mp3",
+        "sha256": "f9256b39d55c90e90791471518ec9c035879dd04128b1e8d6c568b0d0a8fa4d3"
+      },
+      "vocab-0426": {
+        "text": "dzirdēt",
+        "file": "audio/lv/vocab-0426.mp3",
+        "sha256": "bfd7f52dd5ec833d966112fc6480319e171c24973e6a2d1745edf53cdc6bf7bd"
+      },
+      "vocab-0424": {
+        "text": "atbildēt",
+        "file": "audio/lv/vocab-0424.mp3",
+        "sha256": "ff8ec10669ebcdb62455445e33a0cb0892908070370d7324ebea2a40ae22325d"
+      },
+      "vocab-0427": {
+        "text": "lasīt",
+        "file": "audio/lv/vocab-0427.mp3",
+        "sha256": "9a7e5516193103d7899b4f8a2fef29d67017905ba4d04395f2ece533507ff891"
+      },
+      "vocab-0428": {
+        "text": "rakstīt",
+        "file": "audio/lv/vocab-0428.mp3",
+        "sha256": "a056c45fe41240a2a49ba041ffbf137919c368cdec4fc7d946750280b6980bef"
+      },
+      "vocab-0430": {
+        "text": "saprast",
+        "file": "audio/lv/vocab-0430.mp3",
+        "sha256": "17269642fe3edcb0220f8307b89608e8f7cf25707fb6f0103cdb2a8dcef96588"
+      },
+      "vocab-0429": {
+        "text": "mācīties",
+        "file": "audio/lv/vocab-0429.mp3",
+        "sha256": "99c1bbb82d126443d15680b79b0ef1531e027f9c241c63e5d308ab067665ef0f"
+      },
+      "vocab-0431": {
+        "text": "redzēt",
+        "file": "audio/lv/vocab-0431.mp3",
+        "sha256": "cd07e5a447dd03460baa0c0bfd8813b97bb03ebba0c78b10126aef85a5680844"
+      },
+      "vocab-0432": {
+        "text": "skatīties uz",
+        "file": "audio/lv/vocab-0432.mp3",
+        "sha256": "4c263a2f9e2651d96accbb73c4e3402c70f42fc6e16c70c615849438abc46cd1"
+      },
+      "vocab-0433": {
+        "text": "vērot",
+        "file": "audio/lv/vocab-0433.mp3",
+        "sha256": "3f326d198adea4fbf23370fa05eb43eab17e6e1372074192873d1f3abd5d3c69"
+      },
+      "vocab-0434": {
+        "text": "atrast",
+        "file": "audio/lv/vocab-0434.mp3",
+        "sha256": "0eca76a3a2ba2386a8415af6417e56a1c6ee121e8d41b19d66d3cb41a7dbfb20"
+      },
+      "vocab-0435": {
+        "text": "meklēt",
+        "file": "audio/lv/vocab-0435.mp3",
+        "sha256": "4a2d17bd6105931faf38dc58088457d1c35b270e614c8681eedabe6f06f92340"
+      },
+      "vocab-0437": {
+        "text": "dot",
+        "file": "audio/lv/vocab-0437.mp3",
+        "sha256": "8ef94cfba08067ec6d5f0d74ed25ab2d5e127ab0e96d3b6c55143a02ba2a34b7"
+      },
+      "vocab-0436": {
+        "text": "ņemt",
+        "file": "audio/lv/vocab-0436.mp3",
+        "sha256": "9a0846cfdb63ce15203b9f1ea8fa208562b61756bad95da1e9181701fc0db6f7"
+      },
+      "vocab-0438": {
+        "text": "atnest",
+        "file": "audio/lv/vocab-0438.mp3",
+        "sha256": "a330a3df7b19509fbe5c0dd59c9964fa5be028eaecdefa8686bd37b98190fdc9"
+      },
+      "vocab-0439": {
+        "text": "pirkt",
+        "file": "audio/lv/vocab-0439.mp3",
+        "sha256": "2c597794ddee2ea57269993a83e6768f1476d3f839d63c466c469216d82759b9"
+      },
+      "vocab-0443": {
+        "text": "sākt",
+        "file": "audio/lv/vocab-0443.mp3",
+        "sha256": "5aa9fba05d31a608512764a50d0ad75c0588dbbbfa2e79778f00818cb633d66e"
+      },
+      "vocab-0440": {
+        "text": "maksāt",
+        "file": "audio/lv/vocab-0440.mp3",
+        "sha256": "e4965175e97bd6030d71e1f81c8965f81af34482a86c00086c4e3d2f75f4cdef"
+      },
+      "vocab-0442": {
+        "text": "aizvērt",
+        "file": "audio/lv/vocab-0442.mp3",
+        "sha256": "1471a32bd90b6914441d7c5876324eecdb8d1e3475456a4390a5d8b7d2b0cd9b"
+      },
+      "vocab-0444": {
+        "text": "pabeigt",
+        "file": "audio/lv/vocab-0444.mp3",
+        "sha256": "f4c4c5a00e436b6e609aba3df44c46522018431adc3a91b28900f267c4ed6f91"
+      },
+      "vocab-0445": {
+        "text": "gaidīt",
+        "file": "audio/lv/vocab-0445.mp3",
+        "sha256": "627f524e3b72b810adf05e206564b1d5ff6d66488ee25513ec62561a4eef6523"
+      },
+      "vocab-0447": {
+        "text": "spēlēt",
+        "file": "audio/lv/vocab-0447.mp3",
+        "sha256": "c93f6cfe64a69343d899cb305ce0574f3a2aad401554b0ad13551d8be6a6f5ac"
+      },
+      "vocab-0448": {
+        "text": "strādāt",
+        "file": "audio/lv/vocab-0448.mp3",
+        "sha256": "02913bea773f536101463b8854ec1a69f7c37b7b82967cdeb95300436180bce3"
+      },
+      "vocab-0449": {
+        "text": "mazgāt",
+        "file": "audio/lv/vocab-0449.mp3",
+        "sha256": "905b99d5c7705d61bd3beb9a43133726509f33c13162e3cb0a48d86fcbefc5d1"
+      },
+      "vocab-0450": {
+        "text": "tīrīt",
+        "file": "audio/lv/vocab-0450.mp3",
+        "sha256": "45f86da579304e71192372af7c3b30bb7a79973d1c1360061288206347da659b"
+      },
+      "vocab-0441": {
+        "text": "atvērt",
+        "file": "audio/lv/vocab-0441.mp3",
+        "sha256": "8406305669ca6e4a9983f6d6d691ad2064f4964ef44a66caec79195fd87ebe3e"
+      },
+      "vocab-0451": {
+        "text": "liels",
+        "file": "audio/lv/vocab-0451.mp3",
+        "sha256": "ad7b3eb2eaa38a84808d86c6e57fa8f7b26d7b0c3736e9784a4132215079a5f1"
+      },
+      "vocab-0452": {
+        "text": "mazs",
+        "file": "audio/lv/vocab-0452.mp3",
+        "sha256": "221fcee4b0de4665381c2eedad8d4d2adf000db06003128aa1d974339142e911"
+      },
+      "vocab-0453": {
+        "text": "garš",
+        "file": "audio/lv/vocab-0453.mp3",
+        "sha256": "78605efae194208e61cca5a7309f5be32e75db20fea75d56e3955de1db612a23"
+      },
+      "vocab-0454": {
+        "text": "īss",
+        "file": "audio/lv/vocab-0454.mp3",
+        "sha256": "f1e4ff8b4377630713d9203e4274876413e0383225df368f9ef348bc10b6b73b"
+      },
+      "vocab-0455": {
+        "text": "plats",
+        "file": "audio/lv/vocab-0455.mp3",
+        "sha256": "3587b5fd468cd538ccb74a31c7131b27fc75d03c26476a87492ce05eab34da9d"
+      },
+      "vocab-0456": {
+        "text": "šaurs",
+        "file": "audio/lv/vocab-0456.mp3",
+        "sha256": "bcb81c61b2670a0ac2c049580b71474b6fceb5365f6427bd772b2a7a2073bf1e"
+      },
+      "vocab-0457": {
+        "text": "augsts",
+        "file": "audio/lv/vocab-0457.mp3",
+        "sha256": "c0b0c51dfdbb2a5a041cfddec828b763326ee5c0846ef0513ae86e21b6a7536a"
+      },
+      "vocab-0446": {
+        "text": "palīdzēt",
+        "file": "audio/lv/vocab-0446.mp3",
+        "sha256": "bb5ee25214ff373fcd13c9a6501315562a1972d1f11890393456970dab93b56d"
+      },
+      "vocab-0458": {
+        "text": "zems",
+        "file": "audio/lv/vocab-0458.mp3",
+        "sha256": "70e5402f8df1bee4d49a292fc92e38e7ffc75d0b885bee358a303f541f36c0c4"
+      },
+      "vocab-0459": {
+        "text": "smags",
+        "file": "audio/lv/vocab-0459.mp3",
+        "sha256": "a82521b7bb33371997a67ce0dc09b1667e594e3854327082f8e64493e03421d2"
+      },
+      "vocab-0460": {
+        "text": "viegls",
+        "file": "audio/lv/vocab-0460.mp3",
+        "sha256": "76e97fad419a89f2c8eab0ca7a639779b734a0bd6e15133016dc6b70d12b2b92"
+      },
+      "vocab-0461": {
+        "text": "labs",
+        "file": "audio/lv/vocab-0461.mp3",
+        "sha256": "d7bab3d6d3ab138856abb2c3eb66ea6149b7fc7975aa8b66475702aef20e610c"
+      },
+      "vocab-0462": {
+        "text": "slikts",
+        "file": "audio/lv/vocab-0462.mp3",
+        "sha256": "74492d007f34446eafa25555fde7bead3985af876e71d0e4e16f1c9b237abce6"
+      },
+      "vocab-0464": {
+        "text": "vecs",
+        "file": "audio/lv/vocab-0464.mp3",
+        "sha256": "d1d32224bfa5fb7bdb5b77e474e38e7810347618e63967c7b1d6983092b300e0"
+      },
+      "vocab-0463": {
+        "text": "jauns",
+        "file": "audio/lv/vocab-0463.mp3",
+        "sha256": "da4dc079e676b7d75d40a6923c6d9c34861476f7baa719fbb241ff907b08da76"
+      },
+      "vocab-0465": {
+        "text": "tīrs",
+        "file": "audio/lv/vocab-0465.mp3",
+        "sha256": "59c71475887fbe5aaf7e06e859630716234b9af3d91a3ae36b6b007db678aaa5"
+      },
+      "vocab-0466": {
+        "text": "netīrs",
+        "file": "audio/lv/vocab-0466.mp3",
+        "sha256": "9cf073dae1e2e8df4664ab6d9688eaedcc99c450796e5955608101f61ec1a2a3"
+      },
+      "vocab-0468": {
+        "text": "auksts",
+        "file": "audio/lv/vocab-0468.mp3",
+        "sha256": "7388a7308dcf4d1a7e755af151fe3f6a3abaaf036e0efa1317ed78a98aec4c32"
+      },
+      "vocab-0467": {
+        "text": "karsts",
+        "file": "audio/lv/vocab-0467.mp3",
+        "sha256": "8340adec6a0f75ff0bff74e0f8ebe02f85cdf4147f09b0120bd8193c80d6f1ce"
+      },
+      "vocab-0470": {
+        "text": "vēss",
+        "file": "audio/lv/vocab-0470.mp3",
+        "sha256": "d815339c42d4150ef570f3fce4534cc17bf297ec7eb12ae5e83f6e9a5a0e997a"
+      },
+      "vocab-0471": {
+        "text": "sarkans",
+        "file": "audio/lv/vocab-0471.mp3",
+        "sha256": "684e80e8c020e8d9757425772da4a024fa83232bdbd788e8048b8a2ee9fc808e"
+      },
+      "vocab-0472": {
+        "text": "zils",
+        "file": "audio/lv/vocab-0472.mp3",
+        "sha256": "28b3c152ddb1deff7d43a954b1bfdd3e69d206e1cbf6279fd16ec21abd8d6e1c"
+      },
+      "vocab-0473": {
+        "text": "zaļš",
+        "file": "audio/lv/vocab-0473.mp3",
+        "sha256": "a60e033bc3497335986b3b2a9f2cfb8ce2f711c21024dab1604f002d2ef82bfa"
+      },
+      "vocab-0474": {
+        "text": "dzeltens",
+        "file": "audio/lv/vocab-0474.mp3",
+        "sha256": "ddba7c86a170cdf3631f84e553d4d459374dcc3f23a66f3078aa35375e05b3fb"
+      },
+      "vocab-0475": {
+        "text": "melns",
+        "file": "audio/lv/vocab-0475.mp3",
+        "sha256": "ea57df14703350deb29c872da955f2e3ff384759bad9f9c53f4d3f0888838650"
+      },
+      "vocab-0476": {
+        "text": "balts",
+        "file": "audio/lv/vocab-0476.mp3",
+        "sha256": "ea7535157da1b26da522e06f0b9e21a313d5d5ba3a744e67854e1afbeef4d973"
+      },
+      "vocab-0477": {
+        "text": "pelēks",
+        "file": "audio/lv/vocab-0477.mp3",
+        "sha256": "c5aea9c0f426c467764f7d9ee79c9e343026a8542c41dad7ca1e242916a6f51f"
+      },
+      "vocab-0478": {
+        "text": "brūns",
+        "file": "audio/lv/vocab-0478.mp3",
+        "sha256": "a3bbb5ca2d228692e9556afc7c0d0a76f147f2c5327839ef049f5e2110d4e606"
+      },
+      "vocab-0479": {
+        "text": "rozā",
+        "file": "audio/lv/vocab-0479.mp3",
+        "sha256": "1262791bd1a2d313af9dc6580d62fabffba04f0179ce3206dfb20b6b3ed597fe"
+      },
+      "vocab-0480": {
+        "text": "violets",
+        "file": "audio/lv/vocab-0480.mp3",
+        "sha256": "68fe9c5701b37f7158b3617a924a756198418eec10eada5189073fac09b8b9a5"
+      },
+      "vocab-0481": {
+        "text": "un",
+        "file": "audio/lv/vocab-0481.mp3",
+        "sha256": "8d29113218ffbe4259527b66b3f61f724e3be31d93595a8f5c3845d26cd4eda0"
+      },
+      "vocab-0482": {
+        "text": "vai",
+        "file": "audio/lv/vocab-0482.mp3",
+        "sha256": "f6534e0ce47264a61a38df5572ea7af1d4e04913cc811c648ddc49e70d78fcec"
+      },
+      "vocab-0483": {
+        "text": "bet",
+        "file": "audio/lv/vocab-0483.mp3",
+        "sha256": "328675d2ff1a2fc88bca2ff3c99d7e0c7ee166c464c54268f9c50626ed883c9c"
+      },
+      "vocab-0484": {
+        "text": "jo",
+        "file": "audio/lv/vocab-0484.mp3",
+        "sha256": "95def3435f50582862c997693183bc2c2f4cb82fec2a2b7ff5216eb67174967e"
+      },
+      "vocab-0485": {
+        "text": "ar mani",
+        "file": "audio/lv/vocab-0485.mp3",
+        "sha256": "efd3da6d319e55e4334845a126e092797908e0bc2701acd31235effac67b9893"
+      },
+      "vocab-0487": {
+        "text": "tev",
+        "file": "audio/lv/vocab-0487.mp3",
+        "sha256": "c0739c46c9c28c2227e868e3986d005d78c9afdfaf65d5d9ed971c037975e80d"
+      },
+      "vocab-0486": {
+        "text": "bez manis",
+        "file": "audio/lv/vocab-0486.mp3",
+        "sha256": "33d34e1bd0337f8c65b3faa7cfe231ff9b03c3ad1416d633068aab673db3c21e"
+      },
+      "vocab-0488": {
+        "text": "no mājām",
+        "file": "audio/lv/vocab-0488.mp3",
+        "sha256": "3ea3738dcaafd71e3378a8a30e2c21688b09f608e44fa7b281685b2c56a3fd84"
+      },
+      "vocab-0489": {
+        "text": "uz skolu",
+        "file": "audio/lv/vocab-0489.mp3",
+        "sha256": "f929df4009d1c9f55a5f3996f337ea8ecdb1178760f8d9b8f4f707d8d22ba371"
+      },
+      "vocab-0490": {
+        "text": "starp mums",
+        "file": "audio/lv/vocab-0490.mp3",
+        "sha256": "7d2f01b7c0f31a5e956df0194dfec6bb63cbab2818bbdde67bbb40fa27737d2a"
+      },
+      "vocab-0491": {
+        "text": "es",
+        "file": "audio/lv/vocab-0491.mp3",
+        "sha256": "541fe49d5a86f2e96f35541e6be8e3646f75e23d2eaf43f3ca50539974464a17"
+      },
+      "vocab-0492": {
+        "text": "tu",
+        "file": "audio/lv/vocab-0492.mp3",
+        "sha256": "6375853629bf7987a465732f9d117cf499ea61d5fb818900a0011284112a2d59"
+      },
+      "vocab-0493": {
+        "text": "viņš",
+        "file": "audio/lv/vocab-0493.mp3",
+        "sha256": "e99c2bab3a7cb38c56b061c2dedaa1a11c5ba16fa52c252441ca5b4fd0c5b7d1"
+      },
+      "vocab-0494": {
+        "text": "viņa",
+        "file": "audio/lv/vocab-0494.mp3",
+        "sha256": "c8b94f843e308c72af4c29f03fa82690d5a3bf5f5af66395b4bc1a3aaa9d17f3"
+      },
+      "vocab-0495": {
+        "text": "mēs",
+        "file": "audio/lv/vocab-0495.mp3",
+        "sha256": "a93815c3f5d9d34daf2c17d6511e9738fdc240987ac4a739e6d0972ffe9234b3"
+      },
+      "vocab-0496": {
+        "text": "viņi",
+        "file": "audio/lv/vocab-0496.mp3",
+        "sha256": "e6a246413df21de84b422fadca697cbba0b88916c5726da57d248ad6356cefd9"
+      },
+      "vocab-0497": {
+        "text": "šis",
+        "file": "audio/lv/vocab-0497.mp3",
+        "sha256": "1e47fee277f92f55f505d1548d102a4a98c830cb78e7c23944900052d3d506c8"
+      },
+      "vocab-0498": {
+        "text": "tas",
+        "file": "audio/lv/vocab-0498.mp3",
+        "sha256": "17949d8071aa975d38fb0ab69cc3c37d0605ba5666a30ff99f3e84306ce9bd86"
+      },
+      "vocab-0499": {
+        "text": "viss",
+        "file": "audio/lv/vocab-0499.mp3",
+        "sha256": "3bd1789982e07e2e83bd3302f08d113f398f22e50d1f0b27a0e797729b279ef9"
+      },
+      "vocab-0500": {
+        "text": "nekas",
+        "file": "audio/lv/vocab-0500.mp3",
+        "sha256": "b8583b5c427946c5d15385b83552300f32b1717586fd053118b0de6c7924a932"
+      },
+      "vocab-0469": {
+        "text": "silts",
+        "file": "audio/lv/vocab-0469.mp3",
+        "sha256": "47fd80a254e3df60434b8950be5e1561d8cefcf1d571462b4df5ea2d4b635077"
       }
     }
-  }
+  },
+  "coverage": "all-phrases"
 }

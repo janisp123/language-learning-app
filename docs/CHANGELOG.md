@@ -1,3 +1,7 @@
+## 2026-11-17 — Full Russian–Latvian audio, batch 1
+
+Codex extended the accepted audio modules to all 500 questions in both RU↔LV directions, preserving the first twenty clips, vocabulary, player/view and engine. Manifest completeness is validated at build time. Build 0.4.2 has 1,000 bundled clips; 36 Node/17 Python checks pass. English is PARTIAL and disabled: 111 cached clips before synthesis HTTP 503, retained in the pending audio manifest. No merge/public release. See checkpoint/delivery evidence for synchronization.
+
 ## 2026-11-17 — Communication efficiency over formal grammar
 
 Recorded by Codex: maximize reuse of familiar words/patterns, minimize competing word choices, accept understandable fragments and imperfect grammar for survival communication. Updated CONTENT_RULES.md and AGENTS.md to supersede the earlier grammatical-correctness requirement while preserving intended meaning and unambiguous answer bindings. Documentation only; current translations, engine, recordings and Drive build are unchanged. No content audit is claimed.

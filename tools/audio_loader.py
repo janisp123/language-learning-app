@@ -20,6 +20,10 @@ def load_audio(root: Path, course: dict, manifest=None):
     for language in {direction.split('-')[0] for direction in directions}:
         require(language in ui and all(text(ui[language].get(k)) for k in ['replay','label','error']), 'missing audio UI labels')
     require(isinstance(manifest.get('clips'), dict), 'audio clips required')
+    require(manifest.get('coverage') in (None, 'all-phrases'), 'unsupported audio coverage policy')
+    if manifest.get('coverage') == 'all-phrases':
+        for language in {direction.split('-')[1] for direction in directions}:
+            require(isinstance(manifest['clips'].get(language), dict) and set(manifest['clips'][language]) == set(phrases), f'incomplete audio coverage: {language}')
     clips = {}
     for language, entries in manifest['clips'].items():
         require(language in course['languages'] and isinstance(entries, dict), 'unknown audio language')
