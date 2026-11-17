@@ -1,0 +1,66 @@
+{
+  "publicUrl": "https://janisp123.github.io/language-learning-app/",
+  "verifiedDate": "2026-11-17",
+  "headerLanguageAndThemeControls": [
+    {
+      "width": 320,
+      "language": "en",
+      "bothThemes": true,
+      "keyboardControls": true,
+      "glossesTranslated": true,
+      "noOverflow": true
+    },
+    {
+      "width": 320,
+      "language": "ru",
+      "bothThemes": true,
+      "keyboardControls": true,
+      "glossesTranslated": true,
+      "noOverflow": true
+    },
+    {
+      "width": 320,
+      "language": "lv",
+      "bothThemes": true,
+      "keyboardControls": true,
+      "glossesTranslated": true,
+      "noOverflow": true
+    },
+    {
+      "width": 1280,
+      "language": "en",
+      "bothThemes": true,
+      "keyboardControls": true,
+      "glossesTranslated": true,
+      "noOverflow": true
+    },
+    {
+      "width": 1280,
+      "language": "ru",
+      "bothThemes": true,
+      "keyboardControls": true,
+      "glossesTranslated": true,
+      "noOverflow": true
+    },
+    {
+      "width": 1280,
+      "language": "lv",
+      "bothThemes": true,
+      "keyboardControls": true,
+      "glossesTranslated": true,
+      "noOverflow": true
+    }
+  ],
+  "defaultEnglishLightAndReloadReset": true,
+  "exactAuthorCreditPreserved": true,
+  "learnAndDriveLinksPreserved": true,
+  "learnOpens049": true,
+  "storageAndCookiesEmpty": true,
+  "pageErrors": [],
+  "headlessTls": "environment trust bypass; independent HTTPS exact-byte readback uses default TLS validation",
+  "notRun": [
+    "physical devices",
+    "full screen-reader audit",
+    "fluent human translation review"
+  ]
+}
