@@ -1,3 +1,7 @@
+## 2026-11-18 — Owner command convention for cross-agent resumes (chat; documentation only)
+
+Defined read-only **continue** (inspect, plan and ask), bounded **continue and implement**, and read-only **check status** across chat/cw/codex. Recorded PRO-004. No task content, product code, assets or releases changed. Verification and integration are tracked in the PR; no automatic agent resumption is claimed.
+
 ## 2026-11-18 — Shared AI project protocol v1.0 (chat; documentation/CI only)
 
 Owner-requested standardization of the active task path to `docs/TD_LIST.md`, with role labels chat/cw/codex, durable decisions, a project preflight, PR checklist and future-project setup guidance. Existing task IDs and attribution remain intact. No learning logic, content, audio, generated artifact, public release or Google Drive delivery changed. The PR and GitHub CI are the evidence for integration; this note does not claim deployment or device verification.
