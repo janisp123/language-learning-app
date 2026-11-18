@@ -40,7 +40,7 @@ Read the actual `page_url`/deployment result before reporting a live address. Ve
 | Website staging | `tools/build_site.py` |
 | Publication | `.github/workflows/landing-pages.yml` |
 
-ChatGPT/Codex can maintain these repository sources when the owner requests changes. Read AGENTS.md, the current checkpoint and the canonical `docs/TD.learn.md`; work through an isolated branch and checked PR. Respect the repository's merge/publication authorization rules. Rebuild generated app copies from canonical sources; preserve stable content IDs and avoid editing generated HTML as an independent application.
+ChatGPT/Codex can maintain these repository sources when the owner requests changes. Read AGENTS.md, the current checkpoint and the canonical `docs/TD_LIST.md`; work through an isolated branch and checked PR. Respect the repository's merge/publication authorization rules. Rebuild generated app copies from canonical sources; preserve stable content IDs and avoid editing generated HTML as an independent application.
 
 The **Publish language app website** workflow runs after relevant approved changes reach main, or by manual dispatch on main. Feature branches cannot deploy. Once hosting is enabled, ordinary site edits use this existing workflow; the owner need not rebuild the webpage manually or repeat initial setup for each edit. Changes to this handoff file also match the existing publication path filter.
 
