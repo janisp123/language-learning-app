@@ -1,10 +1,14 @@
 # AGENTS.md — instructions for coding and planning agents
 
+## Project protocol v1.0 — read before any project action
+
+First fetch current remote `main:docs/TD_LIST.md`; then read this file, `docs/WORK_CHECKPOINT.md` and applicable `docs/DECISIONS.md`. Check overlapping PRs. Standard labels: **chat** = regular ChatGPT, **cw** = ChatGPT Work, **codex** = Codex; **Owner** approves. Follow `docs/AGENT_PROTOCOL.md`; tasks do not authorize themselves. Run `python tools/check_project_protocol.py` and use checked PRs for edits. All product/safety/release rules below remain binding.
+
 Scope: **this repository only** (`janisp123/language-learning-app`). Do not edit `mental-health-questionnaire` or its task list as part of this work.
 
 ## 1. Start here — avoid repeating work
 
-1. Read `docs/WORK_CHECKPOINT.md`, then `docs/TD.learn.md`; check actual `main` and open PRs before making claims.
+1. Read latest remote `main:docs/TD_LIST.md` first, then `AGENTS.md` and `docs/WORK_CHECKPOINT.md`; check actual `main` and open PRs before making claims.
 2. Read relevant sections of `docs/ARCHITECTURE.md`, `docs/CONTENT_RULES.md`, `docs/PROJECT_PLAYBOOK.md`, and `docs/RELEASE_CHECKLIST.md` before changing related areas.
 3. Verify actual files, commits, and test evidence. Documentation, conversations and PR titles **are not proof of deployed behavior**.
 4. Check task dependencies and the latest owner decisions. If instructions conflict, **stop the affected task, explain the conflict and request a decision**. Do not silently reinterpret the learning algorithm.
@@ -12,16 +16,17 @@ Scope: **this repository only** (`janisp123/language-learning-app`). Do not edit
 ## 2. Roles and authorization
 
 - **Owner:** decides product direction, approves design changes, releases, and merges where required.
-- **ChatGPT:** researches and plans; may maintain approved specifications and TD entries when asked.
-- **Codex:** implements, tests, documents and proposes merges **only when the owner explicitly requests coding**.
-- A task being present in `docs/TD.learn.md` does **not** launch work. A chat discussion does **not** override written, approved specifications.
+- **chat (regular ChatGPT):** researches and plans; may maintain approved specifications and TD entries when asked.
+- **cw (ChatGPT Work):** works on tasks explicitly assigned to cw; do not assume it shares chat's session state.
+- **codex (Codex):** implements, tests, documents and proposes merges **only when the owner explicitly requests coding**.
+- A task being present in `docs/TD_LIST.md` does **not** launch work. A chat discussion does **not** override written, approved specifications.
 - Never invent finished features, successful tests, downloads, public URLs or publication status. Do not silently add monetization or unrelated features.
 
 ## 3. Single source of truth and attribution
 
-- **Only `docs/TD.learn.md`** contains active approved language-app tasks. Do not create `TD_LIST.md`, `TD.question.md` or duplicate TD files in this repository.
+- **Only `docs/TD_LIST.md`** contains active approved language-app tasks. Do not create any second active task list in this repository.
 - Use `docs/CHANGELOG.md` for completed changes, `docs/WORK_CHECKPOINT.md` for current state/next action, and `docs/PROJECT_PLAYBOOK.md` for generalizable lessons, not logs or tasks.
-- Every new TD item records **Added by: ChatGPT / Codex / Owner** (only the actual writer, no guessing), and **Implemented by: Not yet** until verified. When resolved, retain its history in the changelog with evidence.
+- Every new TD item records **Added by: chat / cw / codex / Owner** (the actual recorder, no guessing), and **Implemented by: Not yet** until verified; preserve historical names/entries. When resolved, retain its history in the changelog with evidence.
 - Task IDs are stable. On completion, archive the result to the changelog and remove it from the active TD only after verified integration.
 - A suggestion goes in a short **Discussion / not approved** section if recorded at all; it must not be mistaken for implementation authorization.
 

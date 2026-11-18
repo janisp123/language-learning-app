@@ -1,3 +1,7 @@
+## 2026-11-18 — Shared AI project protocol v1.0 (chat; documentation/CI only)
+
+Owner-requested standardization of the active task path to `docs/TD_LIST.md`, with role labels chat/cw/codex, durable decisions, a project preflight, PR checklist and future-project setup guidance. Existing task IDs and attribution remain intact. No learning logic, content, audio, generated artifact, public release or Google Drive delivery changed. The PR and GitHub CI are the evidence for integration; this note does not claim deployment or device verification.
+
 ## 2026-11-17 — GitHub presentation polish (Codex; PR pending)
 
 Owner-authorized documentation-only slice from main `a159c6618be40e7acdd53966e3fca60264abad7e`. README foregrounds the real browser app, hobby motivation, ChatGPT/Codex assistance, seven directions, zero saves and outstanding review limits. Added a genuine live-app screenshot and contribution guidance. Corrected current checkpoint/TD/Pages-handoff summaries while retaining old handoffs and preserving the previous checkpoint. Existing homepage/topics/description already present; no license or repository setting changed. Pending receipts PR #19 and older overlapping documentation PRs remain separate. App, content, audio, generated HTML and workflow bytes unchanged; no release/Drive update. Link/render and verification results are recorded in the presentation PR; runtime results must be taken from actual CI, not inferred from this prose.
