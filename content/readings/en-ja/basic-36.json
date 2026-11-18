@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "direction": "en-ja",
+  "blockId": "basic-36",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0351": {
+      "text": "木",
+      "segments": [
+        {
+          "text": "木",
+          "reading": "ki"
+        }
+      ]
+    },
+    "vocab-0352": {
+      "text": "花",
+      "segments": [
+        {
+          "text": "花",
+          "reading": "hana"
+        }
+      ]
+    },
+    "vocab-0353": {
+      "text": "草",
+      "segments": [
+        {
+          "text": "草",
+          "reading": "kusa"
+        }
+      ]
+    },
+    "vocab-0354": {
+      "text": "葉",
+      "segments": [
+        {
+          "text": "葉",
+          "reading": "ha"
+        }
+      ]
+    },
+    "vocab-0355": {
+      "text": "森",
+      "segments": [
+        {
+          "text": "森",
+          "reading": "mori"
+        }
+      ]
+    },
+    "vocab-0356": {
+      "text": "川",
+      "segments": [
+        {
+          "text": "川",
+          "reading": "kawa"
+        }
+      ]
+    },
+    "vocab-0357": {
+      "text": "湖",
+      "segments": [
+        {
+          "text": "湖",
+          "reading": "mizuumi"
+        }
+      ]
+    },
+    "vocab-0358": {
+      "text": "海",
+      "segments": [
+        {
+          "text": "海",
+          "reading": "umi"
+        }
+      ]
+    },
+    "vocab-0359": {
+      "text": "浜辺",
+      "segments": [
+        {
+          "text": "浜",
+          "reading": "hama"
+        },
+        {
+          "text": "辺",
+          "reading": "be"
+        }
+      ]
+    },
+    "vocab-0360": {
+      "text": "石",
+      "segments": [
+        {
+          "text": "石",
+          "reading": "ishi"
+        }
+      ]
+    }
+  }
+}

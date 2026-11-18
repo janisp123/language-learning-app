@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "ru-en",
+  "blockId": "basic-51",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0501": {
+      "text": "I need help",
+      "segments": [
+        {
+          "text": "I need help",
+          "reading": "ай нид хэлп"
+        }
+      ]
+    },
+    "vocab-0502": {
+      "text": "I need water",
+      "segments": [
+        {
+          "text": "I need water",
+          "reading": "ай нид уотэр"
+        }
+      ]
+    },
+    "vocab-0503": {
+      "text": "I need a doctor",
+      "segments": [
+        {
+          "text": "I need a doctor",
+          "reading": "ай нид э дактэр"
+        }
+      ]
+    },
+    "vocab-0504": {
+      "text": "I don't understand",
+      "segments": [
+        {
+          "text": "I don't understand",
+          "reading": "ай доунт андэрстэнд"
+        }
+      ]
+    },
+    "vocab-0505": {
+      "text": "please call an ambulance",
+      "segments": [
+        {
+          "text": "please call an ambulance",
+          "reading": "плиз кол эн эмбьэлэнс"
+        }
+      ]
+    },
+    "vocab-0506": {
+      "text": "please call the police",
+      "segments": [
+        {
+          "text": "please call the police",
+          "reading": "плиз кол зэ пэлис"
+        }
+      ]
+    },
+    "vocab-0507": {
+      "text": "allergy",
+      "segments": [
+        {
+          "text": "allergy",
+          "reading": "элэрджи"
+        }
+      ]
+    },
+    "vocab-0508": {
+      "text": "without milk",
+      "segments": [
+        {
+          "text": "without milk",
+          "reading": "уизаут милк"
+        }
+      ]
+    },
+    "vocab-0509": {
+      "text": "without sugar",
+      "segments": [
+        {
+          "text": "without sugar",
+          "reading": "уизаут шугэр"
+        }
+      ]
+    },
+    "vocab-0510": {
+      "text": "I need medicine",
+      "segments": [
+        {
+          "text": "I need medicine",
+          "reading": "ай нид мэдэсэн"
+        }
+      ]
+    }
+  }
+}

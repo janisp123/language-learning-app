@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "lv-ru",
+  "blockId": "basic-47",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0461": {
+      "text": "хороший",
+      "segments": [
+        {
+          "text": "хороший",
+          "reading": "harošij"
+        }
+      ]
+    },
+    "vocab-0462": {
+      "text": "плохой",
+      "segments": [
+        {
+          "text": "плохой",
+          "reading": "plahoj"
+        }
+      ]
+    },
+    "vocab-0463": {
+      "text": "новый",
+      "segments": [
+        {
+          "text": "новый",
+          "reading": "novij"
+        }
+      ]
+    },
+    "vocab-0464": {
+      "text": "старый",
+      "segments": [
+        {
+          "text": "старый",
+          "reading": "starij"
+        }
+      ]
+    },
+    "vocab-0465": {
+      "text": "чистый",
+      "segments": [
+        {
+          "text": "чистый",
+          "reading": "čistij"
+        }
+      ]
+    },
+    "vocab-0466": {
+      "text": "грязный",
+      "segments": [
+        {
+          "text": "грязный",
+          "reading": "grjaznij"
+        }
+      ]
+    },
+    "vocab-0467": {
+      "text": "горячий",
+      "segments": [
+        {
+          "text": "горячий",
+          "reading": "garjačij"
+        }
+      ]
+    },
+    "vocab-0468": {
+      "text": "холодный",
+      "segments": [
+        {
+          "text": "холодный",
+          "reading": "halodnij"
+        }
+      ]
+    },
+    "vocab-0469": {
+      "text": "тёплый",
+      "segments": [
+        {
+          "text": "тёплый",
+          "reading": "tjoplij"
+        }
+      ]
+    },
+    "vocab-0470": {
+      "text": "прохладный",
+      "segments": [
+        {
+          "text": "прохладный",
+          "reading": "prahladnij"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "lv-ru",
+  "blockId": "basic-13",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0121": {
+      "text": "голова",
+      "segments": [
+        {
+          "text": "голова",
+          "reading": "galava"
+        }
+      ]
+    },
+    "vocab-0122": {
+      "text": "волосы",
+      "segments": [
+        {
+          "text": "волосы",
+          "reading": "volasi"
+        }
+      ]
+    },
+    "vocab-0123": {
+      "text": "лицо",
+      "segments": [
+        {
+          "text": "лицо",
+          "reading": "ļico"
+        }
+      ]
+    },
+    "vocab-0124": {
+      "text": "глаз",
+      "segments": [
+        {
+          "text": "глаз",
+          "reading": "glas"
+        }
+      ]
+    },
+    "vocab-0125": {
+      "text": "ухо",
+      "segments": [
+        {
+          "text": "ухо",
+          "reading": "uha"
+        }
+      ]
+    },
+    "vocab-0126": {
+      "text": "нос",
+      "segments": [
+        {
+          "text": "нос",
+          "reading": "nos"
+        }
+      ]
+    },
+    "vocab-0127": {
+      "text": "рот",
+      "segments": [
+        {
+          "text": "рот",
+          "reading": "rot"
+        }
+      ]
+    },
+    "vocab-0128": {
+      "text": "зуб",
+      "segments": [
+        {
+          "text": "зуб",
+          "reading": "zup"
+        }
+      ]
+    },
+    "vocab-0129": {
+      "text": "язык",
+      "segments": [
+        {
+          "text": "язык",
+          "reading": "jazik"
+        }
+      ]
+    },
+    "vocab-0130": {
+      "text": "шея",
+      "segments": [
+        {
+          "text": "шея",
+          "reading": "šeja"
+        }
+      ]
+    }
+  }
+}

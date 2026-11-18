@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "direction": "en-ja",
+  "blockId": "basic-34",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0331": {
+      "text": "十一月",
+      "segments": [
+        {
+          "text": "十",
+          "reading": "juu"
+        },
+        {
+          "text": "一",
+          "reading": "ichi"
+        },
+        {
+          "text": "月",
+          "reading": "gatsu"
+        }
+      ]
+    },
+    "vocab-0332": {
+      "text": "十二月",
+      "segments": [
+        {
+          "text": "十",
+          "reading": "juu"
+        },
+        {
+          "text": "二",
+          "reading": "ni"
+        },
+        {
+          "text": "月",
+          "reading": "gatsu"
+        }
+      ]
+    },
+    "vocab-0333": {
+      "text": "春",
+      "segments": [
+        {
+          "text": "春",
+          "reading": "haru"
+        }
+      ]
+    },
+    "vocab-0334": {
+      "text": "夏",
+      "segments": [
+        {
+          "text": "夏",
+          "reading": "natsu"
+        }
+      ]
+    },
+    "vocab-0335": {
+      "text": "秋",
+      "segments": [
+        {
+          "text": "秋",
+          "reading": "aki"
+        }
+      ]
+    },
+    "vocab-0336": {
+      "text": "冬",
+      "segments": [
+        {
+          "text": "冬",
+          "reading": "fuyu"
+        }
+      ]
+    },
+    "vocab-0337": {
+      "text": "季節",
+      "segments": [
+        {
+          "text": "季",
+          "reading": "ki"
+        },
+        {
+          "text": "節",
+          "reading": "setsu"
+        }
+      ]
+    },
+    "vocab-0338": {
+      "text": "天気",
+      "segments": [
+        {
+          "text": "天",
+          "reading": "ten"
+        },
+        {
+          "text": "気",
+          "reading": "ki"
+        }
+      ]
+    },
+    "vocab-0339": {
+      "text": "太陽",
+      "segments": [
+        {
+          "text": "太",
+          "reading": "tai"
+        },
+        {
+          "text": "陽",
+          "reading": "you"
+        }
+      ]
+    },
+    "vocab-0340": {
+      "text": "お月さま",
+      "segments": [
+        {
+          "text": "お",
+          "reading": "o"
+        },
+        {
+          "text": "月",
+          "reading": "tsuki"
+        },
+        {
+          "text": "さ",
+          "reading": "sa"
+        },
+        {
+          "text": "ま",
+          "reading": "ma"
+        }
+      ]
+    }
+  }
+}

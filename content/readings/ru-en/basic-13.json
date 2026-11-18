@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "ru-en",
+  "blockId": "basic-13",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0121": {
+      "text": "head",
+      "segments": [
+        {
+          "text": "head",
+          "reading": "хэд"
+        }
+      ]
+    },
+    "vocab-0122": {
+      "text": "hair",
+      "segments": [
+        {
+          "text": "hair",
+          "reading": "хэр"
+        }
+      ]
+    },
+    "vocab-0123": {
+      "text": "face",
+      "segments": [
+        {
+          "text": "face",
+          "reading": "фэйс"
+        }
+      ]
+    },
+    "vocab-0124": {
+      "text": "eye",
+      "segments": [
+        {
+          "text": "eye",
+          "reading": "ай"
+        }
+      ]
+    },
+    "vocab-0125": {
+      "text": "ear",
+      "segments": [
+        {
+          "text": "ear",
+          "reading": "ир"
+        }
+      ]
+    },
+    "vocab-0126": {
+      "text": "nose",
+      "segments": [
+        {
+          "text": "nose",
+          "reading": "ноуз"
+        }
+      ]
+    },
+    "vocab-0127": {
+      "text": "mouth",
+      "segments": [
+        {
+          "text": "mouth",
+          "reading": "маус"
+        }
+      ]
+    },
+    "vocab-0128": {
+      "text": "tooth",
+      "segments": [
+        {
+          "text": "tooth",
+          "reading": "тус"
+        }
+      ]
+    },
+    "vocab-0129": {
+      "text": "tongue",
+      "segments": [
+        {
+          "text": "tongue",
+          "reading": "танг"
+        }
+      ]
+    },
+    "vocab-0130": {
+      "text": "neck",
+      "segments": [
+        {
+          "text": "neck",
+          "reading": "нэк"
+        }
+      ]
+    }
+  }
+}

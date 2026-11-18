@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "lv-ru",
+  "blockId": "basic-32",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0311": {
+      "text": "понедельник",
+      "segments": [
+        {
+          "text": "понедельник",
+          "reading": "paņideļņik"
+        }
+      ]
+    },
+    "vocab-0312": {
+      "text": "вторник",
+      "segments": [
+        {
+          "text": "вторник",
+          "reading": "ftorņik"
+        }
+      ]
+    },
+    "vocab-0313": {
+      "text": "среда",
+      "segments": [
+        {
+          "text": "среда",
+          "reading": "srida"
+        }
+      ]
+    },
+    "vocab-0314": {
+      "text": "четверг",
+      "segments": [
+        {
+          "text": "четверг",
+          "reading": "čitverk"
+        }
+      ]
+    },
+    "vocab-0315": {
+      "text": "пятница",
+      "segments": [
+        {
+          "text": "пятница",
+          "reading": "pjatņica"
+        }
+      ]
+    },
+    "vocab-0316": {
+      "text": "суббота",
+      "segments": [
+        {
+          "text": "суббота",
+          "reading": "subota"
+        }
+      ]
+    },
+    "vocab-0317": {
+      "text": "воскресенье",
+      "segments": [
+        {
+          "text": "воскресенье",
+          "reading": "vaskriseņje"
+        }
+      ]
+    },
+    "vocab-0318": {
+      "text": "выходные",
+      "segments": [
+        {
+          "text": "выходные",
+          "reading": "vihadnije"
+        }
+      ]
+    },
+    "vocab-0319": {
+      "text": "час",
+      "segments": [
+        {
+          "text": "час",
+          "reading": "čas"
+        }
+      ]
+    },
+    "vocab-0320": {
+      "text": "минута",
+      "segments": [
+        {
+          "text": "минута",
+          "reading": "minuta"
+        }
+      ]
+    }
+  }
+}

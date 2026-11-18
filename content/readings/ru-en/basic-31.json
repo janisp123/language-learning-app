@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "ru-en",
+  "blockId": "basic-31",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0301": {
+      "text": "day",
+      "segments": [
+        {
+          "text": "day",
+          "reading": "дэй"
+        }
+      ]
+    },
+    "vocab-0302": {
+      "text": "night",
+      "segments": [
+        {
+          "text": "night",
+          "reading": "найт"
+        }
+      ]
+    },
+    "vocab-0303": {
+      "text": "morning",
+      "segments": [
+        {
+          "text": "morning",
+          "reading": "морнинг"
+        }
+      ]
+    },
+    "vocab-0304": {
+      "text": "evening",
+      "segments": [
+        {
+          "text": "evening",
+          "reading": "ивнинг"
+        }
+      ]
+    },
+    "vocab-0305": {
+      "text": "today",
+      "segments": [
+        {
+          "text": "today",
+          "reading": "тэдэй"
+        }
+      ]
+    },
+    "vocab-0306": {
+      "text": "tomorrow",
+      "segments": [
+        {
+          "text": "tomorrow",
+          "reading": "тэмароу"
+        }
+      ]
+    },
+    "vocab-0307": {
+      "text": "yesterday",
+      "segments": [
+        {
+          "text": "yesterday",
+          "reading": "йэстэрдэй"
+        }
+      ]
+    },
+    "vocab-0308": {
+      "text": "week",
+      "segments": [
+        {
+          "text": "week",
+          "reading": "уик"
+        }
+      ]
+    },
+    "vocab-0309": {
+      "text": "month",
+      "segments": [
+        {
+          "text": "month",
+          "reading": "манс"
+        }
+      ]
+    },
+    "vocab-0310": {
+      "text": "year",
+      "segments": [
+        {
+          "text": "year",
+          "reading": "йир"
+        }
+      ]
+    }
+  }
+}

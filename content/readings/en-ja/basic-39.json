@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "direction": "en-ja",
+  "blockId": "basic-39",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0381": {
+      "text": "道路",
+      "segments": [
+        {
+          "text": "道",
+          "reading": "dou"
+        },
+        {
+          "text": "路",
+          "reading": "ro"
+        }
+      ]
+    },
+    "vocab-0382": {
+      "text": "橋",
+      "segments": [
+        {
+          "text": "橋",
+          "reading": "hashi"
+        }
+      ]
+    },
+    "vocab-0383": {
+      "text": "横断歩道",
+      "segments": [
+        {
+          "text": "横",
+          "reading": "ou"
+        },
+        {
+          "text": "断",
+          "reading": "dan"
+        },
+        {
+          "text": "歩",
+          "reading": "ho"
+        },
+        {
+          "text": "道",
+          "reading": "dou"
+        }
+      ]
+    },
+    "vocab-0384": {
+      "text": "信号機",
+      "segments": [
+        {
+          "text": "信",
+          "reading": "shin"
+        },
+        {
+          "text": "号",
+          "reading": "gou"
+        },
+        {
+          "text": "機",
+          "reading": "ki"
+        }
+      ]
+    },
+    "vocab-0385": {
+      "text": "歩道",
+      "segments": [
+        {
+          "text": "歩",
+          "reading": "ho"
+        },
+        {
+          "text": "道",
+          "reading": "dou"
+        }
+      ]
+    },
+    "vocab-0386": {
+      "text": "角",
+      "segments": [
+        {
+          "text": "角",
+          "reading": "kado"
+        }
+      ]
+    },
+    "vocab-0387": {
+      "text": "広場",
+      "segments": [
+        {
+          "text": "広",
+          "reading": "hiro"
+        },
+        {
+          "text": "場",
+          "reading": "ba"
+        }
+      ]
+    },
+    "vocab-0388": {
+      "text": "中心",
+      "segments": [
+        {
+          "text": "中",
+          "reading": "chuu"
+        },
+        {
+          "text": "心",
+          "reading": "shin"
+        }
+      ]
+    },
+    "vocab-0389": {
+      "text": "住所",
+      "segments": [
+        {
+          "text": "住",
+          "reading": "juu"
+        },
+        {
+          "text": "所",
+          "reading": "sho"
+        }
+      ]
+    },
+    "vocab-0390": {
+      "text": "市街地図",
+      "segments": [
+        {
+          "text": "市",
+          "reading": "shi"
+        },
+        {
+          "text": "街",
+          "reading": "gai"
+        },
+        {
+          "text": "地",
+          "reading": "chi"
+        },
+        {
+          "text": "図",
+          "reading": "zu"
+        }
+      ]
+    }
+  }
+}

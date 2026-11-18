@@ -1,0 +1,273 @@
+{
+  "schemaVersion": 1,
+  "direction": "en-ja",
+  "blockId": "basic-27",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0261": {
+      "text": "助けてください",
+      "segments": [
+        {
+          "text": "助",
+          "reading": "tasu"
+        },
+        {
+          "text": "け",
+          "reading": "ke"
+        },
+        {
+          "text": "て",
+          "reading": "te"
+        },
+        {
+          "text": "く",
+          "reading": "ku"
+        },
+        {
+          "text": "だ",
+          "reading": "da"
+        },
+        {
+          "text": "さ",
+          "reading": "sa"
+        },
+        {
+          "text": "い",
+          "reading": "i"
+        }
+      ]
+    },
+    "vocab-0262": {
+      "text": "もう少し",
+      "segments": [
+        {
+          "text": "も",
+          "reading": "mo"
+        },
+        {
+          "text": "う",
+          "reading": "u"
+        },
+        {
+          "text": "少",
+          "reading": "suko"
+        },
+        {
+          "text": "し",
+          "reading": "shi"
+        }
+      ]
+    },
+    "vocab-0263": {
+      "text": "もっとゆっくり",
+      "segments": [
+        {
+          "text": "も",
+          "reading": "mo"
+        },
+        {
+          "text": "っ",
+          "reading": "(t)",
+          "note": "Doubles the next consonant; hold a brief pause before it."
+        },
+        {
+          "text": "と",
+          "reading": "to"
+        },
+        {
+          "text": "ゆ",
+          "reading": "yu"
+        },
+        {
+          "text": "っ",
+          "reading": "(k)",
+          "note": "Doubles the next consonant; hold a brief pause before it."
+        },
+        {
+          "text": "く",
+          "reading": "ku"
+        },
+        {
+          "text": "り",
+          "reading": "ri"
+        }
+      ]
+    },
+    "vocab-0264": {
+      "text": "今はだめ",
+      "segments": [
+        {
+          "text": "今",
+          "reading": "ima"
+        },
+        {
+          "text": "は",
+          "reading": "wa",
+          "note": "は is pronounced wa in this expression."
+        },
+        {
+          "text": "だ",
+          "reading": "da"
+        },
+        {
+          "text": "め",
+          "reading": "me"
+        }
+      ]
+    },
+    "vocab-0265": {
+      "text": "いいえ結構です",
+      "segments": [
+        {
+          "text": "い",
+          "reading": "i"
+        },
+        {
+          "text": "い",
+          "reading": "i"
+        },
+        {
+          "text": "え",
+          "reading": "e"
+        },
+        {
+          "text": "結構",
+          "reading": "kekkou",
+          "note": "Read together: the consonant doubles across the kanji boundary."
+        },
+        {
+          "text": "で",
+          "reading": "de"
+        },
+        {
+          "text": "す",
+          "reading": "su"
+        }
+      ]
+    },
+    "vocab-0266": {
+      "text": "すみません",
+      "segments": [
+        {
+          "text": "す",
+          "reading": "su"
+        },
+        {
+          "text": "み",
+          "reading": "mi"
+        },
+        {
+          "text": "ま",
+          "reading": "ma"
+        },
+        {
+          "text": "せ",
+          "reading": "se"
+        },
+        {
+          "text": "ん",
+          "reading": "n"
+        }
+      ]
+    },
+    "vocab-0267": {
+      "text": "頑張って",
+      "segments": [
+        {
+          "text": "頑",
+          "reading": "gan"
+        },
+        {
+          "text": "張",
+          "reading": "ba",
+          "note": "Sound portion ba before the following small っ in 頑張って (ganbatte)."
+        },
+        {
+          "text": "っ",
+          "reading": "(t)",
+          "note": "Doubles the next consonant; hold a brief pause before it."
+        },
+        {
+          "text": "て",
+          "reading": "te"
+        }
+      ]
+    },
+    "vocab-0268": {
+      "text": "よくできました",
+      "segments": [
+        {
+          "text": "よ",
+          "reading": "yo"
+        },
+        {
+          "text": "く",
+          "reading": "ku"
+        },
+        {
+          "text": "で",
+          "reading": "de"
+        },
+        {
+          "text": "き",
+          "reading": "ki"
+        },
+        {
+          "text": "ま",
+          "reading": "ma"
+        },
+        {
+          "text": "し",
+          "reading": "shi"
+        },
+        {
+          "text": "た",
+          "reading": "ta"
+        }
+      ]
+    },
+    "vocab-0269": {
+      "text": "こんにちは",
+      "segments": [
+        {
+          "text": "こ",
+          "reading": "ko"
+        },
+        {
+          "text": "ん",
+          "reading": "n"
+        },
+        {
+          "text": "に",
+          "reading": "ni"
+        },
+        {
+          "text": "ち",
+          "reading": "chi"
+        },
+        {
+          "text": "は",
+          "reading": "wa",
+          "note": "は is pronounced wa in this expression."
+        }
+      ]
+    },
+    "vocab-0270": {
+      "text": "喜んで",
+      "segments": [
+        {
+          "text": "喜",
+          "reading": "yoroko"
+        },
+        {
+          "text": "ん",
+          "reading": "n"
+        },
+        {
+          "text": "で",
+          "reading": "de"
+        }
+      ]
+    }
+  }
+}

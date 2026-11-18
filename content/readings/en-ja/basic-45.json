@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "direction": "en-ja",
+  "blockId": "basic-45",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0441": {
+      "text": "開ける",
+      "segments": [
+        {
+          "text": "開",
+          "reading": "a"
+        },
+        {
+          "text": "け",
+          "reading": "ke"
+        },
+        {
+          "text": "る",
+          "reading": "ru"
+        }
+      ]
+    },
+    "vocab-0442": {
+      "text": "閉める",
+      "segments": [
+        {
+          "text": "閉",
+          "reading": "shi"
+        },
+        {
+          "text": "め",
+          "reading": "me"
+        },
+        {
+          "text": "る",
+          "reading": "ru"
+        }
+      ]
+    },
+    "vocab-0443": {
+      "text": "始める",
+      "segments": [
+        {
+          "text": "始",
+          "reading": "haji"
+        },
+        {
+          "text": "め",
+          "reading": "me"
+        },
+        {
+          "text": "る",
+          "reading": "ru"
+        }
+      ]
+    },
+    "vocab-0444": {
+      "text": "終える",
+      "segments": [
+        {
+          "text": "終",
+          "reading": "o"
+        },
+        {
+          "text": "え",
+          "reading": "e"
+        },
+        {
+          "text": "る",
+          "reading": "ru"
+        }
+      ]
+    },
+    "vocab-0445": {
+      "text": "待つ",
+      "segments": [
+        {
+          "text": "待",
+          "reading": "ma"
+        },
+        {
+          "text": "つ",
+          "reading": "tsu"
+        }
+      ]
+    },
+    "vocab-0446": {
+      "text": "助ける",
+      "segments": [
+        {
+          "text": "助",
+          "reading": "tasu"
+        },
+        {
+          "text": "け",
+          "reading": "ke"
+        },
+        {
+          "text": "る",
+          "reading": "ru"
+        }
+      ]
+    },
+    "vocab-0447": {
+      "text": "遊ぶ",
+      "segments": [
+        {
+          "text": "遊",
+          "reading": "aso"
+        },
+        {
+          "text": "ぶ",
+          "reading": "bu"
+        }
+      ]
+    },
+    "vocab-0448": {
+      "text": "働く",
+      "segments": [
+        {
+          "text": "働",
+          "reading": "hatara"
+        },
+        {
+          "text": "く",
+          "reading": "ku"
+        }
+      ]
+    },
+    "vocab-0449": {
+      "text": "洗う",
+      "segments": [
+        {
+          "text": "洗",
+          "reading": "ara"
+        },
+        {
+          "text": "う",
+          "reading": "u"
+        }
+      ]
+    },
+    "vocab-0450": {
+      "text": "掃除する",
+      "segments": [
+        {
+          "text": "掃",
+          "reading": "sou"
+        },
+        {
+          "text": "除",
+          "reading": "ji"
+        },
+        {
+          "text": "す",
+          "reading": "su"
+        },
+        {
+          "text": "る",
+          "reading": "ru"
+        }
+      ]
+    }
+  }
+}

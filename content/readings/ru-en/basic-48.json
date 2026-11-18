@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "ru-en",
+  "blockId": "basic-48",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0471": {
+      "text": "red",
+      "segments": [
+        {
+          "text": "red",
+          "reading": "рэд"
+        }
+      ]
+    },
+    "vocab-0472": {
+      "text": "blue",
+      "segments": [
+        {
+          "text": "blue",
+          "reading": "блу"
+        }
+      ]
+    },
+    "vocab-0473": {
+      "text": "green",
+      "segments": [
+        {
+          "text": "green",
+          "reading": "грин"
+        }
+      ]
+    },
+    "vocab-0474": {
+      "text": "yellow",
+      "segments": [
+        {
+          "text": "yellow",
+          "reading": "йэлоу"
+        }
+      ]
+    },
+    "vocab-0475": {
+      "text": "black",
+      "segments": [
+        {
+          "text": "black",
+          "reading": "блэк"
+        }
+      ]
+    },
+    "vocab-0476": {
+      "text": "white",
+      "segments": [
+        {
+          "text": "white",
+          "reading": "уайт"
+        }
+      ]
+    },
+    "vocab-0477": {
+      "text": "grey",
+      "segments": [
+        {
+          "text": "grey",
+          "reading": "грэй"
+        }
+      ]
+    },
+    "vocab-0478": {
+      "text": "brown",
+      "segments": [
+        {
+          "text": "brown",
+          "reading": "браун"
+        }
+      ]
+    },
+    "vocab-0479": {
+      "text": "pink",
+      "segments": [
+        {
+          "text": "pink",
+          "reading": "пинк"
+        }
+      ]
+    },
+    "vocab-0480": {
+      "text": "purple",
+      "segments": [
+        {
+          "text": "purple",
+          "reading": "пёрпэл"
+        }
+      ]
+    }
+  }
+}

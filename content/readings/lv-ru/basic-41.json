@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "lv-ru",
+  "blockId": "basic-41",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0401": {
+      "text": "буква",
+      "segments": [
+        {
+          "text": "буква",
+          "reading": "bukva"
+        }
+      ]
+    },
+    "vocab-0402": {
+      "text": "слово",
+      "segments": [
+        {
+          "text": "слово",
+          "reading": "slova"
+        }
+      ]
+    },
+    "vocab-0403": {
+      "text": "фраза",
+      "segments": [
+        {
+          "text": "фраза",
+          "reading": "fraza"
+        }
+      ]
+    },
+    "vocab-0404": {
+      "text": "предложение",
+      "segments": [
+        {
+          "text": "предложение",
+          "reading": "pridlažeņije"
+        }
+      ]
+    },
+    "vocab-0405": {
+      "text": "вопрос",
+      "segments": [
+        {
+          "text": "вопрос",
+          "reading": "vapros"
+        }
+      ]
+    },
+    "vocab-0406": {
+      "text": "ответ",
+      "segments": [
+        {
+          "text": "ответ",
+          "reading": "atvet"
+        }
+      ]
+    },
+    "vocab-0407": {
+      "text": "страница",
+      "segments": [
+        {
+          "text": "страница",
+          "reading": "straņica"
+        }
+      ]
+    },
+    "vocab-0408": {
+      "text": "упражнение",
+      "segments": [
+        {
+          "text": "упражнение",
+          "reading": "upražņeņije"
+        }
+      ]
+    },
+    "vocab-0409": {
+      "text": "пример",
+      "segments": [
+        {
+          "text": "пример",
+          "reading": "primer"
+        }
+      ]
+    },
+    "vocab-0410": {
+      "text": "ошибка",
+      "segments": [
+        {
+          "text": "ошибка",
+          "reading": "ašipka"
+        }
+      ]
+    }
+  }
+}

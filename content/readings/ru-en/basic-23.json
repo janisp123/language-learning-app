@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "ru-en",
+  "blockId": "basic-23",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0221": {
+      "text": "pear",
+      "segments": [
+        {
+          "text": "pear",
+          "reading": "пэр"
+        }
+      ]
+    },
+    "vocab-0222": {
+      "text": "orange",
+      "segments": [
+        {
+          "text": "orange",
+          "reading": "ориндж"
+        }
+      ]
+    },
+    "vocab-0223": {
+      "text": "lemon",
+      "segments": [
+        {
+          "text": "lemon",
+          "reading": "лэмэн"
+        }
+      ]
+    },
+    "vocab-0224": {
+      "text": "grapes",
+      "segments": [
+        {
+          "text": "grapes",
+          "reading": "грэйпс"
+        }
+      ]
+    },
+    "vocab-0225": {
+      "text": "strawberry",
+      "segments": [
+        {
+          "text": "strawberry",
+          "reading": "стробэри"
+        }
+      ]
+    },
+    "vocab-0226": {
+      "text": "raspberry",
+      "segments": [
+        {
+          "text": "raspberry",
+          "reading": "рэзбэри"
+        }
+      ]
+    },
+    "vocab-0227": {
+      "text": "cherry",
+      "segments": [
+        {
+          "text": "cherry",
+          "reading": "чэри"
+        }
+      ]
+    },
+    "vocab-0228": {
+      "text": "plum",
+      "segments": [
+        {
+          "text": "plum",
+          "reading": "плам"
+        }
+      ]
+    },
+    "vocab-0229": {
+      "text": "peach",
+      "segments": [
+        {
+          "text": "peach",
+          "reading": "пич"
+        }
+      ]
+    },
+    "vocab-0230": {
+      "text": "watermelon",
+      "segments": [
+        {
+          "text": "watermelon",
+          "reading": "уотэрмэлэн"
+        }
+      ]
+    }
+  }
+}

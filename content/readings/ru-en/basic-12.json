@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "ru-en",
+  "blockId": "basic-12",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0111": {
+      "text": "woman",
+      "segments": [
+        {
+          "text": "woman",
+          "reading": "уумэн"
+        }
+      ]
+    },
+    "vocab-0112": {
+      "text": "man",
+      "segments": [
+        {
+          "text": "man",
+          "reading": "мэн"
+        }
+      ]
+    },
+    "vocab-0113": {
+      "text": "people",
+      "segments": [
+        {
+          "text": "people",
+          "reading": "пипэл"
+        }
+      ]
+    },
+    "vocab-0114": {
+      "text": "children",
+      "segments": [
+        {
+          "text": "children",
+          "reading": "чилдрэн"
+        }
+      ]
+    },
+    "vocab-0115": {
+      "text": "classmate",
+      "segments": [
+        {
+          "text": "classmate",
+          "reading": "клэсмэйт"
+        }
+      ]
+    },
+    "vocab-0116": {
+      "text": "student",
+      "segments": [
+        {
+          "text": "student",
+          "reading": "студэнт"
+        }
+      ]
+    },
+    "vocab-0117": {
+      "text": "driver",
+      "segments": [
+        {
+          "text": "driver",
+          "reading": "драйвэр"
+        }
+      ]
+    },
+    "vocab-0118": {
+      "text": "seller",
+      "segments": [
+        {
+          "text": "seller",
+          "reading": "сэлэр"
+        }
+      ]
+    },
+    "vocab-0119": {
+      "text": "passenger",
+      "segments": [
+        {
+          "text": "passenger",
+          "reading": "пэсэнджэр"
+        }
+      ]
+    },
+    "vocab-0120": {
+      "text": "visitor",
+      "segments": [
+        {
+          "text": "visitor",
+          "reading": "визитэр"
+        }
+      ]
+    }
+  }
+}

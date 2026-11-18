@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "lv-ru",
+  "blockId": "basic-10",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0091": {
+      "text": "кто",
+      "segments": [
+        {
+          "text": "кто",
+          "reading": "kto"
+        }
+      ]
+    },
+    "vocab-0092": {
+      "text": "что",
+      "segments": [
+        {
+          "text": "что",
+          "reading": "što"
+        }
+      ]
+    },
+    "vocab-0093": {
+      "text": "где",
+      "segments": [
+        {
+          "text": "где",
+          "reading": "gde"
+        }
+      ]
+    },
+    "vocab-0094": {
+      "text": "когда",
+      "segments": [
+        {
+          "text": "когда",
+          "reading": "kagda"
+        }
+      ]
+    },
+    "vocab-0095": {
+      "text": "почему",
+      "segments": [
+        {
+          "text": "почему",
+          "reading": "pačimu"
+        }
+      ]
+    },
+    "vocab-0096": {
+      "text": "как",
+      "segments": [
+        {
+          "text": "как",
+          "reading": "kak"
+        }
+      ]
+    },
+    "vocab-0097": {
+      "text": "сколько",
+      "segments": [
+        {
+          "text": "сколько",
+          "reading": "skoļka"
+        }
+      ]
+    },
+    "vocab-0098": {
+      "text": "какая цена",
+      "segments": [
+        {
+          "text": "какая цена",
+          "reading": "kakaja cina"
+        }
+      ]
+    },
+    "vocab-0099": {
+      "text": "в какую сторону",
+      "segments": [
+        {
+          "text": "в какую сторону",
+          "reading": "f kakuju storanu"
+        }
+      ]
+    },
+    "vocab-0100": {
+      "text": "что ещё",
+      "segments": [
+        {
+          "text": "что ещё",
+          "reading": "što jiščo"
+        }
+      ]
+    }
+  }
+}

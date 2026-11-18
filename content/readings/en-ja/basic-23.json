@@ -1,0 +1,183 @@
+{
+  "schemaVersion": 1,
+  "direction": "en-ja",
+  "blockId": "basic-23",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0221": {
+      "text": "梨",
+      "segments": [
+        {
+          "text": "梨",
+          "reading": "nashi"
+        }
+      ]
+    },
+    "vocab-0222": {
+      "text": "オレンジ",
+      "segments": [
+        {
+          "text": "オ",
+          "reading": "o"
+        },
+        {
+          "text": "レ",
+          "reading": "re"
+        },
+        {
+          "text": "ン",
+          "reading": "n"
+        },
+        {
+          "text": "ジ",
+          "reading": "ji"
+        }
+      ]
+    },
+    "vocab-0223": {
+      "text": "レモン",
+      "segments": [
+        {
+          "text": "レ",
+          "reading": "re"
+        },
+        {
+          "text": "モ",
+          "reading": "mo"
+        },
+        {
+          "text": "ン",
+          "reading": "n"
+        }
+      ]
+    },
+    "vocab-0224": {
+      "text": "ぶどう",
+      "segments": [
+        {
+          "text": "ぶ",
+          "reading": "bu"
+        },
+        {
+          "text": "ど",
+          "reading": "do"
+        },
+        {
+          "text": "う",
+          "reading": "u"
+        }
+      ]
+    },
+    "vocab-0225": {
+      "text": "いちご",
+      "segments": [
+        {
+          "text": "い",
+          "reading": "i"
+        },
+        {
+          "text": "ち",
+          "reading": "chi"
+        },
+        {
+          "text": "ご",
+          "reading": "go"
+        }
+      ]
+    },
+    "vocab-0226": {
+      "text": "ラズベリー",
+      "segments": [
+        {
+          "text": "ラ",
+          "reading": "ra"
+        },
+        {
+          "text": "ズ",
+          "reading": "zu"
+        },
+        {
+          "text": "ベ",
+          "reading": "be"
+        },
+        {
+          "text": "リ",
+          "reading": "ri"
+        },
+        {
+          "text": "ー",
+          "reading": "—",
+          "note": "Lengthens the preceding vowel; it has no separate consonant sound."
+        }
+      ]
+    },
+    "vocab-0227": {
+      "text": "さくらんぼ",
+      "segments": [
+        {
+          "text": "さ",
+          "reading": "sa"
+        },
+        {
+          "text": "く",
+          "reading": "ku"
+        },
+        {
+          "text": "ら",
+          "reading": "ra"
+        },
+        {
+          "text": "ん",
+          "reading": "n"
+        },
+        {
+          "text": "ぼ",
+          "reading": "bo"
+        }
+      ]
+    },
+    "vocab-0228": {
+      "text": "すもも",
+      "segments": [
+        {
+          "text": "す",
+          "reading": "su"
+        },
+        {
+          "text": "も",
+          "reading": "mo"
+        },
+        {
+          "text": "も",
+          "reading": "mo"
+        }
+      ]
+    },
+    "vocab-0229": {
+      "text": "桃",
+      "segments": [
+        {
+          "text": "桃",
+          "reading": "momo"
+        }
+      ]
+    },
+    "vocab-0230": {
+      "text": "すいか",
+      "segments": [
+        {
+          "text": "す",
+          "reading": "su"
+        },
+        {
+          "text": "い",
+          "reading": "i"
+        },
+        {
+          "text": "か",
+          "reading": "ka"
+        }
+      ]
+    }
+  }
+}

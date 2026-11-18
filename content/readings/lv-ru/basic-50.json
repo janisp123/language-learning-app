@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "lv-ru",
+  "blockId": "basic-50",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0491": {
+      "text": "я",
+      "segments": [
+        {
+          "text": "я",
+          "reading": "ja"
+        }
+      ]
+    },
+    "vocab-0492": {
+      "text": "ты",
+      "segments": [
+        {
+          "text": "ты",
+          "reading": "ti"
+        }
+      ]
+    },
+    "vocab-0493": {
+      "text": "он",
+      "segments": [
+        {
+          "text": "он",
+          "reading": "on"
+        }
+      ]
+    },
+    "vocab-0494": {
+      "text": "она",
+      "segments": [
+        {
+          "text": "она",
+          "reading": "ana"
+        }
+      ]
+    },
+    "vocab-0495": {
+      "text": "мы",
+      "segments": [
+        {
+          "text": "мы",
+          "reading": "mi"
+        }
+      ]
+    },
+    "vocab-0496": {
+      "text": "они",
+      "segments": [
+        {
+          "text": "они",
+          "reading": "aņi"
+        }
+      ]
+    },
+    "vocab-0497": {
+      "text": "этот",
+      "segments": [
+        {
+          "text": "этот",
+          "reading": "etat"
+        }
+      ]
+    },
+    "vocab-0498": {
+      "text": "тот",
+      "segments": [
+        {
+          "text": "тот",
+          "reading": "tot"
+        }
+      ]
+    },
+    "vocab-0499": {
+      "text": "всё",
+      "segments": [
+        {
+          "text": "всё",
+          "reading": "fsjo"
+        }
+      ]
+    },
+    "vocab-0500": {
+      "text": "ничего",
+      "segments": [
+        {
+          "text": "ничего",
+          "reading": "ņičivo"
+        }
+      ]
+    }
+  }
+}

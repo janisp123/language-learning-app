@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "direction": "en-ja",
+  "blockId": "basic-02",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0011": {
+      "text": "人",
+      "segments": [
+        {
+          "text": "人",
+          "reading": "hito"
+        }
+      ]
+    },
+    "vocab-0012": {
+      "text": "子供",
+      "segments": [
+        {
+          "text": "子",
+          "reading": "ko"
+        },
+        {
+          "text": "供",
+          "reading": "domo",
+          "note": "Voiced reading domo in 子供 (kodomo)."
+        }
+      ]
+    },
+    "vocab-0013": {
+      "text": "男の子",
+      "segments": [
+        {
+          "text": "男",
+          "reading": "otoko"
+        },
+        {
+          "text": "の",
+          "reading": "no"
+        },
+        {
+          "text": "子",
+          "reading": "ko"
+        }
+      ]
+    },
+    "vocab-0014": {
+      "text": "女の子",
+      "segments": [
+        {
+          "text": "女",
+          "reading": "onna"
+        },
+        {
+          "text": "の",
+          "reading": "no"
+        },
+        {
+          "text": "子",
+          "reading": "ko"
+        }
+      ]
+    },
+    "vocab-0015": {
+      "text": "友達",
+      "segments": [
+        {
+          "text": "友",
+          "reading": "tomo"
+        },
+        {
+          "text": "達",
+          "reading": "dachi",
+          "note": "Voiced reading dachi in 友達 (tomodachi)."
+        }
+      ]
+    },
+    "vocab-0016": {
+      "text": "家族",
+      "segments": [
+        {
+          "text": "家",
+          "reading": "ka"
+        },
+        {
+          "text": "族",
+          "reading": "zoku"
+        }
+      ]
+    },
+    "vocab-0017": {
+      "text": "母",
+      "segments": [
+        {
+          "text": "母",
+          "reading": "haha"
+        }
+      ]
+    },
+    "vocab-0018": {
+      "text": "父",
+      "segments": [
+        {
+          "text": "父",
+          "reading": "chichi"
+        }
+      ]
+    },
+    "vocab-0019": {
+      "text": "姉か妹",
+      "segments": [
+        {
+          "text": "姉",
+          "reading": "ane"
+        },
+        {
+          "text": "か",
+          "reading": "ka"
+        },
+        {
+          "text": "妹",
+          "reading": "imouto"
+        }
+      ]
+    },
+    "vocab-0020": {
+      "text": "兄か弟",
+      "segments": [
+        {
+          "text": "兄",
+          "reading": "ani"
+        },
+        {
+          "text": "か",
+          "reading": "ka"
+        },
+        {
+          "text": "弟",
+          "reading": "otouto"
+        }
+      ]
+    }
+  }
+}

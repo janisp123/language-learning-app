@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "ru-en",
+  "blockId": "basic-08",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0071": {
+      "text": "left",
+      "segments": [
+        {
+          "text": "left",
+          "reading": "лэфт"
+        }
+      ]
+    },
+    "vocab-0072": {
+      "text": "right",
+      "segments": [
+        {
+          "text": "right",
+          "reading": "райт"
+        }
+      ]
+    },
+    "vocab-0073": {
+      "text": "straight",
+      "segments": [
+        {
+          "text": "straight",
+          "reading": "стрэйт"
+        }
+      ]
+    },
+    "vocab-0074": {
+      "text": "near",
+      "segments": [
+        {
+          "text": "near",
+          "reading": "нир"
+        }
+      ]
+    },
+    "vocab-0075": {
+      "text": "far",
+      "segments": [
+        {
+          "text": "far",
+          "reading": "фар"
+        }
+      ]
+    },
+    "vocab-0076": {
+      "text": "inside",
+      "segments": [
+        {
+          "text": "inside",
+          "reading": "инсайд"
+        }
+      ]
+    },
+    "vocab-0077": {
+      "text": "outside",
+      "segments": [
+        {
+          "text": "outside",
+          "reading": "аутсайд"
+        }
+      ]
+    },
+    "vocab-0078": {
+      "text": "up",
+      "segments": [
+        {
+          "text": "up",
+          "reading": "ап"
+        }
+      ]
+    },
+    "vocab-0079": {
+      "text": "down",
+      "segments": [
+        {
+          "text": "down",
+          "reading": "даун"
+        }
+      ]
+    },
+    "vocab-0080": {
+      "text": "opposite",
+      "segments": [
+        {
+          "text": "opposite",
+          "reading": "апэзит"
+        }
+      ]
+    }
+  }
+}

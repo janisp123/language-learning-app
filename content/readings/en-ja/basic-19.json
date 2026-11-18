@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "direction": "en-ja",
+  "blockId": "basic-19",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0181": {
+      "text": "ドア",
+      "segments": [
+        {
+          "text": "ド",
+          "reading": "do"
+        },
+        {
+          "text": "ア",
+          "reading": "a"
+        }
+      ]
+    },
+    "vocab-0182": {
+      "text": "窓",
+      "segments": [
+        {
+          "text": "窓",
+          "reading": "mado"
+        }
+      ]
+    },
+    "vocab-0183": {
+      "text": "壁",
+      "segments": [
+        {
+          "text": "壁",
+          "reading": "kabe"
+        }
+      ]
+    },
+    "vocab-0184": {
+      "text": "床",
+      "segments": [
+        {
+          "text": "床",
+          "reading": "yuka"
+        }
+      ]
+    },
+    "vocab-0185": {
+      "text": "天井",
+      "segments": [
+        {
+          "text": "天",
+          "reading": "ten"
+        },
+        {
+          "text": "井",
+          "reading": "jou"
+        }
+      ]
+    },
+    "vocab-0186": {
+      "text": "屋根",
+      "segments": [
+        {
+          "text": "屋",
+          "reading": "ya"
+        },
+        {
+          "text": "根",
+          "reading": "ne"
+        }
+      ]
+    },
+    "vocab-0187": {
+      "text": "階段",
+      "segments": [
+        {
+          "text": "階",
+          "reading": "kai"
+        },
+        {
+          "text": "段",
+          "reading": "dan"
+        }
+      ]
+    },
+    "vocab-0188": {
+      "text": "部屋",
+      "segments": [
+        {
+          "text": "部",
+          "reading": "he",
+          "note": "Contextual reading he in 部屋 (heya)."
+        },
+        {
+          "text": "屋",
+          "reading": "ya"
+        }
+      ]
+    },
+    "vocab-0189": {
+      "text": "台所",
+      "segments": [
+        {
+          "text": "台",
+          "reading": "dai"
+        },
+        {
+          "text": "所",
+          "reading": "dokoro",
+          "note": "Voiced reading dokoro in 台所 (daidokoro)."
+        }
+      ]
+    },
+    "vocab-0190": {
+      "text": "浴室",
+      "segments": [
+        {
+          "text": "浴",
+          "reading": "yoku"
+        },
+        {
+          "text": "室",
+          "reading": "shitsu"
+        }
+      ]
+    }
+  }
+}

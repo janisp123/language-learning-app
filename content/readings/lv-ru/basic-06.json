@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "lv-ru",
+  "blockId": "basic-06",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0051": {
+      "text": "вода",
+      "segments": [
+        {
+          "text": "вода",
+          "reading": "vada"
+        }
+      ]
+    },
+    "vocab-0052": {
+      "text": "хлеб",
+      "segments": [
+        {
+          "text": "хлеб",
+          "reading": "hļep"
+        }
+      ]
+    },
+    "vocab-0053": {
+      "text": "молоко",
+      "segments": [
+        {
+          "text": "молоко",
+          "reading": "malako"
+        }
+      ]
+    },
+    "vocab-0054": {
+      "text": "чай",
+      "segments": [
+        {
+          "text": "чай",
+          "reading": "čaj"
+        }
+      ]
+    },
+    "vocab-0055": {
+      "text": "яблоко",
+      "segments": [
+        {
+          "text": "яблоко",
+          "reading": "jablaka"
+        }
+      ]
+    },
+    "vocab-0056": {
+      "text": "банан",
+      "segments": [
+        {
+          "text": "банан",
+          "reading": "banan"
+        }
+      ]
+    },
+    "vocab-0057": {
+      "text": "сыр",
+      "segments": [
+        {
+          "text": "сыр",
+          "reading": "sir"
+        }
+      ]
+    },
+    "vocab-0058": {
+      "text": "суп",
+      "segments": [
+        {
+          "text": "суп",
+          "reading": "sup"
+        }
+      ]
+    },
+    "vocab-0059": {
+      "text": "сок",
+      "segments": [
+        {
+          "text": "сок",
+          "reading": "sok"
+        }
+      ]
+    },
+    "vocab-0060": {
+      "text": "завтрак",
+      "segments": [
+        {
+          "text": "завтрак",
+          "reading": "zaftrak"
+        }
+      ]
+    }
+  }
+}

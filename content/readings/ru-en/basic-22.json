@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "ru-en",
+  "blockId": "basic-22",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0211": {
+      "text": "soap",
+      "segments": [
+        {
+          "text": "soap",
+          "reading": "соуп"
+        }
+      ]
+    },
+    "vocab-0212": {
+      "text": "towel",
+      "segments": [
+        {
+          "text": "towel",
+          "reading": "тауэл"
+        }
+      ]
+    },
+    "vocab-0213": {
+      "text": "toothbrush",
+      "segments": [
+        {
+          "text": "toothbrush",
+          "reading": "тусбраш"
+        }
+      ]
+    },
+    "vocab-0214": {
+      "text": "toothpaste",
+      "segments": [
+        {
+          "text": "toothpaste",
+          "reading": "туспэйст"
+        }
+      ]
+    },
+    "vocab-0215": {
+      "text": "shampoo",
+      "segments": [
+        {
+          "text": "shampoo",
+          "reading": "шэмпу"
+        }
+      ]
+    },
+    "vocab-0216": {
+      "text": "comb",
+      "segments": [
+        {
+          "text": "comb",
+          "reading": "коум"
+        }
+      ]
+    },
+    "vocab-0217": {
+      "text": "shower",
+      "segments": [
+        {
+          "text": "shower",
+          "reading": "шауэр"
+        }
+      ]
+    },
+    "vocab-0218": {
+      "text": "bath",
+      "segments": [
+        {
+          "text": "bath",
+          "reading": "бэс"
+        }
+      ]
+    },
+    "vocab-0219": {
+      "text": "toilet paper",
+      "segments": [
+        {
+          "text": "toilet paper",
+          "reading": "тойлэт пэйпэр"
+        }
+      ]
+    },
+    "vocab-0220": {
+      "text": "tissue",
+      "segments": [
+        {
+          "text": "tissue",
+          "reading": "тишу"
+        }
+      ]
+    }
+  }
+}

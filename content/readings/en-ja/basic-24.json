@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "direction": "en-ja",
+  "blockId": "basic-24",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0231": {
+      "text": "じゃがいも",
+      "segments": [
+        {
+          "text": "じ",
+          "reading": "ji",
+          "note": "With the following small kana, pronounced ja."
+        },
+        {
+          "text": "ゃ",
+          "reading": "ya",
+          "note": "Small kana: combines with the preceding kana to make ja.",
+          "combinedReading": "ja"
+        },
+        {
+          "text": "が",
+          "reading": "ga"
+        },
+        {
+          "text": "い",
+          "reading": "i"
+        },
+        {
+          "text": "も",
+          "reading": "mo"
+        }
+      ]
+    },
+    "vocab-0232": {
+      "text": "にんじん",
+      "segments": [
+        {
+          "text": "に",
+          "reading": "ni"
+        },
+        {
+          "text": "ん",
+          "reading": "n"
+        },
+        {
+          "text": "じ",
+          "reading": "ji"
+        },
+        {
+          "text": "ん",
+          "reading": "n"
+        }
+      ]
+    },
+    "vocab-0233": {
+      "text": "トマト",
+      "segments": [
+        {
+          "text": "ト",
+          "reading": "to"
+        },
+        {
+          "text": "マ",
+          "reading": "ma"
+        },
+        {
+          "text": "ト",
+          "reading": "to"
+        }
+      ]
+    },
+    "vocab-0234": {
+      "text": "きゅうり",
+      "segments": [
+        {
+          "text": "き",
+          "reading": "ki",
+          "note": "With the following small kana, pronounced kyu."
+        },
+        {
+          "text": "ゅ",
+          "reading": "yu",
+          "note": "Small kana: combines with the preceding kana to make kyu.",
+          "combinedReading": "kyu"
+        },
+        {
+          "text": "う",
+          "reading": "u"
+        },
+        {
+          "text": "り",
+          "reading": "ri"
+        }
+      ]
+    },
+    "vocab-0235": {
+      "text": "玉ねぎ",
+      "segments": [
+        {
+          "text": "玉",
+          "reading": "tama"
+        },
+        {
+          "text": "ね",
+          "reading": "ne"
+        },
+        {
+          "text": "ぎ",
+          "reading": "gi"
+        }
+      ]
+    },
+    "vocab-0236": {
+      "text": "にんにく",
+      "segments": [
+        {
+          "text": "に",
+          "reading": "ni"
+        },
+        {
+          "text": "ん",
+          "reading": "n"
+        },
+        {
+          "text": "に",
+          "reading": "ni"
+        },
+        {
+          "text": "く",
+          "reading": "ku"
+        }
+      ]
+    },
+    "vocab-0237": {
+      "text": "キャベツ",
+      "segments": [
+        {
+          "text": "キ",
+          "reading": "ki",
+          "note": "With the following small kana, pronounced kya."
+        },
+        {
+          "text": "ャ",
+          "reading": "ya",
+          "note": "Small kana: combines with the preceding kana to make kya.",
+          "combinedReading": "kya"
+        },
+        {
+          "text": "ベ",
+          "reading": "be"
+        },
+        {
+          "text": "ツ",
+          "reading": "tsu"
+        }
+      ]
+    },
+    "vocab-0238": {
+      "text": "ピーマン",
+      "segments": [
+        {
+          "text": "ピ",
+          "reading": "pi"
+        },
+        {
+          "text": "ー",
+          "reading": "—",
+          "note": "Lengthens the preceding vowel; it has no separate consonant sound."
+        },
+        {
+          "text": "マ",
+          "reading": "ma"
+        },
+        {
+          "text": "ン",
+          "reading": "n"
+        }
+      ]
+    },
+    "vocab-0239": {
+      "text": "えんどう豆",
+      "segments": [
+        {
+          "text": "え",
+          "reading": "e"
+        },
+        {
+          "text": "ん",
+          "reading": "n"
+        },
+        {
+          "text": "ど",
+          "reading": "do"
+        },
+        {
+          "text": "う",
+          "reading": "u"
+        },
+        {
+          "text": "豆",
+          "reading": "mame"
+        }
+      ]
+    },
+    "vocab-0240": {
+      "text": "豆",
+      "segments": [
+        {
+          "text": "豆",
+          "reading": "mame"
+        }
+      ]
+    }
+  }
+}

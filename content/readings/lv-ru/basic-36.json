@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "lv-ru",
+  "blockId": "basic-36",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0351": {
+      "text": "дерево",
+      "segments": [
+        {
+          "text": "дерево",
+          "reading": "dereva"
+        }
+      ]
+    },
+    "vocab-0352": {
+      "text": "цветок",
+      "segments": [
+        {
+          "text": "цветок",
+          "reading": "cvitok"
+        }
+      ]
+    },
+    "vocab-0353": {
+      "text": "трава",
+      "segments": [
+        {
+          "text": "трава",
+          "reading": "trava"
+        }
+      ]
+    },
+    "vocab-0354": {
+      "text": "лист",
+      "segments": [
+        {
+          "text": "лист",
+          "reading": "ļist"
+        }
+      ]
+    },
+    "vocab-0355": {
+      "text": "лес",
+      "segments": [
+        {
+          "text": "лес",
+          "reading": "ļes"
+        }
+      ]
+    },
+    "vocab-0356": {
+      "text": "река",
+      "segments": [
+        {
+          "text": "река",
+          "reading": "rika"
+        }
+      ]
+    },
+    "vocab-0357": {
+      "text": "озеро",
+      "segments": [
+        {
+          "text": "озеро",
+          "reading": "ozira"
+        }
+      ]
+    },
+    "vocab-0358": {
+      "text": "море",
+      "segments": [
+        {
+          "text": "море",
+          "reading": "more"
+        }
+      ]
+    },
+    "vocab-0359": {
+      "text": "пляж",
+      "segments": [
+        {
+          "text": "пляж",
+          "reading": "pļaš"
+        }
+      ]
+    },
+    "vocab-0360": {
+      "text": "камень",
+      "segments": [
+        {
+          "text": "камень",
+          "reading": "kamiņ"
+        }
+      ]
+    }
+  }
+}

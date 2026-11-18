@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "ru-en",
+  "blockId": "basic-38",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0371": {
+      "text": "bus",
+      "segments": [
+        {
+          "text": "bus",
+          "reading": "бас"
+        }
+      ]
+    },
+    "vocab-0372": {
+      "text": "tram",
+      "segments": [
+        {
+          "text": "tram",
+          "reading": "трэм"
+        }
+      ]
+    },
+    "vocab-0373": {
+      "text": "trolleybus",
+      "segments": [
+        {
+          "text": "trolleybus",
+          "reading": "тралибэс"
+        }
+      ]
+    },
+    "vocab-0374": {
+      "text": "train",
+      "segments": [
+        {
+          "text": "train",
+          "reading": "трэйн"
+        }
+      ]
+    },
+    "vocab-0375": {
+      "text": "car",
+      "segments": [
+        {
+          "text": "car",
+          "reading": "кар"
+        }
+      ]
+    },
+    "vocab-0376": {
+      "text": "bicycle",
+      "segments": [
+        {
+          "text": "bicycle",
+          "reading": "байсикэл"
+        }
+      ]
+    },
+    "vocab-0377": {
+      "text": "taxi",
+      "segments": [
+        {
+          "text": "taxi",
+          "reading": "тэкси"
+        }
+      ]
+    },
+    "vocab-0378": {
+      "text": "station",
+      "segments": [
+        {
+          "text": "station",
+          "reading": "стэйшэн"
+        }
+      ]
+    },
+    "vocab-0379": {
+      "text": "airport",
+      "segments": [
+        {
+          "text": "airport",
+          "reading": "эрпорт"
+        }
+      ]
+    },
+    "vocab-0380": {
+      "text": "ticket",
+      "segments": [
+        {
+          "text": "ticket",
+          "reading": "тикит"
+        }
+      ]
+    }
+  }
+}

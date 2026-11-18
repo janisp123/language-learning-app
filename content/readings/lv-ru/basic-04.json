@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "lv-ru",
+  "blockId": "basic-04",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0031": {
+      "text": "помощь",
+      "segments": [
+        {
+          "text": "помощь",
+          "reading": "pomašč"
+        }
+      ]
+    },
+    "vocab-0032": {
+      "text": "стоп",
+      "segments": [
+        {
+          "text": "стоп",
+          "reading": "stop"
+        }
+      ]
+    },
+    "vocab-0033": {
+      "text": "здесь",
+      "segments": [
+        {
+          "text": "здесь",
+          "reading": "zdes"
+        }
+      ]
+    },
+    "vocab-0034": {
+      "text": "там",
+      "segments": [
+        {
+          "text": "там",
+          "reading": "tam"
+        }
+      ]
+    },
+    "vocab-0035": {
+      "text": "сейчас",
+      "segments": [
+        {
+          "text": "сейчас",
+          "reading": "sičas"
+        }
+      ]
+    },
+    "vocab-0036": {
+      "text": "позже",
+      "segments": [
+        {
+          "text": "позже",
+          "reading": "požže"
+        }
+      ]
+    },
+    "vocab-0037": {
+      "text": "вместе",
+      "segments": [
+        {
+          "text": "вместе",
+          "reading": "vmeste"
+        }
+      ]
+    },
+    "vocab-0038": {
+      "text": "снова",
+      "segments": [
+        {
+          "text": "снова",
+          "reading": "snova"
+        }
+      ]
+    },
+    "vocab-0039": {
+      "text": "медленно",
+      "segments": [
+        {
+          "text": "медленно",
+          "reading": "medļina"
+        }
+      ]
+    },
+    "vocab-0040": {
+      "text": "быстро",
+      "segments": [
+        {
+          "text": "быстро",
+          "reading": "bistra"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "direction": "en-ja",
+  "blockId": "basic-25",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0241": {
+      "text": "米",
+      "segments": [
+        {
+          "text": "米",
+          "reading": "kome"
+        }
+      ]
+    },
+    "vocab-0242": {
+      "text": "パスタ",
+      "segments": [
+        {
+          "text": "パ",
+          "reading": "pa"
+        },
+        {
+          "text": "ス",
+          "reading": "su"
+        },
+        {
+          "text": "タ",
+          "reading": "ta"
+        }
+      ]
+    },
+    "vocab-0243": {
+      "text": "肉",
+      "segments": [
+        {
+          "text": "肉",
+          "reading": "niku"
+        }
+      ]
+    },
+    "vocab-0244": {
+      "text": "鶏肉",
+      "segments": [
+        {
+          "text": "鶏",
+          "reading": "tori"
+        },
+        {
+          "text": "肉",
+          "reading": "niku"
+        }
+      ]
+    },
+    "vocab-0245": {
+      "text": "魚",
+      "segments": [
+        {
+          "text": "魚",
+          "reading": "sakana"
+        }
+      ]
+    },
+    "vocab-0246": {
+      "text": "卵",
+      "segments": [
+        {
+          "text": "卵",
+          "reading": "tamago"
+        }
+      ]
+    },
+    "vocab-0247": {
+      "text": "バター",
+      "segments": [
+        {
+          "text": "バ",
+          "reading": "ba"
+        },
+        {
+          "text": "タ",
+          "reading": "ta"
+        },
+        {
+          "text": "ー",
+          "reading": "—",
+          "note": "Lengthens the preceding vowel; it has no separate consonant sound."
+        }
+      ]
+    },
+    "vocab-0248": {
+      "text": "ヨーグルト",
+      "segments": [
+        {
+          "text": "ヨ",
+          "reading": "yo"
+        },
+        {
+          "text": "ー",
+          "reading": "—",
+          "note": "Lengthens the preceding vowel; it has no separate consonant sound."
+        },
+        {
+          "text": "グ",
+          "reading": "gu"
+        },
+        {
+          "text": "ル",
+          "reading": "ru"
+        },
+        {
+          "text": "ト",
+          "reading": "to"
+        }
+      ]
+    },
+    "vocab-0249": {
+      "text": "塩",
+      "segments": [
+        {
+          "text": "塩",
+          "reading": "shio"
+        }
+      ]
+    },
+    "vocab-0250": {
+      "text": "砂糖",
+      "segments": [
+        {
+          "text": "砂",
+          "reading": "sa"
+        },
+        {
+          "text": "糖",
+          "reading": "tou"
+        }
+      ]
+    }
+  }
+}

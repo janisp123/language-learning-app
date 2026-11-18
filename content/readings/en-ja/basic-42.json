@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "direction": "en-ja",
+  "blockId": "basic-42",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0411": {
+      "text": "行く",
+      "segments": [
+        {
+          "text": "行",
+          "reading": "i"
+        },
+        {
+          "text": "く",
+          "reading": "ku"
+        }
+      ]
+    },
+    "vocab-0412": {
+      "text": "来る",
+      "segments": [
+        {
+          "text": "来",
+          "reading": "ku"
+        },
+        {
+          "text": "る",
+          "reading": "ru"
+        }
+      ]
+    },
+    "vocab-0413": {
+      "text": "歩く",
+      "segments": [
+        {
+          "text": "歩",
+          "reading": "aru"
+        },
+        {
+          "text": "く",
+          "reading": "ku"
+        }
+      ]
+    },
+    "vocab-0414": {
+      "text": "走る",
+      "segments": [
+        {
+          "text": "走",
+          "reading": "hashi"
+        },
+        {
+          "text": "る",
+          "reading": "ru"
+        }
+      ]
+    },
+    "vocab-0415": {
+      "text": "座る",
+      "segments": [
+        {
+          "text": "座",
+          "reading": "suwa"
+        },
+        {
+          "text": "る",
+          "reading": "ru"
+        }
+      ]
+    },
+    "vocab-0416": {
+      "text": "立つ",
+      "segments": [
+        {
+          "text": "立",
+          "reading": "ta"
+        },
+        {
+          "text": "つ",
+          "reading": "tsu"
+        }
+      ]
+    },
+    "vocab-0417": {
+      "text": "寝る",
+      "segments": [
+        {
+          "text": "寝",
+          "reading": "ne"
+        },
+        {
+          "text": "る",
+          "reading": "ru"
+        }
+      ]
+    },
+    "vocab-0418": {
+      "text": "起きる",
+      "segments": [
+        {
+          "text": "起",
+          "reading": "o"
+        },
+        {
+          "text": "き",
+          "reading": "ki"
+        },
+        {
+          "text": "る",
+          "reading": "ru"
+        }
+      ]
+    },
+    "vocab-0419": {
+      "text": "食べる",
+      "segments": [
+        {
+          "text": "食",
+          "reading": "ta"
+        },
+        {
+          "text": "べ",
+          "reading": "be"
+        },
+        {
+          "text": "る",
+          "reading": "ru"
+        }
+      ]
+    },
+    "vocab-0420": {
+      "text": "飲む",
+      "segments": [
+        {
+          "text": "飲",
+          "reading": "no"
+        },
+        {
+          "text": "む",
+          "reading": "mu"
+        }
+      ]
+    }
+  }
+}

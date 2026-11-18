@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "direction": "en-ja",
+  "blockId": "basic-46",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0451": {
+      "text": "大きい",
+      "segments": [
+        {
+          "text": "大",
+          "reading": "oo"
+        },
+        {
+          "text": "き",
+          "reading": "ki"
+        },
+        {
+          "text": "い",
+          "reading": "i"
+        }
+      ]
+    },
+    "vocab-0452": {
+      "text": "小さい",
+      "segments": [
+        {
+          "text": "小",
+          "reading": "chii"
+        },
+        {
+          "text": "さ",
+          "reading": "sa"
+        },
+        {
+          "text": "い",
+          "reading": "i"
+        }
+      ]
+    },
+    "vocab-0453": {
+      "text": "長い",
+      "segments": [
+        {
+          "text": "長",
+          "reading": "naga"
+        },
+        {
+          "text": "い",
+          "reading": "i"
+        }
+      ]
+    },
+    "vocab-0454": {
+      "text": "短い",
+      "segments": [
+        {
+          "text": "短",
+          "reading": "mijika"
+        },
+        {
+          "text": "い",
+          "reading": "i"
+        }
+      ]
+    },
+    "vocab-0455": {
+      "text": "広い",
+      "segments": [
+        {
+          "text": "広",
+          "reading": "hiro"
+        },
+        {
+          "text": "い",
+          "reading": "i"
+        }
+      ]
+    },
+    "vocab-0456": {
+      "text": "狭い",
+      "segments": [
+        {
+          "text": "狭",
+          "reading": "sema"
+        },
+        {
+          "text": "い",
+          "reading": "i"
+        }
+      ]
+    },
+    "vocab-0457": {
+      "text": "高い",
+      "segments": [
+        {
+          "text": "高",
+          "reading": "taka"
+        },
+        {
+          "text": "い",
+          "reading": "i"
+        }
+      ]
+    },
+    "vocab-0458": {
+      "text": "低い",
+      "segments": [
+        {
+          "text": "低",
+          "reading": "hiku"
+        },
+        {
+          "text": "い",
+          "reading": "i"
+        }
+      ]
+    },
+    "vocab-0459": {
+      "text": "重い",
+      "segments": [
+        {
+          "text": "重",
+          "reading": "omo"
+        },
+        {
+          "text": "い",
+          "reading": "i"
+        }
+      ]
+    },
+    "vocab-0460": {
+      "text": "軽い",
+      "segments": [
+        {
+          "text": "軽",
+          "reading": "karu"
+        },
+        {
+          "text": "い",
+          "reading": "i"
+        }
+      ]
+    }
+  }
+}

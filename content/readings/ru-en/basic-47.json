@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "ru-en",
+  "blockId": "basic-47",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0461": {
+      "text": "good",
+      "segments": [
+        {
+          "text": "good",
+          "reading": "гуд"
+        }
+      ]
+    },
+    "vocab-0462": {
+      "text": "bad",
+      "segments": [
+        {
+          "text": "bad",
+          "reading": "бэд"
+        }
+      ]
+    },
+    "vocab-0463": {
+      "text": "new",
+      "segments": [
+        {
+          "text": "new",
+          "reading": "ну"
+        }
+      ]
+    },
+    "vocab-0464": {
+      "text": "old",
+      "segments": [
+        {
+          "text": "old",
+          "reading": "оулд"
+        }
+      ]
+    },
+    "vocab-0465": {
+      "text": "clean",
+      "segments": [
+        {
+          "text": "clean",
+          "reading": "клин"
+        }
+      ]
+    },
+    "vocab-0466": {
+      "text": "dirty",
+      "segments": [
+        {
+          "text": "dirty",
+          "reading": "дёрти"
+        }
+      ]
+    },
+    "vocab-0467": {
+      "text": "hot",
+      "segments": [
+        {
+          "text": "hot",
+          "reading": "хат"
+        }
+      ]
+    },
+    "vocab-0468": {
+      "text": "cold",
+      "segments": [
+        {
+          "text": "cold",
+          "reading": "коулд"
+        }
+      ]
+    },
+    "vocab-0469": {
+      "text": "warm",
+      "segments": [
+        {
+          "text": "warm",
+          "reading": "уорм"
+        }
+      ]
+    },
+    "vocab-0470": {
+      "text": "cool",
+      "segments": [
+        {
+          "text": "cool",
+          "reading": "кул"
+        }
+      ]
+    }
+  }
+}

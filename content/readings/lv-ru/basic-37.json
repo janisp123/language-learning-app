@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "lv-ru",
+  "blockId": "basic-37",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0361": {
+      "text": "собака",
+      "segments": [
+        {
+          "text": "собака",
+          "reading": "sabaka"
+        }
+      ]
+    },
+    "vocab-0362": {
+      "text": "кошка",
+      "segments": [
+        {
+          "text": "кошка",
+          "reading": "koška"
+        }
+      ]
+    },
+    "vocab-0363": {
+      "text": "лошадь",
+      "segments": [
+        {
+          "text": "лошадь",
+          "reading": "lošat"
+        }
+      ]
+    },
+    "vocab-0364": {
+      "text": "корова",
+      "segments": [
+        {
+          "text": "корова",
+          "reading": "karova"
+        }
+      ]
+    },
+    "vocab-0365": {
+      "text": "свинья",
+      "segments": [
+        {
+          "text": "свинья",
+          "reading": "sviņja"
+        }
+      ]
+    },
+    "vocab-0366": {
+      "text": "овца",
+      "segments": [
+        {
+          "text": "овца",
+          "reading": "afca"
+        }
+      ]
+    },
+    "vocab-0367": {
+      "text": "коза",
+      "segments": [
+        {
+          "text": "коза",
+          "reading": "kaza"
+        }
+      ]
+    },
+    "vocab-0368": {
+      "text": "курица",
+      "segments": [
+        {
+          "text": "курица",
+          "reading": "kurica"
+        }
+      ]
+    },
+    "vocab-0369": {
+      "text": "утка",
+      "segments": [
+        {
+          "text": "утка",
+          "reading": "utka"
+        }
+      ]
+    },
+    "vocab-0370": {
+      "text": "птица",
+      "segments": [
+        {
+          "text": "птица",
+          "reading": "ptica"
+        }
+      ]
+    }
+  }
+}

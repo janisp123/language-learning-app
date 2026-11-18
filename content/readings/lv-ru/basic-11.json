@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "lv-ru",
+  "blockId": "basic-11",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0101": {
+      "text": "бабушка",
+      "segments": [
+        {
+          "text": "бабушка",
+          "reading": "babuška"
+        }
+      ]
+    },
+    "vocab-0102": {
+      "text": "дедушка",
+      "segments": [
+        {
+          "text": "дедушка",
+          "reading": "deduška"
+        }
+      ]
+    },
+    "vocab-0103": {
+      "text": "тётя",
+      "segments": [
+        {
+          "text": "тётя",
+          "reading": "tjotja"
+        }
+      ]
+    },
+    "vocab-0104": {
+      "text": "дядя",
+      "segments": [
+        {
+          "text": "дядя",
+          "reading": "djadja"
+        }
+      ]
+    },
+    "vocab-0105": {
+      "text": "родители",
+      "segments": [
+        {
+          "text": "родители",
+          "reading": "raditeļi"
+        }
+      ]
+    },
+    "vocab-0106": {
+      "text": "бабушка и дедушка",
+      "segments": [
+        {
+          "text": "бабушка и дедушка",
+          "reading": "babuška i deduška"
+        }
+      ]
+    },
+    "vocab-0107": {
+      "text": "младенец",
+      "segments": [
+        {
+          "text": "младенец",
+          "reading": "mladiņec"
+        }
+      ]
+    },
+    "vocab-0108": {
+      "text": "подросток",
+      "segments": [
+        {
+          "text": "подросток",
+          "reading": "padrostak"
+        }
+      ]
+    },
+    "vocab-0109": {
+      "text": "сосед",
+      "segments": [
+        {
+          "text": "сосед",
+          "reading": "saset"
+        }
+      ]
+    },
+    "vocab-0110": {
+      "text": "гость",
+      "segments": [
+        {
+          "text": "гость",
+          "reading": "gost"
+        }
+      ]
+    }
+  }
+}

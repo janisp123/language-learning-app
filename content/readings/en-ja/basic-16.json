@@ -1,0 +1,231 @@
+{
+  "schemaVersion": 1,
+  "direction": "en-ja",
+  "blockId": "basic-16",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0151": {
+      "text": "嬉しい",
+      "segments": [
+        {
+          "text": "嬉",
+          "reading": "ure"
+        },
+        {
+          "text": "し",
+          "reading": "shi"
+        },
+        {
+          "text": "い",
+          "reading": "i"
+        }
+      ]
+    },
+    "vocab-0152": {
+      "text": "悲しい",
+      "segments": [
+        {
+          "text": "悲",
+          "reading": "kana"
+        },
+        {
+          "text": "し",
+          "reading": "shi"
+        },
+        {
+          "text": "い",
+          "reading": "i"
+        }
+      ]
+    },
+    "vocab-0153": {
+      "text": "怒っている",
+      "segments": [
+        {
+          "text": "怒",
+          "reading": "oko"
+        },
+        {
+          "text": "っ",
+          "reading": "(t)",
+          "note": "Doubles the next consonant; hold a brief pause before it."
+        },
+        {
+          "text": "て",
+          "reading": "te"
+        },
+        {
+          "text": "い",
+          "reading": "i"
+        },
+        {
+          "text": "る",
+          "reading": "ru"
+        }
+      ]
+    },
+    "vocab-0154": {
+      "text": "怖い",
+      "segments": [
+        {
+          "text": "怖",
+          "reading": "kowa"
+        },
+        {
+          "text": "い",
+          "reading": "i"
+        }
+      ]
+    },
+    "vocab-0155": {
+      "text": "落ち着いている",
+      "segments": [
+        {
+          "text": "落",
+          "reading": "o"
+        },
+        {
+          "text": "ち",
+          "reading": "chi"
+        },
+        {
+          "text": "着",
+          "reading": "tsu"
+        },
+        {
+          "text": "い",
+          "reading": "i"
+        },
+        {
+          "text": "て",
+          "reading": "te"
+        },
+        {
+          "text": "い",
+          "reading": "i"
+        },
+        {
+          "text": "る",
+          "reading": "ru"
+        }
+      ]
+    },
+    "vocab-0156": {
+      "text": "疲れた",
+      "segments": [
+        {
+          "text": "疲",
+          "reading": "tsuka"
+        },
+        {
+          "text": "れ",
+          "reading": "re"
+        },
+        {
+          "text": "た",
+          "reading": "ta"
+        }
+      ]
+    },
+    "vocab-0157": {
+      "text": "お腹がすいた",
+      "segments": [
+        {
+          "text": "お",
+          "reading": "o"
+        },
+        {
+          "text": "腹",
+          "reading": "naka"
+        },
+        {
+          "text": "が",
+          "reading": "ga"
+        },
+        {
+          "text": "す",
+          "reading": "su"
+        },
+        {
+          "text": "い",
+          "reading": "i"
+        },
+        {
+          "text": "た",
+          "reading": "ta"
+        }
+      ]
+    },
+    "vocab-0158": {
+      "text": "喉が渇いた",
+      "segments": [
+        {
+          "text": "喉",
+          "reading": "nodo"
+        },
+        {
+          "text": "が",
+          "reading": "ga"
+        },
+        {
+          "text": "渇",
+          "reading": "kawa"
+        },
+        {
+          "text": "い",
+          "reading": "i"
+        },
+        {
+          "text": "た",
+          "reading": "ta"
+        }
+      ]
+    },
+    "vocab-0159": {
+      "text": "退屈している",
+      "segments": [
+        {
+          "text": "退",
+          "reading": "tai"
+        },
+        {
+          "text": "屈",
+          "reading": "kutsu"
+        },
+        {
+          "text": "し",
+          "reading": "shi"
+        },
+        {
+          "text": "て",
+          "reading": "te"
+        },
+        {
+          "text": "い",
+          "reading": "i"
+        },
+        {
+          "text": "る",
+          "reading": "ru"
+        }
+      ]
+    },
+    "vocab-0160": {
+      "text": "驚いた",
+      "segments": [
+        {
+          "text": "驚",
+          "reading": "odoro"
+        },
+        {
+          "text": "い",
+          "reading": "i"
+        },
+        {
+          "text": "た",
+          "reading": "ta"
+        }
+      ]
+    }
+  }
+}

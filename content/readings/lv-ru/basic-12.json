@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "lv-ru",
+  "blockId": "basic-12",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0111": {
+      "text": "женщина",
+      "segments": [
+        {
+          "text": "женщина",
+          "reading": "ženščina"
+        }
+      ]
+    },
+    "vocab-0112": {
+      "text": "мужчина",
+      "segments": [
+        {
+          "text": "мужчина",
+          "reading": "muščina"
+        }
+      ]
+    },
+    "vocab-0113": {
+      "text": "люди",
+      "segments": [
+        {
+          "text": "люди",
+          "reading": "ļudi"
+        }
+      ]
+    },
+    "vocab-0114": {
+      "text": "дети",
+      "segments": [
+        {
+          "text": "дети",
+          "reading": "deti"
+        }
+      ]
+    },
+    "vocab-0115": {
+      "text": "одноклассник",
+      "segments": [
+        {
+          "text": "одноклассник",
+          "reading": "adnaklasņik"
+        }
+      ]
+    },
+    "vocab-0116": {
+      "text": "школьник",
+      "segments": [
+        {
+          "text": "школьник",
+          "reading": "škoļņik"
+        }
+      ]
+    },
+    "vocab-0117": {
+      "text": "водитель",
+      "segments": [
+        {
+          "text": "водитель",
+          "reading": "vaditeļ"
+        }
+      ]
+    },
+    "vocab-0118": {
+      "text": "продавец",
+      "segments": [
+        {
+          "text": "продавец",
+          "reading": "pradavec"
+        }
+      ]
+    },
+    "vocab-0119": {
+      "text": "пассажир",
+      "segments": [
+        {
+          "text": "пассажир",
+          "reading": "pasažir"
+        }
+      ]
+    },
+    "vocab-0120": {
+      "text": "посетитель",
+      "segments": [
+        {
+          "text": "посетитель",
+          "reading": "pasititeļ"
+        }
+      ]
+    }
+  }
+}

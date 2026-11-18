@@ -7,6 +7,7 @@
     const E = globalThis.LanguageEngine;
     const locales = JSON.parse($('ui-data').textContent);
     const audio = globalThis.LanguageAudioView?.create(document, JSON.parse($('audio-data').textContent));
+    const readings = globalThis.LanguageReadingView?.create(document, JSON.parse($('reading-data').textContent));
     function renderTheme() {
       const dark = document.documentElement.dataset.theme === 'dark';
       $('learning-theme-toggle').textContent = dark ? '☀' : '☾';
@@ -92,11 +93,15 @@
       $('progress-label').textContent = t('progress', {n:state.consecutive});
       $('mistakes').textContent = t('mistakes', {n:state.mistakes});
       if (clearFeedback) { $('feedback').textContent = ''; $('feedback').className = 'feedback'; }
+      $('reading-note').textContent = readings?.notice(shown.source + '-' + shown.target) || '';
+      $('reading-note').hidden = !$('reading-note').textContent;
+      $('reading-note').lang = shown.source;
       $('choices').replaceChildren();
       for (const option of shown.options) {
         const button = document.createElement('button');
         button.type = 'button'; button.className = 'choice'; button.lang = shown.target;
         button.textContent = option.text; button.dataset.optionId = option.id;
+        readings?.render(button, shown.source + '-' + shown.target, option.id, option.text);
         button.addEventListener('click', () => select(option.id));
         const row = document.createElement('div'); row.className = 'answer-option';
         const speaker = document.createElement('button');

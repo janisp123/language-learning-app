@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "lv-ru",
+  "blockId": "basic-26",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0251": {
+      "text": "обед",
+      "segments": [
+        {
+          "text": "обед",
+          "reading": "abet"
+        }
+      ]
+    },
+    "vocab-0252": {
+      "text": "ужин",
+      "segments": [
+        {
+          "text": "ужин",
+          "reading": "užin"
+        }
+      ]
+    },
+    "vocab-0253": {
+      "text": "перекус",
+      "segments": [
+        {
+          "text": "перекус",
+          "reading": "pirikus"
+        }
+      ]
+    },
+    "vocab-0254": {
+      "text": "бутерброд",
+      "segments": [
+        {
+          "text": "бутерброд",
+          "reading": "butirbrot"
+        }
+      ]
+    },
+    "vocab-0255": {
+      "text": "салат",
+      "segments": [
+        {
+          "text": "салат",
+          "reading": "salat"
+        }
+      ]
+    },
+    "vocab-0256": {
+      "text": "каша",
+      "segments": [
+        {
+          "text": "каша",
+          "reading": "kaša"
+        }
+      ]
+    },
+    "vocab-0257": {
+      "text": "хлопья для завтрака",
+      "segments": [
+        {
+          "text": "хлопья для завтрака",
+          "reading": "hlopja dļa zaftraka"
+        }
+      ]
+    },
+    "vocab-0258": {
+      "text": "блин",
+      "segments": [
+        {
+          "text": "блин",
+          "reading": "bļin"
+        }
+      ]
+    },
+    "vocab-0259": {
+      "text": "пирожное",
+      "segments": [
+        {
+          "text": "пирожное",
+          "reading": "pirožnaje"
+        }
+      ]
+    },
+    "vocab-0260": {
+      "text": "мороженое",
+      "segments": [
+        {
+          "text": "мороженое",
+          "reading": "maroženaje"
+        }
+      ]
+    }
+  }
+}

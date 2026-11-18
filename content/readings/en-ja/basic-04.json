@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "direction": "en-ja",
+  "blockId": "basic-04",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0031": {
+      "text": "助け",
+      "segments": [
+        {
+          "text": "助",
+          "reading": "tasu"
+        },
+        {
+          "text": "け",
+          "reading": "ke"
+        }
+      ]
+    },
+    "vocab-0032": {
+      "text": "止まって",
+      "segments": [
+        {
+          "text": "止",
+          "reading": "to"
+        },
+        {
+          "text": "ま",
+          "reading": "ma"
+        },
+        {
+          "text": "っ",
+          "reading": "(t)",
+          "note": "Doubles the next consonant; hold a brief pause before it."
+        },
+        {
+          "text": "て",
+          "reading": "te"
+        }
+      ]
+    },
+    "vocab-0033": {
+      "text": "ここ",
+      "segments": [
+        {
+          "text": "こ",
+          "reading": "ko"
+        },
+        {
+          "text": "こ",
+          "reading": "ko"
+        }
+      ]
+    },
+    "vocab-0034": {
+      "text": "そこ",
+      "segments": [
+        {
+          "text": "そ",
+          "reading": "so"
+        },
+        {
+          "text": "こ",
+          "reading": "ko"
+        }
+      ]
+    },
+    "vocab-0035": {
+      "text": "今",
+      "segments": [
+        {
+          "text": "今",
+          "reading": "ima"
+        }
+      ]
+    },
+    "vocab-0036": {
+      "text": "後で",
+      "segments": [
+        {
+          "text": "後",
+          "reading": "ato"
+        },
+        {
+          "text": "で",
+          "reading": "de"
+        }
+      ]
+    },
+    "vocab-0037": {
+      "text": "一緒に",
+      "segments": [
+        {
+          "text": "一緒",
+          "reading": "issho",
+          "note": "Read together: the consonant doubles across the kanji boundary."
+        },
+        {
+          "text": "に",
+          "reading": "ni"
+        }
+      ]
+    },
+    "vocab-0038": {
+      "text": "もう一度",
+      "segments": [
+        {
+          "text": "も",
+          "reading": "mo"
+        },
+        {
+          "text": "う",
+          "reading": "u"
+        },
+        {
+          "text": "一",
+          "reading": "ichi"
+        },
+        {
+          "text": "度",
+          "reading": "do"
+        }
+      ]
+    },
+    "vocab-0039": {
+      "text": "ゆっくり",
+      "segments": [
+        {
+          "text": "ゆ",
+          "reading": "yu"
+        },
+        {
+          "text": "っ",
+          "reading": "(k)",
+          "note": "Doubles the next consonant; hold a brief pause before it."
+        },
+        {
+          "text": "く",
+          "reading": "ku"
+        },
+        {
+          "text": "り",
+          "reading": "ri"
+        }
+      ]
+    },
+    "vocab-0040": {
+      "text": "速く",
+      "segments": [
+        {
+          "text": "速",
+          "reading": "haya"
+        },
+        {
+          "text": "く",
+          "reading": "ku"
+        }
+      ]
+    }
+  }
+}

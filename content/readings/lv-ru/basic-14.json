@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "lv-ru",
+  "blockId": "basic-14",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0131": {
+      "text": "ладонь",
+      "segments": [
+        {
+          "text": "ладонь",
+          "reading": "ladoņ"
+        }
+      ]
+    },
+    "vocab-0132": {
+      "text": "рука",
+      "segments": [
+        {
+          "text": "рука",
+          "reading": "ruka"
+        }
+      ]
+    },
+    "vocab-0133": {
+      "text": "палец",
+      "segments": [
+        {
+          "text": "палец",
+          "reading": "paļic"
+        }
+      ]
+    },
+    "vocab-0134": {
+      "text": "нога",
+      "segments": [
+        {
+          "text": "нога",
+          "reading": "naga"
+        }
+      ]
+    },
+    "vocab-0135": {
+      "text": "стопа",
+      "segments": [
+        {
+          "text": "стопа",
+          "reading": "stapa"
+        }
+      ]
+    },
+    "vocab-0136": {
+      "text": "колено",
+      "segments": [
+        {
+          "text": "колено",
+          "reading": "kaļena"
+        }
+      ]
+    },
+    "vocab-0137": {
+      "text": "спина",
+      "segments": [
+        {
+          "text": "спина",
+          "reading": "spiņa"
+        }
+      ]
+    },
+    "vocab-0138": {
+      "text": "живот",
+      "segments": [
+        {
+          "text": "живот",
+          "reading": "život"
+        }
+      ]
+    },
+    "vocab-0139": {
+      "text": "плечо",
+      "segments": [
+        {
+          "text": "плечо",
+          "reading": "pļičo"
+        }
+      ]
+    },
+    "vocab-0140": {
+      "text": "кожа",
+      "segments": [
+        {
+          "text": "кожа",
+          "reading": "koža"
+        }
+      ]
+    }
+  }
+}

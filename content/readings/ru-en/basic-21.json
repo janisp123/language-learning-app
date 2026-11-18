@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "ru-en",
+  "blockId": "basic-21",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0201": {
+      "text": "plate",
+      "segments": [
+        {
+          "text": "plate",
+          "reading": "плэйт"
+        }
+      ]
+    },
+    "vocab-0202": {
+      "text": "cup",
+      "segments": [
+        {
+          "text": "cup",
+          "reading": "кап"
+        }
+      ]
+    },
+    "vocab-0203": {
+      "text": "glass",
+      "segments": [
+        {
+          "text": "glass",
+          "reading": "глэс"
+        }
+      ]
+    },
+    "vocab-0204": {
+      "text": "bowl",
+      "segments": [
+        {
+          "text": "bowl",
+          "reading": "боул"
+        }
+      ]
+    },
+    "vocab-0205": {
+      "text": "spoon",
+      "segments": [
+        {
+          "text": "spoon",
+          "reading": "спун"
+        }
+      ]
+    },
+    "vocab-0206": {
+      "text": "fork",
+      "segments": [
+        {
+          "text": "fork",
+          "reading": "форк"
+        }
+      ]
+    },
+    "vocab-0207": {
+      "text": "knife",
+      "segments": [
+        {
+          "text": "knife",
+          "reading": "найф"
+        }
+      ]
+    },
+    "vocab-0208": {
+      "text": "bottle",
+      "segments": [
+        {
+          "text": "bottle",
+          "reading": "батэл"
+        }
+      ]
+    },
+    "vocab-0209": {
+      "text": "pot",
+      "segments": [
+        {
+          "text": "pot",
+          "reading": "пат"
+        }
+      ]
+    },
+    "vocab-0210": {
+      "text": "pan",
+      "segments": [
+        {
+          "text": "pan",
+          "reading": "пэн"
+        }
+      ]
+    }
+  }
+}

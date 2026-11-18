@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "ru-en",
+  "blockId": "basic-29",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0281": {
+      "text": "zero",
+      "segments": [
+        {
+          "text": "zero",
+          "reading": "зироу"
+        }
+      ]
+    },
+    "vocab-0282": {
+      "text": "eleven",
+      "segments": [
+        {
+          "text": "eleven",
+          "reading": "илэвэн"
+        }
+      ]
+    },
+    "vocab-0283": {
+      "text": "twelve",
+      "segments": [
+        {
+          "text": "twelve",
+          "reading": "туэлв"
+        }
+      ]
+    },
+    "vocab-0284": {
+      "text": "thirteen",
+      "segments": [
+        {
+          "text": "thirteen",
+          "reading": "сёртин"
+        }
+      ]
+    },
+    "vocab-0285": {
+      "text": "fourteen",
+      "segments": [
+        {
+          "text": "fourteen",
+          "reading": "фортин"
+        }
+      ]
+    },
+    "vocab-0286": {
+      "text": "fifteen",
+      "segments": [
+        {
+          "text": "fifteen",
+          "reading": "фифтин"
+        }
+      ]
+    },
+    "vocab-0287": {
+      "text": "sixteen",
+      "segments": [
+        {
+          "text": "sixteen",
+          "reading": "сикстин"
+        }
+      ]
+    },
+    "vocab-0288": {
+      "text": "seventeen",
+      "segments": [
+        {
+          "text": "seventeen",
+          "reading": "сэвэнтин"
+        }
+      ]
+    },
+    "vocab-0289": {
+      "text": "eighteen",
+      "segments": [
+        {
+          "text": "eighteen",
+          "reading": "эйтин"
+        }
+      ]
+    },
+    "vocab-0290": {
+      "text": "nineteen",
+      "segments": [
+        {
+          "text": "nineteen",
+          "reading": "найнтин"
+        }
+      ]
+    }
+  }
+}

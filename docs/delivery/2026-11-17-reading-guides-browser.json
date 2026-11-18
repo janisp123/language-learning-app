@@ -1,0 +1,167 @@
+{
+  "version": "0.4.12",
+  "directions": {
+    "lv-ru": {
+      "questions": 510,
+      "answerGuideAndReplayBindings": 2040
+    },
+    "lv-en": {
+      "questions": 510,
+      "answerGuideAndReplayBindings": 2040
+    },
+    "ru-lv": {
+      "questions": 510,
+      "answerGuideAndReplayBindings": 2040
+    },
+    "ru-en": {
+      "questions": 510,
+      "answerGuideAndReplayBindings": 2040
+    },
+    "en-lv": {
+      "questions": 510,
+      "answerGuideAndReplayBindings": 2040
+    },
+    "en-ru": {
+      "questions": 510,
+      "answerGuideAndReplayBindings": 2040
+    },
+    "en-ja": {
+      "questions": 510,
+      "answerGuideAndReplayBindings": 2040
+    }
+  },
+  "layouts": [
+    {
+      "direction": "lv-ru",
+      "width": 320,
+      "theme": "light",
+      "horizontalOverflow": false,
+      "keyboardSpeakerWithoutGrading": true
+    },
+    {
+      "direction": "lv-ru",
+      "width": 390,
+      "theme": "light",
+      "horizontalOverflow": false,
+      "keyboardSpeakerWithoutGrading": true
+    },
+    {
+      "direction": "lv-ru",
+      "width": 1280,
+      "theme": "light",
+      "horizontalOverflow": false,
+      "keyboardSpeakerWithoutGrading": true
+    },
+    {
+      "direction": "lv-ru",
+      "width": 320,
+      "theme": "dark",
+      "horizontalOverflow": false,
+      "keyboardSpeakerWithoutGrading": true
+    },
+    {
+      "direction": "lv-ru",
+      "width": 390,
+      "theme": "dark",
+      "horizontalOverflow": false,
+      "keyboardSpeakerWithoutGrading": true
+    },
+    {
+      "direction": "lv-ru",
+      "width": 1280,
+      "theme": "dark",
+      "horizontalOverflow": false,
+      "keyboardSpeakerWithoutGrading": true
+    },
+    {
+      "direction": "ru-en",
+      "width": 320,
+      "theme": "light",
+      "horizontalOverflow": false,
+      "keyboardSpeakerWithoutGrading": true
+    },
+    {
+      "direction": "ru-en",
+      "width": 390,
+      "theme": "light",
+      "horizontalOverflow": false,
+      "keyboardSpeakerWithoutGrading": true
+    },
+    {
+      "direction": "ru-en",
+      "width": 1280,
+      "theme": "light",
+      "horizontalOverflow": false,
+      "keyboardSpeakerWithoutGrading": true
+    },
+    {
+      "direction": "ru-en",
+      "width": 320,
+      "theme": "dark",
+      "horizontalOverflow": false,
+      "keyboardSpeakerWithoutGrading": true
+    },
+    {
+      "direction": "ru-en",
+      "width": 390,
+      "theme": "dark",
+      "horizontalOverflow": false,
+      "keyboardSpeakerWithoutGrading": true
+    },
+    {
+      "direction": "ru-en",
+      "width": 1280,
+      "theme": "dark",
+      "horizontalOverflow": false,
+      "keyboardSpeakerWithoutGrading": true
+    },
+    {
+      "direction": "en-ja",
+      "width": 320,
+      "theme": "light",
+      "horizontalOverflow": false,
+      "keyboardSpeakerWithoutGrading": true
+    },
+    {
+      "direction": "en-ja",
+      "width": 390,
+      "theme": "light",
+      "horizontalOverflow": false,
+      "keyboardSpeakerWithoutGrading": true
+    },
+    {
+      "direction": "en-ja",
+      "width": 1280,
+      "theme": "light",
+      "horizontalOverflow": false,
+      "keyboardSpeakerWithoutGrading": true
+    },
+    {
+      "direction": "en-ja",
+      "width": 320,
+      "theme": "dark",
+      "horizontalOverflow": false,
+      "keyboardSpeakerWithoutGrading": true
+    },
+    {
+      "direction": "en-ja",
+      "width": 390,
+      "theme": "dark",
+      "horizontalOverflow": false,
+      "keyboardSpeakerWithoutGrading": true
+    },
+    {
+      "direction": "en-ja",
+      "width": 1280,
+      "theme": "dark",
+      "horizontalOverflow": false,
+      "keyboardSpeakerWithoutGrading": true
+    }
+  ],
+  "physicalDevices": "NOT RUN",
+  "fluentHumanReview": "NOT RUN",
+  "fullScreenReaderAudit": "NOT RUN",
+  "zeroStorageReloadReset": true,
+  "pageErrors": [],
+  "sha256": "d3f3b5cab491f997647844fe69f34b9a72fb625087f67e75b74da7fefcc0f5c6"
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "en-ja",
+  "blockId": "basic-03",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0021": {
+      "text": "一",
+      "segments": [
+        {
+          "text": "一",
+          "reading": "ichi"
+        }
+      ]
+    },
+    "vocab-0022": {
+      "text": "二",
+      "segments": [
+        {
+          "text": "二",
+          "reading": "ni"
+        }
+      ]
+    },
+    "vocab-0023": {
+      "text": "三",
+      "segments": [
+        {
+          "text": "三",
+          "reading": "san"
+        }
+      ]
+    },
+    "vocab-0024": {
+      "text": "四",
+      "segments": [
+        {
+          "text": "四",
+          "reading": "yon"
+        }
+      ]
+    },
+    "vocab-0025": {
+      "text": "五",
+      "segments": [
+        {
+          "text": "五",
+          "reading": "go"
+        }
+      ]
+    },
+    "vocab-0026": {
+      "text": "六",
+      "segments": [
+        {
+          "text": "六",
+          "reading": "roku"
+        }
+      ]
+    },
+    "vocab-0027": {
+      "text": "七",
+      "segments": [
+        {
+          "text": "七",
+          "reading": "nana"
+        }
+      ]
+    },
+    "vocab-0028": {
+      "text": "八",
+      "segments": [
+        {
+          "text": "八",
+          "reading": "hachi"
+        }
+      ]
+    },
+    "vocab-0029": {
+      "text": "九",
+      "segments": [
+        {
+          "text": "九",
+          "reading": "kyuu"
+        }
+      ]
+    },
+    "vocab-0030": {
+      "text": "十",
+      "segments": [
+        {
+          "text": "十",
+          "reading": "juu"
+        }
+      ]
+    }
+  }
+}

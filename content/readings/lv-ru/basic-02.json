@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "lv-ru",
+  "blockId": "basic-02",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0011": {
+      "text": "человек",
+      "segments": [
+        {
+          "text": "человек",
+          "reading": "čelavek"
+        }
+      ]
+    },
+    "vocab-0012": {
+      "text": "ребёнок",
+      "segments": [
+        {
+          "text": "ребёнок",
+          "reading": "ribjonak"
+        }
+      ]
+    },
+    "vocab-0013": {
+      "text": "мальчик",
+      "segments": [
+        {
+          "text": "мальчик",
+          "reading": "maļčik"
+        }
+      ]
+    },
+    "vocab-0014": {
+      "text": "девочка",
+      "segments": [
+        {
+          "text": "девочка",
+          "reading": "devačka"
+        }
+      ]
+    },
+    "vocab-0015": {
+      "text": "друг",
+      "segments": [
+        {
+          "text": "друг",
+          "reading": "druk"
+        }
+      ]
+    },
+    "vocab-0016": {
+      "text": "семья",
+      "segments": [
+        {
+          "text": "семья",
+          "reading": "simja"
+        }
+      ]
+    },
+    "vocab-0017": {
+      "text": "мать",
+      "segments": [
+        {
+          "text": "мать",
+          "reading": "mat"
+        }
+      ]
+    },
+    "vocab-0018": {
+      "text": "отец",
+      "segments": [
+        {
+          "text": "отец",
+          "reading": "atec"
+        }
+      ]
+    },
+    "vocab-0019": {
+      "text": "сестра",
+      "segments": [
+        {
+          "text": "сестра",
+          "reading": "sistra"
+        }
+      ]
+    },
+    "vocab-0020": {
+      "text": "брат",
+      "segments": [
+        {
+          "text": "брат",
+          "reading": "brat"
+        }
+      ]
+    }
+  }
+}

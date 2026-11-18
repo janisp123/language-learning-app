@@ -1,0 +1,259 @@
+{
+  "schemaVersion": 1,
+  "direction": "en-ja",
+  "blockId": "basic-01",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0001": {
+      "text": "やあ",
+      "segments": [
+        {
+          "text": "や",
+          "reading": "ya"
+        },
+        {
+          "text": "あ",
+          "reading": "a"
+        }
+      ]
+    },
+    "vocab-0002": {
+      "text": "さようなら",
+      "segments": [
+        {
+          "text": "さ",
+          "reading": "sa"
+        },
+        {
+          "text": "よ",
+          "reading": "yo"
+        },
+        {
+          "text": "う",
+          "reading": "u"
+        },
+        {
+          "text": "な",
+          "reading": "na"
+        },
+        {
+          "text": "ら",
+          "reading": "ra"
+        }
+      ]
+    },
+    "vocab-0003": {
+      "text": "お願いします",
+      "segments": [
+        {
+          "text": "お",
+          "reading": "o"
+        },
+        {
+          "text": "願",
+          "reading": "nega"
+        },
+        {
+          "text": "い",
+          "reading": "i"
+        },
+        {
+          "text": "し",
+          "reading": "shi"
+        },
+        {
+          "text": "ま",
+          "reading": "ma"
+        },
+        {
+          "text": "す",
+          "reading": "su"
+        }
+      ]
+    },
+    "vocab-0004": {
+      "text": "ありがとう",
+      "segments": [
+        {
+          "text": "あ",
+          "reading": "a"
+        },
+        {
+          "text": "り",
+          "reading": "ri"
+        },
+        {
+          "text": "が",
+          "reading": "ga"
+        },
+        {
+          "text": "と",
+          "reading": "to"
+        },
+        {
+          "text": "う",
+          "reading": "u"
+        }
+      ]
+    },
+    "vocab-0005": {
+      "text": "ごめんなさい",
+      "segments": [
+        {
+          "text": "ご",
+          "reading": "go"
+        },
+        {
+          "text": "め",
+          "reading": "me"
+        },
+        {
+          "text": "ん",
+          "reading": "n"
+        },
+        {
+          "text": "な",
+          "reading": "na"
+        },
+        {
+          "text": "さ",
+          "reading": "sa"
+        },
+        {
+          "text": "い",
+          "reading": "i"
+        }
+      ]
+    },
+    "vocab-0006": {
+      "text": "はい",
+      "segments": [
+        {
+          "text": "は",
+          "reading": "ha"
+        },
+        {
+          "text": "い",
+          "reading": "i"
+        }
+      ]
+    },
+    "vocab-0007": {
+      "text": "いいえ",
+      "segments": [
+        {
+          "text": "い",
+          "reading": "i"
+        },
+        {
+          "text": "い",
+          "reading": "i"
+        },
+        {
+          "text": "え",
+          "reading": "e"
+        }
+      ]
+    },
+    "vocab-0008": {
+      "text": "おはようございます",
+      "segments": [
+        {
+          "text": "お",
+          "reading": "o"
+        },
+        {
+          "text": "は",
+          "reading": "ha"
+        },
+        {
+          "text": "よ",
+          "reading": "yo"
+        },
+        {
+          "text": "う",
+          "reading": "u"
+        },
+        {
+          "text": "ご",
+          "reading": "go"
+        },
+        {
+          "text": "ざ",
+          "reading": "za"
+        },
+        {
+          "text": "い",
+          "reading": "i"
+        },
+        {
+          "text": "ま",
+          "reading": "ma"
+        },
+        {
+          "text": "す",
+          "reading": "su"
+        }
+      ]
+    },
+    "vocab-0009": {
+      "text": "こんばんは",
+      "segments": [
+        {
+          "text": "こ",
+          "reading": "ko"
+        },
+        {
+          "text": "ん",
+          "reading": "n"
+        },
+        {
+          "text": "ば",
+          "reading": "ba"
+        },
+        {
+          "text": "ん",
+          "reading": "n"
+        },
+        {
+          "text": "は",
+          "reading": "wa",
+          "note": "は is pronounced wa in this expression."
+        }
+      ]
+    },
+    "vocab-0010": {
+      "text": "おやすみなさい",
+      "segments": [
+        {
+          "text": "お",
+          "reading": "o"
+        },
+        {
+          "text": "や",
+          "reading": "ya"
+        },
+        {
+          "text": "す",
+          "reading": "su"
+        },
+        {
+          "text": "み",
+          "reading": "mi"
+        },
+        {
+          "text": "な",
+          "reading": "na"
+        },
+        {
+          "text": "さ",
+          "reading": "sa"
+        },
+        {
+          "text": "い",
+          "reading": "i"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "direction": "en-ja",
+  "blockId": "basic-11",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0101": {
+      "text": "祖母",
+      "segments": [
+        {
+          "text": "祖",
+          "reading": "so"
+        },
+        {
+          "text": "母",
+          "reading": "bo"
+        }
+      ]
+    },
+    "vocab-0102": {
+      "text": "祖父",
+      "segments": [
+        {
+          "text": "祖",
+          "reading": "so"
+        },
+        {
+          "text": "父",
+          "reading": "fu"
+        }
+      ]
+    },
+    "vocab-0103": {
+      "text": "おば",
+      "segments": [
+        {
+          "text": "お",
+          "reading": "o"
+        },
+        {
+          "text": "ば",
+          "reading": "ba"
+        }
+      ]
+    },
+    "vocab-0104": {
+      "text": "おじ",
+      "segments": [
+        {
+          "text": "お",
+          "reading": "o"
+        },
+        {
+          "text": "じ",
+          "reading": "ji"
+        }
+      ]
+    },
+    "vocab-0105": {
+      "text": "両親",
+      "segments": [
+        {
+          "text": "両",
+          "reading": "ryou"
+        },
+        {
+          "text": "親",
+          "reading": "shin"
+        }
+      ]
+    },
+    "vocab-0106": {
+      "text": "祖父母",
+      "segments": [
+        {
+          "text": "祖",
+          "reading": "so"
+        },
+        {
+          "text": "父",
+          "reading": "fu"
+        },
+        {
+          "text": "母",
+          "reading": "bo"
+        }
+      ]
+    },
+    "vocab-0107": {
+      "text": "赤ちゃん",
+      "segments": [
+        {
+          "text": "赤",
+          "reading": "aka"
+        },
+        {
+          "text": "ち",
+          "reading": "chi",
+          "note": "With the following small kana, pronounced cha."
+        },
+        {
+          "text": "ゃ",
+          "reading": "ya",
+          "note": "Small kana: combines with the preceding kana to make cha.",
+          "combinedReading": "cha"
+        },
+        {
+          "text": "ん",
+          "reading": "n"
+        }
+      ]
+    },
+    "vocab-0108": {
+      "text": "十代の若者",
+      "segments": [
+        {
+          "text": "十",
+          "reading": "juu"
+        },
+        {
+          "text": "代",
+          "reading": "dai"
+        },
+        {
+          "text": "の",
+          "reading": "no"
+        },
+        {
+          "text": "若",
+          "reading": "waka"
+        },
+        {
+          "text": "者",
+          "reading": "mono"
+        }
+      ]
+    },
+    "vocab-0109": {
+      "text": "隣人",
+      "segments": [
+        {
+          "text": "隣",
+          "reading": "rin"
+        },
+        {
+          "text": "人",
+          "reading": "jin"
+        }
+      ]
+    },
+    "vocab-0110": {
+      "text": "客",
+      "segments": [
+        {
+          "text": "客",
+          "reading": "kyaku"
+        }
+      ]
+    }
+  }
+}

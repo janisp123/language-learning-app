@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "ru-en",
+  "blockId": "basic-50",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0491": {
+      "text": "I",
+      "segments": [
+        {
+          "text": "I",
+          "reading": "ай"
+        }
+      ]
+    },
+    "vocab-0492": {
+      "text": "you",
+      "segments": [
+        {
+          "text": "you",
+          "reading": "ю"
+        }
+      ]
+    },
+    "vocab-0493": {
+      "text": "he",
+      "segments": [
+        {
+          "text": "he",
+          "reading": "хи"
+        }
+      ]
+    },
+    "vocab-0494": {
+      "text": "she",
+      "segments": [
+        {
+          "text": "she",
+          "reading": "ши"
+        }
+      ]
+    },
+    "vocab-0495": {
+      "text": "we",
+      "segments": [
+        {
+          "text": "we",
+          "reading": "уи"
+        }
+      ]
+    },
+    "vocab-0496": {
+      "text": "they",
+      "segments": [
+        {
+          "text": "they",
+          "reading": "зэй"
+        }
+      ]
+    },
+    "vocab-0497": {
+      "text": "this",
+      "segments": [
+        {
+          "text": "this",
+          "reading": "зис"
+        }
+      ]
+    },
+    "vocab-0498": {
+      "text": "that",
+      "segments": [
+        {
+          "text": "that",
+          "reading": "зэт"
+        }
+      ]
+    },
+    "vocab-0499": {
+      "text": "everything",
+      "segments": [
+        {
+          "text": "everything",
+          "reading": "эврисинг"
+        }
+      ]
+    },
+    "vocab-0500": {
+      "text": "nothing",
+      "segments": [
+        {
+          "text": "nothing",
+          "reading": "насинг"
+        }
+      ]
+    }
+  }
+}

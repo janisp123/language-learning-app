@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "direction": "en-ja",
+  "blockId": "basic-48",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0471": {
+      "text": "赤",
+      "segments": [
+        {
+          "text": "赤",
+          "reading": "aka"
+        }
+      ]
+    },
+    "vocab-0472": {
+      "text": "青",
+      "segments": [
+        {
+          "text": "青",
+          "reading": "ao"
+        }
+      ]
+    },
+    "vocab-0473": {
+      "text": "緑",
+      "segments": [
+        {
+          "text": "緑",
+          "reading": "midori"
+        }
+      ]
+    },
+    "vocab-0474": {
+      "text": "黄色",
+      "segments": [
+        {
+          "text": "黄",
+          "reading": "ki"
+        },
+        {
+          "text": "色",
+          "reading": "iro"
+        }
+      ]
+    },
+    "vocab-0475": {
+      "text": "黒",
+      "segments": [
+        {
+          "text": "黒",
+          "reading": "kuro"
+        }
+      ]
+    },
+    "vocab-0476": {
+      "text": "白",
+      "segments": [
+        {
+          "text": "白",
+          "reading": "shiro"
+        }
+      ]
+    },
+    "vocab-0477": {
+      "text": "灰色",
+      "segments": [
+        {
+          "text": "灰",
+          "reading": "hai"
+        },
+        {
+          "text": "色",
+          "reading": "iro"
+        }
+      ]
+    },
+    "vocab-0478": {
+      "text": "茶色",
+      "segments": [
+        {
+          "text": "茶",
+          "reading": "cha"
+        },
+        {
+          "text": "色",
+          "reading": "iro"
+        }
+      ]
+    },
+    "vocab-0479": {
+      "text": "ピンク",
+      "segments": [
+        {
+          "text": "ピ",
+          "reading": "pi"
+        },
+        {
+          "text": "ン",
+          "reading": "n"
+        },
+        {
+          "text": "ク",
+          "reading": "ku"
+        }
+      ]
+    },
+    "vocab-0480": {
+      "text": "紫",
+      "segments": [
+        {
+          "text": "紫",
+          "reading": "murasaki"
+        }
+      ]
+    }
+  }
+}

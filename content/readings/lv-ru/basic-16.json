@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "lv-ru",
+  "blockId": "basic-16",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0151": {
+      "text": "радостный",
+      "segments": [
+        {
+          "text": "радостный",
+          "reading": "radasnij"
+        }
+      ]
+    },
+    "vocab-0152": {
+      "text": "грустный",
+      "segments": [
+        {
+          "text": "грустный",
+          "reading": "grusnij"
+        }
+      ]
+    },
+    "vocab-0153": {
+      "text": "сердитый",
+      "segments": [
+        {
+          "text": "сердитый",
+          "reading": "sirditij"
+        }
+      ]
+    },
+    "vocab-0154": {
+      "text": "испуганный",
+      "segments": [
+        {
+          "text": "испуганный",
+          "reading": "ispugannij"
+        }
+      ]
+    },
+    "vocab-0155": {
+      "text": "спокойный",
+      "segments": [
+        {
+          "text": "спокойный",
+          "reading": "spakojnij"
+        }
+      ]
+    },
+    "vocab-0156": {
+      "text": "уставший",
+      "segments": [
+        {
+          "text": "уставший",
+          "reading": "ustafšij"
+        }
+      ]
+    },
+    "vocab-0157": {
+      "text": "голодный",
+      "segments": [
+        {
+          "text": "голодный",
+          "reading": "galodnij"
+        }
+      ]
+    },
+    "vocab-0158": {
+      "text": "испытывающий жажду",
+      "segments": [
+        {
+          "text": "испытывающий жажду",
+          "reading": "ispitivajuščij žaždu"
+        }
+      ]
+    },
+    "vocab-0159": {
+      "text": "скучающий",
+      "segments": [
+        {
+          "text": "скучающий",
+          "reading": "skučajuščij"
+        }
+      ]
+    },
+    "vocab-0160": {
+      "text": "удивлённый",
+      "segments": [
+        {
+          "text": "удивлённый",
+          "reading": "udivļonnij"
+        }
+      ]
+    }
+  }
+}

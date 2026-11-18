@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "ru-en",
+  "blockId": "basic-16",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0151": {
+      "text": "happy",
+      "segments": [
+        {
+          "text": "happy",
+          "reading": "хэпи"
+        }
+      ]
+    },
+    "vocab-0152": {
+      "text": "sad",
+      "segments": [
+        {
+          "text": "sad",
+          "reading": "сэд"
+        }
+      ]
+    },
+    "vocab-0153": {
+      "text": "angry",
+      "segments": [
+        {
+          "text": "angry",
+          "reading": "энгри"
+        }
+      ]
+    },
+    "vocab-0154": {
+      "text": "afraid",
+      "segments": [
+        {
+          "text": "afraid",
+          "reading": "эфрэйд"
+        }
+      ]
+    },
+    "vocab-0155": {
+      "text": "calm",
+      "segments": [
+        {
+          "text": "calm",
+          "reading": "кам"
+        }
+      ]
+    },
+    "vocab-0156": {
+      "text": "tired",
+      "segments": [
+        {
+          "text": "tired",
+          "reading": "тайэрд"
+        }
+      ]
+    },
+    "vocab-0157": {
+      "text": "hungry",
+      "segments": [
+        {
+          "text": "hungry",
+          "reading": "хангри"
+        }
+      ]
+    },
+    "vocab-0158": {
+      "text": "thirsty",
+      "segments": [
+        {
+          "text": "thirsty",
+          "reading": "сёрсти"
+        }
+      ]
+    },
+    "vocab-0159": {
+      "text": "bored",
+      "segments": [
+        {
+          "text": "bored",
+          "reading": "борд"
+        }
+      ]
+    },
+    "vocab-0160": {
+      "text": "surprised",
+      "segments": [
+        {
+          "text": "surprised",
+          "reading": "сэрпрайзд"
+        }
+      ]
+    }
+  }
+}

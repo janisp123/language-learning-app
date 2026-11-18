@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "ru-en",
+  "blockId": "basic-25",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0241": {
+      "text": "rice",
+      "segments": [
+        {
+          "text": "rice",
+          "reading": "райс"
+        }
+      ]
+    },
+    "vocab-0242": {
+      "text": "pasta",
+      "segments": [
+        {
+          "text": "pasta",
+          "reading": "пастэ"
+        }
+      ]
+    },
+    "vocab-0243": {
+      "text": "meat",
+      "segments": [
+        {
+          "text": "meat",
+          "reading": "мит"
+        }
+      ]
+    },
+    "vocab-0244": {
+      "text": "chicken meat",
+      "segments": [
+        {
+          "text": "chicken meat",
+          "reading": "чикэн мит"
+        }
+      ]
+    },
+    "vocab-0245": {
+      "text": "fish",
+      "segments": [
+        {
+          "text": "fish",
+          "reading": "фиш"
+        }
+      ]
+    },
+    "vocab-0246": {
+      "text": "egg",
+      "segments": [
+        {
+          "text": "egg",
+          "reading": "эг"
+        }
+      ]
+    },
+    "vocab-0247": {
+      "text": "butter",
+      "segments": [
+        {
+          "text": "butter",
+          "reading": "батэр"
+        }
+      ]
+    },
+    "vocab-0248": {
+      "text": "yogurt",
+      "segments": [
+        {
+          "text": "yogurt",
+          "reading": "йоугэрт"
+        }
+      ]
+    },
+    "vocab-0249": {
+      "text": "salt",
+      "segments": [
+        {
+          "text": "salt",
+          "reading": "солт"
+        }
+      ]
+    },
+    "vocab-0250": {
+      "text": "sugar",
+      "segments": [
+        {
+          "text": "sugar",
+          "reading": "шугэр"
+        }
+      ]
+    }
+  }
+}

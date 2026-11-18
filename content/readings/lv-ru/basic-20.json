@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "lv-ru",
+  "blockId": "basic-20",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0191": {
+      "text": "кровать",
+      "segments": [
+        {
+          "text": "кровать",
+          "reading": "kravat"
+        }
+      ]
+    },
+    "vocab-0192": {
+      "text": "стол",
+      "segments": [
+        {
+          "text": "стол",
+          "reading": "stol"
+        }
+      ]
+    },
+    "vocab-0193": {
+      "text": "диван",
+      "segments": [
+        {
+          "text": "диван",
+          "reading": "divan"
+        }
+      ]
+    },
+    "vocab-0194": {
+      "text": "шкаф",
+      "segments": [
+        {
+          "text": "шкаф",
+          "reading": "škaf"
+        }
+      ]
+    },
+    "vocab-0195": {
+      "text": "полка",
+      "segments": [
+        {
+          "text": "полка",
+          "reading": "polka"
+        }
+      ]
+    },
+    "vocab-0196": {
+      "text": "зеркало",
+      "segments": [
+        {
+          "text": "зеркало",
+          "reading": "zerkala"
+        }
+      ]
+    },
+    "vocab-0197": {
+      "text": "лампа",
+      "segments": [
+        {
+          "text": "лампа",
+          "reading": "lampa"
+        }
+      ]
+    },
+    "vocab-0198": {
+      "text": "ковёр",
+      "segments": [
+        {
+          "text": "ковёр",
+          "reading": "kavjor"
+        }
+      ]
+    },
+    "vocab-0199": {
+      "text": "одеяло",
+      "segments": [
+        {
+          "text": "одеяло",
+          "reading": "adijala"
+        }
+      ]
+    },
+    "vocab-0200": {
+      "text": "подушка",
+      "segments": [
+        {
+          "text": "подушка",
+          "reading": "paduška"
+        }
+      ]
+    }
+  }
+}

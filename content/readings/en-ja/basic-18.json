@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "direction": "en-ja",
+  "blockId": "basic-18",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0171": {
+      "text": "電話",
+      "segments": [
+        {
+          "text": "電",
+          "reading": "den"
+        },
+        {
+          "text": "話",
+          "reading": "wa"
+        }
+      ]
+    },
+    "vocab-0172": {
+      "text": "コンピューター",
+      "segments": [
+        {
+          "text": "コ",
+          "reading": "ko"
+        },
+        {
+          "text": "ン",
+          "reading": "n"
+        },
+        {
+          "text": "ピ",
+          "reading": "pi",
+          "note": "With the following small kana, pronounced pyu."
+        },
+        {
+          "text": "ュ",
+          "reading": "yu",
+          "note": "Small kana: combines with the preceding kana to make pyu.",
+          "combinedReading": "pyu"
+        },
+        {
+          "text": "ー",
+          "reading": "—",
+          "note": "Lengthens the preceding vowel; it has no separate consonant sound."
+        },
+        {
+          "text": "タ",
+          "reading": "ta"
+        },
+        {
+          "text": "ー",
+          "reading": "—",
+          "note": "Lengthens the preceding vowel; it has no separate consonant sound."
+        }
+      ]
+    },
+    "vocab-0173": {
+      "text": "画面",
+      "segments": [
+        {
+          "text": "画",
+          "reading": "ga"
+        },
+        {
+          "text": "面",
+          "reading": "men"
+        }
+      ]
+    },
+    "vocab-0174": {
+      "text": "キーボード",
+      "segments": [
+        {
+          "text": "キ",
+          "reading": "ki"
+        },
+        {
+          "text": "ー",
+          "reading": "—",
+          "note": "Lengthens the preceding vowel; it has no separate consonant sound."
+        },
+        {
+          "text": "ボ",
+          "reading": "bo"
+        },
+        {
+          "text": "ー",
+          "reading": "—",
+          "note": "Lengthens the preceding vowel; it has no separate consonant sound."
+        },
+        {
+          "text": "ド",
+          "reading": "do"
+        }
+      ]
+    },
+    "vocab-0175": {
+      "text": "マウス",
+      "segments": [
+        {
+          "text": "マ",
+          "reading": "ma"
+        },
+        {
+          "text": "ウ",
+          "reading": "u"
+        },
+        {
+          "text": "ス",
+          "reading": "su"
+        }
+      ]
+    },
+    "vocab-0176": {
+      "text": "充電器",
+      "segments": [
+        {
+          "text": "充",
+          "reading": "juu"
+        },
+        {
+          "text": "電",
+          "reading": "den"
+        },
+        {
+          "text": "器",
+          "reading": "ki"
+        }
+      ]
+    },
+    "vocab-0177": {
+      "text": "電池",
+      "segments": [
+        {
+          "text": "電",
+          "reading": "den"
+        },
+        {
+          "text": "池",
+          "reading": "chi"
+        }
+      ]
+    },
+    "vocab-0178": {
+      "text": "メッセージ",
+      "segments": [
+        {
+          "text": "メ",
+          "reading": "me"
+        },
+        {
+          "text": "ッ",
+          "reading": "(s)",
+          "note": "Doubles the next consonant; hold a brief pause before it."
+        },
+        {
+          "text": "セ",
+          "reading": "se"
+        },
+        {
+          "text": "ー",
+          "reading": "—",
+          "note": "Lengthens the preceding vowel; it has no separate consonant sound."
+        },
+        {
+          "text": "ジ",
+          "reading": "ji"
+        }
+      ]
+    },
+    "vocab-0179": {
+      "text": "写真",
+      "segments": [
+        {
+          "text": "写",
+          "reading": "sha"
+        },
+        {
+          "text": "真",
+          "reading": "shin"
+        }
+      ]
+    },
+    "vocab-0180": {
+      "text": "インターネット",
+      "segments": [
+        {
+          "text": "イ",
+          "reading": "i"
+        },
+        {
+          "text": "ン",
+          "reading": "n"
+        },
+        {
+          "text": "タ",
+          "reading": "ta"
+        },
+        {
+          "text": "ー",
+          "reading": "—",
+          "note": "Lengthens the preceding vowel; it has no separate consonant sound."
+        },
+        {
+          "text": "ネ",
+          "reading": "ne"
+        },
+        {
+          "text": "ッ",
+          "reading": "(t)",
+          "note": "Doubles the next consonant; hold a brief pause before it."
+        },
+        {
+          "text": "ト",
+          "reading": "to"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "ru-en",
+  "blockId": "basic-19",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0181": {
+      "text": "door",
+      "segments": [
+        {
+          "text": "door",
+          "reading": "дор"
+        }
+      ]
+    },
+    "vocab-0182": {
+      "text": "window",
+      "segments": [
+        {
+          "text": "window",
+          "reading": "уиндоу"
+        }
+      ]
+    },
+    "vocab-0183": {
+      "text": "wall",
+      "segments": [
+        {
+          "text": "wall",
+          "reading": "уол"
+        }
+      ]
+    },
+    "vocab-0184": {
+      "text": "floor",
+      "segments": [
+        {
+          "text": "floor",
+          "reading": "флор"
+        }
+      ]
+    },
+    "vocab-0185": {
+      "text": "ceiling",
+      "segments": [
+        {
+          "text": "ceiling",
+          "reading": "силинг"
+        }
+      ]
+    },
+    "vocab-0186": {
+      "text": "roof",
+      "segments": [
+        {
+          "text": "roof",
+          "reading": "руф"
+        }
+      ]
+    },
+    "vocab-0187": {
+      "text": "stairs",
+      "segments": [
+        {
+          "text": "stairs",
+          "reading": "стэрз"
+        }
+      ]
+    },
+    "vocab-0188": {
+      "text": "room",
+      "segments": [
+        {
+          "text": "room",
+          "reading": "рум"
+        }
+      ]
+    },
+    "vocab-0189": {
+      "text": "kitchen",
+      "segments": [
+        {
+          "text": "kitchen",
+          "reading": "китчэн"
+        }
+      ]
+    },
+    "vocab-0190": {
+      "text": "bathroom",
+      "segments": [
+        {
+          "text": "bathroom",
+          "reading": "бэсрум"
+        }
+      ]
+    }
+  }
+}

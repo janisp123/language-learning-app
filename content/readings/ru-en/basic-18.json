@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "ru-en",
+  "blockId": "basic-18",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0171": {
+      "text": "phone",
+      "segments": [
+        {
+          "text": "phone",
+          "reading": "фоун"
+        }
+      ]
+    },
+    "vocab-0172": {
+      "text": "computer",
+      "segments": [
+        {
+          "text": "computer",
+          "reading": "кэмпьютэр"
+        }
+      ]
+    },
+    "vocab-0173": {
+      "text": "screen",
+      "segments": [
+        {
+          "text": "screen",
+          "reading": "скрин"
+        }
+      ]
+    },
+    "vocab-0174": {
+      "text": "keyboard",
+      "segments": [
+        {
+          "text": "keyboard",
+          "reading": "киборд"
+        }
+      ]
+    },
+    "vocab-0175": {
+      "text": "mouse",
+      "segments": [
+        {
+          "text": "mouse",
+          "reading": "маус"
+        }
+      ]
+    },
+    "vocab-0176": {
+      "text": "charger",
+      "segments": [
+        {
+          "text": "charger",
+          "reading": "чарджэр"
+        }
+      ]
+    },
+    "vocab-0177": {
+      "text": "battery",
+      "segments": [
+        {
+          "text": "battery",
+          "reading": "бэтэри"
+        }
+      ]
+    },
+    "vocab-0178": {
+      "text": "message",
+      "segments": [
+        {
+          "text": "message",
+          "reading": "мэсидж"
+        }
+      ]
+    },
+    "vocab-0179": {
+      "text": "photo",
+      "segments": [
+        {
+          "text": "photo",
+          "reading": "фоутоу"
+        }
+      ]
+    },
+    "vocab-0180": {
+      "text": "internet",
+      "segments": [
+        {
+          "text": "internet",
+          "reading": "интэрнэт"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "ru-en",
+  "blockId": "basic-14",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0131": {
+      "text": "palm",
+      "segments": [
+        {
+          "text": "palm",
+          "reading": "пам"
+        }
+      ]
+    },
+    "vocab-0132": {
+      "text": "arm",
+      "segments": [
+        {
+          "text": "arm",
+          "reading": "арм"
+        }
+      ]
+    },
+    "vocab-0133": {
+      "text": "finger",
+      "segments": [
+        {
+          "text": "finger",
+          "reading": "фингэр"
+        }
+      ]
+    },
+    "vocab-0134": {
+      "text": "leg",
+      "segments": [
+        {
+          "text": "leg",
+          "reading": "лэг"
+        }
+      ]
+    },
+    "vocab-0135": {
+      "text": "foot",
+      "segments": [
+        {
+          "text": "foot",
+          "reading": "фут"
+        }
+      ]
+    },
+    "vocab-0136": {
+      "text": "knee",
+      "segments": [
+        {
+          "text": "knee",
+          "reading": "ни"
+        }
+      ]
+    },
+    "vocab-0137": {
+      "text": "back",
+      "segments": [
+        {
+          "text": "back",
+          "reading": "бэк"
+        }
+      ]
+    },
+    "vocab-0138": {
+      "text": "stomach",
+      "segments": [
+        {
+          "text": "stomach",
+          "reading": "стамэк"
+        }
+      ]
+    },
+    "vocab-0139": {
+      "text": "shoulder",
+      "segments": [
+        {
+          "text": "shoulder",
+          "reading": "шоулдэр"
+        }
+      ]
+    },
+    "vocab-0140": {
+      "text": "skin",
+      "segments": [
+        {
+          "text": "skin",
+          "reading": "скин"
+        }
+      ]
+    }
+  }
+}

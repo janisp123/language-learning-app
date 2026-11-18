@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "ru-en",
+  "blockId": "basic-36",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0351": {
+      "text": "tree",
+      "segments": [
+        {
+          "text": "tree",
+          "reading": "три"
+        }
+      ]
+    },
+    "vocab-0352": {
+      "text": "flower",
+      "segments": [
+        {
+          "text": "flower",
+          "reading": "флауэр"
+        }
+      ]
+    },
+    "vocab-0353": {
+      "text": "grass",
+      "segments": [
+        {
+          "text": "grass",
+          "reading": "грэс"
+        }
+      ]
+    },
+    "vocab-0354": {
+      "text": "leaf",
+      "segments": [
+        {
+          "text": "leaf",
+          "reading": "лиф"
+        }
+      ]
+    },
+    "vocab-0355": {
+      "text": "forest",
+      "segments": [
+        {
+          "text": "forest",
+          "reading": "форэст"
+        }
+      ]
+    },
+    "vocab-0356": {
+      "text": "river",
+      "segments": [
+        {
+          "text": "river",
+          "reading": "ривэр"
+        }
+      ]
+    },
+    "vocab-0357": {
+      "text": "lake",
+      "segments": [
+        {
+          "text": "lake",
+          "reading": "лэйк"
+        }
+      ]
+    },
+    "vocab-0358": {
+      "text": "sea",
+      "segments": [
+        {
+          "text": "sea",
+          "reading": "си"
+        }
+      ]
+    },
+    "vocab-0359": {
+      "text": "beach",
+      "segments": [
+        {
+          "text": "beach",
+          "reading": "бич"
+        }
+      ]
+    },
+    "vocab-0360": {
+      "text": "stone",
+      "segments": [
+        {
+          "text": "stone",
+          "reading": "стоун"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "direction": "en-ja",
+  "blockId": "basic-15",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0141": {
+      "text": "健康",
+      "segments": [
+        {
+          "text": "健",
+          "reading": "ken"
+        },
+        {
+          "text": "康",
+          "reading": "kou"
+        }
+      ]
+    },
+    "vocab-0142": {
+      "text": "病気",
+      "segments": [
+        {
+          "text": "病",
+          "reading": "byou"
+        },
+        {
+          "text": "気",
+          "reading": "ki"
+        }
+      ]
+    },
+    "vocab-0143": {
+      "text": "風邪",
+      "segments": [
+        {
+          "text": "風邪",
+          "reading": "kaze",
+          "note": "Irregular whole-word reading; these kanji are read together here."
+        }
+      ]
+    },
+    "vocab-0144": {
+      "text": "熱",
+      "segments": [
+        {
+          "text": "熱",
+          "reading": "netsu"
+        }
+      ]
+    },
+    "vocab-0145": {
+      "text": "咳",
+      "segments": [
+        {
+          "text": "咳",
+          "reading": "seki"
+        }
+      ]
+    },
+    "vocab-0146": {
+      "text": "薬",
+      "segments": [
+        {
+          "text": "薬",
+          "reading": "kusuri"
+        }
+      ]
+    },
+    "vocab-0147": {
+      "text": "錠剤",
+      "segments": [
+        {
+          "text": "錠",
+          "reading": "jou"
+        },
+        {
+          "text": "剤",
+          "reading": "zai"
+        }
+      ]
+    },
+    "vocab-0148": {
+      "text": "絆創膏",
+      "segments": [
+        {
+          "text": "絆",
+          "reading": "ban"
+        },
+        {
+          "text": "創",
+          "reading": "sou"
+        },
+        {
+          "text": "膏",
+          "reading": "kou"
+        }
+      ]
+    },
+    "vocab-0149": {
+      "text": "包帯",
+      "segments": [
+        {
+          "text": "包",
+          "reading": "hou"
+        },
+        {
+          "text": "帯",
+          "reading": "tai"
+        }
+      ]
+    },
+    "vocab-0150": {
+      "text": "体温計",
+      "segments": [
+        {
+          "text": "体",
+          "reading": "tai"
+        },
+        {
+          "text": "温",
+          "reading": "on"
+        },
+        {
+          "text": "計",
+          "reading": "kei"
+        }
+      ]
+    }
+  }
+}

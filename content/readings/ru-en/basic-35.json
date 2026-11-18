@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "ru-en",
+  "blockId": "basic-35",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0341": {
+      "text": "rain",
+      "segments": [
+        {
+          "text": "rain",
+          "reading": "рэйн"
+        }
+      ]
+    },
+    "vocab-0342": {
+      "text": "snow",
+      "segments": [
+        {
+          "text": "snow",
+          "reading": "сноу"
+        }
+      ]
+    },
+    "vocab-0343": {
+      "text": "wind",
+      "segments": [
+        {
+          "text": "wind",
+          "reading": "уинд"
+        }
+      ]
+    },
+    "vocab-0344": {
+      "text": "cloud",
+      "segments": [
+        {
+          "text": "cloud",
+          "reading": "клауд"
+        }
+      ]
+    },
+    "vocab-0345": {
+      "text": "fog",
+      "segments": [
+        {
+          "text": "fog",
+          "reading": "фог"
+        }
+      ]
+    },
+    "vocab-0346": {
+      "text": "ice",
+      "segments": [
+        {
+          "text": "ice",
+          "reading": "айс"
+        }
+      ]
+    },
+    "vocab-0347": {
+      "text": "thunder",
+      "segments": [
+        {
+          "text": "thunder",
+          "reading": "сандэр"
+        }
+      ]
+    },
+    "vocab-0348": {
+      "text": "storm",
+      "segments": [
+        {
+          "text": "storm",
+          "reading": "сторм"
+        }
+      ]
+    },
+    "vocab-0349": {
+      "text": "rainbow",
+      "segments": [
+        {
+          "text": "rainbow",
+          "reading": "рэйнбоу"
+        }
+      ]
+    },
+    "vocab-0350": {
+      "text": "temperature",
+      "segments": [
+        {
+          "text": "temperature",
+          "reading": "тэмпрэчэр"
+        }
+      ]
+    }
+  }
+}

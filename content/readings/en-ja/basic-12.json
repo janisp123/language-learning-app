@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "direction": "en-ja",
+  "blockId": "basic-12",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0111": {
+      "text": "女性",
+      "segments": [
+        {
+          "text": "女",
+          "reading": "jo"
+        },
+        {
+          "text": "性",
+          "reading": "sei"
+        }
+      ]
+    },
+    "vocab-0112": {
+      "text": "男性",
+      "segments": [
+        {
+          "text": "男",
+          "reading": "dan"
+        },
+        {
+          "text": "性",
+          "reading": "sei"
+        }
+      ]
+    },
+    "vocab-0113": {
+      "text": "人々",
+      "segments": [
+        {
+          "text": "人",
+          "reading": "hito"
+        },
+        {
+          "text": "々",
+          "reading": "bito",
+          "note": "Repeats 人 with voicing: bito in 人々 (hitobito)."
+        }
+      ]
+    },
+    "vocab-0114": {
+      "text": "子供たち",
+      "segments": [
+        {
+          "text": "子",
+          "reading": "ko"
+        },
+        {
+          "text": "供",
+          "reading": "domo",
+          "note": "Voiced reading domo in 子供 (kodomo)."
+        },
+        {
+          "text": "た",
+          "reading": "ta"
+        },
+        {
+          "text": "ち",
+          "reading": "chi"
+        }
+      ]
+    },
+    "vocab-0115": {
+      "text": "クラスメート",
+      "segments": [
+        {
+          "text": "ク",
+          "reading": "ku"
+        },
+        {
+          "text": "ラ",
+          "reading": "ra"
+        },
+        {
+          "text": "ス",
+          "reading": "su"
+        },
+        {
+          "text": "メ",
+          "reading": "me"
+        },
+        {
+          "text": "ー",
+          "reading": "—",
+          "note": "Lengthens the preceding vowel; it has no separate consonant sound."
+        },
+        {
+          "text": "ト",
+          "reading": "to"
+        }
+      ]
+    },
+    "vocab-0116": {
+      "text": "学生",
+      "segments": [
+        {
+          "text": "学",
+          "reading": "gaku"
+        },
+        {
+          "text": "生",
+          "reading": "sei"
+        }
+      ]
+    },
+    "vocab-0117": {
+      "text": "運転手",
+      "segments": [
+        {
+          "text": "運",
+          "reading": "un"
+        },
+        {
+          "text": "転",
+          "reading": "ten"
+        },
+        {
+          "text": "手",
+          "reading": "shu"
+        }
+      ]
+    },
+    "vocab-0118": {
+      "text": "販売員",
+      "segments": [
+        {
+          "text": "販",
+          "reading": "han"
+        },
+        {
+          "text": "売",
+          "reading": "bai"
+        },
+        {
+          "text": "員",
+          "reading": "in"
+        }
+      ]
+    },
+    "vocab-0119": {
+      "text": "乗客",
+      "segments": [
+        {
+          "text": "乗",
+          "reading": "jou"
+        },
+        {
+          "text": "客",
+          "reading": "kyaku"
+        }
+      ]
+    },
+    "vocab-0120": {
+      "text": "訪問者",
+      "segments": [
+        {
+          "text": "訪",
+          "reading": "hou"
+        },
+        {
+          "text": "問",
+          "reading": "mon"
+        },
+        {
+          "text": "者",
+          "reading": "sha"
+        }
+      ]
+    }
+  }
+}

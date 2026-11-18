@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "ru-en",
+  "blockId": "basic-17",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0161": {
+      "text": "coat",
+      "segments": [
+        {
+          "text": "coat",
+          "reading": "коут"
+        }
+      ]
+    },
+    "vocab-0162": {
+      "text": "jacket",
+      "segments": [
+        {
+          "text": "jacket",
+          "reading": "джэкит"
+        }
+      ]
+    },
+    "vocab-0163": {
+      "text": "shirt",
+      "segments": [
+        {
+          "text": "shirt",
+          "reading": "шёрт"
+        }
+      ]
+    },
+    "vocab-0164": {
+      "text": "trousers",
+      "segments": [
+        {
+          "text": "trousers",
+          "reading": "траузэрз"
+        }
+      ]
+    },
+    "vocab-0165": {
+      "text": "dress",
+      "segments": [
+        {
+          "text": "dress",
+          "reading": "дрэс"
+        }
+      ]
+    },
+    "vocab-0166": {
+      "text": "socks",
+      "segments": [
+        {
+          "text": "socks",
+          "reading": "сакс"
+        }
+      ]
+    },
+    "vocab-0167": {
+      "text": "footwear",
+      "segments": [
+        {
+          "text": "footwear",
+          "reading": "футуэр"
+        }
+      ]
+    },
+    "vocab-0168": {
+      "text": "hat",
+      "segments": [
+        {
+          "text": "hat",
+          "reading": "хэт"
+        }
+      ]
+    },
+    "vocab-0169": {
+      "text": "scarf",
+      "segments": [
+        {
+          "text": "scarf",
+          "reading": "скарф"
+        }
+      ]
+    },
+    "vocab-0170": {
+      "text": "gloves",
+      "segments": [
+        {
+          "text": "gloves",
+          "reading": "главз"
+        }
+      ]
+    }
+  }
+}

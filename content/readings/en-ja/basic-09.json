@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "direction": "en-ja",
+  "blockId": "basic-09",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0081": {
+      "text": "警察",
+      "segments": [
+        {
+          "text": "警",
+          "reading": "kei"
+        },
+        {
+          "text": "察",
+          "reading": "satsu"
+        }
+      ]
+    },
+    "vocab-0082": {
+      "text": "救急車",
+      "segments": [
+        {
+          "text": "救",
+          "reading": "kyuu"
+        },
+        {
+          "text": "急",
+          "reading": "kyuu"
+        },
+        {
+          "text": "車",
+          "reading": "sha"
+        }
+      ]
+    },
+    "vocab-0083": {
+      "text": "火事",
+      "segments": [
+        {
+          "text": "火",
+          "reading": "ka"
+        },
+        {
+          "text": "事",
+          "reading": "ji"
+        }
+      ]
+    },
+    "vocab-0084": {
+      "text": "危険",
+      "segments": [
+        {
+          "text": "危",
+          "reading": "ki"
+        },
+        {
+          "text": "険",
+          "reading": "ken"
+        }
+      ]
+    },
+    "vocab-0085": {
+      "text": "痛み",
+      "segments": [
+        {
+          "text": "痛",
+          "reading": "ita"
+        },
+        {
+          "text": "み",
+          "reading": "mi"
+        }
+      ]
+    },
+    "vocab-0086": {
+      "text": "医者",
+      "segments": [
+        {
+          "text": "医",
+          "reading": "i"
+        },
+        {
+          "text": "者",
+          "reading": "sha"
+        }
+      ]
+    },
+    "vocab-0087": {
+      "text": "緊急事態",
+      "segments": [
+        {
+          "text": "緊",
+          "reading": "kin"
+        },
+        {
+          "text": "急",
+          "reading": "kyuu"
+        },
+        {
+          "text": "事",
+          "reading": "ji"
+        },
+        {
+          "text": "態",
+          "reading": "tai"
+        }
+      ]
+    },
+    "vocab-0088": {
+      "text": "応急手当",
+      "segments": [
+        {
+          "text": "応",
+          "reading": "ou"
+        },
+        {
+          "text": "急",
+          "reading": "kyuu"
+        },
+        {
+          "text": "手",
+          "reading": "te"
+        },
+        {
+          "text": "当",
+          "reading": "ate"
+        }
+      ]
+    },
+    "vocab-0089": {
+      "text": "緊急通報番号",
+      "segments": [
+        {
+          "text": "緊",
+          "reading": "kin"
+        },
+        {
+          "text": "急",
+          "reading": "kyuu"
+        },
+        {
+          "text": "通",
+          "reading": "tsuu"
+        },
+        {
+          "text": "報",
+          "reading": "hou"
+        },
+        {
+          "text": "番",
+          "reading": "ban"
+        },
+        {
+          "text": "号",
+          "reading": "gou"
+        }
+      ]
+    },
+    "vocab-0090": {
+      "text": "大人",
+      "segments": [
+        {
+          "text": "大人",
+          "reading": "otona",
+          "note": "Irregular whole-word reading; these kanji are read together here."
+        }
+      ]
+    }
+  }
+}

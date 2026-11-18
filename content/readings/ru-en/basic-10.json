@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "ru-en",
+  "blockId": "basic-10",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0091": {
+      "text": "who",
+      "segments": [
+        {
+          "text": "who",
+          "reading": "ху"
+        }
+      ]
+    },
+    "vocab-0092": {
+      "text": "what",
+      "segments": [
+        {
+          "text": "what",
+          "reading": "уат"
+        }
+      ]
+    },
+    "vocab-0093": {
+      "text": "where",
+      "segments": [
+        {
+          "text": "where",
+          "reading": "уэр"
+        }
+      ]
+    },
+    "vocab-0094": {
+      "text": "when",
+      "segments": [
+        {
+          "text": "when",
+          "reading": "уэн"
+        }
+      ]
+    },
+    "vocab-0095": {
+      "text": "why",
+      "segments": [
+        {
+          "text": "why",
+          "reading": "уай"
+        }
+      ]
+    },
+    "vocab-0096": {
+      "text": "how",
+      "segments": [
+        {
+          "text": "how",
+          "reading": "хау"
+        }
+      ]
+    },
+    "vocab-0097": {
+      "text": "how many",
+      "segments": [
+        {
+          "text": "how many",
+          "reading": "хау мэни"
+        }
+      ]
+    },
+    "vocab-0098": {
+      "text": "what price",
+      "segments": [
+        {
+          "text": "what price",
+          "reading": "уат прайс"
+        }
+      ]
+    },
+    "vocab-0099": {
+      "text": "which way",
+      "segments": [
+        {
+          "text": "which way",
+          "reading": "уич уэй"
+        }
+      ]
+    },
+    "vocab-0100": {
+      "text": "what else",
+      "segments": [
+        {
+          "text": "what else",
+          "reading": "уат элс"
+        }
+      ]
+    }
+  }
+}

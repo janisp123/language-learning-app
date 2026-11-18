@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "ru-en",
+  "blockId": "basic-27",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0261": {
+      "text": "please help",
+      "segments": [
+        {
+          "text": "please help",
+          "reading": "плиз хэлп"
+        }
+      ]
+    },
+    "vocab-0262": {
+      "text": "a little more",
+      "segments": [
+        {
+          "text": "a little more",
+          "reading": "э литэл мор"
+        }
+      ]
+    },
+    "vocab-0263": {
+      "text": "more slowly",
+      "segments": [
+        {
+          "text": "more slowly",
+          "reading": "мор слоули"
+        }
+      ]
+    },
+    "vocab-0264": {
+      "text": "not now",
+      "segments": [
+        {
+          "text": "not now",
+          "reading": "нат нау"
+        }
+      ]
+    },
+    "vocab-0265": {
+      "text": "no thank you",
+      "segments": [
+        {
+          "text": "no thank you",
+          "reading": "ноу сэнк ю"
+        }
+      ]
+    },
+    "vocab-0266": {
+      "text": "excuse me",
+      "segments": [
+        {
+          "text": "excuse me",
+          "reading": "икскьюз ми"
+        }
+      ]
+    },
+    "vocab-0267": {
+      "text": "good luck",
+      "segments": [
+        {
+          "text": "good luck",
+          "reading": "гуд лак"
+        }
+      ]
+    },
+    "vocab-0268": {
+      "text": "well done",
+      "segments": [
+        {
+          "text": "well done",
+          "reading": "уэл дан"
+        }
+      ]
+    },
+    "vocab-0269": {
+      "text": "good afternoon",
+      "segments": [
+        {
+          "text": "good afternoon",
+          "reading": "гуд эфтэрнун"
+        }
+      ]
+    },
+    "vocab-0270": {
+      "text": "with pleasure",
+      "segments": [
+        {
+          "text": "with pleasure",
+          "reading": "уиз плэжэр"
+        }
+      ]
+    }
+  }
+}

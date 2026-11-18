@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "lv-ru",
+  "blockId": "basic-19",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0181": {
+      "text": "дверь",
+      "segments": [
+        {
+          "text": "дверь",
+          "reading": "dver"
+        }
+      ]
+    },
+    "vocab-0182": {
+      "text": "окно",
+      "segments": [
+        {
+          "text": "окно",
+          "reading": "akno"
+        }
+      ]
+    },
+    "vocab-0183": {
+      "text": "стена",
+      "segments": [
+        {
+          "text": "стена",
+          "reading": "stina"
+        }
+      ]
+    },
+    "vocab-0184": {
+      "text": "пол",
+      "segments": [
+        {
+          "text": "пол",
+          "reading": "pol"
+        }
+      ]
+    },
+    "vocab-0185": {
+      "text": "потолок",
+      "segments": [
+        {
+          "text": "потолок",
+          "reading": "patalok"
+        }
+      ]
+    },
+    "vocab-0186": {
+      "text": "крыша",
+      "segments": [
+        {
+          "text": "крыша",
+          "reading": "kriša"
+        }
+      ]
+    },
+    "vocab-0187": {
+      "text": "лестница",
+      "segments": [
+        {
+          "text": "лестница",
+          "reading": "ļesņica"
+        }
+      ]
+    },
+    "vocab-0188": {
+      "text": "комната",
+      "segments": [
+        {
+          "text": "комната",
+          "reading": "komnata"
+        }
+      ]
+    },
+    "vocab-0189": {
+      "text": "кухня",
+      "segments": [
+        {
+          "text": "кухня",
+          "reading": "kuhņa"
+        }
+      ]
+    },
+    "vocab-0190": {
+      "text": "ванная комната",
+      "segments": [
+        {
+          "text": "ванная комната",
+          "reading": "vannaja komnata"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "baselineMain": "84fa250db49e50e6348f52daf77c6901e350d048",
+  "version": "0.4.12",
+  "translationsPreserved": {
+    "lv": 510,
+    "ru": 510,
+    "en": 510,
+    "ja": 510
+  },
+  "identityLocksPreserved": {
+    "tests/fixtures/original-content-lock.json": "4f271c1867e2fa8e7f4001d680314c283f434cb7eef7ede75d37c1f6151399de",
+    "tests/fixtures/vocabulary-0.4-lock.json": "ec9788807b70985e2b2f3e52cdac8e1c3bd34f12ae8850647056836c1c91725d"
+  },
+  "guides": {
+    "lv-ru": {
+      "blocks": 51,
+      "items": 510
+    },
+    "ru-en": {
+      "blocks": 51,
+      "items": 510
+    },
+    "en-ja": {
+      "blocks": 51,
+      "items": 510
+    }
+  },
+  "unchangedAreas": [
+    "core/",
+    "audio/",
+    "content/blocks/",
+    "content/concepts.json",
+    "content/catalog.json"
+  ],
+  "nodeTests": 52,
+  "pythonTests": 32,
+  "humanPronunciationReview": "pending",
+  "physicalDevices": "NOT RUN",
+  "screenReaderAudit": "NOT RUN"
+}

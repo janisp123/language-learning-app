@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "ru-en",
+  "blockId": "basic-41",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0401": {
+      "text": "letter",
+      "segments": [
+        {
+          "text": "letter",
+          "reading": "лэтэр"
+        }
+      ]
+    },
+    "vocab-0402": {
+      "text": "word",
+      "segments": [
+        {
+          "text": "word",
+          "reading": "уёрд"
+        }
+      ]
+    },
+    "vocab-0403": {
+      "text": "phrase",
+      "segments": [
+        {
+          "text": "phrase",
+          "reading": "фрэйз"
+        }
+      ]
+    },
+    "vocab-0404": {
+      "text": "sentence",
+      "segments": [
+        {
+          "text": "sentence",
+          "reading": "сэнтэнс"
+        }
+      ]
+    },
+    "vocab-0405": {
+      "text": "question",
+      "segments": [
+        {
+          "text": "question",
+          "reading": "куэсчэн"
+        }
+      ]
+    },
+    "vocab-0406": {
+      "text": "answer",
+      "segments": [
+        {
+          "text": "answer",
+          "reading": "энсэр"
+        }
+      ]
+    },
+    "vocab-0407": {
+      "text": "page",
+      "segments": [
+        {
+          "text": "page",
+          "reading": "пэйдж"
+        }
+      ]
+    },
+    "vocab-0408": {
+      "text": "exercise",
+      "segments": [
+        {
+          "text": "exercise",
+          "reading": "эксэрсайз"
+        }
+      ]
+    },
+    "vocab-0409": {
+      "text": "example",
+      "segments": [
+        {
+          "text": "example",
+          "reading": "игзэмпэл"
+        }
+      ]
+    },
+    "vocab-0410": {
+      "text": "mistake",
+      "segments": [
+        {
+          "text": "mistake",
+          "reading": "мистэйк"
+        }
+      ]
+    }
+  }
+}

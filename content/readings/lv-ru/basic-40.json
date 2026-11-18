@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "lv-ru",
+  "blockId": "basic-40",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0391": {
+      "text": "школьный рюкзак",
+      "segments": [
+        {
+          "text": "школьный рюкзак",
+          "reading": "škoļnij rukzak"
+        }
+      ]
+    },
+    "vocab-0392": {
+      "text": "линейка",
+      "segments": [
+        {
+          "text": "линейка",
+          "reading": "ļiņejka"
+        }
+      ]
+    },
+    "vocab-0393": {
+      "text": "ластик",
+      "segments": [
+        {
+          "text": "ластик",
+          "reading": "lastik"
+        }
+      ]
+    },
+    "vocab-0394": {
+      "text": "ножницы",
+      "segments": [
+        {
+          "text": "ножницы",
+          "reading": "nožņici"
+        }
+      ]
+    },
+    "vocab-0395": {
+      "text": "клей",
+      "segments": [
+        {
+          "text": "клей",
+          "reading": "kļej"
+        }
+      ]
+    },
+    "vocab-0396": {
+      "text": "бумага",
+      "segments": [
+        {
+          "text": "бумага",
+          "reading": "bumaga"
+        }
+      ]
+    },
+    "vocab-0397": {
+      "text": "краска",
+      "segments": [
+        {
+          "text": "краска",
+          "reading": "kraska"
+        }
+      ]
+    },
+    "vocab-0398": {
+      "text": "кисть",
+      "segments": [
+        {
+          "text": "кисть",
+          "reading": "kist"
+        }
+      ]
+    },
+    "vocab-0399": {
+      "text": "рисунок",
+      "segments": [
+        {
+          "text": "рисунок",
+          "reading": "risunak"
+        }
+      ]
+    },
+    "vocab-0400": {
+      "text": "домашнее задание",
+      "segments": [
+        {
+          "text": "домашнее задание",
+          "reading": "damašņeje zadaņije"
+        }
+      ]
+    }
+  }
+}

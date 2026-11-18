@@ -26,3 +26,7 @@
 
 .answer-replay:focus:enabled,.answer-replay:active:enabled{background:#dfeccf;box-shadow:inset 0 0 0 2px #3c6a44}.answer-replay:focus-visible{outline:3px solid #3c6a44;outline-offset:-4px}
 [data-theme="dark"] .answer-replay:focus:enabled,[data-theme="dark"] .answer-replay:active:enabled{background:#35613e;box-shadow:inset 0 0 0 2px #a4ca79}[data-theme="dark"] .answer-replay:focus-visible{outline:3px solid #a4ca79;outline-offset:-4px}
+
+/* Reading aids are content, never an additional answer/speaker control. */
+.reading-word,.reading-unit{display:inline-flex;flex-direction:column;align-items:flex-start;gap:.2rem;max-width:100%}.reading-symbols{display:flex;flex-wrap:wrap;align-items:flex-start;gap:.25rem .3rem}.reading-symbols .reading-unit{align-items:center;min-width:1.2em}.reading-guide{display:block;font-size:.78rem;font-weight:400;line-height:1.4;letter-spacing:0;color:#53665e;overflow-wrap:anywhere}.reading-base{overflow-wrap:anywhere}.reading-note{line-height:1.55;margin:.8rem 0 .2rem}[data-theme="dark"] .reading-guide{color:#c2d3bb}
+.reading-role{font-size:.65rem;font-weight:500;line-height:1.2;color:#53665e}[data-theme="dark"] .reading-role{color:#c2d3bb}

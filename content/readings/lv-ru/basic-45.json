@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "lv-ru",
+  "blockId": "basic-45",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0441": {
+      "text": "открывать",
+      "segments": [
+        {
+          "text": "открывать",
+          "reading": "atkrivat"
+        }
+      ]
+    },
+    "vocab-0442": {
+      "text": "закрывать",
+      "segments": [
+        {
+          "text": "закрывать",
+          "reading": "zakrivat"
+        }
+      ]
+    },
+    "vocab-0443": {
+      "text": "начинать",
+      "segments": [
+        {
+          "text": "начинать",
+          "reading": "načinat"
+        }
+      ]
+    },
+    "vocab-0444": {
+      "text": "заканчивать",
+      "segments": [
+        {
+          "text": "заканчивать",
+          "reading": "zakančivat"
+        }
+      ]
+    },
+    "vocab-0445": {
+      "text": "ждать",
+      "segments": [
+        {
+          "text": "ждать",
+          "reading": "ždat"
+        }
+      ]
+    },
+    "vocab-0446": {
+      "text": "помогать",
+      "segments": [
+        {
+          "text": "помогать",
+          "reading": "pamagat"
+        }
+      ]
+    },
+    "vocab-0447": {
+      "text": "играть",
+      "segments": [
+        {
+          "text": "играть",
+          "reading": "igrat"
+        }
+      ]
+    },
+    "vocab-0448": {
+      "text": "работать",
+      "segments": [
+        {
+          "text": "работать",
+          "reading": "rabotat"
+        }
+      ]
+    },
+    "vocab-0449": {
+      "text": "мыть",
+      "segments": [
+        {
+          "text": "мыть",
+          "reading": "mit"
+        }
+      ]
+    },
+    "vocab-0450": {
+      "text": "чистить",
+      "segments": [
+        {
+          "text": "чистить",
+          "reading": "čistit"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "lv-ru",
+  "blockId": "basic-18",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0171": {
+      "text": "телефон",
+      "segments": [
+        {
+          "text": "телефон",
+          "reading": "tiļifon"
+        }
+      ]
+    },
+    "vocab-0172": {
+      "text": "компьютер",
+      "segments": [
+        {
+          "text": "компьютер",
+          "reading": "kampjuter"
+        }
+      ]
+    },
+    "vocab-0173": {
+      "text": "экран",
+      "segments": [
+        {
+          "text": "экран",
+          "reading": "ekran"
+        }
+      ]
+    },
+    "vocab-0174": {
+      "text": "клавиатура",
+      "segments": [
+        {
+          "text": "клавиатура",
+          "reading": "klaviatura"
+        }
+      ]
+    },
+    "vocab-0175": {
+      "text": "компьютерная мышь",
+      "segments": [
+        {
+          "text": "компьютерная мышь",
+          "reading": "kampjuternaja miš"
+        }
+      ]
+    },
+    "vocab-0176": {
+      "text": "зарядное устройство",
+      "segments": [
+        {
+          "text": "зарядное устройство",
+          "reading": "zarjadnaje ustrojstva"
+        }
+      ]
+    },
+    "vocab-0177": {
+      "text": "батарейка",
+      "segments": [
+        {
+          "text": "батарейка",
+          "reading": "batarejka"
+        }
+      ]
+    },
+    "vocab-0178": {
+      "text": "сообщение",
+      "segments": [
+        {
+          "text": "сообщение",
+          "reading": "saapščeņije"
+        }
+      ]
+    },
+    "vocab-0179": {
+      "text": "фотография",
+      "segments": [
+        {
+          "text": "фотография",
+          "reading": "fatagrafija"
+        }
+      ]
+    },
+    "vocab-0180": {
+      "text": "интернет",
+      "segments": [
+        {
+          "text": "интернет",
+          "reading": "internet"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "ru-en",
+  "blockId": "basic-28",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0271": {
+      "text": "money",
+      "segments": [
+        {
+          "text": "money",
+          "reading": "мани"
+        }
+      ]
+    },
+    "vocab-0272": {
+      "text": "price",
+      "segments": [
+        {
+          "text": "price",
+          "reading": "прайс"
+        }
+      ]
+    },
+    "vocab-0273": {
+      "text": "change",
+      "segments": [
+        {
+          "text": "change",
+          "reading": "чэйндж"
+        }
+      ]
+    },
+    "vocab-0274": {
+      "text": "receipt",
+      "segments": [
+        {
+          "text": "receipt",
+          "reading": "рисит"
+        }
+      ]
+    },
+    "vocab-0275": {
+      "text": "checkout",
+      "segments": [
+        {
+          "text": "checkout",
+          "reading": "чэкаут"
+        }
+      ]
+    },
+    "vocab-0276": {
+      "text": "basket",
+      "segments": [
+        {
+          "text": "basket",
+          "reading": "бэскит"
+        }
+      ]
+    },
+    "vocab-0277": {
+      "text": "bag",
+      "segments": [
+        {
+          "text": "bag",
+          "reading": "бэг"
+        }
+      ]
+    },
+    "vocab-0278": {
+      "text": "size",
+      "segments": [
+        {
+          "text": "size",
+          "reading": "сайз"
+        }
+      ]
+    },
+    "vocab-0279": {
+      "text": "discount",
+      "segments": [
+        {
+          "text": "discount",
+          "reading": "дискаунт"
+        }
+      ]
+    },
+    "vocab-0280": {
+      "text": "card",
+      "segments": [
+        {
+          "text": "card",
+          "reading": "кард"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "lv-ru",
+  "blockId": "basic-15",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0141": {
+      "text": "здоровье",
+      "segments": [
+        {
+          "text": "здоровье",
+          "reading": "zdarovje"
+        }
+      ]
+    },
+    "vocab-0142": {
+      "text": "болезнь",
+      "segments": [
+        {
+          "text": "болезнь",
+          "reading": "baļezņ"
+        }
+      ]
+    },
+    "vocab-0143": {
+      "text": "простуда",
+      "segments": [
+        {
+          "text": "простуда",
+          "reading": "prastuda"
+        }
+      ]
+    },
+    "vocab-0144": {
+      "text": "лихорадка",
+      "segments": [
+        {
+          "text": "лихорадка",
+          "reading": "ļiharatka"
+        }
+      ]
+    },
+    "vocab-0145": {
+      "text": "кашель",
+      "segments": [
+        {
+          "text": "кашель",
+          "reading": "kašeļ"
+        }
+      ]
+    },
+    "vocab-0146": {
+      "text": "лекарство",
+      "segments": [
+        {
+          "text": "лекарство",
+          "reading": "ļekarstva"
+        }
+      ]
+    },
+    "vocab-0147": {
+      "text": "таблетка",
+      "segments": [
+        {
+          "text": "таблетка",
+          "reading": "tabļetka"
+        }
+      ]
+    },
+    "vocab-0148": {
+      "text": "пластырь",
+      "segments": [
+        {
+          "text": "пластырь",
+          "reading": "plastir"
+        }
+      ]
+    },
+    "vocab-0149": {
+      "text": "повязка",
+      "segments": [
+        {
+          "text": "повязка",
+          "reading": "pavjaska"
+        }
+      ]
+    },
+    "vocab-0150": {
+      "text": "термометр",
+      "segments": [
+        {
+          "text": "термометр",
+          "reading": "tirmometr"
+        }
+      ]
+    }
+  }
+}

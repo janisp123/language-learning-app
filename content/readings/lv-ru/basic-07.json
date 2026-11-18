@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "lv-ru",
+  "blockId": "basic-07",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0061": {
+      "text": "книга",
+      "segments": [
+        {
+          "text": "книга",
+          "reading": "kņiga"
+        }
+      ]
+    },
+    "vocab-0062": {
+      "text": "тетрадь",
+      "segments": [
+        {
+          "text": "тетрадь",
+          "reading": "titrat"
+        }
+      ]
+    },
+    "vocab-0063": {
+      "text": "ручка",
+      "segments": [
+        {
+          "text": "ручка",
+          "reading": "ručka"
+        }
+      ]
+    },
+    "vocab-0064": {
+      "text": "карандаш",
+      "segments": [
+        {
+          "text": "карандаш",
+          "reading": "karandaš"
+        }
+      ]
+    },
+    "vocab-0065": {
+      "text": "письменный стол",
+      "segments": [
+        {
+          "text": "письменный стол",
+          "reading": "pismennij stol"
+        }
+      ]
+    },
+    "vocab-0066": {
+      "text": "стул",
+      "segments": [
+        {
+          "text": "стул",
+          "reading": "stul"
+        }
+      ]
+    },
+    "vocab-0067": {
+      "text": "доска",
+      "segments": [
+        {
+          "text": "доска",
+          "reading": "daska"
+        }
+      ]
+    },
+    "vocab-0068": {
+      "text": "учитель",
+      "segments": [
+        {
+          "text": "учитель",
+          "reading": "učiteļ"
+        }
+      ]
+    },
+    "vocab-0069": {
+      "text": "урок",
+      "segments": [
+        {
+          "text": "урок",
+          "reading": "urok"
+        }
+      ]
+    },
+    "vocab-0070": {
+      "text": "перемена",
+      "segments": [
+        {
+          "text": "перемена",
+          "reading": "pirimena"
+        }
+      ]
+    }
+  }
+}

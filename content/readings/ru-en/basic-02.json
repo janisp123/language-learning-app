@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "ru-en",
+  "blockId": "basic-02",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0011": {
+      "text": "person",
+      "segments": [
+        {
+          "text": "person",
+          "reading": "пёрсэн"
+        }
+      ]
+    },
+    "vocab-0012": {
+      "text": "child",
+      "segments": [
+        {
+          "text": "child",
+          "reading": "чайлд"
+        }
+      ]
+    },
+    "vocab-0013": {
+      "text": "boy",
+      "segments": [
+        {
+          "text": "boy",
+          "reading": "бой"
+        }
+      ]
+    },
+    "vocab-0014": {
+      "text": "girl",
+      "segments": [
+        {
+          "text": "girl",
+          "reading": "гёрл"
+        }
+      ]
+    },
+    "vocab-0015": {
+      "text": "friend",
+      "segments": [
+        {
+          "text": "friend",
+          "reading": "фрэнд"
+        }
+      ]
+    },
+    "vocab-0016": {
+      "text": "family",
+      "segments": [
+        {
+          "text": "family",
+          "reading": "фэмили"
+        }
+      ]
+    },
+    "vocab-0017": {
+      "text": "mother",
+      "segments": [
+        {
+          "text": "mother",
+          "reading": "мазэр"
+        }
+      ]
+    },
+    "vocab-0018": {
+      "text": "father",
+      "segments": [
+        {
+          "text": "father",
+          "reading": "фазэр"
+        }
+      ]
+    },
+    "vocab-0019": {
+      "text": "sister",
+      "segments": [
+        {
+          "text": "sister",
+          "reading": "систэр"
+        }
+      ]
+    },
+    "vocab-0020": {
+      "text": "brother",
+      "segments": [
+        {
+          "text": "brother",
+          "reading": "бразэр"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "version": "0.4.12",
+  "sourceCommit": "162e2acfb0a7ca98751f8f5ef8a1d35a6f0c7382",
+  "sourcePullRequest": "https://github.com/janisp123/language-learning-app/pull/21",
+  "sourcePushedBeforeUpload": true,
+  "sourceCi": {
+    "run": 44182744942,
+    "conclusion": "success"
+  },
+  "stableFileId": "1594pGCAm3E7hOq0-oSwLFh8z4WtRI3vd",
+  "parentFolderId": "1U6ewdAD-HsthuchnzVOeWOSs4hmM-EAX",
+  "modifiedTime": "2026-11-17T21:43:36.575Z",
+  "sha256": "d3f3b5cab491f997647844fe69f34b9a72fb625087f67e75b74da7fefcc0f5c6",
+  "bytes": 21558493,
+  "downloadedReadbackExact": true,
+  "fileNameIdFolderAndSharingPreserved": true,
+  "directionsWithGuides": [
+    "lv-ru",
+    "ru-en",
+    "en-ja"
+  ],
+  "guidesPerDirection": 510,
+  "canonicalDirectionsUnchanged": 7,
+  "merged": false,
+  "publiclyDeployed": false,
+  "humanPronunciationReview": "pending"
+}

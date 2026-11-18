@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "direction": "lv-ru",
+  "blockId": "basic-51",
+  "reviewStatus": "draft-human-review-pending",
+  "entries": {
+    "vocab-0501": {
+      "text": "мне нужна помощь",
+      "segments": [
+        {
+          "text": "мне нужна помощь",
+          "reading": "mņe nužna pomašč"
+        }
+      ]
+    },
+    "vocab-0502": {
+      "text": "мне нужна вода",
+      "segments": [
+        {
+          "text": "мне нужна вода",
+          "reading": "mņe nužna vada"
+        }
+      ]
+    },
+    "vocab-0503": {
+      "text": "мне нужен врач",
+      "segments": [
+        {
+          "text": "мне нужен врач",
+          "reading": "mņe nužen vrač"
+        }
+      ]
+    },
+    "vocab-0504": {
+      "text": "я не понимаю",
+      "segments": [
+        {
+          "text": "я не понимаю",
+          "reading": "ja ņi paņimaju"
+        }
+      ]
+    },
+    "vocab-0505": {
+      "text": "пожалуйста вызовите скорую помощь",
+      "segments": [
+        {
+          "text": "пожалуйста вызовите скорую помощь",
+          "reading": "pažalusta vizavite skoruju pomašč"
+        }
+      ]
+    },
+    "vocab-0506": {
+      "text": "пожалуйста вызовите полицию",
+      "segments": [
+        {
+          "text": "пожалуйста вызовите полицию",
+          "reading": "pažalusta vizavite paļiciju"
+        }
+      ]
+    },
+    "vocab-0507": {
+      "text": "аллергия",
+      "segments": [
+        {
+          "text": "аллергия",
+          "reading": "alergija"
+        }
+      ]
+    },
+    "vocab-0508": {
+      "text": "без молока",
+      "segments": [
+        {
+          "text": "без молока",
+          "reading": "bis malaka"
+        }
+      ]
+    },
+    "vocab-0509": {
+      "text": "без сахара",
+      "segments": [
+        {
+          "text": "без сахара",
+          "reading": "bis sahara"
+        }
+      ]
+    },
+    "vocab-0510": {
+      "text": "мне нужно лекарство",
+      "segments": [
+        {
+          "text": "мне нужно лекарство",
+          "reading": "mņe nužna ļekarstva"
+        }
+      ]
+    }
+  }
+}
