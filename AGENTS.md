@@ -25,6 +25,16 @@ Scope: **this repository only** (`janisp123/language-learning-app`). Do not edit
 - Task IDs are stable. On completion, archive the result to the changelog and remove it from the active TD only after verified integration.
 - A suggestion goes in a short **Discussion / not approved** section if recorded at all; it must not be mistaken for implementation authorization.
 
+## Shared TD handoff — ChatGPT and Codex
+
+- **Same repository, same file:** Both ChatGPT and Codex read and edit only `janisp123/language-learning-app:docs/TD.learn.md` for this project's active task list. Do not maintain another TD in chat memory, Drive, the profile repository, another project, or a renamed/duplicate file.
+- **Before each read or edit:** Fetch latest remote `main`, read this AGENTS file and checkpoint, then inspect open TD-related PRs. An unmerged PR is proposed pending work, not already present on main. Never overwrite a newer change with a local/cached copy.
+- **Pending handoff as of 2026-11-18:** PR #21 (`feat/source-language-reading-guides`) contains L-010 and L-011 plus the Japanese audit/checkpoint. Check that PR while it is open; do not lose or duplicate those entries merely because main does not contain them yet. Recheck live GitHub status rather than assuming this dated pointer stays current. PR #21 is on hold for vocabulary-quality concerns; do not merge the feature merely to integrate a TD edit.
+- **Write through the repository workflow:** Use a short-lived branch and PR, or update the relevant existing pending PR when appropriate. Preserve task IDs, original Added-by attribution, unrelated tasks and concurrent edits. Use the latest file SHA for a write. Keep a TD-only change separate from a held product change when it needs independent integration; reconcile overlapping branches explicitly.
+- **Proof and reporting:** Fetch the edited remote file back and compare exact content. Report branch/PR/commit and `PENDING PR` until merged; after merge, fetch main and verify the exact task before reporting it integrated. A conversational acknowledgment alone does not save a task.
+- **Permissions:** Public visibility allows both tools to read. Each separate ChatGPT/Codex session needs its own connected GitHub write access to edit. If that access is unavailable, say BLOCKED and provide the exact path/change; do not pretend chat memory or a different document is the shared list.
+- A task addition never starts implementation automatically. Follow the owner's explicit instruction about whether to record, audit, implement or publish.
+
 ## 4. Safe implementation workflow
 
 - Inspect latest `main`; identify the exact starting commit. Do not work from stale or historical branches.
