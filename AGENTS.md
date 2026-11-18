@@ -4,6 +4,15 @@
 
 First fetch current remote `main:docs/TD_LIST.md`; then read this file, `docs/WORK_CHECKPOINT.md` and applicable `docs/DECISIONS.md`. Check overlapping PRs. Standard labels: **chat** = regular ChatGPT, **cw** = ChatGPT Work, **codex** = Codex; **Owner** approves. Follow `docs/AGENT_PROTOCOL.md`; tasks do not authorize themselves. Run `python tools/check_project_protocol.py` and use checked PRs for edits. All product/safety/release rules below remain binding.
 
+## Owner command convention — "continue" (2026-11-18)
+
+This applies to project work by **chat**, **cw** and **codex**, including after a tool or usage-limit interruption. The phrase is not automatic authorization to code:
+
+- **"Continue" (alone): READ-ONLY preflight.** Fetch current remote `main:docs/TD_LIST.md` first, read this file, checkpoint, decisions, relevant evidence and open PRs; identify the last verified state and any conflicts. Reply with the specific task/ID, what was completed, what remains, the smallest next change, tests/risks and **"Should I proceed?"** Do **not** modify files, create branches/PRs, commit, merge, publish or perform external actions until the Owner answers.
+- **"Continue and implement":** The Owner explicitly authorizes execution of an already-approved, clearly identified scope. Still do the full preflight, check conflicts and proceed only with previously approved decisions; stop to request approval for new choices, changed scope, ambiguous repository/task, destructive actions, merges or releases requiring separate approval.
+- **"Check status":** Read-only status report; no implementation and no approval question required unless an ambiguity prevents a meaningful answer.
+- If the project or task is ambiguous, ask which one; do not invent a handoff. Usage limits resetting never trigger automatic work.
+
 Scope: **this repository only** (`janisp123/language-learning-app`). Do not edit `mental-health-questionnaire` or its task list as part of this work.
 
 ## 1. Start here — avoid repeating work
