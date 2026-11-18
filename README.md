@@ -59,7 +59,7 @@ Start with [contribution guidance](CONTRIBUTING.md) and [AGENTS.md](AGENTS.md). 
 - [Testing guide and verification limits](docs/BROWSER_TEST_BUILD.md)
 - [Content module guide](docs/CONTENT_MODULES.md) · [Current curriculum](docs/VOCABULARY_500.md) · [Audio boundaries](docs/AUDIO_MODULES.md)
 - [Architecture](docs/ARCHITECTURE.md) · [Release checklist](docs/RELEASE_CHECKLIST.md) · [Publication instructions](docs/discovery-preview/LAUNCH.md)
-- [Active tasks](docs/TD.learn.md) · [Current checkpoint](docs/WORK_CHECKPOINT.md) · [Change history](docs/CHANGELOG.md)
+- [Active tasks](docs/TD_LIST.md) · [Current checkpoint](docs/WORK_CHECKPOINT.md) · [Change history](docs/CHANGELOG.md)
 
 New content must preserve stable concept/question/correct-answer IDs and the original recordings and translations. Directions use an explicit allowlist; adding a language does not authorize every possible pairing. The earlier 100-item draft remains in `archive/course-0.3/`. Android proposal PR #3 is historical and needs reconciliation with the zero-saves rule before use.
 
