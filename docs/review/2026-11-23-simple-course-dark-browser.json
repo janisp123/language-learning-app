@@ -17,5 +17,6 @@
   "physicalPhone": false,
   "fullScreenReader": false,
   "sourceBeforeDelivery": true,
-  "deployed": false
+  "deployed": true,
+  "liveReceipt": "../delivery/2026-11-23-simple-course-dark-live.json"
 }
