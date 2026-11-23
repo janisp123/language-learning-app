@@ -1,0 +1,52 @@
+{
+  "verifiedDate": "2026-11-23",
+  "buildVersion": "0.5.1",
+  "sourceCommit": "bb313e5390479c24fa5334d81a7bd74433827e30",
+  "mergeCommit": "4605a86bbd46db69bfda11e5f94685a230f8d353",
+  "pullRequest": 31,
+  "sourceCI": 45254413472,
+  "mainCI": 45254638977,
+  "pagesRun": 45254639189,
+  "pagesAttempt": 2,
+  "pagesConclusion": "success",
+  "initialDeploymentFailure": "Creating Pages deployment:Connect Timeout Error; retried failed deployment job only, succeeded.",
+  "bytes": 26170224,
+  "sha256": "275430397ffdcb95e1ac0d660615a3023f4f1025dc7b543e4d399aa24e2813d2",
+  "url": "https://janisp123.github.io/language-learning-app/learn/?v=0.5.1",
+  "hostedByteEquality": {
+    "app": true,
+    "landing": true,
+    "method": "verified HTTPS downloads compared byte-for-byte with tested canonical build/site source"
+  },
+  "behavior": "Wrong answer:current source question→correct target answer repeated3 times; apply old step-back/third-mistake reset after sixth ended. No Try again control. Correct answers500ms.",
+  "tests": {
+    "nodeLocal": 54,
+    "pythonLocal": 41,
+    "realSixClipPlayback": true,
+    "courseDirectionCompletionEventRuns": 14,
+    "independentReview": "no blocker"
+  },
+  "browserReceipt": "../review/2026-11-23-mistake-listening-browser.json",
+  "unchanged": [
+    "engine/scoring/counters",
+    "vocabulary/IDs/bindings",
+    "all2308 recording bytes",
+    "seven directions",
+    "Kids/Adults100 plus original510",
+    "zero saved state"
+  ],
+  "status": {
+    "implemented": true,
+    "pushed": true,
+    "merged": true,
+    "publiclyDeployed": true,
+    "driveUpdated": false
+  },
+  "notRun": [
+    "physical phone",
+    "full screen reader",
+    "direct hosted Chromium navigation (known environment certificate trust limitation; verified HTTPS readback matches real locally tested app)"
+  ],
+  "mediaFailure": "Visible correct text/error then automatic500ms recovery; per-clip30s stall watchdog.",
+  "remaining": "L-010 reading-guide integration remains pending, not part of this slice."
+}

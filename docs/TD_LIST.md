@@ -1,7 +1,7 @@
 # TD list — active approved tasks for the language-learning app
 
 **Repository:** `janisp123/language-learning-app` • **Branch of record:** `main` • **Canonical path:** `docs/TD_LIST.md`  
-**Current handoff (2026-11-23):** **L-013 — three question/correct-answer listening pairs after a mistake** is the owner-selected implementation. No Try again button; automatically apply existing step-back/third-mistake reset after six completed clips. Correct answers retain500ms. Kids/Adults0.5.0 remains live; reading aids L-010 pending. Standing checked live-publication authorization persists.
+**Current handoff (2026-11-23):** **L-013 DELIVERED/LIVE0.5.1** — three source-question/correct-target pairs after a mistake, then automatic step-back/third-mistake reset; no Try again, correct answers500ms. [Receipt](delivery/2026-11-23-mistake-listening-live.json) · [Completed history](history/L-013-completed-2026-11-23.md). Kids/Adults100 and original510 preserved. **Current task:L-010 — reading-guide integration.** Standing owner authorization covers efficient checked live publication; no repeated routine approval question.
 
 **Historical browser baseline (verified 2026-11-17):** Browser review build 0.4.11 is integrated through PR #18 and publicly deployed. Main CI 44168243818 and Pages 44168243948 succeeded; hosted HTML equals the committed download. Android, fluent human review, physical-device/full-accessibility checks and final release remain unfinished. No license has been selected. [Current checkpoint](WORK_CHECKPOINT.md) records the latest evidence. Task presence alone never authorizes work or publication.
 
@@ -94,7 +94,7 @@ For each task: fetch current remote `main:docs/TD_LIST.md` first; then check `AG
 - **Verification:** 41 Node / 28 Python tests pass, including explicit allowlists, forbidden/forged session directions, full seven-direction completion, source-only UI/audio and target-first catalog order. Chromium traversed all 510 en-ja prompts at 320 px with English audio bindings, autoplay/cancellation, unchanged 499/500 ms timing, empty storage/cookies and reload reset. All 1,530 old clip hashes and all 510 old translations in each language unchanged. Independent code/content review issues resolved. Fluent human Japanese review, physical devices and full screen-reader audit remain pending.
 
 ### L-010 — Source-language reading guides in three directions
-- **Pending next action after owner-selected L-013 (2026-11-23):** Reconcile held #21 against live0.5.0, preserve focused100-item courses/original510/zero saves, apply greeting patch and new focused phrase/variant guide coverage. Read current checkpoint; do not blindly merge obsolete branch protocol/content. Verify then publish under standing owner authorization. Existing notes below are historical feature evidence, not current deployment claims.
+- **Current next action after delivered L-013 (2026-11-23):** Reconcile held #21 against live0.5.0, preserve focused100-item courses/original510/zero saves, apply greeting patch and new focused phrase/variant guide coverage. Read current checkpoint; do not blindly merge obsolete branch protocol/content. Verify then publish under standing owner authorization. Existing notes below are historical feature evidence, not current deployment claims.
 - **Added by:** Codex (explicit owner request, 2026-11-17)
 - **Implemented by:** Codex (local implementation; integration/review delivery tracked in the feature PR)
 - **Status:** Implemented/verified/pushed on PR #21, source162e2ac, source CI44182744942 passed. Review build0.4.12 delivered in stable Drive with exact downloaded byte equality ([pinned Drive delivery receipt](https://github.com/janisp123/language-learning-app/blob/72e6ab4c106c6ee7c48703af025919c81d5c3b55/docs/delivery/2026-11-17-reading-guides-drive-sync.json)). Integration/publication and human pronunciation review remain pending; preserve this task until verified integration.
@@ -117,12 +117,6 @@ For each task: fetch current remote `main:docs/TD_LIST.md` first; then check `AG
 - **Boundaries:** Recording this task authorizes no immediate translation, prompt, ID, answer-binding, reading-guide, audio, scoring or publication change. After the audit, present proposed corrections for owner review. Any later authorized correction must synchronize affected text, reading guides and recordings, preserve other meanings/directions and ZERO saved learner state, and follow checked PR/source-before-Drive/readback rules.
 
 
-### L-013 — Listen to three question/correct-answer pairs before stepping back
-- **Added by:** codex (explicit Owner request, 2026-11-23)
-- **Implemented by:** codex (local implementation/verification; source integration and live readback pending)
-- **Status:** IN_PROGRESS — wrong answers locked while CURRENT source question→CORRECT target answer plays three times; wait for ended events, then automatic step-back or third-mistake lesson1 reset. No Try again option. Correct-answer500ms transition/engine/counters unchanged.
-- **Acceptance:** Exactly six correctly bound clips; no selected-wrong-answer audio; no navigation until final end. Reset/course/direction cancels sequence/stale callbacks. Playback rejection/error/stall recovers with visible correction/error; replay remains usable on the resulting prompt. Source UI EN/RU/LV count/status; all seven directions, Kids/Adults/original510, zero saves and unchanged content/audio assets. Test unit/media races, real UI/browser, third-mistake timing, malformed/blocked media and publication readback.
-- **Next:** Finish browser/full-suite checks, source PR/CI, merge/publish under existing owner authorization and verify actual hosted bytes. Reading integration remains separately pending L-010.
 
 ## Out of scope for v1 (not backlog tasks)
 
@@ -132,6 +126,6 @@ Languages/directions beyond the approved Latvian/Russian/English set and English
 
 That project's existing TD is currently `docs/TD_LIST.md` in **another repository**. The separately discussed rename to `TD.question.md` is **not performed here**; when authorized, update that repository's references and preserve tasks/history. Never copy or edit its clinical content from this backlog.
 
-## Latest execution authorization — 2026-11-23
+## Standing execution authorization — 2026-11-23
 
-Owner explicitly requested efficient checked implementation/merging/live publication, not a separate preview. Kids/Adults0.5.0 is live. Current selected change L-013 adds three correction listening pairs before the existing step-back/reset, without a Try again control; publication within that scope is authorized. After verified delivery return to L-010 reading integration. Do not resurrect older contradictory statements that focused courses are unimplemented.
+Owner explicitly requested efficient checked implementation/merging/live publication rather than a separate preview. Kids/Adults0.5.0 and correction listening0.5.1 are delivered. Current task isL-010 reading integration; preserve all delivered behavior and latest protocol. Do not repeat completed features or ask the same routine publication approval again.
