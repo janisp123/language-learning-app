@@ -1,0 +1,57 @@
+{
+  "verifiedDate": "2026-11-23",
+  "buildVersion": "0.5.2",
+  "task": "L-014",
+  "sourceCommit": "dd6e09fb82f10f86b440bcbe3b73839e29f4dab7",
+  "mergeCommit": "964fc25f30a367b2e1650986d48e09aa9c3586aa",
+  "pullRequest": 33,
+  "sourceCI": 45260854746,
+  "mainCI": 45260975725,
+  "pagesRun": 45260975524,
+  "pagesConclusion": "success",
+  "bytes": 26169877,
+  "sha256": "1100e0e67df8ac5c2fe5e26bdb70cbcebe30dbc15ffbdd4d0c88e1c8a689490d",
+  "url": "https://janisp123.github.io/language-learning-app/learn/?v=0.5.2",
+  "hostedByteEquality": {
+    "app": true,
+    "landing": true,
+    "offline": true,
+    "method": "verified HTTPS downloads compared byte-for-byte with tested source"
+  },
+  "behavior": "Direction first, then one Basic Kids100 / Basic Adults100 / Full510 selector; dark default on fresh website/app loads, manual light current-visit handoff consumed immediately.",
+  "tests": {
+    "nodeLocal": 55,
+    "pythonLocal": 41,
+    "directionCourseStarts": 21,
+    "darkLightLayoutWidths": [
+      320,
+      390,
+      1280
+    ],
+    "independentReview": "approved; no blocking issues"
+  },
+  "browserReceipt": "../review/2026-11-23-simple-course-dark-browser.json",
+  "unchanged": [
+    "vocabulary/IDs/bindings",
+    "all2308 recordings",
+    "engine/scoring/counters",
+    "seven directions",
+    "100/100/510 course contents",
+    "500ms correct answer",
+    "three-pair mistake listening",
+    "zero saved state/preferences"
+  ],
+  "status": {
+    "implemented": true,
+    "pushed": true,
+    "merged": true,
+    "publiclyDeployed": true,
+    "driveUpdated": false
+  },
+  "notRun": [
+    "physical phone",
+    "full screen reader",
+    "direct hosted Chromium navigation (known environment certificate trust limitation; verified HTTPS bytes match real locally tested app)"
+  ],
+  "remaining": "L-010 reading-guide integration remains pending and unmerged."
+}

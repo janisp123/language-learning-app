@@ -1,10 +1,14 @@
 # Current working checkpoint
 
-Current task: L-014
+Current task: L-010
 
-## Current authorized slice — L-014
+## Latest verified delivery — L-014
 
-Implemented and locally verified direction-first three-choice setup and dark default on feat/simple-course-dark-default, isolated from main5297d79. No vocabulary/audio/scoring changes. 55Node/41Python and all21 combinations/manual light handoff/reload pass;320/390/1280 dark/light layouts pass. Build/download/site parity and protocol pass. Checked PR/merge/hosted readback pending; do not claim deployed yet. L-010 remains next after this slice.
+**LIVE0.5.2:** direction first, then exactly Basic Kids100 / Basic Adults100 / Full510. Website/app start dark on every fresh load; manual light stays current-visit only, and any landing theme fragment is immediately consumed. Seven directions/content/recordings/engine/scoring/500ms correct transition/three-pair correction and ZERO saves preserved.
+
+Source dd6e09f, [PR #33](https://github.com/janisp123/language-learning-app/pull/33) merged964fc25f30a367b2e1650986d48e09aa9c3586aa. Source CI45260854746/main CI45260975725 and Pages45260975524 succeeded. Actual hosted app, landing and offline HTML downloaded through verified HTTPS and match tested source byte-for-byte. App26,169,877 bytes, SHA2561100e0e67df8ac5c2fe5e26bdb70cbcebe30dbc15ffbdd4d0c88e1c8a689490d. [Open app](https://janisp123.github.io/language-learning-app/learn/?v=0.5.2) · [Delivery receipt](delivery/2026-11-23-simple-course-dark-live.json).
+
+55Node/41Python; all21 direction/course starts, reload dark/default lesson1, consumed light handoff, zero storage,320/390/1280 dark/light layout checks pass. Independent review approved. Physical phone/full screen reader not run. Known direct hosted Chromium trust limitation remains; verified HTTPS byte equality connects local real-browser tests to deployed source. Drive review unchanged; website offline file updated. Completed L-014 archived in docs/history/L-014-completed-2026-11-23.md.
 
 ## Last completed slice — 2026-11-23
 
@@ -22,6 +26,6 @@ Kids/Adults100 each (80 shared+20 specific), source UI and separate original510 
 
 Reading-guide PR #21 remains OPEN/UNMERGED; the live app still has no source-letter/per-symbol reading aids. Reconcile its loader/view/data against latest main without overwriting focused courses, correction audio, task/protocol, current translations/recordings or zero saves. Applyこんにちは ko/n/ni/chi/wa patch (finalは contextualwa), add complete guide coverage for focused expressions/language-name variants, preserve reading directions lv-ru / ru-en / en-ja only. Other four directions stay unannotated.
 
-Use existing reading modules, test exact text/ID/audio/guide bindings, all-course switching, new correction playback compatibility, mobile/dark/keyboard, scoring/500ms and zero saves. Publish a verified checked slice under standing owner authorization; do not blindly merge old #21. Save/read back actual hosted bytes and a live receipt. Keep existing held Drive reviews until an appropriate replacement; website offline file is current0.5.1.
+Use existing reading modules, test exact text/ID/audio/guide bindings, all-course switching, new correction playback compatibility, mobile/dark/keyboard, scoring/500ms and zero saves. Publish a verified checked slice under standing owner authorization; do not blindly merge old #21. Save/read back actual hosted bytes and a live receipt. Keep existing held Drive reviews until an appropriate replacement; website offline file is current0.5.2.
 
-Other L-011 context/commonness proposals and fluent-human/device review remain pending. Technical tests do not establish every phrase optimal or conversational fluency. Canonical active tasks:docs/TD_LIST.md; completed L-013 history preserved in docs/history/L-013-completed-2026-11-23.md. Current docs/mistake-listening-live checkout /workspace/work/mistake-listening is based on main4605a86; inspect latest actual main/PRs on resume.
+Other L-011 context/commonness proposals and fluent-human/device review remain pending. Technical tests do not establish every phrase optimal or conversational fluency. Canonical active tasks:docs/TD_LIST.md; completed L-013 history preserved in docs/history/L-013-completed-2026-11-23.md. Current delivery receipt branch docs/simple-course-live is in /workspace/work/simple-course-dark-default, based on main964fc25; inspect latest actual main/PRs on resume.
