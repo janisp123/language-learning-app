@@ -1,7 +1,7 @@
 # TD list — active approved tasks for the language-learning app
 
 **Repository:** `janisp123/language-learning-app` • **Branch of record:** `main` • **Canonical path:** `docs/TD_LIST.md`  
-**Current handoff (2026-11-23):** **L-011 — common-usage audit/correction follow-up** is current. Audit/library [PR #26](https://github.com/janisp123/language-learning-app/pull/26) MERGED at e72e032. Owner authorized the first small correction batch on2026-11-23: neutral Japanese hello and six proven overlapping answer pairs, with tests/review build. Work is on `fix/common-usage-first-slice`; no merge/publication authorized. Reading-guide PR #21 remains held.
+**Current handoff (2026-11-23):** **L-011 — common-usage audit/correction follow-up** is current. Audit/library [PR #26](https://github.com/janisp123/language-learning-app/pull/26) MERGED at e72e032. Owner authorized the first small correction batch on2026-11-23: neutral Japanese hello and six proven overlapping answer pairs, with tests/review build. Implemented/verified/pushed in [PR #27](https://github.com/janisp123/language-learning-app/pull/27), with separate0.4.13 Drive review delivered and exact downloaded equality. No merge/publication authorized. Reading-guide PR #21 remains held.
 
 **Historical browser baseline (verified 2026-11-17):** Browser review build 0.4.11 is integrated through PR #18 and publicly deployed. Main CI 44168243818 and Pages 44168243948 succeeded; hosted HTML equals the committed download. Android, fluent human review, physical-device/full-accessibility checks and final release remain unfinished. No license has been selected. [Current checkpoint](WORK_CHECKPOINT.md) records the latest evidence. Task presence alone never authorizes work or publication.
 
@@ -102,7 +102,7 @@ For each task: fetch current remote `main:docs/TD_LIST.md` first; then check `AG
 
 ### L-011 — Audit common, natural beginner words and expressions across all languages
 - **Resume priority:** Current selected task, now in review. L-001 is the older architecture backlog item, not this audit.
-- **Status:** PARTIAL — audit/reference library integrated through PR #26 (e72e032). Owner approved first correction slice: Japanese0001 hello and six overlapping distractor pairs. Local review0.4.13 implemented on `fix/common-usage-first-slice`;46Node/35Python/protocol checks pass, browser/review/source/Drive evidence recorded in checkpoint as completed. Other findings/fluent-human review remain pending; no merge or release approval.
+- **Status:** PARTIAL — audit/reference library integrated through PR #26 (e72e032). Owner approved first correction slice: Japanese0001 hello and six overlapping distractor pairs. Review0.4.13 implemented/verified/pushed on PR #27 (sourcecabf68e), source CI45198541573/protocol45198541506 passed.46Node/35Python and realChromium all510/all7/layout/audio/zero-saves pass; separateDrive review downloaded byte-identical. See checkpoint/receipt. Other findings/fluent-human review remain pending; no merge or release approval.
 - **Added by:** Codex (explicit owner request, 2026-11-18)
 - **Implemented by:** codex (editorial audit/reference artifacts; first correction slice underway; remaining owner decisions/fluent-human review pending)
 - **Problem:** Some existing translations can be technically correct yet less common, less natural or less suitable for a beginner than an everyday alternative. Dictionary correctness and passing technical tests alone do not establish that an item is a good teaching default.

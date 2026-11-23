@@ -16,4 +16,4 @@ Owner approved the proposed small correction batch on 2026-11-23. Implement inli
 - [x] Apply one translation/audio replacement and six distractor substitutions; update precise preservation evidence, no baseline digest rewrite.
 - [x] Build generated download, run full Node/Python suites/protocol and real Chromium affected-row/audio/layout/reload checks.
 - [x] Independent review; update canonical TD/checkpoint/changelog and durable evidence, correcting PR #26's merged status.
-- [ ] Push source and checked PR, then deliver review build through stable Drive with exact download-back equality if connector supports it. Report any actual blocker; no automatic release.
+- [x] Push source and checked PR, then deliver review build through stable Drive with exact download-back equality if connector supports it. Report any actual blocker; no automatic release.
