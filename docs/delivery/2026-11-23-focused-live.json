@@ -1,0 +1,53 @@
+{
+  "verifiedDate": "2026-11-23",
+  "buildVersion": "0.5.0",
+  "sourceCommit": "8b3995fcb5f25ac1ff6d1afb0d865b005a34ec7a",
+  "mergeCommit": "eed6e9dba3fd2a5bd42d4c57eeb646a3c815e231",
+  "pullRequest": 29,
+  "sourceCI": 45244251413,
+  "mainCI": 45244458566,
+  "pagesRun": 45244458557,
+  "conclusion": "success",
+  "bytes": 26166776,
+  "sha256": "9ef61fb215c644a2858d95b509af31ba6e6206f6f8f584538a016c91c998325d",
+  "urls": {
+    "landing": "https://janisp123.github.io/language-learning-app/",
+    "learning": "https://janisp123.github.io/language-learning-app/learn/?v=0.5.0",
+    "offline": "https://janisp123.github.io/language-learning-app/language-learning-test.html"
+  },
+  "hostedByteEquality": {
+    "app": true,
+    "landing": true,
+    "method": "curl verified HTTPS downloads compared byte-for-byte with checked canonical build/site source"
+  },
+  "tests": {
+    "nodeLocal": 48,
+    "pythonLocal": 41,
+    "chromiumFocusedRuns": 14,
+    "itemsPerRun": 100,
+    "newClipsDecoded": 268,
+    "protectedClipsUnchanged": 2040
+  },
+  "browserReceipt": "../review/2026-11-23-focused-browser.json",
+  "status": {
+    "implemented": true,
+    "pushed": true,
+    "merged": true,
+    "publiclyDeployed": true,
+    "driveUpdated": false
+  },
+  "remaining": [
+    "Reading-guide PR21 integration for existing/new focused forms",
+    "fluent-human language/pronunciation review",
+    "physical phone/full screen reader"
+  ],
+  "verificationLimits": [
+    "Direct hosted headless Chromium navigation failed due environment ERR_CERT_AUTHORITY_INVALID; verified HTTPS curl matched exact locally browser-tested bytes. No TLS bypass used."
+  ],
+  "metadataUpdate": {
+    "websiteDescription": "updated",
+    "readme": "updated",
+    "githubAbout": "not updated:HTTP403 Resource not accessible by integration"
+  },
+  "learnerState": "current-session memory only; zero saves"
+}

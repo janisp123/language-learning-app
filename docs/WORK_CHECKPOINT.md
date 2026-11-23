@@ -1,30 +1,23 @@
 # Current working checkpoint
 
-Current task: L-012
+Current task: L-010
 
-## Current state — 2026-11-23
+## Last completed slice — 2026-11-23
 
-**Kids/Adults0.5.0 implemented and browser-verified; publishing authorized and in progress.** Owner explicitly requested live-website testing, efficient checked merging and matching website descriptions, rather than a separate preview. Do not ask again for routine implementation/merge/publication within this scope.
+**L-012 focused Kids/Adults courses are LIVE at0.5.0.** Owner explicitly authorized efficient checked merging/live publication so testing can happen on the actual website; no further routine publication approval is needed within that scope.
 
-Branch `feat/focused-courses`, isolated checkout `/workspace/work/focused-courses`, baseline main3bc78a9 (merged design PR #28). The first usage corrections PR #27 is merged0e81ad6 and publicly deployed0.4.13, hosted bytes verified. Current0.5.0 source/PR/CI/merge/Pages/hosted readback must be checked separately and recorded below after execution.
+- [Learning page](https://janisp123.github.io/language-learning-app/learn/?v=0.5.0):100 items each,80 shared intents +20 school/play or everyday shop/transport. Source-language Kids/Adults selector; original510 course available separately. Seven global directions only, matching bundled audio, same scoring/500ms/replay/autoplay and ZERO saves.
+- Source8b3995f, [PR #29](https://github.com/janisp123/language-learning-app/pull/29) MERGED at eed6e9dba3fd2a5bd42d4c57eeb646a3c815e231. Source CI45244251413, main CI45244458566 and Pages45244458557 succeeded.48Node/41Python local checks; Chromium14×100 plus original-course access, audio/session/layout/zero-storage;268 new clips decode;2040 protected old clips unchanged. Independent review issues fixed and cleared.
+- Verified HTTPS downloads of actual live app and landing match checked source exactly. App26,166,776 bytes, SHA2569ef61fb215c644a2858d95b509af31ba6e6206f6f8f584538a016c91c998325d. [Live receipt](delivery/2026-11-23-focused-live.json). Direct live headless navigation had an environment certificate-trust error; no TLS bypass. Actual app bytes were browser-tested locally and read back through verified HTTPS.
+- Website EN/RU/LV description/metadata, README and direct offline download now match focused courses. GitHub About metadata update returned403 (integration lacks permission); its old description remains. Optional owner manual action:repository About gear→Description; use “Focused100-item Kids and Adults courses for Latvian,Russian,English and English-to-Japanese, with pronunciation and zero saved progress.” Homepage already correct.
+- First greeting/ambiguous-choice correction PR #27 merged/deployed0.4.13 before this slice. Design/plan PR #28 merged3bc78a9. Audit/library PR #26 merged. Do not repeat design/implementation for these delivered slices.
 
-## Implemented
+## Next bounded work — L-010 reading aids
 
--100-item Kids and Adults courses:80 shared teaching intents +20 school/play or everyday transaction/travel items. Complete phrases from lesson1. Source-language audience controls; separate original510 checkbox. Exactly seven global directions; selected engine views allow only their own pair and use unique course identity.
-- Canonical new-only extensions add67 meanings/complete examples/language variants, with268 matching bundled clips. Original510 translations/blocks and2,040 clips remain unchanged. No copied dictionary per audience. All course/audio manifests strictly bind IDs/text/hash; stale legacy audio revision/collisions fail closed.
-- Existing scoring, reshuffle,500ms, current-prompt autoplay/answer replay and ZERO saved learner state preserved. Changing course/direction cancels old sound/timers and resets current session. Reload resets Kids/default direction/lesson1; no age/account/preferences storage.
-- Website EN/RU/LV descriptions/metadata and README updated. Offline button now downloads the matching current website HTML, not an older Drive review. Reviewed distractors vary by speech/word type/direction; no fixed three-noun shortcut.
+Reading-guide PR #21 remains OPEN/UNMERGED and was not imported in0.5.0. The public app currently has no per-symbol/source-letter reading aids. Reconcile the existing modules against latest main, preserve current task/protocol and focused courses, apply the exactこんにちは ko/n/ni/chi/wa patch (finalは contextualwa), then add guide coverage for selected focused utterances/variants. Keep readings only lv-ru (Latvian letters),ru-en (Cyrillic),en-ja (per-symbol romaji and contextual kana/kanji notes); other four unannotated. Never use old source/translations/recordings from held #21 to overwrite current main.
 
-## Verification
+Use the existing loader/view/rendering code; no new learning engine. Test complete selected text/ID/audio/guide bindings and all course switches, mobile/dark/keyboard, no grading from speakers,500ms and zero saves. Publish a checked slice under the owner’s standing live-website request once verified, not by blindly merging old #21. Update live receipt and compare actual hosted bytes. Legacy510 remains available.
 
-PASS: Python41; focused engine/course counts/identity/full completion tests; real Chromium14 runs×100 prompts, matching new Japanese clip decode/replay without grading, pending-answer audience-switch cancellation,499/500ms, original510 access, reload/default/zero storage,320/390/1280 light/dark overflow. All268 new clips decoded. Independent review cleared corrected choice quality, README links and audio revision checks. Final Node rerun and source CI are recorded on the feature PR before merge. Technical PASS is not fluent-human certification or physical-phone/fullscreen-reader review.
+Other L-011 commonness/context recommendations, fluent-human review and physical-device/full-accessibility checks remain pending. Technical tests do not prove every expression optimal or conversational fluency. Preserve the older held0.4.12 Drive file; website offline download is current0.5.0 and no Drive replacement was made.
 
-Artifact:26,166,776 bytes; SHA2569ef61fb215c644a2858d95b509af31ba6e6206f6f8f584538a016c91c998325d. Browser receipt: [verification](review/2026-11-23-focused-browser.json). Build/site/download byte parity checked.
-
-## Remaining and next action
-
-Finish checked source integration/live Pages deployment and verify the actual hosted bytes plus both visible audience controls before claiming0.5.0 live. Then report the normal live URLs so the Owner can test immediately. Publication is already authorized.
-
-Reading-guide PR #21 remains unmerged: readings for lv-ru/ru-en/en-ja are not imported in this slice and must not be claimed live. Next bounded implementation is reconciling its current source/protocol conflicts and exact greeting/new-phrase guide coverage, then testing/publishing that authorized learning aid separately. Preserve the existing held0.4.12 Drive file until replacement is appropriate. Remaining L-011 usage context findings and fluent-human/device review stay pending; do not call every phrase optimal.
-
-Canonical active tasks: docs/TD_LIST.md. Prior checkpoint preserved [verbatim](history/WORK_CHECKPOINT-before-focused-publication-2026-11-23.md). User's explicit live-publication authorization persists across interruptions; bare continue should resume the already authorized active work without making the Owner repeat approval.
+Canonical active tasks: docs/TD_LIST.md. Completed L-012 task history is preserved in docs/history/L-012-completed-2026-11-23.md. Current code checkout /workspace/work/focused-courses is on docs/focused-live-receipt from main eed6e9d; read actual latest main/PRs on resume. This handoff changes docs only and must not be mistaken for a new product release.
