@@ -1,0 +1,45 @@
+{
+  "buildVersion": "0.4.13",
+  "contentVersion": "0.6.1-test",
+  "sourceCommit": "cabf68e34ab0d3f10d29ac79beddb162879615e8",
+  "sourceBranch": "fix/common-usage-first-slice",
+  "pullRequest": 27,
+  "driveFileId": "1rVhiL_5fXNwSGwYJE3dMgw0RjyvXY1DZ",
+  "folderId": "1U6ewdAD-HsthuchnzVOeWOSs4hmM-EAX",
+  "driveFileName": "language-learning-0.4.13-usage-corrections-review.html",
+  "bytes": 21393935,
+  "sha256": "642cd267a5ac6d7e8b8793f4009bdfb1bb0676b16a521d06a52d280f4fc645c3",
+  "readbackVerified": true,
+  "sourcePushedBeforeUpload": true,
+  "verifiedDate": "2026-11-23",
+  "ciRun": 45198541573,
+  "ciConclusion": "success",
+  "protocolRun": 45198541506,
+  "tests": {
+    "nodeLocal": 46,
+    "pythonLocal": 35
+  },
+  "browserReceipt": "../review/2026-11-23-usage-corrections-browser.json",
+  "unchangedClips": 2039,
+  "changedClip": "ja/vocab-0001 reuses exact existing0269 recording",
+  "heldReadingGuideReview": {
+    "fileId": "1594pGCAm3E7hOq0-oSwLFh8z4WtRI3vd",
+    "replaced": false,
+    "reason": "Separate correction review preserves the existing held0.4.12 reading-guide build."
+  },
+  "readingGuideStatus": "No reading guides imported into main; matching0001 per-symbol patch is prepared for later heldPR21 reconciliation.",
+  "statusAtDelivery": {
+    "implemented": true,
+    "pushed": true,
+    "driveDelivered": true,
+    "merged": false,
+    "publiclyDeployed": false
+  },
+  "learnerState": "Current-session memory only; zero saves",
+  "notRun": [
+    "physical phone",
+    "full screen-reader audit",
+    "fluent-human pronunciation review",
+    "direct file navigation blocked by browser administrator policy; loopback HTTP browser checks passed"
+  ]
+}

@@ -17,7 +17,7 @@
       "phraseId": "vocab-0402",
       "correctAnswerId": "vocab-0402",
       "distractorIds": [
-        "vocab-0403",
+        "vocab-0409",
         "vocab-0405",
         "vocab-0407"
       ]
@@ -27,7 +27,7 @@
       "phraseId": "vocab-0403",
       "correctAnswerId": "vocab-0403",
       "distractorIds": [
-        "vocab-0404",
+        "vocab-0410",
         "vocab-0406",
         "vocab-0408"
       ]

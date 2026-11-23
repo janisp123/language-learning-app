@@ -102,9 +102,9 @@ For each task: fetch current remote `main:docs/TD_LIST.md` first; then check `AG
 
 ### L-011 — Audit common, natural beginner words and expressions across all languages
 - **Resume priority:** Audit follow-up remains in review; selected design task is now L-012. L-001 is the older architecture backlog item, not this audit.
-- **Status:** PARTIAL — audit/reference library integrated by PR #26 at e72e032. First approved correction slice implemented/verified/pushed in PR #27 (head6640e58), separate review0.4.13 delivered and downloaded byte-identical; no merge/publication. Remaining audit proposals and fluent-human review pending. L-012 drafting proceeds separately without importing those corrections.
+- **Status:** PARTIAL — audit/reference library integrated by PR #26 at e72e032. First approved correction slice implemented/verified/pushed in PR #27 (head6640e58, merged0e81ad6), separate review0.4.13 delivered/downloaded byte-identical; Pages publication in progress. Remaining audit proposals and fluent-human review pending. L-012 drafting proceeds separately without importing those corrections.
 - **Added by:** Codex (explicit owner request, 2026-11-18)
-- **Implemented by:** codex (editorial audit/library merged; first correction slice pending PR #27 integration; remaining decisions/human review pending)
+- **Implemented by:** codex (editorial audit/library merged; first correction slice integrated by PR #27; remaining decisions/human review pending)
 - **Problem:** Some existing translations can be technically correct yet less common, less natural or less suitable for a beginner than an everyday alternative. Dictionary correctness and passing technical tests alone do not establish that an item is a good teaching default.
 - **Scope:** Audit all 510 words/expressions in every existing language pack (Latvian, Russian, English, Japanese), considering all seven current learning directions and their actual answer choices. This is broader than the saved Japanese-only editorial review. Reuse that review and verify its findings against current source; do not repeat completed checks without a reason.
 - **Owner examples / desired defaults:** Japanese “hello” → こんにちは (konnichiwa); Russian “hello” → здравствуйте for the neutral/polite greeting. Check actual current entries first: an example may already be correct. Distinguish casual/familiar alternatives such as やあ or привет from neutral/polite stranger-facing defaults rather than declaring every alternative universally wrong.
@@ -131,3 +131,7 @@ Languages/directions beyond the approved Latvian/Russian/English set and English
 ## Coordination with the questionnaire project
 
 That project's existing TD is currently `docs/TD_LIST.md` in **another repository**. The separately discussed rename to `TD.question.md` is **not performed here**; when authorized, update that repository's references and preserve tasks/history. Never copy or edit its clinical content from this backlog.
+
+## Latest execution authorization — 2026-11-23
+
+Owner explicitly requested implementation and merging/publishing verified changes on the live website, plus matching website descriptions, rather than a separate preview. Proceed within L-012 without asking again for ordinary coding/deployment steps. PR #27 merged at0e81ad6; verify its deployment. PR #28 plan/metadata integration is being reconciled against it, preserving Current task L-012. Kids/Adults is not implemented yet; do not describe it as live until tested and deployed.
