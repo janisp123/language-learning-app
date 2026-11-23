@@ -13,5 +13,6 @@
   "independentReview": "approved; no blockers;19 audio/UI tests and protocol independently passed",
   "physicalPhone": false,
   "fullScreenReader": false,
-  "publiclyDeployed": false
+  "publiclyDeployed": true,
+  "liveReceipt": "../delivery/2026-11-23-correct-delay-live.json"
 }

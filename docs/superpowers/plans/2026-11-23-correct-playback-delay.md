@@ -7,4 +7,4 @@ Owner specification: “calculate how long it needs to be then add2 second delay
 - [x] web/app.js applies correct result only after selected completion+2000ms; no-audio fallback2000ms. Wrong correction unchanged.
 - [x] Update deterministic correct navigation and full-course binding tests; test failures and both cancellation phases.
 - [x] Verify actual media-ended+2sec in21 browser course/direction combinations, full suites/build/protocol and review.
-- [ ] Push checked PR, merge/publish under standing authorization; download actual app/landing/offline and compare exactly; record receipt and archive L-016, restore L-010.
+- [x] Push checked PR, merge/publish under standing authorization; download actual app/landing/offline and compare exactly; record receipt and archive L-016, restore L-010.
