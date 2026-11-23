@@ -2,6 +2,8 @@
 
 **L-011: editorial audit completed; owner decisions and fluent-human review pending. No active translation, recording, binding or application change.**
 
+**Follow-up:** The first owner-approved correction slice (Japanese0001 and six distractor pairs) is tracked in [the current checkpoint](../../docs/WORK_CHECKPOINT.md). This audit remains an unchanged historical snapshot; do not interpret its input hashes or all recommendations as current course state.
+
 ## Scope and method
 
 Reviewed all 510 concept rows in LV/RU/EN against their actual three distractors and cross-language forms. Reused the earlier full [Japanese review](../../docs/review/2026-11-18-japanese-usage-audit.md), rebinding its findings to current forms and choices. Baseline: `066ce2be6c0e2664604d864e7a051a40a70d75cb`. All seven allowed directions were considered through the existing source/target forms and choice bindings. No reverse Japanese direction is assumed.

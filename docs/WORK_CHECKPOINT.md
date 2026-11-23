@@ -4,31 +4,26 @@ Current task: L-011
 
 ## Resume summary — 2026-11-23
 
-**Phase: IN_REVIEW — audit and reference-library artifacts prepared, pending checked PR integration.** The owner explicitly requested the common-usage audit and a reusable library of practical common words/phrases. This authorizes research/reference work, not active vocabulary corrections, PR #21 integration or app publication.
+**Phase: first correction slice implemented and locally verified; source/review delivery in progress.** Owner approved the proposed small batch after reviewing the merged audit/library. Current authorization: Japanese neutral daytime hello plus proven overlapping answer choices, tests and a review build. No merge/publication or PR #21 integration approval.
 
-**Branch/baseline:** `research/common-usage-library`, isolated checkout `/workspace/work/common-usage-library`, based on main `066ce2be6c0e2664604d864e7a051a40a70d75cb`. Source `59d22d1a095954435f902cda2059f92fe120e863` is pushed in [PR #26](https://github.com/janisp123/language-learning-app/pull/26), OPEN and unmerged. Final handoff metadata is on the same branch; read the actual PR head/checks on resume.
+**Baseline:** main `e72e03275cab060bd6c69807e8e0ba0947aa6d9a`, merged [PR #26](https://github.com/janisp123/language-learning-app/pull/26). Audit and 60-entry library are already on main. Branch `fix/common-usage-first-slice`, isolated checkout `/workspace/work/common-usage-fix`.
 
-## Completed reference work
+## This slice
 
-- [Common-usage audit](../research/common-usage/README.md): all 510 IDs per language, 2,040 decisions. LV/RU/EN full editorial passes considered actual distractors; Japanese reuses the [saved full review](review/2026-11-18-japanese-usage-audit.md), rebound to current forms/choices. Per-language JSON records current text, proposals, priorities, reasons, source URLs and evidence levels; coverage.json pins input hashes. Unflagged means working keep, not native certification.
-- [Reusable common-core library](../library/README.md): 60 practical words/short phrases in four languages, stable library IDs, situation/register notes, source register and pending-review labels. It is separate from active `content/`; no loader imports it. This is a focused starter library for expansion, not a new course or a measured frequency ranking.
-- Main application remains 0.4.11; no translation, ID, binding, recording, reading guide, algorithm, storage, generated download, Drive review file or website source change.
+- Review version0.4.13/content0.6.1-test: Japanese vocab-0001 やあ → こんにちは. Its exact existing0269 pronunciation was copied under0001's original asset path; no new external synthesis. The0269 afternoon entry remains valid and unchanged.
+- Six distractor substitutions only: who/what0091/0092; leg/foot0134/0135; plaster/bandage0148/0149; pot/pan0209/0210; word/phrase0402/0403; phrase/sentence0403/0404. Replacements are unrelated same-block concepts; all question/meaning/correct-answer IDs preserved. See tests/fixtures/usage-correction-baseline.json for exact before/after choices.
+- All other translations and2,039 other recordings remain unchanged. Original digest files remain untouched; historical comparison reverses only the six exact authorized distractor edits. Shared Japaneseこんにちは is allowed at0001/0269, while actual questions still require four distinct options.
+- Main does not contain reading guides. [Prepared matching per-symbol patch](review/2026-11-23-hello-reading-guide-patch.json): こ/ko ん/n に/ni ち/chi は/wa, contextual finalは=wa. Apply/validate it when later reconciling held PR #21. No reading-guide feature was imported into main.
 
-## Pending product work
+## Existing work and remaining decisions
 
-- [PR #21](https://github.com/janisp123/language-learning-app/pull/21) remains OPEN/UNMERGED/ON HOLD at last checked head `72e6ab4c106c6ee7c48703af025919c81d5c3b55`: reading-guide review build0.4.12, only lv-ru / ru-en / en-ja. Before later integration reconcile its old task-path/instruction edits against current main. All seven directions and ZERO learner-state saves remain mandatory.
-- The stable Drive review file remains the previously verified0.4.12: file1594pGCAm3E7hOq0-oSwLFh8z4WtRI3vd; 21,558,493 bytes; SHA256 `d3f3b5cab491f997647844fe69f34b9a72fb625087f67e75b74da7fefcc0f5c6`. No new upload/readback is claimed for this reference-only work.
-- Owner decisions and fluent-human language review are pending. Prioritize neutral Japanese hello; overlapping who/leg/foot/plaster/pan/word/phrase/sentence choices; then short wording improvements. Register/family/rice/weather cases require agreed context, not blanket substitutions. Russian здравствуйте is already the desired greeting.
-- Technical tests do not certify language quality. No native review, new audio verification or physical-device test is claimed by this research slice.
+- [Full audit](../research/common-usage/README.md) and [library](../library/README.md) are integrated by PR #26. Their snapshot is historical at066ce2b; do not mistake remaining proposals for implemented changes or their old hashes for current source. Fluent-human review is still pending.
+- [PR #21](https://github.com/janisp123/language-learning-app/pull/21) stays OPEN/UNMERGED/ON HOLD; its prior review0.4.12 includes reading guides only for lv-ru / ru-en / en-ja. Reconcile obsolete task-path edits and this greeting patch before later integration. Exactly seven directions and ZERO learner-state saves remain mandatory.
+- Stable Drive file1594pGCAm3E7hOq0-oSwLFh8z4WtRI3vd retains prior0.4.12 reading-guide review. Deliver this independent main-based correction review as a separately named file in the same stable folder so the held reading-guide build is preserved.
+- Other commonness/register/sense proposals (family, rice, weather, Russian thirsty/walking and optional English wording) remain unimplemented and need separate approval. Public app remains0.4.11 until an explicitly authorized merge/release is verified.
 
-## Exact next action
+## Verification and exact next step
 
-Review the checked reference PR and proposed small correction slice. Obtain explicit owner approval for any vocabulary/binding/audio correction or held-feature merge/publication; then implement only approved IDs, synchronizing recordings and any reading guides. Do not choose old L-001, merge #21, or run backlog work automatically. Bare “continue” still means read-only preflight under AGENTS.md.
+Initial correction regressions failed on the old greeting/all six pairs, then passed. Full46Node/35Python and protocol checks passed locally. Real Chromium passed all510 prompts in all7 directions, real greeting audio/no grading,499/500ms,completion,reload/zero-storage,320/390/1280 light-dark overflow checks; [browser receipt](review/2026-11-23-usage-corrections-browser.json). Independent review passed with no critical/important issue and independently verified historical baseline hashes/exact six edits. Source PR/CI and Drive download-back are recorded below after execution. These technical checks do not certify fluent pronunciation or replace physical-device review.
 
-The canonical active task list is [docs/TD_LIST.md](TD_LIST.md); chat, cw and codex must fetch latest remote main and this checkpoint. The previous checkpoint is preserved [verbatim](history/WORK_CHECKPOINT-before-common-library-2026-11-23.md).
-
-## Verification and source status
-
-- PASS: 46 Node / 32 Python tests; protocol checker; 2,040-decision ID/current-form/hash checks; 60-entry/240-form library structure and source-reference integrity; local Markdown links; diff whitespace.
-- PASS: generated app equals the committed download exactly: 21,388,029 bytes, SHA256 `e5bb8fee28d2d3f781de41f0e59f9592e27163bdf73ef7e4323039db6ab07c40`.
-- [Verification receipt](review/2026-11-23-common-usage-verification.json) records commands and limits. Independent review passed with two minor notes resolved (verification section and cc-p032 location context). Source pushed in PR #26; GitHub protocol run45195968796 passed and browser test run45195968596 was running at metadata update. Final PR-head CI is checked separately after this metadata commit. No merge or publication. No fresh physical-device or native-language certification is claimed.
+Finish verified source/PR and separate review delivery, then report the concrete slice for owner review. Obtain explicit merge/publication approval before shipping it. Do not merge #21 or start other corrections automatically. Bare “continue” remains read-only under AGENTS.md. Canonical task list: docs/TD_LIST.md.

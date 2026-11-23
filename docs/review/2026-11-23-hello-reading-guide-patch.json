@@ -1,0 +1,16 @@
+{
+  "status": "prepared-for-held-PR-21-not-imported-into-main-runtime",
+  "conceptId": "vocab-0001",
+  "targetFileInPR21": "content/readings/en-ja/basic-01.json",
+  "entry": {
+    "text": "こんにちは",
+    "segments": [
+      {"text": "こ", "reading": "ko"},
+      {"text": "ん", "reading": "n"},
+      {"text": "に", "reading": "ni"},
+      {"text": "ち", "reading": "chi"},
+      {"text": "は", "reading": "wa"}
+    ]
+  },
+  "note": "Greeting-final は is pronounced wa here. This is a contextual reading, not a claim that は always reads wa. Apply and validate this entry when reconciling held PR #21; main has no reading-guide loader."
+}

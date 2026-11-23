@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "directions": 7,
+  "questionsPerDirection": 510,
+  "checks": [
+    "real Japanese greeting speaker decode/source binding/no grading",
+    "all course choices and six exclusion pairs",
+    "499/500ms lock transition",
+    "completion",
+    "reload lesson1/progress0",
+    "320/390/1280 light-dark overflow",
+    "zero localStorage/sessionStorage/cookies/IndexedDB",
+    "no page errors"
+  ],
+  "notRun": [
+    "direct file URL blocked by browser administrator policy; loopback HTTP used",
+    "physical phone",
+    "fluent-human pronunciation review",
+    "full screen reader"
+  ]
+}

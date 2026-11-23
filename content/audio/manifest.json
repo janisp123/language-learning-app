@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.6.0-test",
+  "contentVersion": "0.6.1-test",
   "directions": [
     "lv-ru",
     "lv-en",
@@ -8720,9 +8720,9 @@
     },
     "ja": {
       "vocab-0001": {
-        "text": "やあ",
+        "text": "こんにちは",
         "file": "audio/ja/vocab-0001.mp3",
-        "sha256": "a07e939c5bde242deb32afcaa16be3eaa073cb0f44c6072170d358f2d5b0c49f",
+        "sha256": "b44c100608fd6df1312953ca097faebb50681973fc403a2e74dd97109ebb8718",
         "provider": "gtts"
       },
       "vocab-0002": {

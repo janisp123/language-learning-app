@@ -1,0 +1,89 @@
+{
+  "baselineCommit": "e72e03275cab060bd6c69807e8e0ba0947aa6d9a",
+  "translationSha256": {
+    "lv": "c80f520d0fc60e179b68746caae13bcb23ba0c17bd039ae2d622a45ed16c3e59",
+    "ru": "a0d8c5ad65c8a607c68080092729f4ebdc621fb67534f442a66b0d9edca65ce7",
+    "en": "46e6f50db90018bf6f537a7b6b0eb1a02090990461147d81ab4a25131e28706b",
+    "ja": "852359e0c4babf68952e2896cde648bfdfdfd8904f827a33ca8d5b3233bbdaf3"
+  },
+  "audioSha256": {
+    "lv": "f2f23129aada9ec2f6edf07dc59300693cef284054ad986e1370d8af8bab2393",
+    "ru": "749b7bcb46b834b9c229b88b42a54e03ee9e6419ad1061e95536bb83a1eaf065",
+    "en": "4a778893daea805fbf1eee395742c4271d65581c7862a12be38580e9f9935c70",
+    "ja": "e0b170261c0fc9bc9a2fe3c6107138803a1036b1872ab2bfa3b89a516871878e"
+  },
+  "distractorEdits": {
+    "basic-10-prompt-01": {
+      "before": [
+        "vocab-0092",
+        "vocab-0094",
+        "vocab-0096"
+      ],
+      "after": [
+        "vocab-0098",
+        "vocab-0094",
+        "vocab-0096"
+      ]
+    },
+    "basic-21-prompt-09": {
+      "before": [
+        "vocab-0210",
+        "vocab-0202",
+        "vocab-0204"
+      ],
+      "after": [
+        "vocab-0206",
+        "vocab-0202",
+        "vocab-0204"
+      ]
+    },
+    "basic-14-prompt-04": {
+      "before": [
+        "vocab-0135",
+        "vocab-0137",
+        "vocab-0139"
+      ],
+      "after": [
+        "vocab-0140",
+        "vocab-0137",
+        "vocab-0139"
+      ]
+    },
+    "basic-41-prompt-02": {
+      "before": [
+        "vocab-0403",
+        "vocab-0405",
+        "vocab-0407"
+      ],
+      "after": [
+        "vocab-0409",
+        "vocab-0405",
+        "vocab-0407"
+      ]
+    },
+    "basic-41-prompt-03": {
+      "before": [
+        "vocab-0404",
+        "vocab-0406",
+        "vocab-0408"
+      ],
+      "after": [
+        "vocab-0410",
+        "vocab-0406",
+        "vocab-0408"
+      ]
+    },
+    "basic-15-prompt-08": {
+      "before": [
+        "vocab-0149",
+        "vocab-0141",
+        "vocab-0143"
+      ],
+      "after": [
+        "vocab-0145",
+        "vocab-0141",
+        "vocab-0143"
+      ]
+    }
+  }
+}
