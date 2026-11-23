@@ -1,7 +1,7 @@
 # TD list — active approved tasks for the language-learning app
 
 **Repository:** `janisp123/language-learning-app` • **Branch of record:** `main` • **Canonical path:** `docs/TD_LIST.md`  
-**Current handoff (2026-11-23):** **L-011 — common-usage audit** is the current task. The owner explicitly authorized the audit and a reusable common-core reference library on 2026-11-23. Editorial findings/library are prepared on `research/common-usage-library`, pushed in [PR #26](https://github.com/janisp123/language-learning-app/pull/26), pending integration; active vocabulary corrections are not authorized. Reading guides L-010 are implemented only in held PR #21, not on main. The owner has not approved merging/publishing that feature. The prior Japanese review is saved in [the audit](review/2026-11-18-japanese-usage-audit.md).
+**Current handoff (2026-11-23):** **L-012 — focused Kids / Adults course design** is current. Owner accepted100–150 essential items per course and authorized drafting the lists before app changes. Proposal:100 each,80 shared +20 specific. Audit/library PR #26 is MERGED; first correction PR #27 and reading-guide PR #21 remain OPEN/unmerged. No implementation of the new courses, merge or publication is authorized by draft approval.
 
 **Historical browser baseline (verified 2026-11-17):** Browser review build 0.4.11 is integrated through PR #18 and publicly deployed. Main CI 44168243818 and Pages 44168243948 succeeded; hosted HTML equals the committed download. Android, fluent human review, physical-device/full-accessibility checks and final release remain unfinished. No license has been selected. [Current checkpoint](WORK_CHECKPOINT.md) records the latest evidence. Task presence alone never authorizes work or publication.
 
@@ -101,10 +101,10 @@ For each task: fetch current remote `main:docs/TD_LIST.md` first; then check `AG
 - **Acceptance:** Full coverage/binding validation, exact original translations/recordings preserved, no grading from speakers, 500ms transition and zero-saves unchanged; small/mobile/dark/keyboard checks. See [reading-guide modules in PR #21](https://github.com/janisp123/language-learning-app/blob/72e6ab4c106c6ee7c48703af025919c81d5c3b55/docs/READING_GUIDES.md), feature PR and current checkpoint for actual local/source/Drive/public status. Fluent human review and actual physical devices remain separate checks.
 
 ### L-011 — Audit common, natural beginner words and expressions across all languages
-- **Resume priority:** Current selected task, now in review. L-001 is the older architecture backlog item, not this audit.
-- **Status:** IN_REVIEW — owner authorized audit execution on 2026-11-23. All 510 entries reviewed per language (2,040 decisions); LV/RU/EN full editorial pass plus reused Japanese review. Findings and a 60-entry reusable starter library are prepared on `research/common-usage-library`, pushed as source `59d22d1` in [PR #26](https://github.com/janisp123/language-learning-app/pull/26), pending integration. No active vocabulary correction or publication.
+- **Resume priority:** Audit follow-up remains in review; selected design task is now L-012. L-001 is the older architecture backlog item, not this audit.
+- **Status:** PARTIAL — audit/reference library integrated by PR #26 at e72e032. First approved correction slice implemented/verified/pushed in PR #27 (head6640e58), separate review0.4.13 delivered and downloaded byte-identical; no merge/publication. Remaining audit proposals and fluent-human review pending. L-012 drafting proceeds separately without importing those corrections.
 - **Added by:** Codex (explicit owner request, 2026-11-18)
-- **Implemented by:** codex (editorial audit/reference artifacts; owner decisions, fluent-human review and integration pending)
+- **Implemented by:** codex (editorial audit/library merged; first correction slice pending PR #27 integration; remaining decisions/human review pending)
 - **Problem:** Some existing translations can be technically correct yet less common, less natural or less suitable for a beginner than an everyday alternative. Dictionary correctness and passing technical tests alone do not establish that an item is a good teaching default.
 - **Scope:** Audit all 510 words/expressions in every existing language pack (Latvian, Russian, English, Japanese), considering all seven current learning directions and their actual answer choices. This is broader than the saved Japanese-only editorial review. Reuse that review and verify its findings against current source; do not repeat completed checks without a reason.
 - **Owner examples / desired defaults:** Japanese “hello” → こんにちは (konnichiwa); Russian “hello” → здравствуйте for the neutral/polite greeting. Check actual current entries first: an example may already be correct. Distinguish casual/familiar alternatives such as やあ or привет from neutral/polite stranger-facing defaults rather than declaring every alternative universally wrong.
@@ -115,9 +115,18 @@ For each task: fetch current remote `main:docs/TD_LIST.md` first; then check `AG
 - **Existing evidence:** [Japanese usage audit and handoff](review/2026-11-18-japanese-usage-audit.md) on PR #21; its findings are model/editorial review, not full language certification. PR #21 remains on hold for language-quality concerns.
 - **Boundaries:** Recording this task authorizes no immediate translation, prompt, ID, answer-binding, reading-guide, audio, scoring or publication change. After the audit, present proposed corrections for owner review. Any later authorized correction must synchronize affected text, reading guides and recordings, preserve other meanings/directions and ZERO saved learner state, and follow checked PR/source-before-Drive/readback rules.
 
+### L-012 — Focused Kids / Adults starter courses across existing directions
+- **Added by:** codex (explicit owner request, 2026-11-23)
+- **Implemented by:** Not yet (application); draft lists authored by codex
+- **Status:** IN_REVIEW — owner accepted approximately100–150 essential words/short expressions per course and authorized the lists for review before app changes. [Draft](proposals/2026-11-23-focused-kids-adults.md) proposes100 per course:80 shared +20 audience-specific. Exact list/rule changes require review.
+- **Goal:** Basic mutual communication through a compact shared core and repeated useful patterns. Kids emphasizes familiar people/school/play; Adults emphasizes everyday meetings/transactions/travel. Common understandable wording takes priority over breadth and stylistic refinement; politeness matters where it affects meaning or suitability.
+- **Boundaries:** Exactly existing seven directions, including en-ja only; preserve510 current entries outside focused starters. Shared canonical content, no copied dictionaries. ZERO saves including audience/direction preferences, no account/age input/tracking. Preserve current scoring and500ms/audio behavior. No code/content/audio/Drive/website change in this drafting slice.
+- **Pending design decisions:** Review the complete lists and the author’s proposal for practical phrases from lesson1, explicit audience validation, language-appropriate short-text limits, and access to the preserved510. These are not implicit permission to remove old validators.
+- **Acceptance for current slice:** Reviewable100-item Kids and100-item Adults lists, exact source/reference versus new-draft labels, situations/communication goals, counts checked, durable checkpoint and checked documentation PR. Implementation follows only after design approval; no automatic merge/publication.
+
 ## Out of scope for v1 (not backlog tasks)
 
-Languages/directions beyond the approved Latvian/Russian/English set and English → Japanese, 5–9 and 18+ paths, user accounts, cloud sync, servers, leaderboards, monetization, AI tutors, advanced pronunciation scoring, Apple App Store. These need an explicit new owner decision, not automatic addition.
+Languages/directions beyond the approved Latvian/Russian/English set and English → Japanese, additional age-specific paths beyond the owner-requested Kids/Adults draft (L-012), user accounts, cloud sync, servers, leaderboards, monetization, AI tutors, advanced pronunciation scoring, Apple App Store. These need an explicit new owner decision, not automatic addition.
 
 ## Coordination with the questionnaire project
 

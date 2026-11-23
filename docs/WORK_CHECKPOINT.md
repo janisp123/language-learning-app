@@ -1,34 +1,27 @@
 # Current working checkpoint
 
-Current task: L-011
+Current task: L-012
 
 ## Resume summary — 2026-11-23
 
-**Phase: IN_REVIEW — audit and reference-library artifacts prepared, pending checked PR integration.** The owner explicitly requested the common-usage audit and a reusable library of practical common words/phrases. This authorizes research/reference work, not active vocabulary corrections, PR #21 integration or app publication.
+**Phase: focused-course lists drafted for owner review; NO application implementation.** Owner requested Kids / Adults selection across the existing seven directions and explicitly accepted approximately100–150 essential words/short expressions per starting course, preserving the remainder of510 outside the focused courses. Owner then authorized drafting the lists before app changes.
 
-**Branch/baseline:** `research/common-usage-library`, isolated checkout `/workspace/work/common-usage-library`, based on main `066ce2be6c0e2664604d864e7a051a40a70d75cb`. Source `59d22d1a095954435f902cda2059f92fe120e863` is pushed in [PR #26](https://github.com/janisp123/language-learning-app/pull/26), OPEN and unmerged. Final handoff metadata is on the same branch; read the actual PR head/checks on resume.
+**Current deliverable:** [Kids / Adults proposal](proposals/2026-11-23-focused-kids-adults.md), authored by codex. Author proposes100 items per course:80 shared +20 relevant to each audience,10 blocks each;120 distinct draft entries overall.62 have exact current English-label matches,10 match library wording,48 need new wording or sense-mapping review. These are reuse candidates, not approved translations, bound IDs or recordings.
 
-## Completed reference work
+**Purpose:** Enable basic mutual communication using a small, repeatedly reused core. Understanding/being understood takes priority over broad categories and stylistic/politeness refinement. Both things to say and likely questions/responses are included. No claim that multiple-choice completion proves conversational ability.
 
-- [Common-usage audit](../research/common-usage/README.md): all 510 IDs per language, 2,040 decisions. LV/RU/EN full editorial passes considered actual distractors; Japanese reuses the [saved full review](review/2026-11-18-japanese-usage-audit.md), rebound to current forms/choices. Per-language JSON records current text, proposals, priorities, reasons, source URLs and evidence levels; coverage.json pins input hashes. Unflagged means working keep, not native certification.
-- [Reusable common-core library](../library/README.md): 60 practical words/short phrases in four languages, stable library IDs, situation/register notes, source register and pending-review labels. It is separate from active `content/`; no loader imports it. This is a focused starter library for expansion, not a new course or a measured frequency ranking.
-- Main application remains 0.4.11; no translation, ID, binding, recording, reading guide, algorithm, storage, generated download, Drive review file or website source change.
+## Source and pending work
 
-## Pending product work
+- Draft branch `docs/focused-kids-adults-draft`, isolated checkout `/workspace/work/focused-courses-draft`, baseline main `e72e03275cab060bd6c69807e8e0ba0947aa6d9a`. Main/public app remains0.4.11; draft changes documentation only.
+- [PR #26](https://github.com/janisp123/language-learning-app/pull/26) MERGED at e72e032: full editorial usage audit and60-entry reusable library. Main TD/checkpoint had stale “pending integration” wording; this draft coordination corrects it.
+- [PR #27](https://github.com/janisp123/language-learning-app/pull/27) remains OPEN/unmerged: first approved correction slice0.4.13, head6640e588471aabddfda08f3db5c3126fed5deaf1. Japanese hello and six overlapping choice pairs only.46Node/35Python, all510/all7 Chromium, independent review and final-head CI45198819468/protocol45198819416 previously passed. Review Drive file1rVhiL_5fXNwSGwYJE3dMgw0RjyvXY1DZ downloaded byte-identical:21,393,935 bytes; SHA256642cd267a5ac6d7e8b8793f4009bdfb1bb0676b16a521d06a52d280f4fc645c3. Historical evidence, not new test claims for this draft. Do not silently merge it.
+- [PR #21](https://github.com/janisp123/language-learning-app/pull/21) stays OPEN/unmerged/on hold: reading guides0.4.12 only for lv-ru / ru-en / en-ja. Stable Drive file1594pGCAm3E7hOq0-oSwLFh8z4WtRI3vd remains that older reading-guide review. Reconcile outdated task-path edits and the matching Japanese hello guide patch before later feature integration. Do not merge it to save this proposal.
+- Existing510 content/IDs/recordings are preserved. Exactly seven language directions, all audio behavior, scoring/500ms transition and ZERO saved learner state remain mandatory. Proposed audience choice is current-session memory only; no age entry, account, tracking or saved preference.
 
-- [PR #21](https://github.com/janisp123/language-learning-app/pull/21) remains OPEN/UNMERGED/ON HOLD at last checked head `72e6ab4c106c6ee7c48703af025919c81d5c3b55`: reading-guide review build0.4.12, only lv-ru / ru-en / en-ja. Before later integration reconcile its old task-path/instruction edits against current main. All seven directions and ZERO learner-state saves remain mandatory.
-- The stable Drive review file remains the previously verified0.4.12: file1594pGCAm3E7hOq0-oSwLFh8z4WtRI3vd; 21,558,493 bytes; SHA256 `d3f3b5cab491f997647844fe69f34b9a72fb625087f67e75b74da7fefcc0f5c6`. No new upload/readback is claimed for this reference-only work.
-- Owner decisions and fluent-human language review are pending. Prioritize neutral Japanese hello; overlapping who/leg/foot/plaster/pan/word/phrase/sentence choices; then short wording improvements. Register/family/rice/weather cases require agreed context, not blanket substitutions. Russian здравствуйте is already the desired greeting.
-- Technical tests do not certify language quality. No native review, new audio verification or physical-device test is claimed by this research slice.
+## Approval boundary and exact next action
 
-## Exact next action
+Owner approved the direction and drafting, not the exact lists, their rule changes, translations, implementation, merge or publication. Present the100-item Kids and100-item Adults lists. Review proposed practical phrases from lesson1, explicit audience support, language-appropriate short-text limits and how the preserved510 remain accessible. These conflict with older course rules and must be approved before implementation; this draft does not silently change validators.
 
-Review the checked reference PR and proposed small correction slice. Obtain explicit owner approval for any vocabulary/binding/audio correction or held-feature merge/publication; then implement only approved IDs, synchronizing recordings and any reading guides. Do not choose old L-001, merge #21, or run backlog work automatically. Bare “continue” still means read-only preflight under AGENTS.md.
+After owner approval of the lists/design, write the bounded implementation plan using shared canonical entries and separate course selections. No two copied dictionaries, new language pairs, scoring rewrite or broad expansion. Other L-011 findings remain separate/pending. Bare “continue” retains the read-only preflight convention.
 
-The canonical active task list is [docs/TD_LIST.md](TD_LIST.md); chat, cw and codex must fetch latest remote main and this checkpoint. The previous checkpoint is preserved [verbatim](history/WORK_CHECKPOINT-before-common-library-2026-11-23.md).
-
-## Verification and source status
-
-- PASS: 46 Node / 32 Python tests; protocol checker; 2,040-decision ID/current-form/hash checks; 60-entry/240-form library structure and source-reference integrity; local Markdown links; diff whitespace.
-- PASS: generated app equals the committed download exactly: 21,388,029 bytes, SHA256 `e5bb8fee28d2d3f781de41f0e59f9592e27163bdf73ef7e4323039db6ab07c40`.
-- [Verification receipt](review/2026-11-23-common-usage-verification.json) records commands and limits. Independent review passed with two minor notes resolved (verification section and cc-p032 location context). Source pushed in PR #26; GitHub protocol run45195968796 passed and browser test run45195968596 was running at metadata update. Final PR-head CI is checked separately after this metadata commit. No merge or publication. No fresh physical-device or native-language certification is claimed.
+Canonical active tasks: docs/TD_LIST.md. Prior checkpoint preserved [verbatim](history/WORK_CHECKPOINT-before-focused-course-draft-2026-11-23.md). Source PR/check evidence for this documentation draft will be recorded on its PR before handoff.
