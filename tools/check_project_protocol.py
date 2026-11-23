@@ -2,6 +2,7 @@
 """Validate the shared agent-project file layout (stdlib only)."""
 from pathlib import Path
 import sys
+import re
 
 root = Path(__file__).resolve().parents[1]
 required = (
@@ -31,8 +32,17 @@ for p in ("docs/TD.learn.md", "docs/TD.question.md"):
 td = root / "docs/TD_LIST.md"
 if td.is_file() and not td.read_text(encoding="utf-8").lstrip().startswith("#"):
     errors.append("docs/TD_LIST.md needs a Markdown heading")
+checkpoint = root / "docs/WORK_CHECKPOINT.md"
+if checkpoint.is_file() and td.is_file():
+    checkpoint_text = checkpoint.read_text(encoding="utf-8")
+    task_lines = re.findall(r"^Current task:.*$", checkpoint_text, re.MULTILINE)
+    task = re.fullmatch(r"Current task: (L-\d{3})", task_lines[0]) if len(task_lines) == 1 else None
+    if task is None:
+        errors.append("docs/WORK_CHECKPOINT.md needs exactly one Current task: L-NNN line")
+    elif not re.search(r"^### " + re.escape(task.group(1)) + r"(?:\s|$)", td.read_text(encoding="utf-8"), re.MULTILINE):
+        errors.append(f"Current task {task.group(1)} is missing from canonical docs/TD_LIST.md")
 if errors:
     for issue in errors:
         print("FAIL:", issue, file=sys.stderr)
     sys.exit(1)
-print("PASS: Shared agent protocol v1.0 file layout.")
+print("PASS: Shared agent protocol v1.0 file layout and current-task handoff.")
