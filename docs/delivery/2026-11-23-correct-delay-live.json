@@ -1,0 +1,52 @@
+{
+  "mergeCommit": "4e0c1681098d9c7d867be55538d42b0506befc9d",
+  "mainCI": 45291767609,
+  "pagesRun": 45291767575,
+  "verifiedDate": "2026-11-23",
+  "buildVersion": "0.5.4",
+  "task": "L-016",
+  "sourceCommit": "39c79c65e7e35b7e535fe2b53e333bbcdbcb954c",
+  "pullRequest": 37,
+  "sourceCI": 45291615204,
+  "bytes": 26171008,
+  "sha256": "3ae875053577cbc3b303518e31a155760cec580cd11e9b7c10372a63b6ceb2bf",
+  "url": "https://janisp123.github.io/language-learning-app/learn/?v=0.5.4",
+  "pagesConclusion": "success",
+  "hostedByteEquality": {
+    "app": true,
+    "landing": true,
+    "offline": true,
+    "method": "verified HTTPS downloads compared byte-for-byte with tested source"
+  },
+  "behavior": "Correct answer target audio plays to actual ended event, then2000ms before advancing; fixed500ms cutoff superseded.",
+  "failureRecovery": "Missing/blocked/error audio then2000ms; existing30s stall watchdog then2000ms. Reset/course/direction cancel playback and pause.",
+  "tests": {
+    "nodeLocal": 58,
+    "pythonLocal": 41,
+    "actualBrowserCourseDirectionCases": 21,
+    "independentReview": "approved;19 audio/UI tests independently rerun"
+  },
+  "browserReceipt": "../review/2026-11-23-correct-delay-browser.json",
+  "status": {
+    "implemented": true,
+    "pushed": true,
+    "merged": true,
+    "publiclyDeployed": true,
+    "driveUpdated": false
+  },
+  "notRun": [
+    "physical phone",
+    "full screen reader",
+    "direct hosted Chromium (known environment trust limitation; verified HTTPS bytes match locally tested real browser)"
+  ],
+  "unchanged": [
+    "vocabulary/IDs/bindings/all2308 recordings",
+    "engine/scoring/counters",
+    "seven directions",
+    "Kids100/Adults100/Full510",
+    "dark default",
+    "three-pair mistake correction",
+    "zero saved learner state/preferences"
+  ],
+  "remaining": "L-010 reading-guide integration remains pending; heldPR21 not merged. Preserve full correct playback+2sec when reconciling old branch."
+}

@@ -2,7 +2,7 @@
 
 ## 0.5.4 — full correct pronunciation plus two seconds (codex,2026-11-23)
 
-L-016: correct selections wait for actual recording completion and then2000ms before advancing. This supersedes0.5.3’s fixed500ms cutoff. Old sound and delayed navigation cancel on reset/course/direction. Correct audio errors/unavailability recover after2000ms; existing30s stall watchdog remains. Incorrect-answer correction, recordings/content/scoring/directions/dark default/ZERO saves unchanged. Verification/publication pending; see checkpoint.
+L-016: correct selections wait for actual recording completion and then2000ms before advancing. This supersedes0.5.3’s fixed500ms cutoff. Old sound and delayed navigation cancel on reset/course/direction. Correct audio errors/unavailability recover after2000ms; existing30s stall watchdog remains. Incorrect-answer correction, recordings/content/scoring/directions/dark default/ZERO saves unchanged. Verified58Node/41Python and21 actual-browser cases, independent review approved. Merged PR #37 and deployed; [actual hosted-byte receipt](delivery/2026-11-23-correct-delay-live.json).
 
 
 ## 0.5.3 — correct answer selection pronunciation (codex,2026-11-23)
