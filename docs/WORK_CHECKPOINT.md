@@ -1,6 +1,10 @@
 # Current working checkpoint
 
-Current task: L-010
+Current task: L-015
+
+## Current authorized slice — L-015
+
+Owner rejected waiting for a full recording and approved ordinary speaker-style playback on answer selection, with no extra waiting step. Implementing correct-selection playback through the existing answer-speaker handler. Mistakes retain established correction audio. Correct answers stay500ms, so a longer clip is stopped when the next prompt appears, just like manual replay interrupted by navigation. No full-recording guarantee is claimed. Baseline main47ba9d4, isolated feat/selected-answer-audio in /workspace/work/selected-answer-audio. 56Node/41Python and real Chromium21 combinations/blocked playback/duplicates passed; independent review approved. Build/download/site parity and protocol passed. PR/merge/publication pending;0.5.3 is not claimed live yet. Next after this slice remains L-010.
 
 ## Latest verified delivery — L-014
 

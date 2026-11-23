@@ -1,7 +1,7 @@
 # TD list — active approved tasks for the language-learning app
 
 **Repository:** `janisp123/language-learning-app` • **Branch of record:** `main` • **Canonical path:** `docs/TD_LIST.md`  
-**Current handoff (2026-11-23):** **L-014 DELIVERED/LIVE0.5.2** — direction first, then Basic Kids100 / Basic Adults100 / Full510; dark default on fresh loads, unsaved manual light mode. [Receipt](delivery/2026-11-23-simple-course-dark-live.json) · [Completed history](history/L-014-completed-2026-11-23.md). Existing correction audio, content and seven directions preserved. **Current task:L-010 — reading-guide integration.** Standing owner authorization covers efficient checked live publication; no repeated routine approval question.
+**Current handoff (2026-11-23):** **L-014 DELIVERED/LIVE0.5.2** — direction first, then Basic Kids100 / Basic Adults100 / Full510; dark default on fresh loads, unsaved manual light mode. [Receipt](delivery/2026-11-23-simple-course-dark-live.json) · [Completed history](history/L-014-completed-2026-11-23.md). Existing correction audio, content and seven directions preserved. **Current task:L-015 — selected-answer pronunciation.** Standing owner authorization covers efficient checked live publication; no repeated routine approval question.
 
 **Historical browser baseline (verified 2026-11-17):** Browser review build 0.4.11 is integrated through PR #18 and publicly deployed. Main CI 44168243818 and Pages 44168243948 succeeded; hosted HTML equals the committed download. Android, fluent human review, physical-device/full-accessibility checks and final release remain unfinished. No license has been selected. [Current checkpoint](WORK_CHECKPOINT.md) records the latest evidence. Task presence alone never authorizes work or publication.
 
@@ -128,4 +128,11 @@ That project's existing TD is currently `docs/TD_LIST.md` in **another repositor
 
 ## Standing execution authorization — 2026-11-23
 
-Owner explicitly requested efficient checked implementation/merging/live publication rather than a separate preview. Kids/Adults0.5.0 and correction listening0.5.1 are delivered. Setup/dark default0.5.2 is delivered. Current task isL-010 reading integration; preserve all delivered behavior and latest protocol. Do not repeat completed features or ask the same routine publication approval again.
+Owner explicitly requested efficient checked implementation/merging/live publication rather than a separate preview. Kids/Adults0.5.0 and correction listening0.5.1 are delivered. Setup/dark default0.5.2 is delivered. Current task isL-015 answer pronunciation, then L-010 reading integration; preserve all delivered behavior and latest protocol. Do not repeat completed features or ask the same routine publication approval again.
+
+### L-015 — Play pronunciation when submitting a correct answer
+- **Added by:** codex (explicit Owner request,2026-11-23)
+- **Implemented by:** codex (verified locally; integration pending)
+- **Status:** VERIFIED LOCALLY —56Node/41Python;21 browser combinations, blocked playback, duplicate submission; review approved. Integration/publication pending.
+- **Scope:** A correct answer selection invokes the same ordinary target-language speaker playback before locking controls. No added waiting step; correct navigation stays500ms. Mistakes retain three source-question/correct-target pairs. Speaker-only taps do not grade. Preserve recordings/content/scoring/seven directions/dark default/ZERO saves.
+- **Verification:** Target-binding and exact499/500ms tests, full-course traversal, blocked playback/restart, all21 course/direction starts, browser event wiring and full Node/Python/build/protocol checks, checked merge and hosted readback.

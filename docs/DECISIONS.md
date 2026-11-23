@@ -26,3 +26,7 @@ Owner explicitly requested source-question→correct-target-answer audio three t
 ## Owner-approved setup simplification and dark default — 2026-11-23
 
 Owner requested direction first, then exactly three choices: Basic Kids (100), Basic Adults (100), Full (510). Replace separate audience/original-course controls; preserve all content, seven directions, scoring and correction audio. Both website and app start dark on every fresh load, with manual light mode in memory only. An exact one-use light/dark fragment carries the landing choice into learning, is immediately consumed, and never restores a preference on reload. This supersedes older light-default notes. Checked merge/live publication remains authorized.
+
+## Selected correct-answer playback — 2026-11-23
+
+Owner requested pronunciation when submitting an answer, including correct answers, and explicitly rejected waiting for the full recording: use the normal answer-speaker action with no additional waiting step. Correct submissions play the selected target clip immediately, then retain500ms navigation. Next prompt/restart/direction/course/completion stops old sound; long clips can therefore be interrupted, as with manual replay. Incorrect submissions retain the existing three source-question/correct-answer pairs. Speaker-only clicks never grade. This supersedes the old no-target-audio-on-correct-feedback rule only for this approved action; no stored state, vocabulary/audio, scoring or direction changes.

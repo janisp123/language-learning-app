@@ -1,0 +1,16 @@
+{
+  "version": "0.5.3",
+  "task": "L-015",
+  "directionCourseCombinations": 21,
+  "realChromium": "passed; ordinary speaker and submitted correct answer share exact media source",
+  "duplicateSubmit": "one play/grade only",
+  "blockedPlayback": "does not delay navigation; restart works",
+  "storage": "empty localStorage/sessionStorage/cookies",
+  "nodeSuite": 56,
+  "python": 41,
+  "physicalPhone": false,
+  "fullScreenReader": false,
+  "timing": "499ms locked,500ms advance; no added wait; prompt change cancels long playback",
+  "independentReview": "approved; no blockers; independent21-combination Chromium pass",
+  "published": false
+}
