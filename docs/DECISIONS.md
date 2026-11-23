@@ -14,3 +14,7 @@ The language application's product decisions remain in `AGENTS.md`, `docs/ARCHIT
 ## Product direction — 2026-11-23
 
 Owner requested Kids / Adults selection across the existing seven directions and accepted approximately100–150 essential words/short expressions per starting course, preserving the510-item bank outside focused starters. Goal: basic mutual communication and familiar-word reuse, with relevance to everyday child/adult situations. Politeness refinement is secondary to being understood. Authorized next action is drafting course lists for review before application changes. Exact100/80+20 arrangement, lists, rule changes, implementation and publication remain proposals pending review. See L-012 and its linked draft; this decision does not add Japanese reverse/other pairings or saved preferences.
+
+### Course-list approval — 2026-11-23
+
+After receiving the complete list/design in PR #28, Owner replied “Yes it looks good.” Approved design:100 items each,80 shared +20 Kids/Adults-specific, practical phrases from lesson1, preserving510 outside the focused starters and existing seven directions/ZERO saves. The English labels express teaching intents; translations, canonical ID mapping, concrete pattern realizations and the technical implementation plan are not finished by this approval. Codex is preparing the plan; default audience/original-course access presentation and specific technical ceilings are author proposals for that plan. No coding, held-PR merge or publication is claimed or automatically authorized.

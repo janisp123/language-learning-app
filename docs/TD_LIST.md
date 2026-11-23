@@ -1,7 +1,7 @@
 # TD list — active approved tasks for the language-learning app
 
 **Repository:** `janisp123/language-learning-app` • **Branch of record:** `main` • **Canonical path:** `docs/TD_LIST.md`  
-**Current handoff (2026-11-23):** **L-012 — focused Kids / Adults course design** is current. Owner accepted100–150 essential items per course and authorized drafting the lists before app changes. Proposal:100 each,80 shared +20 specific. Audit/library PR #26 is MERGED; first correction PR #27 and reading-guide PR #21 remain OPEN/unmerged. No implementation of the new courses, merge or publication is authorized by draft approval.
+**Current handoff (2026-11-23):** **L-012 — focused Kids / Adults course design** is current. Owner approved the100-item lists/design (80 shared +20 specific each) on2026-11-23. Implementation plan is prepared for review before app changes. Audit/library PR #26 is MERGED; first correction PR #27 and reading-guide PR #21 remain OPEN/unmerged. No implementation of the new courses, merge or publication is authorized by draft approval.
 
 **Historical browser baseline (verified 2026-11-17):** Browser review build 0.4.11 is integrated through PR #18 and publicly deployed. Main CI 44168243818 and Pages 44168243948 succeeded; hosted HTML equals the committed download. Android, fluent human review, physical-device/full-accessibility checks and final release remain unfinished. No license has been selected. [Current checkpoint](WORK_CHECKPOINT.md) records the latest evidence. Task presence alone never authorizes work or publication.
 
@@ -118,11 +118,11 @@ For each task: fetch current remote `main:docs/TD_LIST.md` first; then check `AG
 ### L-012 — Focused Kids / Adults starter courses across existing directions
 - **Added by:** codex (explicit owner request, 2026-11-23)
 - **Implemented by:** Not yet (application); draft lists authored by codex
-- **Status:** IN_REVIEW — owner accepted approximately100–150 essential words/short expressions per course and authorized the lists for review before app changes. [Draft](proposals/2026-11-23-focused-kids-adults.md) proposes100 per course:80 shared +20 audience-specific. Exact list/rule changes require review.
+- **Status:** DESIGN_APPROVED / PLAN_IN_REVIEW — owner approved the100-item lists/design on2026-11-23. [Approved lists](proposals/2026-11-23-focused-kids-adults.md):80 shared +20 audience-specific. [Implementation plan](superpowers/plans/2026-11-23-focused-kids-adults.md) prepared; application implementation/merge/publication not started or authorized by this planning step.
 - **Goal:** Basic mutual communication through a compact shared core and repeated useful patterns. Kids emphasizes familiar people/school/play; Adults emphasizes everyday meetings/transactions/travel. Common understandable wording takes priority over breadth and stylistic refinement; politeness matters where it affects meaning or suitability.
 - **Boundaries:** Exactly existing seven directions, including en-ja only; preserve510 current entries outside focused starters. Shared canonical content, no copied dictionaries. ZERO saves including audience/direction preferences, no account/age input/tracking. Preserve current scoring and500ms/audio behavior. No code/content/audio/Drive/website change in this drafting slice.
-- **Pending design decisions:** Review the complete lists and the author’s proposal for practical phrases from lesson1, explicit audience validation, language-appropriate short-text limits, and access to the preserved510. These are not implicit permission to remove old validators.
-- **Acceptance for current slice:** Reviewable100-item Kids and100-item Adults lists, exact source/reference versus new-draft labels, situations/communication goals, counts checked, durable checkpoint and checked documentation PR. Implementation follows only after design approval; no automatic merge/publication.
+- **Next review:** Lists/practical phrases from lesson1 are approved. Review the implementation plan, including default audience, original510 access, fixed phrase variants, scoped12-word ceiling and dependency handling for PR #21/#27. Do not delete old validators or merge held work implicitly.
+- **Acceptance for current slice:** Reviewable100-item Kids and100-item Adults lists, exact source/reference versus new-draft labels, situations/communication goals, counts checked, durable checkpoint and checked documentation PR. Design approval recorded; implementation follows explicit plan/execution authorization. No automatic merge/publication.
 
 ## Out of scope for v1 (not backlog tasks)
 

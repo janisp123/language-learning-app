@@ -1,6 +1,6 @@
-# Focused Kids / Adults course draft — 2026-11-23
+# Focused Kids / Adults approved course design — 2026-11-23
 
-**L-012 · DRAFT FOR OWNER REVIEW · No application or course-content change.**
+**L-012 · Course lists/design approved by Owner on2026-11-23 (“Yes it looks good”). No application or course-content change. Implementation plan/technical choices remain for review.**
 
 ## What the owner approved
 
@@ -9,7 +9,7 @@
 - Prioritize being understood and understanding a basic response. Common usable wording, familiar-word reuse and a small scope take precedence over formal polish or breadth. Politeness matters when misunderstanding or unsuitable use would result, rather than being the organizing objective.
 - Draft the actual lists for review before changing the application. Implementation, translations, audio, merging and publication are not authorized by approval to draft.
 
-## Proposed shape — author’s choices, awaiting review
+## Approved shape
 
 **100 items per course:80 shared +20 specific.** Ten proposed ten-item blocks each. There are120 distinct draft entries across both courses, not200 separately authored meanings. Start at100 to keep the promise of a small course; expand toward150 only for a demonstrably missing everyday need. This is a curated proposal, not a measured top100 ranking.
 
@@ -232,7 +232,7 @@ Use a few taught nouns, places and numbers repeatedly. Do not add lists of foods
 - Review each selected meaning and actual wrong answers in all seven directions. Duplicate surface forms are legitimate across different contexts, but must not compete as supposedly distinct answers in the same question.
 - New/changed phrases need reviewed LV/RU/EN/JA text, matching audio and the authorized reading aids where applicable. The English labels above are intents, not approved translations. Reuse the library/audit sources and research only unresolved or new meanings.
 
-## Deliberate rule changes proposed for approval
+## Design changes included in the approved proposal
 
 1. Practical short phrases begin in lesson1, rather than waiting until lesson11. The current first-ten-block word/short-fragment restriction would otherwise prevent these focused courses from reaching their purpose.
 2. Existing hard-coded agePath10–17 validation must support an explicit Kids/Adults course choice. Preserve IDs/content/assets; select small course manifests from the same canonical bank. Do not create two copies of the dictionary.
@@ -247,4 +247,4 @@ Multiple-choice completion alone cannot demonstrate spontaneous speaking or unde
 
 ## Current implementation boundary
 
-No code/content/audio/download/Drive/website change in this proposal. PR #27 is the separate first correction slice; PR #21 reading guides remains held. Owner review of the lists and the explicit rule changes comes before an implementation plan or new course data.
+No code/content/audio/download/Drive/website change in this proposal. PR #27 is the separate first correction slice; PR #21 reading guides remains held. Owner approved these lists/design on2026-11-23. The [implementation plan](../superpowers/plans/2026-11-23-focused-kids-adults.md) is the next reviewable step; no new course data, code, merge or publication has been implemented/authorized by this design approval.

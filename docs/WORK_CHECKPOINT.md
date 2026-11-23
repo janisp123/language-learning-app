@@ -4,9 +4,9 @@ Current task: L-012
 
 ## Resume summary — 2026-11-23
 
-**Phase: focused-course lists drafted for owner review; NO application implementation.** Owner requested Kids / Adults selection across the existing seven directions and explicitly accepted approximately100–150 essential words/short expressions per starting course, preserving the remainder of510 outside the focused courses. Owner then authorized drafting the lists before app changes.
+**Phase: course lists/design APPROVED; implementation plan prepared for review; NO application implementation.** Owner requested Kids / Adults selection across the existing seven directions and explicitly accepted approximately100–150 essential words/short expressions per starting course, preserving the remainder of510 outside the focused courses. Owner then authorized drafting the lists before app changes, and subsequently approved the complete100-item lists/design (“Yes it looks good”).
 
-**Current deliverable:** [Kids / Adults proposal](proposals/2026-11-23-focused-kids-adults.md), authored by codex. Author proposes100 items per course:80 shared +20 relevant to each audience,10 blocks each;120 distinct draft entries overall.62 have exact current English-label matches,10 match library wording,48 need new wording or sense-mapping review. These are reuse candidates, not approved translations, bound IDs or recordings.
+**Current deliverable:** [Kids / Adults proposal](proposals/2026-11-23-focused-kids-adults.md), authored by codex. Owner approved100 items per course:80 shared +20 relevant to each audience,10 blocks each;120 distinct draft entries overall.62 have exact current English-label matches,10 match library wording,48 need new wording or sense-mapping review. These are reuse candidates, not approved translations, bound IDs or recordings.
 
 **Purpose:** Enable basic mutual communication using a small, repeatedly reused core. Understanding/being understood takes priority over broad categories and stylistic/politeness refinement. Both things to say and likely questions/responses are included. No claim that multiple-choice completion proves conversational ability.
 
@@ -20,8 +20,10 @@ Current task: L-012
 
 ## Approval boundary and exact next action
 
-Owner approved the direction and drafting, not the exact lists, their rule changes, translations, implementation, merge or publication. Present the100-item Kids and100-item Adults lists. Review proposed practical phrases from lesson1, explicit audience support, language-appropriate short-text limits and how the preserved510 remain accessible. These conflict with older course rules and must be approved before implementation; this draft does not silently change validators.
+Owner approved the course lists/design, including practical phrases from lesson1. The [implementation plan](superpowers/plans/2026-11-23-focused-kids-adults.md) now breaks work into content mapping/strict modules; pure course selection/UI/session isolation; then audio/reading integration, real verification and review delivery. Existing canonical vocabulary/engine are reused; no duplicate dictionary per audience.
 
-After owner approval of the lists/design, write the bounded implementation plan using shared canonical entries and separate course selections. No two copied dictionaries, new language pairs, scoring rewrite or broad expansion. Other L-011 findings remain separate/pending. Bare “continue” retains the read-only preflight convention.
+Present the concrete plan and author choices: Kids default, separate collapsed original510 access, complete pattern examples (language-name variants keyed by distinct concepts), and focused-only12-word structural ceiling. No application coding, data/audio authoring, PR merge, Drive replacement or publication is authorized by the preceding request to plan. Do not claim Kids/Adults exists in the live app.
 
-Canonical active tasks: docs/TD_LIST.md. Prior checkpoint preserved [verbatim](history/WORK_CHECKPOINT-before-focused-course-draft-2026-11-23.md). Source PR/check evidence for this documentation draft will be recorded on its PR before handoff.
+After explicit plan/execution authorization, implement the bounded stages inline with a final independent review, preserving legacy510 and the global seven-direction selector. Recheck #27/#21 dependency authorization first; no silent product merge. Other L-011 findings remain separate/pending. Bare “continue” retains the read-only preflight convention.
+
+Canonical active tasks: docs/TD_LIST.md. Prior checkpoint preserved [verbatim](history/WORK_CHECKPOINT-before-focused-course-draft-2026-11-23.md). Design/plan source remains in [PR #28](https://github.com/janisp123/language-learning-app/pull/28), unmerged; actual head/checks are verified on the PR before final handoff. Planning uses the existing isolated docs/focused-kids-adults-draft branch; no implementation commit exists.
