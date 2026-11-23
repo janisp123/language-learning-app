@@ -2557,7 +2557,7 @@
     "static": {
       "skip": "Skip to practice",
       "brand-name": "Language learning",
-      "badge": "Test build 0.5.0",
+      "badge": "Test build 0.5.1",
       "draft": "Draft content and pronunciation await fluent human review.",
       "audience": "Focused everyday communication",
       "welcome": "A little practice. Start with the essentials.",
@@ -2565,7 +2565,7 @@
       "direction-caption": "Practice direction",
       "start": "Start practice",
       "rules-title": "How it works",
-      "rule-options": "Choose one of four answers. Feedback appears immediately and the next prompt appears after 0.5 seconds. Answer positions change each time.",
+      "rule-options": "Choose an answer. After a mistake, listen to the question and correct answer three times before automatically stepping back.",
       "rule-complete": "Each lesson is a ten-question block. Ten correct answers in a row complete it.",
       "rule-mistakes": "A mistake takes you back one question and resets the consecutive count. The third mistake in the same block restarts at lesson 1, question 1, even if correct answers came between the mistakes.",
       "rule-reset": "A new block or restart clears the mistake count. Browser progress is not saved.",
@@ -2603,7 +2603,8 @@
       "error": "The lesson data could not be loaded. Please download a fresh test build or report the problem on GitHub.",
       "instruction": "Choose the {language} translation",
       "noscript": "Enable JavaScript to run the lessons. The downloaded HTML file needs no account or internet.",
-      "theme": "Dark mode"
+      "theme": "Dark mode",
+      "listening": "Listen {n} of {total}: question → correct answer"
     },
     "lessons": {
       "basic-01": "Greetings",

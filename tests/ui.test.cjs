@@ -7,6 +7,7 @@ const path=require('node:path');
 const root=path.join(__dirname,'..');
 const E=require('../core/engine.js');
 const {course,locales,html:builtHtml}=require('./runtime.cjs');
+// Bundle mounts exercise real audio sequencing; app-only mounts intentionally exercise audio-unavailable fallback.
 function mount(data=course,bundle=null,initialDirection='lv-ru'){
   const elements=new Map();
   const timers=new Map();let now=0;let timerId=0;
@@ -53,7 +54,7 @@ function mount(data=course,bundle=null,initialDirection='lv-ru'){
 }
 function answerButtons($){return $('choices').children.map(row=>row.children[0]);}
 function choose($,id){const button=answerButtons($).find(b=>b.dataset.optionId===id);assert.ok(button);button.click();}
-test('standalone prompt speaker uses the current source clip without answering or changing grading',()=>{
+test('standalone prompt speaker and wrong-answer correction preserve grading and exact source/target binding',async()=>{
   const pack=JSON.parse(builtHtml.match(/id="audio-data">([\s\S]*?)<\/script>/)[1]);
   for(const direction of course.directions){
     const [source,target]=direction.split('-');const $=mount(undefined,builtHtml,direction);$('start').click();
@@ -71,10 +72,15 @@ test('standalone prompt speaker uses the current source clip without answering o
     assert.equal($('audio-media').playCount,4,'advancing autoplays the new prompt');
     $('question-replay').click();assert.equal($('audio-media').src,pack.clips[source][second].src);assert.equal($('progress').value,1);
     const wrong=answerButtons($).find(b=>b.dataset.optionId!==second);wrong.click();
-    assert.equal($('audio-media').playCount,5,'answer feedback never starts target audio');
-    $.tick(499);assert.equal($('audio-media').playCount,5);
-    $.tick(1);assert.equal($('audio-media').playCount,6);assert.equal($('audio-media').src,pack.clips[source][first].src);
-    $('restart').click();assert.equal($('audio-media').playCount,7);assert.equal($('progress').value,0);
+    assert.equal($('audio-media').playCount,6,'wrong answer begins by repeating the current question');
+    $.tick(500);assert.equal($('audio-media').playCount,6);assert.equal($('question').textContent,course.phrases.find(p=>p.id===second)[source]);
+    for(let n=0;n<6;n++){
+      assert.equal($('audio-media').src,pack.clips[n%2?target:source][second].src);
+      assert.equal(answerButtons($).every(b=>b.disabled),true);
+      $('audio-media').onended();for(let flush=0;flush<8;flush++)await Promise.resolve();
+    }
+    assert.equal($('audio-media').playCount,12);assert.equal($('audio-media').src,pack.clips[source][first].src);assert.equal($('progress').value,0);
+    $('restart').click();assert.equal($('audio-media').playCount,13);assert.equal($('progress').value,0);
 
     $('change').click();assert.equal($('audio-media').paused,true);assert.equal($('question-replay').hidden,true);
   }
@@ -98,10 +104,11 @@ test('standalone speaker covers every question in all allowed directions with co
     $('again').click();assert.equal($('audio-media').paused,false);
     const prompt=course.lessons[0].prompts[0];
     choose($,answerButtons($).find(b=>b.dataset.optionId!==prompt.phraseId).dataset.optionId);
-    assert.equal($('audio-media').playCount,course.phrases.length+1,'wrong answers must not play a target clip');
+    assert.equal($('audio-media').playCount,course.phrases.length+2,'wrong answer starts correction by replaying its source prompt');
+    assert.equal($('audio-media').src,pack.clips[source][prompt.phraseId].src);$('change').click();
   }
 });
-test('answer locks immediately, advances only at 500ms, then wrong steps back automatically',()=>{
+test('without audio modules, the 500ms fallback still locks answers and steps back automatically',()=>{
   const $=mount();assert.equal($('setup').hidden,false);assert.equal($('error').hidden,true);
   assert.equal($('lesson-list').children.length,course.lessons.length);
   $('start').click();assert.equal($('practice').hidden,false);assert.equal(answerButtons($).length,4);
@@ -249,4 +256,23 @@ test('every Japanese answer speaker plays its exact Japanese clip without gradin
   choose($,prompt.phraseId);$.tick(499);assert.equal(answerButtons($)[0].disabled,true);$.tick(1);appearances++;
  }
  assert.equal(appearances,510);assert.equal($('finished').hidden,false);assert.equal($('audio-media').paused,true);
+});
+
+async function endCorrection($){for(let n=0;n<6;n++){assert.equal(typeof $('audio-media').onended,'function');$('audio-media').onended();for(let i=0;i<8;i++)await Promise.resolve();}}
+test('third wrong answer waits for three complete pairs before lesson-one restart; reset cancels stale correction',async()=>{
+ const $=mount(undefined,builtHtml,'en-ja');$('start').click();
+ for(let mistake=1;mistake<=3;mistake++){
+  const first=course.lessons[0].prompts[0].phraseId;choose($,first);$.tick(500);
+  const current=course.lessons[0].prompts[1].phraseId;
+  choose($,answerButtons($).find(b=>b.dataset.optionId!==current).dataset.optionId);
+  const text=$('question').textContent;$.tick(500);assert.equal($('question').textContent,text);
+  await endCorrection($);
+  assert.equal($('question').textContent,course.phrases.find(p=>p.id===first).en);
+  assert.equal($('progress').value,0);assert.equal($('mistakes').textContent,`Mistakes in this block: ${mistake===3?0:mistake} of 3`);
+ }
+ const first=course.lessons[0].prompts[0].phraseId;
+ choose($,answerButtons($).find(b=>b.dataset.optionId!==first).dataset.optionId);
+ const stale=$('audio-media').onended;$('restart').click();stale();for(let i=0;i<8;i++)await Promise.resolve();$.tick(500);
+ assert.equal($('progress').value,0);assert.equal($('mistakes').textContent,'Mistakes in this block: 0 of 3');
+ assert.equal($('correction-status').textContent,'');
 });

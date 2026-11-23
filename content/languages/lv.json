@@ -2557,7 +2557,7 @@
     "static": {
       "skip": "Pāriet uz uzdevumiem",
       "brand-name": "Valodu mācīšanās",
-      "badge": "Izmēģinājuma versija 0.5.0",
+      "badge": "Izmēģinājuma versija 0.5.1",
       "draft": "Mācību materiāls un izruna vēl jāpārbauda valodu pratējiem.",
       "audience": "Ikdienas saziņas pamati",
       "welcome": "Mazliet prakses. Sāc ar pamatiem.",
@@ -2565,7 +2565,7 @@
       "direction-caption": "Mācību virziens",
       "start": "Sākt mācīties",
       "rules-title": "Kā mācīties",
-      "rule-options": "Izvēlies vienu no četrām atbildēm. Atbildes pārbaude parādās uzreiz, un pēc 0,5 sekundēm atveras nākamais jautājums. Atbilžu secība katru reizi mainās.",
+      "rule-options": "Izvēlies atbildi. Pēc kļūdas trīs reizes noklausies jautājumu un pareizo atbildi, tad automātiski atgriezies vienu jautājumu atpakaļ.",
       "rule-complete": "Katrā nodarbībā ir desmit jautājumu bloks. Desmit pareizas atbildes pēc kārtas pabeidz nodarbību.",
       "rule-mistakes": "Kļūda atgriež vienu jautājumu atpakaļ un pārtrauc pareizo atbilžu virkni. Trešā kļūda tajā pašā blokā atgriež 1. nodarbības 1. jautājumā, arī tad, ja starp kļūdām bija pareizas atbildes.",
       "rule-reset": "Jaunā blokā vai sākot no jauna, kļūdu skaits tiek atiestatīts. Pārlūkā progress netiek saglabāts.",
@@ -2603,7 +2603,8 @@
       "error": "Neizdevās ielādēt mācību materiālu. Lejupielādē izmēģinājuma versiju vēlreiz vai ziņo par problēmu GitHub.",
       "instruction": "Izvēlies tulkojumu {language} valodā",
       "noscript": "Lai pildītu uzdevumus, ieslēdz JavaScript. Lejupielādētajam HTML failam konts un internets nav vajadzīgs.",
-      "theme": "Tumšais motīvs"
+      "theme": "Tumšais motīvs",
+      "listening": "Noklausies {n} no {total}: jautājums → pareizā atbilde"
     },
     "lessons": {
       "basic-01": "Sasveicināšanās",

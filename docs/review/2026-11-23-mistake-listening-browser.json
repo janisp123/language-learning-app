@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "realPlayback": "six complete EN/JA clips followed by automatic step-back and new prompt autoplay",
+  "completionEventRuns": 14,
+  "checks": [
+    "exact source/correct-target binding, never selected wrong answer",
+    "no navigation before sixth end",
+    "no Try again control",
+    "third cumulative reset after correction",
+    "restart/stale-ended cancellation",
+    "correct500ms",
+    "blocked media recovery",
+    "320/390/1280 light-dark overflow",
+    "reload/current-session-only zero storage"
+  ],
+  "notRun": [
+    "physical phone",
+    "full screen reader"
+  ]
+}

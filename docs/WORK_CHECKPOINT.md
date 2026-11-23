@@ -1,23 +1,21 @@
 # Current working checkpoint
 
-Current task: L-010
+Current task: L-013
 
-## Last completed slice — 2026-11-23
+## Current authorized slice — 2026-11-23
 
-**L-012 focused Kids/Adults courses are LIVE at0.5.0.** Owner explicitly authorized efficient checked merging/live publication so testing can happen on the actual website; no further routine publication approval is needed within that scope.
+Owner requested implementation of three CURRENT-question→CORRECT-answer listening pairs after a mistake, followed automatically by the existing one-question-back navigation. Explicitly no Try again option. Third cumulative block mistake restarts lesson1 after those pairs; correct answers keep500ms. Standing owner authorization permits efficient checked merging/live publication without another routine approval request.
 
-- [Learning page](https://janisp123.github.io/language-learning-app/learn/?v=0.5.0):100 items each,80 shared intents +20 school/play or everyday shop/transport. Source-language Kids/Adults selector; original510 course available separately. Seven global directions only, matching bundled audio, same scoring/500ms/replay/autoplay and ZERO saves.
-- Source8b3995f, [PR #29](https://github.com/janisp123/language-learning-app/pull/29) MERGED at eed6e9dba3fd2a5bd42d4c57eeb646a3c815e231. Source CI45244251413, main CI45244458566 and Pages45244458557 succeeded.48Node/41Python local checks; Chromium14×100 plus original-course access, audio/session/layout/zero-storage;268 new clips decode;2040 protected old clips unchanged. Independent review issues fixed and cleared.
-- Verified HTTPS downloads of actual live app and landing match checked source exactly. App26,166,776 bytes, SHA2569ef61fb215c644a2858d95b509af31ba6e6206f6f8f584538a016c91c998325d. [Live receipt](delivery/2026-11-23-focused-live.json). Direct live headless navigation had an environment certificate-trust error; no TLS bypass. Actual app bytes were browser-tested locally and read back through verified HTTPS.
-- Website EN/RU/LV description/metadata, README and direct offline download now match focused courses. GitHub About metadata update returned403 (integration lacks permission); its old description remains. Optional owner manual action:repository About gear→Description; use “Focused100-item Kids and Adults courses for Latvian,Russian,English and English-to-Japanese, with pronunciation and zero saved progress.” Homepage already correct.
-- First greeting/ambiguous-choice correction PR #27 merged/deployed0.4.13 before this slice. Design/plan PR #28 merged3bc78a9. Audit/library PR #26 merged. Do not repeat design/implementation for these delivered slices.
+Branch feat/mistake-listening, isolated checkout /workspace/work/mistake-listening, baseline fce95d95f63e3313809a94e7af5ff5ada5d55e8f. Kids/Adults0.5.0 is already live; L-010 reading-guide integration remains pending and is not part of this slice.
 
-## Next bounded work — L-010 reading aids
+## Implemented locally
 
-Reading-guide PR #21 remains OPEN/UNMERGED and was not imported in0.5.0. The public app currently has no per-symbol/source-letter reading aids. Reconcile the existing modules against latest main, preserve current task/protocol and focused courses, apply the exactこんにちは ko/n/ni/chi/wa patch (finalは contextualwa), then add guide coverage for selected focused utterances/variants. Keep readings only lv-ru (Latvian letters),ru-en (Cyrillic),en-ja (per-symbol romaji and contextual kana/kanji notes); other four unannotated. Never use old source/translations/recordings from held #21 to overwrite current main.
+Completion-aware media playback waits for ended, handles rejection/error/30-second stall timeout, cancels on stop and rejects stale events/promises. Audio view binds source/current concept and correct target text, plays exactly six clips, locks replays/options while listening and reports round1–3. UI applies the pending engine result only after completion; media failure shows correct text/error then recovers after500ms. Reset/course/direction cancels playback and pending navigation. No engine/scoring/content/recording change, no retry button, no storage.
 
-Use the existing loader/view/rendering code; no new learning engine. Test complete selected text/ID/audio/guide bindings and all course switches, mobile/dark/keyboard, no grading from speakers,500ms and zero saves. Publish a checked slice under the owner’s standing live-website request once verified, not by blindly merging old #21. Update live receipt and compare actual hosted bytes. Legacy510 remains available.
+New failing-first audio tests verify six ordered completions, cancellation, rejection, stall recovery and same-element late promise safety. Real UI tests verify three pairs in every allowed direction and third-mistake/reset cancellation; correct-answer500ms and original course checks retained. PASS54Node/41Python; real Chromium six completeEN/JA clips before automatic step-back; completion-event conformance Kids/Adults×seven directions; third-mistake timing, restart/stale-ended cancellation, blocked media recovery,320/390/1280 light/dark overflow and reload/zero storage. [Browser receipt](review/2026-11-23-mistake-listening-browser.json). Source/CI/live status is recorded after actual execution, not assumed. Independent review found no blocker in sequencing/cancellation/binding.
 
-Other L-011 commonness/context recommendations, fluent-human review and physical-device/full-accessibility checks remain pending. Technical tests do not prove every expression optimal or conversational fluency. Preserve the older held0.4.12 Drive file; website offline download is current0.5.0 and no Drive replacement was made.
+## Exact next step
 
-Canonical active tasks: docs/TD_LIST.md. Completed L-012 task history is preserved in docs/history/L-012-completed-2026-11-23.md. Current code checkout /workspace/work/focused-courses is on docs/focused-live-receipt from main eed6e9d; read actual latest main/PRs on resume. This handoff changes docs only and must not be mistaken for a new product release.
+Finish real-browser all-course/all-direction correction checks and actual complete playback, full Node/Python/protocol/build parity checks, push source, check CI, merge/publish and compare hosted bytes. Then save a durable live receipt and return the current pointer to pending L-010. Do not claim all phrases fluent-human reviewed; reading guides remain unmerged #21. Original510 plus focused100-item courses, seven directions, recordings and ZERO saves remain preserved.
+
+Prior checkpoint preserved [verbatim](history/WORK_CHECKPOINT-before-mistake-listening-2026-11-23.md). Canonical tasks:docs/TD_LIST.md.

@@ -78,6 +78,7 @@
 
     function cancelAdvance() {
       audio?.reset();
+      $('correction-status').textContent = '';
       if (advanceTimer !== null) clearTimeout(advanceTimer);
       advanceTimer = null; generation++; pending = null;
     }
@@ -146,13 +147,22 @@
       else if (pending.lessonChanged) feedback.textContent = t('nextLesson', {title:(messages.focusedLessons?.[course.lessons[pending.state.lessonIndex].id] || messages.lessons[course.lessons[pending.state.lessonIndex].id])});
       else feedback.textContent = t('correct');
       const ticket = ++generation;
-      advanceTimer = setTimeout(() => {
+      function advance() {
         if (ticket !== generation || !pending) return;
         advanceTimer = null;
+        $('correction-status').textContent = '';
         state = pending.state; pending = null;
         if (state.phase === 'complete') { audio?.reset(); screen('finished'); $('finished-title').focus(); }
         else render(false);
-      }, 500);
+      }
+      if (!pending.feedback.correct && audio?.correct) {
+        const round = n => { if (ticket === generation) $('correction-status').textContent = t('listening',{n,total:3}); };
+        void audio.correct(shown,pending.feedback.correctText,round).then(result => {
+          if (ticket !== generation || !pending || result === null) return;
+          if (result === true) advance();
+          else advanceTimer = setTimeout(advance,500);
+        });
+      } else advanceTimer = setTimeout(advance,500);
     }
     for (const id of ['start','restart','again']) $(id).addEventListener('click', begin);
     for (const id of ['change','choose']) $(id).addEventListener('click', setup);
