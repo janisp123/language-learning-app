@@ -27,7 +27,11 @@
     "choose",
     "footer-caption",
     "source-link",
-    "privacy-note"
+    "privacy-note",
+    "learner-caption",
+    "learner-kids",
+    "learner-adults",
+    "original-label"
   ],
   "messages": {
     "pageTitle": [],

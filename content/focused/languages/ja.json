@@ -1,0 +1,337 @@
+{
+  "focus-s02": {
+    "conceptId": "focus-s02",
+    "meaning": "Goodbye",
+    "text": "じゃあ、また"
+  },
+  "focus-s07": {
+    "conceptId": "focus-s07",
+    "meaning": "My name is …",
+    "text": "アンナです"
+  },
+  "focus-s08": {
+    "conceptId": "focus-s08",
+    "meaning": "What is your name?",
+    "text": "名前は何ですか"
+  },
+  "focus-s09": {
+    "conceptId": "focus-s09",
+    "meaning": "Where are you from?",
+    "text": "どこから来ましたか"
+  },
+  "focus-s10": {
+    "conceptId": "focus-s10",
+    "meaning": "I am from …",
+    "text": "ラトビアから来ました"
+  },
+  "focus-s11": {
+    "conceptId": "focus-s11",
+    "meaning": "How are you?",
+    "text": "元気ですか"
+  },
+  "focus-s12": {
+    "conceptId": "focus-s12",
+    "meaning": "I am fine",
+    "text": "元気です"
+  },
+  "focus-s14": {
+    "conceptId": "focus-s14",
+    "meaning": "Please repeat that",
+    "text": "もう一度お願いします"
+  },
+  "focus-s15": {
+    "conceptId": "focus-s15",
+    "meaning": "Please speak more slowly",
+    "text": "もっとゆっくり話してください"
+  },
+  "focus-s16": {
+    "conceptId": "focus-s16",
+    "meaning": "What does … mean?",
+    "text": "これはどういう意味ですか"
+  },
+  "focus-s17": {
+    "conceptId": "focus-s17",
+    "meaning": "I don’t know",
+    "text": "わかりません"
+  },
+  "focus-s20": {
+    "conceptId": "focus-s20",
+    "meaning": "Please show me",
+    "text": "見せてください"
+  },
+  "focus-s21": {
+    "conceptId": "focus-s21",
+    "meaning": "I want …",
+    "text": "水が欲しいです"
+  },
+  "focus-s23": {
+    "conceptId": "focus-s23",
+    "meaning": "I have …",
+    "text": "電話を持っています"
+  },
+  "focus-s24": {
+    "conceptId": "focus-s24",
+    "meaning": "I don’t have …",
+    "text": "電話を持っていません"
+  },
+  "focus-s25": {
+    "conceptId": "focus-s25",
+    "meaning": "I like …",
+    "text": "りんごが好きです"
+  },
+  "focus-s26": {
+    "conceptId": "focus-s26",
+    "meaning": "I don’t like …",
+    "text": "牛乳が好きではありません"
+  },
+  "focus-s27": {
+    "conceptId": "focus-s27",
+    "meaning": "Can I …?",
+    "text": "ここに座ってもいいですか"
+  },
+  "focus-s28": {
+    "conceptId": "focus-s28",
+    "meaning": "Can you help me?",
+    "text": "手伝ってもらえますか"
+  },
+  "focus-s29": {
+    "conceptId": "focus-s29",
+    "meaning": "This one",
+    "text": "これ"
+  },
+  "focus-s32": {
+    "conceptId": "focus-s32",
+    "meaning": "Food",
+    "text": "食べ物"
+  },
+  "focus-s37": {
+    "conceptId": "focus-s37",
+    "meaning": "I am hungry",
+    "text": "お腹がすきました"
+  },
+  "focus-s38": {
+    "conceptId": "focus-s38",
+    "meaning": "I am thirsty",
+    "text": "喉が渇きました"
+  },
+  "focus-s39": {
+    "conceptId": "focus-s39",
+    "meaning": "More, please",
+    "text": "もう少しお願いします"
+  },
+  "focus-s40": {
+    "conceptId": "focus-s40",
+    "meaning": "Enough, thank you",
+    "text": "もう十分です"
+  },
+  "focus-s41": {
+    "conceptId": "focus-s41",
+    "meaning": "Where is …?",
+    "text": "トイレはどこですか"
+  },
+  "focus-s49": {
+    "conceptId": "focus-s49",
+    "meaning": "Let’s go",
+    "text": "行きましょう"
+  },
+  "focus-s50": {
+    "conceptId": "focus-s50",
+    "meaning": "Please wait",
+    "text": "少し待ってください"
+  },
+  "focus-s65": {
+    "conceptId": "focus-s65",
+    "meaning": "What time is it?",
+    "text": "今何時ですか"
+  },
+  "focus-s66": {
+    "conceptId": "focus-s66",
+    "meaning": "What time shall we meet?",
+    "text": "何時に会いましょうか"
+  },
+  "focus-s71": {
+    "conceptId": "focus-s71",
+    "meaning": "Help!",
+    "text": "助けて"
+  },
+  "focus-s72": {
+    "conceptId": "focus-s72",
+    "meaning": "Stop!",
+    "text": "やめてください"
+  },
+  "focus-s73": {
+    "conceptId": "focus-s73",
+    "meaning": "I don’t want that",
+    "text": "それは欲しくないです"
+  },
+  "focus-s74": {
+    "conceptId": "focus-s74",
+    "meaning": "I am lost",
+    "text": "道に迷いました"
+  },
+  "focus-s75": {
+    "conceptId": "focus-s75",
+    "meaning": "I am hurt",
+    "text": "けがをしました"
+  },
+  "focus-s76": {
+    "conceptId": "focus-s76",
+    "meaning": "I feel unwell",
+    "text": "具合が悪いです"
+  },
+  "focus-k02": {
+    "conceptId": "focus-k02",
+    "meaning": "Mother",
+    "text": "お母さん"
+  },
+  "focus-k03": {
+    "conceptId": "focus-k03",
+    "meaning": "Father",
+    "text": "お父さん"
+  },
+  "focus-k11": {
+    "conceptId": "focus-k11",
+    "meaning": "Can I play?",
+    "text": "遊んでもいいですか"
+  },
+  "focus-k12": {
+    "conceptId": "focus-k12",
+    "meaning": "Let’s play",
+    "text": "遊ぼう"
+  },
+  "focus-k13": {
+    "conceptId": "focus-k13",
+    "meaning": "It is my turn",
+    "text": "私の番です"
+  },
+  "focus-k14": {
+    "conceptId": "focus-k14",
+    "meaning": "It is your turn",
+    "text": "あなたの番です"
+  },
+  "focus-k15": {
+    "conceptId": "focus-k15",
+    "meaning": "Can I join you?",
+    "text": "一緒に遊んでもいいですか"
+  },
+  "focus-k16": {
+    "conceptId": "focus-k16",
+    "meaning": "I need a break",
+    "text": "少し休みたいです"
+  },
+  "focus-k17": {
+    "conceptId": "focus-k17",
+    "meaning": "Wait for me",
+    "text": "待って"
+  },
+  "focus-k18": {
+    "conceptId": "focus-k18",
+    "meaning": "Can I borrow …?",
+    "text": "ペンを借りてもいいですか"
+  },
+  "focus-k19": {
+    "conceptId": "focus-k19",
+    "meaning": "How do I do this?",
+    "text": "これはどうやりますか"
+  },
+  "focus-k20": {
+    "conceptId": "focus-k20",
+    "meaning": "I can’t find my …",
+    "text": "かばんが見つかりません"
+  },
+  "focus-a03": {
+    "conceptId": "focus-a03",
+    "meaning": "Card",
+    "text": "クレジットカード"
+  },
+  "focus-a04": {
+    "conceptId": "focus-a04",
+    "meaning": "Cash",
+    "text": "現金"
+  },
+  "focus-a11": {
+    "conceptId": "focus-a11",
+    "meaning": "How much does this cost?",
+    "text": "これはいくらですか"
+  },
+  "focus-a12": {
+    "conceptId": "focus-a12",
+    "meaning": "Can I try it?",
+    "text": "試してもいいですか"
+  },
+  "focus-a13": {
+    "conceptId": "focus-a13",
+    "meaning": "Can I pay by card?",
+    "text": "カードで払えますか"
+  },
+  "focus-a14": {
+    "conceptId": "focus-a14",
+    "meaning": "The bill, please",
+    "text": "お会計をお願いします"
+  },
+  "focus-a15": {
+    "conceptId": "focus-a15",
+    "meaning": "Where is the bus stop?",
+    "text": "バス停はどこですか"
+  },
+  "focus-a16": {
+    "conceptId": "focus-a16",
+    "meaning": "One ticket to …, please",
+    "text": "中心部までの切符を一枚お願いします"
+  },
+  "focus-a17": {
+    "conceptId": "focus-a17",
+    "meaning": "Does this go to …?",
+    "text": "これは中心部に行きますか"
+  },
+  "focus-a18": {
+    "conceptId": "focus-a18",
+    "meaning": "What time does it leave?",
+    "text": "何時に出発しますか"
+  },
+  "focus-a19": {
+    "conceptId": "focus-a19",
+    "meaning": "Where can I buy …?",
+    "text": "切符はどこで買えますか"
+  },
+  "focus-a20": {
+    "conceptId": "focus-a20",
+    "meaning": "I work in …",
+    "text": "店で働いています"
+  },
+  "focus-s18-lv": {
+    "conceptId": "focus-s18-lv",
+    "meaning": "I speak a little Latvian",
+    "text": "ラトビア語を少し話せます"
+  },
+  "focus-s19-lv": {
+    "conceptId": "focus-s19-lv",
+    "meaning": "Do you speak Latvian?",
+    "text": "ラトビア語を話せますか"
+  },
+  "focus-s18-ru": {
+    "conceptId": "focus-s18-ru",
+    "meaning": "I speak a little Russian",
+    "text": "ロシア語を少し話せます"
+  },
+  "focus-s19-ru": {
+    "conceptId": "focus-s19-ru",
+    "meaning": "Do you speak Russian?",
+    "text": "ロシア語を話せますか"
+  },
+  "focus-s18-en": {
+    "conceptId": "focus-s18-en",
+    "meaning": "I speak a little English",
+    "text": "英語を少し話せます"
+  },
+  "focus-s19-en": {
+    "conceptId": "focus-s19-en",
+    "meaning": "Do you speak English?",
+    "text": "英語を話せますか"
+  },
+  "focus-s18-ja": {
+    "conceptId": "focus-s18-ja",
+    "meaning": "I speak a little Japanese",
+    "text": "日本語を少し話せます"
+  }
+}

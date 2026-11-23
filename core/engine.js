@@ -16,7 +16,7 @@
   const normalized = value => value.normalize('NFC').trim().toLocaleLowerCase();
 
   function validateCourse(course) {
-    if (!course || course.schemaVersion !== 2 || !text(course.id) || !text(course.contentVersion) || course.agePath !== '10-17') fail('Unsupported course format.');
+    if (!course || course.schemaVersion !== 2 || !text(course.id) || !text(course.contentVersion) || (course.agePath !== '10-17' && (!['kids','adults'].includes(course.audience) || course.agePath !== course.audience))) fail('Unsupported course format.');
     if (!Array.isArray(course.languages) || course.languages.length < 2 || new Set(course.languages).size !== course.languages.length || course.languages.some(language => typeof language !== 'string' || !/^[a-z]{2,3}$/.test(language))) fail('Unsupported or duplicate course languages.');
     if (!Array.isArray(course.directions) || !course.directions.length || course.directions.some(d => !validPair(course, d)) || new Set(course.directions).size !== course.directions.length || (course.defaultDirection !== undefined && !validDirection(course, course.defaultDirection))) fail('Invalid allowed translation directions.');
     if (!Array.isArray(course.phrases) || !Array.isArray(course.lessons) || !course.lessons.length) fail('Expected blocks and a phrase bank.');

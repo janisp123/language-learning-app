@@ -32,7 +32,7 @@ test('landing language and theme controls translate, support keyboard, and reset
  titles.add(await page.title());descriptions.add(await page.locator('meta[name=description]').getAttribute('content'));themeLabels.add(await page.locator('#theme-toggle').getAttribute('aria-label'));
  assert.equal(await page.locator('[data-copy]').count(),original.length);
  if(lang==='en')assert.deepEqual(await page.locator('[data-copy]').allTextContents(),original);
- if(lang!=='en')assert.ok((await page.locator('[data-copy]').allTextContents()).every((text,i)=>text!==original[i]),'every keyed text changes');
+ if(lang!=='en')assert.ok((await page.locator('[data-copy]').allTextContents()).every((text,i)=>text!==original[i] || (/^\d+$/.test(text) && text===original[i])),'every translatable keyed text changes; numeric counts remain stable');
  await page.locator('#theme-toggle').focus();await page.keyboard.press('Space');
  assert.equal(await page.locator('html').getAttribute('data-theme'),'dark');
  assert.equal(await page.locator('#theme-toggle').getAttribute('aria-pressed'),'true');
@@ -42,7 +42,7 @@ test('landing language and theme controls translate, support keyboard, and reset
  assert.equal(titles.size,3);assert.equal(descriptions.size,3);assert.equal(themeLabels.size,3);
  assert.equal(await page.locator('footer p').first().innerText(),'Made by Janis Paegle 2026');
  assert.equal(await page.locator('a[href="learn/"]').count(),2);
- assert.equal(await page.locator('a[href^="https://drive.google.com/"]').count(),1);
+ assert.equal(await page.locator('a[href="language-learning-test.html"]').count(),1);
  await page.locator('[data-language="ru"]').click();await page.locator('#theme-toggle').click();
  assert.deepEqual(await page.evaluate(()=>[localStorage.length,sessionStorage.length,document.cookie]),[0,0,'']);
  await page.reload();assert.equal(await page.locator('html').getAttribute('lang'),'en');assert.equal(await page.locator('html').getAttribute('data-theme'),'light');

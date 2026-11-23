@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "focusedRuns": 14,
+  "itemsPerRun": 100,
+  "checks": [
+    "real new Japanese audio decode/binding/no grading",
+    "both audience controls/globalsevenallowlist",
+    "all1400 focused prompts complete",
+    "original510setupavailable",
+    "pending transition audience-switch cancellation",
+    "499/500ms",
+    "reloadKidslesson1/zero storage",
+    "320/390/1280 light-dark overflow",
+    "no page errors"
+  ],
+  "notRun": [
+    "physical phone",
+    "fluent-human pronunciation certification",
+    "full screen reader"
+  ]
+}

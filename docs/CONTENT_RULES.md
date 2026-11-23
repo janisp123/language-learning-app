@@ -1,6 +1,10 @@
 # Content rules — basic words and short phrases
 
-## Product scope — survival basics
+## Current focused starting courses — owner approved 2026-11-23
+
+Kids and Adults each begin with100 items in ten ten-question blocks:80 shared communication intents and20 school/play or everyday shop/transport items. Practical phrases begin in lesson1. Preserve the original510-item course separately; its older policy below does not prohibit the explicitly approved focused courses. Reuse canonical meanings and familiar words, with new-only extension modules under content/focused. Do not add synonyms/categories merely to expand the bank. Pattern slots are realized as complete, reviewed utterances (including language-name variants by direction), never spoken ellipses or personal-data inputs. The focused12-word structural ceiling permits ordinary short questions; it is not a target length. Review source/target/distractor meaning in all seven directions. Politeness is contextual; basic mutual communication is the primary goal. Audio and content remain editorial drafts pending fluent-human review.
+
+## Original510 course scope — survival basics
 
 The product focuses on **roughly 500 crucial words and short phrases** for everyday survival and basic communication. Practical usefulness is the selection criterion; 500 is an approximate scope, not a reason to pad the bank or continually expand it. Prioritize understanding essential speech, asking for help, expressing basic needs and handling common situations. Current development focuses on Russian ↔ Latvian.
 

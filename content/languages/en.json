@@ -2557,11 +2557,11 @@
     "static": {
       "skip": "Skip to practice",
       "brand-name": "Language learning",
-      "badge": "Test build 0.4.13",
-      "draft": "Content and pronunciation await fluent review · audio for all 510 words and phrases in Latvian, Russian, English and Japanese",
-      "audience": "Everyday languages · Ages 10–17",
+      "badge": "Test build 0.5.0",
+      "draft": "Draft content and pronunciation await fluent human review.",
+      "audience": "Focused everyday communication",
       "welcome": "A little practice. Start with the essentials.",
-      "intro": "Short lessons for everyday situations. Choose a direction and try the first lesson.",
+      "intro": "Choose Kids or Adults: 100 useful words and short expressions. The original 510-item course remains available below.",
       "direction-caption": "Practice direction",
       "start": "Start practice",
       "rules-title": "How it works",
@@ -2570,7 +2570,7 @@
       "rule-mistakes": "A mistake takes you back one question and resets the consecutive count. The third mistake in the same block restarts at lesson 1, question 1, even if correct answers came between the mistakes.",
       "rule-reset": "A new block or restart clears the mistake count. Browser progress is not saved.",
       "outline-summary": "Explore the lesson themes",
-      "outline-note": "Lessons are reached in order through practice. This list does not skip ahead.",
+      "outline-note": "Ten short lessons in each focused course. The original course has 51 lessons.",
       "restart": "Restart from lesson 1",
       "change": "Change direction",
       "help": "Your choices and progress stay in this page's memory. Closing or refreshing starts over.",
@@ -2581,7 +2581,11 @@
       "choose": "Choose another direction",
       "footer-caption": "Free test build · No account, ads or saved browser progress",
       "source-link": "Source and feedback on GitHub",
-      "privacy-note": "Do not put personal information in public GitHub issues."
+      "privacy-note": "Do not put personal information in public GitHub issues.",
+      "learner-caption": "Course for",
+      "learner-kids": "Kids",
+      "learner-adults": "Adults",
+      "original-label": "Use the original 510-item course"
     },
     "messages": {
       "pageTitle": "Language learning — Test build",
@@ -2671,6 +2675,20 @@
         "label": "Japanese",
         "target": "Japanese"
       }
+    },
+    "focusedLessons": {
+      "shared-01": "Meet someone",
+      "shared-02": "Keep the conversation going",
+      "shared-03": "Say what you need",
+      "shared-04": "Food and drink",
+      "shared-05": "Find a place",
+      "shared-06": "Small quantities",
+      "shared-07": "Arrange something simple",
+      "shared-08": "Get help and set a boundary",
+      "kids-01": "School and familiar people",
+      "kids-02": "Join in and ask at school",
+      "adults-01": "Everyday transactions and travel",
+      "adults-02": "Use a shop or transport service"
     }
   }
 }

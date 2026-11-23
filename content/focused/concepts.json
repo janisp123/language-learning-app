@@ -1,0 +1,339 @@
+{
+  "concepts": [
+    {
+      "id": "focus-s02",
+      "meaning": "Goodbye",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-s07",
+      "meaning": "My name is …",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-s08",
+      "meaning": "What is your name?",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-s09",
+      "meaning": "Where are you from?",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-s10",
+      "meaning": "I am from …",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-s11",
+      "meaning": "How are you?",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-s12",
+      "meaning": "I am fine",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-s14",
+      "meaning": "Please repeat that",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-s15",
+      "meaning": "Please speak more slowly",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-s16",
+      "meaning": "What does … mean?",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-s17",
+      "meaning": "I don’t know",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-s20",
+      "meaning": "Please show me",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-s21",
+      "meaning": "I want …",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-s23",
+      "meaning": "I have …",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-s24",
+      "meaning": "I don’t have …",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-s25",
+      "meaning": "I like …",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-s26",
+      "meaning": "I don’t like …",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-s27",
+      "meaning": "Can I …?",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-s28",
+      "meaning": "Can you help me?",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-s29",
+      "meaning": "This one",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-s32",
+      "meaning": "Food",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-s37",
+      "meaning": "I am hungry",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-s38",
+      "meaning": "I am thirsty",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-s39",
+      "meaning": "More, please",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-s40",
+      "meaning": "Enough, thank you",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-s41",
+      "meaning": "Where is …?",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-s49",
+      "meaning": "Let’s go",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-s50",
+      "meaning": "Please wait",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-s65",
+      "meaning": "What time is it?",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-s66",
+      "meaning": "What time shall we meet?",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-s71",
+      "meaning": "Help!",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-s72",
+      "meaning": "Stop!",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-s73",
+      "meaning": "I don’t want that",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-s74",
+      "meaning": "I am lost",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-s75",
+      "meaning": "I am hurt",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-s76",
+      "meaning": "I feel unwell",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-k02",
+      "meaning": "Mother",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-k03",
+      "meaning": "Father",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-k11",
+      "meaning": "Can I play?",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-k12",
+      "meaning": "Let’s play",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-k13",
+      "meaning": "It is my turn",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-k14",
+      "meaning": "It is your turn",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-k15",
+      "meaning": "Can I join you?",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-k16",
+      "meaning": "I need a break",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-k17",
+      "meaning": "Wait for me",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-k18",
+      "meaning": "Can I borrow …?",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-k19",
+      "meaning": "How do I do this?",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-k20",
+      "meaning": "I can’t find my …",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-a03",
+      "meaning": "Card",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-a04",
+      "meaning": "Cash",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-a11",
+      "meaning": "How much does this cost?",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-a12",
+      "meaning": "Can I try it?",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-a13",
+      "meaning": "Can I pay by card?",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-a14",
+      "meaning": "The bill, please",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-a15",
+      "meaning": "Where is the bus stop?",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-a16",
+      "meaning": "One ticket to …, please",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-a17",
+      "meaning": "Does this go to …?",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-a18",
+      "meaning": "What time does it leave?",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-a19",
+      "meaning": "Where can I buy …?",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-a20",
+      "meaning": "I work in …",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-s18-lv",
+      "meaning": "I speak a little Latvian",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-s19-lv",
+      "meaning": "Do you speak Latvian?",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-s18-ru",
+      "meaning": "I speak a little Russian",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-s19-ru",
+      "meaning": "Do you speak Russian?",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-s18-en",
+      "meaning": "I speak a little English",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-s19-en",
+      "meaning": "Do you speak English?",
+      "reviewStatus": "editorial-human-review-pending"
+    },
+    {
+      "id": "focus-s18-ja",
+      "meaning": "I speak a little Japanese",
+      "reviewStatus": "editorial-human-review-pending"
+    }
+  ]
+}

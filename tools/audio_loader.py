@@ -41,3 +41,24 @@ def load_audio(root: Path, course: dict, manifest=None):
             require(hashlib.sha256(data).hexdigest() == entry.get('sha256'), 'audio checksum mismatch')
             clips[language][ident] = {'text':entry['text'], 'src':'data:audio/mpeg;base64,' + base64.b64encode(data).decode('ascii')}
     return {'directions':directions, 'clips':clips, 'ui':ui}
+
+
+def load_all_course_audio(root:Path, legacy_course:dict, focused_data:dict):
+    """Combine new-only recordings without changing the protected legacy manifest."""
+    import copy
+    original=read_module(root/'content','audio/manifest.json')
+    require(original.get('contentVersion')==legacy_course['contentVersion'],'stale legacy audio content revision')
+    extra=read_module(root/'content/focused','audio.json')
+    require(extra.get('schemaVersion')==1 and extra.get('contentVersion')==focused_data['contentVersion'],'stale focused audio revision')
+    merged=copy.deepcopy(original)
+    require(set(extra.get('clips',{}))==set(legacy_course['languages']),'focused audio languages differ')
+    expected={p['id'] for p in focused_data['extensions']}
+    for language,entries in extra['clips'].items():
+        require(set(entries)==expected,'focused audio coverage differs')
+        require(not set(entries)&set(merged['clips'][language]),'focused audio overwrites existing clip')
+        merged['clips'][language].update(entries)
+    bank=copy.deepcopy(legacy_course)
+    bank['phrases']+=focused_data['extensions']
+    bank['contentVersion']=focused_data['contentVersion']
+    merged['contentVersion']=bank['contentVersion']
+    return load_audio(root,bank,merged)

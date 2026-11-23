@@ -1,0 +1,337 @@
+{
+  "focus-s02": {
+    "conceptId": "focus-s02",
+    "meaning": "Goodbye",
+    "text": "See you later"
+  },
+  "focus-s07": {
+    "conceptId": "focus-s07",
+    "meaning": "My name is …",
+    "text": "My name is Anna"
+  },
+  "focus-s08": {
+    "conceptId": "focus-s08",
+    "meaning": "What is your name?",
+    "text": "What is your name?"
+  },
+  "focus-s09": {
+    "conceptId": "focus-s09",
+    "meaning": "Where are you from?",
+    "text": "Where are you from?"
+  },
+  "focus-s10": {
+    "conceptId": "focus-s10",
+    "meaning": "I am from …",
+    "text": "I am from Latvia"
+  },
+  "focus-s11": {
+    "conceptId": "focus-s11",
+    "meaning": "How are you?",
+    "text": "How are you?"
+  },
+  "focus-s12": {
+    "conceptId": "focus-s12",
+    "meaning": "I am fine",
+    "text": "I am fine"
+  },
+  "focus-s14": {
+    "conceptId": "focus-s14",
+    "meaning": "Please repeat that",
+    "text": "Please repeat that"
+  },
+  "focus-s15": {
+    "conceptId": "focus-s15",
+    "meaning": "Please speak more slowly",
+    "text": "Please speak more slowly"
+  },
+  "focus-s16": {
+    "conceptId": "focus-s16",
+    "meaning": "What does … mean?",
+    "text": "What does this mean?"
+  },
+  "focus-s17": {
+    "conceptId": "focus-s17",
+    "meaning": "I don’t know",
+    "text": "I don’t know"
+  },
+  "focus-s20": {
+    "conceptId": "focus-s20",
+    "meaning": "Please show me",
+    "text": "Please show me"
+  },
+  "focus-s21": {
+    "conceptId": "focus-s21",
+    "meaning": "I want …",
+    "text": "I want water"
+  },
+  "focus-s23": {
+    "conceptId": "focus-s23",
+    "meaning": "I have …",
+    "text": "I have a phone"
+  },
+  "focus-s24": {
+    "conceptId": "focus-s24",
+    "meaning": "I don’t have …",
+    "text": "I don’t have a phone"
+  },
+  "focus-s25": {
+    "conceptId": "focus-s25",
+    "meaning": "I like …",
+    "text": "I like apples"
+  },
+  "focus-s26": {
+    "conceptId": "focus-s26",
+    "meaning": "I don’t like …",
+    "text": "I don’t like milk"
+  },
+  "focus-s27": {
+    "conceptId": "focus-s27",
+    "meaning": "Can I …?",
+    "text": "Can I sit here?"
+  },
+  "focus-s28": {
+    "conceptId": "focus-s28",
+    "meaning": "Can you help me?",
+    "text": "Can you help me?"
+  },
+  "focus-s29": {
+    "conceptId": "focus-s29",
+    "meaning": "This one",
+    "text": "This one"
+  },
+  "focus-s32": {
+    "conceptId": "focus-s32",
+    "meaning": "Food",
+    "text": "Food"
+  },
+  "focus-s37": {
+    "conceptId": "focus-s37",
+    "meaning": "I am hungry",
+    "text": "I am hungry"
+  },
+  "focus-s38": {
+    "conceptId": "focus-s38",
+    "meaning": "I am thirsty",
+    "text": "I am thirsty"
+  },
+  "focus-s39": {
+    "conceptId": "focus-s39",
+    "meaning": "More, please",
+    "text": "More, please"
+  },
+  "focus-s40": {
+    "conceptId": "focus-s40",
+    "meaning": "Enough, thank you",
+    "text": "Enough, thank you"
+  },
+  "focus-s41": {
+    "conceptId": "focus-s41",
+    "meaning": "Where is …?",
+    "text": "Where is the toilet?"
+  },
+  "focus-s49": {
+    "conceptId": "focus-s49",
+    "meaning": "Let’s go",
+    "text": "Let’s go"
+  },
+  "focus-s50": {
+    "conceptId": "focus-s50",
+    "meaning": "Please wait",
+    "text": "Please wait"
+  },
+  "focus-s65": {
+    "conceptId": "focus-s65",
+    "meaning": "What time is it?",
+    "text": "What time is it?"
+  },
+  "focus-s66": {
+    "conceptId": "focus-s66",
+    "meaning": "What time shall we meet?",
+    "text": "What time shall we meet?"
+  },
+  "focus-s71": {
+    "conceptId": "focus-s71",
+    "meaning": "Help!",
+    "text": "Help!"
+  },
+  "focus-s72": {
+    "conceptId": "focus-s72",
+    "meaning": "Stop!",
+    "text": "Stop!"
+  },
+  "focus-s73": {
+    "conceptId": "focus-s73",
+    "meaning": "I don’t want that",
+    "text": "I don’t want that"
+  },
+  "focus-s74": {
+    "conceptId": "focus-s74",
+    "meaning": "I am lost",
+    "text": "I am lost"
+  },
+  "focus-s75": {
+    "conceptId": "focus-s75",
+    "meaning": "I am hurt",
+    "text": "I am hurt"
+  },
+  "focus-s76": {
+    "conceptId": "focus-s76",
+    "meaning": "I feel unwell",
+    "text": "I feel unwell"
+  },
+  "focus-k02": {
+    "conceptId": "focus-k02",
+    "meaning": "Mother",
+    "text": "Mum"
+  },
+  "focus-k03": {
+    "conceptId": "focus-k03",
+    "meaning": "Father",
+    "text": "Dad"
+  },
+  "focus-k11": {
+    "conceptId": "focus-k11",
+    "meaning": "Can I play?",
+    "text": "Can I play?"
+  },
+  "focus-k12": {
+    "conceptId": "focus-k12",
+    "meaning": "Let’s play",
+    "text": "Let’s play"
+  },
+  "focus-k13": {
+    "conceptId": "focus-k13",
+    "meaning": "It is my turn",
+    "text": "It is my turn"
+  },
+  "focus-k14": {
+    "conceptId": "focus-k14",
+    "meaning": "It is your turn",
+    "text": "It is your turn"
+  },
+  "focus-k15": {
+    "conceptId": "focus-k15",
+    "meaning": "Can I join you?",
+    "text": "Can I join you?"
+  },
+  "focus-k16": {
+    "conceptId": "focus-k16",
+    "meaning": "I need a break",
+    "text": "I need a break"
+  },
+  "focus-k17": {
+    "conceptId": "focus-k17",
+    "meaning": "Wait for me",
+    "text": "Wait for me"
+  },
+  "focus-k18": {
+    "conceptId": "focus-k18",
+    "meaning": "Can I borrow …?",
+    "text": "Can I borrow a pen?"
+  },
+  "focus-k19": {
+    "conceptId": "focus-k19",
+    "meaning": "How do I do this?",
+    "text": "How do I do this?"
+  },
+  "focus-k20": {
+    "conceptId": "focus-k20",
+    "meaning": "I can’t find my …",
+    "text": "I can’t find my schoolbag"
+  },
+  "focus-a03": {
+    "conceptId": "focus-a03",
+    "meaning": "Card",
+    "text": "Payment card"
+  },
+  "focus-a04": {
+    "conceptId": "focus-a04",
+    "meaning": "Cash",
+    "text": "Cash"
+  },
+  "focus-a11": {
+    "conceptId": "focus-a11",
+    "meaning": "How much does this cost?",
+    "text": "How much does this cost?"
+  },
+  "focus-a12": {
+    "conceptId": "focus-a12",
+    "meaning": "Can I try it?",
+    "text": "Can I try it?"
+  },
+  "focus-a13": {
+    "conceptId": "focus-a13",
+    "meaning": "Can I pay by card?",
+    "text": "Can I pay by card?"
+  },
+  "focus-a14": {
+    "conceptId": "focus-a14",
+    "meaning": "The bill, please",
+    "text": "The bill, please"
+  },
+  "focus-a15": {
+    "conceptId": "focus-a15",
+    "meaning": "Where is the bus stop?",
+    "text": "Where is the bus stop?"
+  },
+  "focus-a16": {
+    "conceptId": "focus-a16",
+    "meaning": "One ticket to …, please",
+    "text": "One ticket to the centre, please"
+  },
+  "focus-a17": {
+    "conceptId": "focus-a17",
+    "meaning": "Does this go to …?",
+    "text": "Does this go to the centre?"
+  },
+  "focus-a18": {
+    "conceptId": "focus-a18",
+    "meaning": "What time does it leave?",
+    "text": "What time does it leave?"
+  },
+  "focus-a19": {
+    "conceptId": "focus-a19",
+    "meaning": "Where can I buy …?",
+    "text": "Where can I buy a ticket?"
+  },
+  "focus-a20": {
+    "conceptId": "focus-a20",
+    "meaning": "I work in …",
+    "text": "I work in a shop"
+  },
+  "focus-s18-lv": {
+    "conceptId": "focus-s18-lv",
+    "meaning": "I speak a little Latvian",
+    "text": "I speak a little Latvian"
+  },
+  "focus-s19-lv": {
+    "conceptId": "focus-s19-lv",
+    "meaning": "Do you speak Latvian?",
+    "text": "Do you speak Latvian?"
+  },
+  "focus-s18-ru": {
+    "conceptId": "focus-s18-ru",
+    "meaning": "I speak a little Russian",
+    "text": "I speak a little Russian"
+  },
+  "focus-s19-ru": {
+    "conceptId": "focus-s19-ru",
+    "meaning": "Do you speak Russian?",
+    "text": "Do you speak Russian?"
+  },
+  "focus-s18-en": {
+    "conceptId": "focus-s18-en",
+    "meaning": "I speak a little English",
+    "text": "I speak a little English"
+  },
+  "focus-s19-en": {
+    "conceptId": "focus-s19-en",
+    "meaning": "Do you speak English?",
+    "text": "Do you speak English?"
+  },
+  "focus-s18-ja": {
+    "conceptId": "focus-s18-ja",
+    "meaning": "I speak a little Japanese",
+    "text": "I speak a little Japanese"
+  }
+}

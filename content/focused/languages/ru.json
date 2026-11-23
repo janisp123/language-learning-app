@@ -1,0 +1,337 @@
+{
+  "focus-s02": {
+    "conceptId": "focus-s02",
+    "meaning": "Goodbye",
+    "text": "До встречи"
+  },
+  "focus-s07": {
+    "conceptId": "focus-s07",
+    "meaning": "My name is …",
+    "text": "Меня зовут Анна"
+  },
+  "focus-s08": {
+    "conceptId": "focus-s08",
+    "meaning": "What is your name?",
+    "text": "Как тебя зовут?"
+  },
+  "focus-s09": {
+    "conceptId": "focus-s09",
+    "meaning": "Where are you from?",
+    "text": "Откуда ты?"
+  },
+  "focus-s10": {
+    "conceptId": "focus-s10",
+    "meaning": "I am from …",
+    "text": "Я из Латвии"
+  },
+  "focus-s11": {
+    "conceptId": "focus-s11",
+    "meaning": "How are you?",
+    "text": "Как дела?"
+  },
+  "focus-s12": {
+    "conceptId": "focus-s12",
+    "meaning": "I am fine",
+    "text": "У меня всё хорошо"
+  },
+  "focus-s14": {
+    "conceptId": "focus-s14",
+    "meaning": "Please repeat that",
+    "text": "Повторите, пожалуйста"
+  },
+  "focus-s15": {
+    "conceptId": "focus-s15",
+    "meaning": "Please speak more slowly",
+    "text": "Говорите медленнее, пожалуйста"
+  },
+  "focus-s16": {
+    "conceptId": "focus-s16",
+    "meaning": "What does … mean?",
+    "text": "Что это значит?"
+  },
+  "focus-s17": {
+    "conceptId": "focus-s17",
+    "meaning": "I don’t know",
+    "text": "Я не знаю"
+  },
+  "focus-s20": {
+    "conceptId": "focus-s20",
+    "meaning": "Please show me",
+    "text": "Покажите мне, пожалуйста"
+  },
+  "focus-s21": {
+    "conceptId": "focus-s21",
+    "meaning": "I want …",
+    "text": "Я хочу воды"
+  },
+  "focus-s23": {
+    "conceptId": "focus-s23",
+    "meaning": "I have …",
+    "text": "У меня есть телефон"
+  },
+  "focus-s24": {
+    "conceptId": "focus-s24",
+    "meaning": "I don’t have …",
+    "text": "У меня нет телефона"
+  },
+  "focus-s25": {
+    "conceptId": "focus-s25",
+    "meaning": "I like …",
+    "text": "Я люблю яблоки"
+  },
+  "focus-s26": {
+    "conceptId": "focus-s26",
+    "meaning": "I don’t like …",
+    "text": "Я не люблю молоко"
+  },
+  "focus-s27": {
+    "conceptId": "focus-s27",
+    "meaning": "Can I …?",
+    "text": "Можно здесь сесть?"
+  },
+  "focus-s28": {
+    "conceptId": "focus-s28",
+    "meaning": "Can you help me?",
+    "text": "Можешь мне помочь?"
+  },
+  "focus-s29": {
+    "conceptId": "focus-s29",
+    "meaning": "This one",
+    "text": "Вот этот"
+  },
+  "focus-s32": {
+    "conceptId": "focus-s32",
+    "meaning": "Food",
+    "text": "Еда"
+  },
+  "focus-s37": {
+    "conceptId": "focus-s37",
+    "meaning": "I am hungry",
+    "text": "Я хочу есть"
+  },
+  "focus-s38": {
+    "conceptId": "focus-s38",
+    "meaning": "I am thirsty",
+    "text": "Я хочу пить"
+  },
+  "focus-s39": {
+    "conceptId": "focus-s39",
+    "meaning": "More, please",
+    "text": "Ещё, пожалуйста"
+  },
+  "focus-s40": {
+    "conceptId": "focus-s40",
+    "meaning": "Enough, thank you",
+    "text": "Хватит, спасибо"
+  },
+  "focus-s41": {
+    "conceptId": "focus-s41",
+    "meaning": "Where is …?",
+    "text": "Где туалет?"
+  },
+  "focus-s49": {
+    "conceptId": "focus-s49",
+    "meaning": "Let’s go",
+    "text": "Пойдём"
+  },
+  "focus-s50": {
+    "conceptId": "focus-s50",
+    "meaning": "Please wait",
+    "text": "Подождите, пожалуйста"
+  },
+  "focus-s65": {
+    "conceptId": "focus-s65",
+    "meaning": "What time is it?",
+    "text": "Который час?"
+  },
+  "focus-s66": {
+    "conceptId": "focus-s66",
+    "meaning": "What time shall we meet?",
+    "text": "Во сколько встретимся?"
+  },
+  "focus-s71": {
+    "conceptId": "focus-s71",
+    "meaning": "Help!",
+    "text": "Помогите"
+  },
+  "focus-s72": {
+    "conceptId": "focus-s72",
+    "meaning": "Stop!",
+    "text": "Прекратите"
+  },
+  "focus-s73": {
+    "conceptId": "focus-s73",
+    "meaning": "I don’t want that",
+    "text": "Я этого не хочу"
+  },
+  "focus-s74": {
+    "conceptId": "focus-s74",
+    "meaning": "I am lost",
+    "text": "Я не могу найти дорогу"
+  },
+  "focus-s75": {
+    "conceptId": "focus-s75",
+    "meaning": "I am hurt",
+    "text": "У меня травма"
+  },
+  "focus-s76": {
+    "conceptId": "focus-s76",
+    "meaning": "I feel unwell",
+    "text": "Я плохо себя чувствую"
+  },
+  "focus-k02": {
+    "conceptId": "focus-k02",
+    "meaning": "Mother",
+    "text": "Мама"
+  },
+  "focus-k03": {
+    "conceptId": "focus-k03",
+    "meaning": "Father",
+    "text": "Папа"
+  },
+  "focus-k11": {
+    "conceptId": "focus-k11",
+    "meaning": "Can I play?",
+    "text": "Можно поиграть?"
+  },
+  "focus-k12": {
+    "conceptId": "focus-k12",
+    "meaning": "Let’s play",
+    "text": "Давай поиграем"
+  },
+  "focus-k13": {
+    "conceptId": "focus-k13",
+    "meaning": "It is my turn",
+    "text": "Моя очередь"
+  },
+  "focus-k14": {
+    "conceptId": "focus-k14",
+    "meaning": "It is your turn",
+    "text": "Твоя очередь"
+  },
+  "focus-k15": {
+    "conceptId": "focus-k15",
+    "meaning": "Can I join you?",
+    "text": "Можно с вами?"
+  },
+  "focus-k16": {
+    "conceptId": "focus-k16",
+    "meaning": "I need a break",
+    "text": "Мне нужен перерыв"
+  },
+  "focus-k17": {
+    "conceptId": "focus-k17",
+    "meaning": "Wait for me",
+    "text": "Подожди меня"
+  },
+  "focus-k18": {
+    "conceptId": "focus-k18",
+    "meaning": "Can I borrow …?",
+    "text": "Можно взять ручку на время?"
+  },
+  "focus-k19": {
+    "conceptId": "focus-k19",
+    "meaning": "How do I do this?",
+    "text": "Как это сделать?"
+  },
+  "focus-k20": {
+    "conceptId": "focus-k20",
+    "meaning": "I can’t find my …",
+    "text": "Я не могу найти свой рюкзак"
+  },
+  "focus-a03": {
+    "conceptId": "focus-a03",
+    "meaning": "Card",
+    "text": "Банковская карта"
+  },
+  "focus-a04": {
+    "conceptId": "focus-a04",
+    "meaning": "Cash",
+    "text": "Наличные"
+  },
+  "focus-a11": {
+    "conceptId": "focus-a11",
+    "meaning": "How much does this cost?",
+    "text": "Сколько это стоит?"
+  },
+  "focus-a12": {
+    "conceptId": "focus-a12",
+    "meaning": "Can I try it?",
+    "text": "Можно попробовать?"
+  },
+  "focus-a13": {
+    "conceptId": "focus-a13",
+    "meaning": "Can I pay by card?",
+    "text": "Можно оплатить картой?"
+  },
+  "focus-a14": {
+    "conceptId": "focus-a14",
+    "meaning": "The bill, please",
+    "text": "Счёт, пожалуйста"
+  },
+  "focus-a15": {
+    "conceptId": "focus-a15",
+    "meaning": "Where is the bus stop?",
+    "text": "Где автобусная остановка?"
+  },
+  "focus-a16": {
+    "conceptId": "focus-a16",
+    "meaning": "One ticket to …, please",
+    "text": "Один билет до центра, пожалуйста"
+  },
+  "focus-a17": {
+    "conceptId": "focus-a17",
+    "meaning": "Does this go to …?",
+    "text": "Это едет до центра?"
+  },
+  "focus-a18": {
+    "conceptId": "focus-a18",
+    "meaning": "What time does it leave?",
+    "text": "Во сколько отправляется?"
+  },
+  "focus-a19": {
+    "conceptId": "focus-a19",
+    "meaning": "Where can I buy …?",
+    "text": "Где можно купить билет?"
+  },
+  "focus-a20": {
+    "conceptId": "focus-a20",
+    "meaning": "I work in …",
+    "text": "Я работаю в магазине"
+  },
+  "focus-s18-lv": {
+    "conceptId": "focus-s18-lv",
+    "meaning": "I speak a little Latvian",
+    "text": "Я немного говорю по-латышски"
+  },
+  "focus-s19-lv": {
+    "conceptId": "focus-s19-lv",
+    "meaning": "Do you speak Latvian?",
+    "text": "Вы говорите по-латышски?"
+  },
+  "focus-s18-ru": {
+    "conceptId": "focus-s18-ru",
+    "meaning": "I speak a little Russian",
+    "text": "Я немного говорю по-русски"
+  },
+  "focus-s19-ru": {
+    "conceptId": "focus-s19-ru",
+    "meaning": "Do you speak Russian?",
+    "text": "Вы говорите по-русски?"
+  },
+  "focus-s18-en": {
+    "conceptId": "focus-s18-en",
+    "meaning": "I speak a little English",
+    "text": "Я немного говорю по-английски"
+  },
+  "focus-s19-en": {
+    "conceptId": "focus-s19-en",
+    "meaning": "Do you speak English?",
+    "text": "Вы говорите по-английски?"
+  },
+  "focus-s18-ja": {
+    "conceptId": "focus-s18-ja",
+    "meaning": "I speak a little Japanese",
+    "text": "Я немного говорю по-японски"
+  }
+}

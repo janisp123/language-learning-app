@@ -37,5 +37,5 @@ class UsageCorrectionTests(unittest.TestCase):
    actual={k:v for k,v in actual.items() if (language,k)!=('ja','vocab-0001')}
    self.assertEqual(digest(actual),expected,language)
   for language,expected in baseline['audioSha256'].items():
-   actual={p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted((ROOT/f'audio/{language}').glob('*.mp3')) if (language,p.stem)!=('ja','vocab-0001')}
+   actual={p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted((ROOT/f'audio/{language}').glob('vocab-*.mp3')) if (language,p.stem)!=('ja','vocab-0001')}
    self.assertEqual(digest(actual),expected,language)

@@ -18,6 +18,9 @@
       renderTheme();
     });
     renderTheme();
+    const focusedNode = $('focused-data');
+    const focusedData = focusedNode?.textContent ? JSON.parse(focusedNode.textContent) : null;
+    let legacyCourse = null;
     let course = null;
     let state = null;
     let shown = null;
@@ -37,6 +40,7 @@
       $('learning-theme-toggle').setAttribute('aria-label', t('theme'));
       $('learning-theme-toggle').title = t('theme');
       for (const [id, value] of Object.entries(messages.static)) $(id).textContent = value;
+      if ($('original-choice')) $('original-choice').textContent = messages.static['original-label'];
       for (const option of $('direction').options) {
         const [from, to] = option.value.split('-');
         option.textContent = `${messages.names[from].label} → ${messages.names[to].label}`;
@@ -44,19 +48,33 @@
       $('choices').setAttribute('aria-label', t('choices'));
       $('lesson-list').replaceChildren();
       if (course) for (const lesson of course.lessons) {
-        const item = document.createElement('li'); item.textContent = messages.lessons[lesson.id]; $('lesson-list').append(item);
+        const item = document.createElement('li'); item.textContent = messages.focusedLessons?.[lesson.id] || messages.lessons[lesson.id]; $('lesson-list').append(item);
       }
     }
     localize();
     $('direction').addEventListener('change', () => {
-      setup(); localize();
+      setup(); selectCourse(); localize();
       if (loadFailed) $('error').textContent = t('error');
     });
-    course = E.validateCourse(JSON.parse($('course-data').textContent));
+    legacyCourse = E.validateCourse(JSON.parse($('course-data').textContent));
+    course = legacyCourse;
     for (const locale of new Set(course.directions.map(direction => direction.split('-')[0]))) for (const lesson of course.lessons) {
       if (!locales[locale].lessons[lesson.id]) throw new Error('Missing lesson translation.');
     }
+    if (focusedData) {
+      $('learner-audience').value = 'kids';
+      for (const id of ['learner-audience','original-course']) $(id).addEventListener('change',()=>{setup();selectCourse();localize();});
+      selectCourse();
+    } else if ($('focused-controls')) $('focused-controls').hidden = true;
     localize();
+
+    function selectCourse() {
+      if (!legacyCourse) return;
+      course = focusedData && !$('original-course').checked
+        ? E.validateCourse(globalThis.LanguageCourseSelection.select(legacyCourse,focusedData,$('learner-audience').value,$('direction').value))
+        : legacyCourse;
+      if ($('learner-audience')) $('learner-audience').disabled = !!$('original-course')?.checked;
+    }
 
     function cancelAdvance() {
       audio?.reset();
@@ -74,7 +92,7 @@
     }
     function begin() {
       cancelAdvance();
-      localize();
+      selectCourse(); localize();
       state = E.start(course, $('direction').value);
       pending = null; screen('practice'); render();
     }
@@ -82,7 +100,7 @@
       const lesson = course.lessons[state.lessonIndex];
       shown = E.question(course, state);
       $('lesson-label').textContent = t('lesson', {n:state.lessonIndex + 1, total:course.lessons.length});
-      $('lesson-title').textContent = messages.lessons[lesson.id];
+      $('lesson-title').textContent = (messages.focusedLessons?.[lesson.id] || messages.lessons[lesson.id]);
       $('direction-label').textContent = `${messages.names[shown.source].label} → ${messages.names[shown.target].label}`;
       $('instruction').textContent = t('instruction', {language:messages.names[shown.target].target});
       $('question').textContent = shown.text; $('question').lang = shown.source;
@@ -125,7 +143,7 @@
         const translation = document.createElement('span'); translation.lang = shown.target; translation.textContent = pending.feedback.correctText;
         feedback.append(translation, document.createTextNode(t(pending.restarted ? 'reset' : 'back')));
       } else if (pending.completed) feedback.textContent = t('completed');
-      else if (pending.lessonChanged) feedback.textContent = t('nextLesson', {title:messages.lessons[course.lessons[pending.state.lessonIndex].id]});
+      else if (pending.lessonChanged) feedback.textContent = t('nextLesson', {title:(messages.focusedLessons?.[course.lessons[pending.state.lessonIndex].id] || messages.lessons[course.lessons[pending.state.lessonIndex].id])});
       else feedback.textContent = t('correct');
       const ticket = ++generation;
       advanceTimer = setTimeout(() => {
