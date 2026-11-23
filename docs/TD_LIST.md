@@ -128,4 +128,3 @@ That project's existing TD is currently `docs/TD_LIST.md` in **another repositor
 ## Latest execution authorization — 2026-11-23
 
 Owner explicitly requested implementation and merging/publishing verified changes on the live website, plus matching website descriptions, rather than a separate preview. Proceed within L-012 without asking again for ordinary coding/deployment steps. PR #27 merged at0e81ad6; verify its deployment. PR #28 plan/metadata integration is being reconciled against it, preserving Current task L-012. Kids/Adults is not implemented yet; do not describe it as live until tested and deployed.
-
