@@ -1,7 +1,7 @@
 # TD list — active approved tasks for the language-learning app
 
 **Repository:** `janisp123/language-learning-app` • **Branch of record:** `main` • **Canonical path:** `docs/TD_LIST.md`  
-**Current handoff (2026-11-23):** **L-012 — focused Kids/Adults courses** implemented locally0.5.0; full browser verification passed and checked live publication is authorized/in progress.100 items each (80 shared+20 specific), original510 separately preserved. PR #27 corrections and #28 design are merged. Do not repeat planning/ask publication approval again; verify feature PR/CI/Pages/hosted bytes and finish delivery. Reading-guide PR #21 remains separate/unmerged.
+**Current handoff (2026-11-23):** **L-012 focused Kids/Adults courses DELIVERED/LIVE0.5.0**, merged PR #29 and verified Pages/hosted bytes. [Receipt](delivery/2026-11-23-focused-live.json) · [Completed task history](history/L-012-completed-2026-11-23.md). **Current task:L-010 — reconcile reading aids with current main/focused courses.** Existing PR #21 remains unmerged; guides are not yet live. Standing owner authorization covers efficient checked implementation/merge/live publication; do not repeat planning or ask the same approval again.
 
 **Historical browser baseline (verified 2026-11-17):** Browser review build 0.4.11 is integrated through PR #18 and publicly deployed. Main CI 44168243818 and Pages 44168243948 succeeded; hosted HTML equals the committed download. Android, fluent human review, physical-device/full-accessibility checks and final release remain unfinished. No license has been selected. [Current checkpoint](WORK_CHECKPOINT.md) records the latest evidence. Task presence alone never authorizes work or publication.
 
@@ -94,6 +94,7 @@ For each task: fetch current remote `main:docs/TD_LIST.md` first; then check `AG
 - **Verification:** 41 Node / 28 Python tests pass, including explicit allowlists, forbidden/forged session directions, full seven-direction completion, source-only UI/audio and target-first catalog order. Chromium traversed all 510 en-ja prompts at 320 px with English audio bindings, autoplay/cancellation, unchanged 499/500 ms timing, empty storage/cookies and reload reset. All 1,530 old clip hashes and all 510 old translations in each language unchanged. Independent code/content review issues resolved. Fluent human Japanese review, physical devices and full screen-reader audit remain pending.
 
 ### L-010 — Source-language reading guides in three directions
+- **Current next action (2026-11-23):** Reconcile held #21 against live0.5.0, preserve focused100-item courses/original510/zero saves, apply greeting patch and new focused phrase/variant guide coverage. Read current checkpoint; do not blindly merge obsolete branch protocol/content. Verify then publish under standing owner authorization. Existing notes below are historical feature evidence, not current deployment claims.
 - **Added by:** Codex (explicit owner request, 2026-11-17)
 - **Implemented by:** Codex (local implementation; integration/review delivery tracked in the feature PR)
 - **Status:** Implemented/verified/pushed on PR #21, source162e2ac, source CI44182744942 passed. Review build0.4.12 delivered in stable Drive with exact downloaded byte equality ([pinned Drive delivery receipt](https://github.com/janisp123/language-learning-app/blob/72e6ab4c106c6ee7c48703af025919c81d5c3b55/docs/delivery/2026-11-17-reading-guides-drive-sync.json)). Integration/publication and human pronunciation review remain pending; preserve this task until verified integration.
@@ -101,7 +102,7 @@ For each task: fetch current remote `main:docs/TD_LIST.md` first; then check `AG
 - **Acceptance:** Full coverage/binding validation, exact original translations/recordings preserved, no grading from speakers, 500ms transition and zero-saves unchanged; small/mobile/dark/keyboard checks. See [reading-guide modules in PR #21](https://github.com/janisp123/language-learning-app/blob/72e6ab4c106c6ee7c48703af025919c81d5c3b55/docs/READING_GUIDES.md), feature PR and current checkpoint for actual local/source/Drive/public status. Fluent human review and actual physical devices remain separate checks.
 
 ### L-011 — Audit common, natural beginner words and expressions across all languages
-- **Resume priority:** Audit follow-up remains in review; selected design task is now L-012. L-001 is the older architecture backlog item, not this audit.
+- **Resume priority:** Audit follow-up remains in review; current follow-up is L-010; focused courses L-012 are delivered. L-001 is the older architecture backlog item, not this audit.
 - **Status:** PARTIAL — audit/reference library integrated by PR #26 at e72e032. First approved correction slice implemented/verified/pushed in PR #27 (head6640e58, merged0e81ad6), separate review0.4.13 delivered/downloaded byte-identical; Pages publication in progress. Remaining audit proposals and fluent-human review pending. L-012 drafting proceeds separately without importing those corrections.
 - **Added by:** Codex (explicit owner request, 2026-11-18)
 - **Implemented by:** codex (editorial audit/library merged; first correction slice integrated by PR #27; remaining decisions/human review pending)
@@ -115,19 +116,10 @@ For each task: fetch current remote `main:docs/TD_LIST.md` first; then check `AG
 - **Existing evidence:** [Japanese usage audit and handoff](review/2026-11-18-japanese-usage-audit.md) on PR #21; its findings are model/editorial review, not full language certification. PR #21 remains on hold for language-quality concerns.
 - **Boundaries:** Recording this task authorizes no immediate translation, prompt, ID, answer-binding, reading-guide, audio, scoring or publication change. After the audit, present proposed corrections for owner review. Any later authorized correction must synchronize affected text, reading guides and recordings, preserve other meanings/directions and ZERO saved learner state, and follow checked PR/source-before-Drive/readback rules.
 
-### L-012 — Focused Kids / Adults starter courses across existing directions
-- **Added by:** codex (explicit owner request, 2026-11-23)
-- **Implemented by:** codex (application/source locally verified; live readback pending)
-- **Status:** IMPLEMENTED / PUBLICATION_IN_PROGRESS —0.5.0 on feat/focused-courses.41Python and real Chromium14×100, audio/layout/session/zero-saves checks pass; independent review resolved. Final Node/CI/merge/deployment evidence tracked in checkpoint/feature PR. Owner explicitly authorized efficient checked merging/live publication and website descriptions; no repeated approval required.
-
-- **Goal:** Basic mutual communication through a compact shared core and repeated useful patterns. Kids emphasizes familiar people/school/play; Adults emphasizes everyday meetings/transactions/travel. Common understandable wording takes priority over breadth and stylistic refinement; politeness matters where it affects meaning or suitability.
-- **Boundaries:** Exactly existing seven directions, including en-ja only; preserve510 current entries outside focused starters. Shared canonical content, no copied dictionaries. ZERO saves including audience/direction preferences, no account/age input/tracking. Preserve current scoring and500ms/audio behavior. No code/content/audio/Drive/website change in this drafting slice.
-- **Next step:** Verify feature source CI, merge and publish under existing owner authorization, confirm hosted bytes/selectors. Then reconcile reading-guide PR #21 as a separate slice. Legacy validators remain scoped to the original bank; new course policy is explicit.
-- **Acceptance for current slice:** Reviewable100-item Kids and100-item Adults lists, exact source/reference versus new-draft labels, situations/communication goals, counts checked, durable checkpoint and checked documentation PR. Design approval recorded; implementation follows explicit plan/execution authorization. No automatic merge/publication.
 
 ## Out of scope for v1 (not backlog tasks)
 
-Languages/directions beyond the approved Latvian/Russian/English set and English → Japanese, additional age-specific paths beyond the owner-requested Kids/Adults draft (L-012), user accounts, cloud sync, servers, leaderboards, monetization, AI tutors, advanced pronunciation scoring, Apple App Store. These need an explicit new owner decision, not automatic addition.
+Languages/directions beyond the approved Latvian/Russian/English set and English → Japanese, additional age-specific paths beyond the delivered Kids/Adults courses, user accounts, cloud sync, servers, leaderboards, monetization, AI tutors, advanced pronunciation scoring, Apple App Store. These need an explicit new owner decision, not automatic addition.
 
 ## Coordination with the questionnaire project
 
@@ -136,7 +128,3 @@ That project's existing TD is currently `docs/TD_LIST.md` in **another repositor
 ## Latest execution authorization — 2026-11-23
 
 Owner explicitly requested implementation and merging/publishing verified changes on the live website, plus matching website descriptions, rather than a separate preview. Proceed within L-012 without asking again for ordinary coding/deployment steps. PR #27 merged at0e81ad6; verify its deployment. PR #28 plan/metadata integration is being reconciled against it, preserving Current task L-012. Kids/Adults is not implemented yet; do not describe it as live until tested and deployed.
-
-## Latest authorized live work — L-012 (2026-11-23)
-
-Owner explicitly requested implementation, checked merges and live-website publication efficiently so they can test while work remains. Kids/Adults100-item courses, original510 access, source-language UI/audio and matching website descriptions are implemented locally on feat/focused-courses; verify final checks and hosted readback before marking delivered. PR #27 merged0e81ad6 and deployed0.4.13; PR #28 merged3bc78a9. Reading guides PR #21 remain separate/unmerged. Current task remains L-012; no repeated approval request is required for this authorized slice.
