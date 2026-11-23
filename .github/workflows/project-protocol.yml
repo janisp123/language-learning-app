@@ -8,6 +8,8 @@ on:
     paths:
       - 'AGENTS.md'
       - 'docs/TD_LIST.md'
+      - 'docs/WORK_CHECKPOINT.md'
+      - 'tests/test_project_protocol.py'
       - 'docs/DECISIONS.md'
       - 'docs/AGENT_PROTOCOL.md'
       - 'docs/NEW_PROJECT_SETUP.md'

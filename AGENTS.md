@@ -39,6 +39,10 @@ Scope: **this repository only** (`janisp123/language-learning-app`). Do not edit
 - Task IDs are stable. On completion, archive the result to the changelog and remove it from the active TD only after verified integration.
 - A suggestion goes in a short **Discussion / not approved** section if recorded at all; it must not be mistaken for implementation authorization.
 
+## Resume pointer and pending-task reconciliation
+
+Read the checkpoint's standalone `Current task: L-NNN` line and match it to `docs/TD_LIST.md`; do not select the first numeric backlog entry as the current assignment. Report the task's title/scope, last authorization, completed versus pending work and exact next step. Check pending PRs for newer instructions, but never treat unmerged product code as adopted. If task metadata is stranded in a held feature PR or a retired path, restore it through a separate checked main-based coordination change without merging the feature. Preserve attribution/history and current owner command semantics. Run the protocol checker: it rejects missing/orphan current-task pointers. It cannot enforce comprehension, so do not promise that confusion is impossible.
+
 ## 4. Safe implementation workflow
 
 - Inspect latest `main`; identify the exact starting commit. Do not work from stale or historical branches.

@@ -49,6 +49,15 @@ Keep stable task IDs and record status (TODO / IN_PROGRESS / PARTIAL / BLOCKED /
 
 Never put private transcripts, health answers, credentials or sensitive personal data into a public repository. Preserve the project's existing safeguards.
 
+## Resume invariants — current task and pending product work
+
+- The checkpoint must contain exactly one standalone `Current task: L-NNN` line. Its ID must have a matching task header in `docs/TD_LIST.md`; the protocol checker rejects a missing pointer or an orphan task. A task recorded only inside a held feature PR is not a durable main handoff.
+- When a future-work item must survive a paused/held product branch, integrate the task metadata through a separate checked, main-based coordination PR. Preserve its ID, attribution, audit-only authorization and feature-hold status. Do not merge product changes merely to save instructions.
+- After any canonical-path rename, reconcile pending handoffs and active IDs into the canonical list; retain historical copies/evidence instead of silently discarding newer pending tasks. Recheck affected open PRs before later integration.
+- At resume, report the checkpoint task's title, phase, last explicit authorization, completed evidence, pending PRs and next step. The oldest/lowest task number is not automatically the current assignment. Use saved context to resolve intent; ask only when a material scope/authorization conflict remains.
+- Keep record / audit / implement / merge / publish distinct. A task list is not an execution trigger, and a technical PASS is not fluent-language validation.
+- The checker catches structural handoff omissions only; it cannot guarantee that an agent reads or understands the task. Existing owner command semantics and approval requirements remain in force.
+
 ## Enforcement and new projects
 
 `python tools/check_project_protocol.py` and GitHub Actions check the required structure and canonical TD location. They **cannot prove** that an agent read or understood the instructions. PRs use the preflight checklist. For future projects, create and use the dedicated GitHub template described in `docs/NEW_PROJECT_SETUP.md`; blank repositories do not inherit these files.

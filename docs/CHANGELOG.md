@@ -1,3 +1,7 @@
+## 2026-11-23 — Reconcile common-usage handoff after task-path migration (codex)
+
+Restored pending L-010/L-011 task metadata from PR #21 into the canonical docs/TD_LIST.md while preserving attribution, feature-hold and audit-only scope. Replaced the stale main checkpoint with an explicit L-011 current-task pointer, last authorization and exact next step; archived its prior text verbatim. Preserved the Japanese-only review as evidence, not a claim that the broader audit is complete. Updated agent/shared protocol instructions to reconcile held-branch handoffs separately and avoid selecting L-001 architecture from a common-usage request. Extended the existing protocol checker and regression tests so a missing current-task pointer or an ID absent from the canonical list fails. No app, vocabulary, audio, generated HTML, Drive or publication changes. Runtime/review checks and integration evidence belong to this coordination PR; no held feature or audit execution is authorized by this entry.
+
 ## 2026-11-18 — Owner command convention for cross-agent resumes (chat; documentation only)
 
 Defined read-only **continue** (inspect, plan and ask), bounded **continue and implement**, and read-only **check status** across chat/cw/codex. Recorded PRO-004. No task content, product code, assets or releases changed. Verification and integration are tracked in the PR; no automatic agent resumption is claimed.
