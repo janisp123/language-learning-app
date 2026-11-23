@@ -26,4 +26,4 @@ Files: web/app.js; tests/ui.test.cjs; tests/learning-theme.test.cjs; new real-br
 - [x] Change target binding/play counts and assert499ms still locked,500ms new source prompt; watch fail on baseline.
 - [x] Invoke the correct row’s speaker before disabling it, using the existing validated handler.
 - [x] Verify real browser click/keyboard and media events, blocked playback, reset,21 course/direction starts; full suites and build parity.
-- [ ] Review, commit/push checked PR, merge/publish under standing authorization, verify hosted bytes and archive completed L-015 with receipt.
+- [x] Review, commit/push checked PR, merge/publish under standing authorization, verify hosted bytes and archive completed L-015 with receipt.

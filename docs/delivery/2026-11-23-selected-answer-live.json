@@ -1,0 +1,51 @@
+{
+  "mergeCommit": "6179fb19d7eb2646adb84113c27039cf245f7b78",
+  "mainCI": 45264057705,
+  "pagesRun": 45264057689,
+  "verifiedDate": "2026-11-23",
+  "buildVersion": "0.5.3",
+  "task": "L-015",
+  "sourceCommit": "3caf3a750a31ffc50f47713fb72fe19746542d0d",
+  "pullRequest": 35,
+  "sourceCI": 45263876957,
+  "bytes": 26169966,
+  "sha256": "9b51fb3d9241f90198ac650af274f3635b1d169aedb48c22fbd50605bfcc7485",
+  "url": "https://janisp123.github.io/language-learning-app/learn/?v=0.5.3",
+  "pagesConclusion": "success",
+  "hostedByteEquality": {
+    "app": true,
+    "landing": true,
+    "offline": true,
+    "method": "verified HTTPS downloads compared byte-for-byte with tested source"
+  },
+  "behavior": "Correct selection invokes existing target-speaker action before answer locks. No added listening gate; correct navigation stays500ms and prompt change stops old sound. Wrong submissions retain existing three question/correct-answer pairs.",
+  "tests": {
+    "nodeLocal": 56,
+    "pythonLocal": 41,
+    "realBrowserCourseDirectionCases": 21,
+    "independentReview": "approved; independent browser test also passed"
+  },
+  "browserReceipt": "../review/2026-11-23-selected-answer-browser.json",
+  "status": {
+    "implemented": true,
+    "pushed": true,
+    "merged": true,
+    "publiclyDeployed": true,
+    "driveUpdated": false
+  },
+  "limitations": [
+    "Long recordings can be interrupted by the existing500ms transition; Owner explicitly rejected a full-recording wait.",
+    "Physical phone/full screen reader not run.",
+    "Direct hosted Chromium not run due known environment trust limitation; verified HTTPS bytes match real locally tested app."
+  ],
+  "unchanged": [
+    "engine/scoring/counters",
+    "all vocabulary/IDs/bindings/2308 recording bytes",
+    "seven directions",
+    "Kids100/Adults100/Full510",
+    "dark default",
+    "three-pair mistake correction",
+    "zero saved learner state/preferences"
+  ],
+  "remaining": "L-010 reading guides pending; heldPR21 not merged."
+}

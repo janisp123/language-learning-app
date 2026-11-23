@@ -2,7 +2,7 @@
 
 ## 0.5.3 — correct answer selection pronunciation (codex,2026-11-23)
 
-L-015: correct submissions immediately reuse the ordinary target-language speaker action, with no extra waiting step. Correct navigation remains500ms and cancels old sound on prompt change; wrong-answer three-pair correction remains unchanged. Speaker-only playback never grades. No content/recordings/engine/directions/saved-state changes. Verification and publication status: see current checkpoint.
+L-015: correct submissions immediately reuse the ordinary target-language speaker action, with no extra waiting step. Correct navigation remains500ms and cancels old sound on prompt change; wrong-answer three-pair correction remains unchanged. Speaker-only playback never grades. No content/recordings/engine/directions/saved-state changes. Verified56Node/41Python and21 browser combinations; PR #35 merged and publicly deployed. [Live receipt](delivery/2026-11-23-selected-answer-live.json).
 
 
 ## 0.5.2 — simple setup and dark default (codex, 2026-11-23)

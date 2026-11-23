@@ -12,5 +12,6 @@
   "fullScreenReader": false,
   "timing": "499ms locked,500ms advance; no added wait; prompt change cancels long playback",
   "independentReview": "approved; no blockers; independent21-combination Chromium pass",
-  "published": false
+  "published": true,
+  "liveReceipt": "../delivery/2026-11-23-selected-answer-live.json"
 }

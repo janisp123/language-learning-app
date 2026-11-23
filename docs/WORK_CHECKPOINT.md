@@ -1,10 +1,14 @@
 # Current working checkpoint
 
-Current task: L-015
+Current task: L-010
 
-## Current authorized slice — L-015
+## Latest verified delivery — L-015
 
-Owner rejected waiting for a full recording and approved ordinary speaker-style playback on answer selection, with no extra waiting step. Implementing correct-selection playback through the existing answer-speaker handler. Mistakes retain established correction audio. Correct answers stay500ms, so a longer clip is stopped when the next prompt appears, just like manual replay interrupted by navigation. No full-recording guarantee is claimed. Baseline main47ba9d4, isolated feat/selected-answer-audio in /workspace/work/selected-answer-audio. 56Node/41Python and real Chromium21 combinations/blocked playback/duplicates passed; independent review approved. Build/download/site parity and protocol passed. PR/merge/publication pending;0.5.3 is not claimed live yet. Next after this slice remains L-010.
+**LIVE0.5.3:** selecting a correct answer invokes its ordinary target-language speaker action, then advances at500ms with no extra wait. Next prompt stops old sound; longer recordings can be interrupted, as explicitly chosen instead of a full-recording gate. Wrong submissions retain three current-question/correct-answer pairs; speaker-only taps never grade. Engine/content/2308 recordings/seven directions/dark default/ZERO saves preserved.
+
+Source3caf3a7, [PR #35](https://github.com/janisp123/language-learning-app/pull/35) merged6179fb19d7eb2646adb84113c27039cf245f7b78. Source CI45263876957/main CI45264057705 and Pages45264057689 succeeded. Actual app/landing/offline downloaded through verified HTTPS and exactly equal tested source. App26,169,966 bytes, SHA2569b51fb3d9241f90198ac650af274f3635b1d169aedb48c22fbd50605bfcc7485. [Open app](https://janisp123.github.io/language-learning-app/learn/?v=0.5.3) · [Receipt](delivery/2026-11-23-selected-answer-live.json).
+
+56Node/41Python; every original prompt across all seven directions,499/500ms and cancellation/correction tests,21 real-browser course/direction combinations, duplicate and blocked playback passed. Independent review approved and independently ran21 browser combinations. Physical phone/full screen reader not run; known direct hosted Chromium trust limitation remains, verified HTTPS bytes match locally tested real browser. Drive unchanged; website offline file updated. Completed L-015 history archived.
 
 ## Latest verified delivery — L-014
 
@@ -30,6 +34,6 @@ Kids/Adults100 each (80 shared+20 specific), source UI and separate original510 
 
 Reading-guide PR #21 remains OPEN/UNMERGED; the live app still has no source-letter/per-symbol reading aids. Reconcile its loader/view/data against latest main without overwriting focused courses, correction audio, task/protocol, current translations/recordings or zero saves. Applyこんにちは ko/n/ni/chi/wa patch (finalは contextualwa), add complete guide coverage for focused expressions/language-name variants, preserve reading directions lv-ru / ru-en / en-ja only. Other four directions stay unannotated.
 
-Use existing reading modules, test exact text/ID/audio/guide bindings, all-course switching, new correction playback compatibility, mobile/dark/keyboard, scoring/500ms and zero saves. Publish a verified checked slice under standing owner authorization; do not blindly merge old #21. Save/read back actual hosted bytes and a live receipt. Keep existing held Drive reviews until an appropriate replacement; website offline file is current0.5.2.
+Use existing reading modules, test exact text/ID/audio/guide bindings, all-course switching, new correction playback compatibility, mobile/dark/keyboard, scoring/500ms and zero saves. Publish a verified checked slice under standing owner authorization; do not blindly merge old #21. Save/read back actual hosted bytes and a live receipt. Keep existing held Drive reviews until an appropriate replacement; website offline file is current0.5.3.
 
-Other L-011 context/commonness proposals and fluent-human/device review remain pending. Technical tests do not establish every phrase optimal or conversational fluency. Canonical active tasks:docs/TD_LIST.md; completed L-013 history preserved in docs/history/L-013-completed-2026-11-23.md. Current delivery receipt branch docs/simple-course-live is in /workspace/work/simple-course-dark-default, based on main964fc25; inspect latest actual main/PRs on resume.
+Other L-011 context/commonness proposals and fluent-human/device review remain pending. Technical tests do not establish every phrase optimal or conversational fluency. Canonical active tasks:docs/TD_LIST.md; completed L-013 history preserved in docs/history/L-013-completed-2026-11-23.md. Current delivery receipt branch docs/selected-answer-live is in /workspace/work/selected-answer-audio, based on the L-015 merged main; inspect latest actual main/PRs on resume.
