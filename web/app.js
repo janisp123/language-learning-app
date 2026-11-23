@@ -40,7 +40,6 @@
       $('learning-theme-toggle').setAttribute('aria-label', t('theme'));
       $('learning-theme-toggle').title = t('theme');
       for (const [id, value] of Object.entries(messages.static)) $(id).textContent = value;
-      if ($('original-choice')) $('original-choice').textContent = messages.static['original-label'];
       for (const option of $('direction').options) {
         const [from, to] = option.value.split('-');
         option.textContent = `${messages.names[from].label} → ${messages.names[to].label}`;
@@ -62,18 +61,17 @@
       if (!locales[locale].lessons[lesson.id]) throw new Error('Missing lesson translation.');
     }
     if (focusedData) {
-      $('learner-audience').value = 'kids';
-      for (const id of ['learner-audience','original-course']) $(id).addEventListener('change',()=>{setup();selectCourse();localize();});
+      $('course-selection').value = 'kids';
+      $('course-selection').addEventListener('change',()=>{setup();selectCourse();localize();});
       selectCourse();
     } else if ($('focused-controls')) $('focused-controls').hidden = true;
     localize();
 
     function selectCourse() {
       if (!legacyCourse) return;
-      course = focusedData && !$('original-course').checked
-        ? E.validateCourse(globalThis.LanguageCourseSelection.select(legacyCourse,focusedData,$('learner-audience').value,$('direction').value))
+      course = focusedData && $('course-selection').value !== 'full'
+        ? E.validateCourse(globalThis.LanguageCourseSelection.select(legacyCourse,focusedData,$('course-selection').value,$('direction').value))
         : legacyCourse;
-      if ($('learner-audience')) $('learner-audience').disabled = !!$('original-course')?.checked;
     }
 
     function cancelAdvance() {

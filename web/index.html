@@ -1,13 +1,13 @@
 <!doctype html>
-<html lang="<!--DEFAULT-LANGUAGE-->" data-theme="light">
+<html lang="<!--DEFAULT-LANGUAGE-->" data-theme="dark">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta id="theme-color" name="theme-color" content="#183f36">
+  <meta id="theme-color" name="theme-color" content="#14261f">
   <script>
   (function () {
-    const handoff = globalThis.location?.hash === '#theme=dark';
-    document.documentElement.dataset.theme = handoff ? 'dark' : 'light';
+    const handoff = /^#theme=(dark|light)$/.exec(globalThis.location?.hash || '');
+    document.documentElement.dataset.theme = handoff ? handoff[1] : 'dark';
     if (handoff) globalThis.history.replaceState(null, '', globalThis.location.pathname + globalThis.location.search);
   })();
   </script>
@@ -16,7 +16,7 @@
 </head>
 <body>
   <a id="skip" class="skip" href="#main"><!--TEXT:skip--></a>
-  <header class="header"><span class="brand"><span aria-hidden="true">↔</span> <span id="brand-name"><!--TEXT:brand-name--></span></span><div class="header-tools"><span id="badge" class="badge"><!--TEXT:badge--></span><button id="learning-theme-toggle" class="learning-theme-toggle" type="button" aria-pressed="false">☾</button></div></header>
+  <header class="header"><span class="brand"><span aria-hidden="true">↔</span> <span id="brand-name"><!--TEXT:brand-name--></span></span><div class="header-tools"><span id="badge" class="badge"><!--TEXT:badge--></span><button id="learning-theme-toggle" class="learning-theme-toggle" type="button" aria-pressed="true">☀</button></div></header>
   <main id="main" tabindex="-1">
     <p id="draft" class="draft"><!--TEXT:draft--></p>
     <p id="error" class="error" role="alert" hidden></p>
@@ -24,13 +24,12 @@
       <p id="audience" class="eyebrow"><!--TEXT:audience--></p>
       <h1 id="welcome"><!--TEXT:welcome--></h1>
       <p id="intro" class="lead"><!--TEXT:intro--></p>
-      <div id="focused-controls">
-        <label id="learner-caption" for="learner-audience"><!--TEXT:learner-caption--></label>
-        <select id="learner-audience"><option id="learner-kids" value="kids" selected><!--TEXT:learner-kids--></option><option id="learner-adults" value="adults"><!--TEXT:learner-adults--></option></select>
-        <details class="course-outline"><summary id="original-label"><!--TEXT:original-label--></summary><label><input id="original-course" type="checkbox"> <span id="original-choice"><!--TEXT:original-label--></span></label></details>
-      </div>
       <label id="direction-caption" for="direction"><!--TEXT:direction-caption--></label>
       <select id="direction"><!--DIRECTIONS--></select>
+      <div id="focused-controls">
+        <label id="course-caption" for="course-selection"><!--TEXT:course-caption--></label>
+        <select id="course-selection"><option id="course-kids" value="kids" selected><!--TEXT:course-kids--></option><option id="course-adults" value="adults"><!--TEXT:course-adults--></option><option id="course-full" value="full"><!--TEXT:course-full--></option></select>
+      </div>
       <button class="primary start" id="start" type="button"><!--TEXT:start--></button>
       <div class="rules"><h2 id="rules-title"><!--TEXT:rules-title--></h2><ul><li id="rule-options"><!--TEXT:rule-options--></li><li id="rule-complete"><!--TEXT:rule-complete--></li><li id="rule-mistakes"><!--TEXT:rule-mistakes--></li><li id="rule-reset"><!--TEXT:rule-reset--></li></ul></div>
       <details class="course-outline"><summary id="outline-summary"><!--TEXT:outline-summary--></summary><ol id="lesson-list"></ol><p id="outline-note" class="small"><!--TEXT:outline-note--></p></details>
