@@ -1,0 +1,5168 @@
+{
+  "baselineCommit": "066ce2be6c0e2664604d864e7a051a40a70d75cb",
+  "status": "model-editorial-human-review-pending",
+  "contentSha256": {
+    "content/audio/manifest.json": "c3b12ca8e19d6b70970335c4a1e819361d428257f84b3be3a66532b70af69d6e",
+    "content/audio/ui.json": "9420c9575ec1a50086d09b89327a4dae171c7f3344a3ca3519528ec7bd38137c",
+    "content/blocks/basic-01.json": "aa7c918ae10b772444a0990f7c69079f9414e90dab842df178540c8cba4b5e6c",
+    "content/blocks/basic-02.json": "70e41500c1592075201be0402420d9ea4e27295c22d9e32a3a9077c2555e1266",
+    "content/blocks/basic-03.json": "8f89a69ead7488a8f9836a2eae6baab0bb0da97fab7b18a1a9393ef55982fafe",
+    "content/blocks/basic-04.json": "1c550c0210fef9282c3d40eb39e8e840dfda1e3a6b71810d08d3d11a1cb9f5c5",
+    "content/blocks/basic-05.json": "5d629e070797b4206117b6d34d916f4656cae27996c12541917e0b9a8c5119fd",
+    "content/blocks/basic-06.json": "e8de989aade8d09da264cc7e13fb153ce167d2242167a681e26d3d86cf8ff95a",
+    "content/blocks/basic-07.json": "b7da1f34e9c281cc35ca0cc4abdf662081847dcceb4e8e9946bb5f4bc43c7f25",
+    "content/blocks/basic-08.json": "008bb17018d88c9d1bcbc2a924d9a4f99477569364f17cd71d6952d6af678ac3",
+    "content/blocks/basic-09.json": "ec7ef40125fa9cce04dc066455b3dc9f54e47673ebf0094e6d10af806df928d0",
+    "content/blocks/basic-10.json": "24d81b8d8a944c6d92218dba2901f100769cc136444181c86fde7bdcac185e95",
+    "content/blocks/basic-11.json": "b8cbe73b09d3bcb8183f7a71f7c4a6041793ac6d8dd3c68a54883eea5ab2d695",
+    "content/blocks/basic-12.json": "22ba8e699bd8de3b79ee00dff47261419d1d9fe95d7a3cda1d3e09dc1928aae6",
+    "content/blocks/basic-13.json": "9673bc7f43ebd774ce491f32baeea1385da89babaca9db6057a0858841b82652",
+    "content/blocks/basic-14.json": "5d1333957e899288ada923d2bafa7ff72c450c444a3b8154ee81db1b132bea8b",
+    "content/blocks/basic-15.json": "cdc917cc16b67df23d12506eea7dde118da24dc1db3d5fbdf40458849c40b07a",
+    "content/blocks/basic-16.json": "97a291e8a92dc6643433cc140a23f3d349236977c28e6aa8fe2805acad171361",
+    "content/blocks/basic-17.json": "3ecd8e43df6de6b3ea5935ac53070dbb9fd9b4c8ffb406665234df77954a9f43",
+    "content/blocks/basic-18.json": "9ae03320198b8b0eb2f255a79f881c40f518933ac413c4bf371abc8e01195222",
+    "content/blocks/basic-19.json": "83a6ffc83cb0458ba2dd0921b762b05cefaa7e20b6d062a0410d8c64a0016dcc",
+    "content/blocks/basic-20.json": "14bb367fbe56dbffe9cc61ef2f52f5ce08be25e0671cf60530b160ae98402009",
+    "content/blocks/basic-21.json": "cb7b478e6de2c0adec6b38631f18904e5b042832b142420d808aecc906f1062c",
+    "content/blocks/basic-22.json": "c961aac1d890d9e19393d4c5476a36642ed4643b6a67c8bb01b64e6db824a04c",
+    "content/blocks/basic-23.json": "7bb2649d94dbd453442f8bfb765e43b2fb9c724a5f00f7e485bd4cb98022c1ce",
+    "content/blocks/basic-24.json": "002fa311833598107ec347b10358aef4496ddd066d790693feb3440d74bb7f6a",
+    "content/blocks/basic-25.json": "2b4e9443438da5580186d137f9b5db4b41964e8d650d6be30e78877c2203900b",
+    "content/blocks/basic-26.json": "6f3c6fb1173069499d5e6b7d9719331e02e9a5a8fea1816d2bb391f127faf662",
+    "content/blocks/basic-27.json": "ab2a0ad476d819bd9e54664fa667646d8acc47416db6b5f440b02f29c3cd3815",
+    "content/blocks/basic-28.json": "fb070fd2703db94daaa6e82d94beeb42138106f4ca563ce443ba3d21f76d7dda",
+    "content/blocks/basic-29.json": "2f38e151417bd510a0578eecdee6b5c61d1e0b457d301c537133592d4cfca850",
+    "content/blocks/basic-30.json": "a94a44efac66305ba77c8125844744132369e8d9d565beb66ecf6bed1ad4d6bc",
+    "content/blocks/basic-31.json": "51788434a8cc38ffe29b7721008012019e2af4459416acce96f04b0b37fff995",
+    "content/blocks/basic-32.json": "018f61f17bc9f3f2e4337345e333f8a908cbe462c9c73486adce1847dd3c8db1",
+    "content/blocks/basic-33.json": "504fd159900c9ffc19eb34e0e94b20939d066f3af3f6469973dd8b36cc6771a6",
+    "content/blocks/basic-34.json": "2cd5acc2bd6b9a3861b18f9aa32fc6e999ebfdeaf84d3872a2f3b94b87fa0b95",
+    "content/blocks/basic-35.json": "0193f2520fabfe8ec13d1756aa55efb57fd9a0048241166adeb7392ee85f6a31",
+    "content/blocks/basic-36.json": "31f378846214a1c074d271252ab5a51f3c3563b2bd6d12185134be1f4f511fc5",
+    "content/blocks/basic-37.json": "daf8b7c296b48764540b4a21e55c0b4ec9bd92e26beefdbd4bef794986f94326",
+    "content/blocks/basic-38.json": "438ecd5484212722da90c6321cdc19f6523e2c255f2fde14af600b8898170b08",
+    "content/blocks/basic-39.json": "823422101a243d2721455fe83764040d1066c7584fbe935a7010ae1625f985e9",
+    "content/blocks/basic-40.json": "cbb1690a64715b11b97fd78a3931ec318612df7c84d12f97f984841b15821f79",
+    "content/blocks/basic-41.json": "a5d425c3bbe17a860cd46b308a1bc9af56548204abd4a574c2c294cd638c6f89",
+    "content/blocks/basic-42.json": "7b73de8a7b2b4890ff5233ec2eaa633e7302d6cc91fef95e669aa05e88afd775",
+    "content/blocks/basic-43.json": "b5e6f550134fcfe2e311c38032ecdf4807d2907cb45dfb6696670a3a0537a58a",
+    "content/blocks/basic-44.json": "0c55b3059367647bedeed315f476f387aab32f931e5018a0779eb829f7382e98",
+    "content/blocks/basic-45.json": "38b70fcbf1172e5f8ac2be9f737f5949fb0aa00d6710c3155139c9e44835d943",
+    "content/blocks/basic-46.json": "2d581177be03ef9d1f5c9c689cc4a44a71b89525c082c1246da7cb3815d622fa",
+    "content/blocks/basic-47.json": "453f7867c88f8d64b8f119c5e86b4a8d3c4d11975125feacd64bd74460a760cd",
+    "content/blocks/basic-48.json": "ef296fb543039f358ddb09071d6d0d1e9201e78deb989632bb8fe3dd8ce40620",
+    "content/blocks/basic-49.json": "3b85019dba8e0e976a0bc86d76df98424e5216b1aeb34b4e3321e6f779418970",
+    "content/blocks/basic-50.json": "b32dd95b7086482542e46c5ace17ad6041714014d3bf55479dbfd2fa415b7a3b",
+    "content/blocks/basic-51.json": "c282fe40b3c2ed069353087a553c13f5005345b93ad6ccd4bcf66ee53b712c28",
+    "content/catalog.json": "a7918635a4cf69010931d88d471622d23a12ceddbe22831444c9f26b11e49414",
+    "content/concepts.json": "f9c66db1f5d9d0d33108ba1528c4e0013c2e3a45fcdd45f9c5d110106ad6ed38",
+    "content/languages/en.json": "bcaf96a6f75f2bbeccfd6aa3510abb64331a596c8845c5a95f407fdc5fb63907",
+    "content/languages/ja.json": "4cb552f0ad9786d01261d53a6c0fb04db520402052c4ef16a4cb80a2a08b92bd",
+    "content/languages/lv.json": "9d7f941cecde5daccae72272cd9ebec4551bce896b79b53786251b1dd4f1210a",
+    "content/languages/ru.json": "fd9eabf6ee36a57f4442f1329a5fb7c3bd3edd83327423acd99f340f2ecea9be",
+    "content/ui-contract.json": "70c767bc0560c21d2d015a998ca8ac37951f68e09286637962ceaed88e1d42f6"
+  },
+  "entries": [
+    {
+      "id": "vocab-0001",
+      "meaning": "hello",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "replace"
+      }
+    },
+    {
+      "id": "vocab-0002",
+      "meaning": "goodbye",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "clarify"
+      }
+    },
+    {
+      "id": "vocab-0003",
+      "meaning": "please",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0004",
+      "meaning": "thank you",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "clarify"
+      }
+    },
+    {
+      "id": "vocab-0005",
+      "meaning": "sorry",
+      "decisions": {
+        "lv": "clarify",
+        "ru": "clarify",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0006",
+      "meaning": "yes",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0007",
+      "meaning": "no",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0008",
+      "meaning": "good morning",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0009",
+      "meaning": "good evening",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0010",
+      "meaning": "good night",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0491",
+      "meaning": "I",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0492",
+      "meaning": "you",
+      "decisions": {
+        "lv": "clarify",
+        "ru": "clarify",
+        "en": "keep-working",
+        "ja": "clarify"
+      }
+    },
+    {
+      "id": "vocab-0493",
+      "meaning": "he",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0494",
+      "meaning": "she",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0495",
+      "meaning": "we",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0496",
+      "meaning": "they",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0497",
+      "meaning": "this",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "clarify",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0498",
+      "meaning": "that",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "clarify",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0499",
+      "meaning": "everything",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0500",
+      "meaning": "nothing",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0031",
+      "meaning": "help",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0032",
+      "meaning": "stop",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0033",
+      "meaning": "here",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0034",
+      "meaning": "there",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0035",
+      "meaning": "now",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0036",
+      "meaning": "later",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0037",
+      "meaning": "together",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0038",
+      "meaning": "again",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0039",
+      "meaning": "slowly",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0040",
+      "meaning": "quickly",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0261",
+      "meaning": "please help",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0262",
+      "meaning": "a little more",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0263",
+      "meaning": "more slowly",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0264",
+      "meaning": "not now",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0265",
+      "meaning": "no thank you",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0266",
+      "meaning": "excuse me",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0267",
+      "meaning": "good luck",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0268",
+      "meaning": "well done",
+      "decisions": {
+        "lv": "clarify",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0269",
+      "meaning": "good afternoon",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0270",
+      "meaning": "with pleasure",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0091",
+      "meaning": "who",
+      "decisions": {
+        "lv": "ambiguous",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0092",
+      "meaning": "what",
+      "decisions": {
+        "lv": "clarify",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0093",
+      "meaning": "where",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0094",
+      "meaning": "when",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0095",
+      "meaning": "why",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0096",
+      "meaning": "how",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0097",
+      "meaning": "how many",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0098",
+      "meaning": "what price",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "replace",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0099",
+      "meaning": "which way",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0100",
+      "meaning": "what else",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0041",
+      "meaning": "home",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0042",
+      "meaning": "school",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0043",
+      "meaning": "shop",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0044",
+      "meaning": "pharmacy",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0045",
+      "meaning": "hospital",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0046",
+      "meaning": "park",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0047",
+      "meaning": "street",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0048",
+      "meaning": "bus stop",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0049",
+      "meaning": "toilet",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0050",
+      "meaning": "exit",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0051",
+      "meaning": "water",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0052",
+      "meaning": "bread",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0053",
+      "meaning": "milk",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0054",
+      "meaning": "tea",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0055",
+      "meaning": "apple",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0056",
+      "meaning": "banana",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0057",
+      "meaning": "cheese",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0058",
+      "meaning": "soup",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0059",
+      "meaning": "juice",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0060",
+      "meaning": "breakfast",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0071",
+      "meaning": "left",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0072",
+      "meaning": "right",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0073",
+      "meaning": "straight",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0074",
+      "meaning": "near",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0075",
+      "meaning": "far",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0076",
+      "meaning": "inside",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0077",
+      "meaning": "outside",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0078",
+      "meaning": "up",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0079",
+      "meaning": "down",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0080",
+      "meaning": "opposite",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0081",
+      "meaning": "police",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0082",
+      "meaning": "ambulance",
+      "decisions": {
+        "lv": "clarify",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0083",
+      "meaning": "fire",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "clarify",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0084",
+      "meaning": "danger",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0085",
+      "meaning": "pain",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0086",
+      "meaning": "doctor",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0087",
+      "meaning": "emergency",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0088",
+      "meaning": "first aid",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0089",
+      "meaning": "emergency number",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "clarify",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0090",
+      "meaning": "adult",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0021",
+      "meaning": "one",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0022",
+      "meaning": "two",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0023",
+      "meaning": "three",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0024",
+      "meaning": "four",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0025",
+      "meaning": "five",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0026",
+      "meaning": "six",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0027",
+      "meaning": "seven",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0028",
+      "meaning": "eight",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0029",
+      "meaning": "nine",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0030",
+      "meaning": "ten",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0501",
+      "meaning": "I need help",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0502",
+      "meaning": "I need water",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0503",
+      "meaning": "I need a doctor",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0504",
+      "meaning": "I don't understand",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0505",
+      "meaning": "please call an ambulance",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0506",
+      "meaning": "please call the police",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0507",
+      "meaning": "allergy",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0508",
+      "meaning": "without milk",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0509",
+      "meaning": "without sugar",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0510",
+      "meaning": "I need medicine",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0421",
+      "meaning": "to speak a language",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0422",
+      "meaning": "to say a word",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0423",
+      "meaning": "to ask",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0424",
+      "meaning": "to answer",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0425",
+      "meaning": "to listen",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "replace"
+      }
+    },
+    {
+      "id": "vocab-0426",
+      "meaning": "to hear",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0427",
+      "meaning": "to read",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0428",
+      "meaning": "to write",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0429",
+      "meaning": "to learn",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0430",
+      "meaning": "to understand",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0411",
+      "meaning": "to go",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "clarify",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0412",
+      "meaning": "to come",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0413",
+      "meaning": "to walk",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "replace",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0414",
+      "meaning": "to run",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0415",
+      "meaning": "to sit",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0416",
+      "meaning": "to stand",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0417",
+      "meaning": "to sleep",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0418",
+      "meaning": "to wake up",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0419",
+      "meaning": "to eat",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0420",
+      "meaning": "to drink",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0431",
+      "meaning": "to see",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0432",
+      "meaning": "to look at",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "ambiguous",
+        "en": "ambiguous",
+        "ja": "replace"
+      }
+    },
+    {
+      "id": "vocab-0433",
+      "meaning": "to watch",
+      "decisions": {
+        "lv": "clarify",
+        "ru": "clarify",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0434",
+      "meaning": "to find",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0435",
+      "meaning": "to search",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "clarify",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0436",
+      "meaning": "to take",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0437",
+      "meaning": "to give",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "clarify"
+      }
+    },
+    {
+      "id": "vocab-0438",
+      "meaning": "to bring",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0439",
+      "meaning": "to buy",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0440",
+      "meaning": "to pay",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0441",
+      "meaning": "to open",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0442",
+      "meaning": "to close",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0443",
+      "meaning": "to start",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0444",
+      "meaning": "to finish",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0445",
+      "meaning": "to wait",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0446",
+      "meaning": "to help",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0447",
+      "meaning": "to play",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0448",
+      "meaning": "to work",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0449",
+      "meaning": "to wash",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0450",
+      "meaning": "to clean",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0011",
+      "meaning": "person",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0012",
+      "meaning": "child",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0013",
+      "meaning": "boy",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0014",
+      "meaning": "girl",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0015",
+      "meaning": "friend",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0016",
+      "meaning": "family",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0017",
+      "meaning": "mother",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "clarify"
+      }
+    },
+    {
+      "id": "vocab-0018",
+      "meaning": "father",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "clarify"
+      }
+    },
+    {
+      "id": "vocab-0019",
+      "meaning": "sister",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "clarify"
+      }
+    },
+    {
+      "id": "vocab-0020",
+      "meaning": "brother",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "clarify"
+      }
+    },
+    {
+      "id": "vocab-0061",
+      "meaning": "book",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0062",
+      "meaning": "notebook",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0063",
+      "meaning": "pen",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0064",
+      "meaning": "pencil",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0065",
+      "meaning": "desk",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0066",
+      "meaning": "chair",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0067",
+      "meaning": "board",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "clarify",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0068",
+      "meaning": "teacher",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0069",
+      "meaning": "lesson",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0070",
+      "meaning": "break",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "clarify",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0101",
+      "meaning": "grandmother",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "clarify"
+      }
+    },
+    {
+      "id": "vocab-0102",
+      "meaning": "grandfather",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "clarify"
+      }
+    },
+    {
+      "id": "vocab-0103",
+      "meaning": "aunt",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0104",
+      "meaning": "uncle",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0105",
+      "meaning": "parents",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0106",
+      "meaning": "grandparents",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0107",
+      "meaning": "baby",
+      "decisions": {
+        "lv": "clarify",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0108",
+      "meaning": "teenager",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0109",
+      "meaning": "neighbour",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0110",
+      "meaning": "guest",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0111",
+      "meaning": "woman",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0112",
+      "meaning": "man",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0113",
+      "meaning": "people",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0114",
+      "meaning": "children",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0115",
+      "meaning": "classmate",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0116",
+      "meaning": "student",
+      "decisions": {
+        "lv": "clarify",
+        "ru": "clarify",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0117",
+      "meaning": "driver",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0118",
+      "meaning": "seller",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "clarify",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0119",
+      "meaning": "passenger",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0120",
+      "meaning": "visitor",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0121",
+      "meaning": "head",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0122",
+      "meaning": "hair",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0123",
+      "meaning": "face",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0124",
+      "meaning": "eye",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0125",
+      "meaning": "ear",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0126",
+      "meaning": "nose",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0127",
+      "meaning": "mouth",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0128",
+      "meaning": "tooth",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0129",
+      "meaning": "tongue",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0130",
+      "meaning": "neck",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0131",
+      "meaning": "palm",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "clarify",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0132",
+      "meaning": "arm",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "clarify",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0133",
+      "meaning": "finger",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0134",
+      "meaning": "leg",
+      "decisions": {
+        "lv": "ambiguous",
+        "ru": "ambiguous",
+        "en": "ambiguous",
+        "ja": "ambiguous"
+      }
+    },
+    {
+      "id": "vocab-0135",
+      "meaning": "foot",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0136",
+      "meaning": "knee",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0137",
+      "meaning": "back",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0138",
+      "meaning": "stomach",
+      "decisions": {
+        "lv": "clarify",
+        "ru": "clarify",
+        "en": "clarify",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0139",
+      "meaning": "shoulder",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0140",
+      "meaning": "skin",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0141",
+      "meaning": "health",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0142",
+      "meaning": "illness",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0143",
+      "meaning": "a cold",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0144",
+      "meaning": "fever",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "clarify",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0145",
+      "meaning": "cough",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0146",
+      "meaning": "medicine",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0147",
+      "meaning": "tablet",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0148",
+      "meaning": "plaster",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "ambiguous",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0149",
+      "meaning": "bandage",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0150",
+      "meaning": "thermometer",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0151",
+      "meaning": "happy",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0152",
+      "meaning": "sad",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0153",
+      "meaning": "angry",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0154",
+      "meaning": "afraid",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0155",
+      "meaning": "calm",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0156",
+      "meaning": "tired",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0157",
+      "meaning": "hungry",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0158",
+      "meaning": "thirsty",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "replace",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0159",
+      "meaning": "bored",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0160",
+      "meaning": "surprised",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0161",
+      "meaning": "coat",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0162",
+      "meaning": "jacket",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0163",
+      "meaning": "shirt",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0164",
+      "meaning": "trousers",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0165",
+      "meaning": "dress",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0166",
+      "meaning": "socks",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0167",
+      "meaning": "footwear",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "clarify",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0168",
+      "meaning": "hat",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "clarify",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0169",
+      "meaning": "scarf",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "clarify"
+      }
+    },
+    {
+      "id": "vocab-0170",
+      "meaning": "gloves",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0171",
+      "meaning": "phone",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0172",
+      "meaning": "computer",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0173",
+      "meaning": "screen",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0174",
+      "meaning": "keyboard",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0175",
+      "meaning": "mouse",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0176",
+      "meaning": "charger",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0177",
+      "meaning": "battery",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "clarify",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0178",
+      "meaning": "message",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0179",
+      "meaning": "photo",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0180",
+      "meaning": "internet",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0181",
+      "meaning": "door",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0182",
+      "meaning": "window",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0183",
+      "meaning": "wall",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0184",
+      "meaning": "floor",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0185",
+      "meaning": "ceiling",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0186",
+      "meaning": "roof",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0187",
+      "meaning": "stairs",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0188",
+      "meaning": "room",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0189",
+      "meaning": "kitchen",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0190",
+      "meaning": "bathroom",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "clarify"
+      }
+    },
+    {
+      "id": "vocab-0191",
+      "meaning": "bed",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0192",
+      "meaning": "table",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0193",
+      "meaning": "sofa",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0194",
+      "meaning": "wardrobe",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0195",
+      "meaning": "shelf",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0196",
+      "meaning": "mirror",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0197",
+      "meaning": "lamp",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0198",
+      "meaning": "carpet",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0199",
+      "meaning": "blanket",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0200",
+      "meaning": "pillow",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0201",
+      "meaning": "plate",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0202",
+      "meaning": "cup",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0203",
+      "meaning": "glass",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0204",
+      "meaning": "bowl",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0205",
+      "meaning": "spoon",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0206",
+      "meaning": "fork",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0207",
+      "meaning": "knife",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0208",
+      "meaning": "bottle",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0209",
+      "meaning": "pot",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "ambiguous",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0210",
+      "meaning": "pan",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "replace",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0211",
+      "meaning": "soap",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0212",
+      "meaning": "towel",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0213",
+      "meaning": "toothbrush",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0214",
+      "meaning": "toothpaste",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0215",
+      "meaning": "shampoo",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0216",
+      "meaning": "comb",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0217",
+      "meaning": "shower",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0218",
+      "meaning": "bath",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0219",
+      "meaning": "toilet paper",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0220",
+      "meaning": "tissue",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0221",
+      "meaning": "pear",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0222",
+      "meaning": "orange",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0223",
+      "meaning": "lemon",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0224",
+      "meaning": "grapes",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0225",
+      "meaning": "strawberry",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0226",
+      "meaning": "raspberry",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0227",
+      "meaning": "cherry",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0228",
+      "meaning": "plum",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0229",
+      "meaning": "peach",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0230",
+      "meaning": "watermelon",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0231",
+      "meaning": "potato",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0232",
+      "meaning": "carrot",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0233",
+      "meaning": "tomato",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0234",
+      "meaning": "cucumber",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0235",
+      "meaning": "onion",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0236",
+      "meaning": "garlic",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0237",
+      "meaning": "cabbage",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0238",
+      "meaning": "pepper",
+      "decisions": {
+        "lv": "clarify",
+        "ru": "keep-working",
+        "en": "clarify",
+        "ja": "clarify"
+      }
+    },
+    {
+      "id": "vocab-0239",
+      "meaning": "peas",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0240",
+      "meaning": "beans",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0241",
+      "meaning": "rice",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "clarify"
+      }
+    },
+    {
+      "id": "vocab-0242",
+      "meaning": "pasta",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0243",
+      "meaning": "meat",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0244",
+      "meaning": "chicken meat",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "replace",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0245",
+      "meaning": "fish",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0246",
+      "meaning": "egg",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0247",
+      "meaning": "butter",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0248",
+      "meaning": "yogurt",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0249",
+      "meaning": "salt",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0250",
+      "meaning": "sugar",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0251",
+      "meaning": "lunch",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "ambiguous",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0252",
+      "meaning": "dinner",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "clarify",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0253",
+      "meaning": "snack",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0254",
+      "meaning": "sandwich",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0255",
+      "meaning": "salad",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0256",
+      "meaning": "porridge",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0257",
+      "meaning": "cereal",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0258",
+      "meaning": "pancake",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0259",
+      "meaning": "cake",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "clarify",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0260",
+      "meaning": "ice cream",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0271",
+      "meaning": "money",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0272",
+      "meaning": "price",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0273",
+      "meaning": "change",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0274",
+      "meaning": "receipt",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0275",
+      "meaning": "checkout",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0276",
+      "meaning": "basket",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0277",
+      "meaning": "bag",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "clarify",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0278",
+      "meaning": "size",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0279",
+      "meaning": "discount",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0280",
+      "meaning": "card",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "clarify",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0281",
+      "meaning": "zero",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0282",
+      "meaning": "eleven",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0283",
+      "meaning": "twelve",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0284",
+      "meaning": "thirteen",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0285",
+      "meaning": "fourteen",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0286",
+      "meaning": "fifteen",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0287",
+      "meaning": "sixteen",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0288",
+      "meaning": "seventeen",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0289",
+      "meaning": "eighteen",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0290",
+      "meaning": "nineteen",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0291",
+      "meaning": "twenty",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0292",
+      "meaning": "thirty",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0293",
+      "meaning": "forty",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0294",
+      "meaning": "fifty",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0295",
+      "meaning": "sixty",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0296",
+      "meaning": "seventy",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0297",
+      "meaning": "eighty",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0298",
+      "meaning": "ninety",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0299",
+      "meaning": "hundred",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0300",
+      "meaning": "thousand",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0301",
+      "meaning": "day",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0302",
+      "meaning": "night",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0303",
+      "meaning": "morning",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0304",
+      "meaning": "evening",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0305",
+      "meaning": "today",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0306",
+      "meaning": "tomorrow",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0307",
+      "meaning": "yesterday",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0308",
+      "meaning": "week",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0309",
+      "meaning": "month",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0310",
+      "meaning": "year",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0311",
+      "meaning": "Monday",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0312",
+      "meaning": "Tuesday",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0313",
+      "meaning": "Wednesday",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0314",
+      "meaning": "Thursday",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0315",
+      "meaning": "Friday",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0316",
+      "meaning": "Saturday",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0317",
+      "meaning": "Sunday",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0318",
+      "meaning": "weekend",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0319",
+      "meaning": "hour",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0320",
+      "meaning": "minute",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0321",
+      "meaning": "January",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0322",
+      "meaning": "February",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0323",
+      "meaning": "March",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0324",
+      "meaning": "April",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0325",
+      "meaning": "May",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0326",
+      "meaning": "June",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0327",
+      "meaning": "July",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0328",
+      "meaning": "August",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0329",
+      "meaning": "September",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0330",
+      "meaning": "October",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0331",
+      "meaning": "November",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0332",
+      "meaning": "December",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0333",
+      "meaning": "spring",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0334",
+      "meaning": "summer",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0335",
+      "meaning": "autumn",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0336",
+      "meaning": "winter",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0337",
+      "meaning": "season",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0338",
+      "meaning": "weather",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0339",
+      "meaning": "sun",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0340",
+      "meaning": "moon",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0341",
+      "meaning": "rain",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0342",
+      "meaning": "snow",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0343",
+      "meaning": "wind",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0344",
+      "meaning": "cloud",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0345",
+      "meaning": "fog",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0346",
+      "meaning": "ice",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0347",
+      "meaning": "thunder",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0348",
+      "meaning": "storm",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0349",
+      "meaning": "rainbow",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0350",
+      "meaning": "temperature",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0351",
+      "meaning": "tree",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0352",
+      "meaning": "flower",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0353",
+      "meaning": "grass",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0354",
+      "meaning": "leaf",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0355",
+      "meaning": "forest",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0356",
+      "meaning": "river",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0357",
+      "meaning": "lake",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0358",
+      "meaning": "sea",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0359",
+      "meaning": "beach",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0360",
+      "meaning": "stone",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0361",
+      "meaning": "dog",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0362",
+      "meaning": "cat",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0363",
+      "meaning": "horse",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0364",
+      "meaning": "cow",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0365",
+      "meaning": "pig",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0366",
+      "meaning": "sheep",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0367",
+      "meaning": "goat",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0368",
+      "meaning": "hen",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0369",
+      "meaning": "duck",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0370",
+      "meaning": "bird",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0371",
+      "meaning": "bus",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0372",
+      "meaning": "tram",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0373",
+      "meaning": "trolleybus",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0374",
+      "meaning": "train",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0375",
+      "meaning": "car",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0376",
+      "meaning": "bicycle",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0377",
+      "meaning": "taxi",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0378",
+      "meaning": "station",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0379",
+      "meaning": "airport",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0380",
+      "meaning": "ticket",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0381",
+      "meaning": "road",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0382",
+      "meaning": "bridge",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0383",
+      "meaning": "pedestrian crossing",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0384",
+      "meaning": "traffic lights",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0385",
+      "meaning": "pavement",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0386",
+      "meaning": "corner",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0387",
+      "meaning": "square",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0388",
+      "meaning": "centre",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0389",
+      "meaning": "address",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0390",
+      "meaning": "city map",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0391",
+      "meaning": "schoolbag",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "clarify",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0392",
+      "meaning": "ruler",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0393",
+      "meaning": "eraser",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0394",
+      "meaning": "scissors",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0395",
+      "meaning": "glue",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0396",
+      "meaning": "paper",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0397",
+      "meaning": "paint",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0398",
+      "meaning": "brush",
+      "decisions": {
+        "lv": "clarify",
+        "ru": "keep-working",
+        "en": "replace",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0399",
+      "meaning": "drawing",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0400",
+      "meaning": "homework",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0401",
+      "meaning": "letter",
+      "decisions": {
+        "lv": "clarify",
+        "ru": "keep-working",
+        "en": "clarify",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0402",
+      "meaning": "word",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "ambiguous",
+        "ja": "ambiguous"
+      }
+    },
+    {
+      "id": "vocab-0403",
+      "meaning": "phrase",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "ambiguous",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0404",
+      "meaning": "sentence",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0405",
+      "meaning": "question",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0406",
+      "meaning": "answer",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0407",
+      "meaning": "page",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0408",
+      "meaning": "exercise",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0409",
+      "meaning": "example",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0410",
+      "meaning": "mistake",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0451",
+      "meaning": "big",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0452",
+      "meaning": "small",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0453",
+      "meaning": "long",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0454",
+      "meaning": "short",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0455",
+      "meaning": "wide",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0456",
+      "meaning": "narrow",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0457",
+      "meaning": "high",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0458",
+      "meaning": "low",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0459",
+      "meaning": "heavy",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0460",
+      "meaning": "light",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0461",
+      "meaning": "good",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0462",
+      "meaning": "bad",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0463",
+      "meaning": "new",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0464",
+      "meaning": "old",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0465",
+      "meaning": "clean",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0466",
+      "meaning": "dirty",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0467",
+      "meaning": "hot",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "clarify"
+      }
+    },
+    {
+      "id": "vocab-0468",
+      "meaning": "cold",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "clarify"
+      }
+    },
+    {
+      "id": "vocab-0469",
+      "meaning": "warm",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0470",
+      "meaning": "cool",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0471",
+      "meaning": "red",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0472",
+      "meaning": "blue",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0473",
+      "meaning": "green",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0474",
+      "meaning": "yellow",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0475",
+      "meaning": "black",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0476",
+      "meaning": "white",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0477",
+      "meaning": "grey",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0478",
+      "meaning": "brown",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0479",
+      "meaning": "pink",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0480",
+      "meaning": "purple",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0481",
+      "meaning": "and",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0482",
+      "meaning": "or",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0483",
+      "meaning": "but",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0484",
+      "meaning": "because",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0485",
+      "meaning": "with me",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0486",
+      "meaning": "without me",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0487",
+      "meaning": "for you",
+      "decisions": {
+        "lv": "clarify",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0488",
+      "meaning": "from home",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0489",
+      "meaning": "to school",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    },
+    {
+      "id": "vocab-0490",
+      "meaning": "between us",
+      "decisions": {
+        "lv": "keep-working",
+        "ru": "keep-working",
+        "en": "keep-working",
+        "ja": "keep-working"
+      }
+    }
+  ]
+}

@@ -4,23 +4,31 @@ Current task: L-011
 
 ## Resume summary — 2026-11-23
 
-**Next product work:** Audit all510 words/expressions across LV/RU/EN/JA for common, natural everyday beginner usage. Examples: neutral Japanese hello → こんにちは; neutral/polite Russian hello → здравствуйте. Check current entries first; do not confuse register/context differences with errors. **L-001 is architecture, not the selected audit.**
+**Phase: IN_REVIEW — audit and reference-library artifacts prepared, pending checked PR integration.** The owner explicitly requested the common-usage audit and a reusable library of practical common words/phrases. This authorizes research/reference work, not active vocabulary corrections, PR #21 integration or app publication.
 
-**Scope and authorization:** L-011 is the selected next product task and remains TODO. The current action is coordination repair only; no vocabulary correction or publication is authorized. A later explicit instruction to start the common-usage audit refers to L-011; do not make the Owner select the task again solely because an older instruction names L-001 or a retired file. Bare “continue” still follows the existing read-only/approval convention. Audit findings and proposed corrections remain separate actions.
+**Branch/baseline:** `research/common-usage-library`, isolated checkout `/workspace/work/common-usage-library`, based on main `066ce2be6c0e2664604d864e7a051a40a70d75cb`. GitHub PR/commit and current check results are recorded in the final verification section below after execution; do not infer them from this phase label.
 
-**Canonical backlog:** [docs/TD_LIST.md](TD_LIST.md) contains L-010 and L-011, including their pending-feature status and attribution. Chat, cw and codex must read the latest remote main list plus this checkpoint and overlapping PRs. A task entry on main does not mean the held product code has merged.
+## Completed reference work
 
-## Completed and pending
+- [Common-usage audit](../research/common-usage/README.md): all 510 IDs per language, 2,040 decisions. LV/RU/EN full editorial passes considered actual distractors; Japanese reuses the [saved full review](review/2026-11-18-japanese-usage-audit.md), rebound to current forms/choices. Per-language JSON records current text, proposals, priorities, reasons, source URLs and evidence levels; coverage.json pins input hashes. Unflagged means working keep, not native certification.
+- [Reusable common-core library](../library/README.md): 60 practical words/short phrases in four languages, stable library IDs, situation/register notes, source register and pending-review labels. It is separate from active `content/`; no loader imports it. This is a focused starter library for expansion, not a new course or a measured frequency ranking.
+- Main application remains 0.4.11; no translation, ID, binding, recording, reading guide, algorithm, storage, generated download, Drive review file or website source change.
 
-- Main product baseline remains0.4.11. Main protocol/command conventions are integrated through source de5013f973c5a892b02ded795dd5b27669c66fc2 before this coordination repair. The previous main checkpoint was stale; its exact text is preserved in [history](history/WORK_CHECKPOINT-before-resume-repair-2026-11-23.md).
-- [PR #21](https://github.com/janisp123/language-learning-app/pull/21) head72e6ab4c106c6ee7c48703af025919c81d5c3b55 is OPEN, unmerged and held for language-quality concerns. It contains0.4.12 reading guides only for lv-ru / ru-en / en-ja. All seven selectable directions, core rules, original translations/recordings and ZERO saves are preserved. Do not merge PR #21 to integrate task metadata.
-- Reading-guide local52Node/32Python and Chromium/course/layout checks and source CI44182744942/44183010492 were previously recorded as passing. These are historical feature evidence, not a language-quality certificate or a test claim for this coordination commit.
-- Stable Drive review file1594pGCAm3E7hOq0-oSwLFh8z4WtRI3vd was previously verified as0.4.12,21558493bytes, SHA256 d3f3b5cab491f997647844fe69f34b9a72fb625087f67e75b74da7fefcc0f5c6. [Pinned Drive delivery receipt from PR #21](https://github.com/janisp123/language-learning-app/blob/72e6ab4c106c6ee7c48703af025919c81d5c3b55/docs/delivery/2026-11-17-reading-guides-drive-sync.json). This repair changes no app, recording, generated HTML or Drive file; any existing Pages workflow triggered by the tooling path must serve identical app bytes.
-- [Japanese-only model/editorial review](review/2026-11-18-japanese-usage-audit.md) is preserved with its scope/limitations. Greeting defaults, leg/foot and word/phrase distractors, family terms and context-sensitive senses need review. No corrections have been implemented. Reuse that work in L-011, rather than claiming the broader all-language audit was completed.
-- PR #21 still carries its obsolete task-path/instruction edits from before the canonical-path migration. Before any later feature integration, reconcile it against latest main, retain this handoff and the single canonical task list, and do not overwrite current protocol/owner command semantics with old branch files. Preserve unrelated PRs.
+## Pending product work
 
-## Coordination guard and next step
+- [PR #21](https://github.com/janisp123/language-learning-app/pull/21) remains OPEN/UNMERGED/ON HOLD at last checked head `72e6ab4c106c6ee7c48703af025919c81d5c3b55`: reading-guide review build0.4.12, only lv-ru / ru-en / en-ja. Before later integration reconcile its old task-path/instruction edits against current main. All seven directions and ZERO learner-state saves remain mandatory.
+- The stable Drive review file remains the previously verified0.4.12: file1594pGCAm3E7hOq0-oSwLFh8z4WtRI3vd; 21,558,493 bytes; SHA256 `d3f3b5cab491f997647844fe69f34b9a72fb625087f67e75b74da7fefcc0f5c6`. No new upload/readback is claimed for this reference-only work.
+- Owner decisions and fluent-human language review are pending. Prioritize neutral Japanese hello; overlapping who/leg/foot/plaster/pan/word/phrase/sentence choices; then short wording improvements. Register/family/rice/weather cases require agreed context, not blanket substitutions. Russian здравствуйте is already the desired greeting.
+- Technical tests do not certify language quality. No native review, new audio verification or physical-device test is claimed by this research slice.
 
-The protocol checker now requires exactly one “Current task:” line here and a matching task header in the canonical list. It cannot certify task correctness or force future agents to follow instructions. Resume status reports should quote the current task's name/scope and actual phase, not infer priority from the first numeric task or ask the Owner to reconstruct already-saved context.
+## Exact next action
 
-**Exact next action:** After this checked coordination repair is integrated and verified on remote main, report L-011 as the ready next audit. On an explicit audit-start instruction, inspect latest canonical source and existing Japanese evidence, audit common usage, then present proposed ID-specific corrections for review. No automatic vocabulary edit, held-feature merge, app release or background resumption.
+Review the checked reference PR and proposed small correction slice. Obtain explicit owner approval for any vocabulary/binding/audio correction or held-feature merge/publication; then implement only approved IDs, synchronizing recordings and any reading guides. Do not choose old L-001, merge #21, or run backlog work automatically. Bare “continue” still means read-only preflight under AGENTS.md.
+
+The canonical active task list is [docs/TD_LIST.md](TD_LIST.md); chat, cw and codex must fetch latest remote main and this checkpoint. The previous checkpoint is preserved [verbatim](history/WORK_CHECKPOINT-before-common-library-2026-11-23.md).
+
+## Verification and source status
+
+- PASS: 46 Node / 32 Python tests; protocol checker; 2,040-decision ID/current-form/hash checks; 60-entry/240-form library structure and source-reference integrity; local Markdown links; diff whitespace.
+- PASS: generated app equals the committed download exactly: 21,388,029 bytes, SHA256 `e5bb8fee28d2d3f781de41f0e59f9592e27163bdf73ef7e4323039db6ab07c40`.
+- [Verification receipt](review/2026-11-23-common-usage-verification.json) records commands and limits. Independent review passed with two minor notes resolved (verification section and cc-p032 location context). Source push/PR/CI status will be read back before final handoff; do not assume merge or publication. No fresh physical-device or native-language certification is claimed.

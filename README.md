@@ -57,6 +57,7 @@ Requires Node 24+ and Python 3.12+. The generated file is `dist/language-learnin
 Start with [contribution guidance](CONTRIBUTING.md) and [AGENTS.md](AGENTS.md). Helpful feedback includes unclear wording, audio issues and reproducible browser problems; use synthetic examples and never include personal learner information.
 
 - [Testing guide and verification limits](docs/BROWSER_TEST_BUILD.md)
+- [Common words and phrases reference library](library/README.md) · [Common-usage audit and proposed corrections](research/common-usage/README.md) (reference/review only)
 - [Content module guide](docs/CONTENT_MODULES.md) · [Current curriculum](docs/VOCABULARY_500.md) · [Audio boundaries](docs/AUDIO_MODULES.md)
 - [Architecture](docs/ARCHITECTURE.md) · [Release checklist](docs/RELEASE_CHECKLIST.md) · [Publication instructions](docs/discovery-preview/LAUNCH.md)
 - [Active tasks](docs/TD_LIST.md) · [Current checkpoint](docs/WORK_CHECKPOINT.md) · [Change history](docs/CHANGELOG.md)
