@@ -68,19 +68,19 @@ test('standalone prompt speaker and wrong-answer correction preserve grading and
     assert.equal($('audio-media').src,pack.clips[source][first].src);assert.equal($('audio-media').playCount,3);
     $.tick(1000);assert.equal($('progress').value,0);assert.equal($('feedback').textContent,'');
     assert.ok(answerButtons($).every(b=>!b.disabled));assert.deepEqual(answerButtons($).map(b=>b.dataset.optionId),choices);
-    choose($,first);assert.equal($('audio-media').playCount,3,'answering must not play an answer clip');$.tick(500);
-    assert.equal($('audio-media').playCount,4,'advancing autoplays the new prompt');
+    choose($,first);assert.equal($('audio-media').playCount,4,'correct selection plays its target recording immediately');assert.equal($('audio-media').src,pack.clips[target][first].src);$.tick(499);assert.equal($('progress').value,0);$.tick(1);
+    assert.equal($('audio-media').playCount,5,'advancing autoplays the new prompt');
     $('question-replay').click();assert.equal($('audio-media').src,pack.clips[source][second].src);assert.equal($('progress').value,1);
     const wrong=answerButtons($).find(b=>b.dataset.optionId!==second);wrong.click();
-    assert.equal($('audio-media').playCount,6,'wrong answer begins by repeating the current question');
-    $.tick(500);assert.equal($('audio-media').playCount,6);assert.equal($('question').textContent,course.phrases.find(p=>p.id===second)[source]);
+    assert.equal($('audio-media').playCount,7,'wrong answer begins by repeating the current question');
+    $.tick(500);assert.equal($('audio-media').playCount,7);assert.equal($('question').textContent,course.phrases.find(p=>p.id===second)[source]);
     for(let n=0;n<6;n++){
       assert.equal($('audio-media').src,pack.clips[n%2?target:source][second].src);
       assert.equal(answerButtons($).every(b=>b.disabled),true);
       $('audio-media').onended();for(let flush=0;flush<8;flush++)await Promise.resolve();
     }
-    assert.equal($('audio-media').playCount,12);assert.equal($('audio-media').src,pack.clips[source][first].src);assert.equal($('progress').value,0);
-    $('restart').click();assert.equal($('audio-media').playCount,13);assert.equal($('progress').value,0);
+    assert.equal($('audio-media').playCount,13);assert.equal($('audio-media').src,pack.clips[source][first].src);assert.equal($('progress').value,0);
+    $('restart').click();assert.equal($('audio-media').playCount,14);assert.equal($('progress').value,0);
 
     $('change').click();assert.equal($('audio-media').paused,true);assert.equal($('question-replay').hidden,true);
   }
@@ -97,14 +97,14 @@ test('standalone speaker covers every question in all allowed directions with co
       count++; // Each appearance automatically plays exactly once.
       assert.equal($('audio-media').src,pack.clips[source][prompt.phraseId].src);
       assert.equal($('question-replay').hidden,false);
-      choose($,prompt.phraseId);assert.equal($('audio-media').playCount,count);$.tick(500);
+      choose($,prompt.phraseId);assert.equal($('audio-media').src,pack.clips[target][prompt.phraseId].src);assert.equal($('audio-media').playCount,count*2);$.tick(500);
     }
-    assert.equal($('audio-media').playCount,course.phrases.length);
+    assert.equal($('audio-media').playCount,course.phrases.length*2);
     assert.equal(count,course.phrases.length);assert.equal($('finished').hidden,false);assert.equal($('audio-media').paused,true);
     $('again').click();assert.equal($('audio-media').paused,false);
     const prompt=course.lessons[0].prompts[0];
     choose($,answerButtons($).find(b=>b.dataset.optionId!==prompt.phraseId).dataset.optionId);
-    assert.equal($('audio-media').playCount,course.phrases.length+2,'wrong answer starts correction by replaying its source prompt');
+    assert.equal($('audio-media').playCount,course.phrases.length*2+2,'wrong answer starts correction by replaying its source prompt');
     assert.equal($('audio-media').src,pack.clips[source][prompt.phraseId].src);$('change').click();
   }
 });

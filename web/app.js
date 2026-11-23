@@ -130,6 +130,7 @@
       pending = E.answer(course, state, shown, id);
       for (const row of $('choices').children) {
         const [button, speaker] = row.children;
+        if (pending.feedback.correct && button.dataset.optionId === id) speaker.click();
         button.disabled = true; speaker.disabled = true;
         if (button.dataset.optionId === shown.correctId) button.classList.add('correct');
         else if (button.dataset.optionId === id) button.classList.add('incorrect');

@@ -1,5 +1,8 @@
 # Editing pronunciation without rebuilding the app's logic
 
+**Current0.5.3 behavior:** Correct answer selections invoke the existing bound target-speaker action before controls lock; no audio queue/completion gate is added. Correct navigation stays500ms and stops old sound at the next prompt (long recordings may be interrupted). Wrong submissions keep0.5.1’s three current-source/correct-target pairs; selected wrong distractors are not spoken. Speaker-only clicks never grade. The older version sections below are historical, not current coverage claims; the live bank now has2308 clips and seven directions.
+
+
 Current scope: all 510 vocabulary items in Latvian, Russian and English across all six directions, with 1,530 bundled MP3 clips. Version 0.4.5 adds thirty recordings for the ten practical-core entries and preserves all original 1,500 clips. The current prompt automatically attempts playback once each time it appears; the speaker replays only that prompt in its source language; previous-answer replay and automatic answer audio remain removed. The media player and learning engine are unchanged. Russian/Latvian speech uses Google Translate TTS via gTTS; English uses Flite cmu_us_slt offline. Fluent pronunciation review is pending. The learner's browser makes no synthesis/network request.
 
 | Change | Edit | What stays independent |

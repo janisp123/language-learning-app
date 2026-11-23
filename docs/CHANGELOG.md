@@ -1,5 +1,10 @@
 ## 2026-11-23 — Correction listening publicly deployed/read back (codex)
 
+## 0.5.3 — correct answer selection pronunciation (codex,2026-11-23)
+
+L-015: correct submissions immediately reuse the ordinary target-language speaker action, with no extra waiting step. Correct navigation remains500ms and cancels old sound on prompt change; wrong-answer three-pair correction remains unchanged. Speaker-only playback never grades. No content/recordings/engine/directions/saved-state changes. Verification and publication status: see current checkpoint.
+
+
 ## 0.5.2 — simple setup and dark default (codex, 2026-11-23)
 
 Owner-authorized L-014: choose direction first, then Basic Kids100 / Basic Adults100 / Full510 in one selector. Website/app default dark on fresh loads; light toggle stays volatile and optional landing handoff is consumed immediately. No changes to content IDs/meanings, recordings, engine, seven directions, scoring,500ms correct transition or three-pair correction.55 Node/41 Python tests; all21 direction/course starts and320/390/1280 dark/light layouts pass locally. Merged PR #33 and deployed via Pages45260975524; actual app/landing/offline bytes verified. [Delivery receipt](delivery/2026-11-23-simple-course-dark-live.json).
