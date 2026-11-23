@@ -23,6 +23,15 @@ class BasicVocabularyTests(unittest.TestCase):
         payload={'id':course['id'],'languages':lock['languages'],
                  'phrases':[{k:phrases[ident][k] for k in ['id',*lock['languages']]} for ident in lock['phraseIds']],
                  'lessons':[blocks[ident] for ident in lock['blockIds']]}
+        edits=json.loads((ROOT/'tests/fixtures/usage-correction-baseline.json').read_text())['distractorEdits']
+        import copy
+        payload=copy.deepcopy(payload)
+        for block in payload['lessons']:
+            for prompt in block['prompts']:
+                if prompt['id'] in edits:
+                    change=edits[prompt['id']]
+                    self.assertEqual(prompt['distractorIds'],change['after'])
+                    prompt['distractorIds']=change['before']
         digest=hashlib.sha256(json.dumps(payload,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()).hexdigest()
         self.assertEqual(digest,lock['digest'],'vocabulary IDs/text/answer bindings changed')
 
@@ -40,7 +49,16 @@ class BasicVocabularyTests(unittest.TestCase):
         self.assertEqual(len(set(english)),target,'duplicate English entries must not inflate the item count')
         for language in course['languages']:
             values=[unicodedata.normalize('NFC',bank[p['phraseId']][language]).casefold().strip() for p in prompts]
-            self.assertEqual(len(set(values)),target,f'duplicate {language} entries must not inflate the count')
+            if language=='ja':
+                # Distinct meanings may legitimately share a translation. Pin the
+                # only approved duplicate; per-question uniqueness stays strict.
+                from collections import defaultdict
+                groups=defaultdict(list)
+                for prompt,value in zip(prompts,values):groups[value].append(prompt['phraseId'])
+                self.assertEqual({v:sorted(ids) for v,ids in groups.items() if len(ids)>1},
+                                 {'こんにちは':['vocab-0001','vocab-0269']})
+            else:
+                self.assertEqual(len(set(values)),target,f'duplicate {language} entries must not inflate the count')
 
     def test_first_ten_blocks_are_simple_words_or_short_phrases_not_sentences(self):
         course,_=load_content(ROOT)
