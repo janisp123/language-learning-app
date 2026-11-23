@@ -35,6 +35,22 @@
       if (ticket === generation && result === false) $('question-audio-error').textContent = labels.error;
     }
     function replay() { if (!correcting) return play(prompt); }
+    async function selected(shown) {
+      if (activeQuestion !== shown) return null;
+      if (!labels || !pack.directions.includes(shown.source + '-' + shown.target)) return false;
+      const answer = shown.options.find(item => item.id === shown.correctId);
+      if (!answer) return false;
+      const ticket = ++generation;
+      correcting = true; player.stop();
+      $('question-replay').disabled = true;
+      $('question-audio-error').textContent = '';
+      const failed = () => { if (ticket === generation) $('question-audio-error').textContent = labels.error; };
+      const result = await player.playToEnd(answer.id,shown.target,answer.text,failed);
+      if (ticket !== generation || result === null) return null;
+      if (result !== true) failed();
+      correcting = false;
+      return result;
+    }
     async function correct(shown, correctText, onRound = () => {}) {
       if (activeQuestion !== shown) return null;
       if (!labels || !pack.directions.includes(shown.source + '-' + shown.target)) return false;
@@ -70,7 +86,7 @@
       });
     }
     $('question-replay').addEventListener('click', replay);
-    return {localize, question, option, correct, reset};
+    return {localize, question, option, selected, correct, reset};
   }
   const api = {create};
   if (typeof module !== 'undefined' && module.exports) module.exports = api;

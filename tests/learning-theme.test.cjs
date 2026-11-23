@@ -29,7 +29,7 @@ test('dark mode carries into learning without saving a preference and survives l
  assert.equal(await row.evaluate(e=>getComputedStyle(e).outlineStyle),'none');
  assert.equal(await page.locator('#progress').getAttribute('value'),'0');
  const first=await page.evaluate(()=>JSON.parse(document.querySelector('#course-data').textContent).lessons[0].prompts[0].phraseId);
- await page.locator(`[data-option-id="${first}"]`).click();await page.locator('#learning-theme-toggle').click();await page.waitForTimeout(600);assert.equal(await page.locator('#progress').getAttribute('value'),'1');assert.equal(await page.locator('html').getAttribute('data-theme'),'light');
+ await page.locator(`[data-option-id="${first}"]`).click();await page.locator('#learning-theme-toggle').click();await page.waitForFunction(()=>document.getElementById('progress').value===1);assert.equal(await page.locator('#progress').getAttribute('value'),'1');assert.equal(await page.locator('html').getAttribute('data-theme'),'light');
  await page.locator('#learning-theme-toggle').focus();await page.keyboard.press('Space');assert.equal(await page.locator('html').getAttribute('data-theme'),'dark');assert.equal(await page.locator('#progress').getAttribute('value'),'1');
  await page.locator('#restart').click();assert.equal(await page.locator('html').getAttribute('data-theme'),'dark');assert.equal(await page.locator('#progress').getAttribute('value'),'0');
  await page.locator('#change').click();await page.selectOption('#direction','ru-lv');assert.equal(await page.locator('html').getAttribute('data-theme'),'dark');

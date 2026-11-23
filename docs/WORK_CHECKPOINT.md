@@ -1,6 +1,10 @@
 # Current working checkpoint
 
-Current task: L-010
+Current task: L-016
+
+## Current authorized slice — L-016
+
+Owner explicitly superseded fixed500ms correct navigation: play the complete target recording, then wait2 more seconds. Use actual ended event, not a text-length estimate. Implemented completion-aware selected playback and2000ms pause, including cancellation/failure recovery. Baseline main733e638, isolated fix/correct-answer-listening-delay at /workspace/work/correct-answer-delay. 58Node/41Python and21 actual-browser course/direction cases passed, including native media completion+2sec, long playback, error/stall and cancellation during sound/pause. Build/download/site parity and protocol passed. Independent review approved;19 audio/UI tests independently rerun. PR/publication pending. Current live remains0.5.3 until independently verified. Next after this slice remains L-010.
 
 ## Latest verified delivery — L-015
 

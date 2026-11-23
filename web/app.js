@@ -130,7 +130,6 @@
       pending = E.answer(course, state, shown, id);
       for (const row of $('choices').children) {
         const [button, speaker] = row.children;
-        if (pending.feedback.correct && button.dataset.optionId === id) speaker.click();
         button.disabled = true; speaker.disabled = true;
         if (button.dataset.optionId === shown.correctId) button.classList.add('correct');
         else if (button.dataset.optionId === id) button.classList.add('incorrect');
@@ -154,7 +153,14 @@
         if (state.phase === 'complete') { audio?.reset(); screen('finished'); $('finished-title').focus(); }
         else render(false);
       }
-      if (!pending.feedback.correct && audio?.correct) {
+      if (pending.feedback.correct) {
+        if (audio?.selected) {
+          void audio.selected(shown).then(result => {
+            if (ticket !== generation || !pending || result === null) return;
+            advanceTimer = setTimeout(advance,2000);
+          });
+        } else advanceTimer = setTimeout(advance,2000);
+      } else if (audio?.correct) {
         const round = n => { if (ticket === generation) $('correction-status').textContent = t('listening',{n,total:3}); };
         void audio.correct(shown,pending.feedback.correctText,round).then(result => {
           if (ticket !== generation || !pending || result === null) return;
