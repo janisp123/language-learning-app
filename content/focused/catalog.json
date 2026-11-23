@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "focused-0.1.0",
+  "defaultAudience": "kids",
+  "reviewStatus": "editorial-human-review-pending",
+  "courses": {
+    "kids": "courses/kids.json",
+    "adults": "courses/adults.json"
+  },
+  "conceptsFile": "concepts.json",
+  "languageFiles": {
+    "lv": "languages/lv.json",
+    "ru": "languages/ru.json",
+    "en": "languages/en.json",
+    "ja": "languages/ja.json"
+  }
+}

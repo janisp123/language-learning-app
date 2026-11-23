@@ -2,32 +2,29 @@
 
 Current task: L-012
 
-## Resume summary — 2026-11-23
+## Current state — 2026-11-23
 
-**Phase: course lists/design APPROVED; implementation plan prepared for review; NO application implementation.** Owner requested Kids / Adults selection across the existing seven directions and explicitly accepted approximately100–150 essential words/short expressions per starting course, preserving the remainder of510 outside the focused courses. Owner then authorized drafting the lists before app changes, and subsequently approved the complete100-item lists/design (“Yes it looks good”).
+**Kids/Adults0.5.0 implemented and browser-verified; publishing authorized and in progress.** Owner explicitly requested live-website testing, efficient checked merging and matching website descriptions, rather than a separate preview. Do not ask again for routine implementation/merge/publication within this scope.
 
-**Current deliverable:** [Kids / Adults proposal](proposals/2026-11-23-focused-kids-adults.md), authored by codex. Owner approved100 items per course:80 shared +20 relevant to each audience,10 blocks each;120 distinct draft entries overall.62 have exact current English-label matches,10 match library wording,48 need new wording or sense-mapping review. These are reuse candidates, not approved translations, bound IDs or recordings.
+Branch `feat/focused-courses`, isolated checkout `/workspace/work/focused-courses`, baseline main3bc78a9 (merged design PR #28). The first usage corrections PR #27 is merged0e81ad6 and publicly deployed0.4.13, hosted bytes verified. Current0.5.0 source/PR/CI/merge/Pages/hosted readback must be checked separately and recorded below after execution.
 
-**Purpose:** Enable basic mutual communication using a small, repeatedly reused core. Understanding/being understood takes priority over broad categories and stylistic/politeness refinement. Both things to say and likely questions/responses are included. No claim that multiple-choice completion proves conversational ability.
+## Implemented
 
-## Source and pending work
+-100-item Kids and Adults courses:80 shared teaching intents +20 school/play or everyday transaction/travel items. Complete phrases from lesson1. Source-language audience controls; separate original510 checkbox. Exactly seven global directions; selected engine views allow only their own pair and use unique course identity.
+- Canonical new-only extensions add67 meanings/complete examples/language variants, with268 matching bundled clips. Original510 translations/blocks and2,040 clips remain unchanged. No copied dictionary per audience. All course/audio manifests strictly bind IDs/text/hash; stale legacy audio revision/collisions fail closed.
+- Existing scoring, reshuffle,500ms, current-prompt autoplay/answer replay and ZERO saved learner state preserved. Changing course/direction cancels old sound/timers and resets current session. Reload resets Kids/default direction/lesson1; no age/account/preferences storage.
+- Website EN/RU/LV descriptions/metadata and README updated. Offline button now downloads the matching current website HTML, not an older Drive review. Reviewed distractors vary by speech/word type/direction; no fixed three-noun shortcut.
 
-- Draft branch `docs/focused-kids-adults-draft`, isolated checkout `/workspace/work/focused-courses-draft`, baseline main `e72e03275cab060bd6c69807e8e0ba0947aa6d9a`. Main/public app remains0.4.11; draft changes documentation only.
-- [PR #26](https://github.com/janisp123/language-learning-app/pull/26) MERGED at e72e032: full editorial usage audit and60-entry reusable library. Main TD/checkpoint had stale “pending integration” wording; this draft coordination corrects it.
-- [PR #27](https://github.com/janisp123/language-learning-app/pull/27) is MERGED: first approved correction slice0.4.13, merged at0e81ad62aed82218e025c5a809b2aa25d9ee5d06. Japanese hello and six overlapping choice pairs only.46Node/35Python, all510/all7 Chromium, independent review and final-head CI45198819468/protocol45198819416 previously passed. Review Drive file1rVhiL_5fXNwSGwYJE3dMgw0RjyvXY1DZ downloaded byte-identical:21,393,935 bytes; SHA256642cd267a5ac6d7e8b8793f4009bdfb1bb0676b16a521d06a52d280f4fc645c3. Historical evidence, not new test claims for this draft. Publication is authorized; verify the resulting Pages run/hosted bytes before calling it live.
-- [PR #21](https://github.com/janisp123/language-learning-app/pull/21) stays OPEN/unmerged/on hold: reading guides0.4.12 only for lv-ru / ru-en / en-ja. Stable Drive file1594pGCAm3E7hOq0-oSwLFh8z4WtRI3vd remains that older reading-guide review. Reconcile outdated task-path edits and the matching Japanese hello guide patch before later feature integration. Do not merge it to save this proposal.
-- Existing510 content/IDs/recordings are preserved. Exactly seven language directions, all audio behavior, scoring/500ms transition and ZERO saved learner state remain mandatory. Proposed audience choice is current-session memory only; no age entry, account, tracking or saved preference.
+## Verification
 
-## Approval boundary and exact next action
+PASS: Python41; focused engine/course counts/identity/full completion tests; real Chromium14 runs×100 prompts, matching new Japanese clip decode/replay without grading, pending-answer audience-switch cancellation,499/500ms, original510 access, reload/default/zero storage,320/390/1280 light/dark overflow. All268 new clips decoded. Independent review cleared corrected choice quality, README links and audio revision checks. Final Node rerun and source CI are recorded on the feature PR before merge. Technical PASS is not fluent-human certification or physical-phone/fullscreen-reader review.
 
-Owner approved the course lists/design, including practical phrases from lesson1. The [implementation plan](superpowers/plans/2026-11-23-focused-kids-adults.md) now breaks work into content mapping/strict modules; pure course selection/UI/session isolation; then audio/reading integration, real verification and review delivery. Existing canonical vocabulary/engine are reused; no duplicate dictionary per audience.
+Artifact:26,166,776 bytes; SHA2569ef61fb215c644a2858d95b509af31ba6e6206f6f8f584538a016c91c998325d. Browser receipt: [verification](review/2026-11-23-focused-browser.json). Build/site/download byte parity checked.
 
-Present the concrete plan and author choices: Kids default, separate collapsed original510 access, complete pattern examples (language-name variants keyed by distinct concepts), and focused-only12-word structural ceiling. No application coding, data/audio authoring, PR merge, Drive replacement or publication is authorized by the preceding request to plan. Do not claim Kids/Adults exists in the live app.
+## Remaining and next action
 
-After explicit plan/execution authorization, implement the bounded stages inline with a final independent review, preserving legacy510 and the global seven-direction selector. Recheck #27/#21 dependency authorization first; no silent product merge. Other L-011 findings remain separate/pending. Bare “continue” retains the read-only preflight convention.
+Finish checked source integration/live Pages deployment and verify the actual hosted bytes plus both visible audience controls before claiming0.5.0 live. Then report the normal live URLs so the Owner can test immediately. Publication is already authorized.
 
-Canonical active tasks: docs/TD_LIST.md. Prior checkpoint preserved [verbatim](history/WORK_CHECKPOINT-before-focused-course-draft-2026-11-23.md). Design/plan source remains in [PR #28](https://github.com/janisp123/language-learning-app/pull/28), unmerged; actual head/checks are verified on the PR before final handoff. Planning uses the existing isolated docs/focused-kids-adults-draft branch; no implementation commit exists.
+Reading-guide PR #21 remains unmerged: readings for lv-ru/ru-en/en-ja are not imported in this slice and must not be claimed live. Next bounded implementation is reconciling its current source/protocol conflicts and exact greeting/new-phrase guide coverage, then testing/publishing that authorized learning aid separately. Preserve the existing held0.4.12 Drive file until replacement is appropriate. Remaining L-011 usage context findings and fluent-human/device review stay pending; do not call every phrase optimal.
 
-## Latest execution authorization — 2026-11-23
-
-Owner explicitly requested implementation and merging/publishing verified changes on the live website, plus matching website descriptions, rather than a separate preview. Proceed within L-012 without asking again for ordinary coding/deployment steps. PR #27 merged at0e81ad6; verify its deployment. PR #28 plan/metadata integration is being reconciled against it, preserving Current task L-012. Kids/Adults is not implemented yet; do not describe it as live until tested and deployed.
+Canonical active tasks: docs/TD_LIST.md. Prior checkpoint preserved [verbatim](history/WORK_CHECKPOINT-before-focused-publication-2026-11-23.md). User's explicit live-publication authorization persists across interruptions; bare continue should resume the already authorized active work without making the Owner repeat approval.

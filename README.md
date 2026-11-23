@@ -2,7 +2,7 @@
 
 **[Try the app](https://janisp123.github.io/language-learning-app/learn/)** · [Project website](https://janisp123.github.io/language-learning-app/)
 
-Short lessons for practical Latvian, Russian and English communication, plus English → Japanese for my own learning. Free to try in a browser, with pronunciation and no account or installation.
+Focused **Kids and Adults courses with 100 words and short expressions each**:80 shared communication basics plus 20 for school/play or everyday shopping/travel. All six Latvian/Russian/English directions, plus English → Japanese. The original 510-item course remains available separately. Free to try in a browser, with pronunciation and no account or installation.
 
 I'm Janis. I wanted a simple way to practise useful everyday words and phrases, and a chance to see how far an idea could go with AI assistance. I use ChatGPT and Codex to help turn requirements into code, tests and working applications. This is a hobby project: I enjoy experimenting, checking the results and learning as I build.
 
@@ -10,7 +10,8 @@ I'm Janis. I wanted a simple way to practise useful everyday words and phrases, 
 
 ## What works today
 
-- 510 draft words and short phrases in 51 ten-question lessons, initially designed around ages 10–17.
+- Kids/Adults selection on the learning page:100 items in 10 ten-question lessons per course, practical phrases from lesson 1.
+- The original 510-item course remains available through its separate setup control; existing content and recordings are preserved.
 - Exactly seven directions: all six between Latvian, Russian and English, plus **English → Japanese only**. Japanese answers use Japanese script; this direction keeps the English interface.
 - Bundled pronunciation for every item in all four languages. The current prompt attempts playback automatically; its speaker replays it if autoplay is blocked. Each answer has its own speaker, which plays without submitting an answer.
 - A responsive browser interface with light/dark mode. The project website has EN/RU/LV reading controls; the learning interface follows the source language.
@@ -22,7 +23,7 @@ I'm Janis. I wanted a simple way to practise useful everyday words and phrases, 
 
 ## How practice works
 
-Choose a direction and start. Select answer text to submit it, or tap any speaker just to listen. Choices reshuffle each time a prompt appears. Feedback is immediate; the next prompt appears after 500 ms.
+Choose Kids or Adults, select a direction and start. Expand the original-course control if you want the larger 510-item course. Select answer text to submit it, or tap any speaker just to listen. Choices reshuffle each time a prompt appears. Feedback is immediate; the next prompt appears after 500 ms.
 
 Ten consecutive correct answers complete a lesson. A wrong answer steps back one prompt and resets the consecutive run. The third mistake within the same lesson restarts at lesson 1, even if correct answers came between mistakes. Completing a lesson or restarting clears that lesson's mistake counter.
 
@@ -46,7 +47,7 @@ Requires Node 24+ and Python 3.12+. The generated file is `dist/language-learnin
 
 | Area | Source |
 |---|---|
-| Course | `content/`: catalog, permanent concepts, ten-question blocks and per-language modules |
+| Course | `content/` for the original bank; `content/focused/` for shared focused-course selections and new-only meanings/translations |
 | Learning rules | `core/`: platform-independent learning behavior |
 | Browser interface | `web/`: template, styles, audio and event handling |
 | Packaging and checks | `tools/` and `tests/` |

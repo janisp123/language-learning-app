@@ -1,0 +1,507 @@
+{
+  "status": "editorial-human-review-pending",
+  "baseline": "3bc78a9",
+  "slotMappings": {
+    "S01": {
+      "slotId": "S01",
+      "conceptId": "vocab-0001"
+    },
+    "S02": {
+      "slotId": "S02",
+      "conceptId": "focus-s02"
+    },
+    "S03": {
+      "slotId": "S03",
+      "conceptId": "vocab-0004"
+    },
+    "S04": {
+      "slotId": "S04",
+      "conceptId": "vocab-0005"
+    },
+    "S05": {
+      "slotId": "S05",
+      "conceptId": "vocab-0006"
+    },
+    "S06": {
+      "slotId": "S06",
+      "conceptId": "vocab-0007"
+    },
+    "S07": {
+      "slotId": "S07",
+      "conceptId": "focus-s07"
+    },
+    "S08": {
+      "slotId": "S08",
+      "conceptId": "focus-s08"
+    },
+    "S09": {
+      "slotId": "S09",
+      "conceptId": "focus-s09"
+    },
+    "S10": {
+      "slotId": "S10",
+      "conceptId": "focus-s10"
+    },
+    "S11": {
+      "slotId": "S11",
+      "conceptId": "focus-s11"
+    },
+    "S12": {
+      "slotId": "S12",
+      "conceptId": "focus-s12"
+    },
+    "S13": {
+      "slotId": "S13",
+      "conceptId": "vocab-0504"
+    },
+    "S14": {
+      "slotId": "S14",
+      "conceptId": "focus-s14"
+    },
+    "S15": {
+      "slotId": "S15",
+      "conceptId": "focus-s15"
+    },
+    "S16": {
+      "slotId": "S16",
+      "conceptId": "focus-s16"
+    },
+    "S17": {
+      "slotId": "S17",
+      "conceptId": "focus-s17"
+    },
+    "S20": {
+      "slotId": "S20",
+      "conceptId": "focus-s20"
+    },
+    "S21": {
+      "slotId": "S21",
+      "conceptId": "focus-s21"
+    },
+    "S22": {
+      "slotId": "S22",
+      "conceptId": "vocab-0501"
+    },
+    "S23": {
+      "slotId": "S23",
+      "conceptId": "focus-s23"
+    },
+    "S24": {
+      "slotId": "S24",
+      "conceptId": "focus-s24"
+    },
+    "S25": {
+      "slotId": "S25",
+      "conceptId": "focus-s25"
+    },
+    "S26": {
+      "slotId": "S26",
+      "conceptId": "focus-s26"
+    },
+    "S27": {
+      "slotId": "S27",
+      "conceptId": "focus-s27"
+    },
+    "S28": {
+      "slotId": "S28",
+      "conceptId": "focus-s28"
+    },
+    "S29": {
+      "slotId": "S29",
+      "conceptId": "focus-s29"
+    },
+    "S30": {
+      "slotId": "S30",
+      "conceptId": "vocab-0265"
+    },
+    "S31": {
+      "slotId": "S31",
+      "conceptId": "vocab-0051"
+    },
+    "S32": {
+      "slotId": "S32",
+      "conceptId": "focus-s32"
+    },
+    "S33": {
+      "slotId": "S33",
+      "conceptId": "vocab-0052"
+    },
+    "S34": {
+      "slotId": "S34",
+      "conceptId": "vocab-0053"
+    },
+    "S35": {
+      "slotId": "S35",
+      "conceptId": "vocab-0054"
+    },
+    "S36": {
+      "slotId": "S36",
+      "conceptId": "vocab-0055"
+    },
+    "S37": {
+      "slotId": "S37",
+      "conceptId": "focus-s37"
+    },
+    "S38": {
+      "slotId": "S38",
+      "conceptId": "focus-s38"
+    },
+    "S39": {
+      "slotId": "S39",
+      "conceptId": "focus-s39"
+    },
+    "S40": {
+      "slotId": "S40",
+      "conceptId": "focus-s40"
+    },
+    "S41": {
+      "slotId": "S41",
+      "conceptId": "focus-s41"
+    },
+    "S42": {
+      "slotId": "S42",
+      "conceptId": "vocab-0033"
+    },
+    "S43": {
+      "slotId": "S43",
+      "conceptId": "vocab-0034"
+    },
+    "S44": {
+      "slotId": "S44",
+      "conceptId": "vocab-0071"
+    },
+    "S45": {
+      "slotId": "S45",
+      "conceptId": "vocab-0072"
+    },
+    "S46": {
+      "slotId": "S46",
+      "conceptId": "vocab-0073"
+    },
+    "S47": {
+      "slotId": "S47",
+      "conceptId": "vocab-0041"
+    },
+    "S48": {
+      "slotId": "S48",
+      "conceptId": "vocab-0049"
+    },
+    "S49": {
+      "slotId": "S49",
+      "conceptId": "focus-s49"
+    },
+    "S50": {
+      "slotId": "S50",
+      "conceptId": "focus-s50"
+    },
+    "S51": {
+      "slotId": "S51",
+      "conceptId": "vocab-0021"
+    },
+    "S52": {
+      "slotId": "S52",
+      "conceptId": "vocab-0022"
+    },
+    "S53": {
+      "slotId": "S53",
+      "conceptId": "vocab-0023"
+    },
+    "S54": {
+      "slotId": "S54",
+      "conceptId": "vocab-0024"
+    },
+    "S55": {
+      "slotId": "S55",
+      "conceptId": "vocab-0025"
+    },
+    "S56": {
+      "slotId": "S56",
+      "conceptId": "vocab-0026"
+    },
+    "S57": {
+      "slotId": "S57",
+      "conceptId": "vocab-0027"
+    },
+    "S58": {
+      "slotId": "S58",
+      "conceptId": "vocab-0028"
+    },
+    "S59": {
+      "slotId": "S59",
+      "conceptId": "vocab-0029"
+    },
+    "S60": {
+      "slotId": "S60",
+      "conceptId": "vocab-0030"
+    },
+    "S61": {
+      "slotId": "S61",
+      "conceptId": "vocab-0305"
+    },
+    "S62": {
+      "slotId": "S62",
+      "conceptId": "vocab-0306"
+    },
+    "S63": {
+      "slotId": "S63",
+      "conceptId": "vocab-0035"
+    },
+    "S64": {
+      "slotId": "S64",
+      "conceptId": "vocab-0036"
+    },
+    "S65": {
+      "slotId": "S65",
+      "conceptId": "focus-s65"
+    },
+    "S66": {
+      "slotId": "S66",
+      "conceptId": "focus-s66"
+    },
+    "S67": {
+      "slotId": "S67",
+      "conceptId": "vocab-0461"
+    },
+    "S68": {
+      "slotId": "S68",
+      "conceptId": "vocab-0462"
+    },
+    "S69": {
+      "slotId": "S69",
+      "conceptId": "vocab-0451"
+    },
+    "S70": {
+      "slotId": "S70",
+      "conceptId": "vocab-0452"
+    },
+    "S71": {
+      "slotId": "S71",
+      "conceptId": "focus-s71"
+    },
+    "S72": {
+      "slotId": "S72",
+      "conceptId": "focus-s72"
+    },
+    "S73": {
+      "slotId": "S73",
+      "conceptId": "focus-s73"
+    },
+    "S74": {
+      "slotId": "S74",
+      "conceptId": "focus-s74"
+    },
+    "S75": {
+      "slotId": "S75",
+      "conceptId": "focus-s75"
+    },
+    "S76": {
+      "slotId": "S76",
+      "conceptId": "focus-s76"
+    },
+    "S77": {
+      "slotId": "S77",
+      "conceptId": "vocab-0503"
+    },
+    "S78": {
+      "slotId": "S78",
+      "conceptId": "vocab-0505"
+    },
+    "S79": {
+      "slotId": "S79",
+      "conceptId": "vocab-0506"
+    },
+    "S80": {
+      "slotId": "S80",
+      "conceptId": "vocab-0171"
+    },
+    "K01": {
+      "slotId": "K01",
+      "conceptId": "vocab-0015"
+    },
+    "K02": {
+      "slotId": "K02",
+      "conceptId": "focus-k02"
+    },
+    "K03": {
+      "slotId": "K03",
+      "conceptId": "focus-k03"
+    },
+    "K04": {
+      "slotId": "K04",
+      "conceptId": "vocab-0068"
+    },
+    "K05": {
+      "slotId": "K05",
+      "conceptId": "vocab-0042"
+    },
+    "K06": {
+      "slotId": "K06",
+      "conceptId": "vocab-0061"
+    },
+    "K07": {
+      "slotId": "K07",
+      "conceptId": "vocab-0063"
+    },
+    "K08": {
+      "slotId": "K08",
+      "conceptId": "vocab-0391"
+    },
+    "K09": {
+      "slotId": "K09",
+      "conceptId": "vocab-0069"
+    },
+    "K10": {
+      "slotId": "K10",
+      "conceptId": "vocab-0070"
+    },
+    "K11": {
+      "slotId": "K11",
+      "conceptId": "focus-k11"
+    },
+    "K12": {
+      "slotId": "K12",
+      "conceptId": "focus-k12"
+    },
+    "K13": {
+      "slotId": "K13",
+      "conceptId": "focus-k13"
+    },
+    "K14": {
+      "slotId": "K14",
+      "conceptId": "focus-k14"
+    },
+    "K15": {
+      "slotId": "K15",
+      "conceptId": "focus-k15"
+    },
+    "K16": {
+      "slotId": "K16",
+      "conceptId": "focus-k16"
+    },
+    "K17": {
+      "slotId": "K17",
+      "conceptId": "focus-k17"
+    },
+    "K18": {
+      "slotId": "K18",
+      "conceptId": "focus-k18"
+    },
+    "K19": {
+      "slotId": "K19",
+      "conceptId": "focus-k19"
+    },
+    "K20": {
+      "slotId": "K20",
+      "conceptId": "focus-k20"
+    },
+    "A01": {
+      "slotId": "A01",
+      "conceptId": "vocab-0043"
+    },
+    "A02": {
+      "slotId": "A02",
+      "conceptId": "vocab-0271"
+    },
+    "A03": {
+      "slotId": "A03",
+      "conceptId": "focus-a03"
+    },
+    "A04": {
+      "slotId": "A04",
+      "conceptId": "focus-a04"
+    },
+    "A05": {
+      "slotId": "A05",
+      "conceptId": "vocab-0371"
+    },
+    "A06": {
+      "slotId": "A06",
+      "conceptId": "vocab-0374"
+    },
+    "A07": {
+      "slotId": "A07",
+      "conceptId": "vocab-0378"
+    },
+    "A08": {
+      "slotId": "A08",
+      "conceptId": "vocab-0380"
+    },
+    "A09": {
+      "slotId": "A09",
+      "conceptId": "vocab-0045"
+    },
+    "A10": {
+      "slotId": "A10",
+      "conceptId": "vocab-0044"
+    },
+    "A11": {
+      "slotId": "A11",
+      "conceptId": "focus-a11"
+    },
+    "A12": {
+      "slotId": "A12",
+      "conceptId": "focus-a12"
+    },
+    "A13": {
+      "slotId": "A13",
+      "conceptId": "focus-a13"
+    },
+    "A14": {
+      "slotId": "A14",
+      "conceptId": "focus-a14"
+    },
+    "A15": {
+      "slotId": "A15",
+      "conceptId": "focus-a15"
+    },
+    "A16": {
+      "slotId": "A16",
+      "conceptId": "focus-a16"
+    },
+    "A17": {
+      "slotId": "A17",
+      "conceptId": "focus-a17"
+    },
+    "A18": {
+      "slotId": "A18",
+      "conceptId": "focus-a18"
+    },
+    "A19": {
+      "slotId": "A19",
+      "conceptId": "focus-a19"
+    },
+    "A20": {
+      "slotId": "A20",
+      "conceptId": "focus-a20"
+    },
+    "S18": {
+      "slotId": "S18",
+      "conceptByDirection": {
+        "lv-ru": "focus-s18-ru",
+        "lv-en": "focus-s18-en",
+        "ru-lv": "focus-s18-lv",
+        "ru-en": "focus-s18-en",
+        "en-lv": "focus-s18-lv",
+        "en-ru": "focus-s18-ru",
+        "en-ja": "focus-s18-ja"
+      }
+    },
+    "S19": {
+      "slotId": "S19",
+      "conceptByDirection": {
+        "lv-ru": "focus-s19-lv",
+        "lv-en": "focus-s19-lv",
+        "ru-lv": "focus-s19-ru",
+        "ru-en": "focus-s19-ru",
+        "en-lv": "focus-s19-en",
+        "en-ru": "focus-s19-en",
+        "en-ja": "focus-s19-en"
+      }
+    }
+  },
+  "notes": [
+    "Complete examples realize approved pattern intents; language-name variants are distinct concepts.",
+    "All legacy text/audio remains unchanged. Familiar farewell and Mum/Dad are focused-only forms.",
+    "Distractors vary by speech/word class and direction, with broad-meaning and near-equivalent speech acts excluded; remaining fluent-human semantic review is pending."
+  ]
+}

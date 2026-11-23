@@ -1,0 +1,337 @@
+{
+  "focus-s02": {
+    "conceptId": "focus-s02",
+    "meaning": "Goodbye",
+    "text": "Uz tikšanos"
+  },
+  "focus-s07": {
+    "conceptId": "focus-s07",
+    "meaning": "My name is …",
+    "text": "Mani sauc Anna"
+  },
+  "focus-s08": {
+    "conceptId": "focus-s08",
+    "meaning": "What is your name?",
+    "text": "Kā tevi sauc?"
+  },
+  "focus-s09": {
+    "conceptId": "focus-s09",
+    "meaning": "Where are you from?",
+    "text": "No kurienes tu esi?"
+  },
+  "focus-s10": {
+    "conceptId": "focus-s10",
+    "meaning": "I am from …",
+    "text": "Es esmu no Latvijas"
+  },
+  "focus-s11": {
+    "conceptId": "focus-s11",
+    "meaning": "How are you?",
+    "text": "Kā tev iet?"
+  },
+  "focus-s12": {
+    "conceptId": "focus-s12",
+    "meaning": "I am fine",
+    "text": "Man iet labi"
+  },
+  "focus-s14": {
+    "conceptId": "focus-s14",
+    "meaning": "Please repeat that",
+    "text": "Lūdzu, atkārtojiet"
+  },
+  "focus-s15": {
+    "conceptId": "focus-s15",
+    "meaning": "Please speak more slowly",
+    "text": "Lūdzu, runājiet lēnāk"
+  },
+  "focus-s16": {
+    "conceptId": "focus-s16",
+    "meaning": "What does … mean?",
+    "text": "Ko tas nozīmē?"
+  },
+  "focus-s17": {
+    "conceptId": "focus-s17",
+    "meaning": "I don’t know",
+    "text": "Es nezinu"
+  },
+  "focus-s20": {
+    "conceptId": "focus-s20",
+    "meaning": "Please show me",
+    "text": "Lūdzu, parādiet man"
+  },
+  "focus-s21": {
+    "conceptId": "focus-s21",
+    "meaning": "I want …",
+    "text": "Es gribu ūdeni"
+  },
+  "focus-s23": {
+    "conceptId": "focus-s23",
+    "meaning": "I have …",
+    "text": "Man ir telefons"
+  },
+  "focus-s24": {
+    "conceptId": "focus-s24",
+    "meaning": "I don’t have …",
+    "text": "Man nav telefona"
+  },
+  "focus-s25": {
+    "conceptId": "focus-s25",
+    "meaning": "I like …",
+    "text": "Man garšo āboli"
+  },
+  "focus-s26": {
+    "conceptId": "focus-s26",
+    "meaning": "I don’t like …",
+    "text": "Man negaršo piens"
+  },
+  "focus-s27": {
+    "conceptId": "focus-s27",
+    "meaning": "Can I …?",
+    "text": "Vai es varu šeit apsēsties?"
+  },
+  "focus-s28": {
+    "conceptId": "focus-s28",
+    "meaning": "Can you help me?",
+    "text": "Vai tu vari man palīdzēt?"
+  },
+  "focus-s29": {
+    "conceptId": "focus-s29",
+    "meaning": "This one",
+    "text": "Šis"
+  },
+  "focus-s32": {
+    "conceptId": "focus-s32",
+    "meaning": "Food",
+    "text": "Ēdiens"
+  },
+  "focus-s37": {
+    "conceptId": "focus-s37",
+    "meaning": "I am hungry",
+    "text": "Es gribu ēst"
+  },
+  "focus-s38": {
+    "conceptId": "focus-s38",
+    "meaning": "I am thirsty",
+    "text": "Es gribu dzert"
+  },
+  "focus-s39": {
+    "conceptId": "focus-s39",
+    "meaning": "More, please",
+    "text": "Vēl, lūdzu"
+  },
+  "focus-s40": {
+    "conceptId": "focus-s40",
+    "meaning": "Enough, thank you",
+    "text": "Pietiek, paldies"
+  },
+  "focus-s41": {
+    "conceptId": "focus-s41",
+    "meaning": "Where is …?",
+    "text": "Kur ir tualete?"
+  },
+  "focus-s49": {
+    "conceptId": "focus-s49",
+    "meaning": "Let’s go",
+    "text": "Ejam"
+  },
+  "focus-s50": {
+    "conceptId": "focus-s50",
+    "meaning": "Please wait",
+    "text": "Lūdzu, uzgaidiet"
+  },
+  "focus-s65": {
+    "conceptId": "focus-s65",
+    "meaning": "What time is it?",
+    "text": "Cik ir pulkstenis?"
+  },
+  "focus-s66": {
+    "conceptId": "focus-s66",
+    "meaning": "What time shall we meet?",
+    "text": "Cikos tiekamies?"
+  },
+  "focus-s71": {
+    "conceptId": "focus-s71",
+    "meaning": "Help!",
+    "text": "Palīgā"
+  },
+  "focus-s72": {
+    "conceptId": "focus-s72",
+    "meaning": "Stop!",
+    "text": "Pārtrauciet"
+  },
+  "focus-s73": {
+    "conceptId": "focus-s73",
+    "meaning": "I don’t want that",
+    "text": "Es to negribu"
+  },
+  "focus-s74": {
+    "conceptId": "focus-s74",
+    "meaning": "I am lost",
+    "text": "Es nevaru atrast ceļu"
+  },
+  "focus-s75": {
+    "conceptId": "focus-s75",
+    "meaning": "I am hurt",
+    "text": "Es savainojos"
+  },
+  "focus-s76": {
+    "conceptId": "focus-s76",
+    "meaning": "I feel unwell",
+    "text": "Es jūtos slikti"
+  },
+  "focus-k02": {
+    "conceptId": "focus-k02",
+    "meaning": "Mother",
+    "text": "Mamma"
+  },
+  "focus-k03": {
+    "conceptId": "focus-k03",
+    "meaning": "Father",
+    "text": "Tētis"
+  },
+  "focus-k11": {
+    "conceptId": "focus-k11",
+    "meaning": "Can I play?",
+    "text": "Vai es varu spēlēt?"
+  },
+  "focus-k12": {
+    "conceptId": "focus-k12",
+    "meaning": "Let’s play",
+    "text": "Spēlēsim"
+  },
+  "focus-k13": {
+    "conceptId": "focus-k13",
+    "meaning": "It is my turn",
+    "text": "Mana kārta"
+  },
+  "focus-k14": {
+    "conceptId": "focus-k14",
+    "meaning": "It is your turn",
+    "text": "Tava kārta"
+  },
+  "focus-k15": {
+    "conceptId": "focus-k15",
+    "meaning": "Can I join you?",
+    "text": "Vai es varu pievienoties?"
+  },
+  "focus-k16": {
+    "conceptId": "focus-k16",
+    "meaning": "I need a break",
+    "text": "Man vajag pārtraukumu"
+  },
+  "focus-k17": {
+    "conceptId": "focus-k17",
+    "meaning": "Wait for me",
+    "text": "Pagaidi mani"
+  },
+  "focus-k18": {
+    "conceptId": "focus-k18",
+    "meaning": "Can I borrow …?",
+    "text": "Vai varu aizņemties pildspalvu?"
+  },
+  "focus-k19": {
+    "conceptId": "focus-k19",
+    "meaning": "How do I do this?",
+    "text": "Kā to izdarīt?"
+  },
+  "focus-k20": {
+    "conceptId": "focus-k20",
+    "meaning": "I can’t find my …",
+    "text": "Es nevaru atrast savu somu"
+  },
+  "focus-a03": {
+    "conceptId": "focus-a03",
+    "meaning": "Card",
+    "text": "Maksājumu karte"
+  },
+  "focus-a04": {
+    "conceptId": "focus-a04",
+    "meaning": "Cash",
+    "text": "Skaidra nauda"
+  },
+  "focus-a11": {
+    "conceptId": "focus-a11",
+    "meaning": "How much does this cost?",
+    "text": "Cik tas maksā?"
+  },
+  "focus-a12": {
+    "conceptId": "focus-a12",
+    "meaning": "Can I try it?",
+    "text": "Vai es varu to izmēģināt?"
+  },
+  "focus-a13": {
+    "conceptId": "focus-a13",
+    "meaning": "Can I pay by card?",
+    "text": "Vai var maksāt ar karti?"
+  },
+  "focus-a14": {
+    "conceptId": "focus-a14",
+    "meaning": "The bill, please",
+    "text": "Rēķinu, lūdzu"
+  },
+  "focus-a15": {
+    "conceptId": "focus-a15",
+    "meaning": "Where is the bus stop?",
+    "text": "Kur ir autobusa pietura?"
+  },
+  "focus-a16": {
+    "conceptId": "focus-a16",
+    "meaning": "One ticket to …, please",
+    "text": "Vienu biļeti uz centru, lūdzu"
+  },
+  "focus-a17": {
+    "conceptId": "focus-a17",
+    "meaning": "Does this go to …?",
+    "text": "Vai tas brauc uz centru?"
+  },
+  "focus-a18": {
+    "conceptId": "focus-a18",
+    "meaning": "What time does it leave?",
+    "text": "Cikos tas atiet?"
+  },
+  "focus-a19": {
+    "conceptId": "focus-a19",
+    "meaning": "Where can I buy …?",
+    "text": "Kur var nopirkt biļeti?"
+  },
+  "focus-a20": {
+    "conceptId": "focus-a20",
+    "meaning": "I work in …",
+    "text": "Es strādāju veikalā"
+  },
+  "focus-s18-lv": {
+    "conceptId": "focus-s18-lv",
+    "meaning": "I speak a little Latvian",
+    "text": "Es mazliet runāju latviski"
+  },
+  "focus-s19-lv": {
+    "conceptId": "focus-s19-lv",
+    "meaning": "Do you speak Latvian?",
+    "text": "Vai jūs runājat latviski?"
+  },
+  "focus-s18-ru": {
+    "conceptId": "focus-s18-ru",
+    "meaning": "I speak a little Russian",
+    "text": "Es mazliet runāju krieviski"
+  },
+  "focus-s19-ru": {
+    "conceptId": "focus-s19-ru",
+    "meaning": "Do you speak Russian?",
+    "text": "Vai jūs runājat krieviski?"
+  },
+  "focus-s18-en": {
+    "conceptId": "focus-s18-en",
+    "meaning": "I speak a little English",
+    "text": "Es mazliet runāju angliski"
+  },
+  "focus-s19-en": {
+    "conceptId": "focus-s19-en",
+    "meaning": "Do you speak English?",
+    "text": "Vai jūs runājat angliski?"
+  },
+  "focus-s18-ja": {
+    "conceptId": "focus-s18-ja",
+    "meaning": "I speak a little Japanese",
+    "text": "Es mazliet runāju japāniski"
+  }
+}

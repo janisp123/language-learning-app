@@ -108,6 +108,8 @@ class ContentModuleTests(unittest.TestCase):
             shutil.copytree(ROOT/'web',root/'web');shutil.copytree(ROOT/'core',root/'core')
             shutil.copytree(ROOT/'audio',root/'audio')
             from build_browser import build
+            # This fixture exercises the independent legacy catalog, not focused courses.
+            shutil.rmtree(root/'content/focused')
             output=build(root,root/'test.html').read_text()
             self.assertEqual(output.count('<option id="direction-'),14)
             self.assertIn('value="zz-lv"',output);self.assertIn('value="en-zz"',output)

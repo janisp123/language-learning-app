@@ -1,0 +1,425 @@
+{
+  "id": "kids-02",
+  "prompts": [
+    {
+      "id": "focused-k11",
+      "slotId": "K11",
+      "conceptId": "focus-k11",
+      "distractorIdsByDirection": {
+        "lv-ru": [
+          "focus-s11",
+          "focus-s16",
+          "focus-s19-lv"
+        ],
+        "lv-en": [
+          "focus-s11",
+          "focus-s16",
+          "focus-s19-lv"
+        ],
+        "ru-lv": [
+          "focus-s11",
+          "focus-s16",
+          "focus-s19-ru"
+        ],
+        "ru-en": [
+          "focus-s11",
+          "focus-s16",
+          "focus-s19-ru"
+        ],
+        "en-lv": [
+          "focus-s11",
+          "focus-s16",
+          "focus-s19-en"
+        ],
+        "en-ru": [
+          "focus-s11",
+          "focus-s16",
+          "focus-s19-en"
+        ],
+        "en-ja": [
+          "focus-s11",
+          "focus-s16",
+          "focus-s19-en"
+        ]
+      }
+    },
+    {
+      "id": "focused-k12",
+      "slotId": "K12",
+      "conceptId": "focus-k12",
+      "distractorIdsByDirection": {
+        "lv-ru": [
+          "focus-s72",
+          "vocab-0505",
+          "vocab-0506"
+        ],
+        "lv-en": [
+          "focus-s72",
+          "vocab-0505",
+          "vocab-0506"
+        ],
+        "ru-lv": [
+          "focus-s72",
+          "vocab-0505",
+          "vocab-0506"
+        ],
+        "ru-en": [
+          "focus-s72",
+          "vocab-0505",
+          "vocab-0506"
+        ],
+        "en-lv": [
+          "focus-s72",
+          "vocab-0505",
+          "vocab-0506"
+        ],
+        "en-ru": [
+          "focus-s72",
+          "vocab-0505",
+          "vocab-0506"
+        ],
+        "en-ja": [
+          "focus-s72",
+          "vocab-0505",
+          "vocab-0506"
+        ]
+      }
+    },
+    {
+      "id": "focused-k13",
+      "slotId": "K13",
+      "conceptId": "focus-k13",
+      "distractorIdsByDirection": {
+        "lv-ru": [
+          "focus-s24",
+          "focus-s25",
+          "focus-s26"
+        ],
+        "lv-en": [
+          "focus-s24",
+          "focus-s25",
+          "focus-s26"
+        ],
+        "ru-lv": [
+          "focus-s24",
+          "focus-s25",
+          "focus-s26"
+        ],
+        "ru-en": [
+          "focus-s24",
+          "focus-s25",
+          "focus-s26"
+        ],
+        "en-lv": [
+          "focus-s24",
+          "focus-s25",
+          "focus-s26"
+        ],
+        "en-ru": [
+          "focus-s24",
+          "focus-s25",
+          "focus-s26"
+        ],
+        "en-ja": [
+          "focus-s24",
+          "focus-s25",
+          "focus-s26"
+        ]
+      }
+    },
+    {
+      "id": "focused-k14",
+      "slotId": "K14",
+      "conceptId": "focus-k14",
+      "distractorIdsByDirection": {
+        "lv-ru": [
+          "focus-s25",
+          "focus-s26",
+          "focus-s37"
+        ],
+        "lv-en": [
+          "focus-s25",
+          "focus-s26",
+          "focus-s37"
+        ],
+        "ru-lv": [
+          "focus-s25",
+          "focus-s26",
+          "focus-s37"
+        ],
+        "ru-en": [
+          "focus-s25",
+          "focus-s26",
+          "focus-s37"
+        ],
+        "en-lv": [
+          "focus-s25",
+          "focus-s26",
+          "focus-s37"
+        ],
+        "en-ru": [
+          "focus-s25",
+          "focus-s26",
+          "focus-s37"
+        ],
+        "en-ja": [
+          "focus-s25",
+          "focus-s26",
+          "focus-s37"
+        ]
+      }
+    },
+    {
+      "id": "focused-k15",
+      "slotId": "K15",
+      "conceptId": "focus-k15",
+      "distractorIdsByDirection": {
+        "lv-ru": [
+          "focus-s28",
+          "focus-s41",
+          "focus-s65"
+        ],
+        "lv-en": [
+          "focus-s28",
+          "focus-s41",
+          "focus-s65"
+        ],
+        "ru-lv": [
+          "focus-s28",
+          "focus-s41",
+          "focus-s65"
+        ],
+        "ru-en": [
+          "focus-s28",
+          "focus-s41",
+          "focus-s65"
+        ],
+        "en-lv": [
+          "focus-s28",
+          "focus-s41",
+          "focus-s65"
+        ],
+        "en-ru": [
+          "focus-s28",
+          "focus-s41",
+          "focus-s65"
+        ],
+        "en-ja": [
+          "focus-s28",
+          "focus-s41",
+          "focus-s65"
+        ]
+      }
+    },
+    {
+      "id": "focused-k16",
+      "slotId": "K16",
+      "conceptId": "focus-k16",
+      "distractorIdsByDirection": {
+        "lv-ru": [
+          "focus-s37",
+          "focus-s38",
+          "focus-s73"
+        ],
+        "lv-en": [
+          "focus-s37",
+          "focus-s38",
+          "focus-s73"
+        ],
+        "ru-lv": [
+          "focus-s37",
+          "focus-s38",
+          "focus-s73"
+        ],
+        "ru-en": [
+          "focus-s37",
+          "focus-s38",
+          "focus-s73"
+        ],
+        "en-lv": [
+          "focus-s37",
+          "focus-s38",
+          "focus-s73"
+        ],
+        "en-ru": [
+          "focus-s37",
+          "focus-s38",
+          "focus-s73"
+        ],
+        "en-ja": [
+          "focus-s37",
+          "focus-s38",
+          "focus-s73"
+        ]
+      }
+    },
+    {
+      "id": "focused-k17",
+      "slotId": "K17",
+      "conceptId": "focus-k17",
+      "distractorIdsByDirection": {
+        "lv-ru": [
+          "focus-k12",
+          "focus-a14",
+          "focus-a16"
+        ],
+        "lv-en": [
+          "focus-k12",
+          "focus-a14",
+          "focus-a16"
+        ],
+        "ru-lv": [
+          "focus-k12",
+          "focus-a14",
+          "focus-a16"
+        ],
+        "ru-en": [
+          "focus-k12",
+          "focus-a14",
+          "focus-a16"
+        ],
+        "en-lv": [
+          "focus-k12",
+          "focus-a14",
+          "focus-a16"
+        ],
+        "en-ru": [
+          "focus-k12",
+          "focus-a14",
+          "focus-a16"
+        ],
+        "en-ja": [
+          "focus-k12",
+          "focus-a14",
+          "focus-a16"
+        ]
+      }
+    },
+    {
+      "id": "focused-k18",
+      "slotId": "K18",
+      "conceptId": "focus-k18",
+      "distractorIdsByDirection": {
+        "lv-ru": [
+          "focus-s08",
+          "focus-s09",
+          "focus-s11"
+        ],
+        "lv-en": [
+          "focus-s08",
+          "focus-s09",
+          "focus-s11"
+        ],
+        "ru-lv": [
+          "focus-s08",
+          "focus-s09",
+          "focus-s11"
+        ],
+        "ru-en": [
+          "focus-s08",
+          "focus-s09",
+          "focus-s11"
+        ],
+        "en-lv": [
+          "focus-s08",
+          "focus-s09",
+          "focus-s11"
+        ],
+        "en-ru": [
+          "focus-s08",
+          "focus-s09",
+          "focus-s11"
+        ],
+        "en-ja": [
+          "focus-s08",
+          "focus-s09",
+          "focus-s11"
+        ]
+      }
+    },
+    {
+      "id": "focused-k19",
+      "slotId": "K19",
+      "conceptId": "focus-k19",
+      "distractorIdsByDirection": {
+        "lv-ru": [
+          "focus-s09",
+          "focus-s11",
+          "focus-s16"
+        ],
+        "lv-en": [
+          "focus-s09",
+          "focus-s11",
+          "focus-s16"
+        ],
+        "ru-lv": [
+          "focus-s09",
+          "focus-s11",
+          "focus-s16"
+        ],
+        "ru-en": [
+          "focus-s09",
+          "focus-s11",
+          "focus-s16"
+        ],
+        "en-lv": [
+          "focus-s09",
+          "focus-s11",
+          "focus-s16"
+        ],
+        "en-ru": [
+          "focus-s09",
+          "focus-s11",
+          "focus-s16"
+        ],
+        "en-ja": [
+          "focus-s09",
+          "focus-s11",
+          "focus-s16"
+        ]
+      }
+    },
+    {
+      "id": "focused-k20",
+      "slotId": "K20",
+      "conceptId": "focus-k20",
+      "distractorIdsByDirection": {
+        "lv-ru": [
+          "vocab-0501",
+          "focus-s23",
+          "focus-s24"
+        ],
+        "lv-en": [
+          "vocab-0501",
+          "focus-s23",
+          "focus-s24"
+        ],
+        "ru-lv": [
+          "vocab-0501",
+          "focus-s23",
+          "focus-s24"
+        ],
+        "ru-en": [
+          "vocab-0501",
+          "focus-s23",
+          "focus-s24"
+        ],
+        "en-lv": [
+          "vocab-0501",
+          "focus-s23",
+          "focus-s24"
+        ],
+        "en-ru": [
+          "vocab-0501",
+          "focus-s23",
+          "focus-s24"
+        ],
+        "en-ja": [
+          "vocab-0501",
+          "focus-s23",
+          "focus-s24"
+        ]
+      }
+    }
+  ]
+}

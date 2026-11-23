@@ -1,7 +1,7 @@
 # TD list — active approved tasks for the language-learning app
 
 **Repository:** `janisp123/language-learning-app` • **Branch of record:** `main` • **Canonical path:** `docs/TD_LIST.md`  
-**Current handoff (2026-11-23):** **L-012 — focused Kids / Adults course design** is current. Owner approved the100-item lists/design (80 shared +20 specific each) on2026-11-23. Implementation plan is prepared for review before app changes. Audit/library PR #26 is MERGED; first correction PR #27 and reading-guide PR #21 remain OPEN/unmerged. No implementation of the new courses, merge or publication is authorized by draft approval.
+**Current handoff (2026-11-23):** **L-012 — focused Kids/Adults courses** implemented locally0.5.0; full browser verification passed and checked live publication is authorized/in progress.100 items each (80 shared+20 specific), original510 separately preserved. PR #27 corrections and #28 design are merged. Do not repeat planning/ask publication approval again; verify feature PR/CI/Pages/hosted bytes and finish delivery. Reading-guide PR #21 remains separate/unmerged.
 
 **Historical browser baseline (verified 2026-11-17):** Browser review build 0.4.11 is integrated through PR #18 and publicly deployed. Main CI 44168243818 and Pages 44168243948 succeeded; hosted HTML equals the committed download. Android, fluent human review, physical-device/full-accessibility checks and final release remain unfinished. No license has been selected. [Current checkpoint](WORK_CHECKPOINT.md) records the latest evidence. Task presence alone never authorizes work or publication.
 
@@ -117,11 +117,12 @@ For each task: fetch current remote `main:docs/TD_LIST.md` first; then check `AG
 
 ### L-012 — Focused Kids / Adults starter courses across existing directions
 - **Added by:** codex (explicit owner request, 2026-11-23)
-- **Implemented by:** Not yet (application); draft lists authored by codex
-- **Status:** DESIGN_APPROVED / PLAN_IN_REVIEW — owner approved the100-item lists/design on2026-11-23. [Approved lists](proposals/2026-11-23-focused-kids-adults.md):80 shared +20 audience-specific. [Implementation plan](superpowers/plans/2026-11-23-focused-kids-adults.md) prepared; application implementation/merge/publication not started or authorized by this planning step.
+- **Implemented by:** codex (application/source locally verified; live readback pending)
+- **Status:** IMPLEMENTED / PUBLICATION_IN_PROGRESS —0.5.0 on feat/focused-courses.41Python and real Chromium14×100, audio/layout/session/zero-saves checks pass; independent review resolved. Final Node/CI/merge/deployment evidence tracked in checkpoint/feature PR. Owner explicitly authorized efficient checked merging/live publication and website descriptions; no repeated approval required.
+
 - **Goal:** Basic mutual communication through a compact shared core and repeated useful patterns. Kids emphasizes familiar people/school/play; Adults emphasizes everyday meetings/transactions/travel. Common understandable wording takes priority over breadth and stylistic refinement; politeness matters where it affects meaning or suitability.
 - **Boundaries:** Exactly existing seven directions, including en-ja only; preserve510 current entries outside focused starters. Shared canonical content, no copied dictionaries. ZERO saves including audience/direction preferences, no account/age input/tracking. Preserve current scoring and500ms/audio behavior. No code/content/audio/Drive/website change in this drafting slice.
-- **Next review:** Lists/practical phrases from lesson1 are approved. Review the implementation plan, including default audience, original510 access, fixed phrase variants, scoped12-word ceiling and dependency handling for PR #21/#27. Do not delete old validators or merge held work implicitly.
+- **Next step:** Verify feature source CI, merge and publish under existing owner authorization, confirm hosted bytes/selectors. Then reconcile reading-guide PR #21 as a separate slice. Legacy validators remain scoped to the original bank; new course policy is explicit.
 - **Acceptance for current slice:** Reviewable100-item Kids and100-item Adults lists, exact source/reference versus new-draft labels, situations/communication goals, counts checked, durable checkpoint and checked documentation PR. Design approval recorded; implementation follows explicit plan/execution authorization. No automatic merge/publication.
 
 ## Out of scope for v1 (not backlog tasks)
@@ -135,3 +136,7 @@ That project's existing TD is currently `docs/TD_LIST.md` in **another repositor
 ## Latest execution authorization — 2026-11-23
 
 Owner explicitly requested implementation and merging/publishing verified changes on the live website, plus matching website descriptions, rather than a separate preview. Proceed within L-012 without asking again for ordinary coding/deployment steps. PR #27 merged at0e81ad6; verify its deployment. PR #28 plan/metadata integration is being reconciled against it, preserving Current task L-012. Kids/Adults is not implemented yet; do not describe it as live until tested and deployed.
+
+## Latest authorized live work — L-012 (2026-11-23)
+
+Owner explicitly requested implementation, checked merges and live-website publication efficiently so they can test while work remains. Kids/Adults100-item courses, original510 access, source-language UI/audio and matching website descriptions are implemented locally on feat/focused-courses; verify final checks and hosted readback before marking delivered. PR #27 merged0e81ad6 and deployed0.4.13; PR #28 merged3bc78a9. Reading guides PR #21 remain separate/unmerged. Current task remains L-012; no repeated approval request is required for this authorized slice.

@@ -1,0 +1,16 @@
+{
+  "id": "adults",
+  "audience": "adults",
+  "blocks": [
+    "shared-01",
+    "shared-02",
+    "shared-03",
+    "shared-04",
+    "shared-05",
+    "shared-06",
+    "shared-07",
+    "shared-08",
+    "adults-01",
+    "adults-02"
+  ]
+}

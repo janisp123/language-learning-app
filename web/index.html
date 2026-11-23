@@ -24,6 +24,11 @@
       <p id="audience" class="eyebrow"><!--TEXT:audience--></p>
       <h1 id="welcome"><!--TEXT:welcome--></h1>
       <p id="intro" class="lead"><!--TEXT:intro--></p>
+      <div id="focused-controls">
+        <label id="learner-caption" for="learner-audience"><!--TEXT:learner-caption--></label>
+        <select id="learner-audience"><option id="learner-kids" value="kids" selected><!--TEXT:learner-kids--></option><option id="learner-adults" value="adults"><!--TEXT:learner-adults--></option></select>
+        <details class="course-outline"><summary id="original-label"><!--TEXT:original-label--></summary><label><input id="original-course" type="checkbox"> <span id="original-choice"><!--TEXT:original-label--></span></label></details>
+      </div>
       <label id="direction-caption" for="direction"><!--TEXT:direction-caption--></label>
       <select id="direction"><!--DIRECTIONS--></select>
       <button class="primary start" id="start" type="button"><!--TEXT:start--></button>
@@ -57,6 +62,7 @@
     <noscript><!--NOSCRIPT--></noscript>
   </main>
   <footer><p>Made by <a href="https://github.com/janisp123">Janis Paegle</a> 2026</p><p id="footer-caption"><!--TEXT:footer-caption--></p><a id="source-link" href="https://github.com/janisp123/language-learning-app"><!--TEXT:source-link--></a><p id="privacy-note" class="small"><!--TEXT:privacy-note--></p></footer>
+  <script type="application/json" id="focused-data"><!--FOCUSED--></script>
   <script type="application/json" id="course-data"><!--COURSE--></script>
   <script type="application/json" id="ui-data"><!--UI--></script>
   <script type="application/json" id="audio-data"><!--AUDIO-DATA--></script>

@@ -29,7 +29,7 @@ function mount(data=course,bundle=null,initialDirection='lv-ru'){
     const e=new Element();e.hidden=/\shidden[\s>]/.test(match[0]);elements.set(match[1],e);
   }
   elements.get('direction').value=initialDirection;
-  elements.get('direction').options=[...html.matchAll(/<option id="([^"]+)" value="([^"]+)"[^>]*>/g)].map(match=>{const option=elements.get(match[1]);option.value=match[2];return option;});
+  elements.get('direction').options=[...html.matchAll(/<option id="(direction-[^"]+)" value="([^"]+)"[^>]*>/g)].map(match=>{const option=elements.get(match[1]);option.value=match[2];return option;});
   elements.get('course-data').textContent=bundle ? html.match(/id="course-data">([\s\S]*?)<\/script>/)[1] : JSON.stringify(data);
   if(elements.has('ui-data'))elements.get('ui-data').textContent=bundle ? html.match(/id="ui-data">([\s\S]*?)<\/script>/)[1] : JSON.stringify(locales);
   if(elements.has('audio-data'))elements.get('audio-data').textContent=html.match(/id="audio-data">([\s\S]*?)<\/script>/)[1];

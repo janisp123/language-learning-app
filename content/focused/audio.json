@@ -1,0 +1,1622 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "focused-0.1.0",
+  "clips": {
+    "lv": {
+      "focus-s02": {
+        "text": "Uz tikšanos",
+        "file": "audio/lv/focus-s02.mp3",
+        "sha256": "a3c42987c43f26dcaddba991aa73038fa05d6c38b636076acf1d7920d3af3466",
+        "provider": "gtts"
+      },
+      "focus-s07": {
+        "text": "Mani sauc Anna",
+        "file": "audio/lv/focus-s07.mp3",
+        "sha256": "d23f8e84d7c41adc2272df6ba3779414db04b5aa4b5193d2f326835b4131d152",
+        "provider": "gtts"
+      },
+      "focus-s08": {
+        "text": "Kā tevi sauc?",
+        "file": "audio/lv/focus-s08.mp3",
+        "sha256": "f078fabaafa0c796d1183d7f36394953a2ad27cd93169b48ec179d78e92afd39",
+        "provider": "gtts"
+      },
+      "focus-s09": {
+        "text": "No kurienes tu esi?",
+        "file": "audio/lv/focus-s09.mp3",
+        "sha256": "f0bcdcec2241df8572b897e3909a436d904ef37919e112613820f96befe959b8",
+        "provider": "gtts"
+      },
+      "focus-s10": {
+        "text": "Es esmu no Latvijas",
+        "file": "audio/lv/focus-s10.mp3",
+        "sha256": "20f497c7cf4db3dcbabad7e57bd56d4f1b6d967c3ffc09b0b997949c784317cd",
+        "provider": "gtts"
+      },
+      "focus-s11": {
+        "text": "Kā tev iet?",
+        "file": "audio/lv/focus-s11.mp3",
+        "sha256": "2e0aa6dffbeafe25d54580694a911ca85c1b534804ae3a0bfa26aabcc6331b53",
+        "provider": "gtts"
+      },
+      "focus-s12": {
+        "text": "Man iet labi",
+        "file": "audio/lv/focus-s12.mp3",
+        "sha256": "ace0e5fb8a6a838ca91226e613a02aa19552cf11df34cbc4c1231e73b7ea6a3f",
+        "provider": "gtts"
+      },
+      "focus-s14": {
+        "text": "Lūdzu, atkārtojiet",
+        "file": "audio/lv/focus-s14.mp3",
+        "sha256": "5a3f6d4fa2dc0f3b1e5b9ea598f44383b3879c7fe0e6f662dd584e4b980ca92b",
+        "provider": "gtts"
+      },
+      "focus-s15": {
+        "text": "Lūdzu, runājiet lēnāk",
+        "file": "audio/lv/focus-s15.mp3",
+        "sha256": "0442721299b47c0b5e35cc14f0016bb0000c6a26af4ea078d9427c103cac6dd9",
+        "provider": "gtts"
+      },
+      "focus-s16": {
+        "text": "Ko tas nozīmē?",
+        "file": "audio/lv/focus-s16.mp3",
+        "sha256": "3bed7834a797fa3aeca1261dc8619c1145114a3664708eaf3f708d3d06212b1a",
+        "provider": "gtts"
+      },
+      "focus-s17": {
+        "text": "Es nezinu",
+        "file": "audio/lv/focus-s17.mp3",
+        "sha256": "27d78dd9d31df0d16c1bafd863e79c048cba610f45676aa386789fef05b3d858",
+        "provider": "gtts"
+      },
+      "focus-s20": {
+        "text": "Lūdzu, parādiet man",
+        "file": "audio/lv/focus-s20.mp3",
+        "sha256": "126f3f8d34789df0733d3de424048986d3f0fb9416de17acd15a4ebc93d74fc9",
+        "provider": "gtts"
+      },
+      "focus-s21": {
+        "text": "Es gribu ūdeni",
+        "file": "audio/lv/focus-s21.mp3",
+        "sha256": "7c1dcafd4ad21b3334b7a77446eabc903caf1121714aec4029edf3285286a107",
+        "provider": "gtts"
+      },
+      "focus-s23": {
+        "text": "Man ir telefons",
+        "file": "audio/lv/focus-s23.mp3",
+        "sha256": "b50e5d84e93925999d0434f1105e51c634675fcc8d3d2f09496dc7c9a78a2939",
+        "provider": "gtts"
+      },
+      "focus-s24": {
+        "text": "Man nav telefona",
+        "file": "audio/lv/focus-s24.mp3",
+        "sha256": "ff36bc15b432387bde67839e2aa3c37b29675eb752296a7da36dc7387e5bbd49",
+        "provider": "gtts"
+      },
+      "focus-s25": {
+        "text": "Man garšo āboli",
+        "file": "audio/lv/focus-s25.mp3",
+        "sha256": "dd278d640af578694e65542e18d7f3fa1919cf353db946f645f6b48dea6becdc",
+        "provider": "gtts"
+      },
+      "focus-s26": {
+        "text": "Man negaršo piens",
+        "file": "audio/lv/focus-s26.mp3",
+        "sha256": "7db0e0b9d7fd8a72d2b62a828fbad6ea3fc0139ff09ef806090f55cb4d590dd7",
+        "provider": "gtts"
+      },
+      "focus-s27": {
+        "text": "Vai es varu šeit apsēsties?",
+        "file": "audio/lv/focus-s27.mp3",
+        "sha256": "bfb0c3bcbe4273c0e952deb65f804660b9420dbb91ea29ae5406e79825e2f6b7",
+        "provider": "gtts"
+      },
+      "focus-s28": {
+        "text": "Vai tu vari man palīdzēt?",
+        "file": "audio/lv/focus-s28.mp3",
+        "sha256": "ed57493987ec6d16e9bb6dd409fa6d7324ddc7331daa83c679d23e07e33da0da",
+        "provider": "gtts"
+      },
+      "focus-s29": {
+        "text": "Šis",
+        "file": "audio/lv/focus-s29.mp3",
+        "sha256": "1e47fee277f92f55f505d1548d102a4a98c830cb78e7c23944900052d3d506c8",
+        "provider": "gtts"
+      },
+      "focus-s32": {
+        "text": "Ēdiens",
+        "file": "audio/lv/focus-s32.mp3",
+        "sha256": "fc21c8c9fe17f2bd968bf4871f577eef475776cc0b48835233a05aa5805bc276",
+        "provider": "gtts"
+      },
+      "focus-s37": {
+        "text": "Es gribu ēst",
+        "file": "audio/lv/focus-s37.mp3",
+        "sha256": "1635b2fc39eb3bc4effca87c5166c7c8c9f40334365f26a4ef8eac9c779686ad",
+        "provider": "gtts"
+      },
+      "focus-s38": {
+        "text": "Es gribu dzert",
+        "file": "audio/lv/focus-s38.mp3",
+        "sha256": "21cb54eec633aa68e83212834590ebf8ac76439c3c074c838b6db532228ec4cb",
+        "provider": "gtts"
+      },
+      "focus-s39": {
+        "text": "Vēl, lūdzu",
+        "file": "audio/lv/focus-s39.mp3",
+        "sha256": "c9f742ab93ba1aa90cd90bbe49b71a6d7f70fd32fe4bf0879b3fcc920f7d05ea",
+        "provider": "gtts"
+      },
+      "focus-s40": {
+        "text": "Pietiek, paldies",
+        "file": "audio/lv/focus-s40.mp3",
+        "sha256": "592097c7a60f7c2da1ef54046b580140e47155bafa7f56fafd1db803c496fd0b",
+        "provider": "gtts"
+      },
+      "focus-s41": {
+        "text": "Kur ir tualete?",
+        "file": "audio/lv/focus-s41.mp3",
+        "sha256": "2e7e13d6e9dfa229df1b42ed3f777ef4c2e6693fef0352a19c6a0a464d611d14",
+        "provider": "gtts"
+      },
+      "focus-s49": {
+        "text": "Ejam",
+        "file": "audio/lv/focus-s49.mp3",
+        "sha256": "845bd41449e639687437d7b8601765671a079526a55d4fb02824810288749884",
+        "provider": "gtts"
+      },
+      "focus-s50": {
+        "text": "Lūdzu, uzgaidiet",
+        "file": "audio/lv/focus-s50.mp3",
+        "sha256": "3b0ccaf4443f77319a0aea7a8c6237034acd964a8011223a239f93b2463611f8",
+        "provider": "gtts"
+      },
+      "focus-s65": {
+        "text": "Cik ir pulkstenis?",
+        "file": "audio/lv/focus-s65.mp3",
+        "sha256": "48335809d2fd0b2bccc1bb449a4541513420f20534d39a2b9a2e537ae8bd8954",
+        "provider": "gtts"
+      },
+      "focus-s66": {
+        "text": "Cikos tiekamies?",
+        "file": "audio/lv/focus-s66.mp3",
+        "sha256": "04224b99003af7e75bbbfba0a66562c88985c289305f8d72161dc8371df0f543",
+        "provider": "gtts"
+      },
+      "focus-s71": {
+        "text": "Palīgā",
+        "file": "audio/lv/focus-s71.mp3",
+        "sha256": "f2770d661c2fa8bfc7f63416ff4d8f4448eae1f5cb4eceb4b075a432477942c4",
+        "provider": "gtts"
+      },
+      "focus-s72": {
+        "text": "Pārtrauciet",
+        "file": "audio/lv/focus-s72.mp3",
+        "sha256": "6564d3def485a2adc1996afb1a44a8f9119d7e798f82a1968255db6316b2bcab",
+        "provider": "gtts"
+      },
+      "focus-s73": {
+        "text": "Es to negribu",
+        "file": "audio/lv/focus-s73.mp3",
+        "sha256": "c4241502b7971f59400a0ed4abd47f26da4b17cbe08f67349a9df729f0017ecc",
+        "provider": "gtts"
+      },
+      "focus-s74": {
+        "text": "Es nevaru atrast ceļu",
+        "file": "audio/lv/focus-s74.mp3",
+        "sha256": "53d5d378abe707f218a07d279c3ebc98fd293ae9d074bb745e36c8bc1faba555",
+        "provider": "gtts"
+      },
+      "focus-s75": {
+        "text": "Es savainojos",
+        "file": "audio/lv/focus-s75.mp3",
+        "sha256": "5a9370060a85211cc71ba246b8ec16e88051f16317bda793a4c52f553e1a337b",
+        "provider": "gtts"
+      },
+      "focus-s76": {
+        "text": "Es jūtos slikti",
+        "file": "audio/lv/focus-s76.mp3",
+        "sha256": "0f368a5a7ce0dc9963a8aefe3ba5ae9f14949dd8fdf7489a80e7251d779329c2",
+        "provider": "gtts"
+      },
+      "focus-k02": {
+        "text": "Mamma",
+        "file": "audio/lv/focus-k02.mp3",
+        "sha256": "550181932e497ea781bfa0ccdb1e71f7a96720fde30f711f850af28e93f9eb3d",
+        "provider": "gtts"
+      },
+      "focus-k03": {
+        "text": "Tētis",
+        "file": "audio/lv/focus-k03.mp3",
+        "sha256": "71b595291fb4d84aa17a8a170dc99b8fafc0a2f040117952279260a24077e36f",
+        "provider": "gtts"
+      },
+      "focus-k11": {
+        "text": "Vai es varu spēlēt?",
+        "file": "audio/lv/focus-k11.mp3",
+        "sha256": "4cca9ebb8c84f7303a1fba44f23bf99720d668032f97f76eb0e7ef4145c31631",
+        "provider": "gtts"
+      },
+      "focus-k12": {
+        "text": "Spēlēsim",
+        "file": "audio/lv/focus-k12.mp3",
+        "sha256": "0ed1d3bf90e0c3639cb8abe76e9f7afa988e83dcf63faf1eff1ef7ec2408c00e",
+        "provider": "gtts"
+      },
+      "focus-k13": {
+        "text": "Mana kārta",
+        "file": "audio/lv/focus-k13.mp3",
+        "sha256": "8717baa1b09b4ba3cb85666c5b320d6e9958a352f522314d7bcbb6d87210ce9a",
+        "provider": "gtts"
+      },
+      "focus-k14": {
+        "text": "Tava kārta",
+        "file": "audio/lv/focus-k14.mp3",
+        "sha256": "c95cb32fc64d98e67650a6ac3411686e97ace85c4584e8faf0db55c0b06fac21",
+        "provider": "gtts"
+      },
+      "focus-k15": {
+        "text": "Vai es varu pievienoties?",
+        "file": "audio/lv/focus-k15.mp3",
+        "sha256": "1dd4b9f0aa9a3beaaa73fa835436a4060d5fda7ba7112445e163b1c02b2e1b54",
+        "provider": "gtts"
+      },
+      "focus-k16": {
+        "text": "Man vajag pārtraukumu",
+        "file": "audio/lv/focus-k16.mp3",
+        "sha256": "9fe5220d77a6e9ef0b77b1bbe4dfd7ea4e6198454e4cda95c67917b02016ff8f",
+        "provider": "gtts"
+      },
+      "focus-k17": {
+        "text": "Pagaidi mani",
+        "file": "audio/lv/focus-k17.mp3",
+        "sha256": "fd1979e52a7412237362b8b7aa14e3475f7ac270a9a819dc29312da28e307249",
+        "provider": "gtts"
+      },
+      "focus-k18": {
+        "text": "Vai varu aizņemties pildspalvu?",
+        "file": "audio/lv/focus-k18.mp3",
+        "sha256": "6b2a6bbd8bdb069522a63aed3f24dde4c9c17e1a3c659f93c8fecb54bb53ad99",
+        "provider": "gtts"
+      },
+      "focus-k19": {
+        "text": "Kā to izdarīt?",
+        "file": "audio/lv/focus-k19.mp3",
+        "sha256": "c91ba32b50d1f06f7afdef3b0fd614fe502e15dda349e41e3c6fe663d5ba8389",
+        "provider": "gtts"
+      },
+      "focus-k20": {
+        "text": "Es nevaru atrast savu somu",
+        "file": "audio/lv/focus-k20.mp3",
+        "sha256": "5f42c0f1578a8b53b7f2e543ad67dab3b81345f243d7030dbfc9e82849211eb7",
+        "provider": "gtts"
+      },
+      "focus-a03": {
+        "text": "Maksājumu karte",
+        "file": "audio/lv/focus-a03.mp3",
+        "sha256": "c212eb777c2e3267e303e2844dd349e20b0479e49bba9171fc10545a9dc7aa96",
+        "provider": "gtts"
+      },
+      "focus-a04": {
+        "text": "Skaidra nauda",
+        "file": "audio/lv/focus-a04.mp3",
+        "sha256": "09d2943b8a351b5410c961c4b793b252972eee06d3a5fcbe5d74182b26357e32",
+        "provider": "gtts"
+      },
+      "focus-a11": {
+        "text": "Cik tas maksā?",
+        "file": "audio/lv/focus-a11.mp3",
+        "sha256": "eca104e5bfcb9a5d1a61a2b2e5347a1bc41f3f33cd3773b78bb39b78e1086c20",
+        "provider": "gtts"
+      },
+      "focus-a12": {
+        "text": "Vai es varu to izmēģināt?",
+        "file": "audio/lv/focus-a12.mp3",
+        "sha256": "fa6bdfecefde280aacd95966dfd710f5d823a903e89e3e536713bb6690c1a6da",
+        "provider": "gtts"
+      },
+      "focus-a13": {
+        "text": "Vai var maksāt ar karti?",
+        "file": "audio/lv/focus-a13.mp3",
+        "sha256": "c73618d02d24c4cba589ed3e1a7766522a066d3ee90b34ae474d9b18a85c0d97",
+        "provider": "gtts"
+      },
+      "focus-a14": {
+        "text": "Rēķinu, lūdzu",
+        "file": "audio/lv/focus-a14.mp3",
+        "sha256": "f20b3bf6636f7a0c99f045df78bae2edc63e6059d5e01d796dc13c478f6b27f2",
+        "provider": "gtts"
+      },
+      "focus-a15": {
+        "text": "Kur ir autobusa pietura?",
+        "file": "audio/lv/focus-a15.mp3",
+        "sha256": "1f94201f4337a6bdaaa32568c5591ba195eabdd2a677e3b357a111acd2686803",
+        "provider": "gtts"
+      },
+      "focus-a16": {
+        "text": "Vienu biļeti uz centru, lūdzu",
+        "file": "audio/lv/focus-a16.mp3",
+        "sha256": "8c05fce0b355421a87a1839374522edbbf98b39bcb57c5c3ba519ca7c99b9b91",
+        "provider": "gtts"
+      },
+      "focus-a17": {
+        "text": "Vai tas brauc uz centru?",
+        "file": "audio/lv/focus-a17.mp3",
+        "sha256": "ffbb879c229b39cd516d43e694ccf66c782140a1e54ff4b948092aada09455d7",
+        "provider": "gtts"
+      },
+      "focus-a18": {
+        "text": "Cikos tas atiet?",
+        "file": "audio/lv/focus-a18.mp3",
+        "sha256": "14cc875ed0221deba7a29fd39a548b9727a1ca6b83ce5a94522cd3629a79e4b5",
+        "provider": "gtts"
+      },
+      "focus-a19": {
+        "text": "Kur var nopirkt biļeti?",
+        "file": "audio/lv/focus-a19.mp3",
+        "sha256": "3ca5bc6855303176b545d26e31113dac5f6c18decea28873d8c8087633338ac0",
+        "provider": "gtts"
+      },
+      "focus-a20": {
+        "text": "Es strādāju veikalā",
+        "file": "audio/lv/focus-a20.mp3",
+        "sha256": "77cb6be3b50d4bade53d9db059615af178cbd1856b223834a1468d8943cc2f25",
+        "provider": "gtts"
+      },
+      "focus-s18-lv": {
+        "text": "Es mazliet runāju latviski",
+        "file": "audio/lv/focus-s18-lv.mp3",
+        "sha256": "64042da9af2f878770cbb5d64bd49ec839b9f47bdb9ef5ec77fa6fbbc1e696c1",
+        "provider": "gtts"
+      },
+      "focus-s19-lv": {
+        "text": "Vai jūs runājat latviski?",
+        "file": "audio/lv/focus-s19-lv.mp3",
+        "sha256": "8e1cf60d6f1ef46287bb39bc54c79b4813009ef0bb2f1f3d96b49d31d9a7367b",
+        "provider": "gtts"
+      },
+      "focus-s18-ru": {
+        "text": "Es mazliet runāju krieviski",
+        "file": "audio/lv/focus-s18-ru.mp3",
+        "sha256": "b58ef8bfd7581fabf96bfc3c06b632d63558bbe60c7945df889d86495eb87390",
+        "provider": "gtts"
+      },
+      "focus-s19-ru": {
+        "text": "Vai jūs runājat krieviski?",
+        "file": "audio/lv/focus-s19-ru.mp3",
+        "sha256": "9fb0f7b2fde100fe87bacacfa3e60cab28cb0b19ad739f0269911ae79f7ea371",
+        "provider": "gtts"
+      },
+      "focus-s18-en": {
+        "text": "Es mazliet runāju angliski",
+        "file": "audio/lv/focus-s18-en.mp3",
+        "sha256": "a417d6d14cb2c2a4c0d4dc396b02615ab2a125542777a828b12b20ad5ae8d384",
+        "provider": "gtts"
+      },
+      "focus-s19-en": {
+        "text": "Vai jūs runājat angliski?",
+        "file": "audio/lv/focus-s19-en.mp3",
+        "sha256": "87ecc6b32ed11b9a2531ebecd89af14fc7587eaadbefd228e0a6a60b4b201350",
+        "provider": "gtts"
+      },
+      "focus-s18-ja": {
+        "text": "Es mazliet runāju japāniski",
+        "file": "audio/lv/focus-s18-ja.mp3",
+        "sha256": "a2ccd4394b642198bcbed74f26904de1013c89e47d4e152a8f0074b92f4c163a",
+        "provider": "gtts"
+      }
+    },
+    "ru": {
+      "focus-s02": {
+        "text": "До встречи",
+        "file": "audio/ru/focus-s02.mp3",
+        "sha256": "60d5220f7b038b66f93538e3289cb14a644f4827c4f83cfa93cc18ecc4e5f654",
+        "provider": "gtts"
+      },
+      "focus-s07": {
+        "text": "Меня зовут Анна",
+        "file": "audio/ru/focus-s07.mp3",
+        "sha256": "e6ff6b210ae0031f92642fdfed6498d8e545146ee02eb856672634eea07c1e03",
+        "provider": "gtts"
+      },
+      "focus-s08": {
+        "text": "Как тебя зовут?",
+        "file": "audio/ru/focus-s08.mp3",
+        "sha256": "3a868ba9a908b49c60f6bb4a57e608119e64a385c255fe18bd40b3e44e6abbe8",
+        "provider": "gtts"
+      },
+      "focus-s09": {
+        "text": "Откуда ты?",
+        "file": "audio/ru/focus-s09.mp3",
+        "sha256": "06b3cd2628f81bc2d494b4074e6ab21068a467c109d407a9643155057e719db2",
+        "provider": "gtts"
+      },
+      "focus-s10": {
+        "text": "Я из Латвии",
+        "file": "audio/ru/focus-s10.mp3",
+        "sha256": "6b2395f3af1546f26dd996783b05b81b75ab4b54f2d379e4e9528203db7db3a5",
+        "provider": "gtts"
+      },
+      "focus-s11": {
+        "text": "Как дела?",
+        "file": "audio/ru/focus-s11.mp3",
+        "sha256": "9d09f9df8ae6221df293a53e7726085b7e7c10abbd27f978107f85e46394bfc7",
+        "provider": "gtts"
+      },
+      "focus-s12": {
+        "text": "У меня всё хорошо",
+        "file": "audio/ru/focus-s12.mp3",
+        "sha256": "f3295bd8650c8c258b9d9ab0904e38b229de65698354b4ba1ccb170ee02a27f3",
+        "provider": "gtts"
+      },
+      "focus-s14": {
+        "text": "Повторите, пожалуйста",
+        "file": "audio/ru/focus-s14.mp3",
+        "sha256": "0026bb7b8077ff1602302f7a42f61efc30fe23e657ce6b56b38f4ae3ebe2913d",
+        "provider": "gtts"
+      },
+      "focus-s15": {
+        "text": "Говорите медленнее, пожалуйста",
+        "file": "audio/ru/focus-s15.mp3",
+        "sha256": "bcaeaf288ae1e70920fdfeda4331bc9b427440a7bd3c5abe1635473523586347",
+        "provider": "gtts"
+      },
+      "focus-s16": {
+        "text": "Что это значит?",
+        "file": "audio/ru/focus-s16.mp3",
+        "sha256": "332d39e10b6f7b9c1984398ede0330b4c26a5aade15c20b58f5f6aeaa6b25703",
+        "provider": "gtts"
+      },
+      "focus-s17": {
+        "text": "Я не знаю",
+        "file": "audio/ru/focus-s17.mp3",
+        "sha256": "ce4ac94d146c96d59e2382d2930984e84df1f7a235fc596a410a4d3a526643cd",
+        "provider": "gtts"
+      },
+      "focus-s20": {
+        "text": "Покажите мне, пожалуйста",
+        "file": "audio/ru/focus-s20.mp3",
+        "sha256": "35c6f356fb384adfcb3919490837b9b35b522a656142a18a2b715580510c8739",
+        "provider": "gtts"
+      },
+      "focus-s21": {
+        "text": "Я хочу воды",
+        "file": "audio/ru/focus-s21.mp3",
+        "sha256": "6dad12ff1e3e6d856c5f4d80cee8ba99021fd61fd4bdbdffee97568ec88d78be",
+        "provider": "gtts"
+      },
+      "focus-s23": {
+        "text": "У меня есть телефон",
+        "file": "audio/ru/focus-s23.mp3",
+        "sha256": "69130a66e696b4980443a6f3c65aa94047b4d4dea3c75ca4c618ea35a3b93102",
+        "provider": "gtts"
+      },
+      "focus-s24": {
+        "text": "У меня нет телефона",
+        "file": "audio/ru/focus-s24.mp3",
+        "sha256": "ceb22fa83349661676ed4695b523c98be515930f26b4c921e29fecce1cde1ed2",
+        "provider": "gtts"
+      },
+      "focus-s25": {
+        "text": "Я люблю яблоки",
+        "file": "audio/ru/focus-s25.mp3",
+        "sha256": "c9b8d8269b418526e6090cfb6e378761be94bafaa106e76737e55d21d156520f",
+        "provider": "gtts"
+      },
+      "focus-s26": {
+        "text": "Я не люблю молоко",
+        "file": "audio/ru/focus-s26.mp3",
+        "sha256": "147b8a89dd72ba58b8d0f7071732b55fab1e1328fdbf040179b21ea370f3dd1b",
+        "provider": "gtts"
+      },
+      "focus-s27": {
+        "text": "Можно здесь сесть?",
+        "file": "audio/ru/focus-s27.mp3",
+        "sha256": "d8ca0e9ac6fadcd2e3e9d6aec1fa9894e864518723a0092a4464c1e8d4f12419",
+        "provider": "gtts"
+      },
+      "focus-s28": {
+        "text": "Можешь мне помочь?",
+        "file": "audio/ru/focus-s28.mp3",
+        "sha256": "39b2bc8ed784a0ac6238955b45fb7afec8ad38a1b2ce9fa92130daf5bdaa8aa3",
+        "provider": "gtts"
+      },
+      "focus-s29": {
+        "text": "Вот этот",
+        "file": "audio/ru/focus-s29.mp3",
+        "sha256": "bb1a6719203dc3088854158930a58733d095a00521e2d594e7123e2c87fcffe5",
+        "provider": "gtts"
+      },
+      "focus-s32": {
+        "text": "Еда",
+        "file": "audio/ru/focus-s32.mp3",
+        "sha256": "6c7b4004ac2ef8802ae09a2908d4f0b0ce907d378bc9054303ccb690e4645ddb",
+        "provider": "gtts"
+      },
+      "focus-s37": {
+        "text": "Я хочу есть",
+        "file": "audio/ru/focus-s37.mp3",
+        "sha256": "60410493d21500732906f5e89b78327352dfc5f4970adb4f095c0d76328e0ade",
+        "provider": "gtts"
+      },
+      "focus-s38": {
+        "text": "Я хочу пить",
+        "file": "audio/ru/focus-s38.mp3",
+        "sha256": "dd98046c560bd3d3836e688d51986d440b41baf736bdb460bdd00c6c083b8e56",
+        "provider": "gtts"
+      },
+      "focus-s39": {
+        "text": "Ещё, пожалуйста",
+        "file": "audio/ru/focus-s39.mp3",
+        "sha256": "6e3ff2161e70b3b510a7e7c2cb9d818794847b89abb4eaa129d081b4f361d16c",
+        "provider": "gtts"
+      },
+      "focus-s40": {
+        "text": "Хватит, спасибо",
+        "file": "audio/ru/focus-s40.mp3",
+        "sha256": "1c08236dbda139568881862824bae1df01071c50fb8f485f102b379feff0f3fe",
+        "provider": "gtts"
+      },
+      "focus-s41": {
+        "text": "Где туалет?",
+        "file": "audio/ru/focus-s41.mp3",
+        "sha256": "20bab7df118bdf19442162b48ccdfd844ee3f0d9b4df613ecdc0dd3e4b49394d",
+        "provider": "gtts"
+      },
+      "focus-s49": {
+        "text": "Пойдём",
+        "file": "audio/ru/focus-s49.mp3",
+        "sha256": "39af15de7a97269ea1ceca235fd2a9678a6d1c25343f259ebc26aa1683950ab3",
+        "provider": "gtts"
+      },
+      "focus-s50": {
+        "text": "Подождите, пожалуйста",
+        "file": "audio/ru/focus-s50.mp3",
+        "sha256": "11a042c72c7e176f20131fe0809a95307ca54240e3ffd5099d44d4ecfb14d61a",
+        "provider": "gtts"
+      },
+      "focus-s65": {
+        "text": "Который час?",
+        "file": "audio/ru/focus-s65.mp3",
+        "sha256": "eddaa3030ebcb743037f3b1c6b13ff2a1dd0c3e59ebdb8e8fb04448bdfd95de4",
+        "provider": "gtts"
+      },
+      "focus-s66": {
+        "text": "Во сколько встретимся?",
+        "file": "audio/ru/focus-s66.mp3",
+        "sha256": "80625cd2c5150c97c4bdc80e121ab7cc60d215cffba0330a159f530fe2d57497",
+        "provider": "gtts"
+      },
+      "focus-s71": {
+        "text": "Помогите",
+        "file": "audio/ru/focus-s71.mp3",
+        "sha256": "08c8c014631f7e22b112cac7c0ed6ff8df117ee0483ad79e07e637578fc92835",
+        "provider": "gtts"
+      },
+      "focus-s72": {
+        "text": "Прекратите",
+        "file": "audio/ru/focus-s72.mp3",
+        "sha256": "44a45f44200f7177304eb2085de4e94cca9e28cedab78f0b2188a3da909b68d8",
+        "provider": "gtts"
+      },
+      "focus-s73": {
+        "text": "Я этого не хочу",
+        "file": "audio/ru/focus-s73.mp3",
+        "sha256": "cefdc77c8338b89fcbfd478a2eabd943ce9e8617ba8135491ac0c78b4c611660",
+        "provider": "gtts"
+      },
+      "focus-s74": {
+        "text": "Я не могу найти дорогу",
+        "file": "audio/ru/focus-s74.mp3",
+        "sha256": "f32e123bad4a5470a4fbea16da8c93fada01a145099c112c8eaaf616dff494d0",
+        "provider": "gtts"
+      },
+      "focus-s75": {
+        "text": "У меня травма",
+        "file": "audio/ru/focus-s75.mp3",
+        "sha256": "3e0dda8fe3465c8dea314c13c53d2157630e12a8f417e445d88ee3f43b064d7b",
+        "provider": "gtts"
+      },
+      "focus-s76": {
+        "text": "Я плохо себя чувствую",
+        "file": "audio/ru/focus-s76.mp3",
+        "sha256": "23b889cf297c0f2b32bbe6a04cb2ad258a3ea78eb85b10ccea102c8d9647957f",
+        "provider": "gtts"
+      },
+      "focus-k02": {
+        "text": "Мама",
+        "file": "audio/ru/focus-k02.mp3",
+        "sha256": "37f0ddc1286d1468a97f148dcd91cdd215c9ad411206db2e536b6e3862f9ca06",
+        "provider": "gtts"
+      },
+      "focus-k03": {
+        "text": "Папа",
+        "file": "audio/ru/focus-k03.mp3",
+        "sha256": "ffbaad015cfff9497b1da7627f15e6729184d1eec0f2f4fe1207a66d8db5d5b0",
+        "provider": "gtts"
+      },
+      "focus-k11": {
+        "text": "Можно поиграть?",
+        "file": "audio/ru/focus-k11.mp3",
+        "sha256": "67a38a185c06c33f60ffe40c3b9d8aeb342c65ed48b65a433a1141df096ed518",
+        "provider": "gtts"
+      },
+      "focus-k12": {
+        "text": "Давай поиграем",
+        "file": "audio/ru/focus-k12.mp3",
+        "sha256": "0c3ecbf56660fe1fce314519720821f200044618d74248eee072856a55bd1d63",
+        "provider": "gtts"
+      },
+      "focus-k13": {
+        "text": "Моя очередь",
+        "file": "audio/ru/focus-k13.mp3",
+        "sha256": "ce2681eda0c980ff0e21f0634b2182cc5fe89d1a5769a0558c99453d393fe8cf",
+        "provider": "gtts"
+      },
+      "focus-k14": {
+        "text": "Твоя очередь",
+        "file": "audio/ru/focus-k14.mp3",
+        "sha256": "207375ce9cb2e0e8056f9d3a919b75fde19d00a745b97646e32f69b43ef3d6d4",
+        "provider": "gtts"
+      },
+      "focus-k15": {
+        "text": "Можно с вами?",
+        "file": "audio/ru/focus-k15.mp3",
+        "sha256": "ec79211208721cc7c078cf44a4b2a331fecd1a9e30de1e4a66152f8aea068266",
+        "provider": "gtts"
+      },
+      "focus-k16": {
+        "text": "Мне нужен перерыв",
+        "file": "audio/ru/focus-k16.mp3",
+        "sha256": "e0af3ef554c4572b0414593d8c541dd124d931a49aa392361e7606dd51c1f495",
+        "provider": "gtts"
+      },
+      "focus-k17": {
+        "text": "Подожди меня",
+        "file": "audio/ru/focus-k17.mp3",
+        "sha256": "8f8eb0d7e68000c96ff8ad0b59fbaff7161f9be55df6bbaa797617f4b21603f5",
+        "provider": "gtts"
+      },
+      "focus-k18": {
+        "text": "Можно взять ручку на время?",
+        "file": "audio/ru/focus-k18.mp3",
+        "sha256": "09a4f79b18887d45b9fb9ad355e799cf10d3b812e6baa7184a67cc1963a78a0e",
+        "provider": "gtts"
+      },
+      "focus-k19": {
+        "text": "Как это сделать?",
+        "file": "audio/ru/focus-k19.mp3",
+        "sha256": "f876de77730b5d407252c305da8f0e44adbb20bb47f4017cc407feef3766a2dc",
+        "provider": "gtts"
+      },
+      "focus-k20": {
+        "text": "Я не могу найти свой рюкзак",
+        "file": "audio/ru/focus-k20.mp3",
+        "sha256": "97696f65d7d9d4aff7a19dae58629ee2bc092b58e0c2c1c7a4d1b3e461a5b700",
+        "provider": "gtts"
+      },
+      "focus-a03": {
+        "text": "Банковская карта",
+        "file": "audio/ru/focus-a03.mp3",
+        "sha256": "cee09e598621177b7223ff985ca415387c2576f0e0b1b8dce9c55640e3d2827d",
+        "provider": "gtts"
+      },
+      "focus-a04": {
+        "text": "Наличные",
+        "file": "audio/ru/focus-a04.mp3",
+        "sha256": "19299c010c323ae26cd9d390503096907d94fedceb2da5f475bb11487909d267",
+        "provider": "gtts"
+      },
+      "focus-a11": {
+        "text": "Сколько это стоит?",
+        "file": "audio/ru/focus-a11.mp3",
+        "sha256": "865515f87a2980434b251dd893b98344b59dc78a9a46dcdd2d6713f47cbe2c24",
+        "provider": "gtts"
+      },
+      "focus-a12": {
+        "text": "Можно попробовать?",
+        "file": "audio/ru/focus-a12.mp3",
+        "sha256": "5c94eb3cfe4ec716236d7c73707f21149d07d66562eebab2bdf4fbde590191ec",
+        "provider": "gtts"
+      },
+      "focus-a13": {
+        "text": "Можно оплатить картой?",
+        "file": "audio/ru/focus-a13.mp3",
+        "sha256": "70b011707a108c435b4237d9e14e70017334bf726e6e742f5886e97dae437997",
+        "provider": "gtts"
+      },
+      "focus-a14": {
+        "text": "Счёт, пожалуйста",
+        "file": "audio/ru/focus-a14.mp3",
+        "sha256": "ed5d49796667828235906064779117f341b12ad3cbfb9aef719138a6a9cb6bfd",
+        "provider": "gtts"
+      },
+      "focus-a15": {
+        "text": "Где автобусная остановка?",
+        "file": "audio/ru/focus-a15.mp3",
+        "sha256": "fdba6498c45aec36805bba4bff417bd8f9b73a8be447df9fe2eb4c6063d7bf08",
+        "provider": "gtts"
+      },
+      "focus-a16": {
+        "text": "Один билет до центра, пожалуйста",
+        "file": "audio/ru/focus-a16.mp3",
+        "sha256": "22ca1a85888fc32d70f1f6d06588333ec712f8a4fc96707e21440209862b7f5f",
+        "provider": "gtts"
+      },
+      "focus-a17": {
+        "text": "Это едет до центра?",
+        "file": "audio/ru/focus-a17.mp3",
+        "sha256": "3d24b2e195abd5fd5fefc9a18bdcb5f14d5c11314961d01e344854eaecf72268",
+        "provider": "gtts"
+      },
+      "focus-a18": {
+        "text": "Во сколько отправляется?",
+        "file": "audio/ru/focus-a18.mp3",
+        "sha256": "f35b7075138a4591bf2e61c919af465e29472aa6cbbaa33d38363ebd9a87c437",
+        "provider": "gtts"
+      },
+      "focus-a19": {
+        "text": "Где можно купить билет?",
+        "file": "audio/ru/focus-a19.mp3",
+        "sha256": "c4fecedeb9e2aefe3dd2018db87416542d71b49b48b69719f979435e9c48df4c",
+        "provider": "gtts"
+      },
+      "focus-a20": {
+        "text": "Я работаю в магазине",
+        "file": "audio/ru/focus-a20.mp3",
+        "sha256": "012dc180835e44e94202a51ec6dddc621924790cc46889359d94dececbbba076",
+        "provider": "gtts"
+      },
+      "focus-s18-lv": {
+        "text": "Я немного говорю по-латышски",
+        "file": "audio/ru/focus-s18-lv.mp3",
+        "sha256": "96a0272bb72eb8b86eada5f776568f50a71ebc6ecfc82cc3f59472d07df3665e",
+        "provider": "gtts"
+      },
+      "focus-s19-lv": {
+        "text": "Вы говорите по-латышски?",
+        "file": "audio/ru/focus-s19-lv.mp3",
+        "sha256": "44a6e3ed8e8804d40ee617c85e8558c4df054d291bdb5a457a0ce411146f582a",
+        "provider": "gtts"
+      },
+      "focus-s18-ru": {
+        "text": "Я немного говорю по-русски",
+        "file": "audio/ru/focus-s18-ru.mp3",
+        "sha256": "3bfd7902ed1d4438a6e573073ae637d25a72b39567b442b39b21c487f174e840",
+        "provider": "gtts"
+      },
+      "focus-s19-ru": {
+        "text": "Вы говорите по-русски?",
+        "file": "audio/ru/focus-s19-ru.mp3",
+        "sha256": "97b1de2824b150f13c0ec5b986c4305ecfdbc2fca74370194d07ffea3e14fe6c",
+        "provider": "gtts"
+      },
+      "focus-s18-en": {
+        "text": "Я немного говорю по-английски",
+        "file": "audio/ru/focus-s18-en.mp3",
+        "sha256": "1eec44df7820bd2d1258fb3c70de21504fd24d855f16badb4a13cdbce11cf099",
+        "provider": "gtts"
+      },
+      "focus-s19-en": {
+        "text": "Вы говорите по-английски?",
+        "file": "audio/ru/focus-s19-en.mp3",
+        "sha256": "bb9a092eafeb728bcb97b46af5337db9a2111511ad0857389b111fb85912c163",
+        "provider": "gtts"
+      },
+      "focus-s18-ja": {
+        "text": "Я немного говорю по-японски",
+        "file": "audio/ru/focus-s18-ja.mp3",
+        "sha256": "7170ef6a7c843973d8256888e5735c164513ea1f30e02bdcf7d2d0d956a6893d",
+        "provider": "gtts"
+      }
+    },
+    "en": {
+      "focus-s02": {
+        "text": "See you later",
+        "file": "audio/en/focus-s02.mp3",
+        "sha256": "20a8de6bc985ae7ca6373fc6d1cad4dd0b7071cc0d48d192bb543fe77f0011f8",
+        "provider": "flite-slt"
+      },
+      "focus-s07": {
+        "text": "My name is Anna",
+        "file": "audio/en/focus-s07.mp3",
+        "sha256": "67d07b96ee1e744504af0ba4010aa06c66d42d060aacf4aa33df9b3fcbcb8c9b",
+        "provider": "flite-slt"
+      },
+      "focus-s08": {
+        "text": "What is your name?",
+        "file": "audio/en/focus-s08.mp3",
+        "sha256": "a0ca7dac3d554f511d95634e7995e8d05adac5a4f0140e6ddbab669efe63b0c1",
+        "provider": "flite-slt"
+      },
+      "focus-s09": {
+        "text": "Where are you from?",
+        "file": "audio/en/focus-s09.mp3",
+        "sha256": "6b080c6adac55dd431f3774b6d1dc7db037a727f86d566d7123029bea3acbe3e",
+        "provider": "flite-slt"
+      },
+      "focus-s10": {
+        "text": "I am from Latvia",
+        "file": "audio/en/focus-s10.mp3",
+        "sha256": "874c63e15a6aafd05a8a8def5d26274a46fbda6504dfd095c6aadbab973dd1ec",
+        "provider": "flite-slt"
+      },
+      "focus-s11": {
+        "text": "How are you?",
+        "file": "audio/en/focus-s11.mp3",
+        "sha256": "3e20ea5c87fe93f9a96d77291365801e95b42cfea51115b19950276ac78767cc",
+        "provider": "flite-slt"
+      },
+      "focus-s12": {
+        "text": "I am fine",
+        "file": "audio/en/focus-s12.mp3",
+        "sha256": "9c0fd1a67dbc000894908f231b8fe942b43cba84c286b98c1e239e9f5160bf9c",
+        "provider": "flite-slt"
+      },
+      "focus-s14": {
+        "text": "Please repeat that",
+        "file": "audio/en/focus-s14.mp3",
+        "sha256": "97893ae0930c45db7c4f2fcfe5ea604ea826cd3e275ccdfae535fcd3ba3d6de4",
+        "provider": "flite-slt"
+      },
+      "focus-s15": {
+        "text": "Please speak more slowly",
+        "file": "audio/en/focus-s15.mp3",
+        "sha256": "0e08c1bac9420ae8444d3c135d13b96d1c6244c1ac6b93faba0190bc56566691",
+        "provider": "flite-slt"
+      },
+      "focus-s16": {
+        "text": "What does this mean?",
+        "file": "audio/en/focus-s16.mp3",
+        "sha256": "ec388e19045c4d1a02dfb44102d1f471a7b9a87796a3f4413b6316f21bd4a2ac",
+        "provider": "flite-slt"
+      },
+      "focus-s17": {
+        "text": "I don’t know",
+        "file": "audio/en/focus-s17.mp3",
+        "sha256": "a39bd34e6b84dcb53e0e5480b4211103d6a51117aeded05c4a6b5667f5e83318",
+        "provider": "flite-slt"
+      },
+      "focus-s20": {
+        "text": "Please show me",
+        "file": "audio/en/focus-s20.mp3",
+        "sha256": "574dbfbfd670ede3321edd57ff5478aba9ab7d9df2b2791acdaaf20a43903eb0",
+        "provider": "flite-slt"
+      },
+      "focus-s21": {
+        "text": "I want water",
+        "file": "audio/en/focus-s21.mp3",
+        "sha256": "33928e4a1b9a5940ef7012dc3768ea2a96f074e8113acf810ef25bcee1517ac8",
+        "provider": "flite-slt"
+      },
+      "focus-s23": {
+        "text": "I have a phone",
+        "file": "audio/en/focus-s23.mp3",
+        "sha256": "a246fe87491fee41ec3444f95a5e5056a92c2da8b9f724e3340605c4bee00b3e",
+        "provider": "flite-slt"
+      },
+      "focus-s24": {
+        "text": "I don’t have a phone",
+        "file": "audio/en/focus-s24.mp3",
+        "sha256": "1f3021d643745acfe59a6abd0af1c30dde4a85e51c292840106f0076a4418b30",
+        "provider": "flite-slt"
+      },
+      "focus-s25": {
+        "text": "I like apples",
+        "file": "audio/en/focus-s25.mp3",
+        "sha256": "ac8c69fc346803ebc678ade9527e2fe4fd37c0829e77c7976e3e25001c3ac905",
+        "provider": "flite-slt"
+      },
+      "focus-s26": {
+        "text": "I don’t like milk",
+        "file": "audio/en/focus-s26.mp3",
+        "sha256": "f6641108bc9653a329fa16e542ab23a90d2d6120a03526f5a0677d48ca06fa52",
+        "provider": "flite-slt"
+      },
+      "focus-s27": {
+        "text": "Can I sit here?",
+        "file": "audio/en/focus-s27.mp3",
+        "sha256": "b0f40865a9094538ed5176485724fa11fddc8b86c5448521f50ede23a6b22837",
+        "provider": "flite-slt"
+      },
+      "focus-s28": {
+        "text": "Can you help me?",
+        "file": "audio/en/focus-s28.mp3",
+        "sha256": "974c3864c1776183648bed6c6c38c460c104b09f4456715b794c17c1feecd52b",
+        "provider": "flite-slt"
+      },
+      "focus-s29": {
+        "text": "This one",
+        "file": "audio/en/focus-s29.mp3",
+        "sha256": "c501be4dbbb6ef6943d7f6c8e46721650ced822d5816430af72b86d8ca9e3d62",
+        "provider": "flite-slt"
+      },
+      "focus-s32": {
+        "text": "Food",
+        "file": "audio/en/focus-s32.mp3",
+        "sha256": "35ec781255db251310913982da73587134248fc0aec2667d83308aa0cbdcaeb9",
+        "provider": "flite-slt"
+      },
+      "focus-s37": {
+        "text": "I am hungry",
+        "file": "audio/en/focus-s37.mp3",
+        "sha256": "a5aa76dfb307f30bb6efade0ca59e0230524e571e9b4d146a9105ab14eb5e9d7",
+        "provider": "flite-slt"
+      },
+      "focus-s38": {
+        "text": "I am thirsty",
+        "file": "audio/en/focus-s38.mp3",
+        "sha256": "a809999cd9ed7b692fc6e570a2647c75155a9fb6e76254a8a2ec3a81dc3eb0ae",
+        "provider": "flite-slt"
+      },
+      "focus-s39": {
+        "text": "More, please",
+        "file": "audio/en/focus-s39.mp3",
+        "sha256": "2fd8e8ced2cd12ce818290cd04782e99f5b5a798e648d02b26c2c0ddff53871f",
+        "provider": "flite-slt"
+      },
+      "focus-s40": {
+        "text": "Enough, thank you",
+        "file": "audio/en/focus-s40.mp3",
+        "sha256": "a446ec0306af8989067e1e65256d801d5d41c4c82859cac96bf2fbe51b3a31fd",
+        "provider": "flite-slt"
+      },
+      "focus-s41": {
+        "text": "Where is the toilet?",
+        "file": "audio/en/focus-s41.mp3",
+        "sha256": "31ca05e3b8f8105a95d0aaec939272cbdb4b69ba0944fb5063f225cb29f3c953",
+        "provider": "flite-slt"
+      },
+      "focus-s49": {
+        "text": "Let’s go",
+        "file": "audio/en/focus-s49.mp3",
+        "sha256": "0079c5e5a4fc17e3691ede913453dced76a7d53e0e142dd8253222e100c581fd",
+        "provider": "flite-slt"
+      },
+      "focus-s50": {
+        "text": "Please wait",
+        "file": "audio/en/focus-s50.mp3",
+        "sha256": "2ee396c5f38787a80135895f827b759e9b31c22f69c164c543640e6130101667",
+        "provider": "flite-slt"
+      },
+      "focus-s65": {
+        "text": "What time is it?",
+        "file": "audio/en/focus-s65.mp3",
+        "sha256": "2600473209e537670bc01fd4dbfeda8669ca3338480283c25c55df93cc0aedc9",
+        "provider": "flite-slt"
+      },
+      "focus-s66": {
+        "text": "What time shall we meet?",
+        "file": "audio/en/focus-s66.mp3",
+        "sha256": "80db8facdce15fce73dc0894ab04b3894cfe8a593e5e202765305602760b454d",
+        "provider": "flite-slt"
+      },
+      "focus-s71": {
+        "text": "Help!",
+        "file": "audio/en/focus-s71.mp3",
+        "sha256": "b9315bf3d3be05ab165fdbec1234e9b844a18b66d6fa728bf24906ef28c5abaf",
+        "provider": "flite-slt"
+      },
+      "focus-s72": {
+        "text": "Stop!",
+        "file": "audio/en/focus-s72.mp3",
+        "sha256": "2290c356e11854397bfbdca120a5d28838878fc7d277e6bc18dc080accc41145",
+        "provider": "flite-slt"
+      },
+      "focus-s73": {
+        "text": "I don’t want that",
+        "file": "audio/en/focus-s73.mp3",
+        "sha256": "4615fb2904376ddb21140fb95f37089706c4ba968717db02074a6f6cbe72641b",
+        "provider": "flite-slt"
+      },
+      "focus-s74": {
+        "text": "I am lost",
+        "file": "audio/en/focus-s74.mp3",
+        "sha256": "a50e40a04960372ed024a3b71403e19009028aecdbaf3f78ef2d1115e79e5b8f",
+        "provider": "flite-slt"
+      },
+      "focus-s75": {
+        "text": "I am hurt",
+        "file": "audio/en/focus-s75.mp3",
+        "sha256": "d4e25e7185dd6f15ffc5d18383cac9167a0234b36d7ab03c13707e4693d96479",
+        "provider": "flite-slt"
+      },
+      "focus-s76": {
+        "text": "I feel unwell",
+        "file": "audio/en/focus-s76.mp3",
+        "sha256": "f33a2592d47e024afbad147ffa7561d3d9b6019306b953e25fa0e0d3db2695eb",
+        "provider": "flite-slt"
+      },
+      "focus-k02": {
+        "text": "Mum",
+        "file": "audio/en/focus-k02.mp3",
+        "sha256": "4903320784bf098c56fff46a36827e47fd073baa424e3231db645fff511d8b69",
+        "provider": "flite-slt"
+      },
+      "focus-k03": {
+        "text": "Dad",
+        "file": "audio/en/focus-k03.mp3",
+        "sha256": "c2c7e5ca7ded7168db51df33cafbb7ae011581a6d5d569dd430235ac416cff8d",
+        "provider": "flite-slt"
+      },
+      "focus-k11": {
+        "text": "Can I play?",
+        "file": "audio/en/focus-k11.mp3",
+        "sha256": "739de3481d4d3269bc314410dda4dd0d2a22dadf70085d08a23593dfb5328022",
+        "provider": "flite-slt"
+      },
+      "focus-k12": {
+        "text": "Let’s play",
+        "file": "audio/en/focus-k12.mp3",
+        "sha256": "ec9ba80c178669ccd1078c4b309e01b815c7d9a0d37d55d78e3992153b5e6801",
+        "provider": "flite-slt"
+      },
+      "focus-k13": {
+        "text": "It is my turn",
+        "file": "audio/en/focus-k13.mp3",
+        "sha256": "73f2f6a25fc9a3638e424956658d3d470f844d9321e7ab54c68176a2b5b0dee7",
+        "provider": "flite-slt"
+      },
+      "focus-k14": {
+        "text": "It is your turn",
+        "file": "audio/en/focus-k14.mp3",
+        "sha256": "97671a2ea4ecfffe1ae96a51194d1d04b05d782667bfe2a65d50027a4aa4060f",
+        "provider": "flite-slt"
+      },
+      "focus-k15": {
+        "text": "Can I join you?",
+        "file": "audio/en/focus-k15.mp3",
+        "sha256": "8c513d2312815575c5814f6ebd6fd00ea700d32297c3675c72433f720623b861",
+        "provider": "flite-slt"
+      },
+      "focus-k16": {
+        "text": "I need a break",
+        "file": "audio/en/focus-k16.mp3",
+        "sha256": "1ccae35845bd4eb2f052db0957ff232876b1f79c9443c354594c4d04472fa122",
+        "provider": "flite-slt"
+      },
+      "focus-k17": {
+        "text": "Wait for me",
+        "file": "audio/en/focus-k17.mp3",
+        "sha256": "2a33a7dfa0a630fe2652db329cfad47d8147405379ef7e182b495af74275b5ae",
+        "provider": "flite-slt"
+      },
+      "focus-k18": {
+        "text": "Can I borrow a pen?",
+        "file": "audio/en/focus-k18.mp3",
+        "sha256": "5f5b934f0ee8f68333c6078d22a8861236c5257d06cc4bbd34c6eb04463a62a8",
+        "provider": "flite-slt"
+      },
+      "focus-k19": {
+        "text": "How do I do this?",
+        "file": "audio/en/focus-k19.mp3",
+        "sha256": "1edcac18dff333bc95619c3ca98e07fab22f06cd75f188829aeaef10fff230e1",
+        "provider": "flite-slt"
+      },
+      "focus-k20": {
+        "text": "I can’t find my schoolbag",
+        "file": "audio/en/focus-k20.mp3",
+        "sha256": "b4274c2edcc60fd3bd41a3feae3ecb72e4d6617db7d3bc09605f8579cafe2166",
+        "provider": "flite-slt"
+      },
+      "focus-a03": {
+        "text": "Payment card",
+        "file": "audio/en/focus-a03.mp3",
+        "sha256": "e0e8208c8e83d0c71a292e3e93024ffb1f199fd22b701638cacf04d2e130ce7e",
+        "provider": "flite-slt"
+      },
+      "focus-a04": {
+        "text": "Cash",
+        "file": "audio/en/focus-a04.mp3",
+        "sha256": "fe7650395f1de7885fd8b901fa2b2a2b505cde347f527dd186e27edbe2cc02dd",
+        "provider": "flite-slt"
+      },
+      "focus-a11": {
+        "text": "How much does this cost?",
+        "file": "audio/en/focus-a11.mp3",
+        "sha256": "7a41d32b22afbe4a8bfb37804a3212c9a9df443bee6aadea8d90b4cec701ff3a",
+        "provider": "flite-slt"
+      },
+      "focus-a12": {
+        "text": "Can I try it?",
+        "file": "audio/en/focus-a12.mp3",
+        "sha256": "fbeefad7b0b83e69c1ce79e54b8e11e626cf547e657d1319d54da2de68c6a6ac",
+        "provider": "flite-slt"
+      },
+      "focus-a13": {
+        "text": "Can I pay by card?",
+        "file": "audio/en/focus-a13.mp3",
+        "sha256": "227dd4c0c4ddc0699716b60b8f0cd6fd3b404bf41d84f5b1c75cae7adab92660",
+        "provider": "flite-slt"
+      },
+      "focus-a14": {
+        "text": "The bill, please",
+        "file": "audio/en/focus-a14.mp3",
+        "sha256": "afb39e1c53650e4c300af6c9b3eb0dc730b8c11e6a25e202716b8acec61b61a9",
+        "provider": "flite-slt"
+      },
+      "focus-a15": {
+        "text": "Where is the bus stop?",
+        "file": "audio/en/focus-a15.mp3",
+        "sha256": "a7a6101a8b843f5bb6f28c0a754fb3707850d68683388e38c139a8d2149a1b74",
+        "provider": "flite-slt"
+      },
+      "focus-a16": {
+        "text": "One ticket to the centre, please",
+        "file": "audio/en/focus-a16.mp3",
+        "sha256": "87a932c44c184a23691d7a9ab44b6bc84ead31e2544592e94d03533e9bc4732a",
+        "provider": "flite-slt"
+      },
+      "focus-a17": {
+        "text": "Does this go to the centre?",
+        "file": "audio/en/focus-a17.mp3",
+        "sha256": "c196ed60025b8dbda32353969a128bf976468fc419dfb686af6a4910c4aa1a57",
+        "provider": "flite-slt"
+      },
+      "focus-a18": {
+        "text": "What time does it leave?",
+        "file": "audio/en/focus-a18.mp3",
+        "sha256": "3446766baadd4bd8b52f36949049768c04352277772f7c91589b3aa200eeed56",
+        "provider": "flite-slt"
+      },
+      "focus-a19": {
+        "text": "Where can I buy a ticket?",
+        "file": "audio/en/focus-a19.mp3",
+        "sha256": "201562c49b2d80fe1d5760ea786975286c016d80cb541d3800fadf330c74c897",
+        "provider": "flite-slt"
+      },
+      "focus-a20": {
+        "text": "I work in a shop",
+        "file": "audio/en/focus-a20.mp3",
+        "sha256": "8ff6c1e324a64f3bbfb7f87648effc915a2893de72105f02cbea7011c985acfd",
+        "provider": "flite-slt"
+      },
+      "focus-s18-lv": {
+        "text": "I speak a little Latvian",
+        "file": "audio/en/focus-s18-lv.mp3",
+        "sha256": "961cfd081bedc9243e8e8d9203a578463cee00b2780b56cf7a8e0822e614cdb5",
+        "provider": "flite-slt"
+      },
+      "focus-s19-lv": {
+        "text": "Do you speak Latvian?",
+        "file": "audio/en/focus-s19-lv.mp3",
+        "sha256": "0104806f0be9f91852d7098a1db679369f387631ae5058ab03777fe841ac7dd1",
+        "provider": "flite-slt"
+      },
+      "focus-s18-ru": {
+        "text": "I speak a little Russian",
+        "file": "audio/en/focus-s18-ru.mp3",
+        "sha256": "0b4fa4b201fa643a24095ef877358de217ae93732e4365cbafcb6d6a1bbbfe14",
+        "provider": "flite-slt"
+      },
+      "focus-s19-ru": {
+        "text": "Do you speak Russian?",
+        "file": "audio/en/focus-s19-ru.mp3",
+        "sha256": "8f81367567b2c2ec3eaaac5336f5396cd21a9a51ef0e5868aedf53ca1f8e2720",
+        "provider": "flite-slt"
+      },
+      "focus-s18-en": {
+        "text": "I speak a little English",
+        "file": "audio/en/focus-s18-en.mp3",
+        "sha256": "0416a758e98c0f9a085ad52b0205b1b50b76fdbd35971645d7cff450e54a0550",
+        "provider": "flite-slt"
+      },
+      "focus-s19-en": {
+        "text": "Do you speak English?",
+        "file": "audio/en/focus-s19-en.mp3",
+        "sha256": "1de0b48c3f3b65e2cee0dea5b7f2e2c14b0057fc7f524f54c2052930ba3a3d21",
+        "provider": "flite-slt"
+      },
+      "focus-s18-ja": {
+        "text": "I speak a little Japanese",
+        "file": "audio/en/focus-s18-ja.mp3",
+        "sha256": "cb722acbab473da7796fea884e64304fea690677d3cf5414b6222789298232a4",
+        "provider": "flite-slt"
+      }
+    },
+    "ja": {
+      "focus-s02": {
+        "text": "じゃあ、また",
+        "file": "audio/ja/focus-s02.mp3",
+        "sha256": "13ab669bc37c6b3db31af28a29bd3be8e8147d5db30baf427dafb1bd05324573",
+        "provider": "gtts"
+      },
+      "focus-s07": {
+        "text": "アンナです",
+        "file": "audio/ja/focus-s07.mp3",
+        "sha256": "5e7ca9b0ef5cf5715a97f582b56534d2adb16b9c8720617977ada3082065afc0",
+        "provider": "gtts"
+      },
+      "focus-s08": {
+        "text": "名前は何ですか",
+        "file": "audio/ja/focus-s08.mp3",
+        "sha256": "7bb7f688a2e0dd6d6fa7053c70cf6e984e4d1f336d6bb66617a0198ecf97ba99",
+        "provider": "gtts"
+      },
+      "focus-s09": {
+        "text": "どこから来ましたか",
+        "file": "audio/ja/focus-s09.mp3",
+        "sha256": "24391365c136ad28c95f41bd65f315451f9d87400f8637a08bc29b2637cb8c1e",
+        "provider": "gtts"
+      },
+      "focus-s10": {
+        "text": "ラトビアから来ました",
+        "file": "audio/ja/focus-s10.mp3",
+        "sha256": "b7a81a430f3b9177f2923217022e4588b9d5fa152f4ac958b3a3cb2e670b212e",
+        "provider": "gtts"
+      },
+      "focus-s11": {
+        "text": "元気ですか",
+        "file": "audio/ja/focus-s11.mp3",
+        "sha256": "651554a5421f7ef336fef86d2658340617adfd33a453bc2105fab0e7c4f5b37e",
+        "provider": "gtts"
+      },
+      "focus-s12": {
+        "text": "元気です",
+        "file": "audio/ja/focus-s12.mp3",
+        "sha256": "f4c25bc0361a5006d6e1e66c828207644189841444642c58dfd2438886623068",
+        "provider": "gtts"
+      },
+      "focus-s14": {
+        "text": "もう一度お願いします",
+        "file": "audio/ja/focus-s14.mp3",
+        "sha256": "2050b47e9de649a23ce2730b51689c1b8aeedc6ca376b95a5babb0401f7706a4",
+        "provider": "gtts"
+      },
+      "focus-s15": {
+        "text": "もっとゆっくり話してください",
+        "file": "audio/ja/focus-s15.mp3",
+        "sha256": "4d85ba06b33bfda17a1f450cb9ffd00d51605036634e7fc6a7fa2f3c8f2451f2",
+        "provider": "gtts"
+      },
+      "focus-s16": {
+        "text": "これはどういう意味ですか",
+        "file": "audio/ja/focus-s16.mp3",
+        "sha256": "f6c9b55aa9a8f4ce882556b2a0e6327cd4cfd427698e78f1fd74940e42447142",
+        "provider": "gtts"
+      },
+      "focus-s17": {
+        "text": "わかりません",
+        "file": "audio/ja/focus-s17.mp3",
+        "sha256": "ded72b9ee6e17894a5fb061c51651521eb432fe178b632c36789d1d1f4e1a6d1",
+        "provider": "gtts"
+      },
+      "focus-s20": {
+        "text": "見せてください",
+        "file": "audio/ja/focus-s20.mp3",
+        "sha256": "ac92867c87010e04f5c210c29b9e2cd7e62468a8f9695163985644ea40fd6dda",
+        "provider": "gtts"
+      },
+      "focus-s21": {
+        "text": "水が欲しいです",
+        "file": "audio/ja/focus-s21.mp3",
+        "sha256": "3badad97352830d1e4f875b4e86d406c36933da47f8687e389651af6af3d499f",
+        "provider": "gtts"
+      },
+      "focus-s23": {
+        "text": "電話を持っています",
+        "file": "audio/ja/focus-s23.mp3",
+        "sha256": "b7424bb17b219998be82cc474fb9479e7d4396835f12305af5cad4f2ec131c48",
+        "provider": "gtts"
+      },
+      "focus-s24": {
+        "text": "電話を持っていません",
+        "file": "audio/ja/focus-s24.mp3",
+        "sha256": "a4fc73b1af4aac34d8d03a0bdb80c30c8c64bcf4f9a01fec793ae9a2571237e0",
+        "provider": "gtts"
+      },
+      "focus-s25": {
+        "text": "りんごが好きです",
+        "file": "audio/ja/focus-s25.mp3",
+        "sha256": "a50cd1fd205b4f82adad5b4d8423f0deff9ecbb04188f569b665e67b93de4f30",
+        "provider": "gtts"
+      },
+      "focus-s26": {
+        "text": "牛乳が好きではありません",
+        "file": "audio/ja/focus-s26.mp3",
+        "sha256": "8563aec12d0b0c422189e1bfa3f4d824d437a1fbde1aebda8d07d94445bd6ad8",
+        "provider": "gtts"
+      },
+      "focus-s27": {
+        "text": "ここに座ってもいいですか",
+        "file": "audio/ja/focus-s27.mp3",
+        "sha256": "c5c6d335d4e05d15aec08705a8f92726ea8ba18791e9001e57422e811e8fce79",
+        "provider": "gtts"
+      },
+      "focus-s28": {
+        "text": "手伝ってもらえますか",
+        "file": "audio/ja/focus-s28.mp3",
+        "sha256": "1ac49901073f36c32552fdc3ed6327b95dcf8fe55a4ed3ba9fde5626faa881d5",
+        "provider": "gtts"
+      },
+      "focus-s29": {
+        "text": "これ",
+        "file": "audio/ja/focus-s29.mp3",
+        "sha256": "9d1f2423701e582b83a925cde83cf420928f3f490566bb0faf0b62ce85da5c0b",
+        "provider": "gtts"
+      },
+      "focus-s32": {
+        "text": "食べ物",
+        "file": "audio/ja/focus-s32.mp3",
+        "sha256": "1b46376aff04b6240b1c2ea78398f79db37481db254eaa9d8140c9432bd845fc",
+        "provider": "gtts"
+      },
+      "focus-s37": {
+        "text": "お腹がすきました",
+        "file": "audio/ja/focus-s37.mp3",
+        "sha256": "07e84d20202bfaccc87a0ee56ad7080b81b45a2970224efca658caccf2204dbb",
+        "provider": "gtts"
+      },
+      "focus-s38": {
+        "text": "喉が渇きました",
+        "file": "audio/ja/focus-s38.mp3",
+        "sha256": "d927b25e9945e6c8799682a4a00082a049364d9892f603fe3e2bcaf070ac38b7",
+        "provider": "gtts"
+      },
+      "focus-s39": {
+        "text": "もう少しお願いします",
+        "file": "audio/ja/focus-s39.mp3",
+        "sha256": "f5cec7dc289b47e2d5e8f232318224abd5f620a3b3d69721ed5d8193b0d29e65",
+        "provider": "gtts"
+      },
+      "focus-s40": {
+        "text": "もう十分です",
+        "file": "audio/ja/focus-s40.mp3",
+        "sha256": "b2e524ac86bba063858460df9de35c735f589191d5e63a5462a6f98f99064529",
+        "provider": "gtts"
+      },
+      "focus-s41": {
+        "text": "トイレはどこですか",
+        "file": "audio/ja/focus-s41.mp3",
+        "sha256": "3556c41eee768b60054589b146a2a3783089cfe85ae8ea9f33df8f18f2948d74",
+        "provider": "gtts"
+      },
+      "focus-s49": {
+        "text": "行きましょう",
+        "file": "audio/ja/focus-s49.mp3",
+        "sha256": "c85ff01ee4e55dfa67728744f8fb894fbbdb53f070dc9165e9b6175a8aab9369",
+        "provider": "gtts"
+      },
+      "focus-s50": {
+        "text": "少し待ってください",
+        "file": "audio/ja/focus-s50.mp3",
+        "sha256": "888910ad3d24928f56cad10af6d21e064664f41f19d2cbd327a174a9bd199c2b",
+        "provider": "gtts"
+      },
+      "focus-s65": {
+        "text": "今何時ですか",
+        "file": "audio/ja/focus-s65.mp3",
+        "sha256": "6fcee76491d77b167f36019e5cc2af2f88b01158395df41da2693b1d4ad07236",
+        "provider": "gtts"
+      },
+      "focus-s66": {
+        "text": "何時に会いましょうか",
+        "file": "audio/ja/focus-s66.mp3",
+        "sha256": "2f3aa956ed3e4562f7e8ee77800c099d1119eb403abca7368823657bb1c2b8a5",
+        "provider": "gtts"
+      },
+      "focus-s71": {
+        "text": "助けて",
+        "file": "audio/ja/focus-s71.mp3",
+        "sha256": "9299123104bc7bc665559ec78edbd3f5f5f68642fd532a2dc1f411a7d3fc378d",
+        "provider": "gtts"
+      },
+      "focus-s72": {
+        "text": "やめてください",
+        "file": "audio/ja/focus-s72.mp3",
+        "sha256": "39526b560cbe90ecb3035f076b6385419852e7dc2529b4f92d9e6cb1cdbe1a42",
+        "provider": "gtts"
+      },
+      "focus-s73": {
+        "text": "それは欲しくないです",
+        "file": "audio/ja/focus-s73.mp3",
+        "sha256": "49a4ce929d8257d24155e5704b34d5c473a751f44ef1a6871465e21cb8248ab0",
+        "provider": "gtts"
+      },
+      "focus-s74": {
+        "text": "道に迷いました",
+        "file": "audio/ja/focus-s74.mp3",
+        "sha256": "6e6534a8182f564840ac23c5fd16787f18961ad9d35b29f66f9763b2c2cdfaec",
+        "provider": "gtts"
+      },
+      "focus-s75": {
+        "text": "けがをしました",
+        "file": "audio/ja/focus-s75.mp3",
+        "sha256": "af3dcc94b6211e0f6e6cdaeb5db6176a191af84e5f100b4426b164cf9eeb7900",
+        "provider": "gtts"
+      },
+      "focus-s76": {
+        "text": "具合が悪いです",
+        "file": "audio/ja/focus-s76.mp3",
+        "sha256": "ccec2e04b640458072b5a3c7adfc39bc893e84ee9b8ed565860c2d29af1ae564",
+        "provider": "gtts"
+      },
+      "focus-k02": {
+        "text": "お母さん",
+        "file": "audio/ja/focus-k02.mp3",
+        "sha256": "94b30ed65fdd030f882af511a5c83e4101e7e32d71128c0394efc57b09d87d81",
+        "provider": "gtts"
+      },
+      "focus-k03": {
+        "text": "お父さん",
+        "file": "audio/ja/focus-k03.mp3",
+        "sha256": "6f2b6af9b09fbf074e674cff1a05bf1ebeb05d1f97efcc93f13914ec7c54e248",
+        "provider": "gtts"
+      },
+      "focus-k11": {
+        "text": "遊んでもいいですか",
+        "file": "audio/ja/focus-k11.mp3",
+        "sha256": "65bc51ea04b37fdcc60ccd5d45023962174ab6f09deb548749870e4d9c31ccfa",
+        "provider": "gtts"
+      },
+      "focus-k12": {
+        "text": "遊ぼう",
+        "file": "audio/ja/focus-k12.mp3",
+        "sha256": "78a93479ebc650f73e0087ff4522fae2708a1914f96b98a354e56fb338410542",
+        "provider": "gtts"
+      },
+      "focus-k13": {
+        "text": "私の番です",
+        "file": "audio/ja/focus-k13.mp3",
+        "sha256": "ab7d2af31314e5c8e65a6e392bdc1539c5b6c1d26346eb348cc2edeb41465484",
+        "provider": "gtts"
+      },
+      "focus-k14": {
+        "text": "あなたの番です",
+        "file": "audio/ja/focus-k14.mp3",
+        "sha256": "7c741acb4f4f1c535ef724ff269b6a62f3297a1eef0249e97aab3e81ecfa62ea",
+        "provider": "gtts"
+      },
+      "focus-k15": {
+        "text": "一緒に遊んでもいいですか",
+        "file": "audio/ja/focus-k15.mp3",
+        "sha256": "b509e2ea017c303d8c36eed1a939103aca6a722bf4c132a8579429eaaa1e394d",
+        "provider": "gtts"
+      },
+      "focus-k16": {
+        "text": "少し休みたいです",
+        "file": "audio/ja/focus-k16.mp3",
+        "sha256": "7eb60f17bbb5b2fcbc754ed3ab8f387a982ef154b7f6311e7a5f50222cbbff90",
+        "provider": "gtts"
+      },
+      "focus-k17": {
+        "text": "待って",
+        "file": "audio/ja/focus-k17.mp3",
+        "sha256": "b5fe94542f5c548de6d4b6aa230a8b11a1ef677e89ff68bfac0104225eea6e1a",
+        "provider": "gtts"
+      },
+      "focus-k18": {
+        "text": "ペンを借りてもいいですか",
+        "file": "audio/ja/focus-k18.mp3",
+        "sha256": "f71a92bab5a4cfbad32c855f82a32640f31f266ed5640c408dd40da82306373b",
+        "provider": "gtts"
+      },
+      "focus-k19": {
+        "text": "これはどうやりますか",
+        "file": "audio/ja/focus-k19.mp3",
+        "sha256": "615d05c341acad27fd7fe7f65594f24cd3908d301a7ffd2b98778ec251b51d16",
+        "provider": "gtts"
+      },
+      "focus-k20": {
+        "text": "かばんが見つかりません",
+        "file": "audio/ja/focus-k20.mp3",
+        "sha256": "c3933424ebadb192537227f4120e3beecbb1e2c8d7cc723c6dfe2052509e7747",
+        "provider": "gtts"
+      },
+      "focus-a03": {
+        "text": "クレジットカード",
+        "file": "audio/ja/focus-a03.mp3",
+        "sha256": "3248772d0e333a7200c2600e8519e7515c3f2ee8cd1e472d0ff99ef4bbcbc52a",
+        "provider": "gtts"
+      },
+      "focus-a04": {
+        "text": "現金",
+        "file": "audio/ja/focus-a04.mp3",
+        "sha256": "399789237bd8099ed429236fba815c3cc5bac43361648443fe50b80b18af10be",
+        "provider": "gtts"
+      },
+      "focus-a11": {
+        "text": "これはいくらですか",
+        "file": "audio/ja/focus-a11.mp3",
+        "sha256": "99acb78f3a902aaf673e5dacbc3f407c9b0fb89cee98dc44115480325ea6c0b7",
+        "provider": "gtts"
+      },
+      "focus-a12": {
+        "text": "試してもいいですか",
+        "file": "audio/ja/focus-a12.mp3",
+        "sha256": "eadfc4655de7caa9f90803a2711400a3fa1993716ed726251fc04b3566dee0f3",
+        "provider": "gtts"
+      },
+      "focus-a13": {
+        "text": "カードで払えますか",
+        "file": "audio/ja/focus-a13.mp3",
+        "sha256": "ec6635b7cfdd1049abbf179f84f4ab2c205b2a3a2cac2c2cadf8326ab9f6451f",
+        "provider": "gtts"
+      },
+      "focus-a14": {
+        "text": "お会計をお願いします",
+        "file": "audio/ja/focus-a14.mp3",
+        "sha256": "bde15da98f856d62f4d65c13f7e0db35d8b433a2d0043a5a2c8a22d0c156ffe0",
+        "provider": "gtts"
+      },
+      "focus-a15": {
+        "text": "バス停はどこですか",
+        "file": "audio/ja/focus-a15.mp3",
+        "sha256": "9aa94e973d671f6f62f0b837b7af9a2065f172702619610d9d5b4ca2226c04e7",
+        "provider": "gtts"
+      },
+      "focus-a16": {
+        "text": "中心部までの切符を一枚お願いします",
+        "file": "audio/ja/focus-a16.mp3",
+        "sha256": "07f51fcfafb6c5652284d77956b546c042b0b1445617f587259660a06148cad9",
+        "provider": "gtts"
+      },
+      "focus-a17": {
+        "text": "これは中心部に行きますか",
+        "file": "audio/ja/focus-a17.mp3",
+        "sha256": "3ec98e6b42c50df84ad7ec510d139ff0f140ca12a082c6618d9c2e3d5195a19c",
+        "provider": "gtts"
+      },
+      "focus-a18": {
+        "text": "何時に出発しますか",
+        "file": "audio/ja/focus-a18.mp3",
+        "sha256": "957f6473bda4cab34189e8a29d134514342184e4af2d3c1efbae7d73e61080c3",
+        "provider": "gtts"
+      },
+      "focus-a19": {
+        "text": "切符はどこで買えますか",
+        "file": "audio/ja/focus-a19.mp3",
+        "sha256": "2c9647417aec4bc1fbbdc571ce7e7e0da87366201f625cf3f7fd1217303f8da7",
+        "provider": "gtts"
+      },
+      "focus-a20": {
+        "text": "店で働いています",
+        "file": "audio/ja/focus-a20.mp3",
+        "sha256": "f97fc8a11316e6dcda09a1990a45ad03480473a0c42b26fb69e5b4afc9b17f51",
+        "provider": "gtts"
+      },
+      "focus-s18-lv": {
+        "text": "ラトビア語を少し話せます",
+        "file": "audio/ja/focus-s18-lv.mp3",
+        "sha256": "c14a0d2800ae678b61f57ab6bbb390187cf20fedd6e66ce1d2a6b990cd94739b",
+        "provider": "gtts"
+      },
+      "focus-s19-lv": {
+        "text": "ラトビア語を話せますか",
+        "file": "audio/ja/focus-s19-lv.mp3",
+        "sha256": "b6b723e98b8c78e08f75932f1fc2275c5570b43774dcae33122a18ef7ab556fa",
+        "provider": "gtts"
+      },
+      "focus-s18-ru": {
+        "text": "ロシア語を少し話せます",
+        "file": "audio/ja/focus-s18-ru.mp3",
+        "sha256": "6cfffec757df0a32c73e1cd69e279061ee9839d0b230e62ab1c2c838f18fceff",
+        "provider": "gtts"
+      },
+      "focus-s19-ru": {
+        "text": "ロシア語を話せますか",
+        "file": "audio/ja/focus-s19-ru.mp3",
+        "sha256": "9f55cfa499b4533d05e11282b63ebb7657a41e3498bd3aeafdceb83ab9ff6af0",
+        "provider": "gtts"
+      },
+      "focus-s18-en": {
+        "text": "英語を少し話せます",
+        "file": "audio/ja/focus-s18-en.mp3",
+        "sha256": "f55c9558c96c463cf1f9c6f411628f6dbd6145da6527d815090c6d0008f62b83",
+        "provider": "gtts"
+      },
+      "focus-s19-en": {
+        "text": "英語を話せますか",
+        "file": "audio/ja/focus-s19-en.mp3",
+        "sha256": "94167a95db211852030423e9e5ede9d7bf48e96eed5889014be9433bca804f66",
+        "provider": "gtts"
+      },
+      "focus-s18-ja": {
+        "text": "日本語を少し話せます",
+        "file": "audio/ja/focus-s18-ja.mp3",
+        "sha256": "f8e431a96b9db5937aa07e79b27487668d7fb8f706509a3169973e341a739c57",
+        "provider": "gtts"
+      }
+    }
+  }
+}

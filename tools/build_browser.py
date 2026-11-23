@@ -4,11 +4,13 @@ import json
 from html import escape
 from pathlib import Path
 from content_loader import load_content
-from audio_loader import load_audio
+from audio_loader import load_audio, load_all_course_audio
+from focused_loader import load_focused_content
 
 def build(root: Path, output: Path) -> Path:
     course, locales = load_content(root)
-    audio = load_audio(root, course)
+    focused=load_focused_content(root, course) if (root/'content/focused/catalog.json').exists() else None
+    audio=load_all_course_audio(root,course,focused) if focused else load_audio(root,course)
     default_source = course['defaultDirection'].split('-')[0]
     default_ui = locales[default_source]
     template = (root / 'web/index.html').read_text(encoding='utf-8')
@@ -33,11 +35,12 @@ def build(root: Path, output: Path) -> Path:
     ui_data = json.dumps(locales, ensure_ascii=False, separators=(',', ':')).replace('<', '\\u003c').replace('>', '\\u003e').replace('&', '\\u0026')
     html = html.replace('<!--UI-->', ui_data)
     html = html.replace('<!--COURSE-->', data)
+    html = html.replace('<!--FOCUSED-->', json.dumps(focused,ensure_ascii=False,separators=(',',':')).replace('<','\\u003c').replace('>','\\u003e').replace('&','\\u0026'))
     audio_data = json.dumps(audio, ensure_ascii=False, separators=(',', ':')).replace('<', '\\u003c').replace('>', '\\u003e').replace('&', '\\u0026')
     html = html.replace('<!--AUDIO-DATA-->', audio_data)
     modules = ['audio-player.js', 'audio-view.js']
     html = html.replace('<!--AUDIO-MODULES-->', ''.join('<script>\n' + (root/'web'/name).read_text(encoding='utf-8').replace('</script', '<\\/script') + '\n</script>' for name in modules))
-    html = html.replace('<!--ENGINE-->', '<script>\n' + engine.replace('</script', '<\\/script') + '\n</script>')
+    html = html.replace('<!--ENGINE-->', '<script>\n' + (root/'core/course-selection.js').read_text(encoding='utf-8').replace('</script','<\\/script') + '\n</script>' + '<script>\n' + engine.replace('</script', '<\\/script') + '\n</script>')
     html = html.replace('<!--APP-->', '<script>\n' + app.replace('</script', '<\\/script') + '\n</script>')
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(html, encoding='utf-8')
