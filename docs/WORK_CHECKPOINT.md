@@ -6,7 +6,7 @@ Current task: L-011
 
 **Phase: IN_REVIEW — audit and reference-library artifacts prepared, pending checked PR integration.** The owner explicitly requested the common-usage audit and a reusable library of practical common words/phrases. This authorizes research/reference work, not active vocabulary corrections, PR #21 integration or app publication.
 
-**Branch/baseline:** `research/common-usage-library`, isolated checkout `/workspace/work/common-usage-library`, based on main `066ce2be6c0e2664604d864e7a051a40a70d75cb`. GitHub PR/commit and current check results are recorded in the final verification section below after execution; do not infer them from this phase label.
+**Branch/baseline:** `research/common-usage-library`, isolated checkout `/workspace/work/common-usage-library`, based on main `066ce2be6c0e2664604d864e7a051a40a70d75cb`. Source `59d22d1a095954435f902cda2059f92fe120e863` is pushed in [PR #26](https://github.com/janisp123/language-learning-app/pull/26), OPEN and unmerged. Final handoff metadata is on the same branch; read the actual PR head/checks on resume.
 
 ## Completed reference work
 
@@ -31,4 +31,4 @@ The canonical active task list is [docs/TD_LIST.md](TD_LIST.md); chat, cw and co
 
 - PASS: 46 Node / 32 Python tests; protocol checker; 2,040-decision ID/current-form/hash checks; 60-entry/240-form library structure and source-reference integrity; local Markdown links; diff whitespace.
 - PASS: generated app equals the committed download exactly: 21,388,029 bytes, SHA256 `e5bb8fee28d2d3f781de41f0e59f9592e27163bdf73ef7e4323039db6ab07c40`.
-- [Verification receipt](review/2026-11-23-common-usage-verification.json) records commands and limits. Independent review passed with two minor notes resolved (verification section and cc-p032 location context). Source push/PR/CI status will be read back before final handoff; do not assume merge or publication. No fresh physical-device or native-language certification is claimed.
+- [Verification receipt](review/2026-11-23-common-usage-verification.json) records commands and limits. Independent review passed with two minor notes resolved (verification section and cc-p032 location context). Source pushed in PR #26; GitHub protocol run45195968796 passed and browser test run45195968596 was running at metadata update. Final PR-head CI is checked separately after this metadata commit. No merge or publication. No fresh physical-device or native-language certification is claimed.

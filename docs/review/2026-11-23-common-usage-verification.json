@@ -39,10 +39,11 @@
   ],
   "languageReview": "Editorial/model review only; Japanese full audit reused, not a second independent fluent review. Fluent-human review pending.",
   "delivery": {
-    "source": "pending push/PR at receipt creation; see current PR head and check state",
+    "source": "59d22d1a095954435f902cda2059f92fe120e863 pushed; PR #26 OPEN. Subsequent handoff metadata stays on the same branch; use actual PR head on resume.",
     "merged": false,
     "appPublished": false,
-    "driveReplaced": false
+    "driveReplaced": false,
+    "pullRequest": "https://github.com/janisp123/language-learning-app/pull/26"
   },
   "independentReview": {
     "status": "PASS",
