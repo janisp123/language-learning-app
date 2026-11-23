@@ -27,9 +27,10 @@ class FocusedContentTests(unittest.TestCase):
   from build_browser import build
   with tempfile.TemporaryDirectory() as tmp:
    html=build(ROOT,Path(tmp)/'app.html').read_text()
-   self.assertIn('id="learner-audience"',html)
+   self.assertIn('id="course-selection"',html)
    self.assertIn('id="focused-data"',html)
-   self.assertIn('id="original-course"',html)
+   self.assertNotIn('id="original-course"',html)
+   self.assertNotIn('id="learner-audience"',html)
  def test_focused_pronunciation_covers_every_extension_and_rejects_missing_clip(self):
   import audio_loader
   self.assertTrue(hasattr(audio_loader,'load_all_course_audio'),'focused audio composition missing')

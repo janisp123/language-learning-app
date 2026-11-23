@@ -2557,11 +2557,11 @@
     "static": {
       "skip": "Skip to practice",
       "brand-name": "Language learning",
-      "badge": "Test build 0.5.1",
+      "badge": "Test build 0.5.2",
       "draft": "Draft content and pronunciation await fluent human review.",
       "audience": "Focused everyday communication",
       "welcome": "A little practice. Start with the essentials.",
-      "intro": "Choose Kids or Adults: 100 useful words and short expressions. The original 510-item course remains available below.",
+      "intro": "Choose a language direction, then Basic Kids (100 items), Basic Adults (100 items) or Full (510 items).",
       "direction-caption": "Practice direction",
       "start": "Start practice",
       "rules-title": "How it works",
@@ -2582,10 +2582,10 @@
       "footer-caption": "Free test build · No account, ads or saved browser progress",
       "source-link": "Source and feedback on GitHub",
       "privacy-note": "Do not put personal information in public GitHub issues.",
-      "learner-caption": "Course for",
-      "learner-kids": "Kids",
-      "learner-adults": "Adults",
-      "original-label": "Use the original 510-item course"
+      "course-caption": "Course",
+      "course-kids": "Basic Kids · 100 items",
+      "course-adults": "Basic Adults · 100 items",
+      "course-full": "Full · 510 items"
     },
     "messages": {
       "pageTitle": "Language learning — Test build",

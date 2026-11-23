@@ -1,6 +1,10 @@
 # Current working checkpoint
 
-Current task: L-010
+Current task: L-014
+
+## Current authorized slice — L-014
+
+Implemented and locally verified direction-first three-choice setup and dark default on feat/simple-course-dark-default, isolated from main5297d79. No vocabulary/audio/scoring changes. 55Node/41Python and all21 combinations/manual light handoff/reload pass;320/390/1280 dark/light layouts pass. Build/download/site parity and protocol pass. Checked PR/merge/hosted readback pending; do not claim deployed yet. L-010 remains next after this slice.
 
 ## Last completed slice — 2026-11-23
 

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" data-theme="light">
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -135,7 +135,7 @@
       <button type="button" data-language="en" lang="en" aria-label="English" aria-pressed="true">EN</button>
       <button type="button" data-language="ru" lang="ru" aria-label="Русский" aria-pressed="false">RU</button>
       <button type="button" data-language="lv" lang="lv" aria-label="Latviešu" aria-pressed="false">LV</button>
-      <button type="button" id="theme-toggle" aria-pressed="false" aria-label="Dark mode">☾</button>
+      <button type="button" id="theme-toggle" aria-pressed="true" aria-label="Dark mode">☀</button>
     </div>
   </header>
   <main id="main" class="wrap" tabindex="-1">
@@ -183,7 +183,7 @@
       </div>
     </section>
     <section id="availability" class="status" aria-labelledby="status-title">
-      <div><p class="eyebrow"><span data-copy="55">Where things stand</span></p><h2 id="status-title"><span data-copy="56">Try the focused courses.</span></h2><p><span data-copy="57">Choose Kids or Adults in the learning page:100 items each, with the original 510-item course available separately. All six LV/RU/EN directions plus English→Japanese are available. No account or saved progress. Android and Google Play are not released.</span></p></div>
+      <div><p class="eyebrow"><span data-copy="55">Where things stand</span></p><h2 id="status-title"><span data-copy="56">Try the focused courses.</span></h2><p><span data-copy="57">Choose a language direction, then Basic Kids (100 items), Basic Adults (100 items) or Full (510 items). All six LV/RU/EN directions plus English→Japanese are available. No account or saved progress. Android and Google Play are not released.</span></p></div>
       <div>
         <div class="availability"><strong><a href="learn/"><span data-copy="58">Open browser test build</span></a></strong><span><span data-copy="59">Pronunciation included · language review pending</span></span></div>
         <div class="availability"><strong><span data-copy="60">Android app</span></strong><span><span data-copy="61">Not released · no download available</span></span></div>
@@ -491,9 +491,9 @@
     "Izmēģini pamata kursus."
   ],
   [
-    "Choose Kids or Adults in the learning page:100 items each, with the original 510-item course available separately. All six LV/RU/EN directions plus English→Japanese are available. No account or saved progress. Android and Google Play are not released.",
-    "Выберите курс для детей или взрослых на странице обучения:по 100 заданий; исходный курс из 510 доступен отдельно. Шесть направлений LV/RU/EN и английский→японский. Без аккаунта и сохранённого прогресса. Android и Google Play пока не выпущены.",
-    "Mācību lapā izvēlies kursu bērniem vai pieaugušajiem:100 uzdevumi katrā; sākotnējais 510 uzdevumu kurss pieejams atsevišķi. Seši LV/RU/EN virzieni un angļu→japāņu. Bez konta un saglabāta progresa. Android un Google Play vēl nav pieejami."
+    "Choose a language direction, then Basic Kids (100 items), Basic Adults (100 items) or Full (510 items). All six LV/RU/EN directions plus English→Japanese are available. No account or saved progress. Android and Google Play are not released.",
+    "Выберите направление, затем основы для детей (100 слов и выражений), основы для взрослых (100) или полный курс (510). Шесть направлений LV/RU/EN и английский→японский. Без аккаунта и сохранённого прогресса. Android и Google Play пока не выпущены.",
+    "Izvēlies valodu virzienu, tad pamatus bērniem (100 vienības), pamatus pieaugušajiem (100) vai pilno kursu (510). Seši LV/RU/EN virzieni un angļu→japāņu. Bez konta un saglabāta progresa. Android un Google Play vēl nav pieejami."
   ],
   [
     "Open browser test build",
@@ -619,7 +619,7 @@
 };
     const languages = ['en', 'ru', 'lv'];
     let language = 'en';
-    let dark = false;
+    let dark = true;
     const theme = document.getElementById('theme-toggle');
     function render() {
       const column = languages.indexOf(language);
@@ -635,7 +635,7 @@
       theme.setAttribute('aria-label', text[5]);
       theme.setAttribute('aria-pressed', String(dark));
       theme.textContent = dark ? '☀' : '☾';
-      document.querySelectorAll('a[href^="learn/"]').forEach(link => { link.setAttribute('href', dark ? 'learn/#theme=dark' : 'learn/'); });
+      document.querySelectorAll('a[href^="learn/"]').forEach(link => { link.setAttribute('href', dark ? 'learn/#theme=dark' : 'learn/#theme=light'); });
       document.querySelectorAll('[data-language]').forEach(button => { button.setAttribute('aria-pressed', String(button.dataset.language === language)); });
     }
     document.querySelectorAll('[data-language]').forEach(button => { button.addEventListener('click', () => { language = button.dataset.language; render(); }); });

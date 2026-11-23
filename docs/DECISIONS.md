@@ -22,3 +22,7 @@ After receiving the complete list/design in PR #28, Owner replied “Yes it look
 ## Mistake correction playback — 2026-11-23
 
 Owner explicitly requested source-question→correct-target-answer audio three times before automatic one-question-back navigation, with no Try again option. Apply the existing third-mistake lesson1 reset after correction playback. Correct answers keep500ms and all scoring rules remain unchanged. This supersedes immediate wrong-answer navigation/blanket no target-audio feedback for this correction only. Existing restart/course/direction cancellation and zero saved state remain mandatory; playback failure recovers automatically with correct text/error visible.
+
+## Owner-approved setup simplification and dark default — 2026-11-23
+
+Owner requested direction first, then exactly three choices: Basic Kids (100), Basic Adults (100), Full (510). Replace separate audience/original-course controls; preserve all content, seven directions, scoring and correction audio. Both website and app start dark on every fresh load, with manual light mode in memory only. An exact one-use light/dark fragment carries the landing choice into learning, is immediately consumed, and never restores a preference on reload. This supersedes older light-default notes. Checked merge/live publication remains authorized.

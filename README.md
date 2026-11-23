@@ -17,13 +17,13 @@ I'm Janis. I wanted a simple way to practise useful everyday words and phrases, 
 - A responsive browser interface with light/dark mode. The project website has EN/RU/LV reading controls; the learning interface follows the source language.
 - Offline practice after downloading the self-contained HTML. No accounts, ads or tracking in the app.
 
-**Zero saved learner progress:** answers, counters and preferences stay in current page memory. Every reload or fresh session starts at lesson 1. There are no progress files, saved records or daily streaks. Website dark mode carries into learning for that visit; a clean reload starts light.
+**Zero saved learner progress:** answers, counters and preferences stay in current page memory. Every reload or fresh session starts at lesson 1. There are no progress files, saved records or daily streaks. The website and app start in dark mode on every fresh load. A manual light-mode choice carries into learning for that visit only; it is never saved.
 
 **Still a review build:** fluent human translation/pronunciation review, physical-device testing and a full accessibility review remain pending. Android and Google Play delivery are not implemented. Working browser features do not mean the course has been independently reviewed.
 
 ## How practice works
 
-Choose Kids or Adults, select a direction and start. Expand the original-course control if you want the larger 510-item course. Select answer text to submit it, or tap any speaker just to listen. Choices reshuffle each time a prompt appears. Feedback is immediate. Correct answers advance after 500 ms. After a mistake, the current question and correct answer play in sequence three times before the app automatically steps back; no retry button is needed. If playback fails, the correct text/error is shown and navigation recovers automatically.
+Choose a language direction, then Basic Kids (100 items), Basic Adults (100 items) or Full (510 items), and start. Select answer text to submit it, or tap any speaker just to listen. Choices reshuffle each time a prompt appears. Feedback is immediate. Correct answers advance after 500 ms. After a mistake, the current question and correct answer play in sequence three times before the app automatically steps back; no retry button is needed. If playback fails, the correct text/error is shown and navigation recovers automatically.
 
 Ten consecutive correct answers complete a lesson. A wrong answer steps back one prompt and resets the consecutive run. The third mistake within the same lesson restarts at lesson 1 after the three correction pairs, even if correct answers came between mistakes. Completing a lesson or restarting clears that lesson's mistake counter.
 

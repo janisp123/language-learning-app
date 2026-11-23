@@ -2557,11 +2557,11 @@
     "static": {
       "skip": "Pāriet uz uzdevumiem",
       "brand-name": "Valodu mācīšanās",
-      "badge": "Izmēģinājuma versija 0.5.1",
+      "badge": "Izmēģinājuma versija 0.5.2",
       "draft": "Mācību materiāls un izruna vēl jāpārbauda valodu pratējiem.",
       "audience": "Ikdienas saziņas pamati",
       "welcome": "Mazliet prakses. Sāc ar pamatiem.",
-      "intro": "Izvēlies kursu bērniem vai pieaugušajiem: 100 noderīgi vārdi un īsi izteicieni. Sākotnējais 510 uzdevumu kurss pieejams zemāk.",
+      "intro": "Izvēlies valodu virzienu, tad pamatus bērniem (100 vienības), pamatus pieaugušajiem (100) vai pilno kursu (510).",
       "direction-caption": "Mācību virziens",
       "start": "Sākt mācīties",
       "rules-title": "Kā mācīties",
@@ -2582,10 +2582,10 @@
       "footer-caption": "Bezmaksas izmēģinājuma versija · bez konta, reklāmām un saglabāta progresa pārlūkā",
       "source-link": "Pirmkods un atsauksmes GitHub",
       "privacy-note": "Publiskajās GitHub atsauksmēs neraksti personas datus.",
-      "learner-caption": "Kurss",
-      "learner-kids": "Bērniem",
-      "learner-adults": "Pieaugušajiem",
-      "original-label": "Atvērt sākotnējo 510 vārdu un izteicienu kursu"
+      "course-caption": "Kurss",
+      "course-kids": "Pamati bērniem · 100 vienības",
+      "course-adults": "Pamati pieaugušajiem · 100 vienības",
+      "course-full": "Pilnais · 510 vienības"
     },
     "messages": {
       "pageTitle": "Valodu mācīšanās — izmēģinājuma versija",

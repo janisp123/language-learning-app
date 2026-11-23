@@ -88,3 +88,7 @@ After an incorrect answer, play the CURRENT source-language question then its CO
 ## 7. Improving these rules
 
 If a real, reusable failure or surprising workaround occurs, add an evidence-based, concise entry to `docs/PROJECT_PLAYBOOK.md` (symptom → cause → prevention → verification → confidence). Do not dump transcripts, speculative fixes or private user details into the public repository.
+
+## Owner-approved setup simplification and dark default — 2026-11-23
+
+Owner requested direction first, then exactly three choices: Basic Kids (100), Basic Adults (100), Full (510). Replace separate audience/original-course controls; preserve all content, seven directions, scoring and correction audio. Both website and app start dark on every fresh load, with manual light mode in memory only. An exact one-use light/dark fragment carries the landing choice into learning, is immediately consumed, and never restores a preference on reload. This supersedes older light-default notes. Checked merge/live publication remains authorized.

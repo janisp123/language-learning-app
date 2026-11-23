@@ -5,7 +5,7 @@ test('dark mode carries into learning without saving a preference and survives l
  await new Promise(r=>server.listen(0,'127.0.0.1',r));const base='http://127.0.0.1:'+server.address().port;const browser=await chromium.launch({executablePath:'/usr/bin/chromium',headless:true,args:['--no-sandbox']});
  try{
  const page=await browser.newPage({viewport:{width:320,height:900},isMobile:true,hasTouch:true});const errors=[];page.on('pageerror',e=>errors.push(String(e)));
- await page.goto(base);await page.locator('#theme-toggle').click();await page.locator('a[href^="learn/"]').first().click();await page.waitForLoadState('load');
+ await page.goto(base);assert.equal(await page.locator('html').getAttribute('data-theme'),'dark');await page.locator('a[href^="learn/"]').first().click();await page.waitForLoadState('load');
  assert.equal(await page.locator('html').getAttribute('data-theme'),'dark','landing dark mode must reach learning');
  assert.equal(new URL(page.url()).hash,'','one-use theme handoff must be removed');assert.equal(await page.evaluate(()=>history.state),null);
  assert.equal(await page.locator('#learning-theme-toggle').count(),1);
@@ -34,6 +34,10 @@ test('dark mode carries into learning without saving a preference and survives l
  await page.locator('#restart').click();assert.equal(await page.locator('html').getAttribute('data-theme'),'dark');assert.equal(await page.locator('#progress').getAttribute('value'),'0');
  await page.locator('#change').click();await page.selectOption('#direction','ru-lv');assert.equal(await page.locator('html').getAttribute('data-theme'),'dark');
  for(const width of[320,1280]){await page.setViewportSize({width,height:900});assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));}
- assert.deepEqual(await page.evaluate(()=>[localStorage.length,sessionStorage.length,document.cookie]),[0,0,'']);await page.reload();assert.equal(await page.locator('html').getAttribute('data-theme'),'light');assert.ok(await page.locator('#setup').isVisible());assert.equal(new URL(page.url()).hash,'');assert.deepEqual(errors,[]);
+ assert.deepEqual(await page.evaluate(()=>[localStorage.length,sessionStorage.length,document.cookie]),[0,0,'']);await page.reload();assert.equal(await page.locator('html').getAttribute('data-theme'),'dark');assert.ok(await page.locator('#setup').isVisible());assert.equal(new URL(page.url()).hash,'');await page.goto(base);await page.locator('#theme-toggle').click();
+ assert.equal(await page.locator('html').getAttribute('data-theme'),'light');
+ await page.locator('a[href^="learn/"]').first().click();await page.waitForLoadState('load');
+ assert.equal(await page.locator('html').getAttribute('data-theme'),'light');assert.equal(new URL(page.url()).hash,'');
+ await page.reload();assert.equal(await page.locator('html').getAttribute('data-theme'),'dark');assert.deepEqual(errors,[]);
  }finally{await browser.close();server.close();}
 });

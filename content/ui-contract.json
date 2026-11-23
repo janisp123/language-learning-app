@@ -28,10 +28,10 @@
     "footer-caption",
     "source-link",
     "privacy-note",
-    "learner-caption",
-    "learner-kids",
-    "learner-adults",
-    "original-label"
+    "course-caption",
+    "course-kids",
+    "course-adults",
+    "course-full"
   ],
   "messages": {
     "pageTitle": [],

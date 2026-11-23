@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-23",
+  "version": "0.5.2",
+  "task": "L-014",
+  "node": 55,
+  "python": 41,
+  "directionCourseStarts": 21,
+  "darkLightLayoutWidths": [
+    320,
+    390,
+    1280
+  ],
+  "freshLoadDefault": "dark",
+  "manualLightHandoff": "consumed hash; reload returns dark",
+  "savedState": false,
+  "independentReview": "approved; no critical/important issues; task-pointer wording corrected",
+  "physicalPhone": false,
+  "fullScreenReader": false,
+  "sourceBeforeDelivery": true,
+  "deployed": false
+}
