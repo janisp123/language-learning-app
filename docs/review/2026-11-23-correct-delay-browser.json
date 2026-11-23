@@ -1,0 +1,17 @@
+{
+  "version": "0.5.4",
+  "task": "L-016",
+  "node": 58,
+  "python": 41,
+  "actualNativePlaybackCourseDirectionCases": 21,
+  "correctTiming": "actual target ended event, then2000ms; measured browser pause at least1990ms with polling tolerance",
+  "deterministicBoundary": "no advance during12s simulated playback;1999ms locked,2000ms advance",
+  "cancellation": "restart during playback and change during pause suppress stale callbacks",
+  "failure": "error/stall recover with2000ms pause;30s existing watchdog",
+  "wrongCorrection": "unchanged three source/correct-target pairs; tested",
+  "storage": "zero; existing browser reload/storage checks passed",
+  "independentReview": "approved; no blockers;19 audio/UI tests and protocol independently passed",
+  "physicalPhone": false,
+  "fullScreenReader": false,
+  "publiclyDeployed": false
+}

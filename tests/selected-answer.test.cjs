@@ -4,7 +4,7 @@ const fs=require('node:fs');
 const http=require('node:http');
 let chromium;try{({chromium}=require('playwright'));}catch{}
 
-test('correct submissions reuse ordinary answer-speaker audio in every course/direction without a completion gate',{
+test('correct submissions play fully in every course/direction and wait two additional seconds',{
  skip:!chromium||!fs.existsSync('/usr/bin/chromium')?'Optional Chromium unavailable':false
 },async()=>{
  const server=http.createServer((_req,res)=>{res.setHeader('Content-Type','text/html; charset=utf-8');res.end(fs.readFileSync('downloads/language-learning-test.html'));});
@@ -14,7 +14,8 @@ test('correct submissions reuse ordinary answer-speaker audio in every course/di
   const page=await browser.newPage({viewport:{width:390,height:900}});
   const errors=[];page.on('pageerror',e=>errors.push(String(e)));
   await page.addInitScript(()=>{
-   const original=HTMLMediaElement.prototype.play;window.audioCalls=[];
+   const original=HTMLMediaElement.prototype.play;window.audioCalls=[];window.lastAudioEnded=null;
+   document.addEventListener('ended',()=>{window.lastAudioEnded=performance.now();},true);
    HTMLMediaElement.prototype.play=function(){window.audioCalls.push(this.src);return original.call(this);};
   });
   await page.goto('http://127.0.0.1:'+server.address().port);
@@ -30,16 +31,17 @@ test('correct submissions reuse ordinary answer-speaker audio in every course/di
     const button=[...document.querySelectorAll('.choice')].find(e=>e.dataset.optionId===shown.correctId);
     const speaker=button.parentElement.querySelector('.answer-replay');
     speaker.click();const expected=document.getElementById('audio-media').src;const before=window.audioCalls.length;
-    const ungraded=document.getElementById('progress').value===0&&!button.disabled;
+    const ungraded=document.getElementById('progress').value===0&&!button.disabled;window.lastAudioEnded=null;
     button.click();button.click();
     return {sameClip:document.getElementById('audio-media').src===expected,calls:window.audioCalls.length-before,ungraded,locked:button.disabled,progress:document.getElementById('progress').value};
    },{direction,selection});
    assert.deepEqual(result,{sameClip:true,calls:1,ungraded:true,locked:true,progress:0},direction+'/'+selection);
    await page.waitForFunction(()=>document.getElementById('progress').value===1);
+   assert.ok(await page.evaluate(()=>window.lastAudioEnded!==null&&performance.now()-window.lastAudioEnded>=1990),'waited at least two seconds after actual audio ended');
    assert.equal(await page.locator('html').getAttribute('data-theme'),'dark');
    await page.click('#change');
   }
-  // A rejected ordinary play promise must not create a new waiting gate.
+  // Rejected audio recovers through the same two-second pause.
   await page.evaluate(()=>{HTMLMediaElement.prototype.play=function(){return Promise.reject(new Error('Blocked'));};});
   await page.selectOption('#direction','en-ja');await page.selectOption('#course-selection','full');await page.click('#start');
   await page.evaluate(()=>{

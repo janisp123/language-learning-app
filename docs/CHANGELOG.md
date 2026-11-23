@@ -1,5 +1,10 @@
 ## 2026-11-23 — Correction listening publicly deployed/read back (codex)
 
+## 0.5.4 — full correct pronunciation plus two seconds (codex,2026-11-23)
+
+L-016: correct selections wait for actual recording completion and then2000ms before advancing. This supersedes0.5.3’s fixed500ms cutoff. Old sound and delayed navigation cancel on reset/course/direction. Correct audio errors/unavailability recover after2000ms; existing30s stall watchdog remains. Incorrect-answer correction, recordings/content/scoring/directions/dark default/ZERO saves unchanged. Verification/publication pending; see checkpoint.
+
+
 ## 0.5.3 — correct answer selection pronunciation (codex,2026-11-23)
 
 L-015: correct submissions immediately reuse the ordinary target-language speaker action, with no extra waiting step. Correct navigation remains500ms and cancels old sound on prompt change; wrong-answer three-pair correction remains unchanged. Speaker-only playback never grades. No content/recordings/engine/directions/saved-state changes. Verified56Node/41Python and21 browser combinations; PR #35 merged and publicly deployed. [Live receipt](delivery/2026-11-23-selected-answer-live.json).

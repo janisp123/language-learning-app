@@ -23,7 +23,7 @@ I'm Janis. I wanted a simple way to practise useful everyday words and phrases, 
 
 ## How practice works
 
-Choose a language direction, then Basic Kids (100 items), Basic Adults (100 items) or Full (510 items), and start. Select answer text to submit it, or tap any speaker just to listen. Choices reshuffle each time a prompt appears. Feedback is immediate. Correct selections also trigger the same pronunciation as their speaker. They still advance after 500 ms, stopping old sound when the next prompt appears. After a mistake, the current question and correct answer play in sequence three times before the app automatically steps back; no retry button is needed. If playback fails, the correct text/error is shown and navigation recovers automatically.
+Choose a language direction, then Basic Kids (100 items), Basic Adults (100 items) or Full (510 items), and start. Select answer text to submit it, or tap any speaker just to listen. Choices reshuffle each time a prompt appears. Feedback is immediate. Correct selections play their pronunciation fully, then wait two more seconds before advancing. Playback timing follows the actual recording, so longer phrases get enough time. After a mistake, the current question and correct answer play in sequence three times before the app automatically steps back; no retry button is needed. If playback fails, the correct text/error is shown and navigation recovers automatically.
 
 Ten consecutive correct answers complete a lesson. A wrong answer steps back one prompt and resets the consecutive run. The third mistake within the same lesson restarts at lesson 1 after the three correction pairs, even if correct answers came between mistakes. Completing a lesson or restarting clears that lesson's mistake counter.
 

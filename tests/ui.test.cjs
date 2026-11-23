@@ -54,6 +54,10 @@ function mount(data=course,bundle=null,initialDirection='lv-ru'){
 }
 function answerButtons($){return $('choices').children.map(row=>row.children[0]);}
 function choose($,id){const button=answerButtons($).find(b=>b.dataset.optionId===id);assert.ok(button);button.click();}
+async function finishCorrect($){
+ assert.equal(typeof $('audio-media').onended,'function');$('audio-media').onended();
+ for(let i=0;i<8;i++)await Promise.resolve();$.tick(2000);
+}
 test('standalone prompt speaker and wrong-answer correction preserve grading and exact source/target binding',async()=>{
   const pack=JSON.parse(builtHtml.match(/id="audio-data">([\s\S]*?)<\/script>/)[1]);
   for(const direction of course.directions){
@@ -68,7 +72,7 @@ test('standalone prompt speaker and wrong-answer correction preserve grading and
     assert.equal($('audio-media').src,pack.clips[source][first].src);assert.equal($('audio-media').playCount,3);
     $.tick(1000);assert.equal($('progress').value,0);assert.equal($('feedback').textContent,'');
     assert.ok(answerButtons($).every(b=>!b.disabled));assert.deepEqual(answerButtons($).map(b=>b.dataset.optionId),choices);
-    choose($,first);assert.equal($('audio-media').playCount,4,'correct selection plays its target recording immediately');assert.equal($('audio-media').src,pack.clips[target][first].src);$.tick(499);assert.equal($('progress').value,0);$.tick(1);
+    choose($,first);assert.equal($('audio-media').playCount,4,'correct selection plays its target recording immediately');assert.equal($('audio-media').src,pack.clips[target][first].src);$.tick(499);assert.equal($('progress').value,0);await finishCorrect($);
     assert.equal($('audio-media').playCount,5,'advancing autoplays the new prompt');
     $('question-replay').click();assert.equal($('audio-media').src,pack.clips[source][second].src);assert.equal($('progress').value,1);
     const wrong=answerButtons($).find(b=>b.dataset.optionId!==second);wrong.click();
@@ -85,7 +89,7 @@ test('standalone prompt speaker and wrong-answer correction preserve grading and
     $('change').click();assert.equal($('audio-media').paused,true);assert.equal($('question-replay').hidden,true);
   }
 });
-test('standalone speaker covers every question in all allowed directions with correct source binding',()=>{
+test('standalone speaker covers every question in all allowed directions with correct source binding',async()=>{
   const html=fs.readFileSync(path.join(root,'downloads/language-learning-test.html'),'utf8');
   const pack=JSON.parse(html.match(/id="audio-data">([\s\S]*?)<\/script>/)[1]);
   const bank=new Map(course.phrases.map(p=>[p.id,p]));
@@ -97,7 +101,7 @@ test('standalone speaker covers every question in all allowed directions with co
       count++; // Each appearance automatically plays exactly once.
       assert.equal($('audio-media').src,pack.clips[source][prompt.phraseId].src);
       assert.equal($('question-replay').hidden,false);
-      choose($,prompt.phraseId);assert.equal($('audio-media').src,pack.clips[target][prompt.phraseId].src);assert.equal($('audio-media').playCount,count*2);$.tick(500);
+      choose($,prompt.phraseId);assert.equal($('audio-media').src,pack.clips[target][prompt.phraseId].src);assert.equal($('audio-media').playCount,count*2);await finishCorrect($);
     }
     assert.equal($('audio-media').playCount,course.phrases.length*2);
     assert.equal(count,course.phrases.length);assert.equal($('finished').hidden,false);assert.equal($('audio-media').paused,true);
@@ -108,7 +112,7 @@ test('standalone speaker covers every question in all allowed directions with co
     assert.equal($('audio-media').src,pack.clips[source][prompt.phraseId].src);$('change').click();
   }
 });
-test('without audio modules, the 500ms fallback still locks answers and steps back automatically',()=>{
+test('without audio modules, correct answers pause two seconds and wrong answers keep the 500ms fallback',()=>{
   const $=mount();assert.equal($('setup').hidden,false);assert.equal($('error').hidden,true);
   assert.equal($('lesson-list').children.length,course.lessons.length);
   $('start').click();assert.equal($('practice').hidden,false);assert.equal(answerButtons($).length,4);
@@ -116,7 +120,7 @@ test('without audio modules, the 500ms fallback still locks answers and steps ba
   choose($,course.lessons[0].prompts[0].phraseId);
   assert.match($('feedback').textContent,/Pareizi/);assert.ok(answerButtons($).every(b=>b.disabled));
   choose($,course.lessons[0].prompts[0].phraseId);
-  $.tick(499);assert.equal($('progress').value,0);assert.equal($('question').textContent,course.phrases[0].lv);
+  $.tick(1999);assert.equal($('progress').value,0);assert.equal($('question').textContent,course.phrases[0].lv);
   $.tick(1);assert.equal($('progress').value,1);assert.equal($('next'),undefined);
   const wrong=answerButtons($).find(b=>b.dataset.optionId!==course.lessons[0].prompts[1].phraseId);
   wrong.click();wrong.click();assert.match($('feedback').textContent,/Nav pareizi/);
@@ -139,7 +143,7 @@ test('all interface text follows source language on direction selection, practic
   const wrong=answerButtons($).find(b=>b.dataset.optionId!==course.lessons[0].prompts[0].phraseId);wrong.click();
   assert.match($('feedback').textContent,/Неверно/);assert.equal($('feedback').children[0].lang,'lv');$.tick(500);
   $('restart').click();
-  for(const lesson of course.lessons)for(const prompt of lesson.prompts){choose($,prompt.phraseId);$.tick(500);}
+  for(const lesson of course.lessons)for(const prompt of lesson.prompts){choose($,prompt.phraseId);$.tick(2000);}
   assert.equal($('finished').hidden,false);assert.equal($('finished-title').textContent,'Вы прошли все уроки.');
   assert.equal($('again').textContent,'Снова начать с урока 1');
   $('choose').click();$('direction').value='lv-ru';$('direction').handlers.change();
@@ -148,7 +152,7 @@ test('all interface text follows source language on direction selection, practic
 });
 test('real UI retains dark mode through every block, completion and restart',()=>{
   const $=mount();$('learning-theme-toggle').click();assert.equal($.theme(),'dark');$('start').click();
-  for(const lesson of course.lessons)for(const prompt of lesson.prompts){choose($,prompt.phraseId);$.tick(500);}
+  for(const lesson of course.lessons)for(const prompt of lesson.prompts){choose($,prompt.phraseId);$.tick(2000);}
   assert.equal($('finished').hidden,false);assert.equal($('practice').hidden,true);assert.equal($.theme(),'dark');
   $('again').click();assert.equal($.theme(),'dark');assert.equal($('practice').hidden,false);assert.equal($('progress').value,0);assert.match($('lesson-label').textContent,new RegExp(`Nodarbība 1 no ${course.lessons.length}`));
 });
@@ -160,11 +164,11 @@ test('invalid embedded content produces a visible error and disables start',()=>
   const ru=mount({},null,'ru-lv');assert.equal(ru.language(),'ru');assert.match(ru('error').textContent,/Не удалось/);
   const en=mount({},null,'en-lv');assert.equal(en.language(),'en');assert.match(en('error').textContent,/could not be loaded/);
 });
-test('committed standalone HTML executes its embedded data, engine and UI',()=>{
+test('committed standalone HTML executes its embedded data, engine and UI',async()=>{
   const html=fs.readFileSync(path.join(root,'downloads/language-learning-test.html'),'utf8');
   const $=mount(undefined,html);assert.equal($('error').hidden,true);
   $('start').click();assert.equal($('question').textContent,course.phrases[0].lv);
-  choose($,course.lessons[0].prompts[0].phraseId);$.tick(499);assert.equal($('progress').value,0);$.tick(1);
+  choose($,course.lessons[0].prompts[0].phraseId);$.tick(499);assert.equal($('progress').value,0);await finishCorrect($);
   assert.equal($('progress').value,1);
 });
 test('restart and direction change cancel pending transitions, including already-queued stale callbacks',()=>{
@@ -176,11 +180,11 @@ test('restart and direction change cancel pending transitions, including already
   assert.equal($('setup').hidden,false);
   $('direction').value='ru-lv';$('start').click();stale();$.tick(1000);
   assert.equal($('question').lang,'ru');assert.equal($('progress').value,0);
-  choose($,course.lessons[0].prompts[0].phraseId);$.tick(500);assert.equal($('progress').value,1);
+  choose($,course.lessons[0].prompts[0].phraseId);$.tick(2000);assert.equal($('progress').value,1);
 });
 test('third wrong answer shows restart feedback and returns to lesson one after 500ms',()=>{
   const $=mount();$('start').click();
-  for(const prompt of course.lessons[0].prompts){choose($,prompt.phraseId);$.tick(500);}
+  for(const prompt of course.lessons[0].prompts){choose($,prompt.phraseId);$.tick(2000);}
   assert.match($('lesson-label').textContent,new RegExp(`Nodarbība 2 no ${course.lessons.length}`));
   for(let miss=1;miss<=3;miss++){
     const wrong=answerButtons($).find(b=>b.dataset.optionId!==course.lessons[1].prompts[0].phraseId);
@@ -194,8 +198,8 @@ test('third wrong answer shows restart feedback and returns to lesson one after 
 });
 test('wrong on question seven returns to question six of the same block, retaining its mistake count',()=>{
   const $=mount();$('start').click();
-  for(const prompt of course.lessons[0].prompts){choose($,prompt.phraseId);$.tick(500);}
-  for(const prompt of course.lessons[1].prompts.slice(0,6)){choose($,prompt.phraseId);$.tick(500);}
+  for(const prompt of course.lessons[0].prompts){choose($,prompt.phraseId);$.tick(2000);}
+  for(const prompt of course.lessons[1].prompts.slice(0,6)){choose($,prompt.phraseId);$.tick(2000);}
   const phrase=id=>course.phrases.find(p=>p.id===id).lv;
   const middle=course.lessons[1].prompts[6];
   assert.equal($('question').textContent,phrase(middle.phraseId));
@@ -221,7 +225,7 @@ test('all allowed learning directions use the right source-language UI and targe
   }
 });
 
-test('each answer speaker replays target pronunciation without grading, shuffling or navigating',()=>{
+test('each answer speaker replays target pronunciation without grading, shuffling or navigating',async()=>{
  const pack=JSON.parse(builtHtml.match(/id="audio-data">([\s\S]*?)<\/script>/)[1]);
  for(const direction of ['lv-ru','lv-en','ru-lv','ru-en','en-lv','en-ru']){
   const $=mount(undefined,builtHtml,direction);$('start').click();
@@ -238,13 +242,13 @@ test('each answer speaker replays target pronunciation without grading, shufflin
   }
   const before=$('audio-media').playCount;$.tick(1000);assert.equal($('audio-media').playCount,before);
   choose($,course.lessons[0].prompts[0].phraseId);assert.ok(rows.every(row=>row.children.every(b=>b.disabled)));
-  $.tick(499);assert.equal($('progress').value,0);$.tick(1);assert.equal($('progress').value,1);
+  $.tick(499);assert.equal($('progress').value,0);await finishCorrect($);assert.equal($('progress').value,1);
   assert.equal($('audio-media').src,pack.clips[source][course.lessons[0].prompts[1].phraseId].src);
   rows[0].children[1].handlers.click();assert.equal($('audio-media').src,pack.clips[source][course.lessons[0].prompts[1].phraseId].src,'stale speakers cannot play old answers');
   const current=$('choices').children[0].children[1];$('change').click();current.handlers.click();assert.equal($('audio-media').paused,true);
  }
 });
-test('every Japanese answer speaker plays its exact Japanese clip without grading',()=>{
+test('every Japanese answer speaker plays its exact Japanese clip without grading',async()=>{
  const pack=JSON.parse(builtHtml.match(/id="audio-data">([\s\S]*?)<\/script>/)[1]);
  const $=mount(undefined,builtHtml,'en-ja');$('start').click();let appearances=0;
  for(const lesson of course.lessons)for(const prompt of lesson.prompts){
@@ -253,7 +257,7 @@ test('every Japanese answer speaker plays its exact Japanese clip without gradin
    const progress=$('progress').value;speaker.click();
    assert.equal($('audio-media').src,pack.clips.ja[answer.dataset.optionId].src);assert.equal($('progress').value,progress);assert.equal(answer.disabled,false);
   }
-  choose($,prompt.phraseId);$.tick(499);assert.equal(answerButtons($)[0].disabled,true);$.tick(1);appearances++;
+  choose($,prompt.phraseId);$.tick(499);assert.equal(answerButtons($)[0].disabled,true);await finishCorrect($);appearances++;
  }
  assert.equal(appearances,510);assert.equal($('finished').hidden,false);assert.equal($('audio-media').paused,true);
 });
@@ -262,7 +266,7 @@ async function endCorrection($){for(let n=0;n<6;n++){assert.equal(typeof $('audi
 test('third wrong answer waits for three complete pairs before lesson-one restart; reset cancels stale correction',async()=>{
  const $=mount(undefined,builtHtml,'en-ja');$('start').click();
  for(let mistake=1;mistake<=3;mistake++){
-  const first=course.lessons[0].prompts[0].phraseId;choose($,first);$.tick(500);
+  const first=course.lessons[0].prompts[0].phraseId;choose($,first);await finishCorrect($);
   const current=course.lessons[0].prompts[1].phraseId;
   choose($,answerButtons($).find(b=>b.dataset.optionId!==current).dataset.optionId);
   const text=$('question').textContent;$.tick(500);assert.equal($('question').textContent,text);
@@ -275,4 +279,29 @@ test('third wrong answer waits for three complete pairs before lesson-one restar
  const stale=$('audio-media').onended;$('restart').click();stale();for(let i=0;i<8;i++)await Promise.resolve();$.tick(500);
  assert.equal($('progress').value,0);assert.equal($('mistakes').textContent,'Mistakes in this block: 0 of 3');
  assert.equal($('correction-status').textContent,'');
+});
+
+test('correct answer waits for full playback and exactly two extra seconds; restart cancels playback and pause',async()=>{
+ const $=mount(undefined,builtHtml,'en-ja');$('start').click();
+ const first=course.lessons[0].prompts[0].phraseId;
+ choose($,first);assert.equal(typeof $('audio-media').onended,'function','selected answer must wait for real completion');
+ const ended=$('audio-media').onended;
+ $.tick(12000);assert.equal($('progress').value,0,'long clips must not be cut short');
+ assert.equal($('question-replay').disabled,true);
+ ended();for(let i=0;i<8;i++)await Promise.resolve();
+ $.tick(1999);assert.equal($('progress').value,0);
+ $.tick(1);assert.equal($('progress').value,1);
+ $('restart').click();choose($,first);const stale=$('audio-media').onended;
+ $('restart').click();stale();for(let i=0;i<8;i++)await Promise.resolve();$.tick(4000);assert.equal($('progress').value,0);
+ choose($,first);$('audio-media').onended();for(let i=0;i<8;i++)await Promise.resolve();
+ const pause=$.queuedCallback();$('change').click();pause();$.tick(4000);assert.equal($('setup').hidden,false);assert.equal($('progress').value,0);
+});
+
+test('correct-answer playback error and stall recover after two seconds without changing grading',async()=>{
+ for(const failure of ['error','stall']){
+  const $=mount(undefined,builtHtml,'en-ja');$('start').click();choose($,course.lessons[0].prompts[0].phraseId);
+  if(failure==='error')$('audio-media').onerror();else $.tick(30000);
+  for(let i=0;i<8;i++)await Promise.resolve();assert.ok($('question-audio-error').textContent);
+  $.tick(1999);assert.equal($('progress').value,0);$.tick(1);assert.equal($('progress').value,1);
+ }
 });
