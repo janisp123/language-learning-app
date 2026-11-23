@@ -18,3 +18,7 @@ Owner requested Kids / Adults selection across the existing seven directions and
 ### Course-list approval — 2026-11-23
 
 After receiving the complete list/design in PR #28, Owner replied “Yes it looks good.” Approved design:100 items each,80 shared +20 Kids/Adults-specific, practical phrases from lesson1, preserving510 outside the focused starters and existing seven directions/ZERO saves. The English labels express teaching intents; translations, canonical ID mapping, concrete pattern realizations and the technical implementation plan are not finished by this approval. Codex is preparing the plan; default audience/original-course access presentation and specific technical ceilings are author proposals for that plan. No coding, held-PR merge or publication is claimed or automatically authorized.
+
+## Mistake correction playback — 2026-11-23
+
+Owner explicitly requested source-question→correct-target-answer audio three times before automatic one-question-back navigation, with no Try again option. Apply the existing third-mistake lesson1 reset after correction playback. Correct answers keep500ms and all scoring rules remain unchanged. This supersedes immediate wrong-answer navigation/blanket no target-audio feedback for this correction only. Existing restart/course/direction cancellation and zero saved state remain mandatory; playback failure recovers automatically with correct text/error visible.

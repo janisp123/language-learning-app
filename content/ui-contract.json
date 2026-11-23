@@ -62,6 +62,10 @@
       "language"
     ],
     "noscript": [],
-    "theme": []
+    "theme": [],
+    "listening": [
+      "n",
+      "total"
+    ]
   }
 }
