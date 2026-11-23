@@ -1,0 +1,1933 @@
+{
+  "schemaVersion": 1,
+  "status": "editorial-draft-human-review-pending",
+  "languages": [
+    "lv",
+    "ru",
+    "en",
+    "ja"
+  ],
+  "evidence": {
+    "basis": "Model-editorial candidate selection for practical beginner survival use.",
+    "limitations": [
+      "Not a corpus frequency ranking.",
+      "Not native-speaker certification or completed fluent-human review.",
+      "Source links attest only the specific forms or usage principles identified per entry; unlinked forms remain editorial candidates.",
+      "Reference only; no active course import, ID mapping, answer-choice validation, reading guide or audio change."
+    ],
+    "selection": "Focused starter set of 40 practical short expressions and 20 reusable everyday words; order is a category index, not a frequency or teaching sequence."
+  },
+  "entries": [
+    {
+      "id": "cc-p001",
+      "kind": "phrase",
+      "topic": "greetings",
+      "meaning": "Hello (neutral greeting)",
+      "situation": "Greet a stranger or service worker in daytime.",
+      "forms": {
+        "lv": {
+          "text": "Labdien!",
+          "register": "polite"
+        },
+        "ru": {
+          "text": "Здравствуйте!",
+          "register": "polite"
+        },
+        "en": {
+          "text": "Hello!",
+          "register": "neutral"
+        },
+        "ja": {
+          "text": "こんにちは",
+          "register": "polite",
+          "note": "Japanese is a daytime greeting; use a time-appropriate greeting at other times."
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": [
+          {
+            "sourceId": "latvia-phrases",
+            "languages": [
+              "lv"
+            ],
+            "scope": "Directly attests the Latvian form and relevant politeness distinction; does not validate other languages."
+          },
+          {
+            "sourceId": "jf-starter-1",
+            "languages": [
+              "ja"
+            ],
+            "scope": "Attests the Japanese expression and greeting/thanks/apology/farewell context."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cc-p002",
+      "kind": "phrase",
+      "topic": "greetings",
+      "meaning": "See you later (familiar farewell)",
+      "situation": "Leaving a friend or familiar person whom you expect to see again.",
+      "forms": {
+        "lv": {
+          "text": "Uz tikšanos!",
+          "register": "familiar"
+        },
+        "ru": {
+          "text": "До встречи!",
+          "register": "familiar"
+        },
+        "en": {
+          "text": "See you later!",
+          "register": "familiar"
+        },
+        "ja": {
+          "text": "じゃあ、また",
+          "register": "familiar",
+          "note": "Casual farewell to someone seen regularly; not a formal departure from a stranger."
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": [
+          {
+            "sourceId": "jf-starter-1",
+            "languages": [
+              "ja"
+            ],
+            "scope": "Attests the Japanese expression and greeting/thanks/apology/farewell context."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cc-p003",
+      "kind": "phrase",
+      "topic": "courtesy",
+      "meaning": "Thank you",
+      "situation": "Thank someone for help or service.",
+      "forms": {
+        "lv": {
+          "text": "Paldies!",
+          "register": "polite"
+        },
+        "ru": {
+          "text": "Спасибо!",
+          "register": "polite"
+        },
+        "en": {
+          "text": "Thank you!",
+          "register": "neutral"
+        },
+        "ja": {
+          "text": "ありがとうございます",
+          "register": "polite",
+          "note": "Polite Japanese default; not the casual ありがとう."
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": [
+          {
+            "sourceId": "latvia-phrases",
+            "languages": [
+              "lv"
+            ],
+            "scope": "Directly attests the Latvian form and relevant politeness distinction; does not validate other languages."
+          },
+          {
+            "sourceId": "jf-starter-1",
+            "languages": [
+              "ja"
+            ],
+            "scope": "Attests the Japanese expression and greeting/thanks/apology/farewell context."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cc-p004",
+      "kind": "phrase",
+      "topic": "courtesy",
+      "meaning": "Excuse me (get attention)",
+      "situation": "Politely get a stranger’s or staff member’s attention.",
+      "forms": {
+        "lv": {
+          "text": "Atvainojiet!",
+          "register": "polite"
+        },
+        "ru": {
+          "text": "Извините!",
+          "register": "polite"
+        },
+        "en": {
+          "text": "Excuse me.",
+          "register": "neutral"
+        },
+        "ja": {
+          "text": "すみません",
+          "register": "polite",
+          "note": "Attention-getter, not a request to repeat or permission to pass."
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": [
+          {
+            "sourceId": "latvia-phrases",
+            "languages": [
+              "lv"
+            ],
+            "scope": "Directly attests the Latvian form and relevant politeness distinction; does not validate other languages."
+          },
+          {
+            "sourceId": "jf-starter-1",
+            "languages": [
+              "ja"
+            ],
+            "scope": "Attests the Japanese expression and greeting/thanks/apology/farewell context."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cc-p005",
+      "kind": "phrase",
+      "topic": "courtesy",
+      "meaning": "I am sorry",
+      "situation": "Apologize for a minor mistake or inconvenience.",
+      "forms": {
+        "lv": {
+          "text": "Atvainojiet!",
+          "register": "polite"
+        },
+        "ru": {
+          "text": "Извините!",
+          "register": "polite"
+        },
+        "en": {
+          "text": "I’m sorry.",
+          "register": "neutral"
+        },
+        "ja": {
+          "text": "すみません",
+          "register": "polite",
+          "note": "Shares forms with the attention-getter, but has a distinct intended use."
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": [
+          {
+            "sourceId": "latvia-phrases",
+            "languages": [
+              "lv"
+            ],
+            "scope": "Directly attests the Latvian form and relevant politeness distinction; does not validate other languages."
+          },
+          {
+            "sourceId": "jf-starter-1",
+            "languages": [
+              "ja"
+            ],
+            "scope": "Attests the Japanese expression and greeting/thanks/apology/farewell context."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cc-p006",
+      "kind": "phrase",
+      "topic": "communication",
+      "meaning": "I do not understand",
+      "situation": "Tell someone that their message is not understood.",
+      "forms": {
+        "lv": {
+          "text": "Es nesaprotu",
+          "register": "polite"
+        },
+        "ru": {
+          "text": "Я не понимаю",
+          "register": "polite"
+        },
+        "en": {
+          "text": "I don’t understand",
+          "register": "neutral"
+        },
+        "ja": {
+          "text": "わかりません",
+          "register": "polite"
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-p007",
+      "kind": "phrase",
+      "topic": "communication",
+      "meaning": "Please repeat",
+      "situation": "Ask someone to say the same thing again.",
+      "forms": {
+        "lv": {
+          "text": "Lūdzu, atkārtojiet",
+          "register": "polite"
+        },
+        "ru": {
+          "text": "Повторите, пожалуйста",
+          "register": "polite"
+        },
+        "en": {
+          "text": "Please repeat that",
+          "register": "neutral"
+        },
+        "ja": {
+          "text": "もう一度お願いします",
+          "register": "polite"
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": [
+          {
+            "sourceId": "jf-starter-2",
+            "languages": [
+              "ja"
+            ],
+            "scope": "Attests もういちど、お願いします; library spelling uses equivalent kanji 一度 and omits punctuation."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cc-p008",
+      "kind": "phrase",
+      "topic": "communication",
+      "meaning": "Please speak more slowly",
+      "situation": "Ask for slower speech.",
+      "forms": {
+        "lv": {
+          "text": "Lūdzu, runājiet lēnāk",
+          "register": "polite"
+        },
+        "ru": {
+          "text": "Говорите медленнее, пожалуйста",
+          "register": "polite"
+        },
+        "en": {
+          "text": "Please speak more slowly",
+          "register": "neutral"
+        },
+        "ja": {
+          "text": "もっとゆっくり話してください",
+          "register": "polite"
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": [
+          {
+            "sourceId": "jf-starter-2",
+            "languages": [
+              "ja"
+            ],
+            "scope": "Supports asking for slower speech. Library form is an editorial adaptation, not an exact quotation."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cc-p009",
+      "kind": "phrase",
+      "topic": "communication",
+      "meaning": "Do you speak English?",
+      "situation": "Ask whether a stranger can communicate in English.",
+      "forms": {
+        "lv": {
+          "text": "Vai jūs runājat angliski?",
+          "register": "polite"
+        },
+        "ru": {
+          "text": "Вы говорите по-английски?",
+          "register": "polite"
+        },
+        "en": {
+          "text": "Do you speak English?",
+          "register": "neutral"
+        },
+        "ja": {
+          "text": "英語を話せますか",
+          "register": "polite"
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-p010",
+      "kind": "phrase",
+      "topic": "help",
+      "meaning": "Please help me",
+      "situation": "Ask for assistance with an immediate problem.",
+      "forms": {
+        "lv": {
+          "text": "Lūdzu, palīdziet man",
+          "register": "polite"
+        },
+        "ru": {
+          "text": "Помогите мне, пожалуйста",
+          "register": "polite"
+        },
+        "en": {
+          "text": "Please help me",
+          "register": "neutral"
+        },
+        "ja": {
+          "text": "手伝ってください",
+          "register": "polite",
+          "note": "Japanese requests practical assistance; for danger use the urgent help entry."
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-p011",
+      "kind": "phrase",
+      "topic": "help",
+      "meaning": "Help! (urgent)",
+      "situation": "Call out when in danger or immediate distress.",
+      "forms": {
+        "lv": {
+          "text": "Palīgā!",
+          "register": "urgent/direct"
+        },
+        "ru": {
+          "text": "Помогите!",
+          "register": "urgent/direct"
+        },
+        "en": {
+          "text": "Help!",
+          "register": "urgent/direct"
+        },
+        "ja": {
+          "text": "助けて！",
+          "register": "urgent/direct",
+          "note": "Urgent call; direct wording is appropriate to an emergency."
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-p012",
+      "kind": "phrase",
+      "topic": "directions",
+      "meaning": "Where is the toilet?",
+      "situation": "Ask staff or a passerby for a toilet.",
+      "forms": {
+        "lv": {
+          "text": "Kur ir tualete?",
+          "register": "polite"
+        },
+        "ru": {
+          "text": "Где туалет?",
+          "register": "polite"
+        },
+        "en": {
+          "text": "Where is the toilet?",
+          "register": "neutral"
+        },
+        "ja": {
+          "text": "トイレはどこですか",
+          "register": "polite"
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-p013",
+      "kind": "phrase",
+      "topic": "directions",
+      "meaning": "Where is the station?",
+      "situation": "Ask for the railway station.",
+      "forms": {
+        "lv": {
+          "text": "Kur ir dzelzceļa stacija?",
+          "register": "polite"
+        },
+        "ru": {
+          "text": "Где железнодорожная станция?",
+          "register": "polite"
+        },
+        "en": {
+          "text": "Where is the train station?",
+          "register": "neutral"
+        },
+        "ja": {
+          "text": "駅はどこですか",
+          "register": "polite",
+          "note": "Railway station, not a bus stop."
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-p014",
+      "kind": "phrase",
+      "topic": "food-drink",
+      "meaning": "Water, please",
+      "situation": "Order drinking water in a cafe.",
+      "forms": {
+        "lv": {
+          "text": "Ūdeni, lūdzu",
+          "register": "polite"
+        },
+        "ru": {
+          "text": "Воды, пожалуйста",
+          "register": "polite"
+        },
+        "en": {
+          "text": "Water, please",
+          "register": "neutral"
+        },
+        "ja": {
+          "text": "お水をお願いします",
+          "register": "polite",
+          "note": "Latvian and Russian use request forms rather than the dictionary headword."
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-p015",
+      "kind": "phrase",
+      "topic": "food-drink",
+      "meaning": "The bill, please",
+      "situation": "Ask to pay at the end of a meal.",
+      "forms": {
+        "lv": {
+          "text": "Rēķinu, lūdzu",
+          "register": "polite"
+        },
+        "ru": {
+          "text": "Счёт, пожалуйста",
+          "register": "polite"
+        },
+        "en": {
+          "text": "The bill, please",
+          "register": "neutral"
+        },
+        "ja": {
+          "text": "お会計をお願いします",
+          "register": "polite"
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-p016",
+      "kind": "phrase",
+      "topic": "shopping",
+      "meaning": "How much does this cost?",
+      "situation": "Ask the price of an item being indicated.",
+      "forms": {
+        "lv": {
+          "text": "Cik tas maksā?",
+          "register": "polite"
+        },
+        "ru": {
+          "text": "Сколько это стоит?",
+          "register": "polite"
+        },
+        "en": {
+          "text": "How much does this cost?",
+          "register": "neutral"
+        },
+        "ja": {
+          "text": "これはいくらですか",
+          "register": "polite"
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-p017",
+      "kind": "phrase",
+      "topic": "shopping",
+      "meaning": "Can I pay by card?",
+      "situation": "Check whether card payment is accepted.",
+      "forms": {
+        "lv": {
+          "text": "Vai var maksāt ar karti?",
+          "register": "polite"
+        },
+        "ru": {
+          "text": "Можно оплатить картой?",
+          "register": "polite"
+        },
+        "en": {
+          "text": "Can I pay by card?",
+          "register": "neutral"
+        },
+        "ja": {
+          "text": "カードで払えますか",
+          "register": "polite"
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-p018",
+      "kind": "phrase",
+      "topic": "shopping",
+      "meaning": "Can I pay cash?",
+      "situation": "Check whether cash payment is accepted.",
+      "forms": {
+        "lv": {
+          "text": "Vai var maksāt skaidrā naudā?",
+          "register": "polite"
+        },
+        "ru": {
+          "text": "Можно оплатить наличными?",
+          "register": "polite"
+        },
+        "en": {
+          "text": "Can I pay cash?",
+          "register": "neutral"
+        },
+        "ja": {
+          "text": "現金で払えますか",
+          "register": "polite"
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-p019",
+      "kind": "phrase",
+      "topic": "food-drink",
+      "meaning": "Without sugar, please",
+      "situation": "Ask for a drink without added sugar.",
+      "forms": {
+        "lv": {
+          "text": "Bez cukura, lūdzu",
+          "register": "polite"
+        },
+        "ru": {
+          "text": "Без сахара, пожалуйста",
+          "register": "polite"
+        },
+        "en": {
+          "text": "Without sugar, please",
+          "register": "neutral"
+        },
+        "ja": {
+          "text": "砂糖なしでお願いします",
+          "register": "polite",
+          "note": "A preparation request, not a guarantee of no sugar in the ingredients."
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-p020",
+      "kind": "phrase",
+      "topic": "shopping",
+      "meaning": "No bag, thank you",
+      "situation": "Decline a shopping bag offered by staff.",
+      "forms": {
+        "lv": {
+          "text": "Maisiņu nevajag, paldies",
+          "register": "polite"
+        },
+        "ru": {
+          "text": "Пакет не нужен, спасибо",
+          "register": "polite"
+        },
+        "en": {
+          "text": "No bag, thank you",
+          "register": "neutral"
+        },
+        "ja": {
+          "text": "袋は要りません",
+          "register": "polite",
+          "note": "Japanese naturally declines the bag without adding a literal translation of thanks."
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-p021",
+      "kind": "phrase",
+      "topic": "health",
+      "meaning": "I am allergic to nuts",
+      "situation": "Tell food-service staff about a nut allergy.",
+      "forms": {
+        "lv": {
+          "text": "Man ir alerģija pret riekstiem",
+          "register": "polite"
+        },
+        "ru": {
+          "text": "У меня аллергия на орехи",
+          "register": "polite"
+        },
+        "en": {
+          "text": "I’m allergic to nuts",
+          "register": "neutral"
+        },
+        "ja": {
+          "text": "ナッツアレルギーがあります",
+          "register": "polite",
+          "note": "Broad category only; does not establish which individual allergens or cross-contact risks are covered."
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-p022",
+      "kind": "phrase",
+      "topic": "health",
+      "meaning": "I feel unwell",
+      "situation": "Tell someone you feel physically ill.",
+      "forms": {
+        "lv": {
+          "text": "Es jūtos slikti",
+          "register": "polite"
+        },
+        "ru": {
+          "text": "Я плохо себя чувствую",
+          "register": "polite"
+        },
+        "en": {
+          "text": "I feel unwell",
+          "register": "neutral"
+        },
+        "ja": {
+          "text": "具合が悪いです",
+          "register": "polite"
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-p023",
+      "kind": "phrase",
+      "topic": "health",
+      "meaning": "Please call a doctor",
+      "situation": "Asking someone to summon a doctor when medical help is needed.",
+      "forms": {
+        "lv": {
+          "text": "Lūdzu, izsauciet ārstu",
+          "register": "polite request"
+        },
+        "ru": {
+          "text": "Вызовите врача, пожалуйста",
+          "register": "polite request"
+        },
+        "en": {
+          "text": "Please call a doctor",
+          "register": "polite request"
+        },
+        "ja": {
+          "text": "医者を呼んでください",
+          "register": "polite request"
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-p024",
+      "kind": "phrase",
+      "topic": "emergency",
+      "meaning": "Please call an ambulance",
+      "situation": "Ask another person to summon an ambulance.",
+      "forms": {
+        "lv": {
+          "text": "Lūdzu, izsauciet ātro palīdzību",
+          "register": "polite"
+        },
+        "ru": {
+          "text": "Вызовите скорую помощь, пожалуйста",
+          "register": "polite"
+        },
+        "en": {
+          "text": "Please call an ambulance",
+          "register": "neutral"
+        },
+        "ja": {
+          "text": "救急車を呼んでください",
+          "register": "polite"
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-p025",
+      "kind": "phrase",
+      "topic": "emergency",
+      "meaning": "Please call the police",
+      "situation": "Ask another person to summon police.",
+      "forms": {
+        "lv": {
+          "text": "Lūdzu, izsauciet policiju",
+          "register": "polite"
+        },
+        "ru": {
+          "text": "Вызовите полицию, пожалуйста",
+          "register": "polite"
+        },
+        "en": {
+          "text": "Please call the police",
+          "register": "neutral"
+        },
+        "ja": {
+          "text": "警察を呼んでください",
+          "register": "polite"
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-p026",
+      "kind": "phrase",
+      "topic": "boundaries",
+      "meaning": "Stop!",
+      "situation": "Urgently ask someone to stop their current action.",
+      "forms": {
+        "lv": {
+          "text": "Pārtrauciet!",
+          "register": "urgent/direct"
+        },
+        "ru": {
+          "text": "Прекратите!",
+          "register": "urgent/direct"
+        },
+        "en": {
+          "text": "Stop!",
+          "register": "urgent/direct"
+        },
+        "ja": {
+          "text": "やめてください",
+          "register": "urgent/direct",
+          "note": "Stop an action, not directions for a vehicle to stop or a traffic sign."
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-p027",
+      "kind": "phrase",
+      "topic": "boundaries",
+      "meaning": "Leave me alone",
+      "situation": "Ask someone to stop bothering or approaching you.",
+      "forms": {
+        "lv": {
+          "text": "Lieciet mani mierā",
+          "register": "firm/direct"
+        },
+        "ru": {
+          "text": "Оставьте меня в покое",
+          "register": "firm/direct"
+        },
+        "en": {
+          "text": "Leave me alone",
+          "register": "firm/direct"
+        },
+        "ja": {
+          "text": "一人にしてください",
+          "register": "firm/direct",
+          "note": "Firm boundary; Japanese literally asks to be left alone and is context dependent."
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-p028",
+      "kind": "phrase",
+      "topic": "directions",
+      "meaning": "I am lost",
+      "situation": "Ask for orientation when you cannot find your way.",
+      "forms": {
+        "lv": {
+          "text": "Es nevaru atrast ceļu",
+          "register": "polite"
+        },
+        "ru": {
+          "text": "Я не могу найти дорогу",
+          "register": "polite"
+        },
+        "en": {
+          "text": "I’m lost",
+          "register": "neutral"
+        },
+        "ja": {
+          "text": "道に迷いました",
+          "register": "polite",
+          "note": "Route-finding only, not a lost possession."
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-p029",
+      "kind": "phrase",
+      "topic": "directions",
+      "meaning": "Turn left",
+      "situation": "Give a walking direction at a turn.",
+      "forms": {
+        "lv": {
+          "text": "Griezieties pa kreisi",
+          "register": "polite"
+        },
+        "ru": {
+          "text": "Поверните налево",
+          "register": "polite"
+        },
+        "en": {
+          "text": "Turn left",
+          "register": "neutral"
+        },
+        "ja": {
+          "text": "左に曲がってください",
+          "register": "polite"
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-p030",
+      "kind": "phrase",
+      "topic": "directions",
+      "meaning": "Turn right",
+      "situation": "Give a walking direction at a turn.",
+      "forms": {
+        "lv": {
+          "text": "Griezieties pa labi",
+          "register": "polite"
+        },
+        "ru": {
+          "text": "Поверните направо",
+          "register": "polite"
+        },
+        "en": {
+          "text": "Turn right",
+          "register": "neutral"
+        },
+        "ja": {
+          "text": "右に曲がってください",
+          "register": "polite"
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-p031",
+      "kind": "phrase",
+      "topic": "directions",
+      "meaning": "Go straight ahead",
+      "situation": "Give a walking direction without turning.",
+      "forms": {
+        "lv": {
+          "text": "Ejiet taisni",
+          "register": "polite"
+        },
+        "ru": {
+          "text": "Идите прямо",
+          "register": "polite"
+        },
+        "en": {
+          "text": "Go straight ahead",
+          "register": "neutral"
+        },
+        "ja": {
+          "text": "まっすぐ行ってください",
+          "register": "polite"
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-p032",
+      "kind": "phrase",
+      "topic": "directions",
+      "meaning": "Here, please",
+      "situation": "Pointing out where to stop or receive a service; the action is already understood.",
+      "forms": {
+        "lv": {
+          "text": "Šeit, lūdzu",
+          "register": "polite"
+        },
+        "ru": {
+          "text": "Здесь, пожалуйста",
+          "register": "polite"
+        },
+        "en": {
+          "text": "Here, please",
+          "register": "neutral"
+        },
+        "ja": {
+          "text": "ここでお願いします",
+          "register": "polite",
+          "note": "Selects the location for an understood action or service. Asking someone to place an object here ordinarily needs ここに rather than ここで."
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-p033",
+      "kind": "phrase",
+      "topic": "directions",
+      "meaning": "There, please",
+      "situation": "Indicate the desired place or destination farther away.",
+      "forms": {
+        "lv": {
+          "text": "Tur, lūdzu",
+          "register": "polite"
+        },
+        "ru": {
+          "text": "Там, пожалуйста",
+          "register": "polite"
+        },
+        "en": {
+          "text": "There, please",
+          "register": "neutral"
+        },
+        "ja": {
+          "text": "そこでお願いします",
+          "register": "polite",
+          "note": "Point out the location; Japanese そこ usually indicates a place near the listener or already identified."
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-p034",
+      "kind": "phrase",
+      "topic": "communication",
+      "meaning": "Please wait",
+      "situation": "Ask someone to wait briefly.",
+      "forms": {
+        "lv": {
+          "text": "Lūdzu, uzgaidiet",
+          "register": "polite"
+        },
+        "ru": {
+          "text": "Подождите, пожалуйста",
+          "register": "polite"
+        },
+        "en": {
+          "text": "Please wait",
+          "register": "neutral"
+        },
+        "ja": {
+          "text": "少し待ってください",
+          "register": "polite"
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-p035",
+      "kind": "phrase",
+      "topic": "communication",
+      "meaning": "Yes",
+      "situation": "Answer a simple positive question affirmatively.",
+      "forms": {
+        "lv": {
+          "text": "Jā",
+          "register": "neutral"
+        },
+        "ru": {
+          "text": "Да",
+          "register": "neutral"
+        },
+        "en": {
+          "text": "Yes",
+          "register": "neutral"
+        },
+        "ja": {
+          "text": "はい",
+          "register": "neutral",
+          "note": "For negative questions, languages differ: do not teach automatic word-for-word yes/no equivalence."
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-p036",
+      "kind": "phrase",
+      "topic": "communication",
+      "meaning": "No",
+      "situation": "Answer a simple positive question negatively.",
+      "forms": {
+        "lv": {
+          "text": "Nē",
+          "register": "neutral"
+        },
+        "ru": {
+          "text": "Нет",
+          "register": "neutral"
+        },
+        "en": {
+          "text": "No",
+          "register": "neutral"
+        },
+        "ja": {
+          "text": "いいえ",
+          "register": "neutral",
+          "note": "For negative questions, languages differ; a polite refusal may use another expression."
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-p037",
+      "kind": "phrase",
+      "topic": "communication",
+      "meaning": "I do not know",
+      "situation": "Say that you lack the requested information.",
+      "forms": {
+        "lv": {
+          "text": "Es nezinu",
+          "register": "polite"
+        },
+        "ru": {
+          "text": "Я не знаю",
+          "register": "polite"
+        },
+        "en": {
+          "text": "I don’t know",
+          "register": "neutral"
+        },
+        "ja": {
+          "text": "わかりません",
+          "register": "polite",
+          "note": "Japanese わかりません also covers not understanding; this is a separate communicative meaning, not a distinct distractor."
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-p038",
+      "kind": "phrase",
+      "topic": "communication",
+      "meaning": "Please write it down",
+      "situation": "Ask someone to write information instead of only speaking.",
+      "forms": {
+        "lv": {
+          "text": "Lūdzu, uzrakstiet",
+          "register": "polite"
+        },
+        "ru": {
+          "text": "Напишите, пожалуйста",
+          "register": "polite"
+        },
+        "en": {
+          "text": "Please write it down",
+          "register": "neutral"
+        },
+        "ja": {
+          "text": "書いてください",
+          "register": "polite"
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-p039",
+      "kind": "phrase",
+      "topic": "communication",
+      "meaning": "Please show me",
+      "situation": "Ask someone to show the thing being discussed.",
+      "forms": {
+        "lv": {
+          "text": "Lūdzu, parādiet man",
+          "register": "polite"
+        },
+        "ru": {
+          "text": "Покажите мне, пожалуйста",
+          "register": "polite"
+        },
+        "en": {
+          "text": "Please show me",
+          "register": "neutral"
+        },
+        "ja": {
+          "text": "見せてください",
+          "register": "polite"
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-p040",
+      "kind": "phrase",
+      "topic": "boundaries",
+      "meaning": "No, thank you",
+      "situation": "Politely decline an offer.",
+      "forms": {
+        "lv": {
+          "text": "Nē, paldies",
+          "register": "polite"
+        },
+        "ru": {
+          "text": "Нет, спасибо",
+          "register": "polite"
+        },
+        "en": {
+          "text": "No, thank you",
+          "register": "neutral"
+        },
+        "ja": {
+          "text": "いいえ、結構です",
+          "register": "polite",
+          "note": "A polite refusal in response to an offer. Bare 結構です can also express acceptance; keep the refusal context and initial いいえ."
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-w001",
+      "kind": "word",
+      "topic": "food-drink",
+      "meaning": "water",
+      "situation": "Drinking water.",
+      "forms": {
+        "lv": {
+          "text": "ūdens",
+          "register": "neutral lexical form"
+        },
+        "ru": {
+          "text": "вода",
+          "register": "neutral lexical form"
+        },
+        "en": {
+          "text": "water",
+          "register": "neutral lexical form"
+        },
+        "ja": {
+          "text": "水",
+          "register": "neutral lexical form"
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-w002",
+      "kind": "word",
+      "topic": "food-drink",
+      "meaning": "food",
+      "situation": "Food as a general category.",
+      "forms": {
+        "lv": {
+          "text": "ēdiens",
+          "register": "neutral lexical form"
+        },
+        "ru": {
+          "text": "еда",
+          "register": "neutral lexical form"
+        },
+        "en": {
+          "text": "food",
+          "register": "neutral lexical form"
+        },
+        "ja": {
+          "text": "食べ物",
+          "register": "neutral lexical form"
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-w003",
+      "kind": "word",
+      "topic": "food-drink",
+      "meaning": "bread",
+      "situation": "Bread as food.",
+      "forms": {
+        "lv": {
+          "text": "maize",
+          "register": "neutral lexical form"
+        },
+        "ru": {
+          "text": "хлеб",
+          "register": "neutral lexical form"
+        },
+        "en": {
+          "text": "bread",
+          "register": "neutral lexical form"
+        },
+        "ja": {
+          "text": "パン",
+          "register": "neutral lexical form"
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-w004",
+      "kind": "word",
+      "topic": "food-drink",
+      "meaning": "milk",
+      "situation": "Milk as a drink or ingredient.",
+      "forms": {
+        "lv": {
+          "text": "piens",
+          "register": "neutral lexical form"
+        },
+        "ru": {
+          "text": "молоко",
+          "register": "neutral lexical form"
+        },
+        "en": {
+          "text": "milk",
+          "register": "neutral lexical form"
+        },
+        "ja": {
+          "text": "牛乳",
+          "register": "neutral lexical form",
+          "note": "Cow’s milk; plant-based alternatives require a separate specific term."
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-w005",
+      "kind": "word",
+      "topic": "food-drink",
+      "meaning": "tea",
+      "situation": "Tea as a drink.",
+      "forms": {
+        "lv": {
+          "text": "tēja",
+          "register": "neutral lexical form"
+        },
+        "ru": {
+          "text": "чай",
+          "register": "neutral lexical form"
+        },
+        "en": {
+          "text": "tea",
+          "register": "neutral lexical form"
+        },
+        "ja": {
+          "text": "お茶",
+          "register": "neutral lexical form"
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-w006",
+      "kind": "word",
+      "topic": "food-drink",
+      "meaning": "coffee",
+      "situation": "Coffee as a drink.",
+      "forms": {
+        "lv": {
+          "text": "kafija",
+          "register": "neutral lexical form"
+        },
+        "ru": {
+          "text": "кофе",
+          "register": "neutral lexical form"
+        },
+        "en": {
+          "text": "coffee",
+          "register": "neutral lexical form"
+        },
+        "ja": {
+          "text": "コーヒー",
+          "register": "neutral lexical form"
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-w007",
+      "kind": "word",
+      "topic": "places",
+      "meaning": "toilet",
+      "situation": "A toilet or restroom facility.",
+      "forms": {
+        "lv": {
+          "text": "tualete",
+          "register": "neutral lexical form"
+        },
+        "ru": {
+          "text": "туалет",
+          "register": "neutral lexical form"
+        },
+        "en": {
+          "text": "toilet",
+          "register": "neutral lexical form"
+        },
+        "ja": {
+          "text": "トイレ",
+          "register": "neutral lexical form"
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-w008",
+      "kind": "word",
+      "topic": "places",
+      "meaning": "train station",
+      "situation": "A passenger railway station.",
+      "forms": {
+        "lv": {
+          "text": "dzelzceļa stacija",
+          "register": "neutral lexical form"
+        },
+        "ru": {
+          "text": "железнодорожная станция",
+          "register": "neutral lexical form"
+        },
+        "en": {
+          "text": "train station",
+          "register": "neutral lexical form"
+        },
+        "ja": {
+          "text": "駅",
+          "register": "neutral lexical form"
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-w009",
+      "kind": "word",
+      "topic": "places",
+      "meaning": "pharmacy",
+      "situation": "A place to obtain medicines.",
+      "forms": {
+        "lv": {
+          "text": "aptieka",
+          "register": "neutral lexical form"
+        },
+        "ru": {
+          "text": "аптека",
+          "register": "neutral lexical form"
+        },
+        "en": {
+          "text": "pharmacy",
+          "register": "neutral lexical form"
+        },
+        "ja": {
+          "text": "薬局",
+          "register": "neutral lexical form"
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-w010",
+      "kind": "word",
+      "topic": "places",
+      "meaning": "hospital",
+      "situation": "A hospital facility.",
+      "forms": {
+        "lv": {
+          "text": "slimnīca",
+          "register": "neutral lexical form"
+        },
+        "ru": {
+          "text": "больница",
+          "register": "neutral lexical form"
+        },
+        "en": {
+          "text": "hospital",
+          "register": "neutral lexical form"
+        },
+        "ja": {
+          "text": "病院",
+          "register": "neutral lexical form"
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-w011",
+      "kind": "word",
+      "topic": "health",
+      "meaning": "doctor",
+      "situation": "A medical doctor; neutral occupational label.",
+      "forms": {
+        "lv": {
+          "text": "ārsts",
+          "register": "neutral lexical form",
+          "note": "Masculine occupational form; ārste refers to a female doctor."
+        },
+        "ru": {
+          "text": "врач",
+          "register": "neutral lexical form"
+        },
+        "en": {
+          "text": "doctor",
+          "register": "neutral lexical form"
+        },
+        "ja": {
+          "text": "医者",
+          "register": "neutral lexical form",
+          "note": "Ordinary occupational word; お医者さん is a polite everyday reference and 先生 is often used in address. 医師 is a more formal professional label."
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-w012",
+      "kind": "word",
+      "topic": "health",
+      "meaning": "medicine",
+      "situation": "Medicine as a treatment substance or product.",
+      "forms": {
+        "lv": {
+          "text": "zāles",
+          "register": "neutral lexical form"
+        },
+        "ru": {
+          "text": "лекарство",
+          "register": "neutral lexical form"
+        },
+        "en": {
+          "text": "medicine",
+          "register": "neutral lexical form"
+        },
+        "ja": {
+          "text": "薬",
+          "register": "neutral lexical form"
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-w013",
+      "kind": "word",
+      "topic": "travel",
+      "meaning": "ticket",
+      "situation": "A travel or admission ticket.",
+      "forms": {
+        "lv": {
+          "text": "biļete",
+          "register": "neutral lexical form"
+        },
+        "ru": {
+          "text": "билет",
+          "register": "neutral lexical form"
+        },
+        "en": {
+          "text": "ticket",
+          "register": "neutral lexical form"
+        },
+        "ja": {
+          "text": "チケット",
+          "register": "neutral lexical form",
+          "note": "General ticket; 切符 is common for a transport ticket, depending on the service."
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-w014",
+      "kind": "word",
+      "topic": "shopping",
+      "meaning": "money",
+      "situation": "Money in general, not specifically cash.",
+      "forms": {
+        "lv": {
+          "text": "nauda",
+          "register": "neutral lexical form"
+        },
+        "ru": {
+          "text": "деньги",
+          "register": "neutral lexical form"
+        },
+        "en": {
+          "text": "money",
+          "register": "neutral lexical form"
+        },
+        "ja": {
+          "text": "お金",
+          "register": "neutral lexical form"
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-w015",
+      "kind": "word",
+      "topic": "everyday",
+      "meaning": "phone",
+      "situation": "A telephone device.",
+      "forms": {
+        "lv": {
+          "text": "telefons",
+          "register": "neutral lexical form"
+        },
+        "ru": {
+          "text": "телефон",
+          "register": "neutral lexical form"
+        },
+        "en": {
+          "text": "phone",
+          "register": "neutral lexical form"
+        },
+        "ja": {
+          "text": "電話",
+          "register": "neutral lexical form"
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-w016",
+      "kind": "word",
+      "topic": "travel",
+      "meaning": "bus",
+      "situation": "A passenger bus.",
+      "forms": {
+        "lv": {
+          "text": "autobuss",
+          "register": "neutral lexical form"
+        },
+        "ru": {
+          "text": "автобус",
+          "register": "neutral lexical form"
+        },
+        "en": {
+          "text": "bus",
+          "register": "neutral lexical form"
+        },
+        "ja": {
+          "text": "バス",
+          "register": "neutral lexical form"
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-w017",
+      "kind": "word",
+      "topic": "travel",
+      "meaning": "train",
+      "situation": "A railway train.",
+      "forms": {
+        "lv": {
+          "text": "vilciens",
+          "register": "neutral lexical form"
+        },
+        "ru": {
+          "text": "поезд",
+          "register": "neutral lexical form"
+        },
+        "en": {
+          "text": "train",
+          "register": "neutral lexical form"
+        },
+        "ja": {
+          "text": "列車",
+          "register": "neutral lexical form",
+          "note": "Generic railway train; 電車 is common for an electric passenger train. Choose by transport setting rather than treating them as interchangeable distractors."
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-w018",
+      "kind": "word",
+      "topic": "directions",
+      "meaning": "street",
+      "situation": "A street or urban road.",
+      "forms": {
+        "lv": {
+          "text": "iela",
+          "register": "neutral lexical form"
+        },
+        "ru": {
+          "text": "улица",
+          "register": "neutral lexical form"
+        },
+        "en": {
+          "text": "street",
+          "register": "neutral lexical form"
+        },
+        "ja": {
+          "text": "通り",
+          "register": "neutral lexical form"
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-w019",
+      "kind": "word",
+      "topic": "places",
+      "meaning": "entrance",
+      "situation": "An entrance to a building or area.",
+      "forms": {
+        "lv": {
+          "text": "ieeja",
+          "register": "neutral lexical form"
+        },
+        "ru": {
+          "text": "вход",
+          "register": "neutral lexical form"
+        },
+        "en": {
+          "text": "entrance",
+          "register": "neutral lexical form"
+        },
+        "ja": {
+          "text": "入口",
+          "register": "neutral lexical form"
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    },
+    {
+      "id": "cc-w020",
+      "kind": "word",
+      "topic": "places",
+      "meaning": "exit",
+      "situation": "An exit from a building or area.",
+      "forms": {
+        "lv": {
+          "text": "izeja",
+          "register": "neutral lexical form"
+        },
+        "ru": {
+          "text": "выход",
+          "register": "neutral lexical form"
+        },
+        "en": {
+          "text": "exit",
+          "register": "neutral lexical form"
+        },
+        "ja": {
+          "text": "出口",
+          "register": "neutral lexical form"
+        }
+      },
+      "reviewStatus": "human-review-pending",
+      "evidence": {
+        "status": "model-editorial-candidate",
+        "sourceRefs": []
+      }
+    }
+  ],
+  "sourceRegister": "sources.json"
+}

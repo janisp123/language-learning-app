@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-11-23",
+  "scope": "Reusable teaching-context and usage references. A source below does not attest every translation in common-core.json. Per-entry evidence links state their limited scope; unlinked forms remain editorial candidates.",
+  "sources": [
+    {
+      "id": "jf-starter-1",
+      "url": "https://www.irodori.jpf.go.jp/assets/data/starter/pdf/X_L01.pdf",
+      "title": "Japan Foundation Irodori Starter — lesson 1",
+      "retrieval": "full-text PDF retrieved",
+      "supports": "Beginner greetings, polite/familiar thanks, apology and context-dependent farewells. Includes こんにちは, おはようございます, こんばんは, ありがとうございます, すみません, おやすみなさい, じゃあ、また.",
+      "limits": "Situational A1 examples, not a universal frequency ranking or certification of other languages."
+    },
+    {
+      "id": "jf-starter-2",
+      "url": "https://www.irodori.jpf.go.jp/assets/data/starter/pdf/X_L02.pdf",
+      "title": "Japan Foundation Irodori Starter — lesson 2",
+      "retrieval": "full-text PDF retrieved",
+      "supports": "Communication repair for beginners: もういちど、お願いします and もう少し、ゆっくり言ってください; not understanding and asking someone to repeat.",
+      "limits": "Exact wording in an entry may be a shorter editorial adaptation, which must be labelled."
+    },
+    {
+      "id": "latvia-phrases",
+      "url": "https://www.latvia.eu/latvian-language/",
+      "title": "A Native’s Guide to the Latvian Language — Latvia.eu",
+      "retrieval": "full page retrieved; HTTP 200",
+      "supports": "Latvian greeting/register distinctions; Labdien, Labrīt, Labvakar, Uz redzēšanos, Paldies, Lūdzu, Atvainojiet, Prieks iepazīties. Explains familiar versus stranger-facing forms.",
+      "limits": "Practical introductory guide, not a corpus or a dictionary for all proposed expressions."
+    },
+    {
+      "id": "gramota-please",
+      "url": "https://gramota.ru/meta/pozhaluysta",
+      "title": "Gramota — пожалуйста",
+      "retrieval": "dictionary page retrieved",
+      "supports": "Russian пожалуйста as polite request/agreement expression; use depends on speech act.",
+      "limits": "Does not validate all Russian phrase translations. Other Russian audit dictionary evidence is linked per finding."
+    },
+    {
+      "id": "cambridge-requests",
+      "url": "https://dictionary.cambridge.org/grammar/british-grammar/requests",
+      "title": "Cambridge English Grammar Today — Requests",
+      "retrieval": "full page retrieved",
+      "supports": "Practical polite requests using can/could/may and please; urgent needs such as I need a doctor. Distinguishes direct demands from polite requests.",
+      "limits": "English grammar/usage framework, not a comparative frequency list or proof of LV/RU/JA equivalents."
+    },
+    {
+      "id": "oxford-learner-framework",
+      "url": "https://www.oxfordlearnersdictionaries.com/about/wordlists/oxford3000-5000",
+      "title": "Oxford 3000 and 5000 learner wordlists",
+      "retrieval": "framework consulted during English audit",
+      "supports": "Learner usefulness and frequency are relevant selection criteria; useful vocabulary depends on meaning and context.",
+      "limits": "No claim that all library entries were individually matched to this list or ranked by corpus frequency."
+    }
+  ]
+}
