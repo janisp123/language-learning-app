@@ -2,7 +2,7 @@
 
 ## 2026-11-24 — Current-release documentation refresh (codex)
 
-README,real-app screenshot,current testing/audio/module/hosting guidance and release checklist reconciled with verified0.5.7. Latest checkpoint release now appears first;historical evidence retained and marked clearly. Corrected outdated separate-selector,preservation and unpublished-site claims. Also corrected the localized build badge from0.5.6 to0.5.7;rebuilt standalone output and screenshot from that source. No vocabulary,audio,scoring or behavior changes. Deployment/readback evidence is recorded separately.
+README,real-app screenshot,current testing/audio/module/hosting guidance and release checklist reconciled with verified0.5.7. Latest checkpoint release now appears first;historical evidence retained and marked clearly. Corrected outdated separate-selector,preservation and unpublished-site claims. Also corrected the localized build badge from0.5.6 to0.5.7;rebuilt standalone output and screenshot from that source. No vocabulary,audio,scoring or behavior changes. [PR49](https://github.com/janisp123/language-learning-app/pull/49) records exact checked source,publication and readback for the presentation revision;the original0.5.7 delivery receipt remains historical.
 
 ## 0.5.7 — approved shared polite defaults (codex,2026-11-24)
 

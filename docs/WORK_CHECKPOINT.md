@@ -2,6 +2,8 @@
 
 Current task: L-011
 
+**Presentation follow-up:** [PR49](https://github.com/janisp123/language-learning-app/pull/49) refreshes README/guides/screenshot and corrects the three visible build badges to0.5.7. Vocabulary/audio/behavior are unchanged. This presentation revision produces26,201,258 app bytes,SHA256486cb3bb7a5b0c4b6544f251e06fab5162c8ca72b0dbbbd16d9962ce1cfac9ad;actual checked merge,Pages and hosted-readback results are recorded in PR49. The initial0.5.7 receipt below retains the earlier pre-badge-correction artifact hash as historical evidence.
+
 ## Latest verified delivery — L-011 shared polite defaults
 
 **LIVE0.5.7:** exact ten approved F002–F007 wording cells and matching audio are implemented;142 directed course presentations use the shared forms. Nine scoped recordings authored;Russian apology reuses existingизвините bytes. Legacy/focused revisions0.6.3-test/focused-0.1.2. All other translations/recordings,stable IDs/options,courses/seven directions,scoring,timing,reports,dark default and zero saves preserved. F004 Japanese remains unchanged/deferred.
