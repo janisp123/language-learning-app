@@ -2,7 +2,7 @@
 
 ## 0.5.6 — first common-usage fixes and one-second correct pause (codex,2026-11-24)
 
-Correct audio still plays fully, then pauses1000ms instead of2000ms. PR #43 F014/F015 remove two defensible competing choices without changing taught translations or recordings: dinner no longer competes with lunch, and what price no longer competes with how many. Correct IDs/history locks are preserved with explicit allowed-binding exceptions; legacy bank/audio revision0.6.2-test. Shared farewell/Japanese context remains pending. Verification/publication pending; see checkpoint.
+Correct audio still plays fully, then pauses1000ms instead of2000ms. PR #43 F014/F015 remove two defensible competing choices without changing taught translations or recordings: dinner no longer competes with lunch, and what price no longer competes with how many. Correct IDs/history locks are preserved with explicit allowed-binding exceptions; legacy bank/audio revision0.6.2-test. After explicit Owner approval,Basic now reuses Full’s canonicalvocab-0002 goodbye in all7directions,includingさようなら;questionfocused-s02/slotS02 and all existing recordings are preserved. Focused catalog/audio revisionfocused-0.1.1. Verification/publication pending; see checkpoint.
 
 
 ### 2026-11-24 · Owner vocabulary-default consistency decision (documentation only)

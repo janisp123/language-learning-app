@@ -9,4 +9,7 @@ User approved starting audit implementation and shortening the two-second pause 
 - [x] Full suites/native audio/report checks, build/protocol/parity and independent review.
 - [ ] Push checked PR, merge/publish/read back exact files, archiveL018 with receipts.
 
-FarewellF001 is not silently implemented while its Japanese context question is unanswered. Existing research/library/heldPRs remain intact. Zero saved learner state applies throughout.
+Owner explicitly answered the Japanese question:reuse Full goodbye acrossallcourses.
+- [x] Add RED canonical-goodbye test forall21preset/direction combinations;rebind22 focusedrefs toexistingvocab-0002,preserve question/slot/inactiveassets,verify actual LV/RU audio andreportIDs inbrowser.
+
+ Existing research/library/heldPRs remain intact. Zero saved learner state applies throughout.

@@ -13,4 +13,10 @@ Shared Full-course choice lists affect14 question/direction presentations (two q
 
 The audit’s[shortlist](https://github.com/janisp123/language-learning-app/blob/b04732fea576b8c7e65536913ce6b75c98bcb3be/research/common-usage/2026-11-24-directed/README.md) links[MLVV cik](https://mlvv.tezaurs.lv/cik%3A1),[Gramota сколько](https://gramota.ru/meta/skolko) and the relevant meal entries. We remove competing alternatives rather than assert that dinner/what price are universally wrong translations. No frequency ranking or fluent-human certification is claimed.
 
-F001 farewell is a different semantic/context decision: Owner settled genericuz redzēšanos/до свидания/goodbye across courses, but Japanese departure context is gated in the audit. Reusing canonicalvocab-0002 and existing audio is ready once the Japanese choice is explicit; no silent six-direction split is made. Other register, safety/object meanings and fluent-review decisions remain pending. This document does not mark the full audit implemented or merge held research.
+## F001 — Owner-approved shared goodbye
+
+After the explicit Japanese-context question,Owner chose the existing Full-course goodbye in every course:LV **uz redzēšanos**,RU **до свидания**,EN **goodbye**,JA **さようなら**. Basic Kids/Adults now referencecanonicalvocab-0002 for focused-s02/slotS02 and the three shared questions that offered the old alternative as a distractor. Exactly22 source references change (one correct concept +21 per-direction option refs),affecting56 Basic presentations across two presets/seven directions. Combined withF014/F015,this slice changes70 presentations.
+
+No translation or MP3 is rewritten. Full remains unchanged except the two documented distractor lists. Existingfocus-s02 definitions/recordings remain preserved but are no longer selected by active courses. Focused catalog/audio metadata advancefocused-0.1.0→focused-0.1.1. The approved default is not a claim that all Japanese departures useさようなら;the remaining fluent-human review status stays explicit. Existing heldvocab-0002 guide data can be reused later only through verifiedL-010 integration.
+
+Other register,safety/object meanings and fluent-review decisions remain pending. This document does not mark the full audit implemented or merge held research.

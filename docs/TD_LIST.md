@@ -133,7 +133,7 @@ Owner explicitly requested efficient checked implementation/merging/live publica
 ### L-018 — First confirmed audit fixes and one-second correct pause
 - **Added by:** codex (explicit Owner request,2026-11-24)
 - **Implemented by:** codex (verified locally; integration pending)
-- **Status:** VERIFIED LOCALLY —61Node/42Python,21 native audio and21 report cases,canonical parity/protocol and independent review passed;checked PR/publication pending.
-- **Scope:** Full correct audio then1000ms (formerly2000ms); preserve cancellation/failure recovery/wrong correction. Apply PR #43 F014/F015 only: two documented distractor swaps, correct IDs/text/recordings unchanged. Legacy course/audio revision0.6.2-test. No broad translation rewrite or silent Japanese farewell choice.
-- **Verification:**999/1000ms, long playback/errors/cancellation;61Node/42Python expected, native21 audio and21 report cases, canonical build/protocol/site parity, checked PR and exact hosted readback.
-- **Pending choice:** F001 shared goodbye rebind asks whether to reuse Full’s Japaneseさようなら alongsideuz redzēšanos/до свидания/goodbye; unanswered means pending, not approval. Other editorial proposals remain separate.
+- **Status:** VERIFIED LOCALLY —63Node/42Python,21 native audio and21 report cases,all21 shared-goodbye mappings and native playback/report case,build/parity/protocol and independent review passed;checked PR/publication pending.
+- **Scope:** Full correct audio then1000ms (formerly2000ms); preserve cancellation/failure recovery/wrong correction. Apply confirmed F014/F015 distractor swaps plus explicitly approved F001 canonical goodbye reuse. Full correct IDs/text/all recording bytes unchanged;Basic keeps question/slot IDs and references Full vocab-0002 in every direction. Legacy course/audio revision0.6.2-test;focused catalog/audio focused-0.1.1. No broad translation rewrite or silent context choice.
+- **Verification:**999/1000ms, long playback/errors/cancellation;63Node/42Python expected, native21 audio and21 report cases, canonical build/protocol/site parity, checked PR and exact hosted readback.
+- **Explicit choice received:** Owner chose Full’s existinguz redzēšanos/до свидания/goodbye/さようなら in all courses. Shared question/option bindings now reusevocab-0002;other editorial proposals remain separate.

@@ -17,3 +17,18 @@ test('both audiences resolve one hundred slots for each allowed direction and is
  }
  assert.throws(()=>S.select(...data,'kids','ja-en'));assert.throws(()=>S.select(...data,'anything','en-ja'));
 });
+
+test('all presets reuse the canonical goodbye in all seven directions with unchanged question identity and recordings',()=>{
+ const E=require('../core/engine.js'),S=require('../core/course-selection.js');
+ const [legacy,focused]=JSON.parse(cp.execFileSync('python',['-c',"import sys,json;from pathlib import Path;sys.path.insert(0,'tools');from content_loader import load_content;from focused_loader import load_focused_content;c,_=load_content(Path('.'));print(json.dumps([c,load_focused_content(Path('.'),c)]))"],{encoding:'utf8'}));
+ const expected={lv:'uz redzēšanos',ru:'до свидания',en:'goodbye',ja:'さようなら'};
+ const html=fs.readFileSync('downloads/language-learning-test.html','utf8');const clips=JSON.parse(html.match(/id="audio-data">([\s\S]*?)<\/script>/)[1]).clips;
+ for(const preset of ['kids','adults','full'])for(const direction of legacy.directions){
+  const course=E.validateCourse(preset==='full'?legacy:S.select(legacy,focused,preset,direction));
+  const q=E.question(course,{...E.start(course,direction),promptIndex:1});
+  assert.equal(q.promptId,preset==='full'?'basic-01-prompt-02':'focused-s02');assert.equal(q.correctId,'vocab-0002');assert.equal(q.conceptId,'vocab-0002');assert.equal(q.text,expected[q.source]);assert.equal(q.options.find(o=>o.id===q.correctId).text,expected[q.target]);
+  for(const option of q.options)assert.notEqual(option.id,'focus-s02');
+  for(const lesson of course.lessons)for(const p of lesson.prompts)assert.ok(![p.phraseId,...p.distractorIds].includes('focus-s02'),'retired alternative must not compete with canonical goodbye');
+  assert.equal(clips[q.source][q.conceptId].text,expected[q.source]);assert.equal(clips[q.target][q.correctId].text,expected[q.target]);
+ }
+});
