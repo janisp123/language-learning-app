@@ -1,0 +1,81 @@
+{
+  "task": "L-011",
+  "verifiedDate": "2026-11-24",
+  "buildVersion": "0.5.7",
+  "pullRequest": 47,
+  "sourceCommit": "0d5d3d32daac0cec053925b356f2ce5c2ff79453",
+  "mergeCommit": "2c8340c3e60e1c7dfa5002e5d111e432871199a6",
+  "sourceCI": 45374147336,
+  "mainCI": 45374359684,
+  "pagesRun": 45374359597,
+  "pagesConclusion": "success",
+  "url": "https://janisp123.github.io/language-learning-app/learn/?v=0.5.7",
+  "bytes": 26201258,
+  "sha256": "7109c5a6dc842ca73e7e49a59b6706e4f9f850eebd944fb8f4904ab0694f505f",
+  "hostedReadback": {
+    "app": {
+      "url": "https://janisp123.github.io/language-learning-app/learn/?v=0.5.7",
+      "bytes": 26201258,
+      "sha256": "7109c5a6dc842ca73e7e49a59b6706e4f9f850eebd944fb8f4904ab0694f505f",
+      "exactEquality": true,
+      "tlsVerified": true
+    },
+    "landing": {
+      "url": "https://janisp123.github.io/language-learning-app/?v=0.5.7",
+      "bytes": 43047,
+      "sha256": "e72cba94de08c091b0a6f12c79c3f56fb762f8a56a3e88542b59abf86cc05a60",
+      "exactEquality": true,
+      "tlsVerified": true
+    },
+    "offline": {
+      "url": "https://janisp123.github.io/language-learning-app/language-learning-test.html?v=0.5.7",
+      "bytes": 26201258,
+      "sha256": "7109c5a6dc842ca73e7e49a59b6706e4f9f850eebd944fb8f4904ab0694f505f",
+      "exactEquality": true,
+      "tlsVerified": true
+    }
+  },
+  "status": {
+    "implemented": true,
+    "pushed": true,
+    "merged": true,
+    "publiclyDeployed": true,
+    "driveUpdated": false
+  },
+  "legacyContentVersion": "0.6.3-test",
+  "focusedContentVersion": "focused-0.1.2",
+  "changedTextBindings": 10,
+  "affectedPresentations": 142,
+  "newRecordings": 9,
+  "exactExistingRecordingReuse": {
+    "from": "audio/ru/vocab-0266.mp3",
+    "to": "audio/ru/vocab-0005.mp3",
+    "sha256": "e26d883020a7db420919821c4ec575c2a1dfa39991b73432fe7155d4da5ad27a"
+  },
+  "implementedFindings": [
+    "F002",
+    "F003",
+    "F005",
+    "F006",
+    "F007"
+  ],
+  "partialFinding": {
+    "F004": "LV/RU approved wording implemented;Japanese unchanged and deferred"
+  },
+  "tests": {
+    "nodeLocal": 64,
+    "pythonLocal": 43,
+    "additionalTargetedSelectorTests": 4,
+    "nativeCourseDirectionCases": 21,
+    "changedClipsReachedNativeEnded": 10,
+    "independentReview": "PASS:technical and documentation,no Critical/Important findings"
+  },
+  "browserReceipt": "2026-11-24-polite-defaults-browser.json",
+  "notRun": [
+    "physical phone",
+    "full screen-reader audit",
+    "fluent-human pronunciation review",
+    "direct hosted Chromium;verified HTTPS bytes match locally tested native-browser artifact"
+  ],
+  "remaining": "L-011:F004 Japanese choice,F008/F009/F010/F011/F013 meaning decisions and review findings. L-010 guide integration remains separate;PR21/43 held. Drive review unchanged."
+}
