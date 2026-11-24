@@ -1,0 +1,29 @@
+{
+  "version": "0.5.6",
+  "task": "L-018",
+  "node": 63,
+  "python": 42,
+  "nativeAudioCourseDirectionCases": 21,
+  "reportCourseDirectionCases": 21,
+  "correctTiming": "native target completion +1000ms;999ms locked/1000ms advance in deterministic test",
+  "correctFailureFallbackMs": 1000,
+  "wrongCorrection": "unchanged;500ms failure fallback unchanged",
+  "findingsImplemented": [
+    "PR43 F014:basic-26-prompt-01 0252\u21920250",
+    "PR43 F015:basic-10-prompt-07 0098\u21920093",
+    "PR43 F001:shared Full-course goodbye via canonical vocab-0002 in all courses/directions"
+  ],
+  "sharedFullPresentationsChanged": 14,
+  "translationsAndAudio": "all original text/correct IDs and recording bytes preserved;embedded audio-data identical",
+  "legacyContentVersion": "0.6.2-test",
+  "farewell": "Owner explicitly approved shared Full-course goodbye including Japanese\u3055\u3088\u3046\u306a\u3089;questionfocused-s02/slotS02 retained",
+  "independentReview": "initial slice and Owner-approved shared-goodbye follow-up approved;no blockers",
+  "physicalPhone": false,
+  "fullScreenReader": false,
+  "publiclyDeployed": false,
+  "sharedBasicPresentationsChanged": 56,
+  "focusedContentVersion": "focused-0.1.1",
+  "farewellAllPresetDirectionMappings": 21,
+  "farewellNativePlaybackAndReport": "LV/RU Basic question,source/target canonical clips,replay does not grade,stable question/concept/answer IDs andfocused-0.1.1 copied",
+  "totalAuditPresentationsChanged": 70
+}

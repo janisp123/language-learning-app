@@ -1,6 +1,10 @@
 # Current working checkpoint
 
-Current task: L-010
+Current task: L-018
+
+## Current authorized slice — L-018
+
+Owner requested starting the common-usage audit implementation and making correct-answer pause one second shorter. Implemented full target playback+1000ms, with error/unavailable fallback1000ms; wrong correction unchanged. Integrated F014/F015 and,after explicit Owner answer,F001 shared canonicalgoodbye:Basic questionfocused-s02/slotS02 and all active option refs reusevocab-0002 across all7directions. Full text/IDs/recording bytes and inactivefocused variants remain unchanged. Basef7bed6c includes concurrent owner policy/research commits; source branch fix/one-second-correct-pause in /workspace/work/one-second-correct-pause preserves them. No merge of held researchPR43 or readingPR21. Owner explicitly approved Japaneseさようなら as the shared Full-course teaching default. Current live0.5.5 until publication verified. Final63Node/42Python passed,including all21 shared-goodbye mappings,native LV/RU goodbye/report verification,21 native audio+1sec and21 report cases. Build/download/site parity/protocol and independent review passed. SourcePR44 update/CI/merge/actual hosted readback pending.
 
 ## Latest verified delivery — L-017
 

@@ -7,37 +7,37 @@
       "conceptId": "vocab-0001",
       "distractorIdsByDirection": {
         "lv-ru": [
-          "focus-s02",
+          "vocab-0002",
           "vocab-0004",
           "vocab-0005"
         ],
         "lv-en": [
-          "focus-s02",
+          "vocab-0002",
           "vocab-0004",
           "vocab-0005"
         ],
         "ru-lv": [
-          "focus-s02",
+          "vocab-0002",
           "vocab-0004",
           "vocab-0005"
         ],
         "ru-en": [
-          "focus-s02",
+          "vocab-0002",
           "vocab-0004",
           "vocab-0005"
         ],
         "en-lv": [
-          "focus-s02",
+          "vocab-0002",
           "vocab-0004",
           "vocab-0005"
         ],
         "en-ru": [
-          "focus-s02",
+          "vocab-0002",
           "vocab-0004",
           "vocab-0005"
         ],
         "en-ja": [
-          "focus-s02",
+          "vocab-0002",
           "vocab-0004",
           "vocab-0005"
         ]
@@ -46,7 +46,7 @@
     {
       "id": "focused-s02",
       "slotId": "S02",
-      "conceptId": "focus-s02",
+      "conceptId": "vocab-0002",
       "distractorIdsByDirection": {
         "lv-ru": [
           "vocab-0004",
@@ -177,37 +177,37 @@
         "lv-ru": [
           "vocab-0007",
           "vocab-0001",
-          "focus-s02"
+          "vocab-0002"
         ],
         "lv-en": [
           "vocab-0007",
           "vocab-0001",
-          "focus-s02"
+          "vocab-0002"
         ],
         "ru-lv": [
           "vocab-0007",
           "vocab-0001",
-          "focus-s02"
+          "vocab-0002"
         ],
         "ru-en": [
           "vocab-0007",
           "vocab-0001",
-          "focus-s02"
+          "vocab-0002"
         ],
         "en-lv": [
           "vocab-0007",
           "vocab-0001",
-          "focus-s02"
+          "vocab-0002"
         ],
         "en-ru": [
           "vocab-0007",
           "vocab-0001",
-          "focus-s02"
+          "vocab-0002"
         ],
         "en-ja": [
           "vocab-0007",
           "vocab-0001",
-          "focus-s02"
+          "vocab-0002"
         ]
       }
     },
@@ -218,37 +218,37 @@
       "distractorIdsByDirection": {
         "lv-ru": [
           "vocab-0001",
-          "focus-s02",
+          "vocab-0002",
           "vocab-0004"
         ],
         "lv-en": [
           "vocab-0001",
-          "focus-s02",
+          "vocab-0002",
           "vocab-0004"
         ],
         "ru-lv": [
           "vocab-0001",
-          "focus-s02",
+          "vocab-0002",
           "vocab-0004"
         ],
         "ru-en": [
           "vocab-0001",
-          "focus-s02",
+          "vocab-0002",
           "vocab-0004"
         ],
         "en-lv": [
           "vocab-0001",
-          "focus-s02",
+          "vocab-0002",
           "vocab-0004"
         ],
         "en-ru": [
           "vocab-0001",
-          "focus-s02",
+          "vocab-0002",
           "vocab-0004"
         ],
         "en-ja": [
           "vocab-0001",
-          "focus-s02",
+          "vocab-0002",
           "vocab-0004"
         ]
       }

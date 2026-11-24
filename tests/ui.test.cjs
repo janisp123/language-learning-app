@@ -56,7 +56,7 @@ function answerButtons($){return $('choices').children.map(row=>row.children[0])
 function choose($,id){const button=answerButtons($).find(b=>b.dataset.optionId===id);assert.ok(button);button.click();}
 async function finishCorrect($){
  assert.equal(typeof $('audio-media').onended,'function');$('audio-media').onended();
- for(let i=0;i<8;i++)await Promise.resolve();$.tick(2000);
+ for(let i=0;i<8;i++)await Promise.resolve();$.tick(1000);
 }
 test('standalone prompt speaker and wrong-answer correction preserve grading and exact source/target binding',async()=>{
   const pack=JSON.parse(builtHtml.match(/id="audio-data">([\s\S]*?)<\/script>/)[1]);
@@ -112,7 +112,7 @@ test('standalone speaker covers every question in all allowed directions with co
     assert.equal($('audio-media').src,pack.clips[source][prompt.phraseId].src);$('change').click();
   }
 });
-test('without audio modules, correct answers pause two seconds and wrong answers keep the 500ms fallback',()=>{
+test('without audio modules, correct answers pause one second and wrong answers keep the 500ms fallback',()=>{
   const $=mount();assert.equal($('setup').hidden,false);assert.equal($('error').hidden,true);
   assert.equal($('lesson-list').children.length,course.lessons.length);
   $('start').click();assert.equal($('practice').hidden,false);assert.equal(answerButtons($).length,4);
@@ -120,7 +120,7 @@ test('without audio modules, correct answers pause two seconds and wrong answers
   choose($,course.lessons[0].prompts[0].phraseId);
   assert.match($('feedback').textContent,/Pareizi/);assert.ok(answerButtons($).every(b=>b.disabled));
   choose($,course.lessons[0].prompts[0].phraseId);
-  $.tick(1999);assert.equal($('progress').value,0);assert.equal($('question').textContent,course.phrases[0].lv);
+  $.tick(999);assert.equal($('progress').value,0);assert.equal($('question').textContent,course.phrases[0].lv);
   $.tick(1);assert.equal($('progress').value,1);assert.equal($('next'),undefined);
   const wrong=answerButtons($).find(b=>b.dataset.optionId!==course.lessons[0].prompts[1].phraseId);
   wrong.click();wrong.click();assert.match($('feedback').textContent,/Nav pareizi/);
@@ -143,7 +143,7 @@ test('all interface text follows source language on direction selection, practic
   const wrong=answerButtons($).find(b=>b.dataset.optionId!==course.lessons[0].prompts[0].phraseId);wrong.click();
   assert.match($('feedback').textContent,/Неверно/);assert.equal($('feedback').children[0].lang,'lv');$.tick(500);
   $('restart').click();
-  for(const lesson of course.lessons)for(const prompt of lesson.prompts){choose($,prompt.phraseId);$.tick(2000);}
+  for(const lesson of course.lessons)for(const prompt of lesson.prompts){choose($,prompt.phraseId);$.tick(1000);}
   assert.equal($('finished').hidden,false);assert.equal($('finished-title').textContent,'Вы прошли все уроки.');
   assert.equal($('again').textContent,'Снова начать с урока 1');
   $('choose').click();$('direction').value='lv-ru';$('direction').handlers.change();
@@ -152,7 +152,7 @@ test('all interface text follows source language on direction selection, practic
 });
 test('real UI retains dark mode through every block, completion and restart',()=>{
   const $=mount();$('learning-theme-toggle').click();assert.equal($.theme(),'dark');$('start').click();
-  for(const lesson of course.lessons)for(const prompt of lesson.prompts){choose($,prompt.phraseId);$.tick(2000);}
+  for(const lesson of course.lessons)for(const prompt of lesson.prompts){choose($,prompt.phraseId);$.tick(1000);}
   assert.equal($('finished').hidden,false);assert.equal($('practice').hidden,true);assert.equal($.theme(),'dark');
   $('again').click();assert.equal($.theme(),'dark');assert.equal($('practice').hidden,false);assert.equal($('progress').value,0);assert.match($('lesson-label').textContent,new RegExp(`Nodarbība 1 no ${course.lessons.length}`));
 });
@@ -180,11 +180,11 @@ test('restart and direction change cancel pending transitions, including already
   assert.equal($('setup').hidden,false);
   $('direction').value='ru-lv';$('start').click();stale();$.tick(1000);
   assert.equal($('question').lang,'ru');assert.equal($('progress').value,0);
-  choose($,course.lessons[0].prompts[0].phraseId);$.tick(2000);assert.equal($('progress').value,1);
+  choose($,course.lessons[0].prompts[0].phraseId);$.tick(1000);assert.equal($('progress').value,1);
 });
 test('third wrong answer shows restart feedback and returns to lesson one after 500ms',()=>{
   const $=mount();$('start').click();
-  for(const prompt of course.lessons[0].prompts){choose($,prompt.phraseId);$.tick(2000);}
+  for(const prompt of course.lessons[0].prompts){choose($,prompt.phraseId);$.tick(1000);}
   assert.match($('lesson-label').textContent,new RegExp(`Nodarbība 2 no ${course.lessons.length}`));
   for(let miss=1;miss<=3;miss++){
     const wrong=answerButtons($).find(b=>b.dataset.optionId!==course.lessons[1].prompts[0].phraseId);
@@ -198,8 +198,8 @@ test('third wrong answer shows restart feedback and returns to lesson one after 
 });
 test('wrong on question seven returns to question six of the same block, retaining its mistake count',()=>{
   const $=mount();$('start').click();
-  for(const prompt of course.lessons[0].prompts){choose($,prompt.phraseId);$.tick(2000);}
-  for(const prompt of course.lessons[1].prompts.slice(0,6)){choose($,prompt.phraseId);$.tick(2000);}
+  for(const prompt of course.lessons[0].prompts){choose($,prompt.phraseId);$.tick(1000);}
+  for(const prompt of course.lessons[1].prompts.slice(0,6)){choose($,prompt.phraseId);$.tick(1000);}
   const phrase=id=>course.phrases.find(p=>p.id===id).lv;
   const middle=course.lessons[1].prompts[6];
   assert.equal($('question').textContent,phrase(middle.phraseId));
@@ -281,7 +281,7 @@ test('third wrong answer waits for three complete pairs before lesson-one restar
  assert.equal($('correction-status').textContent,'');
 });
 
-test('correct answer waits for full playback and exactly two extra seconds; restart cancels playback and pause',async()=>{
+test('correct answer waits for full playback and exactly one extra second; restart cancels playback and pause',async()=>{
  const $=mount(undefined,builtHtml,'en-ja');$('start').click();
  const first=course.lessons[0].prompts[0].phraseId;
  choose($,first);assert.equal(typeof $('audio-media').onended,'function','selected answer must wait for real completion');
@@ -289,7 +289,7 @@ test('correct answer waits for full playback and exactly two extra seconds; rest
  $.tick(12000);assert.equal($('progress').value,0,'long clips must not be cut short');
  assert.equal($('question-replay').disabled,true);
  ended();for(let i=0;i<8;i++)await Promise.resolve();
- $.tick(1999);assert.equal($('progress').value,0);
+ $.tick(999);assert.equal($('progress').value,0);
  $.tick(1);assert.equal($('progress').value,1);
  $('restart').click();choose($,first);const stale=$('audio-media').onended;
  $('restart').click();stale();for(let i=0;i<8;i++)await Promise.resolve();$.tick(4000);assert.equal($('progress').value,0);
@@ -297,11 +297,11 @@ test('correct answer waits for full playback and exactly two extra seconds; rest
  const pause=$.queuedCallback();$('change').click();pause();$.tick(4000);assert.equal($('setup').hidden,false);assert.equal($('progress').value,0);
 });
 
-test('correct-answer playback error and stall recover after two seconds without changing grading',async()=>{
+test('correct-answer playback error and stall recover after one second without changing grading',async()=>{
  for(const failure of ['error','stall']){
   const $=mount(undefined,builtHtml,'en-ja');$('start').click();choose($,course.lessons[0].prompts[0].phraseId);
   if(failure==='error')$('audio-media').onerror();else $.tick(30000);
   for(let i=0;i<8;i++)await Promise.resolve();assert.ok($('question-audio-error').textContent);
-  $.tick(1999);assert.equal($('progress').value,0);$.tick(1);assert.equal($('progress').value,1);
+  $.tick(999);assert.equal($('progress').value,0);$.tick(1);assert.equal($('progress').value,1);
  }
 });
