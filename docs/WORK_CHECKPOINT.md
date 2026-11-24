@@ -1,10 +1,14 @@
 # Current working checkpoint
 
-Current task: L-017
+Current task: L-010
 
-## Current authorized slice — L-017
+## Latest verified delivery — L-017
 
-Owner approved copy-only flag panel (Question / selected Answer + proposed correction + exact original content/IDs/preset/direction/version). Implemented isolated feat/translation-report-panel in /workspace/work/translation-report-panel from mainfec162c. Snapshot stays pinned while normal lesson navigation continues; no report auto-send or saved drafts, and no grading/audio changes. 61Node/41Python and21 actual report direction/preset browser cases passed; real clipboard/fallback/late-copy/snapshot/localization/keyboard/320-390-1280 light-dark/reload zero-storage checks passed. Independent review approved after localized visible details and native focus-test correction. Canonical build/download/site parity and protocol passed. PR/publication pending. Current live remains0.5.4 until verified. Next task after this slice remains L-010.
+**LIVE0.5.5:** flag on every question opens a localized copy-only correction panel. Choose Question or any displayed Answer,enter a proposal,and copy exact original text plus language direction,preset,app/content version and stable course/lesson/question/concept/answer IDs. Snapshot stays pinned across normal advancement. Nothing auto-submits or saves; denied clipboard offers selectable text. Close/Escape/reset/reload discard drafts and stale clipboard callbacks cannot revive them. UI/details LV/RU/EN,keyboard/mobile/light-dark verified. No scoring/audio/content changes.
+
+Source94dca338b6d1a42d523676624ccaaf95fad4d00a, [PR #39](https://github.com/janisp123/language-learning-app/pull/39) merged3b921b648eb51289be68c93f0ab7a4169d753334. Source CI45300516830/main CI45300715228 and Pages45300715317 succeeded. Actual app/landing/offline downloaded via verified HTTPS and byte-identical to tested source. App26,184,254 bytes,SHA256e040f1ea0ed930f17d30ab5dff52678db96be3224d5d0c1c393b651173be3306. [Open app](https://janisp123.github.io/language-learning-app/learn/?v=0.5.5) · [Receipt](delivery/2026-11-24-translation-report-live.json).
+
+61Node/41Python;21 report direction/preset cases with actual clipboard,fall back/late-copy,snapshot,plain-text injection,cleanup/reload/no storage and320/390/1280 dark-light passed. Existing21 native audio+2sec cases passed. Independent review approved after localizing visible details and accommodating native Chromium focus boundary while checking background remains inert. Physical phone/full screen reader not run;known direct hosted Chromium trust limitation remains;HTTPS readback matches local real-browser source. Drive review unchanged;website offline updated. L-017 archived in docs/history.
 
 ## Latest verified delivery — L-016
 
@@ -44,8 +48,8 @@ Kids/Adults100 each (80 shared+20 specific), source UI and separate original510 
 
 ## Exact next bounded work — L-010
 
-Reading-guide PR #21 remains OPEN/UNMERGED; the live app still has no source-letter/per-symbol reading aids. Reconcile its loader/view/data against latest main without overwriting focused courses, correction audio, task/protocol, current translations/recordings or zero saves. Applyこんにちは ko/n/ni/chi/wa patch (finalは contextualwa), add complete guide coverage for focused expressions/language-name variants, preserve reading directions lv-ru / ru-en / en-ja only. Other four directions stay unannotated.
+Reading-guide PR #21 remains OPEN/UNMERGED; the live app still has no source-letter/per-symbol reading aids. Reconcile its loader/view/data against latest main without overwriting focused courses,the translation-report module/IDs,correction audio,task/protocol, current translations/recordings or zero saves. Applyこんにちは ko/n/ni/chi/wa patch (finalは contextualwa), add complete guide coverage for focused expressions/language-name variants, preserve reading directions lv-ru / ru-en / en-ja only. Other four directions stay unannotated.
 
-Use existing reading modules, test exact text/ID/audio/guide bindings, all-course switching, new correction playback compatibility, mobile/dark/keyboard, scoring/full correct playback+2000ms and zero saves. Publish a verified checked slice under standing owner authorization; do not blindly merge old #21. Save/read back actual hosted bytes and a live receipt. Keep existing held Drive reviews until an appropriate replacement; website offline file is current0.5.4.
+Use existing reading modules, test exact text/ID/audio/guide bindings, all-course switching, new correction playback compatibility, mobile/dark/keyboard, scoring/full correct playback+2000ms and zero saves. Publish a verified checked slice under standing owner authorization; do not blindly merge old #21. Save/read back actual hosted bytes and a live receipt. Keep existing held Drive reviews until an appropriate replacement; website offline file is current0.5.5.
 
-Other L-011 context/commonness proposals and fluent-human/device review remain pending. Technical tests do not establish every phrase optimal or conversational fluency. Canonical active tasks:docs/TD_LIST.md; completed L-013 history preserved in docs/history/L-013-completed-2026-11-23.md. Current delivery receipt branch docs/correct-delay-live is in /workspace/work/correct-answer-delay, based on the L-016 merged main; inspect latest actual main/PRs on resume.
+Other L-011 context/commonness proposals and fluent-human/device review remain pending. Technical tests do not establish every phrase optimal or conversational fluency. Canonical active tasks:docs/TD_LIST.md; completed L-013 history preserved in docs/history/L-013-completed-2026-11-23.md. Current delivery receipt branch docs/translation-report-live is in /workspace/work/translation-report-panel,based on L-017 merged main; inspect latest actual main/PRs on resume.

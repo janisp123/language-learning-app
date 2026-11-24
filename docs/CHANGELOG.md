@@ -2,7 +2,7 @@
 
 ## 0.5.5 — copy-only translation correction reports (codex,2026-11-24)
 
-L-017 adds a localized flag panel on every question. Choose Question or any displayed Answer, type a proposed correction and copy original wording, direction/preset/version and stable IDs. Snapshot stays pinned across normal advancement; no report submission, saved drafts or learner-history export. Manual-copy fallback and stale-copy/close/reset protections included. Learning content/recordings/scoring/full-correct-audio+2sec/mistake correction/seven directions unchanged. Verification/publication pending; see checkpoint.
+L-017 adds a localized flag panel on every question. Choose Question or any displayed Answer, type a proposed correction and copy original wording, direction/preset/version and stable IDs. Snapshot stays pinned across normal advancement; no report submission, saved drafts or learner-history export. Manual-copy fallback and stale-copy/close/reset protections included. Learning content/recordings/scoring/full-correct-audio+2sec/mistake correction/seven directions unchanged. Verified61Node/41Python,21 report browser cases and independent review. Merged PR #39 and deployed;[actual hosted-byte receipt](delivery/2026-11-24-translation-report-live.json).
 
 
 ## 0.5.4 — full correct pronunciation plus two seconds (codex,2026-11-23)
