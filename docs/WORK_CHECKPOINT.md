@@ -1,6 +1,10 @@
 # Current working checkpoint
 
-Current task: L-010
+Current task: L-018
+
+## Current authorized slice — L-018
+
+Owner requested starting the common-usage audit implementation and making correct-answer pause one second shorter. Implemented full target playback+1000ms, with error/unavailable fallback1000ms; wrong correction unchanged. Integrated two verified PR #43 distractor corrections F014/F015; correct translations/IDs/all recording bytes remain unchanged. Basef7bed6c includes concurrent owner policy/research commits; source branch fix/one-second-correct-pause in /workspace/work/one-second-correct-pause preserves them. No merge of held researchPR43 or readingPR21. FarewellF001 Japanese choice asked asynchronously and still pending; do not assume. Current live0.5.5 until publication verified. 61Node/42Python,21 native audio+1sec and21 report cases,canonical build/download/site parity/protocol and independent review passed. Source push/checked PR/publication pending.
 
 ## Latest verified delivery — L-017
 

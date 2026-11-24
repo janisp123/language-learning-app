@@ -1,0 +1,23 @@
+{
+  "version": "0.5.6",
+  "task": "L-018",
+  "node": 61,
+  "python": 42,
+  "nativeAudioCourseDirectionCases": 21,
+  "reportCourseDirectionCases": 21,
+  "correctTiming": "native target completion +1000ms;999ms locked/1000ms advance in deterministic test",
+  "correctFailureFallbackMs": 1000,
+  "wrongCorrection": "unchanged;500ms failure fallback unchanged",
+  "findingsImplemented": [
+    "PR43 F014:basic-26-prompt-01 0252\u21920250",
+    "PR43 F015:basic-10-prompt-07 0098\u21920093"
+  ],
+  "sharedFullPresentationsChanged": 14,
+  "translationsAndAudio": "all original text/correct IDs and recording bytes preserved;embedded audio-data identical",
+  "legacyContentVersion": "0.6.2-test",
+  "farewell": "F001 not changed;Japanese choice pending;no assumed approval or direction split",
+  "independentReview": "approved;no blockers;source/compiled artifact scope checked",
+  "physicalPhone": false,
+  "fullScreenReader": false,
+  "publiclyDeployed": false
+}

@@ -1,5 +1,10 @@
 ## 2026-11-23 — Correction listening publicly deployed/read back (codex)
 
+## 0.5.6 — first common-usage fixes and one-second correct pause (codex,2026-11-24)
+
+Correct audio still plays fully, then pauses1000ms instead of2000ms. PR #43 F014/F015 remove two defensible competing choices without changing taught translations or recordings: dinner no longer competes with lunch, and what price no longer competes with how many. Correct IDs/history locks are preserved with explicit allowed-binding exceptions; legacy bank/audio revision0.6.2-test. Shared farewell/Japanese context remains pending. Verification/publication pending; see checkpoint.
+
+
 ### 2026-11-24 · Owner vocabulary-default consistency decision (documentation only)
 
 Owner requested a single common, polite-safe translation for the same meaning across Basic Kids, Basic Adults and Full. Recorded in `docs/DECISIONS.md`, `docs/CONTENT_RULES.md`, `AGENTS.md` and the existing L-011 audit task. Example: generic “goodbye” should teach `до свидания` in every preset, not `до встречи` in the Basic presets. Existing L-010 stays the current task. Added by/recorded by: cw (ChatGPT Work). No course content, language modules, recordings, guides, application logic or live deployment changed. Evidence: PR/merge record for the documentation-only coordination change. Later implementation requires a separate verified task.

@@ -4,7 +4,7 @@ const fs=require('node:fs');
 const http=require('node:http');
 let chromium;try{({chromium}=require('playwright'));}catch{}
 
-test('correct submissions play fully in every course/direction and wait two additional seconds',{
+test('correct submissions play fully in every course/direction and wait one additional second',{
  skip:!chromium||!fs.existsSync('/usr/bin/chromium')?'Optional Chromium unavailable':false
 },async()=>{
  const server=http.createServer((_req,res)=>{res.setHeader('Content-Type','text/html; charset=utf-8');res.end(fs.readFileSync('downloads/language-learning-test.html'));});
@@ -37,11 +37,11 @@ test('correct submissions play fully in every course/direction and wait two addi
    },{direction,selection});
    assert.deepEqual(result,{sameClip:true,calls:1,ungraded:true,locked:true,progress:0},direction+'/'+selection);
    await page.waitForFunction(()=>document.getElementById('progress').value===1);
-   assert.ok(await page.evaluate(()=>window.lastAudioEnded!==null&&performance.now()-window.lastAudioEnded>=1990),'waited at least two seconds after actual audio ended');
+   assert.ok(await page.evaluate(()=>window.lastAudioEnded!==null&&performance.now()-window.lastAudioEnded>=990),'waited at least one second after actual audio ended');
    assert.equal(await page.locator('html').getAttribute('data-theme'),'dark');
    await page.click('#change');
   }
-  // Rejected audio recovers through the same two-second pause.
+  // Rejected audio recovers through the same one-second pause.
   await page.evaluate(()=>{HTMLMediaElement.prototype.play=function(){return Promise.reject(new Error('Blocked'));};});
   await page.selectOption('#direction','en-ja');await page.selectOption('#course-selection','full');await page.click('#start');
   await page.evaluate(()=>{

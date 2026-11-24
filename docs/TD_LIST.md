@@ -1,7 +1,7 @@
 # TD list — active approved tasks for the language-learning app
 
 **Repository:** `janisp123/language-learning-app` • **Branch of record:** `main` • **Canonical path:** `docs/TD_LIST.md`  
-**Current handoff (2026-11-24):** **L-017 DELIVERED/LIVE0.5.5** — flag/copy precise translation correction reports with original wording,proposal,direction/preset/version/stableIDs. No automatic send or saved drafts/history. [Receipt](delivery/2026-11-24-translation-report-live.json) · [History](history/L-017-completed-2026-11-24.md). Audio/scoring/content/directions/ZERO saves preserved. **Current task:L-010 — reading-guide integration.** Standing checked merge/publication authorization remains; do not repeat routine approval questions.
+**Current handoff (2026-11-24):** **L-017 DELIVERED/LIVE0.5.5** — flag/copy precise translation correction reports with original wording,proposal,direction/preset/version/stableIDs. No automatic send or saved drafts/history. [Receipt](delivery/2026-11-24-translation-report-live.json) · [History](history/L-017-completed-2026-11-24.md). Audio/scoring/content/directions/ZERO saves preserved. **Current task:L-018 — first audit fixes and shorter correct pause.** Standing checked merge/publication authorization remains; do not repeat routine approval questions.
 
 **Historical browser baseline (verified 2026-11-17):** Browser review build 0.4.11 is integrated through PR #18 and publicly deployed. Main CI 44168243818 and Pages 44168243948 succeeded; hosted HTML equals the committed download. Android, fluent human review, physical-device/full-accessibility checks and final release remain unfinished. No license has been selected. [Current checkpoint](WORK_CHECKPOINT.md) records the latest evidence. Task presence alone never authorizes work or publication.
 
@@ -128,4 +128,12 @@ That project's existing TD is currently `docs/TD_LIST.md` in **another repositor
 
 ## Standing execution authorization — 2026-11-23
 
-Owner explicitly requested efficient checked implementation/merging/live publication rather than a separate preview. Kids/Adults0.5.0 and correction listening0.5.1 are delivered. Setup/dark default0.5.2 is delivered. Correct answer playback0.5.3 is delivered. Full correct playback plus2sec0.5.4 is delivered. Copy-only translation reports0.5.5 are delivered. Current task isL-010 reading integration; preserve all delivered behavior and latest protocol. Do not repeat completed features or ask the same routine publication approval again.
+Owner explicitly requested efficient checked implementation/merging/live publication rather than a separate preview. Kids/Adults0.5.0 and correction listening0.5.1 are delivered. Setup/dark default0.5.2 is delivered. Correct answer playback0.5.3 is delivered. Full correct playback plus2sec0.5.4 is delivered. Copy-only translation reports0.5.5 are delivered. Current task isL-018 first audit fixes/shorter pause, then L-011 pending audit decisions; preserve all delivered behavior and latest protocol. Do not repeat completed features or ask the same routine publication approval again.
+
+### L-018 — First confirmed audit fixes and one-second correct pause
+- **Added by:** codex (explicit Owner request,2026-11-24)
+- **Implemented by:** codex (verified locally; integration pending)
+- **Status:** VERIFIED LOCALLY —61Node/42Python,21 native audio and21 report cases,canonical parity/protocol and independent review passed;checked PR/publication pending.
+- **Scope:** Full correct audio then1000ms (formerly2000ms); preserve cancellation/failure recovery/wrong correction. Apply PR #43 F014/F015 only: two documented distractor swaps, correct IDs/text/recordings unchanged. Legacy course/audio revision0.6.2-test. No broad translation rewrite or silent Japanese farewell choice.
+- **Verification:**999/1000ms, long playback/errors/cancellation;61Node/42Python expected, native21 audio and21 report cases, canonical build/protocol/site parity, checked PR and exact hosted readback.
+- **Pending choice:** F001 shared goodbye rebind asks whether to reuse Full’s Japaneseさようなら alongsideuz redzēšanos/до свидания/goodbye; unanswered means pending, not approval. Other editorial proposals remain separate.

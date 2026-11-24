@@ -174,9 +174,9 @@
         if (audio?.selected) {
           void audio.selected(shown).then(result => {
             if (ticket !== generation || !pending || result === null) return;
-            advanceTimer = setTimeout(advance,2000);
+            advanceTimer = setTimeout(advance,1000);
           });
-        } else advanceTimer = setTimeout(advance,2000);
+        } else advanceTimer = setTimeout(advance,1000);
       } else if (audio?.correct) {
         const round = n => { if (ticket === generation) $('correction-status').textContent = t('listening',{n,total:3}); };
         void audio.correct(shown,pending.feedback.correctText,round).then(result => {
