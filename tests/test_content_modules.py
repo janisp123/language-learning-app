@@ -105,6 +105,7 @@ class ContentModuleTests(unittest.TestCase):
                 module.write_text(json.dumps(existing))
             (root/'content/languages/zz.json').write_text(json.dumps(pack));catalog['languages'].append({'id':'zz','file':'languages/zz.json'});catalog['directions'] += ['zz-'+c for c in ['lv','ru','en','ja']]+[c+'-zz' for c in ['lv','ru','en']];path.write_text(json.dumps(catalog))
             course,locales=load_content(root);self.assertEqual(course['languages'],['lv','ru','en','ja','zz']);self.assertIn('zz',locales)
+            shutil.copyfile(ROOT/'package.json',root/'package.json')
             shutil.copytree(ROOT/'web',root/'web');shutil.copytree(ROOT/'core',root/'core')
             shutil.copytree(ROOT/'audio',root/'audio')
             from build_browser import build

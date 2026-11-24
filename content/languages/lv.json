@@ -2557,7 +2557,7 @@
     "static": {
       "skip": "Pāriet uz uzdevumiem",
       "brand-name": "Valodu mācīšanās",
-      "badge": "Izmēģinājuma versija 0.5.4",
+      "badge": "Izmēģinājuma versija 0.5.5",
       "draft": "Mācību materiāls un izruna vēl jāpārbauda valodu pratējiem.",
       "audience": "Ikdienas saziņas pamati",
       "welcome": "Mazliet prakses. Sāc ar pamatiem.",
@@ -2585,7 +2585,19 @@
       "course-caption": "Kurss",
       "course-kids": "Pamati bērniem · 100 vienības",
       "course-adults": "Pamati pieaugušajiem · 100 vienības",
-      "course-full": "Pilnais · 510 vienības"
+      "course-full": "Pilnais · 510 vienības",
+      "report-title": "Ziņot par tulkojumu",
+      "report-close": "Aizvērt",
+      "report-note": "Nekas netiek nosūtīts vai saglabāts. Nokopē ziņojumu un ielīmē to savā sarunā.",
+      "report-type-label": "Ko vēlies mainīt?",
+      "report-type-question": "Jautājumu",
+      "report-type-answer": "Atbildi",
+      "report-answer-label": "Kuru atbildi?",
+      "report-original-label": "Sākotnējais teksts",
+      "report-proposal-label": "Tavs ieteiktais labojums",
+      "report-details-title": "Jautājuma dati un ID",
+      "report-copy-label": "Kopēt ziņojumu",
+      "report-manual-label": "Atlasi un nokopē šo tekstu"
     },
     "messages": {
       "pageTitle": "Valodu mācīšanās — izmēģinājuma versija",
@@ -2604,7 +2616,11 @@
       "instruction": "Izvēlies tulkojumu {language} valodā",
       "noscript": "Lai pildītu uzdevumus, ieslēdz JavaScript. Lejupielādētajam HTML failam konts un internets nav vajadzīgs.",
       "theme": "Tumšais motīvs",
-      "listening": "Noklausies {n} no {total}: jautājums → pareizā atbilde"
+      "listening": "Noklausies {n} no {total}: jautājums → pareizā atbilde",
+      "reportOpen": "Ziņot par tulkojumu",
+      "reportCopied": "Nokopēts. Ielīmē to sarunā pārskatīšanai.",
+      "reportCopyFailed": "Automātiska kopēšana nav pieejama. Nokopē zemāk redzamo tekstu manuāli.",
+      "reportDetails": "Lietotnes versija: {version}\nSatura versija: {contentVersion}\nValodu virziens: {direction}\nKurss: {preset}\nKursa ID: {course}\nNodarbības ID: {lesson}\nJautājuma ID: {question}\nJēdziena ID: {concept}\nJautājums ({source}): {original}\nAtbilžu varianti:\n{options}"
     },
     "lessons": {
       "basic-01": "Sasveicināšanās",

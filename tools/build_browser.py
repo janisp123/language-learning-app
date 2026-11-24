@@ -21,6 +21,7 @@ def build(root: Path, output: Path) -> Path:
     html = template.replace('<!--STYLE-->', '<style>\n' + css + '\n</style>')
     for key, value in default_ui['static'].items():
         html = html.replace('<!--TEXT:' + key + '-->', escape(value))
+    html = html.replace('<!--APP-VERSION-->', escape(json.loads((root/'package.json').read_text())['version']))
     html = html.replace('<!--TITLE-->', escape(default_ui['messages']['pageTitle']))
     html = html.replace('<!--DEFAULT-LANGUAGE-->', default_source)
     options = []
@@ -41,6 +42,7 @@ def build(root: Path, output: Path) -> Path:
     modules = ['audio-player.js', 'audio-view.js']
     html = html.replace('<!--AUDIO-MODULES-->', ''.join('<script>\n' + (root/'web'/name).read_text(encoding='utf-8').replace('</script', '<\\/script') + '\n</script>' for name in modules))
     html = html.replace('<!--ENGINE-->', '<script>\n' + (root/'core/course-selection.js').read_text(encoding='utf-8').replace('</script','<\\/script') + '\n</script>' + '<script>\n' + engine.replace('</script', '<\\/script') + '\n</script>')
+    html = html.replace('<!--REPORT-MODULE-->', '<script>\n' + (root/'web/report-panel.js').read_text(encoding='utf-8').replace('</script','<\\/script') + '\n</script>')
     html = html.replace('<!--APP-->', '<script>\n' + app.replace('</script', '<\\/script') + '\n</script>')
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(html, encoding='utf-8')

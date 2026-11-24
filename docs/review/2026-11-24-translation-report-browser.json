@@ -1,0 +1,29 @@
+{
+  "version": "0.5.5",
+  "task": "L-017",
+  "node": 61,
+  "python": 41,
+  "reportDirectionPresetCases": 21,
+  "nativeClipboard": "actual write/read verified; no write while typing",
+  "reportBindings": "exact original question/any answer;app/content version,direction,preset,course/lesson/question/concept/answer IDs",
+  "localization": "LV/RU/EN controls and visible details follow source;copied diagnostic keys stable English",
+  "snapshot": "old question retained after normal correct-answer advance",
+  "cleanup": "close/Escape/reset/reload discard draft;late clipboard result cannot revive it",
+  "failure": "denied clipboard exposes selectable full report without fake success",
+  "keyboard": "Enter opens;Escape closes;native focus boundary allowed;underlying question remains inert",
+  "layoutWidths": [
+    320,
+    390,
+    1280
+  ],
+  "themes": [
+    "dark",
+    "light"
+  ],
+  "plainTextInjection": "script-looking proposal remains text",
+  "storage": "no app persistence;localStorage/sessionStorage/cookies empty",
+  "independentReview": "approved;localization and native keyboard-test findings corrected and reverified",
+  "physicalPhone": false,
+  "fullScreenReader": false,
+  "publiclyDeployed": false
+}

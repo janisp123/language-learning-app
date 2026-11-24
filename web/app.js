@@ -31,6 +31,20 @@
     function t(key, values = {}) {
       return messages.messages[key].replace(/\{(\w+)\}/g, (_, name) => String(values[name]));
     }
+    const reports = globalThis.LanguageReport?.create(document, {
+      message: t,
+      getContext: () => shown && state?.phase === 'learning' ? {
+        ...shown, appVersion: $('app-version').getAttribute('content'), contentVersion: course.contentVersion,
+        preset: focusedData ? $('course-selection').value : 'full',
+        presetLabel: focusedData ? $('course-selection').selectedOptions[0].textContent : messages.static['course-full'],
+        directionLabel: `${messages.names[shown.source].label} → ${messages.names[shown.target].label}`
+      } : null,
+      afterClose: () => {
+        if (!$('practice').hidden) $('report-open').focus();
+        else if (!$('finished').hidden) $('finished-title').focus();
+        else $('direction').focus();
+      }
+    });
     function localize() {
       const source = $('direction').value.split('-')[0];
       messages = locales[source];
@@ -39,6 +53,8 @@
       document.title = t('pageTitle');
       $('learning-theme-toggle').setAttribute('aria-label', t('theme'));
       $('learning-theme-toggle').title = t('theme');
+      $('report-open').setAttribute('aria-label',t('reportOpen'));
+      $('report-open').title = t('reportOpen');
       for (const [id, value] of Object.entries(messages.static)) $(id).textContent = value;
       for (const option of $('direction').options) {
         const [from, to] = option.value.split('-');
@@ -75,6 +91,7 @@
     }
 
     function cancelAdvance() {
+      reports?.reset();
       audio?.reset();
       $('correction-status').textContent = '';
       if (advanceTimer !== null) clearTimeout(advanceTimer);

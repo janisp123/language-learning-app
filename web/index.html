@@ -2,6 +2,7 @@
 <html lang="<!--DEFAULT-LANGUAGE-->" data-theme="dark">
 <head>
   <meta charset="utf-8">
+  <meta id="app-version" name="application-version" content="<!--APP-VERSION-->">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta id="theme-color" name="theme-color" content="#14261f">
   <script>
@@ -40,7 +41,7 @@
       <div class="progress-row"><label for="progress" id="progress-label"></label><progress id="progress" max="10" value="0"></progress></div>
       <p class="small" id="mistakes"></p>
       <article class="question-card" aria-labelledby="question">
-        <p id="instruction" class="eyebrow"></p>
+        <div class="question-tools"><p id="instruction" class="eyebrow"></p><button id="report-open" class="quiet question-report" type="button" aria-haspopup="dialog" aria-controls="report-dialog"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="M5 21V3m0 1c5-4 9 4 14 0v10c-5 4-9-4-14 0" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg></button></div>
         <div class="question-prompt">
           <h2 id="question" tabindex="-1"></h2>
           <button id="question-replay" class="question-replay" type="button" hidden disabled>
@@ -62,12 +63,26 @@
     <noscript><!--NOSCRIPT--></noscript>
   </main>
   <footer><p>Made by <a href="https://github.com/janisp123">Janis Paegle</a> 2026</p><p id="footer-caption"><!--TEXT:footer-caption--></p><a id="source-link" href="https://github.com/janisp123/language-learning-app"><!--TEXT:source-link--></a><p id="privacy-note" class="small"><!--TEXT:privacy-note--></p></footer>
+  <dialog id="report-dialog" class="report-dialog" aria-labelledby="report-title">
+    <div class="report-heading"><h2 id="report-title"><!--TEXT:report-title--></h2><button id="report-close" class="quiet" type="button"><!--TEXT:report-close--></button></div>
+    <p id="report-note" class="small"><!--TEXT:report-note--></p>
+    <label id="report-type-label" for="report-type"><!--TEXT:report-type-label--></label>
+    <select id="report-type"><option id="report-type-question" value="question"><!--TEXT:report-type-question--></option><option id="report-type-answer" value="answer"><!--TEXT:report-type-answer--></option></select>
+    <div id="report-answer-field" hidden><label id="report-answer-label" for="report-answer"><!--TEXT:report-answer-label--></label><select id="report-answer"></select></div>
+    <label id="report-original-label" for="report-original"><!--TEXT:report-original-label--></label><textarea id="report-original" rows="2" readonly></textarea>
+    <label id="report-proposal-label" for="report-proposal"><!--TEXT:report-proposal-label--></label><textarea id="report-proposal" rows="3" maxlength="2000"></textarea>
+    <details><summary id="report-details-title"><!--TEXT:report-details-title--></summary><pre id="report-context"></pre></details>
+    <button id="report-copy" class="primary" type="button" disabled><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><rect x="8" y="8" width="12" height="13" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M15 5V3H3v13h2" fill="none" stroke="currentColor" stroke-width="2"/></svg><span id="report-copy-label"><!--TEXT:report-copy-label--></span></button>
+    <p id="report-status" class="small" role="status" aria-live="polite"></p>
+    <div id="report-manual" hidden><label id="report-manual-label" for="report-output"><!--TEXT:report-manual-label--></label><textarea id="report-output" readonly rows="8"></textarea></div>
+  </dialog>
   <script type="application/json" id="focused-data"><!--FOCUSED--></script>
   <script type="application/json" id="course-data"><!--COURSE--></script>
   <script type="application/json" id="ui-data"><!--UI--></script>
   <script type="application/json" id="audio-data"><!--AUDIO-DATA--></script>
   <!--ENGINE-->
   <!--AUDIO-MODULES-->
+  <!--REPORT-MODULE-->
   <!--APP-->
 </body>
 </html>

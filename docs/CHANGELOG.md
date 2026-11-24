@@ -1,5 +1,10 @@
 ## 2026-11-23 — Correction listening publicly deployed/read back (codex)
 
+## 0.5.5 — copy-only translation correction reports (codex,2026-11-24)
+
+L-017 adds a localized flag panel on every question. Choose Question or any displayed Answer, type a proposed correction and copy original wording, direction/preset/version and stable IDs. Snapshot stays pinned across normal advancement; no report submission, saved drafts or learner-history export. Manual-copy fallback and stale-copy/close/reset protections included. Learning content/recordings/scoring/full-correct-audio+2sec/mistake correction/seven directions unchanged. Verification/publication pending; see checkpoint.
+
+
 ## 0.5.4 — full correct pronunciation plus two seconds (codex,2026-11-23)
 
 L-016: correct selections wait for actual recording completion and then2000ms before advancing. This supersedes0.5.3’s fixed500ms cutoff. Old sound and delayed navigation cancel on reset/course/direction. Correct audio errors/unavailability recover after2000ms; existing30s stall watchdog remains. Incorrect-answer correction, recordings/content/scoring/directions/dark default/ZERO saves unchanged. Verified58Node/41Python and21 actual-browser cases, independent review approved. Merged PR #37 and deployed; [actual hosted-byte receipt](delivery/2026-11-23-correct-delay-live.json).
