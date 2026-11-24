@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "task": "L-011",
+  "checkedOn": "2026-11-24",
+  "baseMain": "a5a40869c7af31d63e1230e5260030a6c61516d9",
+  "researchDataCommit": "cd85fb4b2d2f9ec6a8ba24d843532506f548b716",
+  "pr": "https://github.com/janisp123/language-learning-app/pull/46",
+  "status": "PUSHED / OPEN RESEARCH PR; not merged; application unchanged",
+  "checks": {
+    "runtimeReconciliation": "PASS:4970 presentations,19880 options,577 records,2308 audio hashes",
+    "proposalSimulation": "PASS:10 edits,142 presentations,9 recordings/1 reuse,14 unchanged bindings,zero normalized exact collisions",
+    "protocol": "PASS",
+    "diffWhitespace": "PASS",
+    "independentReview": "PASS:no Critical or Important findings",
+    "localFullAppSuites": "NOT RERUN:research/documentation-only",
+    "nativeBrowser": "NOT RUN:no application changes",
+    "githubChecks": "See PR46 live check status; separate from local verification"
+  },
+  "ownerDecisionRequired": "Approve exact ten-cell proposal; F004 Japanese remains deferred. Other review findings and pronunciation review remain pending.",
+  "appVersionUnchanged": "0.5.6",
+  "deploymentPerformed": false
+}

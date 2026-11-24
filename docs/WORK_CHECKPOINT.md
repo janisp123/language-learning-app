@@ -12,6 +12,8 @@ Source098d11a6a909541723a2b9a262881e7f04f856a8, [PR #44](https://github.com/jani
 
 ## Exact next bounded work — L-011
 
+**Research handoff:** [PR #46](https://github.com/janisp123/language-learning-app/pull/46), branch `research/current-audit-f002-f007`, research-data commit `cd85fb4`. Pushed/open, not merged. Local reconciliation/proposal/protocol/whitespace checks and independent review passed; [verification record](../research/common-usage/2026-11-24-reconciled/verification.json). Check PR GitHub results separately. No app release.
+
 **PREPARED, application unchanged:** [Current-source reconciliation and F002–F007 proposal](../research/common-usage/2026-11-24-reconciled/README.md) checks all4970 presentations/2308 audio bindings against main a5a4086. F001/F014/F015 remain live0.5.6. Next bounded action: owner review of ten exact text cells (142 presentations,nine new recordings/one verified reuse); F004 Japanese is deferred separately. No proposed text/audio/guide edits are implemented or published. Keep L-011 current; do not resume L-010 or merge held PR43/21 automatically. Remaining11 confirmed/58 review findings are not automatically approved. Research-only check commands and exact dependency handoff are in the linked package.
 
 ## Latest verified delivery — L-017
