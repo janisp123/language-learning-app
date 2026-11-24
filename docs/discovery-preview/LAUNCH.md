@@ -1,8 +1,12 @@
 # GitHub Pages setup and editing handoff
 
-## Current hosting status — verified 2026-11-17
+## Current hosting status — verified 2026-11-24
 
-GitHub Pages is enabled and the existing site is live: [project website](https://janisp123.github.io/language-learning-app/) · [learning app](https://janisp123.github.io/language-learning-app/learn/). Main `a159c6618be40e7acdd53966e3fca60264abad7e` (PR #18) published build 0.4.11 through successful Pages run [44168243948](https://github.com/janisp123/language-learning-app/actions/runs/44168243948). Hosted app bytes match the committed download (SHA-256 `e5bb8fee28d2d3f781de41f0e59f9592e27163bdf73ef7e4323039db6ab07c40`). No repeat owner setup is needed. The initial setup failure below is retained as dated history; it is no longer a blocker. Current app bundles 2040 clips, including Japanese answers. See the [checkpoint](../WORK_CHECKPOINT.md) and pending detailed evidence PR #19.
+The existing Pages site is live with browser0.5.7. [Project website](https://janisp123.github.io/language-learning-app/) · [Learning app](https://janisp123.github.io/language-learning-app/learn/) · [Verified release receipt](../delivery/2026-11-24-polite-defaults-live.json). Source PR47 and delivery PR48 are merged;current source,checks,versions and exact readback are in the [checkpoint](../WORK_CHECKPOINT.md).2,308 audio bindings cover the focused and Full courses. No repeat owner Pages setup is required. Drive review remains a separate,older delivery.
+
+## Historical hosting verification — 2026-11-17
+
+GitHub Pages is enabled and the existing site is live: [project website](https://janisp123.github.io/language-learning-app/) · [learning app](https://janisp123.github.io/language-learning-app/learn/). Main `a159c6618be40e7acdd53966e3fca60264abad7e` (PR #18) published build 0.4.11 through successful Pages run [44168243948](https://github.com/janisp123/language-learning-app/actions/runs/44168243948). Hosted app bytes match the committed download (SHA-256 `e5bb8fee28d2d3f781de41f0e59f9592e27163bdf73ef7e4323039db6ab07c40`). No repeat owner setup is needed. The initial setup failure below is retained as dated history; it is no longer a blocker. That release bundled2040 clips,including Japanese answers. Its detailed evidence PR19 remains historical;use the current checkpoint above.
 
 The language-app website is already built. The owner does not need to create or design another webpage. GitHub Pages will host the existing repository sources, using the same delivery pattern as the mental-health project: a landing page, an online Learn action and a stable Drive-folder download action. Keep the projects and their task lists separate.
 
@@ -26,7 +30,7 @@ This is a hosting-configuration blocker, not a missing webpage or unsynchronized
 
 Codex should refresh main and inspect the existing publication run, then rerun only its failed jobs if it is still the relevant run. Avoid duplicate deployments. If GitHub requires an environment approval or reports another configuration error, identify that exact requirement.
 
-Read the actual `page_url`/deployment result before reporting a live address. Verify the landing page, Learn action, language/direction selection and pronunciation. Download the hosted `learn/index.html` and compare its SHA-256 with the current verified Drive delivery record linked from [WORK_CHECKPOINT.md](../WORK_CHECKPOINT.md). Record the successful run, public URL, exact source and readback evidence there. Physical-phone and fluent pronunciation checks remain separate.
+Read the actual `page_url`/deployment result before reporting a live address. Verify the landing page, Learn action, language/direction selection and pronunciation. Download the hosted `learn/index.html` and compare its exact bytes with the tested canonical build and committed download,then save a delivery receipt linked from [WORK_CHECKPOINT.md](../WORK_CHECKPOINT.md). Do not use an older Drive artifact as the website baseline. If replacing Drive separately,push verified source first,then upload and download back for exact equality. Record the successful run, public URL, exact source and readback evidence there. Physical-phone and fluent pronunciation checks remain separate.
 
 ## Where future edits belong
 

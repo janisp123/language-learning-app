@@ -1,4 +1,34 @@
-# Browser test build 0.4.7
+# Browser review build — current 0.5.7
+
+The browser app is implemented and publicly deployed: [open the app](https://janisp123.github.io/language-learning-app/learn/) · [project website](https://janisp123.github.io/language-learning-app/) · [portable HTML](https://janisp123.github.io/language-learning-app/language-learning-test.html). [Verified 0.5.7 delivery](delivery/2026-11-24-polite-defaults-live.json) records source, CI, deployment and exact hosted-byte equality. Android/Google Play are not implemented.
+
+## Current testing guide
+
+Choose a language direction, then **Basic Kids (100), Basic Adults (100) or Full (510)**. The Basic courses share80 communication items and add20 situations for each audience. Full has51 ten-question blocks. Exactly seven directions are supported: all six between Latvian/Russian/English plus English→Japanese only. The learning interface follows the source language.
+
+Each prompt attempts pronunciation automatically once; its speaker replays it. Each answer has a separate speaker that never submits or grades. Correct submissions play the target recording fully, then wait1000ms before advancing. Incorrect submissions play the current question and correct answer three times before applying the one-prompt-back result. Third cumulative mistake in a lesson restarts lesson1 after listening. Ten consecutive correct answers complete a lesson. Restart/direction/course changes stop sound and stale transitions. Missing/blocked audio shows feedback and recovers; exact failure/stall behavior is covered by current tests and [audio documentation](AUDIO_MODULES.md).
+
+The page starts dark on each fresh load. A manual light choice lasts only for the current visit. The flag opens a copy-only correction panel with original text, direction/preset/version and stable IDs; nothing is submitted or saved automatically. Reload or a fresh session starts at lesson1 with no saved answers, history, counters or preferences. Only an explicit Copy action writes the requested report to the clipboard.
+
+Use the hosted app on a phone or download/save the self-contained `.html` for offline use. GitHub's source viewer does not execute it. Phone handling of local HTML varies. The original and focused banks have2,308 bundled audio bindings across four languages. Reading guides from held PR21 are **not live**.
+
+## Verification limits and source
+
+0.5.7 passed64 Node/43 Python tests, independent review and native Chromium checks covering21 course/direction combinations and all ten changed clips. These are release-specific results, not a guarantee of optimal vocabulary or native pronunciation. Fluent-human review, physical-phone testing and a full screen-reader audit remain pending. Current task/status: [checkpoint](WORK_CHECKPOINT.md); exact changes: [implementation notes](../research/common-usage/2026-11-24-implementation-02.md).
+
+Canonical data lives in `content/` and `content/focused/`; engine in `core/`; UI/audio/report controls in `web/`; packaging/checks in `tools/` and `tests/`. Ordinary builds require no dependency installation:
+
+```sh
+npm test
+python -m unittest discover -s tests -p 'test_*.py' -v
+python tools/build_browser.py
+```
+
+Copy the fresh generated `dist/language-learning-test.html` to the committed download only after verification. Never edit generated HTML directly. Follow [AGENTS](../AGENTS.md) and the [release checklist](RELEASE_CHECKLIST.md). Current snapshots supersede the dated initial-build notes below.
+
+---
+
+# Historical initial-build notes — 0.4.7
 
 Implemented by Codex on 2026-11-16 at the owner's explicit request for a testable app. Based on main `0eca17305e695e53e72f2bf1ab6f72fa3e04ddb6`. This is a review/test build, not a verified public release or Android app.
 

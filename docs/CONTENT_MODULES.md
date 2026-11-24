@@ -1,6 +1,6 @@
 # Content modules and permanent question/answer identity
 
-Implemented by Codex at the owner's request. The active pack has 51 blocks and 510 vocabulary items with LV/RU/EN translations: the original 500 plus ten practical items. Catalog order brings pronouns/help earlier and places the new request block after the first 100 items. The earlier 100-item draft is preserved in `archive/course-0.3/content/`, with its original identity lock unchanged. See [VOCABULARY_500.md](VOCABULARY_500.md).
+Implemented by Codex at the owner's request. The Full pack has51 blocks/510 items in LV/RU/EN/JA;exactly six LV/RU/EN directions plus en-ja are allowlisted. Basic Kids/Adults select100 items each from shared original concepts and focused extensions. Current legacy/focused revisions are0.6.3-test/focused-0.1.2 (app0.5.7). Approved corrections are documented in the changelog and explicit identity-lock exceptions;unrelated translations/recordings remain protected. Catalog order brings pronouns/help earlier and places the new request block after the first 100 items. The earlier 100-item draft is preserved in `archive/course-0.3/content/`, with its original identity lock unchanged. See [VOCABULARY_500.md](VOCABULARY_500.md).
 
 ## Module boundaries
 
