@@ -1,5 +1,13 @@
 # Content rules — basic words and short phrases
 
+## Shared teaching defaults across Basic Kids, Basic Adults and Full — owner decision 2026-11-24
+
+**One meaning, one preferred everyday translation across every course that teaches it.** Never choose different translations for the same meaning merely because one appears in Basic Kids and another in Basic Adults or Full. Reuse the already-taught expression and concept references where the meaning is truly shared; avoid multiplying synonyms. Favor a simple, common, *polite and safe-to-say* default that an 11-year-old can use with teachers and unfamiliar adults and an adult can also use without embarrassment. Do not force a rare/formal expression if it would be unnatural: common intelligibility and context remain important. These are preferred teaching defaults, not claims that all other genuine expressions are “wrong.”
+
+**Mandatory farewell example:** General `goodbye` / `uz redzēšanos` → RU `до свидания` for Basic Kids, Basic Adults and Full. Do not teach `до встречи` as the Basic default for the same generic goodbye concept; it means closer to “see you” and only belongs if deliberately taught as a separate clearly specified meaning. Compare `focus-s02` with `vocab-0002` before any later code change. Human review must confirm translations in Latvian/English/Japanese and distinguish register where a truly different situation is taught.
+
+During audits, prioritize **cross-preset mismatches** before polishing stylistic synonyms; check exact prompt/answer/distractor pairs in all seven allowed directions. Change source, audio and reading guides only after a separately approved, tested implementation. Owner decision recorded in [DECISIONS.md](DECISIONS.md).
+
 ## Current focused starting courses — owner approved 2026-11-23
 
 Kids and Adults each begin with100 items in ten ten-question blocks:80 shared communication intents and20 school/play or everyday shop/transport items. Practical phrases begin in lesson1. Preserve the original510-item course separately; its older policy below does not prohibit the explicitly approved focused courses. Reuse canonical meanings and familiar words, with new-only extension modules under content/focused. Do not add synonyms/categories merely to expand the bank. Pattern slots are realized as complete, reviewed utterances (including language-name variants by direction), never spoken ellipses or personal-data inputs. The focused12-word structural ceiling permits ordinary short questions; it is not a target length. Review source/target/distractor meaning in all seven directions. Politeness is contextual; basic mutual communication is the primary goal. Audio and content remain editorial drafts pending fluent-human review.
