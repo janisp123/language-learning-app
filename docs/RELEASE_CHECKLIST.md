@@ -1,10 +1,10 @@
 # Release checklist — not a release announcement
 
-**No website app or Play app has been published yet.** Use this checklist only when the relevant implementation task reaches verification.
+**Browser0.5.7 is publicly deployed;Android/Google Play are not implemented.** See the [current checkpoint](WORK_CHECKPOINT.md) and [verified live receipt](delivery/2026-11-24-polite-defaults-live.json). Use this checklist for subsequent authorized releases;dated planning rules are superseded by current owner decisions.
 
 ## Before publishing the browser version
 - [ ] Real `Learn` button opens a functioning lesson from the actual GitHub Pages public URL.
-- [ ] All six directions between Latvian, Russian and English tested with human-readable, checked content. Entire UI follows the source language (LV, RU or EN), including load-error direction changes, completion and accessible labels; prompt/answer language tags remain correct.
+- [ ] All six directions between Latvian, Russian and English plus English→Japanese tested with human-readable, checked content. Entire UI follows the source language (LV, RU or EN), including load-error direction changes, completion and accessible labels; prompt/answer language tags remain correct.
 - [ ] Correct goes forward, incorrect one prompt back, **ten consecutive correct** completes a lesson; answer locations reshuffle. Each block has ten questions; the third cumulative mistake in one block restarts at lesson 1/question 1. Check nonconsecutive mistakes and count reset on block completion.
 - [ ] Close/reload starts at lesson 1; no saved browser progress, analytics, cookies, IndexedDB or server calls.
 - [ ] Mobile layouts, large touch targets, readable language/audio, keyboard behavior and screen-reader basics checked.
@@ -26,7 +26,8 @@
 - [ ] Modular content loader, independent UI contract, runtime answer-binding checks and active/archive content identity digests pass; authored modules are the only editable content source.
 - [ ] Relevant TD item references a PR/commit and the tests that were actually run.
 - [ ] Changelog records implementation/verification attribution accurately.
+- [ ] README, visible build badges in all source languages, current testing/audio guidance, screenshot and latest checkpoint agree with actual version, course selector, playback and allowed directions. Put the newest verified delivery before historical notes; do not erase old evidence.
 - [ ] Work checkpoint reflects the exact tested or published state and one next action.
 - [ ] Unverified items remain clearly marked TODO/BLOCKED, not quietly passed.
 
-**Approved curriculum:** 51 blocks of ten questions / 510 basic words and short phrases; first ten blocks remain introductory words/short phrases and full practical requests start at block 11. Check every block in all six directions, including source audio for the ten new items. Original 500 meanings/bindings and 1,500 old clips must remain unchanged. Payments, ads, accounts, cloud data and additional languages/ages remain out of scope.
+**Approved Full curriculum:** 51 blocks of ten questions / 510 basic words and short phrases; first ten blocks remain introductory words/short phrases and full practical requests start at block 11. Check every block in all six directions, including source audio for the ten new items. Preserve stable meanings/IDs and unrelated bindings/recordings; owner-approved corrections need exact regression exceptions and synchronized assets. Basic Kids/Adults100 each and en-ja are authorized additions;do not treat older blanket exclusions as overriding them. Payments, ads, accounts and cloud learner state remain out of scope.

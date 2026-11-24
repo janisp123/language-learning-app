@@ -1,6 +1,6 @@
 # Architecture and behavioral contract — planning specification
 
-**Status:** Proposed architecture and owner-decided behaviors, **not implemented**. Codex must complete L-001 before choosing platform frameworks. Keep two delivery surfaces compatible without introducing a remote backend.
+**Status:** The cross-platform architecture proposal below remains unimplemented (L-001);the browser application itself is implemented and live at0.5.7. See [current modules](CONTENT_MODULES.md),[testing guide](BROWSER_TEST_BUILD.md) and [checkpoint](WORK_CHECKPOINT.md). Later owner decisions on focused courses,Japanese,playback and zero saves supersede this historical planning specification. Codex must complete L-001 before choosing platform frameworks. Keep two delivery surfaces compatible without introducing a remote backend.
 
 ## Product goals and boundaries
 

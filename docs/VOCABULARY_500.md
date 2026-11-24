@@ -2,7 +2,7 @@
 
 **Owner decision:** Keep approximately 500 survival basics, preserve the existing bank and implement the situation audit's compact request core. The first ten blocks remain words/short phrases; full request phrases begin at block 11. This filename is retained so existing links remain stable.
 
-**Implemented:** 51 blocks × 10 distinct learning items, with English, Latvian and Russian translations in all six directions. Original 500 meanings, translations, prompts and answer bindings remain intact; ten new items use IDs `vocab-0501`–`vocab-0510`. All translations remain at most four whitespace-separated words. There are no prose exercises or grammar lessons.
+**Current Full course:**51 blocks×10 stable learning items,with LV/RU/EN in all six directions plus English→Japanese only. Original meaning/question/correct-answer IDs remain;approved wording and distractor corrections are recorded in the [changelog](CHANGELOG.md) and explicit regression exceptions. Unrelated translations/audio stay unchanged. Ten practical additions use IDs `vocab-0501`–`vocab-0510`. Basic Kids and Basic Adults are separate100-item selections;see [focused modules](CONTENT_MODULES.md). All translations remain at most four whitespace-separated words. There are no prose exercises or grammar lessons.
 
 ## Structure
 

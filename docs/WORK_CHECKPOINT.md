@@ -2,14 +2,6 @@
 
 Current task: L-011
 
-## Latest verified delivery — L-018
-
-**LIVE0.5.6:** correct target recording finishes fully,then1000ms (formerly2000ms);correct failure fallback1000ms,wrong correction unchanged. Owner explicitly chose Full’s existinggoodbye in everycourse:uz redzēšanos/до свидания/goodbye/さようなら. Basic questionfocused-s02/slotS02 and all activeoptionrefs now reusevocab-0002;unusedfocus-s02 forms/clips preserved. F014/F015 remove dinner competing with lunch and what price competing with how many.70 presentations affected;no preexisting translation or MP3 rewritten. Legacy/focused revisions0.6.2-test/focused-0.1.1.
-
-Source098d11a6a909541723a2b9a262881e7f04f856a8, [PR #44](https://github.com/janisp123/language-learning-app/pull/44) merged012e02bcd0b090728c033ae96b8bdb17b06af16c. Source CI45364010970/main CI45364159103 and Pages45364159082 succeeded. Actual app/landing/offline downloaded through verified HTTPS and byte-identical to tested source. App26,184,298 bytes,SHA256a4e76eb1accfc852e9368b3ceb56fee66b596143bdbe556b63e4e5bbec2aa222. [Open app](https://janisp123.github.io/language-learning-app/learn/?v=0.5.6) · [Receipt](delivery/2026-11-24-first-audit-pause-live.json).
-
-63Node/42Python;21 native audio+1sec cases,21 report cases,all21 canonicalgoodbye mappings and native LV/RU goodbye/audio/report test passed.999/1000ms,error/stall/reset,content/audio locks passed. Independent review approved both slices. Physical phone/full screen reader not run;known direct hosted Chromium trust limitation remains,verified HTTPS bytes match locally tested real browser. Drive review unchanged;website offline updated. L-018 archived.
-
 ## Latest verified delivery — L-011 shared polite defaults
 
 **LIVE0.5.7:** exact ten approved F002–F007 wording cells and matching audio are implemented;142 directed course presentations use the shared forms. Nine scoped recordings authored;Russian apology reuses existingизвините bytes. Legacy/focused revisions0.6.3-test/focused-0.1.2. All other translations/recordings,stable IDs/options,courses/seven directions,scoring,timing,reports,dark default and zero saves preserved. F004 Japanese remains unchanged/deferred.
@@ -21,6 +13,14 @@ Source `0d5d3d32daac0cec053925b356f2ce5c2ff79453`;[PR47](https://github.com/jani
 ## Exact next bounded work — L-011
 
 Owner-approved ten-cell batch is delivered;do not repeat it or previously released F001/F014/F015. F002/F003/F005/F006/F007 are implemented;F004 LV/RU are implemented but its Japanese wording remains a separate decision. Next:resolve remaining F008 schoolbag,F009 payment-card,F010 stop-action,F011 injury and F013 emergency-fire meanings/wording with owner/fluent evidence,then prepare exact dependent audio/guide edits. The58 review findings are not silently approved. ResearchPR43 and readingPR21 remain held;reading-guide integration L-010 is separate,not the current task. Original research tables are a pinned historical0.5.6 snapshot;run their checks at PR46 merge,not against0.5.7. Preserve one shared preferred expression per meaning/situation and zero learner-state saves.
+
+## Historical verified delivery — L-018 (0.5.6)
+
+**LIVE0.5.6:** correct target recording finishes fully,then1000ms (formerly2000ms);correct failure fallback1000ms,wrong correction unchanged. Owner explicitly chose Full’s existinggoodbye in everycourse:uz redzēšanos/до свидания/goodbye/さようなら. Basic questionfocused-s02/slotS02 and all activeoptionrefs now reusevocab-0002;unusedfocus-s02 forms/clips preserved. F014/F015 remove dinner competing with lunch and what price competing with how many.70 presentations affected;no preexisting translation or MP3 rewritten. Legacy/focused revisions0.6.2-test/focused-0.1.1.
+
+Source098d11a6a909541723a2b9a262881e7f04f856a8, [PR #44](https://github.com/janisp123/language-learning-app/pull/44) merged012e02bcd0b090728c033ae96b8bdb17b06af16c. Source CI45364010970/main CI45364159103 and Pages45364159082 succeeded. Actual app/landing/offline downloaded through verified HTTPS and byte-identical to tested source. App26,184,298 bytes,SHA256a4e76eb1accfc852e9368b3ceb56fee66b596143bdbe556b63e4e5bbec2aa222. [Open app](https://janisp123.github.io/language-learning-app/learn/?v=0.5.6) · [Receipt](delivery/2026-11-24-first-audit-pause-live.json).
+
+63Node/42Python;21 native audio+1sec cases,21 report cases,all21 canonicalgoodbye mappings and native LV/RU goodbye/audio/report test passed.999/1000ms,error/stall/reset,content/audio locks passed. Independent review approved both slices. Physical phone/full screen reader not run;known direct hosted Chromium trust limitation remains,verified HTTPS bytes match locally tested real browser. Drive review unchanged;website offline updated. L-018 archived.
 
 ## Latest verified delivery — L-017
 

@@ -4,14 +4,16 @@
 
 Focused **Kids and Adults courses with 100 words and short expressions each**:80 shared communication basics plus 20 for school/play or everyday shopping/travel. All six Latvian/Russian/English directions, plus English → Japanese. The original 510-item course remains available separately. Free to try in a browser, with pronunciation and no account or installation.
 
+**Current browser review build: 0.5.7.** The latest update applies ten approved shared wording corrections with matching pronunciation. [Verified release and remaining review work](docs/WORK_CHECKPOINT.md).
+
 I'm Janis. I wanted a simple way to practise useful everyday words and phrases, and a chance to see how far an idea could go with AI assistance. I use ChatGPT and Codex to help turn requirements into code, tests and working applications. This is a hobby project: I enjoy experimenting, checking the results and learning as I build.
 
-![The live learning app in English, with an English prompt, four Latvian answers and separate pronunciation buttons](docs/images/learning-current.png)
+![The live learning app in English, with an English prompt, four Russian answers and separate pronunciation buttons](docs/images/learning-current.png)
 
 ## What works today
 
 - Kids/Adults selection on the learning page:100 items in 10 ten-question lessons per course, practical phrases from lesson 1.
-- The original 510-item course remains available through its separate setup control; existing content and recordings are preserved.
+- The Full option in the same course selector contains 510 items. Stable IDs and unrelated content/recordings are preserved; approved corrections are recorded in the changelog.
 - Exactly seven directions: all six between Latvian, Russian and English, plus **English → Japanese only**. Japanese answers use Japanese script; this direction keeps the English interface.
 - Bundled pronunciation for every item in all four languages. The current prompt attempts playback automatically; its speaker replays it if autoplay is blocked. Each answer has its own speaker, which plays without submitting an answer.
 - A responsive browser interface with light/dark mode. The project website has EN/RU/LV reading controls; the learning interface follows the source language.
@@ -63,7 +65,7 @@ Start with [contribution guidance](CONTRIBUTING.md) and [AGENTS.md](AGENTS.md). 
 - [Architecture](docs/ARCHITECTURE.md) · [Release checklist](docs/RELEASE_CHECKLIST.md) · [Publication instructions](docs/discovery-preview/LAUNCH.md)
 - [Active tasks](docs/TD_LIST.md) · [Current checkpoint](docs/WORK_CHECKPOINT.md) · [Change history](docs/CHANGELOG.md)
 
-New content must preserve stable concept/question/correct-answer IDs and the original recordings and translations. Directions use an explicit allowlist; adding a language does not authorize every possible pairing. The earlier 100-item draft remains in `archive/course-0.3/`. Android proposal PR #3 is historical and needs reconciliation with the zero-saves rule before use.
+New content must preserve stable concept/question/correct-answer IDs. Changes to existing translations, distractors or recordings require specific owner approval, synchronized dependent assets and explicit regression exceptions; unrelated content stays unchanged. Directions use an explicit allowlist; adding a language does not authorize every possible pairing. The earlier 100-item draft remains in `archive/course-0.3/`. Android proposal PR #3 is historical and needs reconciliation with the zero-saves rule before use.
 
 No final brand name or source-code/content license has been selected. Public visibility does not grant a reuse license.
 

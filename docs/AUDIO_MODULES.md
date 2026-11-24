@@ -1,6 +1,14 @@
 # Editing pronunciation without rebuilding the app's logic
 
-**Current0.5.6 behavior:** Correct target audio still plays to its real ended event, followed by1000ms before advancing. This shortens the former2000ms pause by one second without truncating audio. Correct-audio failure fallback is also1000ms; the30s stall watchdog and wrong-answer correction/fallback are unchanged. No recording bytes changed; legacy bank/audio manifest metadata now use0.6.2-test for the two audited distractor-reference corrections. Focused metadata usesfocused-0.1.1 for the approved shared-goodbye rebind;existingvocab-0002 clips are reused,all inactivefocus-s02 clips remain preserved.
+**Current 0.5.7:**2,308 registered audio bindings cover the original510-item bank and67 focused extensions in LV/RU/EN/JA. Six LV/RU/EN directions plus en-ja remain allowlisted. Current prompts autoplay once with manual replay; answer speakers never grade. Correct submission waits for the actual target clip end,then1000ms (or1000ms fallback after missing/rejected/errored playback);the30s stall watchdog remains. Wrong submissions play the current-source/correct-target pair three times,then apply the existing result;their failure fallback remains500ms. Reset/course/direction/completion cancels old playback and stale continuations. No learner state is saved.
+
+0.5.7 changes exactly ten approved text/audio bindings: nine new scoped recordings and one exact existing Russian reuse. Other bytes are protected. Legacy/focused content/audio versions are0.6.3-test/focused-0.1.2. [Exact changes](../research/common-usage/2026-11-24-implementation-02.md) · [Live receipt](delivery/2026-11-24-polite-defaults-live.json). Fluent-human pronunciation review remains pending.
+
+Current API:player exposes `play`, `playToEnd`, `stop`;view exposes `localize`, `question`, `option`, `selected`, `correct`, `reset`. The legacy one-clip generator below loads the original bank only;focused extension authoring must read the focused canonical modules and update `content/focused/audio.json` explicitly. Never regenerate the entire bank for a small approved change.
+
+The remaining dated descriptions preserve development history;they do not override the current behavior above.
+
+**Historical0.5.6 behavior:** Correct target audio still plays to its real ended event, followed by1000ms before advancing. This shortens the former2000ms pause by one second without truncating audio. Correct-audio failure fallback is also1000ms; the30s stall watchdog and wrong-answer correction/fallback are unchanged. No recording bytes changed; legacy bank/audio manifest metadata now use0.6.2-test for the two audited distractor-reference corrections. Focused metadata usesfocused-0.1.1 for the approved shared-goodbye rebind;existingvocab-0002 clips are reused,all inactivefocus-s02 clips remain preserved.
 
 
 **Historical0.5.4 behavior:** `LanguageAudioView.selected(shown)` validates the displayed correct target binding and uses existing completion-aware playback. Correct navigation waits for actual audio completion, then2000ms. This replaces fixed500ms correct navigation and prevents truncation. Restart/course/direction changes cancel both phases. Missing/blocked/error playback recovers after2000ms; the existing30s per-clip stall watchdog remains. Wrong-answer correction and ordinary speaker-only behavior are unchanged. No recordings/content/engine/state persistence changes.
@@ -9,7 +17,7 @@
 **Historical0.5.3 behavior:** Correct answer selections invoke the existing bound target-speaker action before controls lock; no audio queue/completion gate is added. Correct navigation stays500ms and stops old sound at the next prompt (long recordings may be interrupted). Wrong submissions keep0.5.1’s three current-source/correct-target pairs; selected wrong distractors are not spoken. Speaker-only clicks never grade. The older version sections below are historical, not current coverage claims; the live bank now has2308 clips and seven directions.
 
 
-Current scope: all 510 vocabulary items in Latvian, Russian and English across all six directions, with 1,530 bundled MP3 clips. Version 0.4.5 adds thirty recordings for the ten practical-core entries and preserves all original 1,500 clips. The current prompt automatically attempts playback once each time it appears; the speaker replays only that prompt in its source language; previous-answer replay and automatic answer audio remain removed. The media player and learning engine are unchanged. Russian/Latvian speech uses Google Translate TTS via gTTS; English uses Flite cmu_us_slt offline. Fluent pronunciation review is pending. The learner's browser makes no synthesis/network request.
+Historical0.4.5 scope: all 510 vocabulary items in Latvian, Russian and English across all six directions, with 1,530 bundled MP3 clips. Version 0.4.5 adds thirty recordings for the ten practical-core entries and preserves all original 1,500 clips. The current prompt automatically attempts playback once each time it appears; the speaker replays only that prompt in its source language; previous-answer replay and automatic answer audio remain removed. The media player and learning engine are unchanged. Russian/Latvian speech uses Google Translate TTS via gTTS; English uses Flite cmu_us_slt offline. Fluent pronunciation review is pending. The learner's browser makes no synthesis/network request.
 
 | Change | Edit | What stays independent |
 | --- | --- | --- |
@@ -31,7 +39,7 @@ The manifest uses stable vocabulary IDs, exact spoken text, content revision and
 3. Run `npm test` and `python -m unittest discover -s tests -p 'test_*.py'`.
 4. Build with `python tools/build_browser.py`; copy the resulting HTML to `downloads/language-learning-test.html` and verify equality. Hosted and downloadable output use the same builder.
 
-## Interfaces and behavior
+## Historical initial interfaces and behavior
 
 `LanguageAudio.create(pack, audioFactory)` returns `play(id, language, exactText, onError)` and `stop()`. The Audio factory is the only media boundary. The browser supplies a dedicated audio element; tests inject a media boundary without mocking the engine. `play` returns true after playback starts, false on failure, or null for a cancelled stale attempt. Decoder errors after startup use the guarded error callback. New playback cancels the previous clip.
 
@@ -49,7 +57,7 @@ Read-only references: its `docs/FEATURE_DEVELOPMENT.md` and `AGENTS.md`, plus th
 - Exact checkpoints and stable Drive file IDs; distinguish source, review branch, uploaded build and public release.
 - User-facing notes describe behavior; technical coordination belongs here.
 
-## Verification and delivery
+## Historical verification and delivery
 
 2026-11-17 practical core, 0.4.5: 37 Node and 23 Python tests pass, including the exact approved order/new translations, full traversal and source audio for all 510 prompts/six directions. The original vocabulary digest and old MP3 checksums remain unchanged. Thirty new clips are decoded independently; current browser/Drive delivery evidence is recorded in WORK_CHECKPOINT.md. Earlier version results below are historical.
 
