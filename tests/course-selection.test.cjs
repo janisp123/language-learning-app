@@ -32,3 +32,25 @@ test('all presets reuse the canonical goodbye in all seven directions with uncha
   assert.equal(clips[q.source][q.conceptId].text,expected[q.source]);assert.equal(clips[q.target][q.correctId].text,expected[q.target]);
  }
 });
+
+test('approved polite defaults reach all question and answer roles without changing identities or directions',()=>{
+ const E=require('../core/engine.js'),S=require('../core/course-selection.js');
+ const [legacy,focused]=JSON.parse(cp.execFileSync('python',['-B','-c',"import sys,json;from pathlib import Path;sys.path.insert(0,'tools');from content_loader import load_content;from focused_loader import load_focused_content;c,_=load_content(Path('.'));print(json.dumps([c,load_focused_content(Path('.'),c)]))"],{encoding:'utf8'}));
+ assert.deepEqual([...legacy.directions].sort(),['en-ja','en-lv','en-ru','lv-en','lv-ru','ru-en','ru-lv']);
+ const edits=JSON.parse(fs.readFileSync('tests/fixtures/polite-defaults-approved.json','utf8')).edits;
+ let presentations=0,changed=0;const seen=new Set();
+ for(const preset of ['kids','adults','full'])for(const direction of legacy.directions){
+  const c=E.validateCourse(preset==='full'?legacy:S.select(legacy,focused,preset,direction));const state=E.start(c,direction);
+  for(let i=0;i<c.lessons.length;i++)for(let j=0;j<c.lessons[i].prompts.length;j++){
+   const q=E.question(c,{...state,lessonIndex:i,promptIndex:j},()=>0);presentations++;let affected=false;
+   for(const edit of edits){
+    if(q.source===edit.language&&q.conceptId===edit.id){assert.equal(q.text,edit.proposed);seen.add(edit.id+':'+edit.language);affected=true;}
+    for(const option of q.options)if(q.target===edit.language&&option.id===edit.id){assert.equal(option.text,edit.proposed);seen.add(edit.id+':'+edit.language);affected=true;}
+   }
+   assert.equal(new Set(q.options.map(o=>o.text.normalize('NFKC').toLowerCase().trim())).size,4);
+   if(q.source==='ru'&&['vocab-0005','vocab-0266'].includes(q.correctId)){const competitor=q.correctId==='vocab-0005'?'vocab-0266':'vocab-0005';assert.ok(!q.options.some(o=>o.id===competitor),'Russian apology/attention source must not offer both defensible meanings');}
+   if(affected){changed++;const result=E.answer(c,{...state,lessonIndex:i,promptIndex:j},q,q.correctId);assert.equal(result.feedback.correct,true);}
+  }
+ }
+ assert.equal(presentations,4970);assert.equal(changed,142);assert.equal(seen.size,10);
+});

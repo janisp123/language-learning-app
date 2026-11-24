@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "0.6.2-test",
+  "contentVersion": "0.6.3-test",
   "directions": [
     "lv-ru",
     "lv-en",
@@ -44,9 +44,10 @@
         "sha256": "0cc5102554635dba98489e889aa885ac7da2605b2cdd3dab62a0b7d7baeffb56"
       },
       "vocab-0005": {
-        "text": "извини",
+        "text": "извините",
         "file": "audio/ru/vocab-0005.mp3",
-        "sha256": "c54e79d100df4b9d3d6e8e58980b44a30a74dc3e765d2ea26544394c24691b72"
+        "sha256": "e26d883020a7db420919821c4ec575c2a1dfa39991b73432fe7155d4da5ad27a",
+        "provider": "gtts"
       },
       "vocab-0006": {
         "text": "да",
@@ -2606,9 +2607,10 @@
         "sha256": "32efbeb324b11e24586dbc691dab4c516121e48bf84c99b1b856a65577f9ba09"
       },
       "vocab-0005": {
-        "text": "piedod",
+        "text": "piedodiet",
         "file": "audio/lv/vocab-0005.mp3",
-        "sha256": "673be39a6800bf43dbb662cd35377468267c6128a5e4a4247a7dd878244d4734"
+        "sha256": "e4e8d8260fdb4aea13ff6d83084a6483b84340c628ac07d560c0f0cd7e86887e",
+        "provider": "gtts"
       },
       "vocab-0006": {
         "text": "jā",
@@ -8738,9 +8740,9 @@
         "provider": "gtts"
       },
       "vocab-0004": {
-        "text": "ありがとう",
+        "text": "ありがとうございます",
         "file": "audio/ja/vocab-0004.mp3",
-        "sha256": "953e3c2191afbbb9e68be471e0a26632a4e915bbceb417b10cd61f1ec7e558bb",
+        "sha256": "1cb4ae653b003901151598f505a17a4731525530603a15bc9d1ce591d0e3611f",
         "provider": "gtts"
       },
       "vocab-0005": {

@@ -55,10 +55,17 @@ class UsageCorrectionTests(unittest.TestCase):
   baseline=json.loads((ROOT/'tests/fixtures/usage-correction-baseline.json').read_text())
   def digest(value):
    return hashlib.sha256(json.dumps(value,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()).hexdigest()
+  approved=json.loads((ROOT/'tests/fixtures/polite-defaults-approved.json').read_text())['edits']
   for language,expected in baseline['translationSha256'].items():
    actual=json.loads((ROOT/f'content/languages/{language}.json').read_text())['translations']
    actual={k:v for k,v in actual.items() if (language,k)!=('ja','vocab-0001')}
+   for edit in approved:
+    if edit['language']==language and edit['id'].startswith('vocab-'):
+     self.assertEqual(actual[edit['id']]['text'],edit['proposed'])
+     actual[edit['id']]['text']=edit['current']
    self.assertEqual(digest(actual),expected,language)
   for language,expected in baseline['audioSha256'].items():
    actual={p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted((ROOT/f'audio/{language}').glob('vocab-*.mp3')) if (language,p.stem)!=('ja','vocab-0001')}
+   for edit in approved:
+    if edit['language']==language and edit['id'].startswith('vocab-'):actual[edit['id']+'.mp3']=edit['sha256']
    self.assertEqual(digest(actual),expected,language)

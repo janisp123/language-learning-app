@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "focused-0.1.1",
+  "contentVersion": "focused-0.1.2",
   "clips": {
     "lv": {
       "focus-s02": {
@@ -16,15 +16,15 @@
         "provider": "gtts"
       },
       "focus-s08": {
-        "text": "Kā tevi sauc?",
+        "text": "Kā jūs sauc?",
         "file": "audio/lv/focus-s08.mp3",
-        "sha256": "f078fabaafa0c796d1183d7f36394953a2ad27cd93169b48ec179d78e92afd39",
+        "sha256": "235d12388f21a84763609afd399270a46baeed3a380ebe0bf3b9745888c005a6",
         "provider": "gtts"
       },
       "focus-s09": {
-        "text": "No kurienes tu esi?",
+        "text": "No kurienes jūs esat?",
         "file": "audio/lv/focus-s09.mp3",
-        "sha256": "f0bcdcec2241df8572b897e3909a436d904ef37919e112613820f96befe959b8",
+        "sha256": "8ab85deb94afd9bf9818e218f37b053d81f3e149e116a920887731c276d8a47e",
         "provider": "gtts"
       },
       "focus-s10": {
@@ -34,9 +34,9 @@
         "provider": "gtts"
       },
       "focus-s11": {
-        "text": "Kā tev iet?",
+        "text": "Kā jums iet?",
         "file": "audio/lv/focus-s11.mp3",
-        "sha256": "2e0aa6dffbeafe25d54580694a911ca85c1b534804ae3a0bfa26aabcc6331b53",
+        "sha256": "9b744717cd9794f5ec3c22caa4d248f4c09aa2d688cf8bb5e13a325761e963c3",
         "provider": "gtts"
       },
       "focus-s12": {
@@ -112,9 +112,9 @@
         "provider": "gtts"
       },
       "focus-s28": {
-        "text": "Vai tu vari man palīdzēt?",
+        "text": "Vai jūs varat man palīdzēt?",
         "file": "audio/lv/focus-s28.mp3",
-        "sha256": "ed57493987ec6d16e9bb6dd409fa6d7324ddc7331daa83c679d23e07e33da0da",
+        "sha256": "ad0d4a0978a3052f16f004f780cefa504d774b0d814105a43be3a06edc45d620",
         "provider": "gtts"
       },
       "focus-s29": {
@@ -420,15 +420,15 @@
         "provider": "gtts"
       },
       "focus-s08": {
-        "text": "Как тебя зовут?",
+        "text": "Как вас зовут?",
         "file": "audio/ru/focus-s08.mp3",
-        "sha256": "3a868ba9a908b49c60f6bb4a57e608119e64a385c255fe18bd40b3e44e6abbe8",
+        "sha256": "bab5621f444cedfa2df27e184c6a3a3b0fde3f8c4900cdf4bdbf7f0f86775ab7",
         "provider": "gtts"
       },
       "focus-s09": {
-        "text": "Откуда ты?",
+        "text": "Откуда вы?",
         "file": "audio/ru/focus-s09.mp3",
-        "sha256": "06b3cd2628f81bc2d494b4074e6ab21068a467c109d407a9643155057e719db2",
+        "sha256": "0e869bcc0a78be898411866499b9d949cb7a651ec61235e1ae2e7cc280b5e57c",
         "provider": "gtts"
       },
       "focus-s10": {
@@ -516,9 +516,9 @@
         "provider": "gtts"
       },
       "focus-s28": {
-        "text": "Можешь мне помочь?",
+        "text": "Вы можете мне помочь?",
         "file": "audio/ru/focus-s28.mp3",
-        "sha256": "39b2bc8ed784a0ac6238955b45fb7afec8ad38a1b2ce9fa92130daf5bdaa8aa3",
+        "sha256": "b5164b2b0191ec4ac4d0f66aa4b0de14bd7085ac397800f0ca709a19a11fb831",
         "provider": "gtts"
       },
       "focus-s29": {

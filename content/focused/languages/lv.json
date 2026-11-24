@@ -12,12 +12,12 @@
   "focus-s08": {
     "conceptId": "focus-s08",
     "meaning": "What is your name?",
-    "text": "Kā tevi sauc?"
+    "text": "Kā jūs sauc?"
   },
   "focus-s09": {
     "conceptId": "focus-s09",
     "meaning": "Where are you from?",
-    "text": "No kurienes tu esi?"
+    "text": "No kurienes jūs esat?"
   },
   "focus-s10": {
     "conceptId": "focus-s10",
@@ -27,7 +27,7 @@
   "focus-s11": {
     "conceptId": "focus-s11",
     "meaning": "How are you?",
-    "text": "Kā tev iet?"
+    "text": "Kā jums iet?"
   },
   "focus-s12": {
     "conceptId": "focus-s12",
@@ -92,7 +92,7 @@
   "focus-s28": {
     "conceptId": "focus-s28",
     "meaning": "Can you help me?",
-    "text": "Vai tu vari man palīdzēt?"
+    "text": "Vai jūs varat man palīdzēt?"
   },
   "focus-s29": {
     "conceptId": "focus-s29",

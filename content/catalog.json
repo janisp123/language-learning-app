@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "id": "basic-vocabulary-10-17",
-  "contentVersion": "0.6.2-test",
+  "contentVersion": "0.6.3-test",
   "agePath": "10-17",
   "reviewStatus": "draft-human-review-pending",
   "defaultDirection": "lv-ru",

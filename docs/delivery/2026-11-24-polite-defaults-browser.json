@@ -1,0 +1,218 @@
+{
+  "appVersion": "0.5.7",
+  "browser": "native Chromium",
+  "presetsAndDirections": [
+    {
+      "preset": "kids",
+      "direction": "lv-ru",
+      "nativePromptAndAnswerPlayback": true,
+      "speakerDidNotGrade": true
+    },
+    {
+      "preset": "kids",
+      "direction": "lv-en",
+      "nativePromptAndAnswerPlayback": true,
+      "speakerDidNotGrade": true
+    },
+    {
+      "preset": "kids",
+      "direction": "ru-lv",
+      "nativePromptAndAnswerPlayback": true,
+      "speakerDidNotGrade": true
+    },
+    {
+      "preset": "kids",
+      "direction": "ru-en",
+      "nativePromptAndAnswerPlayback": true,
+      "speakerDidNotGrade": true
+    },
+    {
+      "preset": "kids",
+      "direction": "en-lv",
+      "nativePromptAndAnswerPlayback": true,
+      "speakerDidNotGrade": true
+    },
+    {
+      "preset": "kids",
+      "direction": "en-ru",
+      "nativePromptAndAnswerPlayback": true,
+      "speakerDidNotGrade": true
+    },
+    {
+      "preset": "kids",
+      "direction": "en-ja",
+      "nativePromptAndAnswerPlayback": true,
+      "speakerDidNotGrade": true
+    },
+    {
+      "preset": "adults",
+      "direction": "lv-ru",
+      "nativePromptAndAnswerPlayback": true,
+      "speakerDidNotGrade": true
+    },
+    {
+      "preset": "adults",
+      "direction": "lv-en",
+      "nativePromptAndAnswerPlayback": true,
+      "speakerDidNotGrade": true
+    },
+    {
+      "preset": "adults",
+      "direction": "ru-lv",
+      "nativePromptAndAnswerPlayback": true,
+      "speakerDidNotGrade": true
+    },
+    {
+      "preset": "adults",
+      "direction": "ru-en",
+      "nativePromptAndAnswerPlayback": true,
+      "speakerDidNotGrade": true
+    },
+    {
+      "preset": "adults",
+      "direction": "en-lv",
+      "nativePromptAndAnswerPlayback": true,
+      "speakerDidNotGrade": true
+    },
+    {
+      "preset": "adults",
+      "direction": "en-ru",
+      "nativePromptAndAnswerPlayback": true,
+      "speakerDidNotGrade": true
+    },
+    {
+      "preset": "adults",
+      "direction": "en-ja",
+      "nativePromptAndAnswerPlayback": true,
+      "speakerDidNotGrade": true
+    },
+    {
+      "preset": "full",
+      "direction": "lv-ru",
+      "nativePromptAndAnswerPlayback": true,
+      "speakerDidNotGrade": true
+    },
+    {
+      "preset": "full",
+      "direction": "lv-en",
+      "nativePromptAndAnswerPlayback": true,
+      "speakerDidNotGrade": true
+    },
+    {
+      "preset": "full",
+      "direction": "ru-lv",
+      "nativePromptAndAnswerPlayback": true,
+      "speakerDidNotGrade": true
+    },
+    {
+      "preset": "full",
+      "direction": "ru-en",
+      "nativePromptAndAnswerPlayback": true,
+      "speakerDidNotGrade": true
+    },
+    {
+      "preset": "full",
+      "direction": "en-lv",
+      "nativePromptAndAnswerPlayback": true,
+      "speakerDidNotGrade": true
+    },
+    {
+      "preset": "full",
+      "direction": "en-ru",
+      "nativePromptAndAnswerPlayback": true,
+      "speakerDidNotGrade": true
+    },
+    {
+      "preset": "full",
+      "direction": "en-ja",
+      "nativePromptAndAnswerPlayback": true,
+      "speakerDidNotGrade": true
+    }
+  ],
+  "changedClipsNativeEnded": [
+    {
+      "id": "vocab-0004",
+      "language": "ja",
+      "text": "ありがとうございます",
+      "duration": 1.872,
+      "ended": true
+    },
+    {
+      "id": "vocab-0005",
+      "language": "lv",
+      "text": "piedodiet",
+      "duration": 0.984,
+      "ended": true
+    },
+    {
+      "id": "vocab-0005",
+      "language": "ru",
+      "text": "извините",
+      "duration": 1.224,
+      "ended": true
+    },
+    {
+      "id": "focus-s08",
+      "language": "lv",
+      "text": "Kā jūs sauc?",
+      "duration": 1.32,
+      "ended": true
+    },
+    {
+      "id": "focus-s08",
+      "language": "ru",
+      "text": "Как вас зовут?",
+      "duration": 1.464,
+      "ended": true
+    },
+    {
+      "id": "focus-s09",
+      "language": "lv",
+      "text": "No kurienes jūs esat?",
+      "duration": 1.92,
+      "ended": true
+    },
+    {
+      "id": "focus-s09",
+      "language": "ru",
+      "text": "Откуда вы?",
+      "duration": 1.176,
+      "ended": true
+    },
+    {
+      "id": "focus-s11",
+      "language": "lv",
+      "text": "Kā jums iet?",
+      "duration": 1.128,
+      "ended": true
+    },
+    {
+      "id": "focus-s28",
+      "language": "lv",
+      "text": "Vai jūs varat man palīdzēt?",
+      "duration": 2.328,
+      "ended": true
+    },
+    {
+      "id": "focus-s28",
+      "language": "ru",
+      "text": "Вы можете мне помочь?",
+      "duration": 1.968,
+      "ended": true
+    }
+  ],
+  "widthsWithoutOverflow": [
+    320,
+    390,
+    1280
+  ],
+  "freshReloadSetupAndDarkDefault": true,
+  "pageErrors": [],
+  "notRun": [
+    "physical phone",
+    "fluent-human pronunciation assessment",
+    "full screen-reader audit"
+  ],
+  "artifactBytes": 26201258,
+  "artifactSha256": "7109c5a6dc842ca73e7e49a59b6706e4f9f850eebd944fb8f4904ab0694f505f"
+}
