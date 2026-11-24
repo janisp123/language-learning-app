@@ -25,5 +25,6 @@
   "independentReview": "approved;localization and native keyboard-test findings corrected and reverified",
   "physicalPhone": false,
   "fullScreenReader": false,
-  "publiclyDeployed": false
+  "publiclyDeployed": true,
+  "liveReceipt": "../delivery/2026-11-24-translation-report-live.json"
 }
