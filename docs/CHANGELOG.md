@@ -1,3 +1,7 @@
+## 2026-11-24 — L-011 directed vocabulary audit (cw)
+
+[Research and owner shortlist](../research/common-usage/2026-11-24-directed/README.md). Verified 577 concept IDs, 630 question IDs and all 4,970 course/direction presentations against the question engine; reconciled 79 historical findings. Owner review pending.
+
 ## 2026-11-23 — Correction listening publicly deployed/read back (codex)
 
 ### 2026-11-24 · Owner vocabulary-default consistency decision (documentation only)

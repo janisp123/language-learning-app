@@ -2,6 +2,8 @@
 
 Current task: L-010
 
+L-011 research for owner review: [all 630 question IDs and seven directions](../research/common-usage/2026-11-24-directed/README.md). L-010 remains the development handoff.
+
 ## Latest verified delivery — L-017
 
 **LIVE0.5.5:** flag on every question opens a localized copy-only correction panel. Choose Question or any displayed Answer,enter a proposal,and copy exact original text plus language direction,preset,app/content version and stable course/lesson/question/concept/answer IDs. Snapshot stays pinned across normal advancement. Nothing auto-submits or saves; denied clipboard offers selectable text. Close/Escape/reset/reload discard drafts and stale clipboard callbacks cannot revive them. UI/details LV/RU/EN,keyboard/mobile/light-dark verified. No scoring/audio/content changes.

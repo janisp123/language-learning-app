@@ -1,0 +1,2309 @@
+id,language,current,manifestClip,guideDirection,heldGuideModule
+vocab-0001,lv,sveiki,audio/lv/vocab-0001.mp3,,
+vocab-0001,ru,здравствуйте,audio/ru/vocab-0001.mp3,lv-ru,content/readings/lv-ru/basic-01.json
+vocab-0001,en,hello,audio/en/vocab-0001.mp3,ru-en,content/readings/ru-en/basic-01.json
+vocab-0001,ja,こんにちは,audio/ja/vocab-0001.mp3,en-ja,content/readings/en-ja/basic-01.json
+vocab-0002,lv,uz redzēšanos,audio/lv/vocab-0002.mp3,,
+vocab-0002,ru,до свидания,audio/ru/vocab-0002.mp3,lv-ru,content/readings/lv-ru/basic-01.json
+vocab-0002,en,goodbye,audio/en/vocab-0002.mp3,ru-en,content/readings/ru-en/basic-01.json
+vocab-0002,ja,さようなら,audio/ja/vocab-0002.mp3,en-ja,content/readings/en-ja/basic-01.json
+vocab-0003,lv,lūdzu,audio/lv/vocab-0003.mp3,,
+vocab-0003,ru,пожалуйста,audio/ru/vocab-0003.mp3,lv-ru,content/readings/lv-ru/basic-01.json
+vocab-0003,en,please,audio/en/vocab-0003.mp3,ru-en,content/readings/ru-en/basic-01.json
+vocab-0003,ja,お願いします,audio/ja/vocab-0003.mp3,en-ja,content/readings/en-ja/basic-01.json
+vocab-0004,lv,paldies,audio/lv/vocab-0004.mp3,,
+vocab-0004,ru,спасибо,audio/ru/vocab-0004.mp3,lv-ru,content/readings/lv-ru/basic-01.json
+vocab-0004,en,thank you,audio/en/vocab-0004.mp3,ru-en,content/readings/ru-en/basic-01.json
+vocab-0004,ja,ありがとう,audio/ja/vocab-0004.mp3,en-ja,content/readings/en-ja/basic-01.json
+vocab-0005,lv,piedod,audio/lv/vocab-0005.mp3,,
+vocab-0005,ru,извини,audio/ru/vocab-0005.mp3,lv-ru,content/readings/lv-ru/basic-01.json
+vocab-0005,en,sorry,audio/en/vocab-0005.mp3,ru-en,content/readings/ru-en/basic-01.json
+vocab-0005,ja,ごめんなさい,audio/ja/vocab-0005.mp3,en-ja,content/readings/en-ja/basic-01.json
+vocab-0006,lv,jā,audio/lv/vocab-0006.mp3,,
+vocab-0006,ru,да,audio/ru/vocab-0006.mp3,lv-ru,content/readings/lv-ru/basic-01.json
+vocab-0006,en,yes,audio/en/vocab-0006.mp3,ru-en,content/readings/ru-en/basic-01.json
+vocab-0006,ja,はい,audio/ja/vocab-0006.mp3,en-ja,content/readings/en-ja/basic-01.json
+vocab-0007,lv,nē,audio/lv/vocab-0007.mp3,,
+vocab-0007,ru,нет,audio/ru/vocab-0007.mp3,lv-ru,content/readings/lv-ru/basic-01.json
+vocab-0007,en,no,audio/en/vocab-0007.mp3,ru-en,content/readings/ru-en/basic-01.json
+vocab-0007,ja,いいえ,audio/ja/vocab-0007.mp3,en-ja,content/readings/en-ja/basic-01.json
+vocab-0008,lv,labrīt,audio/lv/vocab-0008.mp3,,
+vocab-0008,ru,доброе утро,audio/ru/vocab-0008.mp3,lv-ru,content/readings/lv-ru/basic-01.json
+vocab-0008,en,good morning,audio/en/vocab-0008.mp3,ru-en,content/readings/ru-en/basic-01.json
+vocab-0008,ja,おはようございます,audio/ja/vocab-0008.mp3,en-ja,content/readings/en-ja/basic-01.json
+vocab-0009,lv,labvakar,audio/lv/vocab-0009.mp3,,
+vocab-0009,ru,добрый вечер,audio/ru/vocab-0009.mp3,lv-ru,content/readings/lv-ru/basic-01.json
+vocab-0009,en,good evening,audio/en/vocab-0009.mp3,ru-en,content/readings/ru-en/basic-01.json
+vocab-0009,ja,こんばんは,audio/ja/vocab-0009.mp3,en-ja,content/readings/en-ja/basic-01.json
+vocab-0010,lv,ar labu nakti,audio/lv/vocab-0010.mp3,,
+vocab-0010,ru,спокойной ночи,audio/ru/vocab-0010.mp3,lv-ru,content/readings/lv-ru/basic-01.json
+vocab-0010,en,good night,audio/en/vocab-0010.mp3,ru-en,content/readings/ru-en/basic-01.json
+vocab-0010,ja,おやすみなさい,audio/ja/vocab-0010.mp3,en-ja,content/readings/en-ja/basic-01.json
+vocab-0011,lv,cilvēks,audio/lv/vocab-0011.mp3,,
+vocab-0011,ru,человек,audio/ru/vocab-0011.mp3,lv-ru,content/readings/lv-ru/basic-02.json
+vocab-0011,en,person,audio/en/vocab-0011.mp3,ru-en,content/readings/ru-en/basic-02.json
+vocab-0011,ja,人,audio/ja/vocab-0011.mp3,en-ja,content/readings/en-ja/basic-02.json
+vocab-0012,lv,bērns,audio/lv/vocab-0012.mp3,,
+vocab-0012,ru,ребёнок,audio/ru/vocab-0012.mp3,lv-ru,content/readings/lv-ru/basic-02.json
+vocab-0012,en,child,audio/en/vocab-0012.mp3,ru-en,content/readings/ru-en/basic-02.json
+vocab-0012,ja,子供,audio/ja/vocab-0012.mp3,en-ja,content/readings/en-ja/basic-02.json
+vocab-0013,lv,zēns,audio/lv/vocab-0013.mp3,,
+vocab-0013,ru,мальчик,audio/ru/vocab-0013.mp3,lv-ru,content/readings/lv-ru/basic-02.json
+vocab-0013,en,boy,audio/en/vocab-0013.mp3,ru-en,content/readings/ru-en/basic-02.json
+vocab-0013,ja,男の子,audio/ja/vocab-0013.mp3,en-ja,content/readings/en-ja/basic-02.json
+vocab-0014,lv,meitene,audio/lv/vocab-0014.mp3,,
+vocab-0014,ru,девочка,audio/ru/vocab-0014.mp3,lv-ru,content/readings/lv-ru/basic-02.json
+vocab-0014,en,girl,audio/en/vocab-0014.mp3,ru-en,content/readings/ru-en/basic-02.json
+vocab-0014,ja,女の子,audio/ja/vocab-0014.mp3,en-ja,content/readings/en-ja/basic-02.json
+vocab-0015,lv,draugs,audio/lv/vocab-0015.mp3,,
+vocab-0015,ru,друг,audio/ru/vocab-0015.mp3,lv-ru,content/readings/lv-ru/basic-02.json
+vocab-0015,en,friend,audio/en/vocab-0015.mp3,ru-en,content/readings/ru-en/basic-02.json
+vocab-0015,ja,友達,audio/ja/vocab-0015.mp3,en-ja,content/readings/en-ja/basic-02.json
+vocab-0016,lv,ģimene,audio/lv/vocab-0016.mp3,,
+vocab-0016,ru,семья,audio/ru/vocab-0016.mp3,lv-ru,content/readings/lv-ru/basic-02.json
+vocab-0016,en,family,audio/en/vocab-0016.mp3,ru-en,content/readings/ru-en/basic-02.json
+vocab-0016,ja,家族,audio/ja/vocab-0016.mp3,en-ja,content/readings/en-ja/basic-02.json
+vocab-0017,lv,māte,audio/lv/vocab-0017.mp3,,
+vocab-0017,ru,мать,audio/ru/vocab-0017.mp3,lv-ru,content/readings/lv-ru/basic-02.json
+vocab-0017,en,mother,audio/en/vocab-0017.mp3,ru-en,content/readings/ru-en/basic-02.json
+vocab-0017,ja,母,audio/ja/vocab-0017.mp3,en-ja,content/readings/en-ja/basic-02.json
+vocab-0018,lv,tēvs,audio/lv/vocab-0018.mp3,,
+vocab-0018,ru,отец,audio/ru/vocab-0018.mp3,lv-ru,content/readings/lv-ru/basic-02.json
+vocab-0018,en,father,audio/en/vocab-0018.mp3,ru-en,content/readings/ru-en/basic-02.json
+vocab-0018,ja,父,audio/ja/vocab-0018.mp3,en-ja,content/readings/en-ja/basic-02.json
+vocab-0019,lv,māsa,audio/lv/vocab-0019.mp3,,
+vocab-0019,ru,сестра,audio/ru/vocab-0019.mp3,lv-ru,content/readings/lv-ru/basic-02.json
+vocab-0019,en,sister,audio/en/vocab-0019.mp3,ru-en,content/readings/ru-en/basic-02.json
+vocab-0019,ja,姉か妹,audio/ja/vocab-0019.mp3,en-ja,content/readings/en-ja/basic-02.json
+vocab-0020,lv,brālis,audio/lv/vocab-0020.mp3,,
+vocab-0020,ru,брат,audio/ru/vocab-0020.mp3,lv-ru,content/readings/lv-ru/basic-02.json
+vocab-0020,en,brother,audio/en/vocab-0020.mp3,ru-en,content/readings/ru-en/basic-02.json
+vocab-0020,ja,兄か弟,audio/ja/vocab-0020.mp3,en-ja,content/readings/en-ja/basic-02.json
+vocab-0021,lv,viens,audio/lv/vocab-0021.mp3,,
+vocab-0021,ru,один,audio/ru/vocab-0021.mp3,lv-ru,content/readings/lv-ru/basic-03.json
+vocab-0021,en,one,audio/en/vocab-0021.mp3,ru-en,content/readings/ru-en/basic-03.json
+vocab-0021,ja,一,audio/ja/vocab-0021.mp3,en-ja,content/readings/en-ja/basic-03.json
+vocab-0022,lv,divi,audio/lv/vocab-0022.mp3,,
+vocab-0022,ru,два,audio/ru/vocab-0022.mp3,lv-ru,content/readings/lv-ru/basic-03.json
+vocab-0022,en,two,audio/en/vocab-0022.mp3,ru-en,content/readings/ru-en/basic-03.json
+vocab-0022,ja,二,audio/ja/vocab-0022.mp3,en-ja,content/readings/en-ja/basic-03.json
+vocab-0023,lv,trīs,audio/lv/vocab-0023.mp3,,
+vocab-0023,ru,три,audio/ru/vocab-0023.mp3,lv-ru,content/readings/lv-ru/basic-03.json
+vocab-0023,en,three,audio/en/vocab-0023.mp3,ru-en,content/readings/ru-en/basic-03.json
+vocab-0023,ja,三,audio/ja/vocab-0023.mp3,en-ja,content/readings/en-ja/basic-03.json
+vocab-0024,lv,četri,audio/lv/vocab-0024.mp3,,
+vocab-0024,ru,четыре,audio/ru/vocab-0024.mp3,lv-ru,content/readings/lv-ru/basic-03.json
+vocab-0024,en,four,audio/en/vocab-0024.mp3,ru-en,content/readings/ru-en/basic-03.json
+vocab-0024,ja,四,audio/ja/vocab-0024.mp3,en-ja,content/readings/en-ja/basic-03.json
+vocab-0025,lv,pieci,audio/lv/vocab-0025.mp3,,
+vocab-0025,ru,пять,audio/ru/vocab-0025.mp3,lv-ru,content/readings/lv-ru/basic-03.json
+vocab-0025,en,five,audio/en/vocab-0025.mp3,ru-en,content/readings/ru-en/basic-03.json
+vocab-0025,ja,五,audio/ja/vocab-0025.mp3,en-ja,content/readings/en-ja/basic-03.json
+vocab-0026,lv,seši,audio/lv/vocab-0026.mp3,,
+vocab-0026,ru,шесть,audio/ru/vocab-0026.mp3,lv-ru,content/readings/lv-ru/basic-03.json
+vocab-0026,en,six,audio/en/vocab-0026.mp3,ru-en,content/readings/ru-en/basic-03.json
+vocab-0026,ja,六,audio/ja/vocab-0026.mp3,en-ja,content/readings/en-ja/basic-03.json
+vocab-0027,lv,septiņi,audio/lv/vocab-0027.mp3,,
+vocab-0027,ru,семь,audio/ru/vocab-0027.mp3,lv-ru,content/readings/lv-ru/basic-03.json
+vocab-0027,en,seven,audio/en/vocab-0027.mp3,ru-en,content/readings/ru-en/basic-03.json
+vocab-0027,ja,七,audio/ja/vocab-0027.mp3,en-ja,content/readings/en-ja/basic-03.json
+vocab-0028,lv,astoņi,audio/lv/vocab-0028.mp3,,
+vocab-0028,ru,восемь,audio/ru/vocab-0028.mp3,lv-ru,content/readings/lv-ru/basic-03.json
+vocab-0028,en,eight,audio/en/vocab-0028.mp3,ru-en,content/readings/ru-en/basic-03.json
+vocab-0028,ja,八,audio/ja/vocab-0028.mp3,en-ja,content/readings/en-ja/basic-03.json
+vocab-0029,lv,deviņi,audio/lv/vocab-0029.mp3,,
+vocab-0029,ru,девять,audio/ru/vocab-0029.mp3,lv-ru,content/readings/lv-ru/basic-03.json
+vocab-0029,en,nine,audio/en/vocab-0029.mp3,ru-en,content/readings/ru-en/basic-03.json
+vocab-0029,ja,九,audio/ja/vocab-0029.mp3,en-ja,content/readings/en-ja/basic-03.json
+vocab-0030,lv,desmit,audio/lv/vocab-0030.mp3,,
+vocab-0030,ru,десять,audio/ru/vocab-0030.mp3,lv-ru,content/readings/lv-ru/basic-03.json
+vocab-0030,en,ten,audio/en/vocab-0030.mp3,ru-en,content/readings/ru-en/basic-03.json
+vocab-0030,ja,十,audio/ja/vocab-0030.mp3,en-ja,content/readings/en-ja/basic-03.json
+vocab-0031,lv,palīdzība,audio/lv/vocab-0031.mp3,,
+vocab-0031,ru,помощь,audio/ru/vocab-0031.mp3,lv-ru,content/readings/lv-ru/basic-04.json
+vocab-0031,en,help,audio/en/vocab-0031.mp3,ru-en,content/readings/ru-en/basic-04.json
+vocab-0031,ja,助け,audio/ja/vocab-0031.mp3,en-ja,content/readings/en-ja/basic-04.json
+vocab-0032,lv,stop,audio/lv/vocab-0032.mp3,,
+vocab-0032,ru,стоп,audio/ru/vocab-0032.mp3,lv-ru,content/readings/lv-ru/basic-04.json
+vocab-0032,en,stop,audio/en/vocab-0032.mp3,ru-en,content/readings/ru-en/basic-04.json
+vocab-0032,ja,止まって,audio/ja/vocab-0032.mp3,en-ja,content/readings/en-ja/basic-04.json
+vocab-0033,lv,šeit,audio/lv/vocab-0033.mp3,,
+vocab-0033,ru,здесь,audio/ru/vocab-0033.mp3,lv-ru,content/readings/lv-ru/basic-04.json
+vocab-0033,en,here,audio/en/vocab-0033.mp3,ru-en,content/readings/ru-en/basic-04.json
+vocab-0033,ja,ここ,audio/ja/vocab-0033.mp3,en-ja,content/readings/en-ja/basic-04.json
+vocab-0034,lv,tur,audio/lv/vocab-0034.mp3,,
+vocab-0034,ru,там,audio/ru/vocab-0034.mp3,lv-ru,content/readings/lv-ru/basic-04.json
+vocab-0034,en,there,audio/en/vocab-0034.mp3,ru-en,content/readings/ru-en/basic-04.json
+vocab-0034,ja,そこ,audio/ja/vocab-0034.mp3,en-ja,content/readings/en-ja/basic-04.json
+vocab-0035,lv,tagad,audio/lv/vocab-0035.mp3,,
+vocab-0035,ru,сейчас,audio/ru/vocab-0035.mp3,lv-ru,content/readings/lv-ru/basic-04.json
+vocab-0035,en,now,audio/en/vocab-0035.mp3,ru-en,content/readings/ru-en/basic-04.json
+vocab-0035,ja,今,audio/ja/vocab-0035.mp3,en-ja,content/readings/en-ja/basic-04.json
+vocab-0036,lv,vēlāk,audio/lv/vocab-0036.mp3,,
+vocab-0036,ru,позже,audio/ru/vocab-0036.mp3,lv-ru,content/readings/lv-ru/basic-04.json
+vocab-0036,en,later,audio/en/vocab-0036.mp3,ru-en,content/readings/ru-en/basic-04.json
+vocab-0036,ja,後で,audio/ja/vocab-0036.mp3,en-ja,content/readings/en-ja/basic-04.json
+vocab-0037,lv,kopā,audio/lv/vocab-0037.mp3,,
+vocab-0037,ru,вместе,audio/ru/vocab-0037.mp3,lv-ru,content/readings/lv-ru/basic-04.json
+vocab-0037,en,together,audio/en/vocab-0037.mp3,ru-en,content/readings/ru-en/basic-04.json
+vocab-0037,ja,一緒に,audio/ja/vocab-0037.mp3,en-ja,content/readings/en-ja/basic-04.json
+vocab-0038,lv,atkal,audio/lv/vocab-0038.mp3,,
+vocab-0038,ru,снова,audio/ru/vocab-0038.mp3,lv-ru,content/readings/lv-ru/basic-04.json
+vocab-0038,en,again,audio/en/vocab-0038.mp3,ru-en,content/readings/ru-en/basic-04.json
+vocab-0038,ja,もう一度,audio/ja/vocab-0038.mp3,en-ja,content/readings/en-ja/basic-04.json
+vocab-0039,lv,lēnām,audio/lv/vocab-0039.mp3,,
+vocab-0039,ru,медленно,audio/ru/vocab-0039.mp3,lv-ru,content/readings/lv-ru/basic-04.json
+vocab-0039,en,slowly,audio/en/vocab-0039.mp3,ru-en,content/readings/ru-en/basic-04.json
+vocab-0039,ja,ゆっくり,audio/ja/vocab-0039.mp3,en-ja,content/readings/en-ja/basic-04.json
+vocab-0040,lv,ātri,audio/lv/vocab-0040.mp3,,
+vocab-0040,ru,быстро,audio/ru/vocab-0040.mp3,lv-ru,content/readings/lv-ru/basic-04.json
+vocab-0040,en,quickly,audio/en/vocab-0040.mp3,ru-en,content/readings/ru-en/basic-04.json
+vocab-0040,ja,速く,audio/ja/vocab-0040.mp3,en-ja,content/readings/en-ja/basic-04.json
+vocab-0041,lv,mājas,audio/lv/vocab-0041.mp3,,
+vocab-0041,ru,дом,audio/ru/vocab-0041.mp3,lv-ru,content/readings/lv-ru/basic-05.json
+vocab-0041,en,home,audio/en/vocab-0041.mp3,ru-en,content/readings/ru-en/basic-05.json
+vocab-0041,ja,家,audio/ja/vocab-0041.mp3,en-ja,content/readings/en-ja/basic-05.json
+vocab-0042,lv,skola,audio/lv/vocab-0042.mp3,,
+vocab-0042,ru,школа,audio/ru/vocab-0042.mp3,lv-ru,content/readings/lv-ru/basic-05.json
+vocab-0042,en,school,audio/en/vocab-0042.mp3,ru-en,content/readings/ru-en/basic-05.json
+vocab-0042,ja,学校,audio/ja/vocab-0042.mp3,en-ja,content/readings/en-ja/basic-05.json
+vocab-0043,lv,veikals,audio/lv/vocab-0043.mp3,,
+vocab-0043,ru,магазин,audio/ru/vocab-0043.mp3,lv-ru,content/readings/lv-ru/basic-05.json
+vocab-0043,en,shop,audio/en/vocab-0043.mp3,ru-en,content/readings/ru-en/basic-05.json
+vocab-0043,ja,店,audio/ja/vocab-0043.mp3,en-ja,content/readings/en-ja/basic-05.json
+vocab-0044,lv,aptieka,audio/lv/vocab-0044.mp3,,
+vocab-0044,ru,аптека,audio/ru/vocab-0044.mp3,lv-ru,content/readings/lv-ru/basic-05.json
+vocab-0044,en,pharmacy,audio/en/vocab-0044.mp3,ru-en,content/readings/ru-en/basic-05.json
+vocab-0044,ja,薬局,audio/ja/vocab-0044.mp3,en-ja,content/readings/en-ja/basic-05.json
+vocab-0045,lv,slimnīca,audio/lv/vocab-0045.mp3,,
+vocab-0045,ru,больница,audio/ru/vocab-0045.mp3,lv-ru,content/readings/lv-ru/basic-05.json
+vocab-0045,en,hospital,audio/en/vocab-0045.mp3,ru-en,content/readings/ru-en/basic-05.json
+vocab-0045,ja,病院,audio/ja/vocab-0045.mp3,en-ja,content/readings/en-ja/basic-05.json
+vocab-0046,lv,parks,audio/lv/vocab-0046.mp3,,
+vocab-0046,ru,парк,audio/ru/vocab-0046.mp3,lv-ru,content/readings/lv-ru/basic-05.json
+vocab-0046,en,park,audio/en/vocab-0046.mp3,ru-en,content/readings/ru-en/basic-05.json
+vocab-0046,ja,公園,audio/ja/vocab-0046.mp3,en-ja,content/readings/en-ja/basic-05.json
+vocab-0047,lv,iela,audio/lv/vocab-0047.mp3,,
+vocab-0047,ru,улица,audio/ru/vocab-0047.mp3,lv-ru,content/readings/lv-ru/basic-05.json
+vocab-0047,en,street,audio/en/vocab-0047.mp3,ru-en,content/readings/ru-en/basic-05.json
+vocab-0047,ja,通り,audio/ja/vocab-0047.mp3,en-ja,content/readings/en-ja/basic-05.json
+vocab-0048,lv,autobusa pietura,audio/lv/vocab-0048.mp3,,
+vocab-0048,ru,автобусная остановка,audio/ru/vocab-0048.mp3,lv-ru,content/readings/lv-ru/basic-05.json
+vocab-0048,en,bus stop,audio/en/vocab-0048.mp3,ru-en,content/readings/ru-en/basic-05.json
+vocab-0048,ja,バス停,audio/ja/vocab-0048.mp3,en-ja,content/readings/en-ja/basic-05.json
+vocab-0049,lv,tualete,audio/lv/vocab-0049.mp3,,
+vocab-0049,ru,туалет,audio/ru/vocab-0049.mp3,lv-ru,content/readings/lv-ru/basic-05.json
+vocab-0049,en,toilet,audio/en/vocab-0049.mp3,ru-en,content/readings/ru-en/basic-05.json
+vocab-0049,ja,トイレ,audio/ja/vocab-0049.mp3,en-ja,content/readings/en-ja/basic-05.json
+vocab-0050,lv,izeja,audio/lv/vocab-0050.mp3,,
+vocab-0050,ru,выход,audio/ru/vocab-0050.mp3,lv-ru,content/readings/lv-ru/basic-05.json
+vocab-0050,en,exit,audio/en/vocab-0050.mp3,ru-en,content/readings/ru-en/basic-05.json
+vocab-0050,ja,出口,audio/ja/vocab-0050.mp3,en-ja,content/readings/en-ja/basic-05.json
+vocab-0051,lv,ūdens,audio/lv/vocab-0051.mp3,,
+vocab-0051,ru,вода,audio/ru/vocab-0051.mp3,lv-ru,content/readings/lv-ru/basic-06.json
+vocab-0051,en,water,audio/en/vocab-0051.mp3,ru-en,content/readings/ru-en/basic-06.json
+vocab-0051,ja,水,audio/ja/vocab-0051.mp3,en-ja,content/readings/en-ja/basic-06.json
+vocab-0052,lv,maize,audio/lv/vocab-0052.mp3,,
+vocab-0052,ru,хлеб,audio/ru/vocab-0052.mp3,lv-ru,content/readings/lv-ru/basic-06.json
+vocab-0052,en,bread,audio/en/vocab-0052.mp3,ru-en,content/readings/ru-en/basic-06.json
+vocab-0052,ja,パン,audio/ja/vocab-0052.mp3,en-ja,content/readings/en-ja/basic-06.json
+vocab-0053,lv,piens,audio/lv/vocab-0053.mp3,,
+vocab-0053,ru,молоко,audio/ru/vocab-0053.mp3,lv-ru,content/readings/lv-ru/basic-06.json
+vocab-0053,en,milk,audio/en/vocab-0053.mp3,ru-en,content/readings/ru-en/basic-06.json
+vocab-0053,ja,牛乳,audio/ja/vocab-0053.mp3,en-ja,content/readings/en-ja/basic-06.json
+vocab-0054,lv,tēja,audio/lv/vocab-0054.mp3,,
+vocab-0054,ru,чай,audio/ru/vocab-0054.mp3,lv-ru,content/readings/lv-ru/basic-06.json
+vocab-0054,en,tea,audio/en/vocab-0054.mp3,ru-en,content/readings/ru-en/basic-06.json
+vocab-0054,ja,お茶,audio/ja/vocab-0054.mp3,en-ja,content/readings/en-ja/basic-06.json
+vocab-0055,lv,ābols,audio/lv/vocab-0055.mp3,,
+vocab-0055,ru,яблоко,audio/ru/vocab-0055.mp3,lv-ru,content/readings/lv-ru/basic-06.json
+vocab-0055,en,apple,audio/en/vocab-0055.mp3,ru-en,content/readings/ru-en/basic-06.json
+vocab-0055,ja,りんご,audio/ja/vocab-0055.mp3,en-ja,content/readings/en-ja/basic-06.json
+vocab-0056,lv,banāns,audio/lv/vocab-0056.mp3,,
+vocab-0056,ru,банан,audio/ru/vocab-0056.mp3,lv-ru,content/readings/lv-ru/basic-06.json
+vocab-0056,en,banana,audio/en/vocab-0056.mp3,ru-en,content/readings/ru-en/basic-06.json
+vocab-0056,ja,バナナ,audio/ja/vocab-0056.mp3,en-ja,content/readings/en-ja/basic-06.json
+vocab-0057,lv,siers,audio/lv/vocab-0057.mp3,,
+vocab-0057,ru,сыр,audio/ru/vocab-0057.mp3,lv-ru,content/readings/lv-ru/basic-06.json
+vocab-0057,en,cheese,audio/en/vocab-0057.mp3,ru-en,content/readings/ru-en/basic-06.json
+vocab-0057,ja,チーズ,audio/ja/vocab-0057.mp3,en-ja,content/readings/en-ja/basic-06.json
+vocab-0058,lv,zupa,audio/lv/vocab-0058.mp3,,
+vocab-0058,ru,суп,audio/ru/vocab-0058.mp3,lv-ru,content/readings/lv-ru/basic-06.json
+vocab-0058,en,soup,audio/en/vocab-0058.mp3,ru-en,content/readings/ru-en/basic-06.json
+vocab-0058,ja,スープ,audio/ja/vocab-0058.mp3,en-ja,content/readings/en-ja/basic-06.json
+vocab-0059,lv,sula,audio/lv/vocab-0059.mp3,,
+vocab-0059,ru,сок,audio/ru/vocab-0059.mp3,lv-ru,content/readings/lv-ru/basic-06.json
+vocab-0059,en,juice,audio/en/vocab-0059.mp3,ru-en,content/readings/ru-en/basic-06.json
+vocab-0059,ja,ジュース,audio/ja/vocab-0059.mp3,en-ja,content/readings/en-ja/basic-06.json
+vocab-0060,lv,brokastis,audio/lv/vocab-0060.mp3,,
+vocab-0060,ru,завтрак,audio/ru/vocab-0060.mp3,lv-ru,content/readings/lv-ru/basic-06.json
+vocab-0060,en,breakfast,audio/en/vocab-0060.mp3,ru-en,content/readings/ru-en/basic-06.json
+vocab-0060,ja,朝食,audio/ja/vocab-0060.mp3,en-ja,content/readings/en-ja/basic-06.json
+vocab-0061,lv,grāmata,audio/lv/vocab-0061.mp3,,
+vocab-0061,ru,книга,audio/ru/vocab-0061.mp3,lv-ru,content/readings/lv-ru/basic-07.json
+vocab-0061,en,book,audio/en/vocab-0061.mp3,ru-en,content/readings/ru-en/basic-07.json
+vocab-0061,ja,本,audio/ja/vocab-0061.mp3,en-ja,content/readings/en-ja/basic-07.json
+vocab-0062,lv,burtnīca,audio/lv/vocab-0062.mp3,,
+vocab-0062,ru,тетрадь,audio/ru/vocab-0062.mp3,lv-ru,content/readings/lv-ru/basic-07.json
+vocab-0062,en,notebook,audio/en/vocab-0062.mp3,ru-en,content/readings/ru-en/basic-07.json
+vocab-0062,ja,ノート,audio/ja/vocab-0062.mp3,en-ja,content/readings/en-ja/basic-07.json
+vocab-0063,lv,pildspalva,audio/lv/vocab-0063.mp3,,
+vocab-0063,ru,ручка,audio/ru/vocab-0063.mp3,lv-ru,content/readings/lv-ru/basic-07.json
+vocab-0063,en,pen,audio/en/vocab-0063.mp3,ru-en,content/readings/ru-en/basic-07.json
+vocab-0063,ja,ペン,audio/ja/vocab-0063.mp3,en-ja,content/readings/en-ja/basic-07.json
+vocab-0064,lv,zīmulis,audio/lv/vocab-0064.mp3,,
+vocab-0064,ru,карандаш,audio/ru/vocab-0064.mp3,lv-ru,content/readings/lv-ru/basic-07.json
+vocab-0064,en,pencil,audio/en/vocab-0064.mp3,ru-en,content/readings/ru-en/basic-07.json
+vocab-0064,ja,鉛筆,audio/ja/vocab-0064.mp3,en-ja,content/readings/en-ja/basic-07.json
+vocab-0065,lv,rakstāmgalds,audio/lv/vocab-0065.mp3,,
+vocab-0065,ru,письменный стол,audio/ru/vocab-0065.mp3,lv-ru,content/readings/lv-ru/basic-07.json
+vocab-0065,en,desk,audio/en/vocab-0065.mp3,ru-en,content/readings/ru-en/basic-07.json
+vocab-0065,ja,机,audio/ja/vocab-0065.mp3,en-ja,content/readings/en-ja/basic-07.json
+vocab-0066,lv,krēsls,audio/lv/vocab-0066.mp3,,
+vocab-0066,ru,стул,audio/ru/vocab-0066.mp3,lv-ru,content/readings/lv-ru/basic-07.json
+vocab-0066,en,chair,audio/en/vocab-0066.mp3,ru-en,content/readings/ru-en/basic-07.json
+vocab-0066,ja,椅子,audio/ja/vocab-0066.mp3,en-ja,content/readings/en-ja/basic-07.json
+vocab-0067,lv,tāfele,audio/lv/vocab-0067.mp3,,
+vocab-0067,ru,доска,audio/ru/vocab-0067.mp3,lv-ru,content/readings/lv-ru/basic-07.json
+vocab-0067,en,board,audio/en/vocab-0067.mp3,ru-en,content/readings/ru-en/basic-07.json
+vocab-0067,ja,黒板,audio/ja/vocab-0067.mp3,en-ja,content/readings/en-ja/basic-07.json
+vocab-0068,lv,skolotājs,audio/lv/vocab-0068.mp3,,
+vocab-0068,ru,учитель,audio/ru/vocab-0068.mp3,lv-ru,content/readings/lv-ru/basic-07.json
+vocab-0068,en,teacher,audio/en/vocab-0068.mp3,ru-en,content/readings/ru-en/basic-07.json
+vocab-0068,ja,先生,audio/ja/vocab-0068.mp3,en-ja,content/readings/en-ja/basic-07.json
+vocab-0069,lv,mācību stunda,audio/lv/vocab-0069.mp3,,
+vocab-0069,ru,урок,audio/ru/vocab-0069.mp3,lv-ru,content/readings/lv-ru/basic-07.json
+vocab-0069,en,lesson,audio/en/vocab-0069.mp3,ru-en,content/readings/ru-en/basic-07.json
+vocab-0069,ja,授業,audio/ja/vocab-0069.mp3,en-ja,content/readings/en-ja/basic-07.json
+vocab-0070,lv,starpbrīdis,audio/lv/vocab-0070.mp3,,
+vocab-0070,ru,перемена,audio/ru/vocab-0070.mp3,lv-ru,content/readings/lv-ru/basic-07.json
+vocab-0070,en,break,audio/en/vocab-0070.mp3,ru-en,content/readings/ru-en/basic-07.json
+vocab-0070,ja,休み時間,audio/ja/vocab-0070.mp3,en-ja,content/readings/en-ja/basic-07.json
+vocab-0071,lv,pa kreisi,audio/lv/vocab-0071.mp3,,
+vocab-0071,ru,налево,audio/ru/vocab-0071.mp3,lv-ru,content/readings/lv-ru/basic-08.json
+vocab-0071,en,left,audio/en/vocab-0071.mp3,ru-en,content/readings/ru-en/basic-08.json
+vocab-0071,ja,左,audio/ja/vocab-0071.mp3,en-ja,content/readings/en-ja/basic-08.json
+vocab-0072,lv,pa labi,audio/lv/vocab-0072.mp3,,
+vocab-0072,ru,направо,audio/ru/vocab-0072.mp3,lv-ru,content/readings/lv-ru/basic-08.json
+vocab-0072,en,right,audio/en/vocab-0072.mp3,ru-en,content/readings/ru-en/basic-08.json
+vocab-0072,ja,右,audio/ja/vocab-0072.mp3,en-ja,content/readings/en-ja/basic-08.json
+vocab-0073,lv,taisni,audio/lv/vocab-0073.mp3,,
+vocab-0073,ru,прямо,audio/ru/vocab-0073.mp3,lv-ru,content/readings/lv-ru/basic-08.json
+vocab-0073,en,straight,audio/en/vocab-0073.mp3,ru-en,content/readings/ru-en/basic-08.json
+vocab-0073,ja,まっすぐ,audio/ja/vocab-0073.mp3,en-ja,content/readings/en-ja/basic-08.json
+vocab-0074,lv,tuvu,audio/lv/vocab-0074.mp3,,
+vocab-0074,ru,близко,audio/ru/vocab-0074.mp3,lv-ru,content/readings/lv-ru/basic-08.json
+vocab-0074,en,near,audio/en/vocab-0074.mp3,ru-en,content/readings/ru-en/basic-08.json
+vocab-0074,ja,近く,audio/ja/vocab-0074.mp3,en-ja,content/readings/en-ja/basic-08.json
+vocab-0075,lv,tālu,audio/lv/vocab-0075.mp3,,
+vocab-0075,ru,далеко,audio/ru/vocab-0075.mp3,lv-ru,content/readings/lv-ru/basic-08.json
+vocab-0075,en,far,audio/en/vocab-0075.mp3,ru-en,content/readings/ru-en/basic-08.json
+vocab-0075,ja,遠く,audio/ja/vocab-0075.mp3,en-ja,content/readings/en-ja/basic-08.json
+vocab-0076,lv,iekšā,audio/lv/vocab-0076.mp3,,
+vocab-0076,ru,внутри,audio/ru/vocab-0076.mp3,lv-ru,content/readings/lv-ru/basic-08.json
+vocab-0076,en,inside,audio/en/vocab-0076.mp3,ru-en,content/readings/ru-en/basic-08.json
+vocab-0076,ja,中,audio/ja/vocab-0076.mp3,en-ja,content/readings/en-ja/basic-08.json
+vocab-0077,lv,ārā,audio/lv/vocab-0077.mp3,,
+vocab-0077,ru,снаружи,audio/ru/vocab-0077.mp3,lv-ru,content/readings/lv-ru/basic-08.json
+vocab-0077,en,outside,audio/en/vocab-0077.mp3,ru-en,content/readings/ru-en/basic-08.json
+vocab-0077,ja,外,audio/ja/vocab-0077.mp3,en-ja,content/readings/en-ja/basic-08.json
+vocab-0078,lv,augšup,audio/lv/vocab-0078.mp3,,
+vocab-0078,ru,вверх,audio/ru/vocab-0078.mp3,lv-ru,content/readings/lv-ru/basic-08.json
+vocab-0078,en,up,audio/en/vocab-0078.mp3,ru-en,content/readings/ru-en/basic-08.json
+vocab-0078,ja,上,audio/ja/vocab-0078.mp3,en-ja,content/readings/en-ja/basic-08.json
+vocab-0079,lv,lejup,audio/lv/vocab-0079.mp3,,
+vocab-0079,ru,вниз,audio/ru/vocab-0079.mp3,lv-ru,content/readings/lv-ru/basic-08.json
+vocab-0079,en,down,audio/en/vocab-0079.mp3,ru-en,content/readings/ru-en/basic-08.json
+vocab-0079,ja,下,audio/ja/vocab-0079.mp3,en-ja,content/readings/en-ja/basic-08.json
+vocab-0080,lv,pretī,audio/lv/vocab-0080.mp3,,
+vocab-0080,ru,напротив,audio/ru/vocab-0080.mp3,lv-ru,content/readings/lv-ru/basic-08.json
+vocab-0080,en,opposite,audio/en/vocab-0080.mp3,ru-en,content/readings/ru-en/basic-08.json
+vocab-0080,ja,向かい,audio/ja/vocab-0080.mp3,en-ja,content/readings/en-ja/basic-08.json
+vocab-0081,lv,policija,audio/lv/vocab-0081.mp3,,
+vocab-0081,ru,полиция,audio/ru/vocab-0081.mp3,lv-ru,content/readings/lv-ru/basic-09.json
+vocab-0081,en,police,audio/en/vocab-0081.mp3,ru-en,content/readings/ru-en/basic-09.json
+vocab-0081,ja,警察,audio/ja/vocab-0081.mp3,en-ja,content/readings/en-ja/basic-09.json
+vocab-0082,lv,neatliekamā palīdzība,audio/lv/vocab-0082.mp3,,
+vocab-0082,ru,скорая помощь,audio/ru/vocab-0082.mp3,lv-ru,content/readings/lv-ru/basic-09.json
+vocab-0082,en,ambulance,audio/en/vocab-0082.mp3,ru-en,content/readings/ru-en/basic-09.json
+vocab-0082,ja,救急車,audio/ja/vocab-0082.mp3,en-ja,content/readings/en-ja/basic-09.json
+vocab-0083,lv,uguns,audio/lv/vocab-0083.mp3,,
+vocab-0083,ru,огонь,audio/ru/vocab-0083.mp3,lv-ru,content/readings/lv-ru/basic-09.json
+vocab-0083,en,fire,audio/en/vocab-0083.mp3,ru-en,content/readings/ru-en/basic-09.json
+vocab-0083,ja,火事,audio/ja/vocab-0083.mp3,en-ja,content/readings/en-ja/basic-09.json
+vocab-0084,lv,briesmas,audio/lv/vocab-0084.mp3,,
+vocab-0084,ru,опасность,audio/ru/vocab-0084.mp3,lv-ru,content/readings/lv-ru/basic-09.json
+vocab-0084,en,danger,audio/en/vocab-0084.mp3,ru-en,content/readings/ru-en/basic-09.json
+vocab-0084,ja,危険,audio/ja/vocab-0084.mp3,en-ja,content/readings/en-ja/basic-09.json
+vocab-0085,lv,sāpes,audio/lv/vocab-0085.mp3,,
+vocab-0085,ru,боль,audio/ru/vocab-0085.mp3,lv-ru,content/readings/lv-ru/basic-09.json
+vocab-0085,en,pain,audio/en/vocab-0085.mp3,ru-en,content/readings/ru-en/basic-09.json
+vocab-0085,ja,痛み,audio/ja/vocab-0085.mp3,en-ja,content/readings/en-ja/basic-09.json
+vocab-0086,lv,ārsts,audio/lv/vocab-0086.mp3,,
+vocab-0086,ru,врач,audio/ru/vocab-0086.mp3,lv-ru,content/readings/lv-ru/basic-09.json
+vocab-0086,en,doctor,audio/en/vocab-0086.mp3,ru-en,content/readings/ru-en/basic-09.json
+vocab-0086,ja,医者,audio/ja/vocab-0086.mp3,en-ja,content/readings/en-ja/basic-09.json
+vocab-0087,lv,ārkārtas situācija,audio/lv/vocab-0087.mp3,,
+vocab-0087,ru,чрезвычайная ситуация,audio/ru/vocab-0087.mp3,lv-ru,content/readings/lv-ru/basic-09.json
+vocab-0087,en,emergency,audio/en/vocab-0087.mp3,ru-en,content/readings/ru-en/basic-09.json
+vocab-0087,ja,緊急事態,audio/ja/vocab-0087.mp3,en-ja,content/readings/en-ja/basic-09.json
+vocab-0088,lv,pirmā palīdzība,audio/lv/vocab-0088.mp3,,
+vocab-0088,ru,первая помощь,audio/ru/vocab-0088.mp3,lv-ru,content/readings/lv-ru/basic-09.json
+vocab-0088,en,first aid,audio/en/vocab-0088.mp3,ru-en,content/readings/ru-en/basic-09.json
+vocab-0088,ja,応急手当,audio/ja/vocab-0088.mp3,en-ja,content/readings/en-ja/basic-09.json
+vocab-0089,lv,ārkārtas palīdzības izsaukuma numurs,audio/lv/vocab-0089.mp3,,
+vocab-0089,ru,экстренный номер,audio/ru/vocab-0089.mp3,lv-ru,content/readings/lv-ru/basic-09.json
+vocab-0089,en,emergency number,audio/en/vocab-0089.mp3,ru-en,content/readings/ru-en/basic-09.json
+vocab-0089,ja,緊急通報番号,audio/ja/vocab-0089.mp3,en-ja,content/readings/en-ja/basic-09.json
+vocab-0090,lv,pieaugušais,audio/lv/vocab-0090.mp3,,
+vocab-0090,ru,взрослый,audio/ru/vocab-0090.mp3,lv-ru,content/readings/lv-ru/basic-09.json
+vocab-0090,en,adult,audio/en/vocab-0090.mp3,ru-en,content/readings/ru-en/basic-09.json
+vocab-0090,ja,大人,audio/ja/vocab-0090.mp3,en-ja,content/readings/en-ja/basic-09.json
+vocab-0091,lv,kurš,audio/lv/vocab-0091.mp3,,
+vocab-0091,ru,кто,audio/ru/vocab-0091.mp3,lv-ru,content/readings/lv-ru/basic-10.json
+vocab-0091,en,who,audio/en/vocab-0091.mp3,ru-en,content/readings/ru-en/basic-10.json
+vocab-0091,ja,誰,audio/ja/vocab-0091.mp3,en-ja,content/readings/en-ja/basic-10.json
+vocab-0092,lv,kas,audio/lv/vocab-0092.mp3,,
+vocab-0092,ru,что,audio/ru/vocab-0092.mp3,lv-ru,content/readings/lv-ru/basic-10.json
+vocab-0092,en,what,audio/en/vocab-0092.mp3,ru-en,content/readings/ru-en/basic-10.json
+vocab-0092,ja,何,audio/ja/vocab-0092.mp3,en-ja,content/readings/en-ja/basic-10.json
+vocab-0093,lv,kur,audio/lv/vocab-0093.mp3,,
+vocab-0093,ru,где,audio/ru/vocab-0093.mp3,lv-ru,content/readings/lv-ru/basic-10.json
+vocab-0093,en,where,audio/en/vocab-0093.mp3,ru-en,content/readings/ru-en/basic-10.json
+vocab-0093,ja,どこ,audio/ja/vocab-0093.mp3,en-ja,content/readings/en-ja/basic-10.json
+vocab-0094,lv,kad,audio/lv/vocab-0094.mp3,,
+vocab-0094,ru,когда,audio/ru/vocab-0094.mp3,lv-ru,content/readings/lv-ru/basic-10.json
+vocab-0094,en,when,audio/en/vocab-0094.mp3,ru-en,content/readings/ru-en/basic-10.json
+vocab-0094,ja,いつ,audio/ja/vocab-0094.mp3,en-ja,content/readings/en-ja/basic-10.json
+vocab-0095,lv,kāpēc,audio/lv/vocab-0095.mp3,,
+vocab-0095,ru,почему,audio/ru/vocab-0095.mp3,lv-ru,content/readings/lv-ru/basic-10.json
+vocab-0095,en,why,audio/en/vocab-0095.mp3,ru-en,content/readings/ru-en/basic-10.json
+vocab-0095,ja,なぜ,audio/ja/vocab-0095.mp3,en-ja,content/readings/en-ja/basic-10.json
+vocab-0096,lv,kā,audio/lv/vocab-0096.mp3,,
+vocab-0096,ru,как,audio/ru/vocab-0096.mp3,lv-ru,content/readings/lv-ru/basic-10.json
+vocab-0096,en,how,audio/en/vocab-0096.mp3,ru-en,content/readings/ru-en/basic-10.json
+vocab-0096,ja,どうやって,audio/ja/vocab-0096.mp3,en-ja,content/readings/en-ja/basic-10.json
+vocab-0097,lv,cik,audio/lv/vocab-0097.mp3,,
+vocab-0097,ru,сколько,audio/ru/vocab-0097.mp3,lv-ru,content/readings/lv-ru/basic-10.json
+vocab-0097,en,how many,audio/en/vocab-0097.mp3,ru-en,content/readings/ru-en/basic-10.json
+vocab-0097,ja,いくつ,audio/ja/vocab-0097.mp3,en-ja,content/readings/en-ja/basic-10.json
+vocab-0098,lv,kāda cena,audio/lv/vocab-0098.mp3,,
+vocab-0098,ru,какая цена,audio/ru/vocab-0098.mp3,lv-ru,content/readings/lv-ru/basic-10.json
+vocab-0098,en,what price,audio/en/vocab-0098.mp3,ru-en,content/readings/ru-en/basic-10.json
+vocab-0098,ja,いくら,audio/ja/vocab-0098.mp3,en-ja,content/readings/en-ja/basic-10.json
+vocab-0099,lv,kurā virzienā,audio/lv/vocab-0099.mp3,,
+vocab-0099,ru,в какую сторону,audio/ru/vocab-0099.mp3,lv-ru,content/readings/lv-ru/basic-10.json
+vocab-0099,en,which way,audio/en/vocab-0099.mp3,ru-en,content/readings/ru-en/basic-10.json
+vocab-0099,ja,どちらの道,audio/ja/vocab-0099.mp3,en-ja,content/readings/en-ja/basic-10.json
+vocab-0100,lv,kas vēl,audio/lv/vocab-0100.mp3,,
+vocab-0100,ru,что ещё,audio/ru/vocab-0100.mp3,lv-ru,content/readings/lv-ru/basic-10.json
+vocab-0100,en,what else,audio/en/vocab-0100.mp3,ru-en,content/readings/ru-en/basic-10.json
+vocab-0100,ja,他に何,audio/ja/vocab-0100.mp3,en-ja,content/readings/en-ja/basic-10.json
+vocab-0101,lv,vecmāmiņa,audio/lv/vocab-0101.mp3,,
+vocab-0101,ru,бабушка,audio/ru/vocab-0101.mp3,lv-ru,content/readings/lv-ru/basic-11.json
+vocab-0101,en,grandmother,audio/en/vocab-0101.mp3,ru-en,content/readings/ru-en/basic-11.json
+vocab-0101,ja,祖母,audio/ja/vocab-0101.mp3,en-ja,content/readings/en-ja/basic-11.json
+vocab-0102,lv,vectētiņš,audio/lv/vocab-0102.mp3,,
+vocab-0102,ru,дедушка,audio/ru/vocab-0102.mp3,lv-ru,content/readings/lv-ru/basic-11.json
+vocab-0102,en,grandfather,audio/en/vocab-0102.mp3,ru-en,content/readings/ru-en/basic-11.json
+vocab-0102,ja,祖父,audio/ja/vocab-0102.mp3,en-ja,content/readings/en-ja/basic-11.json
+vocab-0103,lv,tante,audio/lv/vocab-0103.mp3,,
+vocab-0103,ru,тётя,audio/ru/vocab-0103.mp3,lv-ru,content/readings/lv-ru/basic-11.json
+vocab-0103,en,aunt,audio/en/vocab-0103.mp3,ru-en,content/readings/ru-en/basic-11.json
+vocab-0103,ja,おば,audio/ja/vocab-0103.mp3,en-ja,content/readings/en-ja/basic-11.json
+vocab-0104,lv,tēvocis,audio/lv/vocab-0104.mp3,,
+vocab-0104,ru,дядя,audio/ru/vocab-0104.mp3,lv-ru,content/readings/lv-ru/basic-11.json
+vocab-0104,en,uncle,audio/en/vocab-0104.mp3,ru-en,content/readings/ru-en/basic-11.json
+vocab-0104,ja,おじ,audio/ja/vocab-0104.mp3,en-ja,content/readings/en-ja/basic-11.json
+vocab-0105,lv,vecāki,audio/lv/vocab-0105.mp3,,
+vocab-0105,ru,родители,audio/ru/vocab-0105.mp3,lv-ru,content/readings/lv-ru/basic-11.json
+vocab-0105,en,parents,audio/en/vocab-0105.mp3,ru-en,content/readings/ru-en/basic-11.json
+vocab-0105,ja,両親,audio/ja/vocab-0105.mp3,en-ja,content/readings/en-ja/basic-11.json
+vocab-0106,lv,vecvecāki,audio/lv/vocab-0106.mp3,,
+vocab-0106,ru,бабушка и дедушка,audio/ru/vocab-0106.mp3,lv-ru,content/readings/lv-ru/basic-11.json
+vocab-0106,en,grandparents,audio/en/vocab-0106.mp3,ru-en,content/readings/ru-en/basic-11.json
+vocab-0106,ja,祖父母,audio/ja/vocab-0106.mp3,en-ja,content/readings/en-ja/basic-11.json
+vocab-0107,lv,zīdainis,audio/lv/vocab-0107.mp3,,
+vocab-0107,ru,младенец,audio/ru/vocab-0107.mp3,lv-ru,content/readings/lv-ru/basic-11.json
+vocab-0107,en,baby,audio/en/vocab-0107.mp3,ru-en,content/readings/ru-en/basic-11.json
+vocab-0107,ja,赤ちゃん,audio/ja/vocab-0107.mp3,en-ja,content/readings/en-ja/basic-11.json
+vocab-0108,lv,pusaudzis,audio/lv/vocab-0108.mp3,,
+vocab-0108,ru,подросток,audio/ru/vocab-0108.mp3,lv-ru,content/readings/lv-ru/basic-11.json
+vocab-0108,en,teenager,audio/en/vocab-0108.mp3,ru-en,content/readings/ru-en/basic-11.json
+vocab-0108,ja,十代の若者,audio/ja/vocab-0108.mp3,en-ja,content/readings/en-ja/basic-11.json
+vocab-0109,lv,kaimiņš,audio/lv/vocab-0109.mp3,,
+vocab-0109,ru,сосед,audio/ru/vocab-0109.mp3,lv-ru,content/readings/lv-ru/basic-11.json
+vocab-0109,en,neighbour,audio/en/vocab-0109.mp3,ru-en,content/readings/ru-en/basic-11.json
+vocab-0109,ja,隣人,audio/ja/vocab-0109.mp3,en-ja,content/readings/en-ja/basic-11.json
+vocab-0110,lv,viesis,audio/lv/vocab-0110.mp3,,
+vocab-0110,ru,гость,audio/ru/vocab-0110.mp3,lv-ru,content/readings/lv-ru/basic-11.json
+vocab-0110,en,guest,audio/en/vocab-0110.mp3,ru-en,content/readings/ru-en/basic-11.json
+vocab-0110,ja,客,audio/ja/vocab-0110.mp3,en-ja,content/readings/en-ja/basic-11.json
+vocab-0111,lv,sieviete,audio/lv/vocab-0111.mp3,,
+vocab-0111,ru,женщина,audio/ru/vocab-0111.mp3,lv-ru,content/readings/lv-ru/basic-12.json
+vocab-0111,en,woman,audio/en/vocab-0111.mp3,ru-en,content/readings/ru-en/basic-12.json
+vocab-0111,ja,女性,audio/ja/vocab-0111.mp3,en-ja,content/readings/en-ja/basic-12.json
+vocab-0112,lv,vīrietis,audio/lv/vocab-0112.mp3,,
+vocab-0112,ru,мужчина,audio/ru/vocab-0112.mp3,lv-ru,content/readings/lv-ru/basic-12.json
+vocab-0112,en,man,audio/en/vocab-0112.mp3,ru-en,content/readings/ru-en/basic-12.json
+vocab-0112,ja,男性,audio/ja/vocab-0112.mp3,en-ja,content/readings/en-ja/basic-12.json
+vocab-0113,lv,cilvēki,audio/lv/vocab-0113.mp3,,
+vocab-0113,ru,люди,audio/ru/vocab-0113.mp3,lv-ru,content/readings/lv-ru/basic-12.json
+vocab-0113,en,people,audio/en/vocab-0113.mp3,ru-en,content/readings/ru-en/basic-12.json
+vocab-0113,ja,人々,audio/ja/vocab-0113.mp3,en-ja,content/readings/en-ja/basic-12.json
+vocab-0114,lv,bērni,audio/lv/vocab-0114.mp3,,
+vocab-0114,ru,дети,audio/ru/vocab-0114.mp3,lv-ru,content/readings/lv-ru/basic-12.json
+vocab-0114,en,children,audio/en/vocab-0114.mp3,ru-en,content/readings/ru-en/basic-12.json
+vocab-0114,ja,子供たち,audio/ja/vocab-0114.mp3,en-ja,content/readings/en-ja/basic-12.json
+vocab-0115,lv,klasesbiedrs,audio/lv/vocab-0115.mp3,,
+vocab-0115,ru,одноклассник,audio/ru/vocab-0115.mp3,lv-ru,content/readings/lv-ru/basic-12.json
+vocab-0115,en,classmate,audio/en/vocab-0115.mp3,ru-en,content/readings/ru-en/basic-12.json
+vocab-0115,ja,クラスメート,audio/ja/vocab-0115.mp3,en-ja,content/readings/en-ja/basic-12.json
+vocab-0116,lv,skolēns,audio/lv/vocab-0116.mp3,,
+vocab-0116,ru,школьник,audio/ru/vocab-0116.mp3,lv-ru,content/readings/lv-ru/basic-12.json
+vocab-0116,en,student,audio/en/vocab-0116.mp3,ru-en,content/readings/ru-en/basic-12.json
+vocab-0116,ja,学生,audio/ja/vocab-0116.mp3,en-ja,content/readings/en-ja/basic-12.json
+vocab-0117,lv,vadītājs,audio/lv/vocab-0117.mp3,,
+vocab-0117,ru,водитель,audio/ru/vocab-0117.mp3,lv-ru,content/readings/lv-ru/basic-12.json
+vocab-0117,en,driver,audio/en/vocab-0117.mp3,ru-en,content/readings/ru-en/basic-12.json
+vocab-0117,ja,運転手,audio/ja/vocab-0117.mp3,en-ja,content/readings/en-ja/basic-12.json
+vocab-0118,lv,pārdevējs,audio/lv/vocab-0118.mp3,,
+vocab-0118,ru,продавец,audio/ru/vocab-0118.mp3,lv-ru,content/readings/lv-ru/basic-12.json
+vocab-0118,en,seller,audio/en/vocab-0118.mp3,ru-en,content/readings/ru-en/basic-12.json
+vocab-0118,ja,販売員,audio/ja/vocab-0118.mp3,en-ja,content/readings/en-ja/basic-12.json
+vocab-0119,lv,pasažieris,audio/lv/vocab-0119.mp3,,
+vocab-0119,ru,пассажир,audio/ru/vocab-0119.mp3,lv-ru,content/readings/lv-ru/basic-12.json
+vocab-0119,en,passenger,audio/en/vocab-0119.mp3,ru-en,content/readings/ru-en/basic-12.json
+vocab-0119,ja,乗客,audio/ja/vocab-0119.mp3,en-ja,content/readings/en-ja/basic-12.json
+vocab-0120,lv,apmeklētājs,audio/lv/vocab-0120.mp3,,
+vocab-0120,ru,посетитель,audio/ru/vocab-0120.mp3,lv-ru,content/readings/lv-ru/basic-12.json
+vocab-0120,en,visitor,audio/en/vocab-0120.mp3,ru-en,content/readings/ru-en/basic-12.json
+vocab-0120,ja,訪問者,audio/ja/vocab-0120.mp3,en-ja,content/readings/en-ja/basic-12.json
+vocab-0121,lv,galva,audio/lv/vocab-0121.mp3,,
+vocab-0121,ru,голова,audio/ru/vocab-0121.mp3,lv-ru,content/readings/lv-ru/basic-13.json
+vocab-0121,en,head,audio/en/vocab-0121.mp3,ru-en,content/readings/ru-en/basic-13.json
+vocab-0121,ja,頭,audio/ja/vocab-0121.mp3,en-ja,content/readings/en-ja/basic-13.json
+vocab-0122,lv,mati,audio/lv/vocab-0122.mp3,,
+vocab-0122,ru,волосы,audio/ru/vocab-0122.mp3,lv-ru,content/readings/lv-ru/basic-13.json
+vocab-0122,en,hair,audio/en/vocab-0122.mp3,ru-en,content/readings/ru-en/basic-13.json
+vocab-0122,ja,髪,audio/ja/vocab-0122.mp3,en-ja,content/readings/en-ja/basic-13.json
+vocab-0123,lv,seja,audio/lv/vocab-0123.mp3,,
+vocab-0123,ru,лицо,audio/ru/vocab-0123.mp3,lv-ru,content/readings/lv-ru/basic-13.json
+vocab-0123,en,face,audio/en/vocab-0123.mp3,ru-en,content/readings/ru-en/basic-13.json
+vocab-0123,ja,顔,audio/ja/vocab-0123.mp3,en-ja,content/readings/en-ja/basic-13.json
+vocab-0124,lv,acs,audio/lv/vocab-0124.mp3,,
+vocab-0124,ru,глаз,audio/ru/vocab-0124.mp3,lv-ru,content/readings/lv-ru/basic-13.json
+vocab-0124,en,eye,audio/en/vocab-0124.mp3,ru-en,content/readings/ru-en/basic-13.json
+vocab-0124,ja,目,audio/ja/vocab-0124.mp3,en-ja,content/readings/en-ja/basic-13.json
+vocab-0125,lv,auss,audio/lv/vocab-0125.mp3,,
+vocab-0125,ru,ухо,audio/ru/vocab-0125.mp3,lv-ru,content/readings/lv-ru/basic-13.json
+vocab-0125,en,ear,audio/en/vocab-0125.mp3,ru-en,content/readings/ru-en/basic-13.json
+vocab-0125,ja,耳,audio/ja/vocab-0125.mp3,en-ja,content/readings/en-ja/basic-13.json
+vocab-0126,lv,deguns,audio/lv/vocab-0126.mp3,,
+vocab-0126,ru,нос,audio/ru/vocab-0126.mp3,lv-ru,content/readings/lv-ru/basic-13.json
+vocab-0126,en,nose,audio/en/vocab-0126.mp3,ru-en,content/readings/ru-en/basic-13.json
+vocab-0126,ja,鼻,audio/ja/vocab-0126.mp3,en-ja,content/readings/en-ja/basic-13.json
+vocab-0127,lv,mute,audio/lv/vocab-0127.mp3,,
+vocab-0127,ru,рот,audio/ru/vocab-0127.mp3,lv-ru,content/readings/lv-ru/basic-13.json
+vocab-0127,en,mouth,audio/en/vocab-0127.mp3,ru-en,content/readings/ru-en/basic-13.json
+vocab-0127,ja,口,audio/ja/vocab-0127.mp3,en-ja,content/readings/en-ja/basic-13.json
+vocab-0128,lv,zobs,audio/lv/vocab-0128.mp3,,
+vocab-0128,ru,зуб,audio/ru/vocab-0128.mp3,lv-ru,content/readings/lv-ru/basic-13.json
+vocab-0128,en,tooth,audio/en/vocab-0128.mp3,ru-en,content/readings/ru-en/basic-13.json
+vocab-0128,ja,歯,audio/ja/vocab-0128.mp3,en-ja,content/readings/en-ja/basic-13.json
+vocab-0129,lv,mēle,audio/lv/vocab-0129.mp3,,
+vocab-0129,ru,язык,audio/ru/vocab-0129.mp3,lv-ru,content/readings/lv-ru/basic-13.json
+vocab-0129,en,tongue,audio/en/vocab-0129.mp3,ru-en,content/readings/ru-en/basic-13.json
+vocab-0129,ja,舌,audio/ja/vocab-0129.mp3,en-ja,content/readings/en-ja/basic-13.json
+vocab-0130,lv,kakls,audio/lv/vocab-0130.mp3,,
+vocab-0130,ru,шея,audio/ru/vocab-0130.mp3,lv-ru,content/readings/lv-ru/basic-13.json
+vocab-0130,en,neck,audio/en/vocab-0130.mp3,ru-en,content/readings/ru-en/basic-13.json
+vocab-0130,ja,首,audio/ja/vocab-0130.mp3,en-ja,content/readings/en-ja/basic-13.json
+vocab-0131,lv,plauksta,audio/lv/vocab-0131.mp3,,
+vocab-0131,ru,ладонь,audio/ru/vocab-0131.mp3,lv-ru,content/readings/lv-ru/basic-14.json
+vocab-0131,en,palm,audio/en/vocab-0131.mp3,ru-en,content/readings/ru-en/basic-14.json
+vocab-0131,ja,手のひら,audio/ja/vocab-0131.mp3,en-ja,content/readings/en-ja/basic-14.json
+vocab-0132,lv,roka,audio/lv/vocab-0132.mp3,,
+vocab-0132,ru,рука,audio/ru/vocab-0132.mp3,lv-ru,content/readings/lv-ru/basic-14.json
+vocab-0132,en,arm,audio/en/vocab-0132.mp3,ru-en,content/readings/ru-en/basic-14.json
+vocab-0132,ja,腕,audio/ja/vocab-0132.mp3,en-ja,content/readings/en-ja/basic-14.json
+vocab-0133,lv,pirksts,audio/lv/vocab-0133.mp3,,
+vocab-0133,ru,палец,audio/ru/vocab-0133.mp3,lv-ru,content/readings/lv-ru/basic-14.json
+vocab-0133,en,finger,audio/en/vocab-0133.mp3,ru-en,content/readings/ru-en/basic-14.json
+vocab-0133,ja,指,audio/ja/vocab-0133.mp3,en-ja,content/readings/en-ja/basic-14.json
+vocab-0134,lv,kāja,audio/lv/vocab-0134.mp3,,
+vocab-0134,ru,нога,audio/ru/vocab-0134.mp3,lv-ru,content/readings/lv-ru/basic-14.json
+vocab-0134,en,leg,audio/en/vocab-0134.mp3,ru-en,content/readings/ru-en/basic-14.json
+vocab-0134,ja,脚,audio/ja/vocab-0134.mp3,en-ja,content/readings/en-ja/basic-14.json
+vocab-0135,lv,pēda,audio/lv/vocab-0135.mp3,,
+vocab-0135,ru,стопа,audio/ru/vocab-0135.mp3,lv-ru,content/readings/lv-ru/basic-14.json
+vocab-0135,en,foot,audio/en/vocab-0135.mp3,ru-en,content/readings/ru-en/basic-14.json
+vocab-0135,ja,足,audio/ja/vocab-0135.mp3,en-ja,content/readings/en-ja/basic-14.json
+vocab-0136,lv,celis,audio/lv/vocab-0136.mp3,,
+vocab-0136,ru,колено,audio/ru/vocab-0136.mp3,lv-ru,content/readings/lv-ru/basic-14.json
+vocab-0136,en,knee,audio/en/vocab-0136.mp3,ru-en,content/readings/ru-en/basic-14.json
+vocab-0136,ja,膝,audio/ja/vocab-0136.mp3,en-ja,content/readings/en-ja/basic-14.json
+vocab-0137,lv,mugura,audio/lv/vocab-0137.mp3,,
+vocab-0137,ru,спина,audio/ru/vocab-0137.mp3,lv-ru,content/readings/lv-ru/basic-14.json
+vocab-0137,en,back,audio/en/vocab-0137.mp3,ru-en,content/readings/ru-en/basic-14.json
+vocab-0137,ja,背中,audio/ja/vocab-0137.mp3,en-ja,content/readings/en-ja/basic-14.json
+vocab-0138,lv,vēders,audio/lv/vocab-0138.mp3,,
+vocab-0138,ru,живот,audio/ru/vocab-0138.mp3,lv-ru,content/readings/lv-ru/basic-14.json
+vocab-0138,en,stomach,audio/en/vocab-0138.mp3,ru-en,content/readings/ru-en/basic-14.json
+vocab-0138,ja,お腹,audio/ja/vocab-0138.mp3,en-ja,content/readings/en-ja/basic-14.json
+vocab-0139,lv,plecs,audio/lv/vocab-0139.mp3,,
+vocab-0139,ru,плечо,audio/ru/vocab-0139.mp3,lv-ru,content/readings/lv-ru/basic-14.json
+vocab-0139,en,shoulder,audio/en/vocab-0139.mp3,ru-en,content/readings/ru-en/basic-14.json
+vocab-0139,ja,肩,audio/ja/vocab-0139.mp3,en-ja,content/readings/en-ja/basic-14.json
+vocab-0140,lv,āda,audio/lv/vocab-0140.mp3,,
+vocab-0140,ru,кожа,audio/ru/vocab-0140.mp3,lv-ru,content/readings/lv-ru/basic-14.json
+vocab-0140,en,skin,audio/en/vocab-0140.mp3,ru-en,content/readings/ru-en/basic-14.json
+vocab-0140,ja,皮膚,audio/ja/vocab-0140.mp3,en-ja,content/readings/en-ja/basic-14.json
+vocab-0141,lv,veselība,audio/lv/vocab-0141.mp3,,
+vocab-0141,ru,здоровье,audio/ru/vocab-0141.mp3,lv-ru,content/readings/lv-ru/basic-15.json
+vocab-0141,en,health,audio/en/vocab-0141.mp3,ru-en,content/readings/ru-en/basic-15.json
+vocab-0141,ja,健康,audio/ja/vocab-0141.mp3,en-ja,content/readings/en-ja/basic-15.json
+vocab-0142,lv,slimība,audio/lv/vocab-0142.mp3,,
+vocab-0142,ru,болезнь,audio/ru/vocab-0142.mp3,lv-ru,content/readings/lv-ru/basic-15.json
+vocab-0142,en,illness,audio/en/vocab-0142.mp3,ru-en,content/readings/ru-en/basic-15.json
+vocab-0142,ja,病気,audio/ja/vocab-0142.mp3,en-ja,content/readings/en-ja/basic-15.json
+vocab-0143,lv,saaukstēšanās,audio/lv/vocab-0143.mp3,,
+vocab-0143,ru,простуда,audio/ru/vocab-0143.mp3,lv-ru,content/readings/lv-ru/basic-15.json
+vocab-0143,en,a cold,audio/en/vocab-0143.mp3,ru-en,content/readings/ru-en/basic-15.json
+vocab-0143,ja,風邪,audio/ja/vocab-0143.mp3,en-ja,content/readings/en-ja/basic-15.json
+vocab-0144,lv,drudzis,audio/lv/vocab-0144.mp3,,
+vocab-0144,ru,лихорадка,audio/ru/vocab-0144.mp3,lv-ru,content/readings/lv-ru/basic-15.json
+vocab-0144,en,fever,audio/en/vocab-0144.mp3,ru-en,content/readings/ru-en/basic-15.json
+vocab-0144,ja,熱,audio/ja/vocab-0144.mp3,en-ja,content/readings/en-ja/basic-15.json
+vocab-0145,lv,klepus,audio/lv/vocab-0145.mp3,,
+vocab-0145,ru,кашель,audio/ru/vocab-0145.mp3,lv-ru,content/readings/lv-ru/basic-15.json
+vocab-0145,en,cough,audio/en/vocab-0145.mp3,ru-en,content/readings/ru-en/basic-15.json
+vocab-0145,ja,咳,audio/ja/vocab-0145.mp3,en-ja,content/readings/en-ja/basic-15.json
+vocab-0146,lv,zāles,audio/lv/vocab-0146.mp3,,
+vocab-0146,ru,лекарство,audio/ru/vocab-0146.mp3,lv-ru,content/readings/lv-ru/basic-15.json
+vocab-0146,en,medicine,audio/en/vocab-0146.mp3,ru-en,content/readings/ru-en/basic-15.json
+vocab-0146,ja,薬,audio/ja/vocab-0146.mp3,en-ja,content/readings/en-ja/basic-15.json
+vocab-0147,lv,tablete,audio/lv/vocab-0147.mp3,,
+vocab-0147,ru,таблетка,audio/ru/vocab-0147.mp3,lv-ru,content/readings/lv-ru/basic-15.json
+vocab-0147,en,tablet,audio/en/vocab-0147.mp3,ru-en,content/readings/ru-en/basic-15.json
+vocab-0147,ja,錠剤,audio/ja/vocab-0147.mp3,en-ja,content/readings/en-ja/basic-15.json
+vocab-0148,lv,plāksteris,audio/lv/vocab-0148.mp3,,
+vocab-0148,ru,пластырь,audio/ru/vocab-0148.mp3,lv-ru,content/readings/lv-ru/basic-15.json
+vocab-0148,en,plaster,audio/en/vocab-0148.mp3,ru-en,content/readings/ru-en/basic-15.json
+vocab-0148,ja,絆創膏,audio/ja/vocab-0148.mp3,en-ja,content/readings/en-ja/basic-15.json
+vocab-0149,lv,pārsējs,audio/lv/vocab-0149.mp3,,
+vocab-0149,ru,повязка,audio/ru/vocab-0149.mp3,lv-ru,content/readings/lv-ru/basic-15.json
+vocab-0149,en,bandage,audio/en/vocab-0149.mp3,ru-en,content/readings/ru-en/basic-15.json
+vocab-0149,ja,包帯,audio/ja/vocab-0149.mp3,en-ja,content/readings/en-ja/basic-15.json
+vocab-0150,lv,termometrs,audio/lv/vocab-0150.mp3,,
+vocab-0150,ru,термометр,audio/ru/vocab-0150.mp3,lv-ru,content/readings/lv-ru/basic-15.json
+vocab-0150,en,thermometer,audio/en/vocab-0150.mp3,ru-en,content/readings/ru-en/basic-15.json
+vocab-0150,ja,体温計,audio/ja/vocab-0150.mp3,en-ja,content/readings/en-ja/basic-15.json
+vocab-0151,lv,priecīgs,audio/lv/vocab-0151.mp3,,
+vocab-0151,ru,радостный,audio/ru/vocab-0151.mp3,lv-ru,content/readings/lv-ru/basic-16.json
+vocab-0151,en,happy,audio/en/vocab-0151.mp3,ru-en,content/readings/ru-en/basic-16.json
+vocab-0151,ja,嬉しい,audio/ja/vocab-0151.mp3,en-ja,content/readings/en-ja/basic-16.json
+vocab-0152,lv,bēdīgs,audio/lv/vocab-0152.mp3,,
+vocab-0152,ru,грустный,audio/ru/vocab-0152.mp3,lv-ru,content/readings/lv-ru/basic-16.json
+vocab-0152,en,sad,audio/en/vocab-0152.mp3,ru-en,content/readings/ru-en/basic-16.json
+vocab-0152,ja,悲しい,audio/ja/vocab-0152.mp3,en-ja,content/readings/en-ja/basic-16.json
+vocab-0153,lv,dusmīgs,audio/lv/vocab-0153.mp3,,
+vocab-0153,ru,сердитый,audio/ru/vocab-0153.mp3,lv-ru,content/readings/lv-ru/basic-16.json
+vocab-0153,en,angry,audio/en/vocab-0153.mp3,ru-en,content/readings/ru-en/basic-16.json
+vocab-0153,ja,怒っている,audio/ja/vocab-0153.mp3,en-ja,content/readings/en-ja/basic-16.json
+vocab-0154,lv,nobijies,audio/lv/vocab-0154.mp3,,
+vocab-0154,ru,испуганный,audio/ru/vocab-0154.mp3,lv-ru,content/readings/lv-ru/basic-16.json
+vocab-0154,en,afraid,audio/en/vocab-0154.mp3,ru-en,content/readings/ru-en/basic-16.json
+vocab-0154,ja,怖い,audio/ja/vocab-0154.mp3,en-ja,content/readings/en-ja/basic-16.json
+vocab-0155,lv,mierīgs,audio/lv/vocab-0155.mp3,,
+vocab-0155,ru,спокойный,audio/ru/vocab-0155.mp3,lv-ru,content/readings/lv-ru/basic-16.json
+vocab-0155,en,calm,audio/en/vocab-0155.mp3,ru-en,content/readings/ru-en/basic-16.json
+vocab-0155,ja,落ち着いている,audio/ja/vocab-0155.mp3,en-ja,content/readings/en-ja/basic-16.json
+vocab-0156,lv,noguris,audio/lv/vocab-0156.mp3,,
+vocab-0156,ru,уставший,audio/ru/vocab-0156.mp3,lv-ru,content/readings/lv-ru/basic-16.json
+vocab-0156,en,tired,audio/en/vocab-0156.mp3,ru-en,content/readings/ru-en/basic-16.json
+vocab-0156,ja,疲れた,audio/ja/vocab-0156.mp3,en-ja,content/readings/en-ja/basic-16.json
+vocab-0157,lv,izsalcis,audio/lv/vocab-0157.mp3,,
+vocab-0157,ru,голодный,audio/ru/vocab-0157.mp3,lv-ru,content/readings/lv-ru/basic-16.json
+vocab-0157,en,hungry,audio/en/vocab-0157.mp3,ru-en,content/readings/ru-en/basic-16.json
+vocab-0157,ja,お腹がすいた,audio/ja/vocab-0157.mp3,en-ja,content/readings/en-ja/basic-16.json
+vocab-0158,lv,izslāpis,audio/lv/vocab-0158.mp3,,
+vocab-0158,ru,испытывающий жажду,audio/ru/vocab-0158.mp3,lv-ru,content/readings/lv-ru/basic-16.json
+vocab-0158,en,thirsty,audio/en/vocab-0158.mp3,ru-en,content/readings/ru-en/basic-16.json
+vocab-0158,ja,喉が渇いた,audio/ja/vocab-0158.mp3,en-ja,content/readings/en-ja/basic-16.json
+vocab-0159,lv,garlaikots,audio/lv/vocab-0159.mp3,,
+vocab-0159,ru,скучающий,audio/ru/vocab-0159.mp3,lv-ru,content/readings/lv-ru/basic-16.json
+vocab-0159,en,bored,audio/en/vocab-0159.mp3,ru-en,content/readings/ru-en/basic-16.json
+vocab-0159,ja,退屈している,audio/ja/vocab-0159.mp3,en-ja,content/readings/en-ja/basic-16.json
+vocab-0160,lv,pārsteigts,audio/lv/vocab-0160.mp3,,
+vocab-0160,ru,удивлённый,audio/ru/vocab-0160.mp3,lv-ru,content/readings/lv-ru/basic-16.json
+vocab-0160,en,surprised,audio/en/vocab-0160.mp3,ru-en,content/readings/ru-en/basic-16.json
+vocab-0160,ja,驚いた,audio/ja/vocab-0160.mp3,en-ja,content/readings/en-ja/basic-16.json
+vocab-0161,lv,mētelis,audio/lv/vocab-0161.mp3,,
+vocab-0161,ru,пальто,audio/ru/vocab-0161.mp3,lv-ru,content/readings/lv-ru/basic-17.json
+vocab-0161,en,coat,audio/en/vocab-0161.mp3,ru-en,content/readings/ru-en/basic-17.json
+vocab-0161,ja,コート,audio/ja/vocab-0161.mp3,en-ja,content/readings/en-ja/basic-17.json
+vocab-0162,lv,jaka,audio/lv/vocab-0162.mp3,,
+vocab-0162,ru,куртка,audio/ru/vocab-0162.mp3,lv-ru,content/readings/lv-ru/basic-17.json
+vocab-0162,en,jacket,audio/en/vocab-0162.mp3,ru-en,content/readings/ru-en/basic-17.json
+vocab-0162,ja,ジャケット,audio/ja/vocab-0162.mp3,en-ja,content/readings/en-ja/basic-17.json
+vocab-0163,lv,krekls,audio/lv/vocab-0163.mp3,,
+vocab-0163,ru,рубашка,audio/ru/vocab-0163.mp3,lv-ru,content/readings/lv-ru/basic-17.json
+vocab-0163,en,shirt,audio/en/vocab-0163.mp3,ru-en,content/readings/ru-en/basic-17.json
+vocab-0163,ja,シャツ,audio/ja/vocab-0163.mp3,en-ja,content/readings/en-ja/basic-17.json
+vocab-0164,lv,bikses,audio/lv/vocab-0164.mp3,,
+vocab-0164,ru,брюки,audio/ru/vocab-0164.mp3,lv-ru,content/readings/lv-ru/basic-17.json
+vocab-0164,en,trousers,audio/en/vocab-0164.mp3,ru-en,content/readings/ru-en/basic-17.json
+vocab-0164,ja,ズボン,audio/ja/vocab-0164.mp3,en-ja,content/readings/en-ja/basic-17.json
+vocab-0165,lv,kleita,audio/lv/vocab-0165.mp3,,
+vocab-0165,ru,платье,audio/ru/vocab-0165.mp3,lv-ru,content/readings/lv-ru/basic-17.json
+vocab-0165,en,dress,audio/en/vocab-0165.mp3,ru-en,content/readings/ru-en/basic-17.json
+vocab-0165,ja,ワンピース,audio/ja/vocab-0165.mp3,en-ja,content/readings/en-ja/basic-17.json
+vocab-0166,lv,zeķes,audio/lv/vocab-0166.mp3,,
+vocab-0166,ru,носки,audio/ru/vocab-0166.mp3,lv-ru,content/readings/lv-ru/basic-17.json
+vocab-0166,en,socks,audio/en/vocab-0166.mp3,ru-en,content/readings/ru-en/basic-17.json
+vocab-0166,ja,靴下,audio/ja/vocab-0166.mp3,en-ja,content/readings/en-ja/basic-17.json
+vocab-0167,lv,apavi,audio/lv/vocab-0167.mp3,,
+vocab-0167,ru,обувь,audio/ru/vocab-0167.mp3,lv-ru,content/readings/lv-ru/basic-17.json
+vocab-0167,en,footwear,audio/en/vocab-0167.mp3,ru-en,content/readings/ru-en/basic-17.json
+vocab-0167,ja,履物,audio/ja/vocab-0167.mp3,en-ja,content/readings/en-ja/basic-17.json
+vocab-0168,lv,cepure,audio/lv/vocab-0168.mp3,,
+vocab-0168,ru,шапка,audio/ru/vocab-0168.mp3,lv-ru,content/readings/lv-ru/basic-17.json
+vocab-0168,en,hat,audio/en/vocab-0168.mp3,ru-en,content/readings/ru-en/basic-17.json
+vocab-0168,ja,帽子,audio/ja/vocab-0168.mp3,en-ja,content/readings/en-ja/basic-17.json
+vocab-0169,lv,šalle,audio/lv/vocab-0169.mp3,,
+vocab-0169,ru,шарф,audio/ru/vocab-0169.mp3,lv-ru,content/readings/lv-ru/basic-17.json
+vocab-0169,en,scarf,audio/en/vocab-0169.mp3,ru-en,content/readings/ru-en/basic-17.json
+vocab-0169,ja,マフラー,audio/ja/vocab-0169.mp3,en-ja,content/readings/en-ja/basic-17.json
+vocab-0170,lv,cimdi,audio/lv/vocab-0170.mp3,,
+vocab-0170,ru,перчатки,audio/ru/vocab-0170.mp3,lv-ru,content/readings/lv-ru/basic-17.json
+vocab-0170,en,gloves,audio/en/vocab-0170.mp3,ru-en,content/readings/ru-en/basic-17.json
+vocab-0170,ja,手袋,audio/ja/vocab-0170.mp3,en-ja,content/readings/en-ja/basic-17.json
+vocab-0171,lv,tālrunis,audio/lv/vocab-0171.mp3,,
+vocab-0171,ru,телефон,audio/ru/vocab-0171.mp3,lv-ru,content/readings/lv-ru/basic-18.json
+vocab-0171,en,phone,audio/en/vocab-0171.mp3,ru-en,content/readings/ru-en/basic-18.json
+vocab-0171,ja,電話,audio/ja/vocab-0171.mp3,en-ja,content/readings/en-ja/basic-18.json
+vocab-0172,lv,dators,audio/lv/vocab-0172.mp3,,
+vocab-0172,ru,компьютер,audio/ru/vocab-0172.mp3,lv-ru,content/readings/lv-ru/basic-18.json
+vocab-0172,en,computer,audio/en/vocab-0172.mp3,ru-en,content/readings/ru-en/basic-18.json
+vocab-0172,ja,コンピューター,audio/ja/vocab-0172.mp3,en-ja,content/readings/en-ja/basic-18.json
+vocab-0173,lv,ekrāns,audio/lv/vocab-0173.mp3,,
+vocab-0173,ru,экран,audio/ru/vocab-0173.mp3,lv-ru,content/readings/lv-ru/basic-18.json
+vocab-0173,en,screen,audio/en/vocab-0173.mp3,ru-en,content/readings/ru-en/basic-18.json
+vocab-0173,ja,画面,audio/ja/vocab-0173.mp3,en-ja,content/readings/en-ja/basic-18.json
+vocab-0174,lv,tastatūra,audio/lv/vocab-0174.mp3,,
+vocab-0174,ru,клавиатура,audio/ru/vocab-0174.mp3,lv-ru,content/readings/lv-ru/basic-18.json
+vocab-0174,en,keyboard,audio/en/vocab-0174.mp3,ru-en,content/readings/ru-en/basic-18.json
+vocab-0174,ja,キーボード,audio/ja/vocab-0174.mp3,en-ja,content/readings/en-ja/basic-18.json
+vocab-0175,lv,datorpele,audio/lv/vocab-0175.mp3,,
+vocab-0175,ru,компьютерная мышь,audio/ru/vocab-0175.mp3,lv-ru,content/readings/lv-ru/basic-18.json
+vocab-0175,en,mouse,audio/en/vocab-0175.mp3,ru-en,content/readings/ru-en/basic-18.json
+vocab-0175,ja,マウス,audio/ja/vocab-0175.mp3,en-ja,content/readings/en-ja/basic-18.json
+vocab-0176,lv,lādētājs,audio/lv/vocab-0176.mp3,,
+vocab-0176,ru,зарядное устройство,audio/ru/vocab-0176.mp3,lv-ru,content/readings/lv-ru/basic-18.json
+vocab-0176,en,charger,audio/en/vocab-0176.mp3,ru-en,content/readings/ru-en/basic-18.json
+vocab-0176,ja,充電器,audio/ja/vocab-0176.mp3,en-ja,content/readings/en-ja/basic-18.json
+vocab-0177,lv,baterija,audio/lv/vocab-0177.mp3,,
+vocab-0177,ru,батарейка,audio/ru/vocab-0177.mp3,lv-ru,content/readings/lv-ru/basic-18.json
+vocab-0177,en,battery,audio/en/vocab-0177.mp3,ru-en,content/readings/ru-en/basic-18.json
+vocab-0177,ja,電池,audio/ja/vocab-0177.mp3,en-ja,content/readings/en-ja/basic-18.json
+vocab-0178,lv,ziņa,audio/lv/vocab-0178.mp3,,
+vocab-0178,ru,сообщение,audio/ru/vocab-0178.mp3,lv-ru,content/readings/lv-ru/basic-18.json
+vocab-0178,en,message,audio/en/vocab-0178.mp3,ru-en,content/readings/ru-en/basic-18.json
+vocab-0178,ja,メッセージ,audio/ja/vocab-0178.mp3,en-ja,content/readings/en-ja/basic-18.json
+vocab-0179,lv,fotogrāfija,audio/lv/vocab-0179.mp3,,
+vocab-0179,ru,фотография,audio/ru/vocab-0179.mp3,lv-ru,content/readings/lv-ru/basic-18.json
+vocab-0179,en,photo,audio/en/vocab-0179.mp3,ru-en,content/readings/ru-en/basic-18.json
+vocab-0179,ja,写真,audio/ja/vocab-0179.mp3,en-ja,content/readings/en-ja/basic-18.json
+vocab-0180,lv,internets,audio/lv/vocab-0180.mp3,,
+vocab-0180,ru,интернет,audio/ru/vocab-0180.mp3,lv-ru,content/readings/lv-ru/basic-18.json
+vocab-0180,en,internet,audio/en/vocab-0180.mp3,ru-en,content/readings/ru-en/basic-18.json
+vocab-0180,ja,インターネット,audio/ja/vocab-0180.mp3,en-ja,content/readings/en-ja/basic-18.json
+vocab-0181,lv,durvis,audio/lv/vocab-0181.mp3,,
+vocab-0181,ru,дверь,audio/ru/vocab-0181.mp3,lv-ru,content/readings/lv-ru/basic-19.json
+vocab-0181,en,door,audio/en/vocab-0181.mp3,ru-en,content/readings/ru-en/basic-19.json
+vocab-0181,ja,ドア,audio/ja/vocab-0181.mp3,en-ja,content/readings/en-ja/basic-19.json
+vocab-0182,lv,logs,audio/lv/vocab-0182.mp3,,
+vocab-0182,ru,окно,audio/ru/vocab-0182.mp3,lv-ru,content/readings/lv-ru/basic-19.json
+vocab-0182,en,window,audio/en/vocab-0182.mp3,ru-en,content/readings/ru-en/basic-19.json
+vocab-0182,ja,窓,audio/ja/vocab-0182.mp3,en-ja,content/readings/en-ja/basic-19.json
+vocab-0183,lv,siena,audio/lv/vocab-0183.mp3,,
+vocab-0183,ru,стена,audio/ru/vocab-0183.mp3,lv-ru,content/readings/lv-ru/basic-19.json
+vocab-0183,en,wall,audio/en/vocab-0183.mp3,ru-en,content/readings/ru-en/basic-19.json
+vocab-0183,ja,壁,audio/ja/vocab-0183.mp3,en-ja,content/readings/en-ja/basic-19.json
+vocab-0184,lv,grīda,audio/lv/vocab-0184.mp3,,
+vocab-0184,ru,пол,audio/ru/vocab-0184.mp3,lv-ru,content/readings/lv-ru/basic-19.json
+vocab-0184,en,floor,audio/en/vocab-0184.mp3,ru-en,content/readings/ru-en/basic-19.json
+vocab-0184,ja,床,audio/ja/vocab-0184.mp3,en-ja,content/readings/en-ja/basic-19.json
+vocab-0185,lv,griesti,audio/lv/vocab-0185.mp3,,
+vocab-0185,ru,потолок,audio/ru/vocab-0185.mp3,lv-ru,content/readings/lv-ru/basic-19.json
+vocab-0185,en,ceiling,audio/en/vocab-0185.mp3,ru-en,content/readings/ru-en/basic-19.json
+vocab-0185,ja,天井,audio/ja/vocab-0185.mp3,en-ja,content/readings/en-ja/basic-19.json
+vocab-0186,lv,jumts,audio/lv/vocab-0186.mp3,,
+vocab-0186,ru,крыша,audio/ru/vocab-0186.mp3,lv-ru,content/readings/lv-ru/basic-19.json
+vocab-0186,en,roof,audio/en/vocab-0186.mp3,ru-en,content/readings/ru-en/basic-19.json
+vocab-0186,ja,屋根,audio/ja/vocab-0186.mp3,en-ja,content/readings/en-ja/basic-19.json
+vocab-0187,lv,kāpnes,audio/lv/vocab-0187.mp3,,
+vocab-0187,ru,лестница,audio/ru/vocab-0187.mp3,lv-ru,content/readings/lv-ru/basic-19.json
+vocab-0187,en,stairs,audio/en/vocab-0187.mp3,ru-en,content/readings/ru-en/basic-19.json
+vocab-0187,ja,階段,audio/ja/vocab-0187.mp3,en-ja,content/readings/en-ja/basic-19.json
+vocab-0188,lv,istaba,audio/lv/vocab-0188.mp3,,
+vocab-0188,ru,комната,audio/ru/vocab-0188.mp3,lv-ru,content/readings/lv-ru/basic-19.json
+vocab-0188,en,room,audio/en/vocab-0188.mp3,ru-en,content/readings/ru-en/basic-19.json
+vocab-0188,ja,部屋,audio/ja/vocab-0188.mp3,en-ja,content/readings/en-ja/basic-19.json
+vocab-0189,lv,virtuve,audio/lv/vocab-0189.mp3,,
+vocab-0189,ru,кухня,audio/ru/vocab-0189.mp3,lv-ru,content/readings/lv-ru/basic-19.json
+vocab-0189,en,kitchen,audio/en/vocab-0189.mp3,ru-en,content/readings/ru-en/basic-19.json
+vocab-0189,ja,台所,audio/ja/vocab-0189.mp3,en-ja,content/readings/en-ja/basic-19.json
+vocab-0190,lv,vannasistaba,audio/lv/vocab-0190.mp3,,
+vocab-0190,ru,ванная комната,audio/ru/vocab-0190.mp3,lv-ru,content/readings/lv-ru/basic-19.json
+vocab-0190,en,bathroom,audio/en/vocab-0190.mp3,ru-en,content/readings/ru-en/basic-19.json
+vocab-0190,ja,浴室,audio/ja/vocab-0190.mp3,en-ja,content/readings/en-ja/basic-19.json
+vocab-0191,lv,gulta,audio/lv/vocab-0191.mp3,,
+vocab-0191,ru,кровать,audio/ru/vocab-0191.mp3,lv-ru,content/readings/lv-ru/basic-20.json
+vocab-0191,en,bed,audio/en/vocab-0191.mp3,ru-en,content/readings/ru-en/basic-20.json
+vocab-0191,ja,ベッド,audio/ja/vocab-0191.mp3,en-ja,content/readings/en-ja/basic-20.json
+vocab-0192,lv,galds,audio/lv/vocab-0192.mp3,,
+vocab-0192,ru,стол,audio/ru/vocab-0192.mp3,lv-ru,content/readings/lv-ru/basic-20.json
+vocab-0192,en,table,audio/en/vocab-0192.mp3,ru-en,content/readings/ru-en/basic-20.json
+vocab-0192,ja,テーブル,audio/ja/vocab-0192.mp3,en-ja,content/readings/en-ja/basic-20.json
+vocab-0193,lv,dīvāns,audio/lv/vocab-0193.mp3,,
+vocab-0193,ru,диван,audio/ru/vocab-0193.mp3,lv-ru,content/readings/lv-ru/basic-20.json
+vocab-0193,en,sofa,audio/en/vocab-0193.mp3,ru-en,content/readings/ru-en/basic-20.json
+vocab-0193,ja,ソファー,audio/ja/vocab-0193.mp3,en-ja,content/readings/en-ja/basic-20.json
+vocab-0194,lv,skapis,audio/lv/vocab-0194.mp3,,
+vocab-0194,ru,шкаф,audio/ru/vocab-0194.mp3,lv-ru,content/readings/lv-ru/basic-20.json
+vocab-0194,en,wardrobe,audio/en/vocab-0194.mp3,ru-en,content/readings/ru-en/basic-20.json
+vocab-0194,ja,洋服だんす,audio/ja/vocab-0194.mp3,en-ja,content/readings/en-ja/basic-20.json
+vocab-0195,lv,plaukts,audio/lv/vocab-0195.mp3,,
+vocab-0195,ru,полка,audio/ru/vocab-0195.mp3,lv-ru,content/readings/lv-ru/basic-20.json
+vocab-0195,en,shelf,audio/en/vocab-0195.mp3,ru-en,content/readings/ru-en/basic-20.json
+vocab-0195,ja,棚,audio/ja/vocab-0195.mp3,en-ja,content/readings/en-ja/basic-20.json
+vocab-0196,lv,spogulis,audio/lv/vocab-0196.mp3,,
+vocab-0196,ru,зеркало,audio/ru/vocab-0196.mp3,lv-ru,content/readings/lv-ru/basic-20.json
+vocab-0196,en,mirror,audio/en/vocab-0196.mp3,ru-en,content/readings/ru-en/basic-20.json
+vocab-0196,ja,鏡,audio/ja/vocab-0196.mp3,en-ja,content/readings/en-ja/basic-20.json
+vocab-0197,lv,lampa,audio/lv/vocab-0197.mp3,,
+vocab-0197,ru,лампа,audio/ru/vocab-0197.mp3,lv-ru,content/readings/lv-ru/basic-20.json
+vocab-0197,en,lamp,audio/en/vocab-0197.mp3,ru-en,content/readings/ru-en/basic-20.json
+vocab-0197,ja,ランプ,audio/ja/vocab-0197.mp3,en-ja,content/readings/en-ja/basic-20.json
+vocab-0198,lv,paklājs,audio/lv/vocab-0198.mp3,,
+vocab-0198,ru,ковёр,audio/ru/vocab-0198.mp3,lv-ru,content/readings/lv-ru/basic-20.json
+vocab-0198,en,carpet,audio/en/vocab-0198.mp3,ru-en,content/readings/ru-en/basic-20.json
+vocab-0198,ja,じゅうたん,audio/ja/vocab-0198.mp3,en-ja,content/readings/en-ja/basic-20.json
+vocab-0199,lv,sega,audio/lv/vocab-0199.mp3,,
+vocab-0199,ru,одеяло,audio/ru/vocab-0199.mp3,lv-ru,content/readings/lv-ru/basic-20.json
+vocab-0199,en,blanket,audio/en/vocab-0199.mp3,ru-en,content/readings/ru-en/basic-20.json
+vocab-0199,ja,毛布,audio/ja/vocab-0199.mp3,en-ja,content/readings/en-ja/basic-20.json
+vocab-0200,lv,spilvens,audio/lv/vocab-0200.mp3,,
+vocab-0200,ru,подушка,audio/ru/vocab-0200.mp3,lv-ru,content/readings/lv-ru/basic-20.json
+vocab-0200,en,pillow,audio/en/vocab-0200.mp3,ru-en,content/readings/ru-en/basic-20.json
+vocab-0200,ja,枕,audio/ja/vocab-0200.mp3,en-ja,content/readings/en-ja/basic-20.json
+vocab-0201,lv,šķīvis,audio/lv/vocab-0201.mp3,,
+vocab-0201,ru,тарелка,audio/ru/vocab-0201.mp3,lv-ru,content/readings/lv-ru/basic-21.json
+vocab-0201,en,plate,audio/en/vocab-0201.mp3,ru-en,content/readings/ru-en/basic-21.json
+vocab-0201,ja,皿,audio/ja/vocab-0201.mp3,en-ja,content/readings/en-ja/basic-21.json
+vocab-0202,lv,tase,audio/lv/vocab-0202.mp3,,
+vocab-0202,ru,чашка,audio/ru/vocab-0202.mp3,lv-ru,content/readings/lv-ru/basic-21.json
+vocab-0202,en,cup,audio/en/vocab-0202.mp3,ru-en,content/readings/ru-en/basic-21.json
+vocab-0202,ja,カップ,audio/ja/vocab-0202.mp3,en-ja,content/readings/en-ja/basic-21.json
+vocab-0203,lv,glāze,audio/lv/vocab-0203.mp3,,
+vocab-0203,ru,стакан,audio/ru/vocab-0203.mp3,lv-ru,content/readings/lv-ru/basic-21.json
+vocab-0203,en,glass,audio/en/vocab-0203.mp3,ru-en,content/readings/ru-en/basic-21.json
+vocab-0203,ja,ガラスのコップ,audio/ja/vocab-0203.mp3,en-ja,content/readings/en-ja/basic-21.json
+vocab-0204,lv,bļoda,audio/lv/vocab-0204.mp3,,
+vocab-0204,ru,миска,audio/ru/vocab-0204.mp3,lv-ru,content/readings/lv-ru/basic-21.json
+vocab-0204,en,bowl,audio/en/vocab-0204.mp3,ru-en,content/readings/ru-en/basic-21.json
+vocab-0204,ja,ボウル,audio/ja/vocab-0204.mp3,en-ja,content/readings/en-ja/basic-21.json
+vocab-0205,lv,karote,audio/lv/vocab-0205.mp3,,
+vocab-0205,ru,ложка,audio/ru/vocab-0205.mp3,lv-ru,content/readings/lv-ru/basic-21.json
+vocab-0205,en,spoon,audio/en/vocab-0205.mp3,ru-en,content/readings/ru-en/basic-21.json
+vocab-0205,ja,スプーン,audio/ja/vocab-0205.mp3,en-ja,content/readings/en-ja/basic-21.json
+vocab-0206,lv,dakša,audio/lv/vocab-0206.mp3,,
+vocab-0206,ru,вилка,audio/ru/vocab-0206.mp3,lv-ru,content/readings/lv-ru/basic-21.json
+vocab-0206,en,fork,audio/en/vocab-0206.mp3,ru-en,content/readings/ru-en/basic-21.json
+vocab-0206,ja,フォーク,audio/ja/vocab-0206.mp3,en-ja,content/readings/en-ja/basic-21.json
+vocab-0207,lv,nazis,audio/lv/vocab-0207.mp3,,
+vocab-0207,ru,нож,audio/ru/vocab-0207.mp3,lv-ru,content/readings/lv-ru/basic-21.json
+vocab-0207,en,knife,audio/en/vocab-0207.mp3,ru-en,content/readings/ru-en/basic-21.json
+vocab-0207,ja,ナイフ,audio/ja/vocab-0207.mp3,en-ja,content/readings/en-ja/basic-21.json
+vocab-0208,lv,pudele,audio/lv/vocab-0208.mp3,,
+vocab-0208,ru,бутылка,audio/ru/vocab-0208.mp3,lv-ru,content/readings/lv-ru/basic-21.json
+vocab-0208,en,bottle,audio/en/vocab-0208.mp3,ru-en,content/readings/ru-en/basic-21.json
+vocab-0208,ja,瓶,audio/ja/vocab-0208.mp3,en-ja,content/readings/en-ja/basic-21.json
+vocab-0209,lv,katls,audio/lv/vocab-0209.mp3,,
+vocab-0209,ru,кастрюля,audio/ru/vocab-0209.mp3,lv-ru,content/readings/lv-ru/basic-21.json
+vocab-0209,en,pot,audio/en/vocab-0209.mp3,ru-en,content/readings/ru-en/basic-21.json
+vocab-0209,ja,鍋,audio/ja/vocab-0209.mp3,en-ja,content/readings/en-ja/basic-21.json
+vocab-0210,lv,panna,audio/lv/vocab-0210.mp3,,
+vocab-0210,ru,сковорода,audio/ru/vocab-0210.mp3,lv-ru,content/readings/lv-ru/basic-21.json
+vocab-0210,en,pan,audio/en/vocab-0210.mp3,ru-en,content/readings/ru-en/basic-21.json
+vocab-0210,ja,フライパン,audio/ja/vocab-0210.mp3,en-ja,content/readings/en-ja/basic-21.json
+vocab-0211,lv,ziepes,audio/lv/vocab-0211.mp3,,
+vocab-0211,ru,мыло,audio/ru/vocab-0211.mp3,lv-ru,content/readings/lv-ru/basic-22.json
+vocab-0211,en,soap,audio/en/vocab-0211.mp3,ru-en,content/readings/ru-en/basic-22.json
+vocab-0211,ja,石けん,audio/ja/vocab-0211.mp3,en-ja,content/readings/en-ja/basic-22.json
+vocab-0212,lv,dvielis,audio/lv/vocab-0212.mp3,,
+vocab-0212,ru,полотенце,audio/ru/vocab-0212.mp3,lv-ru,content/readings/lv-ru/basic-22.json
+vocab-0212,en,towel,audio/en/vocab-0212.mp3,ru-en,content/readings/ru-en/basic-22.json
+vocab-0212,ja,タオル,audio/ja/vocab-0212.mp3,en-ja,content/readings/en-ja/basic-22.json
+vocab-0213,lv,zobu suka,audio/lv/vocab-0213.mp3,,
+vocab-0213,ru,зубная щётка,audio/ru/vocab-0213.mp3,lv-ru,content/readings/lv-ru/basic-22.json
+vocab-0213,en,toothbrush,audio/en/vocab-0213.mp3,ru-en,content/readings/ru-en/basic-22.json
+vocab-0213,ja,歯ブラシ,audio/ja/vocab-0213.mp3,en-ja,content/readings/en-ja/basic-22.json
+vocab-0214,lv,zobu pasta,audio/lv/vocab-0214.mp3,,
+vocab-0214,ru,зубная паста,audio/ru/vocab-0214.mp3,lv-ru,content/readings/lv-ru/basic-22.json
+vocab-0214,en,toothpaste,audio/en/vocab-0214.mp3,ru-en,content/readings/ru-en/basic-22.json
+vocab-0214,ja,歯磨き粉,audio/ja/vocab-0214.mp3,en-ja,content/readings/en-ja/basic-22.json
+vocab-0215,lv,šampūns,audio/lv/vocab-0215.mp3,,
+vocab-0215,ru,шампунь,audio/ru/vocab-0215.mp3,lv-ru,content/readings/lv-ru/basic-22.json
+vocab-0215,en,shampoo,audio/en/vocab-0215.mp3,ru-en,content/readings/ru-en/basic-22.json
+vocab-0215,ja,シャンプー,audio/ja/vocab-0215.mp3,en-ja,content/readings/en-ja/basic-22.json
+vocab-0216,lv,ķemme,audio/lv/vocab-0216.mp3,,
+vocab-0216,ru,расчёска,audio/ru/vocab-0216.mp3,lv-ru,content/readings/lv-ru/basic-22.json
+vocab-0216,en,comb,audio/en/vocab-0216.mp3,ru-en,content/readings/ru-en/basic-22.json
+vocab-0216,ja,くし,audio/ja/vocab-0216.mp3,en-ja,content/readings/en-ja/basic-22.json
+vocab-0217,lv,duša,audio/lv/vocab-0217.mp3,,
+vocab-0217,ru,душ,audio/ru/vocab-0217.mp3,lv-ru,content/readings/lv-ru/basic-22.json
+vocab-0217,en,shower,audio/en/vocab-0217.mp3,ru-en,content/readings/ru-en/basic-22.json
+vocab-0217,ja,シャワー,audio/ja/vocab-0217.mp3,en-ja,content/readings/en-ja/basic-22.json
+vocab-0218,lv,vanna,audio/lv/vocab-0218.mp3,,
+vocab-0218,ru,ванна,audio/ru/vocab-0218.mp3,lv-ru,content/readings/lv-ru/basic-22.json
+vocab-0218,en,bath,audio/en/vocab-0218.mp3,ru-en,content/readings/ru-en/basic-22.json
+vocab-0218,ja,風呂,audio/ja/vocab-0218.mp3,en-ja,content/readings/en-ja/basic-22.json
+vocab-0219,lv,tualetes papīrs,audio/lv/vocab-0219.mp3,,
+vocab-0219,ru,туалетная бумага,audio/ru/vocab-0219.mp3,lv-ru,content/readings/lv-ru/basic-22.json
+vocab-0219,en,toilet paper,audio/en/vocab-0219.mp3,ru-en,content/readings/ru-en/basic-22.json
+vocab-0219,ja,トイレットペーパー,audio/ja/vocab-0219.mp3,en-ja,content/readings/en-ja/basic-22.json
+vocab-0220,lv,papīra kabatlakatiņš,audio/lv/vocab-0220.mp3,,
+vocab-0220,ru,бумажный платок,audio/ru/vocab-0220.mp3,lv-ru,content/readings/lv-ru/basic-22.json
+vocab-0220,en,tissue,audio/en/vocab-0220.mp3,ru-en,content/readings/ru-en/basic-22.json
+vocab-0220,ja,ティッシュ,audio/ja/vocab-0220.mp3,en-ja,content/readings/en-ja/basic-22.json
+vocab-0221,lv,bumbieris,audio/lv/vocab-0221.mp3,,
+vocab-0221,ru,груша,audio/ru/vocab-0221.mp3,lv-ru,content/readings/lv-ru/basic-23.json
+vocab-0221,en,pear,audio/en/vocab-0221.mp3,ru-en,content/readings/ru-en/basic-23.json
+vocab-0221,ja,梨,audio/ja/vocab-0221.mp3,en-ja,content/readings/en-ja/basic-23.json
+vocab-0222,lv,apelsīns,audio/lv/vocab-0222.mp3,,
+vocab-0222,ru,апельсин,audio/ru/vocab-0222.mp3,lv-ru,content/readings/lv-ru/basic-23.json
+vocab-0222,en,orange,audio/en/vocab-0222.mp3,ru-en,content/readings/ru-en/basic-23.json
+vocab-0222,ja,オレンジ,audio/ja/vocab-0222.mp3,en-ja,content/readings/en-ja/basic-23.json
+vocab-0223,lv,citrons,audio/lv/vocab-0223.mp3,,
+vocab-0223,ru,лимон,audio/ru/vocab-0223.mp3,lv-ru,content/readings/lv-ru/basic-23.json
+vocab-0223,en,lemon,audio/en/vocab-0223.mp3,ru-en,content/readings/ru-en/basic-23.json
+vocab-0223,ja,レモン,audio/ja/vocab-0223.mp3,en-ja,content/readings/en-ja/basic-23.json
+vocab-0224,lv,vīnogas,audio/lv/vocab-0224.mp3,,
+vocab-0224,ru,виноград,audio/ru/vocab-0224.mp3,lv-ru,content/readings/lv-ru/basic-23.json
+vocab-0224,en,grapes,audio/en/vocab-0224.mp3,ru-en,content/readings/ru-en/basic-23.json
+vocab-0224,ja,ぶどう,audio/ja/vocab-0224.mp3,en-ja,content/readings/en-ja/basic-23.json
+vocab-0225,lv,zemene,audio/lv/vocab-0225.mp3,,
+vocab-0225,ru,клубника,audio/ru/vocab-0225.mp3,lv-ru,content/readings/lv-ru/basic-23.json
+vocab-0225,en,strawberry,audio/en/vocab-0225.mp3,ru-en,content/readings/ru-en/basic-23.json
+vocab-0225,ja,いちご,audio/ja/vocab-0225.mp3,en-ja,content/readings/en-ja/basic-23.json
+vocab-0226,lv,avene,audio/lv/vocab-0226.mp3,,
+vocab-0226,ru,малина,audio/ru/vocab-0226.mp3,lv-ru,content/readings/lv-ru/basic-23.json
+vocab-0226,en,raspberry,audio/en/vocab-0226.mp3,ru-en,content/readings/ru-en/basic-23.json
+vocab-0226,ja,ラズベリー,audio/ja/vocab-0226.mp3,en-ja,content/readings/en-ja/basic-23.json
+vocab-0227,lv,ķirsis,audio/lv/vocab-0227.mp3,,
+vocab-0227,ru,вишня,audio/ru/vocab-0227.mp3,lv-ru,content/readings/lv-ru/basic-23.json
+vocab-0227,en,cherry,audio/en/vocab-0227.mp3,ru-en,content/readings/ru-en/basic-23.json
+vocab-0227,ja,さくらんぼ,audio/ja/vocab-0227.mp3,en-ja,content/readings/en-ja/basic-23.json
+vocab-0228,lv,plūme,audio/lv/vocab-0228.mp3,,
+vocab-0228,ru,слива,audio/ru/vocab-0228.mp3,lv-ru,content/readings/lv-ru/basic-23.json
+vocab-0228,en,plum,audio/en/vocab-0228.mp3,ru-en,content/readings/ru-en/basic-23.json
+vocab-0228,ja,すもも,audio/ja/vocab-0228.mp3,en-ja,content/readings/en-ja/basic-23.json
+vocab-0229,lv,persiks,audio/lv/vocab-0229.mp3,,
+vocab-0229,ru,персик,audio/ru/vocab-0229.mp3,lv-ru,content/readings/lv-ru/basic-23.json
+vocab-0229,en,peach,audio/en/vocab-0229.mp3,ru-en,content/readings/ru-en/basic-23.json
+vocab-0229,ja,桃,audio/ja/vocab-0229.mp3,en-ja,content/readings/en-ja/basic-23.json
+vocab-0230,lv,arbūzs,audio/lv/vocab-0230.mp3,,
+vocab-0230,ru,арбуз,audio/ru/vocab-0230.mp3,lv-ru,content/readings/lv-ru/basic-23.json
+vocab-0230,en,watermelon,audio/en/vocab-0230.mp3,ru-en,content/readings/ru-en/basic-23.json
+vocab-0230,ja,すいか,audio/ja/vocab-0230.mp3,en-ja,content/readings/en-ja/basic-23.json
+vocab-0231,lv,kartupelis,audio/lv/vocab-0231.mp3,,
+vocab-0231,ru,картофель,audio/ru/vocab-0231.mp3,lv-ru,content/readings/lv-ru/basic-24.json
+vocab-0231,en,potato,audio/en/vocab-0231.mp3,ru-en,content/readings/ru-en/basic-24.json
+vocab-0231,ja,じゃがいも,audio/ja/vocab-0231.mp3,en-ja,content/readings/en-ja/basic-24.json
+vocab-0232,lv,burkāns,audio/lv/vocab-0232.mp3,,
+vocab-0232,ru,морковь,audio/ru/vocab-0232.mp3,lv-ru,content/readings/lv-ru/basic-24.json
+vocab-0232,en,carrot,audio/en/vocab-0232.mp3,ru-en,content/readings/ru-en/basic-24.json
+vocab-0232,ja,にんじん,audio/ja/vocab-0232.mp3,en-ja,content/readings/en-ja/basic-24.json
+vocab-0233,lv,tomāts,audio/lv/vocab-0233.mp3,,
+vocab-0233,ru,помидор,audio/ru/vocab-0233.mp3,lv-ru,content/readings/lv-ru/basic-24.json
+vocab-0233,en,tomato,audio/en/vocab-0233.mp3,ru-en,content/readings/ru-en/basic-24.json
+vocab-0233,ja,トマト,audio/ja/vocab-0233.mp3,en-ja,content/readings/en-ja/basic-24.json
+vocab-0234,lv,gurķis,audio/lv/vocab-0234.mp3,,
+vocab-0234,ru,огурец,audio/ru/vocab-0234.mp3,lv-ru,content/readings/lv-ru/basic-24.json
+vocab-0234,en,cucumber,audio/en/vocab-0234.mp3,ru-en,content/readings/ru-en/basic-24.json
+vocab-0234,ja,きゅうり,audio/ja/vocab-0234.mp3,en-ja,content/readings/en-ja/basic-24.json
+vocab-0235,lv,sīpols,audio/lv/vocab-0235.mp3,,
+vocab-0235,ru,лук,audio/ru/vocab-0235.mp3,lv-ru,content/readings/lv-ru/basic-24.json
+vocab-0235,en,onion,audio/en/vocab-0235.mp3,ru-en,content/readings/ru-en/basic-24.json
+vocab-0235,ja,玉ねぎ,audio/ja/vocab-0235.mp3,en-ja,content/readings/en-ja/basic-24.json
+vocab-0236,lv,ķiploks,audio/lv/vocab-0236.mp3,,
+vocab-0236,ru,чеснок,audio/ru/vocab-0236.mp3,lv-ru,content/readings/lv-ru/basic-24.json
+vocab-0236,en,garlic,audio/en/vocab-0236.mp3,ru-en,content/readings/ru-en/basic-24.json
+vocab-0236,ja,にんにく,audio/ja/vocab-0236.mp3,en-ja,content/readings/en-ja/basic-24.json
+vocab-0237,lv,kāposts,audio/lv/vocab-0237.mp3,,
+vocab-0237,ru,капуста,audio/ru/vocab-0237.mp3,lv-ru,content/readings/lv-ru/basic-24.json
+vocab-0237,en,cabbage,audio/en/vocab-0237.mp3,ru-en,content/readings/ru-en/basic-24.json
+vocab-0237,ja,キャベツ,audio/ja/vocab-0237.mp3,en-ja,content/readings/en-ja/basic-24.json
+vocab-0238,lv,paprika,audio/lv/vocab-0238.mp3,,
+vocab-0238,ru,сладкий перец,audio/ru/vocab-0238.mp3,lv-ru,content/readings/lv-ru/basic-24.json
+vocab-0238,en,pepper,audio/en/vocab-0238.mp3,ru-en,content/readings/ru-en/basic-24.json
+vocab-0238,ja,ピーマン,audio/ja/vocab-0238.mp3,en-ja,content/readings/en-ja/basic-24.json
+vocab-0239,lv,zirņi,audio/lv/vocab-0239.mp3,,
+vocab-0239,ru,горох,audio/ru/vocab-0239.mp3,lv-ru,content/readings/lv-ru/basic-24.json
+vocab-0239,en,peas,audio/en/vocab-0239.mp3,ru-en,content/readings/ru-en/basic-24.json
+vocab-0239,ja,えんどう豆,audio/ja/vocab-0239.mp3,en-ja,content/readings/en-ja/basic-24.json
+vocab-0240,lv,pupas,audio/lv/vocab-0240.mp3,,
+vocab-0240,ru,фасоль,audio/ru/vocab-0240.mp3,lv-ru,content/readings/lv-ru/basic-24.json
+vocab-0240,en,beans,audio/en/vocab-0240.mp3,ru-en,content/readings/ru-en/basic-24.json
+vocab-0240,ja,豆,audio/ja/vocab-0240.mp3,en-ja,content/readings/en-ja/basic-24.json
+vocab-0241,lv,rīsi,audio/lv/vocab-0241.mp3,,
+vocab-0241,ru,рис,audio/ru/vocab-0241.mp3,lv-ru,content/readings/lv-ru/basic-25.json
+vocab-0241,en,rice,audio/en/vocab-0241.mp3,ru-en,content/readings/ru-en/basic-25.json
+vocab-0241,ja,米,audio/ja/vocab-0241.mp3,en-ja,content/readings/en-ja/basic-25.json
+vocab-0242,lv,makaroni,audio/lv/vocab-0242.mp3,,
+vocab-0242,ru,макароны,audio/ru/vocab-0242.mp3,lv-ru,content/readings/lv-ru/basic-25.json
+vocab-0242,en,pasta,audio/en/vocab-0242.mp3,ru-en,content/readings/ru-en/basic-25.json
+vocab-0242,ja,パスタ,audio/ja/vocab-0242.mp3,en-ja,content/readings/en-ja/basic-25.json
+vocab-0243,lv,gaļa,audio/lv/vocab-0243.mp3,,
+vocab-0243,ru,мясо,audio/ru/vocab-0243.mp3,lv-ru,content/readings/lv-ru/basic-25.json
+vocab-0243,en,meat,audio/en/vocab-0243.mp3,ru-en,content/readings/ru-en/basic-25.json
+vocab-0243,ja,肉,audio/ja/vocab-0243.mp3,en-ja,content/readings/en-ja/basic-25.json
+vocab-0244,lv,vistas gaļa,audio/lv/vocab-0244.mp3,,
+vocab-0244,ru,курятина,audio/ru/vocab-0244.mp3,lv-ru,content/readings/lv-ru/basic-25.json
+vocab-0244,en,chicken meat,audio/en/vocab-0244.mp3,ru-en,content/readings/ru-en/basic-25.json
+vocab-0244,ja,鶏肉,audio/ja/vocab-0244.mp3,en-ja,content/readings/en-ja/basic-25.json
+vocab-0245,lv,zivs,audio/lv/vocab-0245.mp3,,
+vocab-0245,ru,рыба,audio/ru/vocab-0245.mp3,lv-ru,content/readings/lv-ru/basic-25.json
+vocab-0245,en,fish,audio/en/vocab-0245.mp3,ru-en,content/readings/ru-en/basic-25.json
+vocab-0245,ja,魚,audio/ja/vocab-0245.mp3,en-ja,content/readings/en-ja/basic-25.json
+vocab-0246,lv,ola,audio/lv/vocab-0246.mp3,,
+vocab-0246,ru,яйцо,audio/ru/vocab-0246.mp3,lv-ru,content/readings/lv-ru/basic-25.json
+vocab-0246,en,egg,audio/en/vocab-0246.mp3,ru-en,content/readings/ru-en/basic-25.json
+vocab-0246,ja,卵,audio/ja/vocab-0246.mp3,en-ja,content/readings/en-ja/basic-25.json
+vocab-0247,lv,sviests,audio/lv/vocab-0247.mp3,,
+vocab-0247,ru,сливочное масло,audio/ru/vocab-0247.mp3,lv-ru,content/readings/lv-ru/basic-25.json
+vocab-0247,en,butter,audio/en/vocab-0247.mp3,ru-en,content/readings/ru-en/basic-25.json
+vocab-0247,ja,バター,audio/ja/vocab-0247.mp3,en-ja,content/readings/en-ja/basic-25.json
+vocab-0248,lv,jogurts,audio/lv/vocab-0248.mp3,,
+vocab-0248,ru,йогурт,audio/ru/vocab-0248.mp3,lv-ru,content/readings/lv-ru/basic-25.json
+vocab-0248,en,yogurt,audio/en/vocab-0248.mp3,ru-en,content/readings/ru-en/basic-25.json
+vocab-0248,ja,ヨーグルト,audio/ja/vocab-0248.mp3,en-ja,content/readings/en-ja/basic-25.json
+vocab-0249,lv,sāls,audio/lv/vocab-0249.mp3,,
+vocab-0249,ru,соль,audio/ru/vocab-0249.mp3,lv-ru,content/readings/lv-ru/basic-25.json
+vocab-0249,en,salt,audio/en/vocab-0249.mp3,ru-en,content/readings/ru-en/basic-25.json
+vocab-0249,ja,塩,audio/ja/vocab-0249.mp3,en-ja,content/readings/en-ja/basic-25.json
+vocab-0250,lv,cukurs,audio/lv/vocab-0250.mp3,,
+vocab-0250,ru,сахар,audio/ru/vocab-0250.mp3,lv-ru,content/readings/lv-ru/basic-25.json
+vocab-0250,en,sugar,audio/en/vocab-0250.mp3,ru-en,content/readings/ru-en/basic-25.json
+vocab-0250,ja,砂糖,audio/ja/vocab-0250.mp3,en-ja,content/readings/en-ja/basic-25.json
+vocab-0251,lv,pusdienas,audio/lv/vocab-0251.mp3,,
+vocab-0251,ru,обед,audio/ru/vocab-0251.mp3,lv-ru,content/readings/lv-ru/basic-26.json
+vocab-0251,en,lunch,audio/en/vocab-0251.mp3,ru-en,content/readings/ru-en/basic-26.json
+vocab-0251,ja,昼食,audio/ja/vocab-0251.mp3,en-ja,content/readings/en-ja/basic-26.json
+vocab-0252,lv,vakariņas,audio/lv/vocab-0252.mp3,,
+vocab-0252,ru,ужин,audio/ru/vocab-0252.mp3,lv-ru,content/readings/lv-ru/basic-26.json
+vocab-0252,en,dinner,audio/en/vocab-0252.mp3,ru-en,content/readings/ru-en/basic-26.json
+vocab-0252,ja,夕食,audio/ja/vocab-0252.mp3,en-ja,content/readings/en-ja/basic-26.json
+vocab-0253,lv,uzkoda,audio/lv/vocab-0253.mp3,,
+vocab-0253,ru,перекус,audio/ru/vocab-0253.mp3,lv-ru,content/readings/lv-ru/basic-26.json
+vocab-0253,en,snack,audio/en/vocab-0253.mp3,ru-en,content/readings/ru-en/basic-26.json
+vocab-0253,ja,おやつ,audio/ja/vocab-0253.mp3,en-ja,content/readings/en-ja/basic-26.json
+vocab-0254,lv,sviestmaize,audio/lv/vocab-0254.mp3,,
+vocab-0254,ru,бутерброд,audio/ru/vocab-0254.mp3,lv-ru,content/readings/lv-ru/basic-26.json
+vocab-0254,en,sandwich,audio/en/vocab-0254.mp3,ru-en,content/readings/ru-en/basic-26.json
+vocab-0254,ja,サンドイッチ,audio/ja/vocab-0254.mp3,en-ja,content/readings/en-ja/basic-26.json
+vocab-0255,lv,salāti,audio/lv/vocab-0255.mp3,,
+vocab-0255,ru,салат,audio/ru/vocab-0255.mp3,lv-ru,content/readings/lv-ru/basic-26.json
+vocab-0255,en,salad,audio/en/vocab-0255.mp3,ru-en,content/readings/ru-en/basic-26.json
+vocab-0255,ja,サラダ,audio/ja/vocab-0255.mp3,en-ja,content/readings/en-ja/basic-26.json
+vocab-0256,lv,putra,audio/lv/vocab-0256.mp3,,
+vocab-0256,ru,каша,audio/ru/vocab-0256.mp3,lv-ru,content/readings/lv-ru/basic-26.json
+vocab-0256,en,porridge,audio/en/vocab-0256.mp3,ru-en,content/readings/ru-en/basic-26.json
+vocab-0256,ja,おかゆ,audio/ja/vocab-0256.mp3,en-ja,content/readings/en-ja/basic-26.json
+vocab-0257,lv,brokastu pārslas,audio/lv/vocab-0257.mp3,,
+vocab-0257,ru,хлопья для завтрака,audio/ru/vocab-0257.mp3,lv-ru,content/readings/lv-ru/basic-26.json
+vocab-0257,en,cereal,audio/en/vocab-0257.mp3,ru-en,content/readings/ru-en/basic-26.json
+vocab-0257,ja,シリアル,audio/ja/vocab-0257.mp3,en-ja,content/readings/en-ja/basic-26.json
+vocab-0258,lv,pankūka,audio/lv/vocab-0258.mp3,,
+vocab-0258,ru,блин,audio/ru/vocab-0258.mp3,lv-ru,content/readings/lv-ru/basic-26.json
+vocab-0258,en,pancake,audio/en/vocab-0258.mp3,ru-en,content/readings/ru-en/basic-26.json
+vocab-0258,ja,パンケーキ,audio/ja/vocab-0258.mp3,en-ja,content/readings/en-ja/basic-26.json
+vocab-0259,lv,kūka,audio/lv/vocab-0259.mp3,,
+vocab-0259,ru,пирожное,audio/ru/vocab-0259.mp3,lv-ru,content/readings/lv-ru/basic-26.json
+vocab-0259,en,cake,audio/en/vocab-0259.mp3,ru-en,content/readings/ru-en/basic-26.json
+vocab-0259,ja,ケーキ,audio/ja/vocab-0259.mp3,en-ja,content/readings/en-ja/basic-26.json
+vocab-0260,lv,saldējums,audio/lv/vocab-0260.mp3,,
+vocab-0260,ru,мороженое,audio/ru/vocab-0260.mp3,lv-ru,content/readings/lv-ru/basic-26.json
+vocab-0260,en,ice cream,audio/en/vocab-0260.mp3,ru-en,content/readings/ru-en/basic-26.json
+vocab-0260,ja,アイスクリーム,audio/ja/vocab-0260.mp3,en-ja,content/readings/en-ja/basic-26.json
+vocab-0261,lv,palīdziet lūdzu,audio/lv/vocab-0261.mp3,,
+vocab-0261,ru,помогите пожалуйста,audio/ru/vocab-0261.mp3,lv-ru,content/readings/lv-ru/basic-27.json
+vocab-0261,en,please help,audio/en/vocab-0261.mp3,ru-en,content/readings/ru-en/basic-27.json
+vocab-0261,ja,助けてください,audio/ja/vocab-0261.mp3,en-ja,content/readings/en-ja/basic-27.json
+vocab-0262,lv,vēl mazliet,audio/lv/vocab-0262.mp3,,
+vocab-0262,ru,ещё немного,audio/ru/vocab-0262.mp3,lv-ru,content/readings/lv-ru/basic-27.json
+vocab-0262,en,a little more,audio/en/vocab-0262.mp3,ru-en,content/readings/ru-en/basic-27.json
+vocab-0262,ja,もう少し,audio/ja/vocab-0262.mp3,en-ja,content/readings/en-ja/basic-27.json
+vocab-0263,lv,lēnāk,audio/lv/vocab-0263.mp3,,
+vocab-0263,ru,помедленнее,audio/ru/vocab-0263.mp3,lv-ru,content/readings/lv-ru/basic-27.json
+vocab-0263,en,more slowly,audio/en/vocab-0263.mp3,ru-en,content/readings/ru-en/basic-27.json
+vocab-0263,ja,もっとゆっくり,audio/ja/vocab-0263.mp3,en-ja,content/readings/en-ja/basic-27.json
+vocab-0264,lv,ne tagad,audio/lv/vocab-0264.mp3,,
+vocab-0264,ru,не сейчас,audio/ru/vocab-0264.mp3,lv-ru,content/readings/lv-ru/basic-27.json
+vocab-0264,en,not now,audio/en/vocab-0264.mp3,ru-en,content/readings/ru-en/basic-27.json
+vocab-0264,ja,今はだめ,audio/ja/vocab-0264.mp3,en-ja,content/readings/en-ja/basic-27.json
+vocab-0265,lv,nē paldies,audio/lv/vocab-0265.mp3,,
+vocab-0265,ru,нет спасибо,audio/ru/vocab-0265.mp3,lv-ru,content/readings/lv-ru/basic-27.json
+vocab-0265,en,no thank you,audio/en/vocab-0265.mp3,ru-en,content/readings/ru-en/basic-27.json
+vocab-0265,ja,いいえ結構です,audio/ja/vocab-0265.mp3,en-ja,content/readings/en-ja/basic-27.json
+vocab-0266,lv,atvainojiet,audio/lv/vocab-0266.mp3,,
+vocab-0266,ru,извините,audio/ru/vocab-0266.mp3,lv-ru,content/readings/lv-ru/basic-27.json
+vocab-0266,en,excuse me,audio/en/vocab-0266.mp3,ru-en,content/readings/ru-en/basic-27.json
+vocab-0266,ja,すみません,audio/ja/vocab-0266.mp3,en-ja,content/readings/en-ja/basic-27.json
+vocab-0267,lv,lai veicas,audio/lv/vocab-0267.mp3,,
+vocab-0267,ru,удачи,audio/ru/vocab-0267.mp3,lv-ru,content/readings/lv-ru/basic-27.json
+vocab-0267,en,good luck,audio/en/vocab-0267.mp3,ru-en,content/readings/ru-en/basic-27.json
+vocab-0267,ja,頑張って,audio/ja/vocab-0267.mp3,en-ja,content/readings/en-ja/basic-27.json
+vocab-0268,lv,malacis,audio/lv/vocab-0268.mp3,,
+vocab-0268,ru,молодец,audio/ru/vocab-0268.mp3,lv-ru,content/readings/lv-ru/basic-27.json
+vocab-0268,en,well done,audio/en/vocab-0268.mp3,ru-en,content/readings/ru-en/basic-27.json
+vocab-0268,ja,よくできました,audio/ja/vocab-0268.mp3,en-ja,content/readings/en-ja/basic-27.json
+vocab-0269,lv,labdien,audio/lv/vocab-0269.mp3,,
+vocab-0269,ru,добрый день,audio/ru/vocab-0269.mp3,lv-ru,content/readings/lv-ru/basic-27.json
+vocab-0269,en,good afternoon,audio/en/vocab-0269.mp3,ru-en,content/readings/ru-en/basic-27.json
+vocab-0269,ja,こんにちは,audio/ja/vocab-0269.mp3,en-ja,content/readings/en-ja/basic-27.json
+vocab-0270,lv,ar prieku,audio/lv/vocab-0270.mp3,,
+vocab-0270,ru,с удовольствием,audio/ru/vocab-0270.mp3,lv-ru,content/readings/lv-ru/basic-27.json
+vocab-0270,en,with pleasure,audio/en/vocab-0270.mp3,ru-en,content/readings/ru-en/basic-27.json
+vocab-0270,ja,喜んで,audio/ja/vocab-0270.mp3,en-ja,content/readings/en-ja/basic-27.json
+vocab-0271,lv,nauda,audio/lv/vocab-0271.mp3,,
+vocab-0271,ru,деньги,audio/ru/vocab-0271.mp3,lv-ru,content/readings/lv-ru/basic-28.json
+vocab-0271,en,money,audio/en/vocab-0271.mp3,ru-en,content/readings/ru-en/basic-28.json
+vocab-0271,ja,お金,audio/ja/vocab-0271.mp3,en-ja,content/readings/en-ja/basic-28.json
+vocab-0272,lv,cena,audio/lv/vocab-0272.mp3,,
+vocab-0272,ru,цена,audio/ru/vocab-0272.mp3,lv-ru,content/readings/lv-ru/basic-28.json
+vocab-0272,en,price,audio/en/vocab-0272.mp3,ru-en,content/readings/ru-en/basic-28.json
+vocab-0272,ja,値段,audio/ja/vocab-0272.mp3,en-ja,content/readings/en-ja/basic-28.json
+vocab-0273,lv,atlikums,audio/lv/vocab-0273.mp3,,
+vocab-0273,ru,сдача,audio/ru/vocab-0273.mp3,lv-ru,content/readings/lv-ru/basic-28.json
+vocab-0273,en,change,audio/en/vocab-0273.mp3,ru-en,content/readings/ru-en/basic-28.json
+vocab-0273,ja,お釣り,audio/ja/vocab-0273.mp3,en-ja,content/readings/en-ja/basic-28.json
+vocab-0274,lv,čeks,audio/lv/vocab-0274.mp3,,
+vocab-0274,ru,чек,audio/ru/vocab-0274.mp3,lv-ru,content/readings/lv-ru/basic-28.json
+vocab-0274,en,receipt,audio/en/vocab-0274.mp3,ru-en,content/readings/ru-en/basic-28.json
+vocab-0274,ja,レシート,audio/ja/vocab-0274.mp3,en-ja,content/readings/en-ja/basic-28.json
+vocab-0275,lv,kase,audio/lv/vocab-0275.mp3,,
+vocab-0275,ru,касса,audio/ru/vocab-0275.mp3,lv-ru,content/readings/lv-ru/basic-28.json
+vocab-0275,en,checkout,audio/en/vocab-0275.mp3,ru-en,content/readings/ru-en/basic-28.json
+vocab-0275,ja,レジ,audio/ja/vocab-0275.mp3,en-ja,content/readings/en-ja/basic-28.json
+vocab-0276,lv,grozs,audio/lv/vocab-0276.mp3,,
+vocab-0276,ru,корзина,audio/ru/vocab-0276.mp3,lv-ru,content/readings/lv-ru/basic-28.json
+vocab-0276,en,basket,audio/en/vocab-0276.mp3,ru-en,content/readings/ru-en/basic-28.json
+vocab-0276,ja,かご,audio/ja/vocab-0276.mp3,en-ja,content/readings/en-ja/basic-28.json
+vocab-0277,lv,soma,audio/lv/vocab-0277.mp3,,
+vocab-0277,ru,сумка,audio/ru/vocab-0277.mp3,lv-ru,content/readings/lv-ru/basic-28.json
+vocab-0277,en,bag,audio/en/vocab-0277.mp3,ru-en,content/readings/ru-en/basic-28.json
+vocab-0277,ja,袋,audio/ja/vocab-0277.mp3,en-ja,content/readings/en-ja/basic-28.json
+vocab-0278,lv,izmērs,audio/lv/vocab-0278.mp3,,
+vocab-0278,ru,размер,audio/ru/vocab-0278.mp3,lv-ru,content/readings/lv-ru/basic-28.json
+vocab-0278,en,size,audio/en/vocab-0278.mp3,ru-en,content/readings/ru-en/basic-28.json
+vocab-0278,ja,サイズ,audio/ja/vocab-0278.mp3,en-ja,content/readings/en-ja/basic-28.json
+vocab-0279,lv,atlaide,audio/lv/vocab-0279.mp3,,
+vocab-0279,ru,скидка,audio/ru/vocab-0279.mp3,lv-ru,content/readings/lv-ru/basic-28.json
+vocab-0279,en,discount,audio/en/vocab-0279.mp3,ru-en,content/readings/ru-en/basic-28.json
+vocab-0279,ja,割引,audio/ja/vocab-0279.mp3,en-ja,content/readings/en-ja/basic-28.json
+vocab-0280,lv,karte,audio/lv/vocab-0280.mp3,,
+vocab-0280,ru,карта,audio/ru/vocab-0280.mp3,lv-ru,content/readings/lv-ru/basic-28.json
+vocab-0280,en,card,audio/en/vocab-0280.mp3,ru-en,content/readings/ru-en/basic-28.json
+vocab-0280,ja,カード,audio/ja/vocab-0280.mp3,en-ja,content/readings/en-ja/basic-28.json
+vocab-0281,lv,nulle,audio/lv/vocab-0281.mp3,,
+vocab-0281,ru,ноль,audio/ru/vocab-0281.mp3,lv-ru,content/readings/lv-ru/basic-29.json
+vocab-0281,en,zero,audio/en/vocab-0281.mp3,ru-en,content/readings/ru-en/basic-29.json
+vocab-0281,ja,零,audio/ja/vocab-0281.mp3,en-ja,content/readings/en-ja/basic-29.json
+vocab-0282,lv,vienpadsmit,audio/lv/vocab-0282.mp3,,
+vocab-0282,ru,одиннадцать,audio/ru/vocab-0282.mp3,lv-ru,content/readings/lv-ru/basic-29.json
+vocab-0282,en,eleven,audio/en/vocab-0282.mp3,ru-en,content/readings/ru-en/basic-29.json
+vocab-0282,ja,十一,audio/ja/vocab-0282.mp3,en-ja,content/readings/en-ja/basic-29.json
+vocab-0283,lv,divpadsmit,audio/lv/vocab-0283.mp3,,
+vocab-0283,ru,двенадцать,audio/ru/vocab-0283.mp3,lv-ru,content/readings/lv-ru/basic-29.json
+vocab-0283,en,twelve,audio/en/vocab-0283.mp3,ru-en,content/readings/ru-en/basic-29.json
+vocab-0283,ja,十二,audio/ja/vocab-0283.mp3,en-ja,content/readings/en-ja/basic-29.json
+vocab-0284,lv,trīspadsmit,audio/lv/vocab-0284.mp3,,
+vocab-0284,ru,тринадцать,audio/ru/vocab-0284.mp3,lv-ru,content/readings/lv-ru/basic-29.json
+vocab-0284,en,thirteen,audio/en/vocab-0284.mp3,ru-en,content/readings/ru-en/basic-29.json
+vocab-0284,ja,十三,audio/ja/vocab-0284.mp3,en-ja,content/readings/en-ja/basic-29.json
+vocab-0285,lv,četrpadsmit,audio/lv/vocab-0285.mp3,,
+vocab-0285,ru,четырнадцать,audio/ru/vocab-0285.mp3,lv-ru,content/readings/lv-ru/basic-29.json
+vocab-0285,en,fourteen,audio/en/vocab-0285.mp3,ru-en,content/readings/ru-en/basic-29.json
+vocab-0285,ja,十四,audio/ja/vocab-0285.mp3,en-ja,content/readings/en-ja/basic-29.json
+vocab-0286,lv,piecpadsmit,audio/lv/vocab-0286.mp3,,
+vocab-0286,ru,пятнадцать,audio/ru/vocab-0286.mp3,lv-ru,content/readings/lv-ru/basic-29.json
+vocab-0286,en,fifteen,audio/en/vocab-0286.mp3,ru-en,content/readings/ru-en/basic-29.json
+vocab-0286,ja,十五,audio/ja/vocab-0286.mp3,en-ja,content/readings/en-ja/basic-29.json
+vocab-0287,lv,sešpadsmit,audio/lv/vocab-0287.mp3,,
+vocab-0287,ru,шестнадцать,audio/ru/vocab-0287.mp3,lv-ru,content/readings/lv-ru/basic-29.json
+vocab-0287,en,sixteen,audio/en/vocab-0287.mp3,ru-en,content/readings/ru-en/basic-29.json
+vocab-0287,ja,十六,audio/ja/vocab-0287.mp3,en-ja,content/readings/en-ja/basic-29.json
+vocab-0288,lv,septiņpadsmit,audio/lv/vocab-0288.mp3,,
+vocab-0288,ru,семнадцать,audio/ru/vocab-0288.mp3,lv-ru,content/readings/lv-ru/basic-29.json
+vocab-0288,en,seventeen,audio/en/vocab-0288.mp3,ru-en,content/readings/ru-en/basic-29.json
+vocab-0288,ja,十七,audio/ja/vocab-0288.mp3,en-ja,content/readings/en-ja/basic-29.json
+vocab-0289,lv,astoņpadsmit,audio/lv/vocab-0289.mp3,,
+vocab-0289,ru,восемнадцать,audio/ru/vocab-0289.mp3,lv-ru,content/readings/lv-ru/basic-29.json
+vocab-0289,en,eighteen,audio/en/vocab-0289.mp3,ru-en,content/readings/ru-en/basic-29.json
+vocab-0289,ja,十八,audio/ja/vocab-0289.mp3,en-ja,content/readings/en-ja/basic-29.json
+vocab-0290,lv,deviņpadsmit,audio/lv/vocab-0290.mp3,,
+vocab-0290,ru,девятнадцать,audio/ru/vocab-0290.mp3,lv-ru,content/readings/lv-ru/basic-29.json
+vocab-0290,en,nineteen,audio/en/vocab-0290.mp3,ru-en,content/readings/ru-en/basic-29.json
+vocab-0290,ja,十九,audio/ja/vocab-0290.mp3,en-ja,content/readings/en-ja/basic-29.json
+vocab-0291,lv,divdesmit,audio/lv/vocab-0291.mp3,,
+vocab-0291,ru,двадцать,audio/ru/vocab-0291.mp3,lv-ru,content/readings/lv-ru/basic-30.json
+vocab-0291,en,twenty,audio/en/vocab-0291.mp3,ru-en,content/readings/ru-en/basic-30.json
+vocab-0291,ja,二十,audio/ja/vocab-0291.mp3,en-ja,content/readings/en-ja/basic-30.json
+vocab-0292,lv,trīsdesmit,audio/lv/vocab-0292.mp3,,
+vocab-0292,ru,тридцать,audio/ru/vocab-0292.mp3,lv-ru,content/readings/lv-ru/basic-30.json
+vocab-0292,en,thirty,audio/en/vocab-0292.mp3,ru-en,content/readings/ru-en/basic-30.json
+vocab-0292,ja,三十,audio/ja/vocab-0292.mp3,en-ja,content/readings/en-ja/basic-30.json
+vocab-0293,lv,četrdesmit,audio/lv/vocab-0293.mp3,,
+vocab-0293,ru,сорок,audio/ru/vocab-0293.mp3,lv-ru,content/readings/lv-ru/basic-30.json
+vocab-0293,en,forty,audio/en/vocab-0293.mp3,ru-en,content/readings/ru-en/basic-30.json
+vocab-0293,ja,四十,audio/ja/vocab-0293.mp3,en-ja,content/readings/en-ja/basic-30.json
+vocab-0294,lv,piecdesmit,audio/lv/vocab-0294.mp3,,
+vocab-0294,ru,пятьдесят,audio/ru/vocab-0294.mp3,lv-ru,content/readings/lv-ru/basic-30.json
+vocab-0294,en,fifty,audio/en/vocab-0294.mp3,ru-en,content/readings/ru-en/basic-30.json
+vocab-0294,ja,五十,audio/ja/vocab-0294.mp3,en-ja,content/readings/en-ja/basic-30.json
+vocab-0295,lv,sešdesmit,audio/lv/vocab-0295.mp3,,
+vocab-0295,ru,шестьдесят,audio/ru/vocab-0295.mp3,lv-ru,content/readings/lv-ru/basic-30.json
+vocab-0295,en,sixty,audio/en/vocab-0295.mp3,ru-en,content/readings/ru-en/basic-30.json
+vocab-0295,ja,六十,audio/ja/vocab-0295.mp3,en-ja,content/readings/en-ja/basic-30.json
+vocab-0296,lv,septiņdesmit,audio/lv/vocab-0296.mp3,,
+vocab-0296,ru,семьдесят,audio/ru/vocab-0296.mp3,lv-ru,content/readings/lv-ru/basic-30.json
+vocab-0296,en,seventy,audio/en/vocab-0296.mp3,ru-en,content/readings/ru-en/basic-30.json
+vocab-0296,ja,七十,audio/ja/vocab-0296.mp3,en-ja,content/readings/en-ja/basic-30.json
+vocab-0297,lv,astoņdesmit,audio/lv/vocab-0297.mp3,,
+vocab-0297,ru,восемьдесят,audio/ru/vocab-0297.mp3,lv-ru,content/readings/lv-ru/basic-30.json
+vocab-0297,en,eighty,audio/en/vocab-0297.mp3,ru-en,content/readings/ru-en/basic-30.json
+vocab-0297,ja,八十,audio/ja/vocab-0297.mp3,en-ja,content/readings/en-ja/basic-30.json
+vocab-0298,lv,deviņdesmit,audio/lv/vocab-0298.mp3,,
+vocab-0298,ru,девяносто,audio/ru/vocab-0298.mp3,lv-ru,content/readings/lv-ru/basic-30.json
+vocab-0298,en,ninety,audio/en/vocab-0298.mp3,ru-en,content/readings/ru-en/basic-30.json
+vocab-0298,ja,九十,audio/ja/vocab-0298.mp3,en-ja,content/readings/en-ja/basic-30.json
+vocab-0299,lv,simts,audio/lv/vocab-0299.mp3,,
+vocab-0299,ru,сто,audio/ru/vocab-0299.mp3,lv-ru,content/readings/lv-ru/basic-30.json
+vocab-0299,en,hundred,audio/en/vocab-0299.mp3,ru-en,content/readings/ru-en/basic-30.json
+vocab-0299,ja,百,audio/ja/vocab-0299.mp3,en-ja,content/readings/en-ja/basic-30.json
+vocab-0300,lv,tūkstotis,audio/lv/vocab-0300.mp3,,
+vocab-0300,ru,тысяча,audio/ru/vocab-0300.mp3,lv-ru,content/readings/lv-ru/basic-30.json
+vocab-0300,en,thousand,audio/en/vocab-0300.mp3,ru-en,content/readings/ru-en/basic-30.json
+vocab-0300,ja,千,audio/ja/vocab-0300.mp3,en-ja,content/readings/en-ja/basic-30.json
+vocab-0301,lv,diena,audio/lv/vocab-0301.mp3,,
+vocab-0301,ru,день,audio/ru/vocab-0301.mp3,lv-ru,content/readings/lv-ru/basic-31.json
+vocab-0301,en,day,audio/en/vocab-0301.mp3,ru-en,content/readings/ru-en/basic-31.json
+vocab-0301,ja,日,audio/ja/vocab-0301.mp3,en-ja,content/readings/en-ja/basic-31.json
+vocab-0302,lv,nakts,audio/lv/vocab-0302.mp3,,
+vocab-0302,ru,ночь,audio/ru/vocab-0302.mp3,lv-ru,content/readings/lv-ru/basic-31.json
+vocab-0302,en,night,audio/en/vocab-0302.mp3,ru-en,content/readings/ru-en/basic-31.json
+vocab-0302,ja,夜,audio/ja/vocab-0302.mp3,en-ja,content/readings/en-ja/basic-31.json
+vocab-0303,lv,rīts,audio/lv/vocab-0303.mp3,,
+vocab-0303,ru,утро,audio/ru/vocab-0303.mp3,lv-ru,content/readings/lv-ru/basic-31.json
+vocab-0303,en,morning,audio/en/vocab-0303.mp3,ru-en,content/readings/ru-en/basic-31.json
+vocab-0303,ja,朝,audio/ja/vocab-0303.mp3,en-ja,content/readings/en-ja/basic-31.json
+vocab-0304,lv,vakars,audio/lv/vocab-0304.mp3,,
+vocab-0304,ru,вечер,audio/ru/vocab-0304.mp3,lv-ru,content/readings/lv-ru/basic-31.json
+vocab-0304,en,evening,audio/en/vocab-0304.mp3,ru-en,content/readings/ru-en/basic-31.json
+vocab-0304,ja,夕方,audio/ja/vocab-0304.mp3,en-ja,content/readings/en-ja/basic-31.json
+vocab-0305,lv,šodien,audio/lv/vocab-0305.mp3,,
+vocab-0305,ru,сегодня,audio/ru/vocab-0305.mp3,lv-ru,content/readings/lv-ru/basic-31.json
+vocab-0305,en,today,audio/en/vocab-0305.mp3,ru-en,content/readings/ru-en/basic-31.json
+vocab-0305,ja,今日,audio/ja/vocab-0305.mp3,en-ja,content/readings/en-ja/basic-31.json
+vocab-0306,lv,rīt,audio/lv/vocab-0306.mp3,,
+vocab-0306,ru,завтра,audio/ru/vocab-0306.mp3,lv-ru,content/readings/lv-ru/basic-31.json
+vocab-0306,en,tomorrow,audio/en/vocab-0306.mp3,ru-en,content/readings/ru-en/basic-31.json
+vocab-0306,ja,明日,audio/ja/vocab-0306.mp3,en-ja,content/readings/en-ja/basic-31.json
+vocab-0307,lv,vakar,audio/lv/vocab-0307.mp3,,
+vocab-0307,ru,вчера,audio/ru/vocab-0307.mp3,lv-ru,content/readings/lv-ru/basic-31.json
+vocab-0307,en,yesterday,audio/en/vocab-0307.mp3,ru-en,content/readings/ru-en/basic-31.json
+vocab-0307,ja,昨日,audio/ja/vocab-0307.mp3,en-ja,content/readings/en-ja/basic-31.json
+vocab-0308,lv,nedēļa,audio/lv/vocab-0308.mp3,,
+vocab-0308,ru,неделя,audio/ru/vocab-0308.mp3,lv-ru,content/readings/lv-ru/basic-31.json
+vocab-0308,en,week,audio/en/vocab-0308.mp3,ru-en,content/readings/ru-en/basic-31.json
+vocab-0308,ja,週,audio/ja/vocab-0308.mp3,en-ja,content/readings/en-ja/basic-31.json
+vocab-0309,lv,mēnesis,audio/lv/vocab-0309.mp3,,
+vocab-0309,ru,месяц,audio/ru/vocab-0309.mp3,lv-ru,content/readings/lv-ru/basic-31.json
+vocab-0309,en,month,audio/en/vocab-0309.mp3,ru-en,content/readings/ru-en/basic-31.json
+vocab-0309,ja,月,audio/ja/vocab-0309.mp3,en-ja,content/readings/en-ja/basic-31.json
+vocab-0310,lv,gads,audio/lv/vocab-0310.mp3,,
+vocab-0310,ru,год,audio/ru/vocab-0310.mp3,lv-ru,content/readings/lv-ru/basic-31.json
+vocab-0310,en,year,audio/en/vocab-0310.mp3,ru-en,content/readings/ru-en/basic-31.json
+vocab-0310,ja,年,audio/ja/vocab-0310.mp3,en-ja,content/readings/en-ja/basic-31.json
+vocab-0311,lv,pirmdiena,audio/lv/vocab-0311.mp3,,
+vocab-0311,ru,понедельник,audio/ru/vocab-0311.mp3,lv-ru,content/readings/lv-ru/basic-32.json
+vocab-0311,en,Monday,audio/en/vocab-0311.mp3,ru-en,content/readings/ru-en/basic-32.json
+vocab-0311,ja,月曜日,audio/ja/vocab-0311.mp3,en-ja,content/readings/en-ja/basic-32.json
+vocab-0312,lv,otrdiena,audio/lv/vocab-0312.mp3,,
+vocab-0312,ru,вторник,audio/ru/vocab-0312.mp3,lv-ru,content/readings/lv-ru/basic-32.json
+vocab-0312,en,Tuesday,audio/en/vocab-0312.mp3,ru-en,content/readings/ru-en/basic-32.json
+vocab-0312,ja,火曜日,audio/ja/vocab-0312.mp3,en-ja,content/readings/en-ja/basic-32.json
+vocab-0313,lv,trešdiena,audio/lv/vocab-0313.mp3,,
+vocab-0313,ru,среда,audio/ru/vocab-0313.mp3,lv-ru,content/readings/lv-ru/basic-32.json
+vocab-0313,en,Wednesday,audio/en/vocab-0313.mp3,ru-en,content/readings/ru-en/basic-32.json
+vocab-0313,ja,水曜日,audio/ja/vocab-0313.mp3,en-ja,content/readings/en-ja/basic-32.json
+vocab-0314,lv,ceturtdiena,audio/lv/vocab-0314.mp3,,
+vocab-0314,ru,четверг,audio/ru/vocab-0314.mp3,lv-ru,content/readings/lv-ru/basic-32.json
+vocab-0314,en,Thursday,audio/en/vocab-0314.mp3,ru-en,content/readings/ru-en/basic-32.json
+vocab-0314,ja,木曜日,audio/ja/vocab-0314.mp3,en-ja,content/readings/en-ja/basic-32.json
+vocab-0315,lv,piektdiena,audio/lv/vocab-0315.mp3,,
+vocab-0315,ru,пятница,audio/ru/vocab-0315.mp3,lv-ru,content/readings/lv-ru/basic-32.json
+vocab-0315,en,Friday,audio/en/vocab-0315.mp3,ru-en,content/readings/ru-en/basic-32.json
+vocab-0315,ja,金曜日,audio/ja/vocab-0315.mp3,en-ja,content/readings/en-ja/basic-32.json
+vocab-0316,lv,sestdiena,audio/lv/vocab-0316.mp3,,
+vocab-0316,ru,суббота,audio/ru/vocab-0316.mp3,lv-ru,content/readings/lv-ru/basic-32.json
+vocab-0316,en,Saturday,audio/en/vocab-0316.mp3,ru-en,content/readings/ru-en/basic-32.json
+vocab-0316,ja,土曜日,audio/ja/vocab-0316.mp3,en-ja,content/readings/en-ja/basic-32.json
+vocab-0317,lv,svētdiena,audio/lv/vocab-0317.mp3,,
+vocab-0317,ru,воскресенье,audio/ru/vocab-0317.mp3,lv-ru,content/readings/lv-ru/basic-32.json
+vocab-0317,en,Sunday,audio/en/vocab-0317.mp3,ru-en,content/readings/ru-en/basic-32.json
+vocab-0317,ja,日曜日,audio/ja/vocab-0317.mp3,en-ja,content/readings/en-ja/basic-32.json
+vocab-0318,lv,nedēļas nogale,audio/lv/vocab-0318.mp3,,
+vocab-0318,ru,выходные,audio/ru/vocab-0318.mp3,lv-ru,content/readings/lv-ru/basic-32.json
+vocab-0318,en,weekend,audio/en/vocab-0318.mp3,ru-en,content/readings/ru-en/basic-32.json
+vocab-0318,ja,週末,audio/ja/vocab-0318.mp3,en-ja,content/readings/en-ja/basic-32.json
+vocab-0319,lv,stunda,audio/lv/vocab-0319.mp3,,
+vocab-0319,ru,час,audio/ru/vocab-0319.mp3,lv-ru,content/readings/lv-ru/basic-32.json
+vocab-0319,en,hour,audio/en/vocab-0319.mp3,ru-en,content/readings/ru-en/basic-32.json
+vocab-0319,ja,時間,audio/ja/vocab-0319.mp3,en-ja,content/readings/en-ja/basic-32.json
+vocab-0320,lv,minūte,audio/lv/vocab-0320.mp3,,
+vocab-0320,ru,минута,audio/ru/vocab-0320.mp3,lv-ru,content/readings/lv-ru/basic-32.json
+vocab-0320,en,minute,audio/en/vocab-0320.mp3,ru-en,content/readings/ru-en/basic-32.json
+vocab-0320,ja,分,audio/ja/vocab-0320.mp3,en-ja,content/readings/en-ja/basic-32.json
+vocab-0321,lv,janvāris,audio/lv/vocab-0321.mp3,,
+vocab-0321,ru,январь,audio/ru/vocab-0321.mp3,lv-ru,content/readings/lv-ru/basic-33.json
+vocab-0321,en,January,audio/en/vocab-0321.mp3,ru-en,content/readings/ru-en/basic-33.json
+vocab-0321,ja,一月,audio/ja/vocab-0321.mp3,en-ja,content/readings/en-ja/basic-33.json
+vocab-0322,lv,februāris,audio/lv/vocab-0322.mp3,,
+vocab-0322,ru,февраль,audio/ru/vocab-0322.mp3,lv-ru,content/readings/lv-ru/basic-33.json
+vocab-0322,en,February,audio/en/vocab-0322.mp3,ru-en,content/readings/ru-en/basic-33.json
+vocab-0322,ja,二月,audio/ja/vocab-0322.mp3,en-ja,content/readings/en-ja/basic-33.json
+vocab-0323,lv,marts,audio/lv/vocab-0323.mp3,,
+vocab-0323,ru,март,audio/ru/vocab-0323.mp3,lv-ru,content/readings/lv-ru/basic-33.json
+vocab-0323,en,March,audio/en/vocab-0323.mp3,ru-en,content/readings/ru-en/basic-33.json
+vocab-0323,ja,三月,audio/ja/vocab-0323.mp3,en-ja,content/readings/en-ja/basic-33.json
+vocab-0324,lv,aprīlis,audio/lv/vocab-0324.mp3,,
+vocab-0324,ru,апрель,audio/ru/vocab-0324.mp3,lv-ru,content/readings/lv-ru/basic-33.json
+vocab-0324,en,April,audio/en/vocab-0324.mp3,ru-en,content/readings/ru-en/basic-33.json
+vocab-0324,ja,四月,audio/ja/vocab-0324.mp3,en-ja,content/readings/en-ja/basic-33.json
+vocab-0325,lv,maijs,audio/lv/vocab-0325.mp3,,
+vocab-0325,ru,май,audio/ru/vocab-0325.mp3,lv-ru,content/readings/lv-ru/basic-33.json
+vocab-0325,en,May,audio/en/vocab-0325.mp3,ru-en,content/readings/ru-en/basic-33.json
+vocab-0325,ja,五月,audio/ja/vocab-0325.mp3,en-ja,content/readings/en-ja/basic-33.json
+vocab-0326,lv,jūnijs,audio/lv/vocab-0326.mp3,,
+vocab-0326,ru,июнь,audio/ru/vocab-0326.mp3,lv-ru,content/readings/lv-ru/basic-33.json
+vocab-0326,en,June,audio/en/vocab-0326.mp3,ru-en,content/readings/ru-en/basic-33.json
+vocab-0326,ja,六月,audio/ja/vocab-0326.mp3,en-ja,content/readings/en-ja/basic-33.json
+vocab-0327,lv,jūlijs,audio/lv/vocab-0327.mp3,,
+vocab-0327,ru,июль,audio/ru/vocab-0327.mp3,lv-ru,content/readings/lv-ru/basic-33.json
+vocab-0327,en,July,audio/en/vocab-0327.mp3,ru-en,content/readings/ru-en/basic-33.json
+vocab-0327,ja,七月,audio/ja/vocab-0327.mp3,en-ja,content/readings/en-ja/basic-33.json
+vocab-0328,lv,augusts,audio/lv/vocab-0328.mp3,,
+vocab-0328,ru,август,audio/ru/vocab-0328.mp3,lv-ru,content/readings/lv-ru/basic-33.json
+vocab-0328,en,August,audio/en/vocab-0328.mp3,ru-en,content/readings/ru-en/basic-33.json
+vocab-0328,ja,八月,audio/ja/vocab-0328.mp3,en-ja,content/readings/en-ja/basic-33.json
+vocab-0329,lv,septembris,audio/lv/vocab-0329.mp3,,
+vocab-0329,ru,сентябрь,audio/ru/vocab-0329.mp3,lv-ru,content/readings/lv-ru/basic-33.json
+vocab-0329,en,September,audio/en/vocab-0329.mp3,ru-en,content/readings/ru-en/basic-33.json
+vocab-0329,ja,九月,audio/ja/vocab-0329.mp3,en-ja,content/readings/en-ja/basic-33.json
+vocab-0330,lv,oktobris,audio/lv/vocab-0330.mp3,,
+vocab-0330,ru,октябрь,audio/ru/vocab-0330.mp3,lv-ru,content/readings/lv-ru/basic-33.json
+vocab-0330,en,October,audio/en/vocab-0330.mp3,ru-en,content/readings/ru-en/basic-33.json
+vocab-0330,ja,十月,audio/ja/vocab-0330.mp3,en-ja,content/readings/en-ja/basic-33.json
+vocab-0331,lv,novembris,audio/lv/vocab-0331.mp3,,
+vocab-0331,ru,ноябрь,audio/ru/vocab-0331.mp3,lv-ru,content/readings/lv-ru/basic-34.json
+vocab-0331,en,November,audio/en/vocab-0331.mp3,ru-en,content/readings/ru-en/basic-34.json
+vocab-0331,ja,十一月,audio/ja/vocab-0331.mp3,en-ja,content/readings/en-ja/basic-34.json
+vocab-0332,lv,decembris,audio/lv/vocab-0332.mp3,,
+vocab-0332,ru,декабрь,audio/ru/vocab-0332.mp3,lv-ru,content/readings/lv-ru/basic-34.json
+vocab-0332,en,December,audio/en/vocab-0332.mp3,ru-en,content/readings/ru-en/basic-34.json
+vocab-0332,ja,十二月,audio/ja/vocab-0332.mp3,en-ja,content/readings/en-ja/basic-34.json
+vocab-0333,lv,pavasaris,audio/lv/vocab-0333.mp3,,
+vocab-0333,ru,весна,audio/ru/vocab-0333.mp3,lv-ru,content/readings/lv-ru/basic-34.json
+vocab-0333,en,spring,audio/en/vocab-0333.mp3,ru-en,content/readings/ru-en/basic-34.json
+vocab-0333,ja,春,audio/ja/vocab-0333.mp3,en-ja,content/readings/en-ja/basic-34.json
+vocab-0334,lv,vasara,audio/lv/vocab-0334.mp3,,
+vocab-0334,ru,лето,audio/ru/vocab-0334.mp3,lv-ru,content/readings/lv-ru/basic-34.json
+vocab-0334,en,summer,audio/en/vocab-0334.mp3,ru-en,content/readings/ru-en/basic-34.json
+vocab-0334,ja,夏,audio/ja/vocab-0334.mp3,en-ja,content/readings/en-ja/basic-34.json
+vocab-0335,lv,rudens,audio/lv/vocab-0335.mp3,,
+vocab-0335,ru,осень,audio/ru/vocab-0335.mp3,lv-ru,content/readings/lv-ru/basic-34.json
+vocab-0335,en,autumn,audio/en/vocab-0335.mp3,ru-en,content/readings/ru-en/basic-34.json
+vocab-0335,ja,秋,audio/ja/vocab-0335.mp3,en-ja,content/readings/en-ja/basic-34.json
+vocab-0336,lv,ziema,audio/lv/vocab-0336.mp3,,
+vocab-0336,ru,зима,audio/ru/vocab-0336.mp3,lv-ru,content/readings/lv-ru/basic-34.json
+vocab-0336,en,winter,audio/en/vocab-0336.mp3,ru-en,content/readings/ru-en/basic-34.json
+vocab-0336,ja,冬,audio/ja/vocab-0336.mp3,en-ja,content/readings/en-ja/basic-34.json
+vocab-0337,lv,gadalaiks,audio/lv/vocab-0337.mp3,,
+vocab-0337,ru,время года,audio/ru/vocab-0337.mp3,lv-ru,content/readings/lv-ru/basic-34.json
+vocab-0337,en,season,audio/en/vocab-0337.mp3,ru-en,content/readings/ru-en/basic-34.json
+vocab-0337,ja,季節,audio/ja/vocab-0337.mp3,en-ja,content/readings/en-ja/basic-34.json
+vocab-0338,lv,laikapstākļi,audio/lv/vocab-0338.mp3,,
+vocab-0338,ru,погода,audio/ru/vocab-0338.mp3,lv-ru,content/readings/lv-ru/basic-34.json
+vocab-0338,en,weather,audio/en/vocab-0338.mp3,ru-en,content/readings/ru-en/basic-34.json
+vocab-0338,ja,天気,audio/ja/vocab-0338.mp3,en-ja,content/readings/en-ja/basic-34.json
+vocab-0339,lv,saule,audio/lv/vocab-0339.mp3,,
+vocab-0339,ru,солнце,audio/ru/vocab-0339.mp3,lv-ru,content/readings/lv-ru/basic-34.json
+vocab-0339,en,sun,audio/en/vocab-0339.mp3,ru-en,content/readings/ru-en/basic-34.json
+vocab-0339,ja,太陽,audio/ja/vocab-0339.mp3,en-ja,content/readings/en-ja/basic-34.json
+vocab-0340,lv,mēness,audio/lv/vocab-0340.mp3,,
+vocab-0340,ru,луна,audio/ru/vocab-0340.mp3,lv-ru,content/readings/lv-ru/basic-34.json
+vocab-0340,en,moon,audio/en/vocab-0340.mp3,ru-en,content/readings/ru-en/basic-34.json
+vocab-0340,ja,お月さま,audio/ja/vocab-0340.mp3,en-ja,content/readings/en-ja/basic-34.json
+vocab-0341,lv,lietus,audio/lv/vocab-0341.mp3,,
+vocab-0341,ru,дождь,audio/ru/vocab-0341.mp3,lv-ru,content/readings/lv-ru/basic-35.json
+vocab-0341,en,rain,audio/en/vocab-0341.mp3,ru-en,content/readings/ru-en/basic-35.json
+vocab-0341,ja,雨,audio/ja/vocab-0341.mp3,en-ja,content/readings/en-ja/basic-35.json
+vocab-0342,lv,sniegs,audio/lv/vocab-0342.mp3,,
+vocab-0342,ru,снег,audio/ru/vocab-0342.mp3,lv-ru,content/readings/lv-ru/basic-35.json
+vocab-0342,en,snow,audio/en/vocab-0342.mp3,ru-en,content/readings/ru-en/basic-35.json
+vocab-0342,ja,雪,audio/ja/vocab-0342.mp3,en-ja,content/readings/en-ja/basic-35.json
+vocab-0343,lv,vējš,audio/lv/vocab-0343.mp3,,
+vocab-0343,ru,ветер,audio/ru/vocab-0343.mp3,lv-ru,content/readings/lv-ru/basic-35.json
+vocab-0343,en,wind,audio/en/vocab-0343.mp3,ru-en,content/readings/ru-en/basic-35.json
+vocab-0343,ja,風,audio/ja/vocab-0343.mp3,en-ja,content/readings/en-ja/basic-35.json
+vocab-0344,lv,mākonis,audio/lv/vocab-0344.mp3,,
+vocab-0344,ru,облако,audio/ru/vocab-0344.mp3,lv-ru,content/readings/lv-ru/basic-35.json
+vocab-0344,en,cloud,audio/en/vocab-0344.mp3,ru-en,content/readings/ru-en/basic-35.json
+vocab-0344,ja,雲,audio/ja/vocab-0344.mp3,en-ja,content/readings/en-ja/basic-35.json
+vocab-0345,lv,migla,audio/lv/vocab-0345.mp3,,
+vocab-0345,ru,туман,audio/ru/vocab-0345.mp3,lv-ru,content/readings/lv-ru/basic-35.json
+vocab-0345,en,fog,audio/en/vocab-0345.mp3,ru-en,content/readings/ru-en/basic-35.json
+vocab-0345,ja,霧,audio/ja/vocab-0345.mp3,en-ja,content/readings/en-ja/basic-35.json
+vocab-0346,lv,ledus,audio/lv/vocab-0346.mp3,,
+vocab-0346,ru,лёд,audio/ru/vocab-0346.mp3,lv-ru,content/readings/lv-ru/basic-35.json
+vocab-0346,en,ice,audio/en/vocab-0346.mp3,ru-en,content/readings/ru-en/basic-35.json
+vocab-0346,ja,氷,audio/ja/vocab-0346.mp3,en-ja,content/readings/en-ja/basic-35.json
+vocab-0347,lv,pērkons,audio/lv/vocab-0347.mp3,,
+vocab-0347,ru,гром,audio/ru/vocab-0347.mp3,lv-ru,content/readings/lv-ru/basic-35.json
+vocab-0347,en,thunder,audio/en/vocab-0347.mp3,ru-en,content/readings/ru-en/basic-35.json
+vocab-0347,ja,雷,audio/ja/vocab-0347.mp3,en-ja,content/readings/en-ja/basic-35.json
+vocab-0348,lv,vētra,audio/lv/vocab-0348.mp3,,
+vocab-0348,ru,буря,audio/ru/vocab-0348.mp3,lv-ru,content/readings/lv-ru/basic-35.json
+vocab-0348,en,storm,audio/en/vocab-0348.mp3,ru-en,content/readings/ru-en/basic-35.json
+vocab-0348,ja,嵐,audio/ja/vocab-0348.mp3,en-ja,content/readings/en-ja/basic-35.json
+vocab-0349,lv,varavīksne,audio/lv/vocab-0349.mp3,,
+vocab-0349,ru,радуга,audio/ru/vocab-0349.mp3,lv-ru,content/readings/lv-ru/basic-35.json
+vocab-0349,en,rainbow,audio/en/vocab-0349.mp3,ru-en,content/readings/ru-en/basic-35.json
+vocab-0349,ja,虹,audio/ja/vocab-0349.mp3,en-ja,content/readings/en-ja/basic-35.json
+vocab-0350,lv,temperatūra,audio/lv/vocab-0350.mp3,,
+vocab-0350,ru,температура,audio/ru/vocab-0350.mp3,lv-ru,content/readings/lv-ru/basic-35.json
+vocab-0350,en,temperature,audio/en/vocab-0350.mp3,ru-en,content/readings/ru-en/basic-35.json
+vocab-0350,ja,気温,audio/ja/vocab-0350.mp3,en-ja,content/readings/en-ja/basic-35.json
+vocab-0351,lv,koks,audio/lv/vocab-0351.mp3,,
+vocab-0351,ru,дерево,audio/ru/vocab-0351.mp3,lv-ru,content/readings/lv-ru/basic-36.json
+vocab-0351,en,tree,audio/en/vocab-0351.mp3,ru-en,content/readings/ru-en/basic-36.json
+vocab-0351,ja,木,audio/ja/vocab-0351.mp3,en-ja,content/readings/en-ja/basic-36.json
+vocab-0352,lv,puķe,audio/lv/vocab-0352.mp3,,
+vocab-0352,ru,цветок,audio/ru/vocab-0352.mp3,lv-ru,content/readings/lv-ru/basic-36.json
+vocab-0352,en,flower,audio/en/vocab-0352.mp3,ru-en,content/readings/ru-en/basic-36.json
+vocab-0352,ja,花,audio/ja/vocab-0352.mp3,en-ja,content/readings/en-ja/basic-36.json
+vocab-0353,lv,zāle,audio/lv/vocab-0353.mp3,,
+vocab-0353,ru,трава,audio/ru/vocab-0353.mp3,lv-ru,content/readings/lv-ru/basic-36.json
+vocab-0353,en,grass,audio/en/vocab-0353.mp3,ru-en,content/readings/ru-en/basic-36.json
+vocab-0353,ja,草,audio/ja/vocab-0353.mp3,en-ja,content/readings/en-ja/basic-36.json
+vocab-0354,lv,lapa,audio/lv/vocab-0354.mp3,,
+vocab-0354,ru,лист,audio/ru/vocab-0354.mp3,lv-ru,content/readings/lv-ru/basic-36.json
+vocab-0354,en,leaf,audio/en/vocab-0354.mp3,ru-en,content/readings/ru-en/basic-36.json
+vocab-0354,ja,葉,audio/ja/vocab-0354.mp3,en-ja,content/readings/en-ja/basic-36.json
+vocab-0355,lv,mežs,audio/lv/vocab-0355.mp3,,
+vocab-0355,ru,лес,audio/ru/vocab-0355.mp3,lv-ru,content/readings/lv-ru/basic-36.json
+vocab-0355,en,forest,audio/en/vocab-0355.mp3,ru-en,content/readings/ru-en/basic-36.json
+vocab-0355,ja,森,audio/ja/vocab-0355.mp3,en-ja,content/readings/en-ja/basic-36.json
+vocab-0356,lv,upe,audio/lv/vocab-0356.mp3,,
+vocab-0356,ru,река,audio/ru/vocab-0356.mp3,lv-ru,content/readings/lv-ru/basic-36.json
+vocab-0356,en,river,audio/en/vocab-0356.mp3,ru-en,content/readings/ru-en/basic-36.json
+vocab-0356,ja,川,audio/ja/vocab-0356.mp3,en-ja,content/readings/en-ja/basic-36.json
+vocab-0357,lv,ezers,audio/lv/vocab-0357.mp3,,
+vocab-0357,ru,озеро,audio/ru/vocab-0357.mp3,lv-ru,content/readings/lv-ru/basic-36.json
+vocab-0357,en,lake,audio/en/vocab-0357.mp3,ru-en,content/readings/ru-en/basic-36.json
+vocab-0357,ja,湖,audio/ja/vocab-0357.mp3,en-ja,content/readings/en-ja/basic-36.json
+vocab-0358,lv,jūra,audio/lv/vocab-0358.mp3,,
+vocab-0358,ru,море,audio/ru/vocab-0358.mp3,lv-ru,content/readings/lv-ru/basic-36.json
+vocab-0358,en,sea,audio/en/vocab-0358.mp3,ru-en,content/readings/ru-en/basic-36.json
+vocab-0358,ja,海,audio/ja/vocab-0358.mp3,en-ja,content/readings/en-ja/basic-36.json
+vocab-0359,lv,pludmale,audio/lv/vocab-0359.mp3,,
+vocab-0359,ru,пляж,audio/ru/vocab-0359.mp3,lv-ru,content/readings/lv-ru/basic-36.json
+vocab-0359,en,beach,audio/en/vocab-0359.mp3,ru-en,content/readings/ru-en/basic-36.json
+vocab-0359,ja,浜辺,audio/ja/vocab-0359.mp3,en-ja,content/readings/en-ja/basic-36.json
+vocab-0360,lv,akmens,audio/lv/vocab-0360.mp3,,
+vocab-0360,ru,камень,audio/ru/vocab-0360.mp3,lv-ru,content/readings/lv-ru/basic-36.json
+vocab-0360,en,stone,audio/en/vocab-0360.mp3,ru-en,content/readings/ru-en/basic-36.json
+vocab-0360,ja,石,audio/ja/vocab-0360.mp3,en-ja,content/readings/en-ja/basic-36.json
+vocab-0361,lv,suns,audio/lv/vocab-0361.mp3,,
+vocab-0361,ru,собака,audio/ru/vocab-0361.mp3,lv-ru,content/readings/lv-ru/basic-37.json
+vocab-0361,en,dog,audio/en/vocab-0361.mp3,ru-en,content/readings/ru-en/basic-37.json
+vocab-0361,ja,犬,audio/ja/vocab-0361.mp3,en-ja,content/readings/en-ja/basic-37.json
+vocab-0362,lv,kaķis,audio/lv/vocab-0362.mp3,,
+vocab-0362,ru,кошка,audio/ru/vocab-0362.mp3,lv-ru,content/readings/lv-ru/basic-37.json
+vocab-0362,en,cat,audio/en/vocab-0362.mp3,ru-en,content/readings/ru-en/basic-37.json
+vocab-0362,ja,猫,audio/ja/vocab-0362.mp3,en-ja,content/readings/en-ja/basic-37.json
+vocab-0363,lv,zirgs,audio/lv/vocab-0363.mp3,,
+vocab-0363,ru,лошадь,audio/ru/vocab-0363.mp3,lv-ru,content/readings/lv-ru/basic-37.json
+vocab-0363,en,horse,audio/en/vocab-0363.mp3,ru-en,content/readings/ru-en/basic-37.json
+vocab-0363,ja,馬,audio/ja/vocab-0363.mp3,en-ja,content/readings/en-ja/basic-37.json
+vocab-0364,lv,govs,audio/lv/vocab-0364.mp3,,
+vocab-0364,ru,корова,audio/ru/vocab-0364.mp3,lv-ru,content/readings/lv-ru/basic-37.json
+vocab-0364,en,cow,audio/en/vocab-0364.mp3,ru-en,content/readings/ru-en/basic-37.json
+vocab-0364,ja,牛,audio/ja/vocab-0364.mp3,en-ja,content/readings/en-ja/basic-37.json
+vocab-0365,lv,cūka,audio/lv/vocab-0365.mp3,,
+vocab-0365,ru,свинья,audio/ru/vocab-0365.mp3,lv-ru,content/readings/lv-ru/basic-37.json
+vocab-0365,en,pig,audio/en/vocab-0365.mp3,ru-en,content/readings/ru-en/basic-37.json
+vocab-0365,ja,豚,audio/ja/vocab-0365.mp3,en-ja,content/readings/en-ja/basic-37.json
+vocab-0366,lv,aita,audio/lv/vocab-0366.mp3,,
+vocab-0366,ru,овца,audio/ru/vocab-0366.mp3,lv-ru,content/readings/lv-ru/basic-37.json
+vocab-0366,en,sheep,audio/en/vocab-0366.mp3,ru-en,content/readings/ru-en/basic-37.json
+vocab-0366,ja,羊,audio/ja/vocab-0366.mp3,en-ja,content/readings/en-ja/basic-37.json
+vocab-0367,lv,kaza,audio/lv/vocab-0367.mp3,,
+vocab-0367,ru,коза,audio/ru/vocab-0367.mp3,lv-ru,content/readings/lv-ru/basic-37.json
+vocab-0367,en,goat,audio/en/vocab-0367.mp3,ru-en,content/readings/ru-en/basic-37.json
+vocab-0367,ja,ヤギ,audio/ja/vocab-0367.mp3,en-ja,content/readings/en-ja/basic-37.json
+vocab-0368,lv,vista,audio/lv/vocab-0368.mp3,,
+vocab-0368,ru,курица,audio/ru/vocab-0368.mp3,lv-ru,content/readings/lv-ru/basic-37.json
+vocab-0368,en,hen,audio/en/vocab-0368.mp3,ru-en,content/readings/ru-en/basic-37.json
+vocab-0368,ja,めんどり,audio/ja/vocab-0368.mp3,en-ja,content/readings/en-ja/basic-37.json
+vocab-0369,lv,pīle,audio/lv/vocab-0369.mp3,,
+vocab-0369,ru,утка,audio/ru/vocab-0369.mp3,lv-ru,content/readings/lv-ru/basic-37.json
+vocab-0369,en,duck,audio/en/vocab-0369.mp3,ru-en,content/readings/ru-en/basic-37.json
+vocab-0369,ja,アヒル,audio/ja/vocab-0369.mp3,en-ja,content/readings/en-ja/basic-37.json
+vocab-0370,lv,putns,audio/lv/vocab-0370.mp3,,
+vocab-0370,ru,птица,audio/ru/vocab-0370.mp3,lv-ru,content/readings/lv-ru/basic-37.json
+vocab-0370,en,bird,audio/en/vocab-0370.mp3,ru-en,content/readings/ru-en/basic-37.json
+vocab-0370,ja,鳥,audio/ja/vocab-0370.mp3,en-ja,content/readings/en-ja/basic-37.json
+vocab-0371,lv,autobuss,audio/lv/vocab-0371.mp3,,
+vocab-0371,ru,автобус,audio/ru/vocab-0371.mp3,lv-ru,content/readings/lv-ru/basic-38.json
+vocab-0371,en,bus,audio/en/vocab-0371.mp3,ru-en,content/readings/ru-en/basic-38.json
+vocab-0371,ja,バス,audio/ja/vocab-0371.mp3,en-ja,content/readings/en-ja/basic-38.json
+vocab-0372,lv,tramvajs,audio/lv/vocab-0372.mp3,,
+vocab-0372,ru,трамвай,audio/ru/vocab-0372.mp3,lv-ru,content/readings/lv-ru/basic-38.json
+vocab-0372,en,tram,audio/en/vocab-0372.mp3,ru-en,content/readings/ru-en/basic-38.json
+vocab-0372,ja,路面電車,audio/ja/vocab-0372.mp3,en-ja,content/readings/en-ja/basic-38.json
+vocab-0373,lv,trolejbuss,audio/lv/vocab-0373.mp3,,
+vocab-0373,ru,троллейбус,audio/ru/vocab-0373.mp3,lv-ru,content/readings/lv-ru/basic-38.json
+vocab-0373,en,trolleybus,audio/en/vocab-0373.mp3,ru-en,content/readings/ru-en/basic-38.json
+vocab-0373,ja,トロリーバス,audio/ja/vocab-0373.mp3,en-ja,content/readings/en-ja/basic-38.json
+vocab-0374,lv,vilciens,audio/lv/vocab-0374.mp3,,
+vocab-0374,ru,поезд,audio/ru/vocab-0374.mp3,lv-ru,content/readings/lv-ru/basic-38.json
+vocab-0374,en,train,audio/en/vocab-0374.mp3,ru-en,content/readings/ru-en/basic-38.json
+vocab-0374,ja,列車,audio/ja/vocab-0374.mp3,en-ja,content/readings/en-ja/basic-38.json
+vocab-0375,lv,automašīna,audio/lv/vocab-0375.mp3,,
+vocab-0375,ru,машина,audio/ru/vocab-0375.mp3,lv-ru,content/readings/lv-ru/basic-38.json
+vocab-0375,en,car,audio/en/vocab-0375.mp3,ru-en,content/readings/ru-en/basic-38.json
+vocab-0375,ja,車,audio/ja/vocab-0375.mp3,en-ja,content/readings/en-ja/basic-38.json
+vocab-0376,lv,velosipēds,audio/lv/vocab-0376.mp3,,
+vocab-0376,ru,велосипед,audio/ru/vocab-0376.mp3,lv-ru,content/readings/lv-ru/basic-38.json
+vocab-0376,en,bicycle,audio/en/vocab-0376.mp3,ru-en,content/readings/ru-en/basic-38.json
+vocab-0376,ja,自転車,audio/ja/vocab-0376.mp3,en-ja,content/readings/en-ja/basic-38.json
+vocab-0377,lv,taksometrs,audio/lv/vocab-0377.mp3,,
+vocab-0377,ru,такси,audio/ru/vocab-0377.mp3,lv-ru,content/readings/lv-ru/basic-38.json
+vocab-0377,en,taxi,audio/en/vocab-0377.mp3,ru-en,content/readings/ru-en/basic-38.json
+vocab-0377,ja,タクシー,audio/ja/vocab-0377.mp3,en-ja,content/readings/en-ja/basic-38.json
+vocab-0378,lv,stacija,audio/lv/vocab-0378.mp3,,
+vocab-0378,ru,станция,audio/ru/vocab-0378.mp3,lv-ru,content/readings/lv-ru/basic-38.json
+vocab-0378,en,station,audio/en/vocab-0378.mp3,ru-en,content/readings/ru-en/basic-38.json
+vocab-0378,ja,駅,audio/ja/vocab-0378.mp3,en-ja,content/readings/en-ja/basic-38.json
+vocab-0379,lv,lidosta,audio/lv/vocab-0379.mp3,,
+vocab-0379,ru,аэропорт,audio/ru/vocab-0379.mp3,lv-ru,content/readings/lv-ru/basic-38.json
+vocab-0379,en,airport,audio/en/vocab-0379.mp3,ru-en,content/readings/ru-en/basic-38.json
+vocab-0379,ja,空港,audio/ja/vocab-0379.mp3,en-ja,content/readings/en-ja/basic-38.json
+vocab-0380,lv,biļete,audio/lv/vocab-0380.mp3,,
+vocab-0380,ru,билет,audio/ru/vocab-0380.mp3,lv-ru,content/readings/lv-ru/basic-38.json
+vocab-0380,en,ticket,audio/en/vocab-0380.mp3,ru-en,content/readings/ru-en/basic-38.json
+vocab-0380,ja,切符,audio/ja/vocab-0380.mp3,en-ja,content/readings/en-ja/basic-38.json
+vocab-0381,lv,ceļš,audio/lv/vocab-0381.mp3,,
+vocab-0381,ru,дорога,audio/ru/vocab-0381.mp3,lv-ru,content/readings/lv-ru/basic-39.json
+vocab-0381,en,road,audio/en/vocab-0381.mp3,ru-en,content/readings/ru-en/basic-39.json
+vocab-0381,ja,道路,audio/ja/vocab-0381.mp3,en-ja,content/readings/en-ja/basic-39.json
+vocab-0382,lv,tilts,audio/lv/vocab-0382.mp3,,
+vocab-0382,ru,мост,audio/ru/vocab-0382.mp3,lv-ru,content/readings/lv-ru/basic-39.json
+vocab-0382,en,bridge,audio/en/vocab-0382.mp3,ru-en,content/readings/ru-en/basic-39.json
+vocab-0382,ja,橋,audio/ja/vocab-0382.mp3,en-ja,content/readings/en-ja/basic-39.json
+vocab-0383,lv,gājēju pāreja,audio/lv/vocab-0383.mp3,,
+vocab-0383,ru,пешеходный переход,audio/ru/vocab-0383.mp3,lv-ru,content/readings/lv-ru/basic-39.json
+vocab-0383,en,pedestrian crossing,audio/en/vocab-0383.mp3,ru-en,content/readings/ru-en/basic-39.json
+vocab-0383,ja,横断歩道,audio/ja/vocab-0383.mp3,en-ja,content/readings/en-ja/basic-39.json
+vocab-0384,lv,luksofors,audio/lv/vocab-0384.mp3,,
+vocab-0384,ru,светофор,audio/ru/vocab-0384.mp3,lv-ru,content/readings/lv-ru/basic-39.json
+vocab-0384,en,traffic lights,audio/en/vocab-0384.mp3,ru-en,content/readings/ru-en/basic-39.json
+vocab-0384,ja,信号機,audio/ja/vocab-0384.mp3,en-ja,content/readings/en-ja/basic-39.json
+vocab-0385,lv,ietve,audio/lv/vocab-0385.mp3,,
+vocab-0385,ru,тротуар,audio/ru/vocab-0385.mp3,lv-ru,content/readings/lv-ru/basic-39.json
+vocab-0385,en,pavement,audio/en/vocab-0385.mp3,ru-en,content/readings/ru-en/basic-39.json
+vocab-0385,ja,歩道,audio/ja/vocab-0385.mp3,en-ja,content/readings/en-ja/basic-39.json
+vocab-0386,lv,stūris,audio/lv/vocab-0386.mp3,,
+vocab-0386,ru,угол,audio/ru/vocab-0386.mp3,lv-ru,content/readings/lv-ru/basic-39.json
+vocab-0386,en,corner,audio/en/vocab-0386.mp3,ru-en,content/readings/ru-en/basic-39.json
+vocab-0386,ja,角,audio/ja/vocab-0386.mp3,en-ja,content/readings/en-ja/basic-39.json
+vocab-0387,lv,laukums,audio/lv/vocab-0387.mp3,,
+vocab-0387,ru,площадь,audio/ru/vocab-0387.mp3,lv-ru,content/readings/lv-ru/basic-39.json
+vocab-0387,en,square,audio/en/vocab-0387.mp3,ru-en,content/readings/ru-en/basic-39.json
+vocab-0387,ja,広場,audio/ja/vocab-0387.mp3,en-ja,content/readings/en-ja/basic-39.json
+vocab-0388,lv,centrs,audio/lv/vocab-0388.mp3,,
+vocab-0388,ru,центр,audio/ru/vocab-0388.mp3,lv-ru,content/readings/lv-ru/basic-39.json
+vocab-0388,en,centre,audio/en/vocab-0388.mp3,ru-en,content/readings/ru-en/basic-39.json
+vocab-0388,ja,中心,audio/ja/vocab-0388.mp3,en-ja,content/readings/en-ja/basic-39.json
+vocab-0389,lv,adrese,audio/lv/vocab-0389.mp3,,
+vocab-0389,ru,адрес,audio/ru/vocab-0389.mp3,lv-ru,content/readings/lv-ru/basic-39.json
+vocab-0389,en,address,audio/en/vocab-0389.mp3,ru-en,content/readings/ru-en/basic-39.json
+vocab-0389,ja,住所,audio/ja/vocab-0389.mp3,en-ja,content/readings/en-ja/basic-39.json
+vocab-0390,lv,pilsētas karte,audio/lv/vocab-0390.mp3,,
+vocab-0390,ru,карта города,audio/ru/vocab-0390.mp3,lv-ru,content/readings/lv-ru/basic-39.json
+vocab-0390,en,city map,audio/en/vocab-0390.mp3,ru-en,content/readings/ru-en/basic-39.json
+vocab-0390,ja,市街地図,audio/ja/vocab-0390.mp3,en-ja,content/readings/en-ja/basic-39.json
+vocab-0391,lv,skolas soma,audio/lv/vocab-0391.mp3,,
+vocab-0391,ru,школьный рюкзак,audio/ru/vocab-0391.mp3,lv-ru,content/readings/lv-ru/basic-40.json
+vocab-0391,en,schoolbag,audio/en/vocab-0391.mp3,ru-en,content/readings/ru-en/basic-40.json
+vocab-0391,ja,通学かばん,audio/ja/vocab-0391.mp3,en-ja,content/readings/en-ja/basic-40.json
+vocab-0392,lv,lineāls,audio/lv/vocab-0392.mp3,,
+vocab-0392,ru,линейка,audio/ru/vocab-0392.mp3,lv-ru,content/readings/lv-ru/basic-40.json
+vocab-0392,en,ruler,audio/en/vocab-0392.mp3,ru-en,content/readings/ru-en/basic-40.json
+vocab-0392,ja,定規,audio/ja/vocab-0392.mp3,en-ja,content/readings/en-ja/basic-40.json
+vocab-0393,lv,dzēšgumija,audio/lv/vocab-0393.mp3,,
+vocab-0393,ru,ластик,audio/ru/vocab-0393.mp3,lv-ru,content/readings/lv-ru/basic-40.json
+vocab-0393,en,eraser,audio/en/vocab-0393.mp3,ru-en,content/readings/ru-en/basic-40.json
+vocab-0393,ja,消しゴム,audio/ja/vocab-0393.mp3,en-ja,content/readings/en-ja/basic-40.json
+vocab-0394,lv,šķēres,audio/lv/vocab-0394.mp3,,
+vocab-0394,ru,ножницы,audio/ru/vocab-0394.mp3,lv-ru,content/readings/lv-ru/basic-40.json
+vocab-0394,en,scissors,audio/en/vocab-0394.mp3,ru-en,content/readings/ru-en/basic-40.json
+vocab-0394,ja,はさみ,audio/ja/vocab-0394.mp3,en-ja,content/readings/en-ja/basic-40.json
+vocab-0395,lv,līme,audio/lv/vocab-0395.mp3,,
+vocab-0395,ru,клей,audio/ru/vocab-0395.mp3,lv-ru,content/readings/lv-ru/basic-40.json
+vocab-0395,en,glue,audio/en/vocab-0395.mp3,ru-en,content/readings/ru-en/basic-40.json
+vocab-0395,ja,のり,audio/ja/vocab-0395.mp3,en-ja,content/readings/en-ja/basic-40.json
+vocab-0396,lv,papīrs,audio/lv/vocab-0396.mp3,,
+vocab-0396,ru,бумага,audio/ru/vocab-0396.mp3,lv-ru,content/readings/lv-ru/basic-40.json
+vocab-0396,en,paper,audio/en/vocab-0396.mp3,ru-en,content/readings/ru-en/basic-40.json
+vocab-0396,ja,紙,audio/ja/vocab-0396.mp3,en-ja,content/readings/en-ja/basic-40.json
+vocab-0397,lv,krāsa,audio/lv/vocab-0397.mp3,,
+vocab-0397,ru,краска,audio/ru/vocab-0397.mp3,lv-ru,content/readings/lv-ru/basic-40.json
+vocab-0397,en,paint,audio/en/vocab-0397.mp3,ru-en,content/readings/ru-en/basic-40.json
+vocab-0397,ja,絵の具,audio/ja/vocab-0397.mp3,en-ja,content/readings/en-ja/basic-40.json
+vocab-0398,lv,ota,audio/lv/vocab-0398.mp3,,
+vocab-0398,ru,кисть,audio/ru/vocab-0398.mp3,lv-ru,content/readings/lv-ru/basic-40.json
+vocab-0398,en,brush,audio/en/vocab-0398.mp3,ru-en,content/readings/ru-en/basic-40.json
+vocab-0398,ja,筆,audio/ja/vocab-0398.mp3,en-ja,content/readings/en-ja/basic-40.json
+vocab-0399,lv,zīmējums,audio/lv/vocab-0399.mp3,,
+vocab-0399,ru,рисунок,audio/ru/vocab-0399.mp3,lv-ru,content/readings/lv-ru/basic-40.json
+vocab-0399,en,drawing,audio/en/vocab-0399.mp3,ru-en,content/readings/ru-en/basic-40.json
+vocab-0399,ja,絵,audio/ja/vocab-0399.mp3,en-ja,content/readings/en-ja/basic-40.json
+vocab-0400,lv,mājasdarbs,audio/lv/vocab-0400.mp3,,
+vocab-0400,ru,домашнее задание,audio/ru/vocab-0400.mp3,lv-ru,content/readings/lv-ru/basic-40.json
+vocab-0400,en,homework,audio/en/vocab-0400.mp3,ru-en,content/readings/ru-en/basic-40.json
+vocab-0400,ja,宿題,audio/ja/vocab-0400.mp3,en-ja,content/readings/en-ja/basic-40.json
+vocab-0401,lv,burts,audio/lv/vocab-0401.mp3,,
+vocab-0401,ru,буква,audio/ru/vocab-0401.mp3,lv-ru,content/readings/lv-ru/basic-41.json
+vocab-0401,en,letter,audio/en/vocab-0401.mp3,ru-en,content/readings/ru-en/basic-41.json
+vocab-0401,ja,文字,audio/ja/vocab-0401.mp3,en-ja,content/readings/en-ja/basic-41.json
+vocab-0402,lv,vārds,audio/lv/vocab-0402.mp3,,
+vocab-0402,ru,слово,audio/ru/vocab-0402.mp3,lv-ru,content/readings/lv-ru/basic-41.json
+vocab-0402,en,word,audio/en/vocab-0402.mp3,ru-en,content/readings/ru-en/basic-41.json
+vocab-0402,ja,単語,audio/ja/vocab-0402.mp3,en-ja,content/readings/en-ja/basic-41.json
+vocab-0403,lv,frāze,audio/lv/vocab-0403.mp3,,
+vocab-0403,ru,фраза,audio/ru/vocab-0403.mp3,lv-ru,content/readings/lv-ru/basic-41.json
+vocab-0403,en,phrase,audio/en/vocab-0403.mp3,ru-en,content/readings/ru-en/basic-41.json
+vocab-0403,ja,語句,audio/ja/vocab-0403.mp3,en-ja,content/readings/en-ja/basic-41.json
+vocab-0404,lv,teikums,audio/lv/vocab-0404.mp3,,
+vocab-0404,ru,предложение,audio/ru/vocab-0404.mp3,lv-ru,content/readings/lv-ru/basic-41.json
+vocab-0404,en,sentence,audio/en/vocab-0404.mp3,ru-en,content/readings/ru-en/basic-41.json
+vocab-0404,ja,文,audio/ja/vocab-0404.mp3,en-ja,content/readings/en-ja/basic-41.json
+vocab-0405,lv,jautājums,audio/lv/vocab-0405.mp3,,
+vocab-0405,ru,вопрос,audio/ru/vocab-0405.mp3,lv-ru,content/readings/lv-ru/basic-41.json
+vocab-0405,en,question,audio/en/vocab-0405.mp3,ru-en,content/readings/ru-en/basic-41.json
+vocab-0405,ja,質問,audio/ja/vocab-0405.mp3,en-ja,content/readings/en-ja/basic-41.json
+vocab-0406,lv,atbilde,audio/lv/vocab-0406.mp3,,
+vocab-0406,ru,ответ,audio/ru/vocab-0406.mp3,lv-ru,content/readings/lv-ru/basic-41.json
+vocab-0406,en,answer,audio/en/vocab-0406.mp3,ru-en,content/readings/ru-en/basic-41.json
+vocab-0406,ja,答え,audio/ja/vocab-0406.mp3,en-ja,content/readings/en-ja/basic-41.json
+vocab-0407,lv,lappuse,audio/lv/vocab-0407.mp3,,
+vocab-0407,ru,страница,audio/ru/vocab-0407.mp3,lv-ru,content/readings/lv-ru/basic-41.json
+vocab-0407,en,page,audio/en/vocab-0407.mp3,ru-en,content/readings/ru-en/basic-41.json
+vocab-0407,ja,ページ,audio/ja/vocab-0407.mp3,en-ja,content/readings/en-ja/basic-41.json
+vocab-0408,lv,uzdevums,audio/lv/vocab-0408.mp3,,
+vocab-0408,ru,упражнение,audio/ru/vocab-0408.mp3,lv-ru,content/readings/lv-ru/basic-41.json
+vocab-0408,en,exercise,audio/en/vocab-0408.mp3,ru-en,content/readings/ru-en/basic-41.json
+vocab-0408,ja,練習問題,audio/ja/vocab-0408.mp3,en-ja,content/readings/en-ja/basic-41.json
+vocab-0409,lv,piemērs,audio/lv/vocab-0409.mp3,,
+vocab-0409,ru,пример,audio/ru/vocab-0409.mp3,lv-ru,content/readings/lv-ru/basic-41.json
+vocab-0409,en,example,audio/en/vocab-0409.mp3,ru-en,content/readings/ru-en/basic-41.json
+vocab-0409,ja,例,audio/ja/vocab-0409.mp3,en-ja,content/readings/en-ja/basic-41.json
+vocab-0410,lv,kļūda,audio/lv/vocab-0410.mp3,,
+vocab-0410,ru,ошибка,audio/ru/vocab-0410.mp3,lv-ru,content/readings/lv-ru/basic-41.json
+vocab-0410,en,mistake,audio/en/vocab-0410.mp3,ru-en,content/readings/ru-en/basic-41.json
+vocab-0410,ja,間違い,audio/ja/vocab-0410.mp3,en-ja,content/readings/en-ja/basic-41.json
+vocab-0411,lv,iet,audio/lv/vocab-0411.mp3,,
+vocab-0411,ru,идти,audio/ru/vocab-0411.mp3,lv-ru,content/readings/lv-ru/basic-42.json
+vocab-0411,en,to go,audio/en/vocab-0411.mp3,ru-en,content/readings/ru-en/basic-42.json
+vocab-0411,ja,行く,audio/ja/vocab-0411.mp3,en-ja,content/readings/en-ja/basic-42.json
+vocab-0412,lv,nākt,audio/lv/vocab-0412.mp3,,
+vocab-0412,ru,приходить,audio/ru/vocab-0412.mp3,lv-ru,content/readings/lv-ru/basic-42.json
+vocab-0412,en,to come,audio/en/vocab-0412.mp3,ru-en,content/readings/ru-en/basic-42.json
+vocab-0412,ja,来る,audio/ja/vocab-0412.mp3,en-ja,content/readings/en-ja/basic-42.json
+vocab-0413,lv,staigāt,audio/lv/vocab-0413.mp3,,
+vocab-0413,ru,гулять,audio/ru/vocab-0413.mp3,lv-ru,content/readings/lv-ru/basic-42.json
+vocab-0413,en,to walk,audio/en/vocab-0413.mp3,ru-en,content/readings/ru-en/basic-42.json
+vocab-0413,ja,歩く,audio/ja/vocab-0413.mp3,en-ja,content/readings/en-ja/basic-42.json
+vocab-0414,lv,skriet,audio/lv/vocab-0414.mp3,,
+vocab-0414,ru,бегать,audio/ru/vocab-0414.mp3,lv-ru,content/readings/lv-ru/basic-42.json
+vocab-0414,en,to run,audio/en/vocab-0414.mp3,ru-en,content/readings/ru-en/basic-42.json
+vocab-0414,ja,走る,audio/ja/vocab-0414.mp3,en-ja,content/readings/en-ja/basic-42.json
+vocab-0415,lv,sēdēt,audio/lv/vocab-0415.mp3,,
+vocab-0415,ru,сидеть,audio/ru/vocab-0415.mp3,lv-ru,content/readings/lv-ru/basic-42.json
+vocab-0415,en,to sit,audio/en/vocab-0415.mp3,ru-en,content/readings/ru-en/basic-42.json
+vocab-0415,ja,座る,audio/ja/vocab-0415.mp3,en-ja,content/readings/en-ja/basic-42.json
+vocab-0416,lv,stāvēt,audio/lv/vocab-0416.mp3,,
+vocab-0416,ru,стоять,audio/ru/vocab-0416.mp3,lv-ru,content/readings/lv-ru/basic-42.json
+vocab-0416,en,to stand,audio/en/vocab-0416.mp3,ru-en,content/readings/ru-en/basic-42.json
+vocab-0416,ja,立つ,audio/ja/vocab-0416.mp3,en-ja,content/readings/en-ja/basic-42.json
+vocab-0417,lv,gulēt,audio/lv/vocab-0417.mp3,,
+vocab-0417,ru,спать,audio/ru/vocab-0417.mp3,lv-ru,content/readings/lv-ru/basic-42.json
+vocab-0417,en,to sleep,audio/en/vocab-0417.mp3,ru-en,content/readings/ru-en/basic-42.json
+vocab-0417,ja,寝る,audio/ja/vocab-0417.mp3,en-ja,content/readings/en-ja/basic-42.json
+vocab-0418,lv,pamosties,audio/lv/vocab-0418.mp3,,
+vocab-0418,ru,просыпаться,audio/ru/vocab-0418.mp3,lv-ru,content/readings/lv-ru/basic-42.json
+vocab-0418,en,to wake up,audio/en/vocab-0418.mp3,ru-en,content/readings/ru-en/basic-42.json
+vocab-0418,ja,起きる,audio/ja/vocab-0418.mp3,en-ja,content/readings/en-ja/basic-42.json
+vocab-0419,lv,ēst,audio/lv/vocab-0419.mp3,,
+vocab-0419,ru,есть,audio/ru/vocab-0419.mp3,lv-ru,content/readings/lv-ru/basic-42.json
+vocab-0419,en,to eat,audio/en/vocab-0419.mp3,ru-en,content/readings/ru-en/basic-42.json
+vocab-0419,ja,食べる,audio/ja/vocab-0419.mp3,en-ja,content/readings/en-ja/basic-42.json
+vocab-0420,lv,dzert,audio/lv/vocab-0420.mp3,,
+vocab-0420,ru,пить,audio/ru/vocab-0420.mp3,lv-ru,content/readings/lv-ru/basic-42.json
+vocab-0420,en,to drink,audio/en/vocab-0420.mp3,ru-en,content/readings/ru-en/basic-42.json
+vocab-0420,ja,飲む,audio/ja/vocab-0420.mp3,en-ja,content/readings/en-ja/basic-42.json
+vocab-0421,lv,runāt valodā,audio/lv/vocab-0421.mp3,,
+vocab-0421,ru,говорить на языке,audio/ru/vocab-0421.mp3,lv-ru,content/readings/lv-ru/basic-43.json
+vocab-0421,en,to speak a language,audio/en/vocab-0421.mp3,ru-en,content/readings/ru-en/basic-43.json
+vocab-0421,ja,言語を話す,audio/ja/vocab-0421.mp3,en-ja,content/readings/en-ja/basic-43.json
+vocab-0422,lv,pateikt vārdu,audio/lv/vocab-0422.mp3,,
+vocab-0422,ru,сказать слово,audio/ru/vocab-0422.mp3,lv-ru,content/readings/lv-ru/basic-43.json
+vocab-0422,en,to say a word,audio/en/vocab-0422.mp3,ru-en,content/readings/ru-en/basic-43.json
+vocab-0422,ja,言葉を言う,audio/ja/vocab-0422.mp3,en-ja,content/readings/en-ja/basic-43.json
+vocab-0423,lv,jautāt,audio/lv/vocab-0423.mp3,,
+vocab-0423,ru,спрашивать,audio/ru/vocab-0423.mp3,lv-ru,content/readings/lv-ru/basic-43.json
+vocab-0423,en,to ask,audio/en/vocab-0423.mp3,ru-en,content/readings/ru-en/basic-43.json
+vocab-0423,ja,尋ねる,audio/ja/vocab-0423.mp3,en-ja,content/readings/en-ja/basic-43.json
+vocab-0424,lv,atbildēt,audio/lv/vocab-0424.mp3,,
+vocab-0424,ru,отвечать,audio/ru/vocab-0424.mp3,lv-ru,content/readings/lv-ru/basic-43.json
+vocab-0424,en,to answer,audio/en/vocab-0424.mp3,ru-en,content/readings/ru-en/basic-43.json
+vocab-0424,ja,答える,audio/ja/vocab-0424.mp3,en-ja,content/readings/en-ja/basic-43.json
+vocab-0425,lv,klausīties,audio/lv/vocab-0425.mp3,,
+vocab-0425,ru,слушать,audio/ru/vocab-0425.mp3,lv-ru,content/readings/lv-ru/basic-43.json
+vocab-0425,en,to listen,audio/en/vocab-0425.mp3,ru-en,content/readings/ru-en/basic-43.json
+vocab-0425,ja,耳を傾ける,audio/ja/vocab-0425.mp3,en-ja,content/readings/en-ja/basic-43.json
+vocab-0426,lv,dzirdēt,audio/lv/vocab-0426.mp3,,
+vocab-0426,ru,слышать,audio/ru/vocab-0426.mp3,lv-ru,content/readings/lv-ru/basic-43.json
+vocab-0426,en,to hear,audio/en/vocab-0426.mp3,ru-en,content/readings/ru-en/basic-43.json
+vocab-0426,ja,聞こえる,audio/ja/vocab-0426.mp3,en-ja,content/readings/en-ja/basic-43.json
+vocab-0427,lv,lasīt,audio/lv/vocab-0427.mp3,,
+vocab-0427,ru,читать,audio/ru/vocab-0427.mp3,lv-ru,content/readings/lv-ru/basic-43.json
+vocab-0427,en,to read,audio/en/vocab-0427.mp3,ru-en,content/readings/ru-en/basic-43.json
+vocab-0427,ja,読む,audio/ja/vocab-0427.mp3,en-ja,content/readings/en-ja/basic-43.json
+vocab-0428,lv,rakstīt,audio/lv/vocab-0428.mp3,,
+vocab-0428,ru,писать,audio/ru/vocab-0428.mp3,lv-ru,content/readings/lv-ru/basic-43.json
+vocab-0428,en,to write,audio/en/vocab-0428.mp3,ru-en,content/readings/ru-en/basic-43.json
+vocab-0428,ja,書く,audio/ja/vocab-0428.mp3,en-ja,content/readings/en-ja/basic-43.json
+vocab-0429,lv,mācīties,audio/lv/vocab-0429.mp3,,
+vocab-0429,ru,учиться,audio/ru/vocab-0429.mp3,lv-ru,content/readings/lv-ru/basic-43.json
+vocab-0429,en,to learn,audio/en/vocab-0429.mp3,ru-en,content/readings/ru-en/basic-43.json
+vocab-0429,ja,学ぶ,audio/ja/vocab-0429.mp3,en-ja,content/readings/en-ja/basic-43.json
+vocab-0430,lv,saprast,audio/lv/vocab-0430.mp3,,
+vocab-0430,ru,понимать,audio/ru/vocab-0430.mp3,lv-ru,content/readings/lv-ru/basic-43.json
+vocab-0430,en,to understand,audio/en/vocab-0430.mp3,ru-en,content/readings/ru-en/basic-43.json
+vocab-0430,ja,理解する,audio/ja/vocab-0430.mp3,en-ja,content/readings/en-ja/basic-43.json
+vocab-0431,lv,redzēt,audio/lv/vocab-0431.mp3,,
+vocab-0431,ru,видеть,audio/ru/vocab-0431.mp3,lv-ru,content/readings/lv-ru/basic-44.json
+vocab-0431,en,to see,audio/en/vocab-0431.mp3,ru-en,content/readings/ru-en/basic-44.json
+vocab-0431,ja,見える,audio/ja/vocab-0431.mp3,en-ja,content/readings/en-ja/basic-44.json
+vocab-0432,lv,skatīties uz,audio/lv/vocab-0432.mp3,,
+vocab-0432,ru,смотреть на,audio/ru/vocab-0432.mp3,lv-ru,content/readings/lv-ru/basic-44.json
+vocab-0432,en,to look at,audio/en/vocab-0432.mp3,ru-en,content/readings/ru-en/basic-44.json
+vocab-0432,ja,目を向ける,audio/ja/vocab-0432.mp3,en-ja,content/readings/en-ja/basic-44.json
+vocab-0433,lv,vērot,audio/lv/vocab-0433.mp3,,
+vocab-0433,ru,наблюдать,audio/ru/vocab-0433.mp3,lv-ru,content/readings/lv-ru/basic-44.json
+vocab-0433,en,to watch,audio/en/vocab-0433.mp3,ru-en,content/readings/ru-en/basic-44.json
+vocab-0433,ja,観る,audio/ja/vocab-0433.mp3,en-ja,content/readings/en-ja/basic-44.json
+vocab-0434,lv,atrast,audio/lv/vocab-0434.mp3,,
+vocab-0434,ru,находить,audio/ru/vocab-0434.mp3,lv-ru,content/readings/lv-ru/basic-44.json
+vocab-0434,en,to find,audio/en/vocab-0434.mp3,ru-en,content/readings/ru-en/basic-44.json
+vocab-0434,ja,見つける,audio/ja/vocab-0434.mp3,en-ja,content/readings/en-ja/basic-44.json
+vocab-0435,lv,meklēt,audio/lv/vocab-0435.mp3,,
+vocab-0435,ru,искать,audio/ru/vocab-0435.mp3,lv-ru,content/readings/lv-ru/basic-44.json
+vocab-0435,en,to search,audio/en/vocab-0435.mp3,ru-en,content/readings/ru-en/basic-44.json
+vocab-0435,ja,探す,audio/ja/vocab-0435.mp3,en-ja,content/readings/en-ja/basic-44.json
+vocab-0436,lv,ņemt,audio/lv/vocab-0436.mp3,,
+vocab-0436,ru,брать,audio/ru/vocab-0436.mp3,lv-ru,content/readings/lv-ru/basic-44.json
+vocab-0436,en,to take,audio/en/vocab-0436.mp3,ru-en,content/readings/ru-en/basic-44.json
+vocab-0436,ja,取る,audio/ja/vocab-0436.mp3,en-ja,content/readings/en-ja/basic-44.json
+vocab-0437,lv,dot,audio/lv/vocab-0437.mp3,,
+vocab-0437,ru,давать,audio/ru/vocab-0437.mp3,lv-ru,content/readings/lv-ru/basic-44.json
+vocab-0437,en,to give,audio/en/vocab-0437.mp3,ru-en,content/readings/ru-en/basic-44.json
+vocab-0437,ja,与える,audio/ja/vocab-0437.mp3,en-ja,content/readings/en-ja/basic-44.json
+vocab-0438,lv,atnest,audio/lv/vocab-0438.mp3,,
+vocab-0438,ru,приносить,audio/ru/vocab-0438.mp3,lv-ru,content/readings/lv-ru/basic-44.json
+vocab-0438,en,to bring,audio/en/vocab-0438.mp3,ru-en,content/readings/ru-en/basic-44.json
+vocab-0438,ja,持ってくる,audio/ja/vocab-0438.mp3,en-ja,content/readings/en-ja/basic-44.json
+vocab-0439,lv,pirkt,audio/lv/vocab-0439.mp3,,
+vocab-0439,ru,покупать,audio/ru/vocab-0439.mp3,lv-ru,content/readings/lv-ru/basic-44.json
+vocab-0439,en,to buy,audio/en/vocab-0439.mp3,ru-en,content/readings/ru-en/basic-44.json
+vocab-0439,ja,買う,audio/ja/vocab-0439.mp3,en-ja,content/readings/en-ja/basic-44.json
+vocab-0440,lv,maksāt,audio/lv/vocab-0440.mp3,,
+vocab-0440,ru,платить,audio/ru/vocab-0440.mp3,lv-ru,content/readings/lv-ru/basic-44.json
+vocab-0440,en,to pay,audio/en/vocab-0440.mp3,ru-en,content/readings/ru-en/basic-44.json
+vocab-0440,ja,払う,audio/ja/vocab-0440.mp3,en-ja,content/readings/en-ja/basic-44.json
+vocab-0441,lv,atvērt,audio/lv/vocab-0441.mp3,,
+vocab-0441,ru,открывать,audio/ru/vocab-0441.mp3,lv-ru,content/readings/lv-ru/basic-45.json
+vocab-0441,en,to open,audio/en/vocab-0441.mp3,ru-en,content/readings/ru-en/basic-45.json
+vocab-0441,ja,開ける,audio/ja/vocab-0441.mp3,en-ja,content/readings/en-ja/basic-45.json
+vocab-0442,lv,aizvērt,audio/lv/vocab-0442.mp3,,
+vocab-0442,ru,закрывать,audio/ru/vocab-0442.mp3,lv-ru,content/readings/lv-ru/basic-45.json
+vocab-0442,en,to close,audio/en/vocab-0442.mp3,ru-en,content/readings/ru-en/basic-45.json
+vocab-0442,ja,閉める,audio/ja/vocab-0442.mp3,en-ja,content/readings/en-ja/basic-45.json
+vocab-0443,lv,sākt,audio/lv/vocab-0443.mp3,,
+vocab-0443,ru,начинать,audio/ru/vocab-0443.mp3,lv-ru,content/readings/lv-ru/basic-45.json
+vocab-0443,en,to start,audio/en/vocab-0443.mp3,ru-en,content/readings/ru-en/basic-45.json
+vocab-0443,ja,始める,audio/ja/vocab-0443.mp3,en-ja,content/readings/en-ja/basic-45.json
+vocab-0444,lv,pabeigt,audio/lv/vocab-0444.mp3,,
+vocab-0444,ru,заканчивать,audio/ru/vocab-0444.mp3,lv-ru,content/readings/lv-ru/basic-45.json
+vocab-0444,en,to finish,audio/en/vocab-0444.mp3,ru-en,content/readings/ru-en/basic-45.json
+vocab-0444,ja,終える,audio/ja/vocab-0444.mp3,en-ja,content/readings/en-ja/basic-45.json
+vocab-0445,lv,gaidīt,audio/lv/vocab-0445.mp3,,
+vocab-0445,ru,ждать,audio/ru/vocab-0445.mp3,lv-ru,content/readings/lv-ru/basic-45.json
+vocab-0445,en,to wait,audio/en/vocab-0445.mp3,ru-en,content/readings/ru-en/basic-45.json
+vocab-0445,ja,待つ,audio/ja/vocab-0445.mp3,en-ja,content/readings/en-ja/basic-45.json
+vocab-0446,lv,palīdzēt,audio/lv/vocab-0446.mp3,,
+vocab-0446,ru,помогать,audio/ru/vocab-0446.mp3,lv-ru,content/readings/lv-ru/basic-45.json
+vocab-0446,en,to help,audio/en/vocab-0446.mp3,ru-en,content/readings/ru-en/basic-45.json
+vocab-0446,ja,助ける,audio/ja/vocab-0446.mp3,en-ja,content/readings/en-ja/basic-45.json
+vocab-0447,lv,spēlēt,audio/lv/vocab-0447.mp3,,
+vocab-0447,ru,играть,audio/ru/vocab-0447.mp3,lv-ru,content/readings/lv-ru/basic-45.json
+vocab-0447,en,to play,audio/en/vocab-0447.mp3,ru-en,content/readings/ru-en/basic-45.json
+vocab-0447,ja,遊ぶ,audio/ja/vocab-0447.mp3,en-ja,content/readings/en-ja/basic-45.json
+vocab-0448,lv,strādāt,audio/lv/vocab-0448.mp3,,
+vocab-0448,ru,работать,audio/ru/vocab-0448.mp3,lv-ru,content/readings/lv-ru/basic-45.json
+vocab-0448,en,to work,audio/en/vocab-0448.mp3,ru-en,content/readings/ru-en/basic-45.json
+vocab-0448,ja,働く,audio/ja/vocab-0448.mp3,en-ja,content/readings/en-ja/basic-45.json
+vocab-0449,lv,mazgāt,audio/lv/vocab-0449.mp3,,
+vocab-0449,ru,мыть,audio/ru/vocab-0449.mp3,lv-ru,content/readings/lv-ru/basic-45.json
+vocab-0449,en,to wash,audio/en/vocab-0449.mp3,ru-en,content/readings/ru-en/basic-45.json
+vocab-0449,ja,洗う,audio/ja/vocab-0449.mp3,en-ja,content/readings/en-ja/basic-45.json
+vocab-0450,lv,tīrīt,audio/lv/vocab-0450.mp3,,
+vocab-0450,ru,чистить,audio/ru/vocab-0450.mp3,lv-ru,content/readings/lv-ru/basic-45.json
+vocab-0450,en,to clean,audio/en/vocab-0450.mp3,ru-en,content/readings/ru-en/basic-45.json
+vocab-0450,ja,掃除する,audio/ja/vocab-0450.mp3,en-ja,content/readings/en-ja/basic-45.json
+vocab-0451,lv,liels,audio/lv/vocab-0451.mp3,,
+vocab-0451,ru,большой,audio/ru/vocab-0451.mp3,lv-ru,content/readings/lv-ru/basic-46.json
+vocab-0451,en,big,audio/en/vocab-0451.mp3,ru-en,content/readings/ru-en/basic-46.json
+vocab-0451,ja,大きい,audio/ja/vocab-0451.mp3,en-ja,content/readings/en-ja/basic-46.json
+vocab-0452,lv,mazs,audio/lv/vocab-0452.mp3,,
+vocab-0452,ru,маленький,audio/ru/vocab-0452.mp3,lv-ru,content/readings/lv-ru/basic-46.json
+vocab-0452,en,small,audio/en/vocab-0452.mp3,ru-en,content/readings/ru-en/basic-46.json
+vocab-0452,ja,小さい,audio/ja/vocab-0452.mp3,en-ja,content/readings/en-ja/basic-46.json
+vocab-0453,lv,garš,audio/lv/vocab-0453.mp3,,
+vocab-0453,ru,длинный,audio/ru/vocab-0453.mp3,lv-ru,content/readings/lv-ru/basic-46.json
+vocab-0453,en,long,audio/en/vocab-0453.mp3,ru-en,content/readings/ru-en/basic-46.json
+vocab-0453,ja,長い,audio/ja/vocab-0453.mp3,en-ja,content/readings/en-ja/basic-46.json
+vocab-0454,lv,īss,audio/lv/vocab-0454.mp3,,
+vocab-0454,ru,короткий,audio/ru/vocab-0454.mp3,lv-ru,content/readings/lv-ru/basic-46.json
+vocab-0454,en,short,audio/en/vocab-0454.mp3,ru-en,content/readings/ru-en/basic-46.json
+vocab-0454,ja,短い,audio/ja/vocab-0454.mp3,en-ja,content/readings/en-ja/basic-46.json
+vocab-0455,lv,plats,audio/lv/vocab-0455.mp3,,
+vocab-0455,ru,широкий,audio/ru/vocab-0455.mp3,lv-ru,content/readings/lv-ru/basic-46.json
+vocab-0455,en,wide,audio/en/vocab-0455.mp3,ru-en,content/readings/ru-en/basic-46.json
+vocab-0455,ja,広い,audio/ja/vocab-0455.mp3,en-ja,content/readings/en-ja/basic-46.json
+vocab-0456,lv,šaurs,audio/lv/vocab-0456.mp3,,
+vocab-0456,ru,узкий,audio/ru/vocab-0456.mp3,lv-ru,content/readings/lv-ru/basic-46.json
+vocab-0456,en,narrow,audio/en/vocab-0456.mp3,ru-en,content/readings/ru-en/basic-46.json
+vocab-0456,ja,狭い,audio/ja/vocab-0456.mp3,en-ja,content/readings/en-ja/basic-46.json
+vocab-0457,lv,augsts,audio/lv/vocab-0457.mp3,,
+vocab-0457,ru,высокий,audio/ru/vocab-0457.mp3,lv-ru,content/readings/lv-ru/basic-46.json
+vocab-0457,en,high,audio/en/vocab-0457.mp3,ru-en,content/readings/ru-en/basic-46.json
+vocab-0457,ja,高い,audio/ja/vocab-0457.mp3,en-ja,content/readings/en-ja/basic-46.json
+vocab-0458,lv,zems,audio/lv/vocab-0458.mp3,,
+vocab-0458,ru,низкий,audio/ru/vocab-0458.mp3,lv-ru,content/readings/lv-ru/basic-46.json
+vocab-0458,en,low,audio/en/vocab-0458.mp3,ru-en,content/readings/ru-en/basic-46.json
+vocab-0458,ja,低い,audio/ja/vocab-0458.mp3,en-ja,content/readings/en-ja/basic-46.json
+vocab-0459,lv,smags,audio/lv/vocab-0459.mp3,,
+vocab-0459,ru,тяжёлый,audio/ru/vocab-0459.mp3,lv-ru,content/readings/lv-ru/basic-46.json
+vocab-0459,en,heavy,audio/en/vocab-0459.mp3,ru-en,content/readings/ru-en/basic-46.json
+vocab-0459,ja,重い,audio/ja/vocab-0459.mp3,en-ja,content/readings/en-ja/basic-46.json
+vocab-0460,lv,viegls,audio/lv/vocab-0460.mp3,,
+vocab-0460,ru,лёгкий,audio/ru/vocab-0460.mp3,lv-ru,content/readings/lv-ru/basic-46.json
+vocab-0460,en,light,audio/en/vocab-0460.mp3,ru-en,content/readings/ru-en/basic-46.json
+vocab-0460,ja,軽い,audio/ja/vocab-0460.mp3,en-ja,content/readings/en-ja/basic-46.json
+vocab-0461,lv,labs,audio/lv/vocab-0461.mp3,,
+vocab-0461,ru,хороший,audio/ru/vocab-0461.mp3,lv-ru,content/readings/lv-ru/basic-47.json
+vocab-0461,en,good,audio/en/vocab-0461.mp3,ru-en,content/readings/ru-en/basic-47.json
+vocab-0461,ja,良い,audio/ja/vocab-0461.mp3,en-ja,content/readings/en-ja/basic-47.json
+vocab-0462,lv,slikts,audio/lv/vocab-0462.mp3,,
+vocab-0462,ru,плохой,audio/ru/vocab-0462.mp3,lv-ru,content/readings/lv-ru/basic-47.json
+vocab-0462,en,bad,audio/en/vocab-0462.mp3,ru-en,content/readings/ru-en/basic-47.json
+vocab-0462,ja,悪い,audio/ja/vocab-0462.mp3,en-ja,content/readings/en-ja/basic-47.json
+vocab-0463,lv,jauns,audio/lv/vocab-0463.mp3,,
+vocab-0463,ru,новый,audio/ru/vocab-0463.mp3,lv-ru,content/readings/lv-ru/basic-47.json
+vocab-0463,en,new,audio/en/vocab-0463.mp3,ru-en,content/readings/ru-en/basic-47.json
+vocab-0463,ja,新しい,audio/ja/vocab-0463.mp3,en-ja,content/readings/en-ja/basic-47.json
+vocab-0464,lv,vecs,audio/lv/vocab-0464.mp3,,
+vocab-0464,ru,старый,audio/ru/vocab-0464.mp3,lv-ru,content/readings/lv-ru/basic-47.json
+vocab-0464,en,old,audio/en/vocab-0464.mp3,ru-en,content/readings/ru-en/basic-47.json
+vocab-0464,ja,古い,audio/ja/vocab-0464.mp3,en-ja,content/readings/en-ja/basic-47.json
+vocab-0465,lv,tīrs,audio/lv/vocab-0465.mp3,,
+vocab-0465,ru,чистый,audio/ru/vocab-0465.mp3,lv-ru,content/readings/lv-ru/basic-47.json
+vocab-0465,en,clean,audio/en/vocab-0465.mp3,ru-en,content/readings/ru-en/basic-47.json
+vocab-0465,ja,きれい,audio/ja/vocab-0465.mp3,en-ja,content/readings/en-ja/basic-47.json
+vocab-0466,lv,netīrs,audio/lv/vocab-0466.mp3,,
+vocab-0466,ru,грязный,audio/ru/vocab-0466.mp3,lv-ru,content/readings/lv-ru/basic-47.json
+vocab-0466,en,dirty,audio/en/vocab-0466.mp3,ru-en,content/readings/ru-en/basic-47.json
+vocab-0466,ja,汚い,audio/ja/vocab-0466.mp3,en-ja,content/readings/en-ja/basic-47.json
+vocab-0467,lv,karsts,audio/lv/vocab-0467.mp3,,
+vocab-0467,ru,горячий,audio/ru/vocab-0467.mp3,lv-ru,content/readings/lv-ru/basic-47.json
+vocab-0467,en,hot,audio/en/vocab-0467.mp3,ru-en,content/readings/ru-en/basic-47.json
+vocab-0467,ja,熱い,audio/ja/vocab-0467.mp3,en-ja,content/readings/en-ja/basic-47.json
+vocab-0468,lv,auksts,audio/lv/vocab-0468.mp3,,
+vocab-0468,ru,холодный,audio/ru/vocab-0468.mp3,lv-ru,content/readings/lv-ru/basic-47.json
+vocab-0468,en,cold,audio/en/vocab-0468.mp3,ru-en,content/readings/ru-en/basic-47.json
+vocab-0468,ja,冷たい,audio/ja/vocab-0468.mp3,en-ja,content/readings/en-ja/basic-47.json
+vocab-0469,lv,silts,audio/lv/vocab-0469.mp3,,
+vocab-0469,ru,тёплый,audio/ru/vocab-0469.mp3,lv-ru,content/readings/lv-ru/basic-47.json
+vocab-0469,en,warm,audio/en/vocab-0469.mp3,ru-en,content/readings/ru-en/basic-47.json
+vocab-0469,ja,暖かい,audio/ja/vocab-0469.mp3,en-ja,content/readings/en-ja/basic-47.json
+vocab-0470,lv,vēss,audio/lv/vocab-0470.mp3,,
+vocab-0470,ru,прохладный,audio/ru/vocab-0470.mp3,lv-ru,content/readings/lv-ru/basic-47.json
+vocab-0470,en,cool,audio/en/vocab-0470.mp3,ru-en,content/readings/ru-en/basic-47.json
+vocab-0470,ja,涼しい,audio/ja/vocab-0470.mp3,en-ja,content/readings/en-ja/basic-47.json
+vocab-0471,lv,sarkans,audio/lv/vocab-0471.mp3,,
+vocab-0471,ru,красный,audio/ru/vocab-0471.mp3,lv-ru,content/readings/lv-ru/basic-48.json
+vocab-0471,en,red,audio/en/vocab-0471.mp3,ru-en,content/readings/ru-en/basic-48.json
+vocab-0471,ja,赤,audio/ja/vocab-0471.mp3,en-ja,content/readings/en-ja/basic-48.json
+vocab-0472,lv,zils,audio/lv/vocab-0472.mp3,,
+vocab-0472,ru,синий,audio/ru/vocab-0472.mp3,lv-ru,content/readings/lv-ru/basic-48.json
+vocab-0472,en,blue,audio/en/vocab-0472.mp3,ru-en,content/readings/ru-en/basic-48.json
+vocab-0472,ja,青,audio/ja/vocab-0472.mp3,en-ja,content/readings/en-ja/basic-48.json
+vocab-0473,lv,zaļš,audio/lv/vocab-0473.mp3,,
+vocab-0473,ru,зелёный,audio/ru/vocab-0473.mp3,lv-ru,content/readings/lv-ru/basic-48.json
+vocab-0473,en,green,audio/en/vocab-0473.mp3,ru-en,content/readings/ru-en/basic-48.json
+vocab-0473,ja,緑,audio/ja/vocab-0473.mp3,en-ja,content/readings/en-ja/basic-48.json
+vocab-0474,lv,dzeltens,audio/lv/vocab-0474.mp3,,
+vocab-0474,ru,жёлтый,audio/ru/vocab-0474.mp3,lv-ru,content/readings/lv-ru/basic-48.json
+vocab-0474,en,yellow,audio/en/vocab-0474.mp3,ru-en,content/readings/ru-en/basic-48.json
+vocab-0474,ja,黄色,audio/ja/vocab-0474.mp3,en-ja,content/readings/en-ja/basic-48.json
+vocab-0475,lv,melns,audio/lv/vocab-0475.mp3,,
+vocab-0475,ru,чёрный,audio/ru/vocab-0475.mp3,lv-ru,content/readings/lv-ru/basic-48.json
+vocab-0475,en,black,audio/en/vocab-0475.mp3,ru-en,content/readings/ru-en/basic-48.json
+vocab-0475,ja,黒,audio/ja/vocab-0475.mp3,en-ja,content/readings/en-ja/basic-48.json
+vocab-0476,lv,balts,audio/lv/vocab-0476.mp3,,
+vocab-0476,ru,белый,audio/ru/vocab-0476.mp3,lv-ru,content/readings/lv-ru/basic-48.json
+vocab-0476,en,white,audio/en/vocab-0476.mp3,ru-en,content/readings/ru-en/basic-48.json
+vocab-0476,ja,白,audio/ja/vocab-0476.mp3,en-ja,content/readings/en-ja/basic-48.json
+vocab-0477,lv,pelēks,audio/lv/vocab-0477.mp3,,
+vocab-0477,ru,серый,audio/ru/vocab-0477.mp3,lv-ru,content/readings/lv-ru/basic-48.json
+vocab-0477,en,grey,audio/en/vocab-0477.mp3,ru-en,content/readings/ru-en/basic-48.json
+vocab-0477,ja,灰色,audio/ja/vocab-0477.mp3,en-ja,content/readings/en-ja/basic-48.json
+vocab-0478,lv,brūns,audio/lv/vocab-0478.mp3,,
+vocab-0478,ru,коричневый,audio/ru/vocab-0478.mp3,lv-ru,content/readings/lv-ru/basic-48.json
+vocab-0478,en,brown,audio/en/vocab-0478.mp3,ru-en,content/readings/ru-en/basic-48.json
+vocab-0478,ja,茶色,audio/ja/vocab-0478.mp3,en-ja,content/readings/en-ja/basic-48.json
+vocab-0479,lv,rozā,audio/lv/vocab-0479.mp3,,
+vocab-0479,ru,розовый,audio/ru/vocab-0479.mp3,lv-ru,content/readings/lv-ru/basic-48.json
+vocab-0479,en,pink,audio/en/vocab-0479.mp3,ru-en,content/readings/ru-en/basic-48.json
+vocab-0479,ja,ピンク,audio/ja/vocab-0479.mp3,en-ja,content/readings/en-ja/basic-48.json
+vocab-0480,lv,violets,audio/lv/vocab-0480.mp3,,
+vocab-0480,ru,фиолетовый,audio/ru/vocab-0480.mp3,lv-ru,content/readings/lv-ru/basic-48.json
+vocab-0480,en,purple,audio/en/vocab-0480.mp3,ru-en,content/readings/ru-en/basic-48.json
+vocab-0480,ja,紫,audio/ja/vocab-0480.mp3,en-ja,content/readings/en-ja/basic-48.json
+vocab-0481,lv,un,audio/lv/vocab-0481.mp3,,
+vocab-0481,ru,и,audio/ru/vocab-0481.mp3,lv-ru,content/readings/lv-ru/basic-49.json
+vocab-0481,en,and,audio/en/vocab-0481.mp3,ru-en,content/readings/ru-en/basic-49.json
+vocab-0481,ja,そして,audio/ja/vocab-0481.mp3,en-ja,content/readings/en-ja/basic-49.json
+vocab-0482,lv,vai,audio/lv/vocab-0482.mp3,,
+vocab-0482,ru,или,audio/ru/vocab-0482.mp3,lv-ru,content/readings/lv-ru/basic-49.json
+vocab-0482,en,or,audio/en/vocab-0482.mp3,ru-en,content/readings/ru-en/basic-49.json
+vocab-0482,ja,または,audio/ja/vocab-0482.mp3,en-ja,content/readings/en-ja/basic-49.json
+vocab-0483,lv,bet,audio/lv/vocab-0483.mp3,,
+vocab-0483,ru,но,audio/ru/vocab-0483.mp3,lv-ru,content/readings/lv-ru/basic-49.json
+vocab-0483,en,but,audio/en/vocab-0483.mp3,ru-en,content/readings/ru-en/basic-49.json
+vocab-0483,ja,しかし,audio/ja/vocab-0483.mp3,en-ja,content/readings/en-ja/basic-49.json
+vocab-0484,lv,jo,audio/lv/vocab-0484.mp3,,
+vocab-0484,ru,потому что,audio/ru/vocab-0484.mp3,lv-ru,content/readings/lv-ru/basic-49.json
+vocab-0484,en,because,audio/en/vocab-0484.mp3,ru-en,content/readings/ru-en/basic-49.json
+vocab-0484,ja,なぜなら,audio/ja/vocab-0484.mp3,en-ja,content/readings/en-ja/basic-49.json
+vocab-0485,lv,ar mani,audio/lv/vocab-0485.mp3,,
+vocab-0485,ru,со мной,audio/ru/vocab-0485.mp3,lv-ru,content/readings/lv-ru/basic-49.json
+vocab-0485,en,with me,audio/en/vocab-0485.mp3,ru-en,content/readings/ru-en/basic-49.json
+vocab-0485,ja,私と一緒に,audio/ja/vocab-0485.mp3,en-ja,content/readings/en-ja/basic-49.json
+vocab-0486,lv,bez manis,audio/lv/vocab-0486.mp3,,
+vocab-0486,ru,без меня,audio/ru/vocab-0486.mp3,lv-ru,content/readings/lv-ru/basic-49.json
+vocab-0486,en,without me,audio/en/vocab-0486.mp3,ru-en,content/readings/ru-en/basic-49.json
+vocab-0486,ja,私なしで,audio/ja/vocab-0486.mp3,en-ja,content/readings/en-ja/basic-49.json
+vocab-0487,lv,tev,audio/lv/vocab-0487.mp3,,
+vocab-0487,ru,для тебя,audio/ru/vocab-0487.mp3,lv-ru,content/readings/lv-ru/basic-49.json
+vocab-0487,en,for you,audio/en/vocab-0487.mp3,ru-en,content/readings/ru-en/basic-49.json
+vocab-0487,ja,あなたのために,audio/ja/vocab-0487.mp3,en-ja,content/readings/en-ja/basic-49.json
+vocab-0488,lv,no mājām,audio/lv/vocab-0488.mp3,,
+vocab-0488,ru,из дома,audio/ru/vocab-0488.mp3,lv-ru,content/readings/lv-ru/basic-49.json
+vocab-0488,en,from home,audio/en/vocab-0488.mp3,ru-en,content/readings/ru-en/basic-49.json
+vocab-0488,ja,家から,audio/ja/vocab-0488.mp3,en-ja,content/readings/en-ja/basic-49.json
+vocab-0489,lv,uz skolu,audio/lv/vocab-0489.mp3,,
+vocab-0489,ru,в школу,audio/ru/vocab-0489.mp3,lv-ru,content/readings/lv-ru/basic-49.json
+vocab-0489,en,to school,audio/en/vocab-0489.mp3,ru-en,content/readings/ru-en/basic-49.json
+vocab-0489,ja,学校へ,audio/ja/vocab-0489.mp3,en-ja,content/readings/en-ja/basic-49.json
+vocab-0490,lv,starp mums,audio/lv/vocab-0490.mp3,,
+vocab-0490,ru,между нами,audio/ru/vocab-0490.mp3,lv-ru,content/readings/lv-ru/basic-49.json
+vocab-0490,en,between us,audio/en/vocab-0490.mp3,ru-en,content/readings/ru-en/basic-49.json
+vocab-0490,ja,私たちの間に,audio/ja/vocab-0490.mp3,en-ja,content/readings/en-ja/basic-49.json
+vocab-0491,lv,es,audio/lv/vocab-0491.mp3,,
+vocab-0491,ru,я,audio/ru/vocab-0491.mp3,lv-ru,content/readings/lv-ru/basic-50.json
+vocab-0491,en,I,audio/en/vocab-0491.mp3,ru-en,content/readings/ru-en/basic-50.json
+vocab-0491,ja,私,audio/ja/vocab-0491.mp3,en-ja,content/readings/en-ja/basic-50.json
+vocab-0492,lv,tu,audio/lv/vocab-0492.mp3,,
+vocab-0492,ru,ты,audio/ru/vocab-0492.mp3,lv-ru,content/readings/lv-ru/basic-50.json
+vocab-0492,en,you,audio/en/vocab-0492.mp3,ru-en,content/readings/ru-en/basic-50.json
+vocab-0492,ja,あなた,audio/ja/vocab-0492.mp3,en-ja,content/readings/en-ja/basic-50.json
+vocab-0493,lv,viņš,audio/lv/vocab-0493.mp3,,
+vocab-0493,ru,он,audio/ru/vocab-0493.mp3,lv-ru,content/readings/lv-ru/basic-50.json
+vocab-0493,en,he,audio/en/vocab-0493.mp3,ru-en,content/readings/ru-en/basic-50.json
+vocab-0493,ja,彼,audio/ja/vocab-0493.mp3,en-ja,content/readings/en-ja/basic-50.json
+vocab-0494,lv,viņa,audio/lv/vocab-0494.mp3,,
+vocab-0494,ru,она,audio/ru/vocab-0494.mp3,lv-ru,content/readings/lv-ru/basic-50.json
+vocab-0494,en,she,audio/en/vocab-0494.mp3,ru-en,content/readings/ru-en/basic-50.json
+vocab-0494,ja,彼女,audio/ja/vocab-0494.mp3,en-ja,content/readings/en-ja/basic-50.json
+vocab-0495,lv,mēs,audio/lv/vocab-0495.mp3,,
+vocab-0495,ru,мы,audio/ru/vocab-0495.mp3,lv-ru,content/readings/lv-ru/basic-50.json
+vocab-0495,en,we,audio/en/vocab-0495.mp3,ru-en,content/readings/ru-en/basic-50.json
+vocab-0495,ja,私たち,audio/ja/vocab-0495.mp3,en-ja,content/readings/en-ja/basic-50.json
+vocab-0496,lv,viņi,audio/lv/vocab-0496.mp3,,
+vocab-0496,ru,они,audio/ru/vocab-0496.mp3,lv-ru,content/readings/lv-ru/basic-50.json
+vocab-0496,en,they,audio/en/vocab-0496.mp3,ru-en,content/readings/ru-en/basic-50.json
+vocab-0496,ja,彼ら,audio/ja/vocab-0496.mp3,en-ja,content/readings/en-ja/basic-50.json
+vocab-0497,lv,šis,audio/lv/vocab-0497.mp3,,
+vocab-0497,ru,этот,audio/ru/vocab-0497.mp3,lv-ru,content/readings/lv-ru/basic-50.json
+vocab-0497,en,this,audio/en/vocab-0497.mp3,ru-en,content/readings/ru-en/basic-50.json
+vocab-0497,ja,これ,audio/ja/vocab-0497.mp3,en-ja,content/readings/en-ja/basic-50.json
+vocab-0498,lv,tas,audio/lv/vocab-0498.mp3,,
+vocab-0498,ru,тот,audio/ru/vocab-0498.mp3,lv-ru,content/readings/lv-ru/basic-50.json
+vocab-0498,en,that,audio/en/vocab-0498.mp3,ru-en,content/readings/ru-en/basic-50.json
+vocab-0498,ja,それ,audio/ja/vocab-0498.mp3,en-ja,content/readings/en-ja/basic-50.json
+vocab-0499,lv,viss,audio/lv/vocab-0499.mp3,,
+vocab-0499,ru,всё,audio/ru/vocab-0499.mp3,lv-ru,content/readings/lv-ru/basic-50.json
+vocab-0499,en,everything,audio/en/vocab-0499.mp3,ru-en,content/readings/ru-en/basic-50.json
+vocab-0499,ja,すべて,audio/ja/vocab-0499.mp3,en-ja,content/readings/en-ja/basic-50.json
+vocab-0500,lv,nekas,audio/lv/vocab-0500.mp3,,
+vocab-0500,ru,ничего,audio/ru/vocab-0500.mp3,lv-ru,content/readings/lv-ru/basic-50.json
+vocab-0500,en,nothing,audio/en/vocab-0500.mp3,ru-en,content/readings/ru-en/basic-50.json
+vocab-0500,ja,何もない,audio/ja/vocab-0500.mp3,en-ja,content/readings/en-ja/basic-50.json
+vocab-0501,lv,man vajag palīdzību,audio/lv/vocab-0501.mp3,,
+vocab-0501,ru,мне нужна помощь,audio/ru/vocab-0501.mp3,lv-ru,content/readings/lv-ru/basic-51.json
+vocab-0501,en,I need help,audio/en/vocab-0501.mp3,ru-en,content/readings/ru-en/basic-51.json
+vocab-0501,ja,助けが必要です,audio/ja/vocab-0501.mp3,en-ja,content/readings/en-ja/basic-51.json
+vocab-0502,lv,man vajag ūdeni,audio/lv/vocab-0502.mp3,,
+vocab-0502,ru,мне нужна вода,audio/ru/vocab-0502.mp3,lv-ru,content/readings/lv-ru/basic-51.json
+vocab-0502,en,I need water,audio/en/vocab-0502.mp3,ru-en,content/readings/ru-en/basic-51.json
+vocab-0502,ja,水が必要です,audio/ja/vocab-0502.mp3,en-ja,content/readings/en-ja/basic-51.json
+vocab-0503,lv,man vajag ārstu,audio/lv/vocab-0503.mp3,,
+vocab-0503,ru,мне нужен врач,audio/ru/vocab-0503.mp3,lv-ru,content/readings/lv-ru/basic-51.json
+vocab-0503,en,I need a doctor,audio/en/vocab-0503.mp3,ru-en,content/readings/ru-en/basic-51.json
+vocab-0503,ja,医者が必要です,audio/ja/vocab-0503.mp3,en-ja,content/readings/en-ja/basic-51.json
+vocab-0504,lv,es nesaprotu,audio/lv/vocab-0504.mp3,,
+vocab-0504,ru,я не понимаю,audio/ru/vocab-0504.mp3,lv-ru,content/readings/lv-ru/basic-51.json
+vocab-0504,en,I don't understand,audio/en/vocab-0504.mp3,ru-en,content/readings/ru-en/basic-51.json
+vocab-0504,ja,分かりません,audio/ja/vocab-0504.mp3,en-ja,content/readings/en-ja/basic-51.json
+vocab-0505,lv,lūdzu izsauciet neatliekamo palīdzību,audio/lv/vocab-0505.mp3,,
+vocab-0505,ru,пожалуйста вызовите скорую помощь,audio/ru/vocab-0505.mp3,lv-ru,content/readings/lv-ru/basic-51.json
+vocab-0505,en,please call an ambulance,audio/en/vocab-0505.mp3,ru-en,content/readings/ru-en/basic-51.json
+vocab-0505,ja,救急車を呼んでください,audio/ja/vocab-0505.mp3,en-ja,content/readings/en-ja/basic-51.json
+vocab-0506,lv,lūdzu izsauciet policiju,audio/lv/vocab-0506.mp3,,
+vocab-0506,ru,пожалуйста вызовите полицию,audio/ru/vocab-0506.mp3,lv-ru,content/readings/lv-ru/basic-51.json
+vocab-0506,en,please call the police,audio/en/vocab-0506.mp3,ru-en,content/readings/ru-en/basic-51.json
+vocab-0506,ja,警察を呼んでください,audio/ja/vocab-0506.mp3,en-ja,content/readings/en-ja/basic-51.json
+vocab-0507,lv,alerģija,audio/lv/vocab-0507.mp3,,
+vocab-0507,ru,аллергия,audio/ru/vocab-0507.mp3,lv-ru,content/readings/lv-ru/basic-51.json
+vocab-0507,en,allergy,audio/en/vocab-0507.mp3,ru-en,content/readings/ru-en/basic-51.json
+vocab-0507,ja,アレルギー,audio/ja/vocab-0507.mp3,en-ja,content/readings/en-ja/basic-51.json
+vocab-0508,lv,bez piena,audio/lv/vocab-0508.mp3,,
+vocab-0508,ru,без молока,audio/ru/vocab-0508.mp3,lv-ru,content/readings/lv-ru/basic-51.json
+vocab-0508,en,without milk,audio/en/vocab-0508.mp3,ru-en,content/readings/ru-en/basic-51.json
+vocab-0508,ja,牛乳なしで,audio/ja/vocab-0508.mp3,en-ja,content/readings/en-ja/basic-51.json
+vocab-0509,lv,bez cukura,audio/lv/vocab-0509.mp3,,
+vocab-0509,ru,без сахара,audio/ru/vocab-0509.mp3,lv-ru,content/readings/lv-ru/basic-51.json
+vocab-0509,en,without sugar,audio/en/vocab-0509.mp3,ru-en,content/readings/ru-en/basic-51.json
+vocab-0509,ja,砂糖なしで,audio/ja/vocab-0509.mp3,en-ja,content/readings/en-ja/basic-51.json
+vocab-0510,lv,man vajag zāles,audio/lv/vocab-0510.mp3,,
+vocab-0510,ru,мне нужно лекарство,audio/ru/vocab-0510.mp3,lv-ru,content/readings/lv-ru/basic-51.json
+vocab-0510,en,I need medicine,audio/en/vocab-0510.mp3,ru-en,content/readings/ru-en/basic-51.json
+vocab-0510,ja,薬が必要です,audio/ja/vocab-0510.mp3,en-ja,content/readings/en-ja/basic-51.json
+focus-s02,lv,Uz tikšanos,audio/lv/focus-s02.mp3,,
+focus-s02,ru,До встречи,audio/ru/focus-s02.mp3,lv-ru,focused extension absent from #21
+focus-s02,en,See you later,audio/en/focus-s02.mp3,ru-en,focused extension absent from #21
+focus-s02,ja,じゃあ、また,audio/ja/focus-s02.mp3,en-ja,focused extension absent from #21
+focus-s07,lv,Mani sauc Anna,audio/lv/focus-s07.mp3,,
+focus-s07,ru,Меня зовут Анна,audio/ru/focus-s07.mp3,lv-ru,focused extension absent from #21
+focus-s07,en,My name is Anna,audio/en/focus-s07.mp3,ru-en,focused extension absent from #21
+focus-s07,ja,アンナです,audio/ja/focus-s07.mp3,en-ja,focused extension absent from #21
+focus-s08,lv,Kā tevi sauc?,audio/lv/focus-s08.mp3,,
+focus-s08,ru,Как тебя зовут?,audio/ru/focus-s08.mp3,lv-ru,focused extension absent from #21
+focus-s08,en,What is your name?,audio/en/focus-s08.mp3,ru-en,focused extension absent from #21
+focus-s08,ja,名前は何ですか,audio/ja/focus-s08.mp3,en-ja,focused extension absent from #21
+focus-s09,lv,No kurienes tu esi?,audio/lv/focus-s09.mp3,,
+focus-s09,ru,Откуда ты?,audio/ru/focus-s09.mp3,lv-ru,focused extension absent from #21
+focus-s09,en,Where are you from?,audio/en/focus-s09.mp3,ru-en,focused extension absent from #21
+focus-s09,ja,どこから来ましたか,audio/ja/focus-s09.mp3,en-ja,focused extension absent from #21
+focus-s10,lv,Es esmu no Latvijas,audio/lv/focus-s10.mp3,,
+focus-s10,ru,Я из Латвии,audio/ru/focus-s10.mp3,lv-ru,focused extension absent from #21
+focus-s10,en,I am from Latvia,audio/en/focus-s10.mp3,ru-en,focused extension absent from #21
+focus-s10,ja,ラトビアから来ました,audio/ja/focus-s10.mp3,en-ja,focused extension absent from #21
+focus-s11,lv,Kā tev iet?,audio/lv/focus-s11.mp3,,
+focus-s11,ru,Как дела?,audio/ru/focus-s11.mp3,lv-ru,focused extension absent from #21
+focus-s11,en,How are you?,audio/en/focus-s11.mp3,ru-en,focused extension absent from #21
+focus-s11,ja,元気ですか,audio/ja/focus-s11.mp3,en-ja,focused extension absent from #21
+focus-s12,lv,Man iet labi,audio/lv/focus-s12.mp3,,
+focus-s12,ru,У меня всё хорошо,audio/ru/focus-s12.mp3,lv-ru,focused extension absent from #21
+focus-s12,en,I am fine,audio/en/focus-s12.mp3,ru-en,focused extension absent from #21
+focus-s12,ja,元気です,audio/ja/focus-s12.mp3,en-ja,focused extension absent from #21
+focus-s14,lv,"Lūdzu, atkārtojiet",audio/lv/focus-s14.mp3,,
+focus-s14,ru,"Повторите, пожалуйста",audio/ru/focus-s14.mp3,lv-ru,focused extension absent from #21
+focus-s14,en,Please repeat that,audio/en/focus-s14.mp3,ru-en,focused extension absent from #21
+focus-s14,ja,もう一度お願いします,audio/ja/focus-s14.mp3,en-ja,focused extension absent from #21
+focus-s15,lv,"Lūdzu, runājiet lēnāk",audio/lv/focus-s15.mp3,,
+focus-s15,ru,"Говорите медленнее, пожалуйста",audio/ru/focus-s15.mp3,lv-ru,focused extension absent from #21
+focus-s15,en,Please speak more slowly,audio/en/focus-s15.mp3,ru-en,focused extension absent from #21
+focus-s15,ja,もっとゆっくり話してください,audio/ja/focus-s15.mp3,en-ja,focused extension absent from #21
+focus-s16,lv,Ko tas nozīmē?,audio/lv/focus-s16.mp3,,
+focus-s16,ru,Что это значит?,audio/ru/focus-s16.mp3,lv-ru,focused extension absent from #21
+focus-s16,en,What does this mean?,audio/en/focus-s16.mp3,ru-en,focused extension absent from #21
+focus-s16,ja,これはどういう意味ですか,audio/ja/focus-s16.mp3,en-ja,focused extension absent from #21
+focus-s17,lv,Es nezinu,audio/lv/focus-s17.mp3,,
+focus-s17,ru,Я не знаю,audio/ru/focus-s17.mp3,lv-ru,focused extension absent from #21
+focus-s17,en,I don’t know,audio/en/focus-s17.mp3,ru-en,focused extension absent from #21
+focus-s17,ja,わかりません,audio/ja/focus-s17.mp3,en-ja,focused extension absent from #21
+focus-s20,lv,"Lūdzu, parādiet man",audio/lv/focus-s20.mp3,,
+focus-s20,ru,"Покажите мне, пожалуйста",audio/ru/focus-s20.mp3,lv-ru,focused extension absent from #21
+focus-s20,en,Please show me,audio/en/focus-s20.mp3,ru-en,focused extension absent from #21
+focus-s20,ja,見せてください,audio/ja/focus-s20.mp3,en-ja,focused extension absent from #21
+focus-s21,lv,Es gribu ūdeni,audio/lv/focus-s21.mp3,,
+focus-s21,ru,Я хочу воды,audio/ru/focus-s21.mp3,lv-ru,focused extension absent from #21
+focus-s21,en,I want water,audio/en/focus-s21.mp3,ru-en,focused extension absent from #21
+focus-s21,ja,水が欲しいです,audio/ja/focus-s21.mp3,en-ja,focused extension absent from #21
+focus-s23,lv,Man ir telefons,audio/lv/focus-s23.mp3,,
+focus-s23,ru,У меня есть телефон,audio/ru/focus-s23.mp3,lv-ru,focused extension absent from #21
+focus-s23,en,I have a phone,audio/en/focus-s23.mp3,ru-en,focused extension absent from #21
+focus-s23,ja,電話を持っています,audio/ja/focus-s23.mp3,en-ja,focused extension absent from #21
+focus-s24,lv,Man nav telefona,audio/lv/focus-s24.mp3,,
+focus-s24,ru,У меня нет телефона,audio/ru/focus-s24.mp3,lv-ru,focused extension absent from #21
+focus-s24,en,I don’t have a phone,audio/en/focus-s24.mp3,ru-en,focused extension absent from #21
+focus-s24,ja,電話を持っていません,audio/ja/focus-s24.mp3,en-ja,focused extension absent from #21
+focus-s25,lv,Man garšo āboli,audio/lv/focus-s25.mp3,,
+focus-s25,ru,Я люблю яблоки,audio/ru/focus-s25.mp3,lv-ru,focused extension absent from #21
+focus-s25,en,I like apples,audio/en/focus-s25.mp3,ru-en,focused extension absent from #21
+focus-s25,ja,りんごが好きです,audio/ja/focus-s25.mp3,en-ja,focused extension absent from #21
+focus-s26,lv,Man negaršo piens,audio/lv/focus-s26.mp3,,
+focus-s26,ru,Я не люблю молоко,audio/ru/focus-s26.mp3,lv-ru,focused extension absent from #21
+focus-s26,en,I don’t like milk,audio/en/focus-s26.mp3,ru-en,focused extension absent from #21
+focus-s26,ja,牛乳が好きではありません,audio/ja/focus-s26.mp3,en-ja,focused extension absent from #21
+focus-s27,lv,Vai es varu šeit apsēsties?,audio/lv/focus-s27.mp3,,
+focus-s27,ru,Можно здесь сесть?,audio/ru/focus-s27.mp3,lv-ru,focused extension absent from #21
+focus-s27,en,Can I sit here?,audio/en/focus-s27.mp3,ru-en,focused extension absent from #21
+focus-s27,ja,ここに座ってもいいですか,audio/ja/focus-s27.mp3,en-ja,focused extension absent from #21
+focus-s28,lv,Vai tu vari man palīdzēt?,audio/lv/focus-s28.mp3,,
+focus-s28,ru,Можешь мне помочь?,audio/ru/focus-s28.mp3,lv-ru,focused extension absent from #21
+focus-s28,en,Can you help me?,audio/en/focus-s28.mp3,ru-en,focused extension absent from #21
+focus-s28,ja,手伝ってもらえますか,audio/ja/focus-s28.mp3,en-ja,focused extension absent from #21
+focus-s29,lv,Šis,audio/lv/focus-s29.mp3,,
+focus-s29,ru,Вот этот,audio/ru/focus-s29.mp3,lv-ru,focused extension absent from #21
+focus-s29,en,This one,audio/en/focus-s29.mp3,ru-en,focused extension absent from #21
+focus-s29,ja,これ,audio/ja/focus-s29.mp3,en-ja,focused extension absent from #21
+focus-s32,lv,Ēdiens,audio/lv/focus-s32.mp3,,
+focus-s32,ru,Еда,audio/ru/focus-s32.mp3,lv-ru,focused extension absent from #21
+focus-s32,en,Food,audio/en/focus-s32.mp3,ru-en,focused extension absent from #21
+focus-s32,ja,食べ物,audio/ja/focus-s32.mp3,en-ja,focused extension absent from #21
+focus-s37,lv,Es gribu ēst,audio/lv/focus-s37.mp3,,
+focus-s37,ru,Я хочу есть,audio/ru/focus-s37.mp3,lv-ru,focused extension absent from #21
+focus-s37,en,I am hungry,audio/en/focus-s37.mp3,ru-en,focused extension absent from #21
+focus-s37,ja,お腹がすきました,audio/ja/focus-s37.mp3,en-ja,focused extension absent from #21
+focus-s38,lv,Es gribu dzert,audio/lv/focus-s38.mp3,,
+focus-s38,ru,Я хочу пить,audio/ru/focus-s38.mp3,lv-ru,focused extension absent from #21
+focus-s38,en,I am thirsty,audio/en/focus-s38.mp3,ru-en,focused extension absent from #21
+focus-s38,ja,喉が渇きました,audio/ja/focus-s38.mp3,en-ja,focused extension absent from #21
+focus-s39,lv,"Vēl, lūdzu",audio/lv/focus-s39.mp3,,
+focus-s39,ru,"Ещё, пожалуйста",audio/ru/focus-s39.mp3,lv-ru,focused extension absent from #21
+focus-s39,en,"More, please",audio/en/focus-s39.mp3,ru-en,focused extension absent from #21
+focus-s39,ja,もう少しお願いします,audio/ja/focus-s39.mp3,en-ja,focused extension absent from #21
+focus-s40,lv,"Pietiek, paldies",audio/lv/focus-s40.mp3,,
+focus-s40,ru,"Хватит, спасибо",audio/ru/focus-s40.mp3,lv-ru,focused extension absent from #21
+focus-s40,en,"Enough, thank you",audio/en/focus-s40.mp3,ru-en,focused extension absent from #21
+focus-s40,ja,もう十分です,audio/ja/focus-s40.mp3,en-ja,focused extension absent from #21
+focus-s41,lv,Kur ir tualete?,audio/lv/focus-s41.mp3,,
+focus-s41,ru,Где туалет?,audio/ru/focus-s41.mp3,lv-ru,focused extension absent from #21
+focus-s41,en,Where is the toilet?,audio/en/focus-s41.mp3,ru-en,focused extension absent from #21
+focus-s41,ja,トイレはどこですか,audio/ja/focus-s41.mp3,en-ja,focused extension absent from #21
+focus-s49,lv,Ejam,audio/lv/focus-s49.mp3,,
+focus-s49,ru,Пойдём,audio/ru/focus-s49.mp3,lv-ru,focused extension absent from #21
+focus-s49,en,Let’s go,audio/en/focus-s49.mp3,ru-en,focused extension absent from #21
+focus-s49,ja,行きましょう,audio/ja/focus-s49.mp3,en-ja,focused extension absent from #21
+focus-s50,lv,"Lūdzu, uzgaidiet",audio/lv/focus-s50.mp3,,
+focus-s50,ru,"Подождите, пожалуйста",audio/ru/focus-s50.mp3,lv-ru,focused extension absent from #21
+focus-s50,en,Please wait,audio/en/focus-s50.mp3,ru-en,focused extension absent from #21
+focus-s50,ja,少し待ってください,audio/ja/focus-s50.mp3,en-ja,focused extension absent from #21
+focus-s65,lv,Cik ir pulkstenis?,audio/lv/focus-s65.mp3,,
+focus-s65,ru,Который час?,audio/ru/focus-s65.mp3,lv-ru,focused extension absent from #21
+focus-s65,en,What time is it?,audio/en/focus-s65.mp3,ru-en,focused extension absent from #21
+focus-s65,ja,今何時ですか,audio/ja/focus-s65.mp3,en-ja,focused extension absent from #21
+focus-s66,lv,Cikos tiekamies?,audio/lv/focus-s66.mp3,,
+focus-s66,ru,Во сколько встретимся?,audio/ru/focus-s66.mp3,lv-ru,focused extension absent from #21
+focus-s66,en,What time shall we meet?,audio/en/focus-s66.mp3,ru-en,focused extension absent from #21
+focus-s66,ja,何時に会いましょうか,audio/ja/focus-s66.mp3,en-ja,focused extension absent from #21
+focus-s71,lv,Palīgā,audio/lv/focus-s71.mp3,,
+focus-s71,ru,Помогите,audio/ru/focus-s71.mp3,lv-ru,focused extension absent from #21
+focus-s71,en,Help!,audio/en/focus-s71.mp3,ru-en,focused extension absent from #21
+focus-s71,ja,助けて,audio/ja/focus-s71.mp3,en-ja,focused extension absent from #21
+focus-s72,lv,Pārtrauciet,audio/lv/focus-s72.mp3,,
+focus-s72,ru,Прекратите,audio/ru/focus-s72.mp3,lv-ru,focused extension absent from #21
+focus-s72,en,Stop!,audio/en/focus-s72.mp3,ru-en,focused extension absent from #21
+focus-s72,ja,やめてください,audio/ja/focus-s72.mp3,en-ja,focused extension absent from #21
+focus-s73,lv,Es to negribu,audio/lv/focus-s73.mp3,,
+focus-s73,ru,Я этого не хочу,audio/ru/focus-s73.mp3,lv-ru,focused extension absent from #21
+focus-s73,en,I don’t want that,audio/en/focus-s73.mp3,ru-en,focused extension absent from #21
+focus-s73,ja,それは欲しくないです,audio/ja/focus-s73.mp3,en-ja,focused extension absent from #21
+focus-s74,lv,Es nevaru atrast ceļu,audio/lv/focus-s74.mp3,,
+focus-s74,ru,Я не могу найти дорогу,audio/ru/focus-s74.mp3,lv-ru,focused extension absent from #21
+focus-s74,en,I am lost,audio/en/focus-s74.mp3,ru-en,focused extension absent from #21
+focus-s74,ja,道に迷いました,audio/ja/focus-s74.mp3,en-ja,focused extension absent from #21
+focus-s75,lv,Es savainojos,audio/lv/focus-s75.mp3,,
+focus-s75,ru,У меня травма,audio/ru/focus-s75.mp3,lv-ru,focused extension absent from #21
+focus-s75,en,I am hurt,audio/en/focus-s75.mp3,ru-en,focused extension absent from #21
+focus-s75,ja,けがをしました,audio/ja/focus-s75.mp3,en-ja,focused extension absent from #21
+focus-s76,lv,Es jūtos slikti,audio/lv/focus-s76.mp3,,
+focus-s76,ru,Я плохо себя чувствую,audio/ru/focus-s76.mp3,lv-ru,focused extension absent from #21
+focus-s76,en,I feel unwell,audio/en/focus-s76.mp3,ru-en,focused extension absent from #21
+focus-s76,ja,具合が悪いです,audio/ja/focus-s76.mp3,en-ja,focused extension absent from #21
+focus-k02,lv,Mamma,audio/lv/focus-k02.mp3,,
+focus-k02,ru,Мама,audio/ru/focus-k02.mp3,lv-ru,focused extension absent from #21
+focus-k02,en,Mum,audio/en/focus-k02.mp3,ru-en,focused extension absent from #21
+focus-k02,ja,お母さん,audio/ja/focus-k02.mp3,en-ja,focused extension absent from #21
+focus-k03,lv,Tētis,audio/lv/focus-k03.mp3,,
+focus-k03,ru,Папа,audio/ru/focus-k03.mp3,lv-ru,focused extension absent from #21
+focus-k03,en,Dad,audio/en/focus-k03.mp3,ru-en,focused extension absent from #21
+focus-k03,ja,お父さん,audio/ja/focus-k03.mp3,en-ja,focused extension absent from #21
+focus-k11,lv,Vai es varu spēlēt?,audio/lv/focus-k11.mp3,,
+focus-k11,ru,Можно поиграть?,audio/ru/focus-k11.mp3,lv-ru,focused extension absent from #21
+focus-k11,en,Can I play?,audio/en/focus-k11.mp3,ru-en,focused extension absent from #21
+focus-k11,ja,遊んでもいいですか,audio/ja/focus-k11.mp3,en-ja,focused extension absent from #21
+focus-k12,lv,Spēlēsim,audio/lv/focus-k12.mp3,,
+focus-k12,ru,Давай поиграем,audio/ru/focus-k12.mp3,lv-ru,focused extension absent from #21
+focus-k12,en,Let’s play,audio/en/focus-k12.mp3,ru-en,focused extension absent from #21
+focus-k12,ja,遊ぼう,audio/ja/focus-k12.mp3,en-ja,focused extension absent from #21
+focus-k13,lv,Mana kārta,audio/lv/focus-k13.mp3,,
+focus-k13,ru,Моя очередь,audio/ru/focus-k13.mp3,lv-ru,focused extension absent from #21
+focus-k13,en,It is my turn,audio/en/focus-k13.mp3,ru-en,focused extension absent from #21
+focus-k13,ja,私の番です,audio/ja/focus-k13.mp3,en-ja,focused extension absent from #21
+focus-k14,lv,Tava kārta,audio/lv/focus-k14.mp3,,
+focus-k14,ru,Твоя очередь,audio/ru/focus-k14.mp3,lv-ru,focused extension absent from #21
+focus-k14,en,It is your turn,audio/en/focus-k14.mp3,ru-en,focused extension absent from #21
+focus-k14,ja,あなたの番です,audio/ja/focus-k14.mp3,en-ja,focused extension absent from #21
+focus-k15,lv,Vai es varu pievienoties?,audio/lv/focus-k15.mp3,,
+focus-k15,ru,Можно с вами?,audio/ru/focus-k15.mp3,lv-ru,focused extension absent from #21
+focus-k15,en,Can I join you?,audio/en/focus-k15.mp3,ru-en,focused extension absent from #21
+focus-k15,ja,一緒に遊んでもいいですか,audio/ja/focus-k15.mp3,en-ja,focused extension absent from #21
+focus-k16,lv,Man vajag pārtraukumu,audio/lv/focus-k16.mp3,,
+focus-k16,ru,Мне нужен перерыв,audio/ru/focus-k16.mp3,lv-ru,focused extension absent from #21
+focus-k16,en,I need a break,audio/en/focus-k16.mp3,ru-en,focused extension absent from #21
+focus-k16,ja,少し休みたいです,audio/ja/focus-k16.mp3,en-ja,focused extension absent from #21
+focus-k17,lv,Pagaidi mani,audio/lv/focus-k17.mp3,,
+focus-k17,ru,Подожди меня,audio/ru/focus-k17.mp3,lv-ru,focused extension absent from #21
+focus-k17,en,Wait for me,audio/en/focus-k17.mp3,ru-en,focused extension absent from #21
+focus-k17,ja,待って,audio/ja/focus-k17.mp3,en-ja,focused extension absent from #21
+focus-k18,lv,Vai varu aizņemties pildspalvu?,audio/lv/focus-k18.mp3,,
+focus-k18,ru,Можно взять ручку на время?,audio/ru/focus-k18.mp3,lv-ru,focused extension absent from #21
+focus-k18,en,Can I borrow a pen?,audio/en/focus-k18.mp3,ru-en,focused extension absent from #21
+focus-k18,ja,ペンを借りてもいいですか,audio/ja/focus-k18.mp3,en-ja,focused extension absent from #21
+focus-k19,lv,Kā to izdarīt?,audio/lv/focus-k19.mp3,,
+focus-k19,ru,Как это сделать?,audio/ru/focus-k19.mp3,lv-ru,focused extension absent from #21
+focus-k19,en,How do I do this?,audio/en/focus-k19.mp3,ru-en,focused extension absent from #21
+focus-k19,ja,これはどうやりますか,audio/ja/focus-k19.mp3,en-ja,focused extension absent from #21
+focus-k20,lv,Es nevaru atrast savu somu,audio/lv/focus-k20.mp3,,
+focus-k20,ru,Я не могу найти свой рюкзак,audio/ru/focus-k20.mp3,lv-ru,focused extension absent from #21
+focus-k20,en,I can’t find my schoolbag,audio/en/focus-k20.mp3,ru-en,focused extension absent from #21
+focus-k20,ja,かばんが見つかりません,audio/ja/focus-k20.mp3,en-ja,focused extension absent from #21
+focus-a03,lv,Maksājumu karte,audio/lv/focus-a03.mp3,,
+focus-a03,ru,Банковская карта,audio/ru/focus-a03.mp3,lv-ru,focused extension absent from #21
+focus-a03,en,Payment card,audio/en/focus-a03.mp3,ru-en,focused extension absent from #21
+focus-a03,ja,クレジットカード,audio/ja/focus-a03.mp3,en-ja,focused extension absent from #21
+focus-a04,lv,Skaidra nauda,audio/lv/focus-a04.mp3,,
+focus-a04,ru,Наличные,audio/ru/focus-a04.mp3,lv-ru,focused extension absent from #21
+focus-a04,en,Cash,audio/en/focus-a04.mp3,ru-en,focused extension absent from #21
+focus-a04,ja,現金,audio/ja/focus-a04.mp3,en-ja,focused extension absent from #21
+focus-a11,lv,Cik tas maksā?,audio/lv/focus-a11.mp3,,
+focus-a11,ru,Сколько это стоит?,audio/ru/focus-a11.mp3,lv-ru,focused extension absent from #21
+focus-a11,en,How much does this cost?,audio/en/focus-a11.mp3,ru-en,focused extension absent from #21
+focus-a11,ja,これはいくらですか,audio/ja/focus-a11.mp3,en-ja,focused extension absent from #21
+focus-a12,lv,Vai es varu to izmēģināt?,audio/lv/focus-a12.mp3,,
+focus-a12,ru,Можно попробовать?,audio/ru/focus-a12.mp3,lv-ru,focused extension absent from #21
+focus-a12,en,Can I try it?,audio/en/focus-a12.mp3,ru-en,focused extension absent from #21
+focus-a12,ja,試してもいいですか,audio/ja/focus-a12.mp3,en-ja,focused extension absent from #21
+focus-a13,lv,Vai var maksāt ar karti?,audio/lv/focus-a13.mp3,,
+focus-a13,ru,Можно оплатить картой?,audio/ru/focus-a13.mp3,lv-ru,focused extension absent from #21
+focus-a13,en,Can I pay by card?,audio/en/focus-a13.mp3,ru-en,focused extension absent from #21
+focus-a13,ja,カードで払えますか,audio/ja/focus-a13.mp3,en-ja,focused extension absent from #21
+focus-a14,lv,"Rēķinu, lūdzu",audio/lv/focus-a14.mp3,,
+focus-a14,ru,"Счёт, пожалуйста",audio/ru/focus-a14.mp3,lv-ru,focused extension absent from #21
+focus-a14,en,"The bill, please",audio/en/focus-a14.mp3,ru-en,focused extension absent from #21
+focus-a14,ja,お会計をお願いします,audio/ja/focus-a14.mp3,en-ja,focused extension absent from #21
+focus-a15,lv,Kur ir autobusa pietura?,audio/lv/focus-a15.mp3,,
+focus-a15,ru,Где автобусная остановка?,audio/ru/focus-a15.mp3,lv-ru,focused extension absent from #21
+focus-a15,en,Where is the bus stop?,audio/en/focus-a15.mp3,ru-en,focused extension absent from #21
+focus-a15,ja,バス停はどこですか,audio/ja/focus-a15.mp3,en-ja,focused extension absent from #21
+focus-a16,lv,"Vienu biļeti uz centru, lūdzu",audio/lv/focus-a16.mp3,,
+focus-a16,ru,"Один билет до центра, пожалуйста",audio/ru/focus-a16.mp3,lv-ru,focused extension absent from #21
+focus-a16,en,"One ticket to the centre, please",audio/en/focus-a16.mp3,ru-en,focused extension absent from #21
+focus-a16,ja,中心部までの切符を一枚お願いします,audio/ja/focus-a16.mp3,en-ja,focused extension absent from #21
+focus-a17,lv,Vai tas brauc uz centru?,audio/lv/focus-a17.mp3,,
+focus-a17,ru,Это едет до центра?,audio/ru/focus-a17.mp3,lv-ru,focused extension absent from #21
+focus-a17,en,Does this go to the centre?,audio/en/focus-a17.mp3,ru-en,focused extension absent from #21
+focus-a17,ja,これは中心部に行きますか,audio/ja/focus-a17.mp3,en-ja,focused extension absent from #21
+focus-a18,lv,Cikos tas atiet?,audio/lv/focus-a18.mp3,,
+focus-a18,ru,Во сколько отправляется?,audio/ru/focus-a18.mp3,lv-ru,focused extension absent from #21
+focus-a18,en,What time does it leave?,audio/en/focus-a18.mp3,ru-en,focused extension absent from #21
+focus-a18,ja,何時に出発しますか,audio/ja/focus-a18.mp3,en-ja,focused extension absent from #21
+focus-a19,lv,Kur var nopirkt biļeti?,audio/lv/focus-a19.mp3,,
+focus-a19,ru,Где можно купить билет?,audio/ru/focus-a19.mp3,lv-ru,focused extension absent from #21
+focus-a19,en,Where can I buy a ticket?,audio/en/focus-a19.mp3,ru-en,focused extension absent from #21
+focus-a19,ja,切符はどこで買えますか,audio/ja/focus-a19.mp3,en-ja,focused extension absent from #21
+focus-a20,lv,Es strādāju veikalā,audio/lv/focus-a20.mp3,,
+focus-a20,ru,Я работаю в магазине,audio/ru/focus-a20.mp3,lv-ru,focused extension absent from #21
+focus-a20,en,I work in a shop,audio/en/focus-a20.mp3,ru-en,focused extension absent from #21
+focus-a20,ja,店で働いています,audio/ja/focus-a20.mp3,en-ja,focused extension absent from #21
+focus-s18-lv,lv,Es mazliet runāju latviski,audio/lv/focus-s18-lv.mp3,,
+focus-s18-lv,ru,Я немного говорю по-латышски,audio/ru/focus-s18-lv.mp3,lv-ru,focused extension absent from #21
+focus-s18-lv,en,I speak a little Latvian,audio/en/focus-s18-lv.mp3,ru-en,focused extension absent from #21
+focus-s18-lv,ja,ラトビア語を少し話せます,audio/ja/focus-s18-lv.mp3,en-ja,focused extension absent from #21
+focus-s19-lv,lv,Vai jūs runājat latviski?,audio/lv/focus-s19-lv.mp3,,
+focus-s19-lv,ru,Вы говорите по-латышски?,audio/ru/focus-s19-lv.mp3,lv-ru,focused extension absent from #21
+focus-s19-lv,en,Do you speak Latvian?,audio/en/focus-s19-lv.mp3,ru-en,focused extension absent from #21
+focus-s19-lv,ja,ラトビア語を話せますか,audio/ja/focus-s19-lv.mp3,en-ja,focused extension absent from #21
+focus-s18-ru,lv,Es mazliet runāju krieviski,audio/lv/focus-s18-ru.mp3,,
+focus-s18-ru,ru,Я немного говорю по-русски,audio/ru/focus-s18-ru.mp3,lv-ru,focused extension absent from #21
+focus-s18-ru,en,I speak a little Russian,audio/en/focus-s18-ru.mp3,ru-en,focused extension absent from #21
+focus-s18-ru,ja,ロシア語を少し話せます,audio/ja/focus-s18-ru.mp3,en-ja,focused extension absent from #21
+focus-s19-ru,lv,Vai jūs runājat krieviski?,audio/lv/focus-s19-ru.mp3,,
+focus-s19-ru,ru,Вы говорите по-русски?,audio/ru/focus-s19-ru.mp3,lv-ru,focused extension absent from #21
+focus-s19-ru,en,Do you speak Russian?,audio/en/focus-s19-ru.mp3,ru-en,focused extension absent from #21
+focus-s19-ru,ja,ロシア語を話せますか,audio/ja/focus-s19-ru.mp3,en-ja,focused extension absent from #21
+focus-s18-en,lv,Es mazliet runāju angliski,audio/lv/focus-s18-en.mp3,,
+focus-s18-en,ru,Я немного говорю по-английски,audio/ru/focus-s18-en.mp3,lv-ru,focused extension absent from #21
+focus-s18-en,en,I speak a little English,audio/en/focus-s18-en.mp3,ru-en,focused extension absent from #21
+focus-s18-en,ja,英語を少し話せます,audio/ja/focus-s18-en.mp3,en-ja,focused extension absent from #21
+focus-s19-en,lv,Vai jūs runājat angliski?,audio/lv/focus-s19-en.mp3,,
+focus-s19-en,ru,Вы говорите по-английски?,audio/ru/focus-s19-en.mp3,lv-ru,focused extension absent from #21
+focus-s19-en,en,Do you speak English?,audio/en/focus-s19-en.mp3,ru-en,focused extension absent from #21
+focus-s19-en,ja,英語を話せますか,audio/ja/focus-s19-en.mp3,en-ja,focused extension absent from #21
+focus-s18-ja,lv,Es mazliet runāju japāniski,audio/lv/focus-s18-ja.mp3,,
+focus-s18-ja,ru,Я немного говорю по-японски,audio/ru/focus-s18-ja.mp3,lv-ru,focused extension absent from #21
+focus-s18-ja,en,I speak a little Japanese,audio/en/focus-s18-ja.mp3,ru-en,focused extension absent from #21
+focus-s18-ja,ja,日本語を少し話せます,audio/ja/focus-s18-ja.mp3,en-ja,focused extension absent from #21

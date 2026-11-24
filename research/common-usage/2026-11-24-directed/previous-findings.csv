@@ -1,0 +1,80 @@
+id,language,previous,current,disposition
+vocab-0005,lv,piedod,piedod,See F003 for current decision.
+vocab-0082,lv,neatliekamā palīdzība,neatliekamā palīdzība,See F036
+vocab-0091,lv,kurš,kurš,Historical competing ID vocab-0092 is absent from every current option set for this question. Preserve current choices.
+vocab-0092,lv,kas,kas,See F038
+vocab-0107,lv,zīdainis,zīdainis,See F039
+vocab-0116,lv,skolēns,skolēns,See F040
+vocab-0134,lv,kāja,kāja,Historical competing ID vocab-0135 is absent from every current option set for this question. Preserve current choices.
+vocab-0138,lv,vēders,vēders,See F041
+vocab-0238,lv,paprika,paprika,See F042
+vocab-0268,lv,malacis,malacis,See F043
+vocab-0398,lv,ota,ota,See F044
+vocab-0401,lv,burts,burts,See F045
+vocab-0433,lv,vērot,vērot,See F046
+vocab-0487,lv,tev,tev,See F047
+vocab-0492,lv,tu,tu,See F048
+vocab-0005,ru,извини,извини,See F003 for current decision.
+vocab-0083,ru,огонь,огонь,See F013 for current decision.
+vocab-0089,ru,экстренный номер,экстренный номер,See F049
+vocab-0116,ru,школьник,школьник,See F050
+vocab-0132,ru,рука,рука,See F051
+vocab-0134,ru,нога,нога,Historical competing ID vocab-0135 is absent from every current option set for this question. Preserve current choices.
+vocab-0138,ru,живот,живот,See F052
+vocab-0144,ru,лихорадка,лихорадка,See F053
+vocab-0158,ru,испытывающий жажду,испытывающий жажду,See F018 for current decision.
+vocab-0168,ru,шапка,шапка,See F054
+vocab-0177,ru,батарейка,батарейка,See F055
+vocab-0259,ru,пирожное,пирожное,See F056
+vocab-0277,ru,сумка,сумка,See F057
+vocab-0280,ru,карта,карта,See F058
+vocab-0391,ru,школьный рюкзак,школьный рюкзак,See F059
+vocab-0403,ru,фраза,фраза,Historical competing ID vocab-0404 is absent from every current option set for this question. Preserve current choices.
+vocab-0411,ru,идти,идти,See F060
+vocab-0413,ru,гулять,гулять,See F061
+vocab-0432,ru,смотреть на,смотреть на,See F016 for current decision.
+vocab-0433,ru,наблюдать,наблюдать,See F062
+vocab-0492,ru,ты,ты,See F063
+vocab-0497,ru,этот,этот,See F064
+vocab-0498,ru,тот,тот,See F065
+vocab-0098,en,what price,what price,See F017 for current decision.
+vocab-0067,en,board,board,See F066
+vocab-0070,en,break,break,See F067
+vocab-0118,en,seller,seller,See F068
+vocab-0131,en,palm,palm,See F069
+vocab-0134,en,leg,leg,Historical competing ID vocab-0135 is absent from every current option set for this question. Preserve current choices.
+vocab-0138,en,stomach,stomach,See F070
+vocab-0148,en,plaster,plaster,Historical competing ID vocab-0149 is absent from every current option set for this question. Preserve current choices.
+vocab-0167,en,footwear,footwear,See F071
+vocab-0209,en,pot,pot,Historical competing ID vocab-0210 is absent from every current option set for this question. Preserve current choices.
+vocab-0210,en,pan,pan,See F072
+vocab-0238,en,pepper,pepper,See F073
+vocab-0244,en,chicken meat,chicken meat,See F074
+vocab-0251,en,lunch,lunch,See F014 for current decision.
+vocab-0252,en,dinner,dinner,See F075
+vocab-0398,en,brush,brush,See F076
+vocab-0401,en,letter,letter,See F077
+vocab-0402,en,word,word,Historical competing ID vocab-0403 is absent from every current option set for this question. Preserve current choices.
+vocab-0432,en,to look at,to look at,See F016 for current decision.
+vocab-0435,en,to search,to search,See F078
+vocab-0001,ja,やあ,こんにちは,Delivered. Keep current daytime greeting. Repair stale guide in PR 21.
+vocab-0002,ja,さようなら,さようなら,See F079
+vocab-0004,ja,ありがとう,ありがとう,See F002 for current decision.
+vocab-0134,ja,脚,脚,Historical competing ID vocab-0135 is absent from every current option set for this question. Preserve current choices.
+vocab-0402,ja,単語,単語,Historical competing ID vocab-0403 is absent from every current option set for this question. Preserve current choices.
+vocab-0019,ja,姉か妹,姉か妹,See F080
+vocab-0020,ja,兄か弟,兄か弟,See F081
+vocab-0017,ja,母,母,See F082
+vocab-0018,ja,父,父,See F083
+vocab-0101,ja,祖母,祖母,See F084
+vocab-0102,ja,祖父,祖父,See F085
+vocab-0241,ja,米,米,See F086
+vocab-0467,ja,熱い,熱い,See F087
+vocab-0468,ja,冷たい,冷たい,See F088
+vocab-0492,ja,あなた,あなた,See F089
+vocab-0238,ja,ピーマン,ピーマン,See F090
+vocab-0169,ja,マフラー,マフラー,See F091
+vocab-0190,ja,浴室,浴室,See F092
+vocab-0425,ja,耳を傾ける,耳を傾ける,See F093
+vocab-0432,ja,目を向ける,目を向ける,See F016 for current decision.
+vocab-0437,ja,与える,与える,See F094
