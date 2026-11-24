@@ -20,10 +20,11 @@
   "independentReview": "initial slice and Owner-approved shared-goodbye follow-up approved;no blockers",
   "physicalPhone": false,
   "fullScreenReader": false,
-  "publiclyDeployed": false,
+  "publiclyDeployed": true,
   "sharedBasicPresentationsChanged": 56,
   "focusedContentVersion": "focused-0.1.1",
   "farewellAllPresetDirectionMappings": 21,
   "farewellNativePlaybackAndReport": "LV/RU Basic question,source/target canonical clips,replay does not grade,stable question/concept/answer IDs andfocused-0.1.1 copied",
-  "totalAuditPresentationsChanged": 70
+  "totalAuditPresentationsChanged": 70,
+  "liveReceipt": "../delivery/2026-11-24-first-audit-pause-live.json"
 }

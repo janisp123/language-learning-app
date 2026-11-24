@@ -1,10 +1,18 @@
 # Current working checkpoint
 
-Current task: L-018
+Current task: L-011
 
-## Current authorized slice — L-018
+## Latest verified delivery — L-018
 
-Owner requested starting the common-usage audit implementation and making correct-answer pause one second shorter. Implemented full target playback+1000ms, with error/unavailable fallback1000ms; wrong correction unchanged. Integrated F014/F015 and,after explicit Owner answer,F001 shared canonicalgoodbye:Basic questionfocused-s02/slotS02 and all active option refs reusevocab-0002 across all7directions. Full text/IDs/recording bytes and inactivefocused variants remain unchanged. Basef7bed6c includes concurrent owner policy/research commits; source branch fix/one-second-correct-pause in /workspace/work/one-second-correct-pause preserves them. No merge of held researchPR43 or readingPR21. Owner explicitly approved Japaneseさようなら as the shared Full-course teaching default. Current live0.5.5 until publication verified. Final63Node/42Python passed,including all21 shared-goodbye mappings,native LV/RU goodbye/report verification,21 native audio+1sec and21 report cases. Build/download/site parity/protocol and independent review passed. SourcePR44 update/CI/merge/actual hosted readback pending.
+**LIVE0.5.6:** correct target recording finishes fully,then1000ms (formerly2000ms);correct failure fallback1000ms,wrong correction unchanged. Owner explicitly chose Full’s existinggoodbye in everycourse:uz redzēšanos/до свидания/goodbye/さようなら. Basic questionfocused-s02/slotS02 and all activeoptionrefs now reusevocab-0002;unusedfocus-s02 forms/clips preserved. F014/F015 remove dinner competing with lunch and what price competing with how many.70 presentations affected;no preexisting translation or MP3 rewritten. Legacy/focused revisions0.6.2-test/focused-0.1.1.
+
+Source098d11a6a909541723a2b9a262881e7f04f856a8, [PR #44](https://github.com/janisp123/language-learning-app/pull/44) merged012e02bcd0b090728c033ae96b8bdb17b06af16c. Source CI45364010970/main CI45364159103 and Pages45364159082 succeeded. Actual app/landing/offline downloaded through verified HTTPS and byte-identical to tested source. App26,184,298 bytes,SHA256a4e76eb1accfc852e9368b3ceb56fee66b596143bdbe556b63e4e5bbec2aa222. [Open app](https://janisp123.github.io/language-learning-app/learn/?v=0.5.6) · [Receipt](delivery/2026-11-24-first-audit-pause-live.json).
+
+63Node/42Python;21 native audio+1sec cases,21 report cases,all21 canonicalgoodbye mappings and native LV/RU goodbye/audio/report test passed.999/1000ms,error/stall/reset,content/audio locks passed. Independent review approved both slices. Physical phone/full screen reader not run;known direct hosted Chromium trust limitation remains,verified HTTPS bytes match locally tested real browser. Drive review unchanged;website offline updated. L-018 archived.
+
+## Exact next bounded work — L-011
+
+Do not repeat completed F001/F014/F015 or treat the whole audit as implemented. Use existing ownerpolicy/research and heldPR43(headb04732f) shortlist to prepare/apply the next approved common/politely-safe shared defaults(F002–F007),then resolve separate safety/object/meaning and fluent-review decisions. Identify exact IDs/wording/shared-course impacts and synchronize any affected audio/guides;no broad blind rewrite,frequency claims or unreviewed synonym expansion. Preserve all current features and zero saves. [First implementation notes](../research/common-usage/2026-11-24-implementation-01.md). ResearchPR43 remains held/unmerged;do not merge its old checkpoint over this handoff.
 
 ## Latest verified delivery — L-017
 
@@ -50,10 +58,10 @@ Verification:54Node/41Python; actual six fullEN/JA clips then automatic previous
 
 Kids/Adults100 each (80 shared+20 specific), source UI and separate original510 course are already live since0.5.0 (PR #29). Website descriptions/README/offline download match actual functionality. First usage corrections PR #27 and design PR #28 are merged; audit/library PR #26 merged. Do not repeat those features or ask again for ordinary checked live-publication approval:Owner explicitly requested efficient merging/publishing for website testing. GitHub About description update previously returned403; website/README updates did succeed.
 
-## Exact next bounded work — L-010
+## Separate pending work — L-010
 
 Reading-guide PR #21 remains OPEN/UNMERGED; the live app still has no source-letter/per-symbol reading aids. Reconcile its loader/view/data against latest main without overwriting focused courses,the translation-report module/IDs,correction audio,task/protocol, current translations/recordings or zero saves. Applyこんにちは ko/n/ni/chi/wa patch (finalは contextualwa), add complete guide coverage for focused expressions/language-name variants, preserve reading directions lv-ru / ru-en / en-ja only. Other four directions stay unannotated.
 
-Use existing reading modules, test exact text/ID/audio/guide bindings, all-course switching, new correction playback compatibility, mobile/dark/keyboard, scoring/full correct playback+2000ms and zero saves. Publish a verified checked slice under standing owner authorization; do not blindly merge old #21. Save/read back actual hosted bytes and a live receipt. Keep existing held Drive reviews until an appropriate replacement; website offline file is current0.5.5.
+Use existing reading modules, test exact text/ID/audio/guide bindings, all-course switching, new correction playback compatibility, mobile/dark/keyboard, scoring/full correct playback+1000ms,shared canonicalgoodbye and zero saves. Publish a verified checked slice under standing owner authorization; do not blindly merge old #21. Save/read back actual hosted bytes and a live receipt. Keep existing held Drive reviews until an appropriate replacement; website offline file is current0.5.6.
 
-Other L-011 context/commonness proposals and fluent-human/device review remain pending. Technical tests do not establish every phrase optimal or conversational fluency. Canonical active tasks:docs/TD_LIST.md; completed L-013 history preserved in docs/history/L-013-completed-2026-11-23.md. Current delivery receipt branch docs/translation-report-live is in /workspace/work/translation-report-panel,based on L-017 merged main; inspect latest actual main/PRs on resume.
+Other L-011 context/commonness proposals and fluent-human/device review remain pending. Technical tests do not establish every phrase optimal or conversational fluency. Canonical active tasks:docs/TD_LIST.md; completed L-013 history preserved in docs/history/L-013-completed-2026-11-23.md. Current delivery receipt branch docs/first-audit-pause-live is in /workspace/work/one-second-correct-pause,based on L-018 merged main; inspect latest actual main/PRs on resume.

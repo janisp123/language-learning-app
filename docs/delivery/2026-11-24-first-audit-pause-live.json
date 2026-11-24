@@ -1,0 +1,71 @@
+{
+  "sourceCommit": "098d11a6a909541723a2b9a262881e7f04f856a8",
+  "mergeCommit": "012e02bcd0b090728c033ae96b8bdb17b06af16c",
+  "sourceCI": 45364010970,
+  "mainCI": 45364159103,
+  "pagesRun": 45364159082,
+  "verifiedDate": "2026-11-24",
+  "buildVersion": "0.5.6",
+  "task": "L-018",
+  "pullRequest": 44,
+  "bytes": 26184298,
+  "sha256": "a4e76eb1accfc852e9368b3ceb56fee66b596143bdbe556b63e4e5bbec2aa222",
+  "url": "https://janisp123.github.io/language-learning-app/learn/?v=0.5.6",
+  "pagesConclusion": "success",
+  "hostedByteEquality": {
+    "app": true,
+    "landing": true,
+    "offline": true,
+    "method": "verified HTTPS downloads compared byte-for-byte with tested source"
+  },
+  "correctTiming": "Complete target playback then1000ms;also1000ms correct-audio failure fallback;wrong correction/fallback unchanged",
+  "auditFindingsImplemented": {
+    "F001": "All presets/all7directions use Full canonicalvocab-0002 goodbye after explicitJapanese approval;focused-s02 question/slotS02 preserved;22 active references rebound;oldfocus-s02 records/clips kept",
+    "F014": "basic-26-prompt-01 dinner0252\u2192sugar0250 removes competitor to lunch0251",
+    "F015": "basic-10-prompt-07 whatprice0098\u2192where0093 removes competitor to howmany0097"
+  },
+  "auditPresentationsChanged": {
+    "basic": 56,
+    "full": 14,
+    "total": 70
+  },
+  "legacyContentVersion": "0.6.2-test",
+  "focusedContentVersion": "focused-0.1.1",
+  "goodbyeForms": {
+    "lv": "uz redz\u0113\u0161anos",
+    "ru": "\u0434\u043e \u0441\u0432\u0438\u0434\u0430\u043d\u0438\u044f",
+    "en": "goodbye",
+    "ja": "\u3055\u3088\u3046\u306a\u3089"
+  },
+  "tests": {
+    "nodeLocal": 63,
+    "pythonLocal": 42,
+    "nativeAudioCourseDirectionCases": 21,
+    "reportCourseDirectionCases": 21,
+    "canonicalFarewellPresetDirectionMappings": 21,
+    "farewellNativePlaybackAndReport": true,
+    "independentReview": "initial slice and approvedfarewell follow-up cleared;no blockers"
+  },
+  "browserReceipt": "../review/2026-11-24-first-audit-pause-browser.json",
+  "status": {
+    "implemented": true,
+    "pushed": true,
+    "merged": true,
+    "publiclyDeployed": true,
+    "driveUpdated": false
+  },
+  "unchanged": [
+    "all preexisting translation records and2308 recording bytes",
+    "Full correct IDs;question/lesson IDs and Basic slots",
+    "engine/scoring/counters",
+    "seven directions/three preset sizes/dark default",
+    "wrong-answer three-pair correction",
+    "copy-only reporting and zero saved learner state/preferences"
+  ],
+  "notRun": [
+    "physical phone",
+    "full screen reader",
+    "direct hosted Chromium (known environment trust limitation;HTTPS bytes match locally tested real browser)"
+  ],
+  "remaining": "L-011:remaining register/safety/object/fluent-review audit decisions and checked implementation;researchPR43 and readingPR21 remain held/unmerged. No claim whole audit implemented."
+}

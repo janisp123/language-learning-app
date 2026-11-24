@@ -7,7 +7,7 @@ User approved starting audit implementation and shortening the two-second pause 
 - [x] RED F014/F015 Python tests; two scoped swaps and explicit before/after exceptions, correct IDs/text/recordings unchanged.
 - [x] Integrate locally verified content commit54102c1; synchronize legacy course/audio revision metadata.
 - [x] Full suites/native audio/report checks, build/protocol/parity and independent review.
-- [ ] Push checked PR, merge/publish/read back exact files, archiveL018 with receipts.
+- [x] Push checked PR, merge/publish/read back exact files, archiveL018 with receipts.
 
 Owner explicitly answered the Japanese question:reuse Full goodbye acrossallcourses.
 - [x] Add RED canonical-goodbye test forall21preset/direction combinations;rebind22 focusedrefs toexistingvocab-0002,preserve question/slot/inactiveassets,verify actual LV/RU audio andreportIDs inbrowser.
