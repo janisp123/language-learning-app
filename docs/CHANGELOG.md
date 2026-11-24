@@ -1,5 +1,10 @@
 ## 2026-11-23 — Correction listening publicly deployed/read back (codex)
 
+### 2026-11-24 · Owner vocabulary-default consistency decision (documentation only)
+
+Owner requested a single common, polite-safe translation for the same meaning across Basic Kids, Basic Adults and Full. Recorded in `docs/DECISIONS.md`, `docs/CONTENT_RULES.md`, `AGENTS.md` and the existing L-011 audit task. Example: generic “goodbye” should teach `до свидания` in every preset, not `до встречи` in the Basic presets. Existing L-010 stays the current task. Added by/recorded by: cw (ChatGPT Work). No course content, language modules, recordings, guides, application logic or live deployment changed. Evidence: PR/merge record for the documentation-only coordination change. Later implementation requires a separate verified task.
+
+
 ## 0.5.5 — copy-only translation correction reports (codex,2026-11-24)
 
 L-017 adds a localized flag panel on every question. Choose Question or any displayed Answer, type a proposed correction and copy original wording, direction/preset/version and stable IDs. Snapshot stays pinned across normal advancement; no report submission, saved drafts or learner-history export. Manual-copy fallback and stale-copy/close/reset protections included. Learning content/recordings/scoring/full-correct-audio+2sec/mistake correction/seven directions unchanged. Verified61Node/41Python,21 report browser cases and independent review. Merged PR #39 and deployed;[actual hosted-byte receipt](delivery/2026-11-24-translation-report-live.json).
