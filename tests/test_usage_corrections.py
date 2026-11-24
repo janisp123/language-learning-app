@@ -28,6 +28,29 @@ class UsageCorrectionTests(unittest.TestCase):
    with self.subTest(correct=correct):
     self.assertNotIn(overlap,prompts[correct]['distractorIds'])
     self.assertEqual(prompts[correct]['correctAnswerId'],correct)
+ def test_quantity_and_midday_meal_do_not_offer_another_defensible_english_answer(self):
+  # Reintroducing price for bare cik/skolko or dinner for a midday meal must fail.
+  course,_=load_content(ROOT)
+  prompts={p['id']:p for b in course['lessons'] for p in b['prompts']}
+  bank={p['id']:p for p in course['phrases']}
+  cases=[('basic-10-prompt-07','vocab-0097','vocab-0098','vocab-0093',
+          {'lv':'cik','ru':'сколько','en':'how many','ja':'いくつ'}),
+         ('basic-26-prompt-01','vocab-0251','vocab-0252','vocab-0250',
+          {'lv':'pusdienas','ru':'обед','en':'lunch','ja':'昼食'})]
+  for question,correct,competitor,replacement,forms in cases:
+   with self.subTest(question=question):
+    prompt=prompts[question]
+    self.assertNotIn(competitor,prompt['distractorIds'])
+    self.assertIn(replacement,prompt['distractorIds'])
+    self.assertEqual(prompt['phraseId'],correct)
+    self.assertEqual(prompt['correctAnswerId'],correct)
+    for language,expected in forms.items():
+     self.assertEqual(bank[correct][language],expected)
+    for direction in course['directions']:
+     target=direction.split('-')[1]
+     choices=[bank[i][target] for i in [correct,*prompt['distractorIds']]]
+     self.assertEqual(len(set(choices)),4,direction)
+     self.assertNotIn(bank[competitor][target],choices,direction)
  def test_all_other_translation_and_recording_bytes_preserved(self):
   baseline=json.loads((ROOT/'tests/fixtures/usage-correction-baseline.json').read_text())
   def digest(value):

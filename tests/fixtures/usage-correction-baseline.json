@@ -84,6 +84,32 @@
         "vocab-0141",
         "vocab-0143"
       ]
+    },
+    "basic-10-prompt-07": {
+      "before": [
+        "vocab-0098",
+        "vocab-0100",
+        "vocab-0092"
+      ],
+      "after": [
+        "vocab-0093",
+        "vocab-0100",
+        "vocab-0092"
+      ],
+      "reason": "F015: remove a defensible competing answer; preserve correct meaning and recordings"
+    },
+    "basic-26-prompt-01": {
+      "before": [
+        "vocab-0252",
+        "vocab-0254",
+        "vocab-0256"
+      ],
+      "after": [
+        "vocab-0250",
+        "vocab-0254",
+        "vocab-0256"
+      ],
+      "reason": "F014: remove a defensible competing answer; preserve correct meaning and recordings"
     }
   }
 }
