@@ -1,6 +1,10 @@
 # Current working checkpoint
 
-Current task: L-010
+Current task: L-017
+
+## Current authorized slice — L-017
+
+Owner approved copy-only flag panel (Question / selected Answer + proposed correction + exact original content/IDs/preset/direction/version). Implemented isolated feat/translation-report-panel in /workspace/work/translation-report-panel from mainfec162c. Snapshot stays pinned while normal lesson navigation continues; no report auto-send or saved drafts, and no grading/audio changes. 61Node/41Python and21 actual report direction/preset browser cases passed; real clipboard/fallback/late-copy/snapshot/localization/keyboard/320-390-1280 light-dark/reload zero-storage checks passed. Independent review approved after localized visible details and native focus-test correction. Canonical build/download/site parity and protocol passed. PR/publication pending. Current live remains0.5.4 until verified. Next task after this slice remains L-010.
 
 ## Latest verified delivery — L-016
 

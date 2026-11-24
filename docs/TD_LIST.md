@@ -1,7 +1,7 @@
 # TD list — active approved tasks for the language-learning app
 
 **Repository:** `janisp123/language-learning-app` • **Branch of record:** `main` • **Canonical path:** `docs/TD_LIST.md`  
-**Current handoff (2026-11-23):** **L-016 DELIVERED/LIVE0.5.4** — correct answers play fully, then wait2000ms; replaces the former500ms cutoff. [Receipt](delivery/2026-11-23-correct-delay-live.json) · [History](history/L-016-completed-2026-11-23.md). Mistake correction, three-course setup, dark default/content/seven directions/ZERO saves preserved. **Current task:L-010 — reading-guide integration.** Standing checked merge/publication authorization remains; do not repeat routine approval questions.
+**Current handoff (2026-11-23):** **L-016 DELIVERED/LIVE0.5.4** — correct answers play fully, then wait2000ms; replaces the former500ms cutoff. [Receipt](delivery/2026-11-23-correct-delay-live.json) · [History](history/L-016-completed-2026-11-23.md). Mistake correction, three-course setup, dark default/content/seven directions/ZERO saves preserved. **Current task:L-017 — copy-only translation report panel.** Standing checked merge/publication authorization remains; do not repeat routine approval questions.
 
 **Historical browser baseline (verified 2026-11-17):** Browser review build 0.4.11 is integrated through PR #18 and publicly deployed. Main CI 44168243818 and Pages 44168243948 succeeded; hosted HTML equals the committed download. Android, fluent human review, physical-device/full-accessibility checks and final release remain unfinished. No license has been selected. [Current checkpoint](WORK_CHECKPOINT.md) records the latest evidence. Task presence alone never authorizes work or publication.
 
@@ -128,4 +128,11 @@ That project's existing TD is currently `docs/TD_LIST.md` in **another repositor
 
 ## Standing execution authorization — 2026-11-23
 
-Owner explicitly requested efficient checked implementation/merging/live publication rather than a separate preview. Kids/Adults0.5.0 and correction listening0.5.1 are delivered. Setup/dark default0.5.2 is delivered. Correct answer playback0.5.3 is delivered. Full correct playback plus2sec0.5.4 is delivered. Current task isL-010 reading integration; preserve all delivered behavior and latest protocol. Do not repeat completed features or ask the same routine publication approval again.
+Owner explicitly requested efficient checked implementation/merging/live publication rather than a separate preview. Kids/Adults0.5.0 and correction listening0.5.1 are delivered. Setup/dark default0.5.2 is delivered. Correct answer playback0.5.3 is delivered. Full correct playback plus2sec0.5.4 is delivered. Current task isL-017 copy-only translation reports, then L-010 reading integration; preserve all delivered behavior and latest protocol. Do not repeat completed features or ask the same routine publication approval again.
+
+### L-017 — Flag and copy an exact translation correction report
+- **Added by:** codex (explicit Owner request/approved design,2026-11-24)
+- **Implemented by:** codex (verified locally; integration pending)
+- **Status:** VERIFIED LOCALLY —61Node/41Python,21 report direction/preset cases and independent review passed; checked PR/publication pending.
+- **Scope:** Flag every question; choose Question or any displayed Answer; enter proposed correction; copy exact original text, direction/preset/app+content version and stable course/lesson/question/concept/answer IDs. Snapshot survives normal question advancement. No automatic send or saved draft/history; manual-copy fallback. Localized LV/RU/EN, mobile/dark/keyboard, no grading/audio/scoring changes.
+- **Verification:**21 direction/preset report/copy cases, exact IDs and all-option selection, actual clipboard, fallback, late-copy race, Escape/close/reset/reload clearing, injection text, no storage, layout/keyboard; existing full suites, protocol/build/site parity, checked review and hosted readback.

@@ -2557,7 +2557,7 @@
     "static": {
       "skip": "Skip to practice",
       "brand-name": "Language learning",
-      "badge": "Test build 0.5.4",
+      "badge": "Test build 0.5.5",
       "draft": "Draft content and pronunciation await fluent human review.",
       "audience": "Focused everyday communication",
       "welcome": "A little practice. Start with the essentials.",
@@ -2585,7 +2585,19 @@
       "course-caption": "Course",
       "course-kids": "Basic Kids · 100 items",
       "course-adults": "Basic Adults · 100 items",
-      "course-full": "Full · 510 items"
+      "course-full": "Full · 510 items",
+      "report-title": "Report a translation",
+      "report-close": "Close",
+      "report-note": "Nothing is sent or saved. Copy the report and paste it into your chat.",
+      "report-type-label": "What needs changing?",
+      "report-type-question": "Question",
+      "report-type-answer": "Answer",
+      "report-answer-label": "Which answer?",
+      "report-original-label": "Original text",
+      "report-proposal-label": "Your proposed correction",
+      "report-details-title": "Question details and IDs",
+      "report-copy-label": "Copy report",
+      "report-manual-label": "Select and copy this text"
     },
     "messages": {
       "pageTitle": "Language learning — Test build",
@@ -2604,7 +2616,11 @@
       "instruction": "Choose the {language} translation",
       "noscript": "Enable JavaScript to run the lessons. The downloaded HTML file needs no account or internet.",
       "theme": "Dark mode",
-      "listening": "Listen {n} of {total}: question → correct answer"
+      "listening": "Listen {n} of {total}: question → correct answer",
+      "reportOpen": "Report a translation",
+      "reportCopied": "Copied. Paste it into your chat for review.",
+      "reportCopyFailed": "Automatic copying is unavailable. Copy the text below manually.",
+      "reportDetails": "App version: {version}\nContent version: {contentVersion}\nDirection: {direction}\nCourse: {preset}\nCourse ID: {course}\nLesson ID: {lesson}\nQuestion ID: {question}\nConcept ID: {concept}\nQuestion ({source}): {original}\nAnswer options:\n{options}"
     },
     "lessons": {
       "basic-01": "Greetings",

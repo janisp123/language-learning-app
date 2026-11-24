@@ -83,3 +83,9 @@ The owner's 2026-11-17 zero-saves decision removes the former highest-record and
 - Add a new entry **only** after a reusable lesson is demonstrated or a carefully bounded provisional risk is identified. If it repeats an existing entry, update that entry.
 - Keep the index current, give a short reproducer or verification criterion, and mark SUPERSEDED when no longer reliable.
 - Do not turn personal conclusions into permanent agent rules without evidence and owner acceptance.
+
+
+### Native report dialogs: discard drafts at the initiating close action (2026-11-24)
+The initial Escape regression observed the old proposal immediately after the modal closed: native `close` events are queued. Clear volatile drafts on `cancel` and explicit close/reset as well as the final close event; invalidate pending clipboard callbacks with a generation token. Chromium Escape/reset/reopen and late-copy tests now pass. Confidence: reproduced and verified locally; physical-device review remains separate.
+
+Native Chromium may transiently focus BODY/browser chrome when tabbing backwards across a modal boundary. The report test now permits that boundary, checks the next Tab returns inside, and proves the underlying question remains inert; it does not add a custom focus trap to override native behavior. Reproduced independently during review.
