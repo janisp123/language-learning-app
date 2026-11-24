@@ -32,6 +32,12 @@ class BasicVocabularyTests(unittest.TestCase):
                     change=edits[prompt['id']]
                     self.assertEqual(prompt['distractorIds'],change['after'])
                     prompt['distractorIds']=change['before']
+        approved=json.loads((ROOT/'tests/fixtures/polite-defaults-approved.json').read_text())['edits']
+        for phrase in payload['phrases']:
+            for edit in approved:
+                if phrase['id']==edit['id'] and edit['language'] in lock['languages']:
+                    self.assertEqual(phrase[edit['language']],edit['proposed'])
+                    phrase[edit['language']]=edit['current']
         digest=hashlib.sha256(json.dumps(payload,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()).hexdigest()
         self.assertEqual(digest,lock['digest'],'vocabulary IDs/text/answer bindings changed')
 
@@ -49,14 +55,14 @@ class BasicVocabularyTests(unittest.TestCase):
         self.assertEqual(len(set(english)),target,'duplicate English entries must not inflate the item count')
         for language in course['languages']:
             values=[unicodedata.normalize('NFC',bank[p['phraseId']][language]).casefold().strip() for p in prompts]
-            if language=='ja':
+            if language in ('ja','ru'):
                 # Distinct meanings may legitimately share a translation. Pin the
                 # only approved duplicate; per-question uniqueness stays strict.
                 from collections import defaultdict
                 groups=defaultdict(list)
                 for prompt,value in zip(prompts,values):groups[value].append(prompt['phraseId'])
                 self.assertEqual({v:sorted(ids) for v,ids in groups.items() if len(ids)>1},
-                                 {'こんにちは':['vocab-0001','vocab-0269']})
+                                 {'こんにちは':['vocab-0001','vocab-0269']} if language=='ja' else {'извините':['vocab-0005','vocab-0266']})
             else:
                 self.assertEqual(len(set(values)),target,f'duplicate {language} entries must not inflate the count')
 

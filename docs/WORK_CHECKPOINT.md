@@ -10,11 +10,13 @@ Source098d11a6a909541723a2b9a262881e7f04f856a8, [PR #44](https://github.com/jani
 
 63Node/42Python;21 native audio+1sec cases,21 report cases,all21 canonicalgoodbye mappings and native LV/RU goodbye/audio/report test passed.999/1000ms,error/stall/reset,content/audio locks passed. Independent review approved both slices. Physical phone/full screen reader not run;known direct hosted Chromium trust limitation remains,verified HTTPS bytes match locally tested real browser. Drive review unchanged;website offline updated. L-018 archived.
 
-## Exact next bounded work — L-011
+## Current implementation — L-011 shared polite defaults
 
-**Research handoff:** [PR #46](https://github.com/janisp123/language-learning-app/pull/46), branch `research/current-audit-f002-f007`, research-data commit `cd85fb4`. Pushed/open, not merged. Local reconciliation/proposal/protocol/whitespace checks and independent review passed; [verification record](../research/common-usage/2026-11-24-reconciled/verification.json). Check PR GitHub results separately. No app release.
+**LOCAL0.5.7 / publication pending:** Owner explicitly instructed “Make the change already,” approving the exact ten-cell F002–F007 proposal prepared in merged PR46. [Implementation notes](../research/common-usage/2026-11-24-implementation-02.md) list exact wording, nine newly authored clips/one exact Russian reuse and preserved identities. Original/focused revisions0.6.3-test/focused-0.1.2. Japanese F004 stays unchanged. Reading-guide PR21 and original researchPR43 remain held.
 
-**PREPARED, application unchanged:** [Current-source reconciliation and F002–F007 proposal](../research/common-usage/2026-11-24-reconciled/README.md) checks all4970 presentations/2308 audio bindings against main a5a4086. F001/F014/F015 remain live0.5.6. Next bounded action: owner review of ten exact text cells (142 presentations,nine new recordings/one verified reuse); F004 Japanese is deferred separately. No proposed text/audio/guide edits are implemented or published. Keep L-011 current; do not resume L-010 or merge held PR43/21 automatically. Remaining11 confirmed/58 review findings are not automatically approved. Research-only check commands and exact dependency handoff are in the linked package.
+Verified64 Node/43 Python tests and independent review; native Chromium21 preset/direction prompt/replay cases and ten changed clips reaching ended; mobile widths320/390/1280/dark/reload/no storage passed. Local checks and independent review passed; remote CI/merge/public readback must be recorded before claiming live. Last verified live release remains0.5.6 above; local changes are not a delivery claim.
+
+**Next bounded action:** finish verification, push checked source and publish0.5.7 under standing owner authorization, download actual hosted app/landing/offline bytes and record a matching delivery receipt. Then continue remaining L-011 meaning/safety/fluent decisions (F008/F009/F010/F011/F013 and review findings); F004 Japanese remains separate. Do not repeat released F001/F014/F015 or approved ten-cell edits, merge held branches blindly, or select L-010 as the current task. The reconciled audit tables are a pinned historical0.5.6 snapshot; run their snapshot checks at PR46 merge rather than against changed0.5.7.
 
 ## Latest verified delivery — L-017
 

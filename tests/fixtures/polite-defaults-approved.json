@@ -1,0 +1,201 @@
+{
+  "base": "e6dd920",
+  "ownerApproval": "2026-11-24: Make the change already; exact ten-cell F002-F007 proposal, Japanese F004 deferred",
+  "edits": [
+    {
+      "finding": "F002",
+      "id": "vocab-0004",
+      "language": "ja",
+      "current": "ありがとう",
+      "proposed": "ありがとうございます",
+      "sourceFile": "content/languages/ja.json",
+      "sourceKey": "translations.vocab-0004.text",
+      "clip": "audio/ja/vocab-0004.mp3",
+      "sha256": "953e3c2191afbbb9e68be471e0a26632a4e915bbceb417b10cd61f1ec7e558bb",
+      "manifest": "content/audio/manifest.json",
+      "manifestKey": "clips.ja.vocab-0004",
+      "manifestRecord": {
+        "text": "ありがとう",
+        "file": "audio/ja/vocab-0004.mp3",
+        "sha256": "953e3c2191afbbb9e68be471e0a26632a4e915bbceb417b10cd61f1ec7e558bb",
+        "provider": "gtts"
+      }
+    },
+    {
+      "finding": "F003",
+      "id": "vocab-0005",
+      "language": "lv",
+      "current": "piedod",
+      "proposed": "piedodiet",
+      "sourceFile": "content/languages/lv.json",
+      "sourceKey": "translations.vocab-0005.text",
+      "clip": "audio/lv/vocab-0005.mp3",
+      "sha256": "673be39a6800bf43dbb662cd35377468267c6128a5e4a4247a7dd878244d4734",
+      "manifest": "content/audio/manifest.json",
+      "manifestKey": "clips.lv.vocab-0005",
+      "manifestRecord": {
+        "text": "piedod",
+        "file": "audio/lv/vocab-0005.mp3",
+        "sha256": "673be39a6800bf43dbb662cd35377468267c6128a5e4a4247a7dd878244d4734"
+      }
+    },
+    {
+      "finding": "F003",
+      "id": "vocab-0005",
+      "language": "ru",
+      "current": "извини",
+      "proposed": "извините",
+      "sourceFile": "content/languages/ru.json",
+      "sourceKey": "translations.vocab-0005.text",
+      "clip": "audio/ru/vocab-0005.mp3",
+      "sha256": "c54e79d100df4b9d3d6e8e58980b44a30a74dc3e765d2ea26544394c24691b72",
+      "manifest": "content/audio/manifest.json",
+      "manifestKey": "clips.ru.vocab-0005",
+      "manifestRecord": {
+        "text": "извини",
+        "file": "audio/ru/vocab-0005.mp3",
+        "sha256": "c54e79d100df4b9d3d6e8e58980b44a30a74dc3e765d2ea26544394c24691b72"
+      }
+    },
+    {
+      "finding": "F004",
+      "id": "focus-s08",
+      "language": "lv",
+      "current": "Kā tevi sauc?",
+      "proposed": "Kā jūs sauc?",
+      "sourceFile": "content/focused/languages/lv.json",
+      "sourceKey": "focus-s08.text",
+      "clip": "audio/lv/focus-s08.mp3",
+      "sha256": "f078fabaafa0c796d1183d7f36394953a2ad27cd93169b48ec179d78e92afd39",
+      "manifest": "content/focused/audio.json",
+      "manifestKey": "clips.lv.focus-s08",
+      "manifestRecord": {
+        "text": "Kā tevi sauc?",
+        "file": "audio/lv/focus-s08.mp3",
+        "sha256": "f078fabaafa0c796d1183d7f36394953a2ad27cd93169b48ec179d78e92afd39",
+        "provider": "gtts"
+      }
+    },
+    {
+      "finding": "F004",
+      "id": "focus-s08",
+      "language": "ru",
+      "current": "Как тебя зовут?",
+      "proposed": "Как вас зовут?",
+      "sourceFile": "content/focused/languages/ru.json",
+      "sourceKey": "focus-s08.text",
+      "clip": "audio/ru/focus-s08.mp3",
+      "sha256": "3a868ba9a908b49c60f6bb4a57e608119e64a385c255fe18bd40b3e44e6abbe8",
+      "manifest": "content/focused/audio.json",
+      "manifestKey": "clips.ru.focus-s08",
+      "manifestRecord": {
+        "text": "Как тебя зовут?",
+        "file": "audio/ru/focus-s08.mp3",
+        "sha256": "3a868ba9a908b49c60f6bb4a57e608119e64a385c255fe18bd40b3e44e6abbe8",
+        "provider": "gtts"
+      }
+    },
+    {
+      "finding": "F005",
+      "id": "focus-s09",
+      "language": "lv",
+      "current": "No kurienes tu esi?",
+      "proposed": "No kurienes jūs esat?",
+      "sourceFile": "content/focused/languages/lv.json",
+      "sourceKey": "focus-s09.text",
+      "clip": "audio/lv/focus-s09.mp3",
+      "sha256": "f0bcdcec2241df8572b897e3909a436d904ef37919e112613820f96befe959b8",
+      "manifest": "content/focused/audio.json",
+      "manifestKey": "clips.lv.focus-s09",
+      "manifestRecord": {
+        "text": "No kurienes tu esi?",
+        "file": "audio/lv/focus-s09.mp3",
+        "sha256": "f0bcdcec2241df8572b897e3909a436d904ef37919e112613820f96befe959b8",
+        "provider": "gtts"
+      }
+    },
+    {
+      "finding": "F005",
+      "id": "focus-s09",
+      "language": "ru",
+      "current": "Откуда ты?",
+      "proposed": "Откуда вы?",
+      "sourceFile": "content/focused/languages/ru.json",
+      "sourceKey": "focus-s09.text",
+      "clip": "audio/ru/focus-s09.mp3",
+      "sha256": "06b3cd2628f81bc2d494b4074e6ab21068a467c109d407a9643155057e719db2",
+      "manifest": "content/focused/audio.json",
+      "manifestKey": "clips.ru.focus-s09",
+      "manifestRecord": {
+        "text": "Откуда ты?",
+        "file": "audio/ru/focus-s09.mp3",
+        "sha256": "06b3cd2628f81bc2d494b4074e6ab21068a467c109d407a9643155057e719db2",
+        "provider": "gtts"
+      }
+    },
+    {
+      "finding": "F006",
+      "id": "focus-s11",
+      "language": "lv",
+      "current": "Kā tev iet?",
+      "proposed": "Kā jums iet?",
+      "sourceFile": "content/focused/languages/lv.json",
+      "sourceKey": "focus-s11.text",
+      "clip": "audio/lv/focus-s11.mp3",
+      "sha256": "2e0aa6dffbeafe25d54580694a911ca85c1b534804ae3a0bfa26aabcc6331b53",
+      "manifest": "content/focused/audio.json",
+      "manifestKey": "clips.lv.focus-s11",
+      "manifestRecord": {
+        "text": "Kā tev iet?",
+        "file": "audio/lv/focus-s11.mp3",
+        "sha256": "2e0aa6dffbeafe25d54580694a911ca85c1b534804ae3a0bfa26aabcc6331b53",
+        "provider": "gtts"
+      }
+    },
+    {
+      "finding": "F007",
+      "id": "focus-s28",
+      "language": "lv",
+      "current": "Vai tu vari man palīdzēt?",
+      "proposed": "Vai jūs varat man palīdzēt?",
+      "sourceFile": "content/focused/languages/lv.json",
+      "sourceKey": "focus-s28.text",
+      "clip": "audio/lv/focus-s28.mp3",
+      "sha256": "ed57493987ec6d16e9bb6dd409fa6d7324ddc7331daa83c679d23e07e33da0da",
+      "manifest": "content/focused/audio.json",
+      "manifestKey": "clips.lv.focus-s28",
+      "manifestRecord": {
+        "text": "Vai tu vari man palīdzēt?",
+        "file": "audio/lv/focus-s28.mp3",
+        "sha256": "ed57493987ec6d16e9bb6dd409fa6d7324ddc7331daa83c679d23e07e33da0da",
+        "provider": "gtts"
+      }
+    },
+    {
+      "finding": "F007",
+      "id": "focus-s28",
+      "language": "ru",
+      "current": "Можешь мне помочь?",
+      "proposed": "Вы можете мне помочь?",
+      "sourceFile": "content/focused/languages/ru.json",
+      "sourceKey": "focus-s28.text",
+      "clip": "audio/ru/focus-s28.mp3",
+      "sha256": "39b2bc8ed784a0ac6238955b45fb7afec8ad38a1b2ce9fa92130daf5bdaa8aa3",
+      "manifest": "content/focused/audio.json",
+      "manifestKey": "clips.ru.focus-s28",
+      "manifestRecord": {
+        "text": "Можешь мне помочь?",
+        "file": "audio/ru/focus-s28.mp3",
+        "sha256": "39b2bc8ed784a0ac6238955b45fb7afec8ad38a1b2ce9fa92130daf5bdaa8aa3",
+        "provider": "gtts"
+      }
+    }
+  ],
+  "focusedTranslationsSha256": {
+    "lv": "5f5992c1f5a7ae441f1c47bcbb890d14012be3f77ca8f8c436b19c7d2654e107",
+    "ru": "10536ee6446ba5c342476559bf22eb4169628e1d761ca19b51d3f366ed49b309",
+    "en": "fee2e321208f651d395aa07e2918292ea8290a6cc5a45788a190a6351ed79ba2",
+    "ja": "21fd644afeb750d21753956df6a7d66f9aa1c40d424af738805f14535683c2a4"
+  },
+  "allAudioBytesSha256": "9072d29ad465a816d3d1d29f05cbe208f6a5424f9852d4d2acc3f0b8ccec1cb3"
+}

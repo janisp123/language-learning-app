@@ -1,5 +1,7 @@
 # L-011 — current-source reconciliation and next correction proposal
 
+**Subsequent implementation:** The owner approved the ten-cell batch with “Make the change already.” Its implementation is tracked in [0.5.7 notes](../2026-11-24-implementation-02.md) and the current checkpoint. This document/tables remain the historical0.5.6 research snapshot; proposal/approval-pending labels below describe that snapshot. F004 Japanese remains deferred.
+
 Research/preparation by codex, 2026-11-24. **Application remains 0.5.6. No vocabulary, recordings, guides, scoring or deployment changed.** Owner approval is required before applying this batch.
 
 ## What is already done
@@ -55,7 +57,7 @@ After this batch, confirmed findings **F008 schoolbag, F009 payment card, F010 s
 
 ## Reproduce and verify
 
-From repository root, with Python 3 and Node installed:
+For this historical0.5.6 snapshot, use an isolated checkout of PR46 merge `e6dd9205103d03419f6a0978e4bb81e9042d8476`, with Python3 and Node installed. These snapshot checks intentionally fail against later changed vocabulary; current0.5.7 tests are separate:
 
 ```sh
 python -B research/common-usage/2026-11-24-reconciled/reconcile.py
