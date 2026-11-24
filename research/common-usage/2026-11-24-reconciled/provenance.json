@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "checkedOn": "2026-11-24",
+  "appVersion": "0.5.6",
+  "sourceMain": "a5a40869c7af31d63e1230e5260030a6c61516d9",
+  "priorAuditPR": 43,
+  "priorAuditHead": "b04732fea576b8c7e65536913ce6b75c98bcb3be",
+  "heldReadingGuidePR": 21,
+  "heldGuideHead": "72e6ab4c106c6ee7c48703af025919c81d5c3b55",
+  "scope": "Current runtime inventory and dependencies reconciled;prior linguistic judgments retained except released F001/F014/F015. No new fluent-human assessment.",
+  "legacyContentVersion": "0.6.2-test",
+  "focusedContentVersion": "focused-0.1.1",
+  "counts": {
+    "sourceConceptRecords": 577,
+    "activeCorrectConceptIDs": 576,
+    "basicCorrectConceptIDs": 125,
+    "questionIDs": 630,
+    "courseAppearances": 710,
+    "questionDirections": 4410,
+    "presentations": 4970,
+    "optionBindings": 19880,
+    "storedAudioBindings": 2308,
+    "activeAudioBindings": 2297,
+    "changedPresentations": 70,
+    "changedTableRows": 42,
+    "findingStatuses": {
+      "implemented": 3,
+      "confirmed": 11,
+      "review": 58,
+      "preserve": 22
+    },
+    "staleHeldGuideBindings": 1
+  },
+  "phases": {
+    "A": {
+      "questionIDs": 80,
+      "courseAppearances": 160,
+      "questionDirections": 560,
+      "presentations": 1120
+    },
+    "B": {
+      "questionIDs": 20,
+      "courseAppearances": 20,
+      "questionDirections": 140,
+      "presentations": 140
+    },
+    "C": {
+      "questionIDs": 20,
+      "courseAppearances": 20,
+      "questionDirections": 140,
+      "presentations": 140
+    },
+    "D": {
+      "questionIDs": 510,
+      "courseAppearances": 510,
+      "questionDirections": 3570,
+      "presentations": 3570
+    }
+  }
+}

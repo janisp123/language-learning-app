@@ -1,5 +1,9 @@
 ## 2026-11-23 — Correction listening publicly deployed/read back (codex)
 
+## 2026-11-24 — L-011 research reconciliation and correction preparation (codex)
+
+[Current-source audit package](../research/common-usage/2026-11-24-reconciled/README.md) preserves held PR43 while rebinding its tables to live0.5.6:4970 presentations,577 stored concepts,2308 audio bindings;70 presentations changed by the three already released fixes. Prepared ten proposed F002–F007 text cells with142 affected presentations,nine new recordings/one exact reuse;Japanese name wording deferred. Research checks pass;no application/content/audio/guide/deployment change. Owner approval and remaining language review still pending.
+
 ## 0.5.6 — first common-usage fixes and one-second correct pause (codex,2026-11-24)
 
 Correct audio still plays fully, then pauses1000ms instead of2000ms. PR #43 F014/F015 remove two defensible competing choices without changing taught translations or recordings: dinner no longer competes with lunch, and what price no longer competes with how many. Correct IDs/history locks are preserved with explicit allowed-binding exceptions; legacy bank/audio revision0.6.2-test. After explicit Owner approval,Basic now reuses Full’s canonicalvocab-0002 goodbye in all7directions,includingさようなら;questionfocused-s02/slotS02 and all existing recordings are preserved. Focused catalog/audio revisionfocused-0.1.1. Verified63Node/42Python and independent review;PR #44 merged/deployed with [actual hosted-byte receipt](delivery/2026-11-24-first-audit-pause-live.json).

@@ -1,0 +1,10 @@
+# Evidence scope for the proposed batch
+
+Research checked 2026-11-24; no fluent-human signoff or frequency ranking.
+
+- **F002:** [Japan Foundation Irodori Starter Lesson 1](https://www.irodori.jpf.go.jp/assets/data/starter/pdf/X_L01.pdf), L1-8 practice and L1-12 transcript, explicitly teaches `ありがとうございます`. It also teaches familiar thanks. Selecting the polite expression as the shared default is editorial under owner policy; the source does not show it is universally most frequent. Exact excerpts and limitations are in `japanese-evidence.json`.
+- **F003:** inherited [MLVV piedot](https://mlvv.tezaurs.lv/piedot:2) reference concerns familiar/polite apology forms; inherited [Gramota respectful address](https://gramota.ru/journal/stati/pravila-i-normy/vy-s-propisnoy-bukvy-pravilo-ustarelo) concerns respectful `вы`. The choice `piedodiet / извините` is editorial. No new direct corpus or frequency assessment is claimed.
+- **F004–F007 LV/RU:** inherited [Latvian language overview](https://www.latvia.eu/latvian-language/) and the Gramota reference support register context, not literal attestation or frequency of every proposed sentence. Exact sentences are editorial polite-address conversions of the same intended meanings. Confidence in the register rationale must not be confused with proof of optimal situational phrasing.
+- **F004 JA, deferred:** [Japan Foundation Irodori Starter Lesson 3](https://www.irodori.jpf.go.jp/assets/data/starter/pdf/X_L03.pdf), Grammar Notes ③ Nは？, L3-15, explicitly states “You can add お or ご before a noun to ask more politely. For example, お名前は？ or ご出身は？.” It translates `お名前は？` as “What’s your name?” This supports that shorter alternative. It does not directly attest the earlier expanded proposal `お名前は何ですか`; neither expression is declared invalid here.
+
+Current source and held-guide hashes establish exact dependency bindings only. Their verification is not linguistic evidence. The reusable reference library remains separate from active vocabulary; proposals must never be imported automatically.

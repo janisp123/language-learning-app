@@ -1,0 +1,578 @@
+id,meaning,lv,ru,en,ja,coursesTeaching,questionsTeaching,questionsUsingAsDistractor,decision,findings,activeCorrect,activeOption,sourceStatus
+vocab-0001,hello,sveiki,здравствуйте,hello,こんにちは,adults full kids,basic-01-prompt-01 focused-s01,basic-01-prompt-06 basic-01-prompt-08 basic-01-prompt-10 focused-s04 focused-s05 focused-s06,Keep,,true,true,active
+vocab-0002,goodbye,uz redzēšanos,до свидания,goodbye,さようなら,adults full kids,basic-01-prompt-02 focused-s02,basic-01-prompt-01 basic-01-prompt-07 basic-01-prompt-09 focused-s01 focused-s05 focused-s06,Keep,F001 F079,true,true,active
+vocab-0003,please,lūdzu,пожалуйста,please,お願いします,full,basic-01-prompt-03,basic-01-prompt-02 basic-01-prompt-08 basic-01-prompt-10,Keep,,true,true,active
+vocab-0004,thank you,paldies,спасибо,thank you,ありがとう,adults full kids,basic-01-prompt-04 focused-s03,basic-01-prompt-01 basic-01-prompt-03 basic-01-prompt-09 focused-s01 focused-s02 focused-s06,Replace,F002,true,true,active
+vocab-0005,sorry,piedod,извини,sorry,ごめんなさい,adults full kids,basic-01-prompt-05 focused-s04,basic-01-prompt-02 basic-01-prompt-04 basic-01-prompt-10 focused-s01 focused-s02 focused-s03,Replace,F003,true,true,active
+vocab-0006,yes,jā,да,yes,はい,adults full kids,basic-01-prompt-06 focused-s05,basic-01-prompt-01 basic-01-prompt-03 basic-01-prompt-05 focused-s02 focused-s03 focused-s04,Keep,,true,true,active
+vocab-0007,no,nē,нет,no,いいえ,adults full kids,basic-01-prompt-07 focused-s06,basic-01-prompt-02 basic-01-prompt-04 basic-01-prompt-06 focused-s03 focused-s04 focused-s05,Keep,,true,true,active
+vocab-0008,good morning,labrīt,доброе утро,good morning,おはようございます,full,basic-01-prompt-08,basic-01-prompt-03 basic-01-prompt-05 basic-01-prompt-07,Keep,,true,true,active
+vocab-0009,good evening,labvakar,добрый вечер,good evening,こんばんは,full,basic-01-prompt-09,basic-01-prompt-04 basic-01-prompt-06 basic-01-prompt-08,Keep,,true,true,active
+vocab-0010,good night,ar labu nakti,спокойной ночи,good night,おやすみなさい,full,basic-01-prompt-10,basic-01-prompt-05 basic-01-prompt-07 basic-01-prompt-09,Keep,,true,true,active
+vocab-0011,person,cilvēks,человек,person,人,full,basic-02-prompt-01,basic-02-prompt-06 basic-02-prompt-08 basic-02-prompt-10,Keep,,true,true,active
+vocab-0012,child,bērns,ребёнок,child,子供,full,basic-02-prompt-02,basic-02-prompt-01 basic-02-prompt-07 basic-02-prompt-09,Keep,,true,true,active
+vocab-0013,boy,zēns,мальчик,boy,男の子,full,basic-02-prompt-03,basic-02-prompt-02 basic-02-prompt-08 basic-02-prompt-10,Keep,,true,true,active
+vocab-0014,girl,meitene,девочка,girl,女の子,full,basic-02-prompt-04,basic-02-prompt-01 basic-02-prompt-03 basic-02-prompt-09,Keep,,true,true,active
+vocab-0015,friend,draugs,друг,friend,友達,full kids,basic-02-prompt-05 focused-k01,basic-02-prompt-02 basic-02-prompt-04 basic-02-prompt-10 focused-k05 focused-k06 focused-k07,Keep,,true,true,active
+vocab-0016,family,ģimene,семья,family,家族,full,basic-02-prompt-06,basic-02-prompt-01 basic-02-prompt-03 basic-02-prompt-05,Keep,,true,true,active
+vocab-0017,mother,māte,мать,mother,母,full,basic-02-prompt-07,basic-02-prompt-02 basic-02-prompt-04 basic-02-prompt-06,Clarify,F082,true,true,active
+vocab-0018,father,tēvs,отец,father,父,full,basic-02-prompt-08,basic-02-prompt-03 basic-02-prompt-05 basic-02-prompt-07,Clarify,F083,true,true,active
+vocab-0019,sister,māsa,сестра,sister,姉か妹,full,basic-02-prompt-09,basic-02-prompt-04 basic-02-prompt-06 basic-02-prompt-08,Clarify,F080,true,true,active
+vocab-0020,brother,brālis,брат,brother,兄か弟,full,basic-02-prompt-10,basic-02-prompt-05 basic-02-prompt-07 basic-02-prompt-09,Clarify,F081,true,true,active
+vocab-0021,one,viens,один,one,一,adults full kids,basic-03-prompt-01 focused-s51,basic-03-prompt-06 basic-03-prompt-08 basic-03-prompt-10 focused-s53 focused-s54 focused-s55,Keep,,true,true,active
+vocab-0022,two,divi,два,two,二,adults full kids,basic-03-prompt-02 focused-s52,basic-03-prompt-01 basic-03-prompt-07 basic-03-prompt-09 focused-s54 focused-s55 focused-s56,Keep,,true,true,active
+vocab-0023,three,trīs,три,three,三,adults full kids,basic-03-prompt-03 focused-s53,basic-03-prompt-02 basic-03-prompt-08 basic-03-prompt-10 focused-s55 focused-s56 focused-s57,Keep,,true,true,active
+vocab-0024,four,četri,четыре,four,四,adults full kids,basic-03-prompt-04 focused-s54,basic-03-prompt-01 basic-03-prompt-03 basic-03-prompt-09 focused-s56 focused-s57 focused-s58,Keep,,true,true,active
+vocab-0025,five,pieci,пять,five,五,adults full kids,basic-03-prompt-05 focused-s55,basic-03-prompt-02 basic-03-prompt-04 basic-03-prompt-10 focused-s57 focused-s58 focused-s59,Keep,,true,true,active
+vocab-0026,six,seši,шесть,six,六,adults full kids,basic-03-prompt-06 focused-s56,basic-03-prompt-01 basic-03-prompt-03 basic-03-prompt-05 focused-s58 focused-s59 focused-s60,Keep,,true,true,active
+vocab-0027,seven,septiņi,семь,seven,七,adults full kids,basic-03-prompt-07 focused-s57,basic-03-prompt-02 basic-03-prompt-04 basic-03-prompt-06 focused-s51 focused-s59 focused-s60,Keep,,true,true,active
+vocab-0028,eight,astoņi,восемь,eight,八,adults full kids,basic-03-prompt-08 focused-s58,basic-03-prompt-03 basic-03-prompt-05 basic-03-prompt-07 focused-s51 focused-s52 focused-s60,Keep,,true,true,active
+vocab-0029,nine,deviņi,девять,nine,九,adults full kids,basic-03-prompt-09 focused-s59,basic-03-prompt-04 basic-03-prompt-06 basic-03-prompt-08 focused-s51 focused-s52 focused-s53,Keep,,true,true,active
+vocab-0030,ten,desmit,десять,ten,十,adults full kids,basic-03-prompt-10 focused-s60,basic-03-prompt-05 basic-03-prompt-07 basic-03-prompt-09 focused-s52 focused-s53 focused-s54,Keep,,true,true,active
+vocab-0031,help,palīdzība,помощь,help,助け,full,basic-04-prompt-01,basic-04-prompt-06 basic-04-prompt-08 basic-04-prompt-10,Keep,,true,true,active
+vocab-0032,stop,stop,стоп,stop,止まって,full,basic-04-prompt-02,basic-04-prompt-01 basic-04-prompt-07 basic-04-prompt-09,Keep,,true,true,active
+vocab-0033,here,šeit,здесь,here,ここ,adults full kids,basic-04-prompt-03 focused-s42,basic-04-prompt-02 basic-04-prompt-08 basic-04-prompt-10 focused-s13 focused-s17 focused-s29 focused-s43,Keep,,true,true,active
+vocab-0034,there,tur,там,there,そこ,adults full kids,basic-04-prompt-04 focused-s43,basic-04-prompt-01 basic-04-prompt-03 basic-04-prompt-09 focused-s13 focused-s17 focused-s29 focused-s42,Keep,,true,true,active
+vocab-0035,now,tagad,сейчас,now,今,adults full kids,basic-04-prompt-05 focused-s63,basic-04-prompt-02 basic-04-prompt-04 basic-04-prompt-10 focused-s45 focused-s46 focused-s61 focused-s62 focused-s64,Keep,,true,true,active
+vocab-0036,later,vēlāk,позже,later,後で,adults full kids,basic-04-prompt-06 focused-s64,basic-04-prompt-01 basic-04-prompt-03 basic-04-prompt-05 focused-s44 focused-s46 focused-s61 focused-s62,Keep,,true,true,active
+vocab-0037,together,kopā,вместе,together,一緒に,full,basic-04-prompt-07,basic-04-prompt-02 basic-04-prompt-04 basic-04-prompt-06,Keep,,true,true,active
+vocab-0038,again,atkal,снова,again,もう一度,full,basic-04-prompt-08,basic-04-prompt-03 basic-04-prompt-05 basic-04-prompt-07,Keep,,true,true,active
+vocab-0039,slowly,lēnām,медленно,slowly,ゆっくり,full,basic-04-prompt-09,basic-04-prompt-04 basic-04-prompt-06 basic-04-prompt-08,Keep,,true,true,active
+vocab-0040,quickly,ātri,быстро,quickly,速く,full,basic-04-prompt-10,basic-04-prompt-05 basic-04-prompt-07 basic-04-prompt-09,Keep,,true,true,active
+vocab-0041,home,mājas,дом,home,家,adults full kids,basic-05-prompt-01 focused-s47,basic-05-prompt-06 basic-05-prompt-08 basic-05-prompt-10 focused-a04 focused-k02 focused-k03 focused-k04,Keep,,true,true,active
+vocab-0042,school,skola,школа,school,学校,full kids,basic-05-prompt-02 focused-k05,basic-05-prompt-01 basic-05-prompt-07 basic-05-prompt-09 focused-k09,Keep,,true,true,active
+vocab-0043,shop,veikals,магазин,shop,店,adults full,basic-05-prompt-03 focused-a01,basic-05-prompt-02 basic-05-prompt-08 basic-05-prompt-10 focused-a03 focused-a05 focused-s80,Keep,,true,true,active
+vocab-0044,pharmacy,aptieka,аптека,pharmacy,薬局,adults full,basic-05-prompt-04 focused-a10,basic-05-prompt-01 basic-05-prompt-03 basic-05-prompt-09 focused-a04 focused-k01 focused-k02 focused-k03 focused-k10,Keep,,true,true,active
+vocab-0045,hospital,slimnīca,больница,hospital,病院,adults full,basic-05-prompt-05 focused-a09,basic-05-prompt-02 basic-05-prompt-04 basic-05-prompt-10 focused-a02 focused-a04 focused-k01 focused-k02 focused-k10,Keep,,true,true,active
+vocab-0046,park,parks,парк,park,公園,full,basic-05-prompt-06,basic-05-prompt-01 basic-05-prompt-03 basic-05-prompt-05,Keep,,true,true,active
+vocab-0047,street,iela,улица,street,通り,full,basic-05-prompt-07,basic-05-prompt-02 basic-05-prompt-04 basic-05-prompt-06,Keep,,true,true,active
+vocab-0048,bus stop,autobusa pietura,автобусная остановка,bus stop,バス停,full,basic-05-prompt-08,basic-05-prompt-03 basic-05-prompt-05 basic-05-prompt-07,Keep,,true,true,active
+vocab-0049,toilet,tualete,туалет,toilet,トイレ,adults full kids,basic-05-prompt-09 focused-s48,basic-05-prompt-04 basic-05-prompt-06 basic-05-prompt-08 focused-k03 focused-k04 focused-k05,Keep,,true,true,active
+vocab-0050,exit,izeja,выход,exit,出口,full,basic-05-prompt-10,basic-05-prompt-05 basic-05-prompt-07 basic-05-prompt-09,Keep,,true,true,active
+vocab-0051,water,ūdens,вода,water,水,adults full kids,basic-06-prompt-01 focused-s31,basic-06-prompt-06 basic-06-prompt-08 basic-06-prompt-10 focused-s32 focused-s33 focused-s36,Keep,,true,true,active
+vocab-0052,bread,maize,хлеб,bread,パン,adults full kids,basic-06-prompt-02 focused-s33,basic-06-prompt-01 basic-06-prompt-07 basic-06-prompt-09 focused-s32 focused-s34 focused-s35,Keep,,true,true,active
+vocab-0053,milk,piens,молоко,milk,牛乳,adults full kids,basic-06-prompt-03 focused-s34,basic-06-prompt-02 basic-06-prompt-08 basic-06-prompt-10 focused-s33 focused-s35 focused-s36,Keep,,true,true,active
+vocab-0054,tea,tēja,чай,tea,お茶,adults full kids,basic-06-prompt-04 focused-s35,basic-06-prompt-01 basic-06-prompt-03 basic-06-prompt-09 focused-s31 focused-s34 focused-s36,Keep,,true,true,active
+vocab-0055,apple,ābols,яблоко,apple,りんご,adults full kids,basic-06-prompt-05 focused-s36,basic-06-prompt-02 basic-06-prompt-04 basic-06-prompt-10 focused-s31 focused-s32 focused-s35,Keep,,true,true,active
+vocab-0056,banana,banāns,банан,banana,バナナ,full,basic-06-prompt-06,basic-06-prompt-01 basic-06-prompt-03 basic-06-prompt-05,Keep,,true,true,active
+vocab-0057,cheese,siers,сыр,cheese,チーズ,full,basic-06-prompt-07,basic-06-prompt-02 basic-06-prompt-04 basic-06-prompt-06,Keep,,true,true,active
+vocab-0058,soup,zupa,суп,soup,スープ,full,basic-06-prompt-08,basic-06-prompt-03 basic-06-prompt-05 basic-06-prompt-07,Keep,,true,true,active
+vocab-0059,juice,sula,сок,juice,ジュース,full,basic-06-prompt-09,basic-06-prompt-04 basic-06-prompt-06 basic-06-prompt-08,Keep,,true,true,active
+vocab-0060,breakfast,brokastis,завтрак,breakfast,朝食,full,basic-06-prompt-10,basic-06-prompt-05 basic-06-prompt-07 basic-06-prompt-09,Keep,,true,true,active
+vocab-0061,book,grāmata,книга,book,本,full kids,basic-07-prompt-01 focused-k06,basic-07-prompt-06 basic-07-prompt-08 basic-07-prompt-10,Keep,,true,true,active
+vocab-0062,notebook,burtnīca,тетрадь,notebook,ノート,full,basic-07-prompt-02,basic-07-prompt-01 basic-07-prompt-07 basic-07-prompt-09,Keep,,true,true,active
+vocab-0063,pen,pildspalva,ручка,pen,ペン,full kids,basic-07-prompt-03 focused-k07,basic-07-prompt-02 basic-07-prompt-08 basic-07-prompt-10 focused-a01 focused-a10,Keep,,true,true,active
+vocab-0064,pencil,zīmulis,карандаш,pencil,鉛筆,full,basic-07-prompt-04,basic-07-prompt-01 basic-07-prompt-03 basic-07-prompt-09,Keep,,true,true,active
+vocab-0065,desk,rakstāmgalds,письменный стол,desk,机,full,basic-07-prompt-05,basic-07-prompt-02 basic-07-prompt-04 basic-07-prompt-10,Keep,,true,true,active
+vocab-0066,chair,krēsls,стул,chair,椅子,full,basic-07-prompt-06,basic-07-prompt-01 basic-07-prompt-03 basic-07-prompt-05,Keep,,true,true,active
+vocab-0067,board,tāfele,доска,board,黒板,full,basic-07-prompt-07,basic-07-prompt-02 basic-07-prompt-04 basic-07-prompt-06,Keep,F066,true,true,active
+vocab-0068,teacher,skolotājs,учитель,teacher,先生,full kids,basic-07-prompt-08 focused-k04,basic-07-prompt-03 basic-07-prompt-05 basic-07-prompt-07 focused-k08 focused-k09,Keep,,true,true,active
+vocab-0069,lesson,mācību stunda,урок,lesson,授業,full kids,basic-07-prompt-09 focused-k09,basic-07-prompt-04 basic-07-prompt-06 basic-07-prompt-08 focused-a01 focused-a03 focused-a10,Keep,,true,true,active
+vocab-0070,break,starpbrīdis,перемена,break,休み時間,full kids,basic-07-prompt-10 focused-k10,basic-07-prompt-05 basic-07-prompt-07 basic-07-prompt-09 focused-a03,Keep,F067,true,true,active
+vocab-0071,left,pa kreisi,налево,left,左,adults full kids,basic-08-prompt-01 focused-s44,basic-08-prompt-06 basic-08-prompt-08 basic-08-prompt-10 focused-s45 focused-s63,Keep,,true,true,active
+vocab-0072,right,pa labi,направо,right,右,adults full kids,basic-08-prompt-02 focused-s45,basic-08-prompt-01 basic-08-prompt-07 basic-08-prompt-09 focused-s44 focused-s46 focused-s63 focused-s64,Keep,,true,true,active
+vocab-0073,straight,taisni,прямо,straight,まっすぐ,adults full kids,basic-08-prompt-03 focused-s46,basic-08-prompt-02 basic-08-prompt-08 basic-08-prompt-10 focused-s44 focused-s45 focused-s63 focused-s64,Keep,,true,true,active
+vocab-0074,near,tuvu,близко,near,近く,full,basic-08-prompt-04,basic-08-prompt-01 basic-08-prompt-03 basic-08-prompt-09,Keep,,true,true,active
+vocab-0075,far,tālu,далеко,far,遠く,full,basic-08-prompt-05,basic-08-prompt-02 basic-08-prompt-04 basic-08-prompt-10,Keep,,true,true,active
+vocab-0076,inside,iekšā,внутри,inside,中,full,basic-08-prompt-06,basic-08-prompt-01 basic-08-prompt-03 basic-08-prompt-05,Keep,,true,true,active
+vocab-0077,outside,ārā,снаружи,outside,外,full,basic-08-prompt-07,basic-08-prompt-02 basic-08-prompt-04 basic-08-prompt-06,Keep,,true,true,active
+vocab-0078,up,augšup,вверх,up,上,full,basic-08-prompt-08,basic-08-prompt-03 basic-08-prompt-05 basic-08-prompt-07,Keep,,true,true,active
+vocab-0079,down,lejup,вниз,down,下,full,basic-08-prompt-09,basic-08-prompt-04 basic-08-prompt-06 basic-08-prompt-08,Keep,,true,true,active
+vocab-0080,opposite,pretī,напротив,opposite,向かい,full,basic-08-prompt-10,basic-08-prompt-05 basic-08-prompt-07 basic-08-prompt-09,Keep,,true,true,active
+vocab-0081,police,policija,полиция,police,警察,full,basic-09-prompt-01,basic-09-prompt-06 basic-09-prompt-08 basic-09-prompt-10,Keep,,true,true,active
+vocab-0082,ambulance,neatliekamā palīdzība,скорая помощь,ambulance,救急車,full,basic-09-prompt-02,basic-09-prompt-01 basic-09-prompt-07 basic-09-prompt-09,Clarify,F036,true,true,active
+vocab-0083,fire,uguns,огонь,fire,火事,full,basic-09-prompt-03,basic-09-prompt-02 basic-09-prompt-08 basic-09-prompt-10,Clarify,F013,true,true,active
+vocab-0084,danger,briesmas,опасность,danger,危険,full,basic-09-prompt-04,basic-09-prompt-01 basic-09-prompt-03 basic-09-prompt-09,Keep,,true,true,active
+vocab-0085,pain,sāpes,боль,pain,痛み,full,basic-09-prompt-05,basic-09-prompt-02 basic-09-prompt-04 basic-09-prompt-10 basic-51-prompt-07,Keep,,true,true,active
+vocab-0086,doctor,ārsts,врач,doctor,医者,full,basic-09-prompt-06,basic-09-prompt-01 basic-09-prompt-03 basic-09-prompt-05,Keep,,true,true,active
+vocab-0087,emergency,ārkārtas situācija,чрезвычайная ситуация,emergency,緊急事態,full,basic-09-prompt-07,basic-09-prompt-02 basic-09-prompt-04 basic-09-prompt-06,Keep,,true,true,active
+vocab-0088,first aid,pirmā palīdzība,первая помощь,first aid,応急手当,full,basic-09-prompt-08,basic-09-prompt-03 basic-09-prompt-05 basic-09-prompt-07,Keep,,true,true,active
+vocab-0089,emergency number,ārkārtas palīdzības izsaukuma numurs,экстренный номер,emergency number,緊急通報番号,full,basic-09-prompt-09,basic-09-prompt-04 basic-09-prompt-06 basic-09-prompt-08,Keep,F049,true,true,active
+vocab-0090,adult,pieaugušais,взрослый,adult,大人,full,basic-09-prompt-10,basic-09-prompt-05 basic-09-prompt-07 basic-09-prompt-09,Keep,,true,true,active
+vocab-0091,who,kurš,кто,who,誰,full,basic-10-prompt-01,basic-10-prompt-06 basic-10-prompt-08 basic-10-prompt-10,Clarify,F037,true,true,active
+vocab-0092,what,kas,что,what,何,full,basic-10-prompt-02,basic-10-prompt-07 basic-10-prompt-09,Clarify,F038,true,true,active
+vocab-0093,where,kur,где,where,どこ,full,basic-10-prompt-03,basic-10-prompt-02 basic-10-prompt-07 basic-10-prompt-08 basic-10-prompt-10,Keep,,true,true,active
+vocab-0094,when,kad,когда,when,いつ,full,basic-10-prompt-04,basic-10-prompt-01 basic-10-prompt-03 basic-10-prompt-09,Keep,,true,true,active
+vocab-0095,why,kāpēc,почему,why,なぜ,full,basic-10-prompt-05,basic-10-prompt-02 basic-10-prompt-04 basic-10-prompt-10,Keep,,true,true,active
+vocab-0096,how,kā,как,how,どうやって,full,basic-10-prompt-06,basic-10-prompt-01 basic-10-prompt-03 basic-10-prompt-05,Keep,,true,true,active
+vocab-0097,how many,cik,сколько,how many,いくつ,full,basic-10-prompt-07,basic-10-prompt-02 basic-10-prompt-04 basic-10-prompt-06,Keep,F015,true,true,active
+vocab-0098,what price,kāda cena,какая цена,what price,いくら,full,basic-10-prompt-08,basic-10-prompt-01 basic-10-prompt-03 basic-10-prompt-05,Reuse,F017,true,true,active
+vocab-0099,which way,kurā virzienā,в какую сторону,which way,どちらの道,full,basic-10-prompt-09,basic-10-prompt-04 basic-10-prompt-06 basic-10-prompt-08,Keep,,true,true,active
+vocab-0100,what else,kas vēl,что ещё,what else,他に何,full,basic-10-prompt-10,basic-10-prompt-05 basic-10-prompt-07 basic-10-prompt-09,Keep,,true,true,active
+vocab-0101,grandmother,vecmāmiņa,бабушка,grandmother,祖母,full,basic-11-prompt-01,basic-11-prompt-06 basic-11-prompt-08 basic-11-prompt-10,Clarify,F084,true,true,active
+vocab-0102,grandfather,vectētiņš,дедушка,grandfather,祖父,full,basic-11-prompt-02,basic-11-prompt-01 basic-11-prompt-07 basic-11-prompt-09,Clarify,F085,true,true,active
+vocab-0103,aunt,tante,тётя,aunt,おば,full,basic-11-prompt-03,basic-11-prompt-02 basic-11-prompt-08 basic-11-prompt-10,Keep,,true,true,active
+vocab-0104,uncle,tēvocis,дядя,uncle,おじ,full,basic-11-prompt-04,basic-11-prompt-01 basic-11-prompt-03 basic-11-prompt-09,Keep,,true,true,active
+vocab-0105,parents,vecāki,родители,parents,両親,full,basic-11-prompt-05,basic-11-prompt-02 basic-11-prompt-04 basic-11-prompt-10,Keep,,true,true,active
+vocab-0106,grandparents,vecvecāki,бабушка и дедушка,grandparents,祖父母,full,basic-11-prompt-06,basic-11-prompt-01 basic-11-prompt-03 basic-11-prompt-05,Keep,,true,true,active
+vocab-0107,baby,zīdainis,младенец,baby,赤ちゃん,full,basic-11-prompt-07,basic-11-prompt-02 basic-11-prompt-04 basic-11-prompt-06,Clarify,F039,true,true,active
+vocab-0108,teenager,pusaudzis,подросток,teenager,十代の若者,full,basic-11-prompt-08,basic-11-prompt-03 basic-11-prompt-05 basic-11-prompt-07,Keep,,true,true,active
+vocab-0109,neighbour,kaimiņš,сосед,neighbour,隣人,full,basic-11-prompt-09,basic-11-prompt-04 basic-11-prompt-06 basic-11-prompt-08,Keep,,true,true,active
+vocab-0110,guest,viesis,гость,guest,客,full,basic-11-prompt-10,basic-11-prompt-05 basic-11-prompt-07 basic-11-prompt-09,Keep,,true,true,active
+vocab-0111,woman,sieviete,женщина,woman,女性,full,basic-12-prompt-01,basic-12-prompt-06 basic-12-prompt-08 basic-12-prompt-10,Keep,,true,true,active
+vocab-0112,man,vīrietis,мужчина,man,男性,full,basic-12-prompt-02,basic-12-prompt-01 basic-12-prompt-07 basic-12-prompt-09,Keep,,true,true,active
+vocab-0113,people,cilvēki,люди,people,人々,full,basic-12-prompt-03,basic-12-prompt-02 basic-12-prompt-08 basic-12-prompt-10,Keep,,true,true,active
+vocab-0114,children,bērni,дети,children,子供たち,full,basic-12-prompt-04,basic-12-prompt-01 basic-12-prompt-03 basic-12-prompt-09,Keep,,true,true,active
+vocab-0115,classmate,klasesbiedrs,одноклассник,classmate,クラスメート,full,basic-12-prompt-05,basic-12-prompt-02 basic-12-prompt-04 basic-12-prompt-10,Keep,,true,true,active
+vocab-0116,student,skolēns,школьник,student,学生,full,basic-12-prompt-06,basic-12-prompt-01 basic-12-prompt-03 basic-12-prompt-05,Clarify,F040 F050,true,true,active
+vocab-0117,driver,vadītājs,водитель,driver,運転手,full,basic-12-prompt-07,basic-12-prompt-02 basic-12-prompt-04 basic-12-prompt-06,Keep,,true,true,active
+vocab-0118,seller,pārdevējs,продавец,seller,販売員,full,basic-12-prompt-08,basic-12-prompt-03 basic-12-prompt-05 basic-12-prompt-07,Keep,F068,true,true,active
+vocab-0119,passenger,pasažieris,пассажир,passenger,乗客,full,basic-12-prompt-09,basic-12-prompt-04 basic-12-prompt-06 basic-12-prompt-08,Keep,,true,true,active
+vocab-0120,visitor,apmeklētājs,посетитель,visitor,訪問者,full,basic-12-prompt-10,basic-12-prompt-05 basic-12-prompt-07 basic-12-prompt-09,Keep,,true,true,active
+vocab-0121,head,galva,голова,head,頭,full,basic-13-prompt-01,basic-13-prompt-06 basic-13-prompt-08 basic-13-prompt-10,Keep,,true,true,active
+vocab-0122,hair,mati,волосы,hair,髪,full,basic-13-prompt-02,basic-13-prompt-01 basic-13-prompt-07 basic-13-prompt-09,Keep,,true,true,active
+vocab-0123,face,seja,лицо,face,顔,full,basic-13-prompt-03,basic-13-prompt-02 basic-13-prompt-08 basic-13-prompt-10,Keep,,true,true,active
+vocab-0124,eye,acs,глаз,eye,目,full,basic-13-prompt-04,basic-13-prompt-01 basic-13-prompt-03 basic-13-prompt-09,Keep,,true,true,active
+vocab-0125,ear,auss,ухо,ear,耳,full,basic-13-prompt-05,basic-13-prompt-02 basic-13-prompt-04 basic-13-prompt-10,Keep,,true,true,active
+vocab-0126,nose,deguns,нос,nose,鼻,full,basic-13-prompt-06,basic-13-prompt-01 basic-13-prompt-03 basic-13-prompt-05,Keep,,true,true,active
+vocab-0127,mouth,mute,рот,mouth,口,full,basic-13-prompt-07,basic-13-prompt-02 basic-13-prompt-04 basic-13-prompt-06,Keep,,true,true,active
+vocab-0128,tooth,zobs,зуб,tooth,歯,full,basic-13-prompt-08,basic-13-prompt-03 basic-13-prompt-05 basic-13-prompt-07,Keep,,true,true,active
+vocab-0129,tongue,mēle,язык,tongue,舌,full,basic-13-prompt-09,basic-13-prompt-04 basic-13-prompt-06 basic-13-prompt-08,Keep,,true,true,active
+vocab-0130,neck,kakls,шея,neck,首,full,basic-13-prompt-10,basic-13-prompt-05 basic-13-prompt-07 basic-13-prompt-09,Keep,,true,true,active
+vocab-0131,palm,plauksta,ладонь,palm,手のひら,full,basic-14-prompt-01,basic-14-prompt-06 basic-14-prompt-08 basic-14-prompt-10,Keep,F069,true,true,active
+vocab-0132,arm,roka,рука,arm,腕,full,basic-14-prompt-02,basic-14-prompt-01 basic-14-prompt-07 basic-14-prompt-09,Keep,F051,true,true,active
+vocab-0133,finger,pirksts,палец,finger,指,full,basic-14-prompt-03,basic-14-prompt-02 basic-14-prompt-08 basic-14-prompt-10,Keep,,true,true,active
+vocab-0134,leg,kāja,нога,leg,脚,full,basic-14-prompt-04,basic-14-prompt-01 basic-14-prompt-03 basic-14-prompt-09,Keep,,true,true,active
+vocab-0135,foot,pēda,стопа,foot,足,full,basic-14-prompt-05,basic-14-prompt-02 basic-14-prompt-10,Keep,,true,true,active
+vocab-0136,knee,celis,колено,knee,膝,full,basic-14-prompt-06,basic-14-prompt-01 basic-14-prompt-03 basic-14-prompt-05,Keep,,true,true,active
+vocab-0137,back,mugura,спина,back,背中,full,basic-14-prompt-07,basic-14-prompt-02 basic-14-prompt-04 basic-14-prompt-06,Keep,,true,true,active
+vocab-0138,stomach,vēders,живот,stomach,お腹,full,basic-14-prompt-08,basic-14-prompt-03 basic-14-prompt-05 basic-14-prompt-07,Clarify,F041 F052 F070,true,true,active
+vocab-0139,shoulder,plecs,плечо,shoulder,肩,full,basic-14-prompt-09,basic-14-prompt-04 basic-14-prompt-06 basic-14-prompt-08,Keep,,true,true,active
+vocab-0140,skin,āda,кожа,skin,皮膚,full,basic-14-prompt-10,basic-14-prompt-04 basic-14-prompt-05 basic-14-prompt-07 basic-14-prompt-09,Keep,,true,true,active
+vocab-0141,health,veselība,здоровье,health,健康,full,basic-15-prompt-01,basic-15-prompt-06 basic-15-prompt-08 basic-15-prompt-10,Keep,,true,true,active
+vocab-0142,illness,slimība,болезнь,illness,病気,full,basic-15-prompt-02,basic-15-prompt-01 basic-15-prompt-07 basic-15-prompt-09 basic-51-prompt-07,Keep,,true,true,active
+vocab-0143,a cold,saaukstēšanās,простуда,a cold,風邪,full,basic-15-prompt-03,basic-15-prompt-02 basic-15-prompt-08 basic-15-prompt-10,Keep,,true,true,active
+vocab-0144,fever,drudzis,лихорадка,fever,熱,full,basic-15-prompt-04,basic-15-prompt-01 basic-15-prompt-03 basic-15-prompt-09,Keep,F053,true,true,active
+vocab-0145,cough,klepus,кашель,cough,咳,full,basic-15-prompt-05,basic-15-prompt-02 basic-15-prompt-04 basic-15-prompt-08 basic-15-prompt-10 basic-51-prompt-07,Keep,,true,true,active
+vocab-0146,medicine,zāles,лекарство,medicine,薬,full,basic-15-prompt-06,basic-15-prompt-01 basic-15-prompt-03 basic-15-prompt-05,Keep,,true,true,active
+vocab-0147,tablet,tablete,таблетка,tablet,錠剤,full,basic-15-prompt-07,basic-15-prompt-02 basic-15-prompt-04 basic-15-prompt-06,Keep,,true,true,active
+vocab-0148,plaster,plāksteris,пластырь,plaster,絆創膏,full,basic-15-prompt-08,basic-15-prompt-03 basic-15-prompt-05 basic-15-prompt-07,Keep,,true,true,active
+vocab-0149,bandage,pārsējs,повязка,bandage,包帯,full,basic-15-prompt-09,basic-15-prompt-04 basic-15-prompt-06,Keep,,true,true,active
+vocab-0150,thermometer,termometrs,термометр,thermometer,体温計,full,basic-15-prompt-10,basic-15-prompt-05 basic-15-prompt-07 basic-15-prompt-09,Keep,,true,true,active
+vocab-0151,happy,priecīgs,радостный,happy,嬉しい,full,basic-16-prompt-01,basic-16-prompt-06 basic-16-prompt-08 basic-16-prompt-10,Keep,,true,true,active
+vocab-0152,sad,bēdīgs,грустный,sad,悲しい,full,basic-16-prompt-02,basic-16-prompt-01 basic-16-prompt-07 basic-16-prompt-09,Keep,,true,true,active
+vocab-0153,angry,dusmīgs,сердитый,angry,怒っている,full,basic-16-prompt-03,basic-16-prompt-02 basic-16-prompt-08 basic-16-prompt-10,Keep,,true,true,active
+vocab-0154,afraid,nobijies,испуганный,afraid,怖い,full,basic-16-prompt-04,basic-16-prompt-01 basic-16-prompt-03 basic-16-prompt-09,Keep,,true,true,active
+vocab-0155,calm,mierīgs,спокойный,calm,落ち着いている,full,basic-16-prompt-05,basic-16-prompt-02 basic-16-prompt-04 basic-16-prompt-10,Keep,,true,true,active
+vocab-0156,tired,noguris,уставший,tired,疲れた,full,basic-16-prompt-06,basic-16-prompt-01 basic-16-prompt-03 basic-16-prompt-05,Keep,,true,true,active
+vocab-0157,hungry,izsalcis,голодный,hungry,お腹がすいた,full,basic-16-prompt-07,basic-16-prompt-02 basic-16-prompt-04 basic-16-prompt-06,Keep,,true,true,active
+vocab-0158,thirsty,izslāpis,испытывающий жажду,thirsty,喉が渇いた,full,basic-16-prompt-08,basic-16-prompt-03 basic-16-prompt-05 basic-16-prompt-07,Reuse,F018,true,true,active
+vocab-0159,bored,garlaikots,скучающий,bored,退屈している,full,basic-16-prompt-09,basic-16-prompt-04 basic-16-prompt-06 basic-16-prompt-08,Keep,,true,true,active
+vocab-0160,surprised,pārsteigts,удивлённый,surprised,驚いた,full,basic-16-prompt-10,basic-16-prompt-05 basic-16-prompt-07 basic-16-prompt-09,Keep,,true,true,active
+vocab-0161,coat,mētelis,пальто,coat,コート,full,basic-17-prompt-01,basic-17-prompt-06 basic-17-prompt-08 basic-17-prompt-10,Keep,,true,true,active
+vocab-0162,jacket,jaka,куртка,jacket,ジャケット,full,basic-17-prompt-02,basic-17-prompt-01 basic-17-prompt-07 basic-17-prompt-09,Keep,,true,true,active
+vocab-0163,shirt,krekls,рубашка,shirt,シャツ,full,basic-17-prompt-03,basic-17-prompt-02 basic-17-prompt-08 basic-17-prompt-10,Keep,,true,true,active
+vocab-0164,trousers,bikses,брюки,trousers,ズボン,full,basic-17-prompt-04,basic-17-prompt-01 basic-17-prompt-03 basic-17-prompt-09,Keep,,true,true,active
+vocab-0165,dress,kleita,платье,dress,ワンピース,full,basic-17-prompt-05,basic-17-prompt-02 basic-17-prompt-04 basic-17-prompt-10,Keep,,true,true,active
+vocab-0166,socks,zeķes,носки,socks,靴下,full,basic-17-prompt-06,basic-17-prompt-01 basic-17-prompt-03 basic-17-prompt-05,Keep,,true,true,active
+vocab-0167,footwear,apavi,обувь,footwear,履物,full,basic-17-prompt-07,basic-17-prompt-02 basic-17-prompt-04 basic-17-prompt-06,Keep,F071,true,true,active
+vocab-0168,hat,cepure,шапка,hat,帽子,full,basic-17-prompt-08,basic-17-prompt-03 basic-17-prompt-05 basic-17-prompt-07,Keep,F054,true,true,active
+vocab-0169,scarf,šalle,шарф,scarf,マフラー,full,basic-17-prompt-09,basic-17-prompt-04 basic-17-prompt-06 basic-17-prompt-08,Keep,F091,true,true,active
+vocab-0170,gloves,cimdi,перчатки,gloves,手袋,full,basic-17-prompt-10,basic-17-prompt-05 basic-17-prompt-07 basic-17-prompt-09,Keep,,true,true,active
+vocab-0171,phone,tālrunis,телефон,phone,電話,adults full kids,basic-18-prompt-01 focused-s80,basic-18-prompt-06 basic-18-prompt-08 basic-18-prompt-10 focused-k04 focused-k05 focused-k06,Keep,,true,true,active
+vocab-0172,computer,dators,компьютер,computer,コンピューター,full,basic-18-prompt-02,basic-18-prompt-01 basic-18-prompt-07 basic-18-prompt-09,Keep,,true,true,active
+vocab-0173,screen,ekrāns,экран,screen,画面,full,basic-18-prompt-03,basic-18-prompt-02 basic-18-prompt-08 basic-18-prompt-10,Keep,,true,true,active
+vocab-0174,keyboard,tastatūra,клавиатура,keyboard,キーボード,full,basic-18-prompt-04,basic-18-prompt-01 basic-18-prompt-03 basic-18-prompt-09,Keep,,true,true,active
+vocab-0175,mouse,datorpele,компьютерная мышь,mouse,マウス,full,basic-18-prompt-05,basic-18-prompt-02 basic-18-prompt-04 basic-18-prompt-10,Keep,,true,true,active
+vocab-0176,charger,lādētājs,зарядное устройство,charger,充電器,full,basic-18-prompt-06,basic-18-prompt-01 basic-18-prompt-03 basic-18-prompt-05,Keep,,true,true,active
+vocab-0177,battery,baterija,батарейка,battery,電池,full,basic-18-prompt-07,basic-18-prompt-02 basic-18-prompt-04 basic-18-prompt-06,Keep,F055,true,true,active
+vocab-0178,message,ziņa,сообщение,message,メッセージ,full,basic-18-prompt-08,basic-18-prompt-03 basic-18-prompt-05 basic-18-prompt-07,Keep,,true,true,active
+vocab-0179,photo,fotogrāfija,фотография,photo,写真,full,basic-18-prompt-09,basic-18-prompt-04 basic-18-prompt-06 basic-18-prompt-08,Keep,,true,true,active
+vocab-0180,internet,internets,интернет,internet,インターネット,full,basic-18-prompt-10,basic-18-prompt-05 basic-18-prompt-07 basic-18-prompt-09,Keep,,true,true,active
+vocab-0181,door,durvis,дверь,door,ドア,full,basic-19-prompt-01,basic-19-prompt-06 basic-19-prompt-08 basic-19-prompt-10,Keep,,true,true,active
+vocab-0182,window,logs,окно,window,窓,full,basic-19-prompt-02,basic-19-prompt-01 basic-19-prompt-07 basic-19-prompt-09,Keep,,true,true,active
+vocab-0183,wall,siena,стена,wall,壁,full,basic-19-prompt-03,basic-19-prompt-02 basic-19-prompt-08 basic-19-prompt-10,Keep,,true,true,active
+vocab-0184,floor,grīda,пол,floor,床,full,basic-19-prompt-04,basic-19-prompt-01 basic-19-prompt-03 basic-19-prompt-09,Keep,,true,true,active
+vocab-0185,ceiling,griesti,потолок,ceiling,天井,full,basic-19-prompt-05,basic-19-prompt-02 basic-19-prompt-04 basic-19-prompt-10,Keep,,true,true,active
+vocab-0186,roof,jumts,крыша,roof,屋根,full,basic-19-prompt-06,basic-19-prompt-01 basic-19-prompt-03 basic-19-prompt-05,Keep,,true,true,active
+vocab-0187,stairs,kāpnes,лестница,stairs,階段,full,basic-19-prompt-07,basic-19-prompt-02 basic-19-prompt-04 basic-19-prompt-06,Keep,,true,true,active
+vocab-0188,room,istaba,комната,room,部屋,full,basic-19-prompt-08,basic-19-prompt-03 basic-19-prompt-05 basic-19-prompt-07,Keep,,true,true,active
+vocab-0189,kitchen,virtuve,кухня,kitchen,台所,full,basic-19-prompt-09,basic-19-prompt-04 basic-19-prompt-06 basic-19-prompt-08,Keep,,true,true,active
+vocab-0190,bathroom,vannasistaba,ванная комната,bathroom,浴室,full,basic-19-prompt-10,basic-19-prompt-05 basic-19-prompt-07 basic-19-prompt-09,Clarify,F092,true,true,active
+vocab-0191,bed,gulta,кровать,bed,ベッド,full,basic-20-prompt-01,basic-20-prompt-06 basic-20-prompt-08 basic-20-prompt-10,Keep,,true,true,active
+vocab-0192,table,galds,стол,table,テーブル,full,basic-20-prompt-02,basic-20-prompt-01 basic-20-prompt-07 basic-20-prompt-09,Keep,,true,true,active
+vocab-0193,sofa,dīvāns,диван,sofa,ソファー,full,basic-20-prompt-03,basic-20-prompt-02 basic-20-prompt-08 basic-20-prompt-10,Keep,,true,true,active
+vocab-0194,wardrobe,skapis,шкаф,wardrobe,洋服だんす,full,basic-20-prompt-04,basic-20-prompt-01 basic-20-prompt-03 basic-20-prompt-09,Keep,,true,true,active
+vocab-0195,shelf,plaukts,полка,shelf,棚,full,basic-20-prompt-05,basic-20-prompt-02 basic-20-prompt-04 basic-20-prompt-10,Keep,,true,true,active
+vocab-0196,mirror,spogulis,зеркало,mirror,鏡,full,basic-20-prompt-06,basic-20-prompt-01 basic-20-prompt-03 basic-20-prompt-05,Keep,,true,true,active
+vocab-0197,lamp,lampa,лампа,lamp,ランプ,full,basic-20-prompt-07,basic-20-prompt-02 basic-20-prompt-04 basic-20-prompt-06,Keep,,true,true,active
+vocab-0198,carpet,paklājs,ковёр,carpet,じゅうたん,full,basic-20-prompt-08,basic-20-prompt-03 basic-20-prompt-05 basic-20-prompt-07,Keep,,true,true,active
+vocab-0199,blanket,sega,одеяло,blanket,毛布,full,basic-20-prompt-09,basic-20-prompt-04 basic-20-prompt-06 basic-20-prompt-08,Keep,,true,true,active
+vocab-0200,pillow,spilvens,подушка,pillow,枕,full,basic-20-prompt-10,basic-20-prompt-05 basic-20-prompt-07 basic-20-prompt-09,Keep,,true,true,active
+vocab-0201,plate,šķīvis,тарелка,plate,皿,full,basic-21-prompt-01,basic-21-prompt-06 basic-21-prompt-08 basic-21-prompt-10,Keep,,true,true,active
+vocab-0202,cup,tase,чашка,cup,カップ,full,basic-21-prompt-02,basic-21-prompt-01 basic-21-prompt-07 basic-21-prompt-09,Keep,,true,true,active
+vocab-0203,glass,glāze,стакан,glass,ガラスのコップ,full,basic-21-prompt-03,basic-21-prompt-02 basic-21-prompt-08 basic-21-prompt-10,Keep,,true,true,active
+vocab-0204,bowl,bļoda,миска,bowl,ボウル,full,basic-21-prompt-04,basic-21-prompt-01 basic-21-prompt-03 basic-21-prompt-09,Keep,,true,true,active
+vocab-0205,spoon,karote,ложка,spoon,スプーン,full,basic-21-prompt-05,basic-21-prompt-02 basic-21-prompt-04 basic-21-prompt-10,Keep,,true,true,active
+vocab-0206,fork,dakša,вилка,fork,フォーク,full,basic-21-prompt-06,basic-21-prompt-01 basic-21-prompt-03 basic-21-prompt-05 basic-21-prompt-09,Keep,,true,true,active
+vocab-0207,knife,nazis,нож,knife,ナイフ,full,basic-21-prompt-07,basic-21-prompt-02 basic-21-prompt-04 basic-21-prompt-06,Keep,,true,true,active
+vocab-0208,bottle,pudele,бутылка,bottle,瓶,full,basic-21-prompt-08,basic-21-prompt-03 basic-21-prompt-05 basic-21-prompt-07,Keep,,true,true,active
+vocab-0209,pot,katls,кастрюля,pot,鍋,full,basic-21-prompt-09,basic-21-prompt-04 basic-21-prompt-06 basic-21-prompt-08,Keep,,true,true,active
+vocab-0210,pan,panna,сковорода,pan,フライパン,full,basic-21-prompt-10,basic-21-prompt-05 basic-21-prompt-07,Replace,F072,true,true,active
+vocab-0211,soap,ziepes,мыло,soap,石けん,full,basic-22-prompt-01,basic-22-prompt-06 basic-22-prompt-08 basic-22-prompt-10,Keep,,true,true,active
+vocab-0212,towel,dvielis,полотенце,towel,タオル,full,basic-22-prompt-02,basic-22-prompt-01 basic-22-prompt-07 basic-22-prompt-09,Keep,,true,true,active
+vocab-0213,toothbrush,zobu suka,зубная щётка,toothbrush,歯ブラシ,full,basic-22-prompt-03,basic-22-prompt-02 basic-22-prompt-08 basic-22-prompt-10,Keep,,true,true,active
+vocab-0214,toothpaste,zobu pasta,зубная паста,toothpaste,歯磨き粉,full,basic-22-prompt-04,basic-22-prompt-01 basic-22-prompt-03 basic-22-prompt-09,Keep,,true,true,active
+vocab-0215,shampoo,šampūns,шампунь,shampoo,シャンプー,full,basic-22-prompt-05,basic-22-prompt-02 basic-22-prompt-04 basic-22-prompt-10,Keep,,true,true,active
+vocab-0216,comb,ķemme,расчёска,comb,くし,full,basic-22-prompt-06,basic-22-prompt-01 basic-22-prompt-03 basic-22-prompt-05,Keep,,true,true,active
+vocab-0217,shower,duša,душ,shower,シャワー,full,basic-22-prompt-07,basic-22-prompt-02 basic-22-prompt-04 basic-22-prompt-06,Keep,,true,true,active
+vocab-0218,bath,vanna,ванна,bath,風呂,full,basic-22-prompt-08,basic-22-prompt-03 basic-22-prompt-05 basic-22-prompt-07,Keep,,true,true,active
+vocab-0219,toilet paper,tualetes papīrs,туалетная бумага,toilet paper,トイレットペーパー,full,basic-22-prompt-09,basic-22-prompt-04 basic-22-prompt-06 basic-22-prompt-08,Keep,,true,true,active
+vocab-0220,tissue,papīra kabatlakatiņš,бумажный платок,tissue,ティッシュ,full,basic-22-prompt-10,basic-22-prompt-05 basic-22-prompt-07 basic-22-prompt-09,Keep,,true,true,active
+vocab-0221,pear,bumbieris,груша,pear,梨,full,basic-23-prompt-01,basic-23-prompt-06 basic-23-prompt-08 basic-23-prompt-10,Keep,,true,true,active
+vocab-0222,orange,apelsīns,апельсин,orange,オレンジ,full,basic-23-prompt-02,basic-23-prompt-01 basic-23-prompt-07 basic-23-prompt-09,Keep,,true,true,active
+vocab-0223,lemon,citrons,лимон,lemon,レモン,full,basic-23-prompt-03,basic-23-prompt-02 basic-23-prompt-08 basic-23-prompt-10,Keep,,true,true,active
+vocab-0224,grapes,vīnogas,виноград,grapes,ぶどう,full,basic-23-prompt-04,basic-23-prompt-01 basic-23-prompt-03 basic-23-prompt-09,Keep,,true,true,active
+vocab-0225,strawberry,zemene,клубника,strawberry,いちご,full,basic-23-prompt-05,basic-23-prompt-02 basic-23-prompt-04 basic-23-prompt-10,Keep,,true,true,active
+vocab-0226,raspberry,avene,малина,raspberry,ラズベリー,full,basic-23-prompt-06,basic-23-prompt-01 basic-23-prompt-03 basic-23-prompt-05,Keep,,true,true,active
+vocab-0227,cherry,ķirsis,вишня,cherry,さくらんぼ,full,basic-23-prompt-07,basic-23-prompt-02 basic-23-prompt-04 basic-23-prompt-06,Keep,,true,true,active
+vocab-0228,plum,plūme,слива,plum,すもも,full,basic-23-prompt-08,basic-23-prompt-03 basic-23-prompt-05 basic-23-prompt-07,Keep,,true,true,active
+vocab-0229,peach,persiks,персик,peach,桃,full,basic-23-prompt-09,basic-23-prompt-04 basic-23-prompt-06 basic-23-prompt-08,Keep,,true,true,active
+vocab-0230,watermelon,arbūzs,арбуз,watermelon,すいか,full,basic-23-prompt-10,basic-23-prompt-05 basic-23-prompt-07 basic-23-prompt-09,Keep,,true,true,active
+vocab-0231,potato,kartupelis,картофель,potato,じゃがいも,full,basic-24-prompt-01,basic-24-prompt-06 basic-24-prompt-08 basic-24-prompt-10,Keep,,true,true,active
+vocab-0232,carrot,burkāns,морковь,carrot,にんじん,full,basic-24-prompt-02,basic-24-prompt-01 basic-24-prompt-07 basic-24-prompt-09,Keep,,true,true,active
+vocab-0233,tomato,tomāts,помидор,tomato,トマト,full,basic-24-prompt-03,basic-24-prompt-02 basic-24-prompt-08 basic-24-prompt-10,Keep,,true,true,active
+vocab-0234,cucumber,gurķis,огурец,cucumber,きゅうり,full,basic-24-prompt-04,basic-24-prompt-01 basic-24-prompt-03 basic-24-prompt-09,Keep,,true,true,active
+vocab-0235,onion,sīpols,лук,onion,玉ねぎ,full,basic-24-prompt-05,basic-24-prompt-02 basic-24-prompt-04 basic-24-prompt-10,Keep,,true,true,active
+vocab-0236,garlic,ķiploks,чеснок,garlic,にんにく,full,basic-24-prompt-06,basic-24-prompt-01 basic-24-prompt-03 basic-24-prompt-05,Keep,,true,true,active
+vocab-0237,cabbage,kāposts,капуста,cabbage,キャベツ,full,basic-24-prompt-07,basic-24-prompt-02 basic-24-prompt-04 basic-24-prompt-06,Keep,,true,true,active
+vocab-0238,pepper,paprika,сладкий перец,pepper,ピーマン,full,basic-24-prompt-08,basic-24-prompt-03 basic-24-prompt-05 basic-24-prompt-07,Clarify,F042 F073 F090,true,true,active
+vocab-0239,peas,zirņi,горох,peas,えんどう豆,full,basic-24-prompt-09,basic-24-prompt-04 basic-24-prompt-06 basic-24-prompt-08,Keep,,true,true,active
+vocab-0240,beans,pupas,фасоль,beans,豆,full,basic-24-prompt-10,basic-24-prompt-05 basic-24-prompt-07 basic-24-prompt-09,Keep,,true,true,active
+vocab-0241,rice,rīsi,рис,rice,米,full,basic-25-prompt-01,basic-25-prompt-06 basic-25-prompt-08 basic-25-prompt-10,Clarify,F086,true,true,active
+vocab-0242,pasta,makaroni,макароны,pasta,パスタ,full,basic-25-prompt-02,basic-25-prompt-01 basic-25-prompt-07 basic-25-prompt-09,Keep,,true,true,active
+vocab-0243,meat,gaļa,мясо,meat,肉,full,basic-25-prompt-03,basic-25-prompt-02 basic-25-prompt-08 basic-25-prompt-10,Keep,,true,true,active
+vocab-0244,chicken meat,vistas gaļa,курятина,chicken meat,鶏肉,full,basic-25-prompt-04,basic-25-prompt-01 basic-25-prompt-03 basic-25-prompt-09,Keep,F074,true,true,active
+vocab-0245,fish,zivs,рыба,fish,魚,full,basic-25-prompt-05,basic-25-prompt-02 basic-25-prompt-04 basic-25-prompt-10,Keep,,true,true,active
+vocab-0246,egg,ola,яйцо,egg,卵,full,basic-25-prompt-06,basic-25-prompt-01 basic-25-prompt-03 basic-25-prompt-05,Keep,,true,true,active
+vocab-0247,butter,sviests,сливочное масло,butter,バター,full,basic-25-prompt-07,basic-25-prompt-02 basic-25-prompt-04 basic-25-prompt-06,Keep,,true,true,active
+vocab-0248,yogurt,jogurts,йогурт,yogurt,ヨーグルト,full,basic-25-prompt-08,basic-25-prompt-03 basic-25-prompt-05 basic-25-prompt-07,Keep,,true,true,active
+vocab-0249,salt,sāls,соль,salt,塩,full,basic-25-prompt-09,basic-25-prompt-04 basic-25-prompt-06 basic-25-prompt-08,Keep,,true,true,active
+vocab-0250,sugar,cukurs,сахар,sugar,砂糖,full,basic-25-prompt-10,basic-25-prompt-05 basic-25-prompt-07 basic-25-prompt-09 basic-26-prompt-01,Keep,,true,true,active
+vocab-0251,lunch,pusdienas,обед,lunch,昼食,full,basic-26-prompt-01,basic-26-prompt-06 basic-26-prompt-08 basic-26-prompt-10,Keep,F014,true,true,active
+vocab-0252,dinner,vakariņas,ужин,dinner,夕食,full,basic-26-prompt-02,basic-26-prompt-07 basic-26-prompt-09,Keep,F075,true,true,active
+vocab-0253,snack,uzkoda,перекус,snack,おやつ,full,basic-26-prompt-03,basic-26-prompt-02 basic-26-prompt-08 basic-26-prompt-10,Keep,,true,true,active
+vocab-0254,sandwich,sviestmaize,бутерброд,sandwich,サンドイッチ,full,basic-26-prompt-04,basic-26-prompt-01 basic-26-prompt-03 basic-26-prompt-09,Keep,,true,true,active
+vocab-0255,salad,salāti,салат,salad,サラダ,full,basic-26-prompt-05,basic-26-prompt-02 basic-26-prompt-04 basic-26-prompt-10,Keep,,true,true,active
+vocab-0256,porridge,putra,каша,porridge,おかゆ,full,basic-26-prompt-06,basic-26-prompt-01 basic-26-prompt-03 basic-26-prompt-05,Human review,F033,true,true,active
+vocab-0257,cereal,brokastu pārslas,хлопья для завтрака,cereal,シリアル,full,basic-26-prompt-07,basic-26-prompt-02 basic-26-prompt-04 basic-26-prompt-06,Keep,,true,true,active
+vocab-0258,pancake,pankūka,блин,pancake,パンケーキ,full,basic-26-prompt-08,basic-26-prompt-03 basic-26-prompt-05 basic-26-prompt-07,Keep,,true,true,active
+vocab-0259,cake,kūka,пирожное,cake,ケーキ,full,basic-26-prompt-09,basic-26-prompt-04 basic-26-prompt-06 basic-26-prompt-08,Clarify,F056,true,true,active
+vocab-0260,ice cream,saldējums,мороженое,ice cream,アイスクリーム,full,basic-26-prompt-10,basic-26-prompt-05 basic-26-prompt-07 basic-26-prompt-09,Keep,,true,true,active
+vocab-0261,please help,palīdziet lūdzu,помогите пожалуйста,please help,助けてください,full,basic-27-prompt-01,basic-27-prompt-06 basic-27-prompt-08 basic-27-prompt-10,Keep,,true,true,active
+vocab-0262,a little more,vēl mazliet,ещё немного,a little more,もう少し,full,basic-27-prompt-02,basic-27-prompt-01 basic-27-prompt-07 basic-27-prompt-09,Keep,,true,true,active
+vocab-0263,more slowly,lēnāk,помедленнее,more slowly,もっとゆっくり,full,basic-27-prompt-03,basic-27-prompt-02 basic-27-prompt-08 basic-27-prompt-10 basic-51-prompt-04,Keep,,true,true,active
+vocab-0264,not now,ne tagad,не сейчас,not now,今はだめ,full,basic-27-prompt-04,basic-27-prompt-01 basic-27-prompt-03 basic-27-prompt-09,Keep,,true,true,active
+vocab-0265,no thank you,nē paldies,нет спасибо,no thank you,いいえ結構です,adults full kids,basic-27-prompt-05 focused-s30,basic-27-prompt-02 basic-27-prompt-04 basic-27-prompt-10 focused-a14 focused-a16 focused-s20 focused-s50,Keep,,true,true,active
+vocab-0266,excuse me,atvainojiet,извините,excuse me,すみません,full,basic-27-prompt-06,basic-27-prompt-01 basic-27-prompt-03 basic-27-prompt-05,Keep,,true,true,active
+vocab-0267,good luck,lai veicas,удачи,good luck,頑張って,full,basic-27-prompt-07,basic-27-prompt-02 basic-27-prompt-04 basic-27-prompt-06,Keep,,true,true,active
+vocab-0268,well done,malacis,молодец,well done,よくできました,full,basic-27-prompt-08,basic-27-prompt-03 basic-27-prompt-05 basic-27-prompt-07,Keep,F043,true,true,active
+vocab-0269,good afternoon,labdien,добрый день,good afternoon,こんにちは,full,basic-27-prompt-09,basic-27-prompt-04 basic-27-prompt-06 basic-27-prompt-08,Keep,,true,true,active
+vocab-0270,with pleasure,ar prieku,с удовольствием,with pleasure,喜んで,full,basic-27-prompt-10,basic-27-prompt-05 basic-27-prompt-07 basic-27-prompt-09,Keep,,true,true,active
+vocab-0271,money,nauda,деньги,money,お金,adults full,basic-28-prompt-01 focused-a02,basic-28-prompt-06 basic-28-prompt-08 basic-28-prompt-10 focused-a05 focused-a06 focused-s80,Keep,,true,true,active
+vocab-0272,price,cena,цена,price,値段,full,basic-28-prompt-02,basic-28-prompt-01 basic-28-prompt-07 basic-28-prompt-09,Keep,,true,true,active
+vocab-0273,change,atlikums,сдача,change,お釣り,full,basic-28-prompt-03,basic-28-prompt-02 basic-28-prompt-08 basic-28-prompt-10,Keep,,true,true,active
+vocab-0274,receipt,čeks,чек,receipt,レシート,full,basic-28-prompt-04,basic-28-prompt-01 basic-28-prompt-03 basic-28-prompt-09,Keep,,true,true,active
+vocab-0275,checkout,kase,касса,checkout,レジ,full,basic-28-prompt-05,basic-28-prompt-02 basic-28-prompt-04 basic-28-prompt-10,Keep,,true,true,active
+vocab-0276,basket,grozs,корзина,basket,かご,full,basic-28-prompt-06,basic-28-prompt-01 basic-28-prompt-03 basic-28-prompt-05,Keep,,true,true,active
+vocab-0277,bag,soma,сумка,bag,袋,full,basic-28-prompt-07,basic-28-prompt-02 basic-28-prompt-04 basic-28-prompt-06,Clarify,F057,true,true,active
+vocab-0278,size,izmērs,размер,size,サイズ,full,basic-28-prompt-08,basic-28-prompt-03 basic-28-prompt-05 basic-28-prompt-07,Keep,,true,true,active
+vocab-0279,discount,atlaide,скидка,discount,割引,full,basic-28-prompt-09,basic-28-prompt-04 basic-28-prompt-06 basic-28-prompt-08,Keep,,true,true,active
+vocab-0280,card,karte,карта,card,カード,full,basic-28-prompt-10,basic-28-prompt-05 basic-28-prompt-07 basic-28-prompt-09,Clarify,F058,true,true,active
+vocab-0281,zero,nulle,ноль,zero,零,full,basic-29-prompt-01,basic-29-prompt-06 basic-29-prompt-08 basic-29-prompt-10,Keep,,true,true,active
+vocab-0282,eleven,vienpadsmit,одиннадцать,eleven,十一,full,basic-29-prompt-02,basic-29-prompt-01 basic-29-prompt-07 basic-29-prompt-09,Keep,,true,true,active
+vocab-0283,twelve,divpadsmit,двенадцать,twelve,十二,full,basic-29-prompt-03,basic-29-prompt-02 basic-29-prompt-08 basic-29-prompt-10,Keep,,true,true,active
+vocab-0284,thirteen,trīspadsmit,тринадцать,thirteen,十三,full,basic-29-prompt-04,basic-29-prompt-01 basic-29-prompt-03 basic-29-prompt-09,Keep,,true,true,active
+vocab-0285,fourteen,četrpadsmit,четырнадцать,fourteen,十四,full,basic-29-prompt-05,basic-29-prompt-02 basic-29-prompt-04 basic-29-prompt-10,Keep,,true,true,active
+vocab-0286,fifteen,piecpadsmit,пятнадцать,fifteen,十五,full,basic-29-prompt-06,basic-29-prompt-01 basic-29-prompt-03 basic-29-prompt-05,Keep,,true,true,active
+vocab-0287,sixteen,sešpadsmit,шестнадцать,sixteen,十六,full,basic-29-prompt-07,basic-29-prompt-02 basic-29-prompt-04 basic-29-prompt-06,Keep,,true,true,active
+vocab-0288,seventeen,septiņpadsmit,семнадцать,seventeen,十七,full,basic-29-prompt-08,basic-29-prompt-03 basic-29-prompt-05 basic-29-prompt-07,Keep,,true,true,active
+vocab-0289,eighteen,astoņpadsmit,восемнадцать,eighteen,十八,full,basic-29-prompt-09,basic-29-prompt-04 basic-29-prompt-06 basic-29-prompt-08,Keep,,true,true,active
+vocab-0290,nineteen,deviņpadsmit,девятнадцать,nineteen,十九,full,basic-29-prompt-10,basic-29-prompt-05 basic-29-prompt-07 basic-29-prompt-09,Keep,,true,true,active
+vocab-0291,twenty,divdesmit,двадцать,twenty,二十,full,basic-30-prompt-01,basic-30-prompt-06 basic-30-prompt-08 basic-30-prompt-10,Keep,,true,true,active
+vocab-0292,thirty,trīsdesmit,тридцать,thirty,三十,full,basic-30-prompt-02,basic-30-prompt-01 basic-30-prompt-07 basic-30-prompt-09,Keep,,true,true,active
+vocab-0293,forty,četrdesmit,сорок,forty,四十,full,basic-30-prompt-03,basic-30-prompt-02 basic-30-prompt-08 basic-30-prompt-10,Keep,,true,true,active
+vocab-0294,fifty,piecdesmit,пятьдесят,fifty,五十,full,basic-30-prompt-04,basic-30-prompt-01 basic-30-prompt-03 basic-30-prompt-09,Keep,,true,true,active
+vocab-0295,sixty,sešdesmit,шестьдесят,sixty,六十,full,basic-30-prompt-05,basic-30-prompt-02 basic-30-prompt-04 basic-30-prompt-10,Keep,,true,true,active
+vocab-0296,seventy,septiņdesmit,семьдесят,seventy,七十,full,basic-30-prompt-06,basic-30-prompt-01 basic-30-prompt-03 basic-30-prompt-05,Keep,,true,true,active
+vocab-0297,eighty,astoņdesmit,восемьдесят,eighty,八十,full,basic-30-prompt-07,basic-30-prompt-02 basic-30-prompt-04 basic-30-prompt-06,Keep,,true,true,active
+vocab-0298,ninety,deviņdesmit,девяносто,ninety,九十,full,basic-30-prompt-08,basic-30-prompt-03 basic-30-prompt-05 basic-30-prompt-07,Keep,,true,true,active
+vocab-0299,hundred,simts,сто,hundred,百,full,basic-30-prompt-09,basic-30-prompt-04 basic-30-prompt-06 basic-30-prompt-08,Keep,,true,true,active
+vocab-0300,thousand,tūkstotis,тысяча,thousand,千,full,basic-30-prompt-10,basic-30-prompt-05 basic-30-prompt-07 basic-30-prompt-09,Keep,,true,true,active
+vocab-0301,day,diena,день,day,日,full,basic-31-prompt-01,basic-31-prompt-06 basic-31-prompt-08 basic-31-prompt-10,Keep,,true,true,active
+vocab-0302,night,nakts,ночь,night,夜,full,basic-31-prompt-02,basic-31-prompt-01 basic-31-prompt-07 basic-31-prompt-09,Keep,,true,true,active
+vocab-0303,morning,rīts,утро,morning,朝,full,basic-31-prompt-03,basic-31-prompt-02 basic-31-prompt-08 basic-31-prompt-10,Keep,,true,true,active
+vocab-0304,evening,vakars,вечер,evening,夕方,full,basic-31-prompt-04,basic-31-prompt-01 basic-31-prompt-03 basic-31-prompt-09,Keep,,true,true,active
+vocab-0305,today,šodien,сегодня,today,今日,adults full kids,basic-31-prompt-05 focused-s61,basic-31-prompt-02 basic-31-prompt-04 basic-31-prompt-10 focused-s62,Keep,,true,true,active
+vocab-0306,tomorrow,rīt,завтра,tomorrow,明日,adults full kids,basic-31-prompt-06 focused-s62,basic-31-prompt-01 basic-31-prompt-03 basic-31-prompt-05 focused-s61,Keep,,true,true,active
+vocab-0307,yesterday,vakar,вчера,yesterday,昨日,full,basic-31-prompt-07,basic-31-prompt-02 basic-31-prompt-04 basic-31-prompt-06,Keep,,true,true,active
+vocab-0308,week,nedēļa,неделя,week,週,full,basic-31-prompt-08,basic-31-prompt-03 basic-31-prompt-05 basic-31-prompt-07,Keep,,true,true,active
+vocab-0309,month,mēnesis,месяц,month,月,full,basic-31-prompt-09,basic-31-prompt-04 basic-31-prompt-06 basic-31-prompt-08,Keep,,true,true,active
+vocab-0310,year,gads,год,year,年,full,basic-31-prompt-10,basic-31-prompt-05 basic-31-prompt-07 basic-31-prompt-09,Keep,,true,true,active
+vocab-0311,Monday,pirmdiena,понедельник,Monday,月曜日,full,basic-32-prompt-01,basic-32-prompt-06 basic-32-prompt-08 basic-32-prompt-10,Keep,,true,true,active
+vocab-0312,Tuesday,otrdiena,вторник,Tuesday,火曜日,full,basic-32-prompt-02,basic-32-prompt-01 basic-32-prompt-07 basic-32-prompt-09,Keep,,true,true,active
+vocab-0313,Wednesday,trešdiena,среда,Wednesday,水曜日,full,basic-32-prompt-03,basic-32-prompt-02 basic-32-prompt-08 basic-32-prompt-10,Keep,,true,true,active
+vocab-0314,Thursday,ceturtdiena,четверг,Thursday,木曜日,full,basic-32-prompt-04,basic-32-prompt-01 basic-32-prompt-03 basic-32-prompt-09,Keep,,true,true,active
+vocab-0315,Friday,piektdiena,пятница,Friday,金曜日,full,basic-32-prompt-05,basic-32-prompt-02 basic-32-prompt-04 basic-32-prompt-10,Keep,,true,true,active
+vocab-0316,Saturday,sestdiena,суббота,Saturday,土曜日,full,basic-32-prompt-06,basic-32-prompt-01 basic-32-prompt-03 basic-32-prompt-05,Keep,,true,true,active
+vocab-0317,Sunday,svētdiena,воскресенье,Sunday,日曜日,full,basic-32-prompt-07,basic-32-prompt-02 basic-32-prompt-04 basic-32-prompt-06,Keep,,true,true,active
+vocab-0318,weekend,nedēļas nogale,выходные,weekend,週末,full,basic-32-prompt-08,basic-32-prompt-03 basic-32-prompt-05 basic-32-prompt-07,Keep,,true,true,active
+vocab-0319,hour,stunda,час,hour,時間,full,basic-32-prompt-09,basic-32-prompt-04 basic-32-prompt-06 basic-32-prompt-08,Keep,,true,true,active
+vocab-0320,minute,minūte,минута,minute,分,full,basic-32-prompt-10,basic-32-prompt-05 basic-32-prompt-07 basic-32-prompt-09,Keep,,true,true,active
+vocab-0321,January,janvāris,январь,January,一月,full,basic-33-prompt-01,basic-33-prompt-06 basic-33-prompt-08 basic-33-prompt-10,Keep,,true,true,active
+vocab-0322,February,februāris,февраль,February,二月,full,basic-33-prompt-02,basic-33-prompt-01 basic-33-prompt-07 basic-33-prompt-09,Keep,,true,true,active
+vocab-0323,March,marts,март,March,三月,full,basic-33-prompt-03,basic-33-prompt-02 basic-33-prompt-08 basic-33-prompt-10,Keep,,true,true,active
+vocab-0324,April,aprīlis,апрель,April,四月,full,basic-33-prompt-04,basic-33-prompt-01 basic-33-prompt-03 basic-33-prompt-09,Keep,,true,true,active
+vocab-0325,May,maijs,май,May,五月,full,basic-33-prompt-05,basic-33-prompt-02 basic-33-prompt-04 basic-33-prompt-10,Keep,,true,true,active
+vocab-0326,June,jūnijs,июнь,June,六月,full,basic-33-prompt-06,basic-33-prompt-01 basic-33-prompt-03 basic-33-prompt-05,Keep,,true,true,active
+vocab-0327,July,jūlijs,июль,July,七月,full,basic-33-prompt-07,basic-33-prompt-02 basic-33-prompt-04 basic-33-prompt-06,Keep,,true,true,active
+vocab-0328,August,augusts,август,August,八月,full,basic-33-prompt-08,basic-33-prompt-03 basic-33-prompt-05 basic-33-prompt-07,Keep,,true,true,active
+vocab-0329,September,septembris,сентябрь,September,九月,full,basic-33-prompt-09,basic-33-prompt-04 basic-33-prompt-06 basic-33-prompt-08,Keep,,true,true,active
+vocab-0330,October,oktobris,октябрь,October,十月,full,basic-33-prompt-10,basic-33-prompt-05 basic-33-prompt-07 basic-33-prompt-09,Keep,,true,true,active
+vocab-0331,November,novembris,ноябрь,November,十一月,full,basic-34-prompt-01,basic-34-prompt-06 basic-34-prompt-08 basic-34-prompt-10,Keep,,true,true,active
+vocab-0332,December,decembris,декабрь,December,十二月,full,basic-34-prompt-02,basic-34-prompt-01 basic-34-prompt-07 basic-34-prompt-09,Keep,,true,true,active
+vocab-0333,spring,pavasaris,весна,spring,春,full,basic-34-prompt-03,basic-34-prompt-02 basic-34-prompt-08 basic-34-prompt-10,Keep,,true,true,active
+vocab-0334,summer,vasara,лето,summer,夏,full,basic-34-prompt-04,basic-34-prompt-01 basic-34-prompt-03 basic-34-prompt-09,Keep,,true,true,active
+vocab-0335,autumn,rudens,осень,autumn,秋,full,basic-34-prompt-05,basic-34-prompt-02 basic-34-prompt-04 basic-34-prompt-10,Keep,,true,true,active
+vocab-0336,winter,ziema,зима,winter,冬,full,basic-34-prompt-06,basic-34-prompt-01 basic-34-prompt-03 basic-34-prompt-05,Keep,,true,true,active
+vocab-0337,season,gadalaiks,время года,season,季節,full,basic-34-prompt-07,basic-34-prompt-02 basic-34-prompt-04 basic-34-prompt-06,Keep,,true,true,active
+vocab-0338,weather,laikapstākļi,погода,weather,天気,full,basic-34-prompt-08,basic-34-prompt-03 basic-34-prompt-05 basic-34-prompt-07,Keep,,true,true,active
+vocab-0339,sun,saule,солнце,sun,太陽,full,basic-34-prompt-09,basic-34-prompt-04 basic-34-prompt-06 basic-34-prompt-08,Keep,,true,true,active
+vocab-0340,moon,mēness,луна,moon,お月さま,full,basic-34-prompt-10,basic-34-prompt-05 basic-34-prompt-07 basic-34-prompt-09,Keep,,true,true,active
+vocab-0341,rain,lietus,дождь,rain,雨,full,basic-35-prompt-01,basic-35-prompt-06 basic-35-prompt-08 basic-35-prompt-10,Keep,,true,true,active
+vocab-0342,snow,sniegs,снег,snow,雪,full,basic-35-prompt-02,basic-35-prompt-01 basic-35-prompt-07 basic-35-prompt-09,Keep,,true,true,active
+vocab-0343,wind,vējš,ветер,wind,風,full,basic-35-prompt-03,basic-35-prompt-02 basic-35-prompt-08 basic-35-prompt-10,Keep,,true,true,active
+vocab-0344,cloud,mākonis,облако,cloud,雲,full,basic-35-prompt-04,basic-35-prompt-01 basic-35-prompt-03 basic-35-prompt-09,Keep,,true,true,active
+vocab-0345,fog,migla,туман,fog,霧,full,basic-35-prompt-05,basic-35-prompt-02 basic-35-prompt-04 basic-35-prompt-10,Keep,,true,true,active
+vocab-0346,ice,ledus,лёд,ice,氷,full,basic-35-prompt-06,basic-35-prompt-01 basic-35-prompt-03 basic-35-prompt-05,Keep,,true,true,active
+vocab-0347,thunder,pērkons,гром,thunder,雷,full,basic-35-prompt-07,basic-35-prompt-02 basic-35-prompt-04 basic-35-prompt-06,Keep,,true,true,active
+vocab-0348,storm,vētra,буря,storm,嵐,full,basic-35-prompt-08,basic-35-prompt-03 basic-35-prompt-05 basic-35-prompt-07,Keep,,true,true,active
+vocab-0349,rainbow,varavīksne,радуга,rainbow,虹,full,basic-35-prompt-09,basic-35-prompt-04 basic-35-prompt-06 basic-35-prompt-08,Keep,,true,true,active
+vocab-0350,temperature,temperatūra,температура,temperature,気温,full,basic-35-prompt-10,basic-35-prompt-05 basic-35-prompt-07 basic-35-prompt-09,Keep,F034,true,true,active
+vocab-0351,tree,koks,дерево,tree,木,full,basic-36-prompt-01,basic-36-prompt-06 basic-36-prompt-08 basic-36-prompt-10,Keep,,true,true,active
+vocab-0352,flower,puķe,цветок,flower,花,full,basic-36-prompt-02,basic-36-prompt-01 basic-36-prompt-07 basic-36-prompt-09,Keep,,true,true,active
+vocab-0353,grass,zāle,трава,grass,草,full,basic-36-prompt-03,basic-36-prompt-02 basic-36-prompt-08 basic-36-prompt-10,Keep,,true,true,active
+vocab-0354,leaf,lapa,лист,leaf,葉,full,basic-36-prompt-04,basic-36-prompt-01 basic-36-prompt-03 basic-36-prompt-09,Keep,,true,true,active
+vocab-0355,forest,mežs,лес,forest,森,full,basic-36-prompt-05,basic-36-prompt-02 basic-36-prompt-04 basic-36-prompt-10,Keep,,true,true,active
+vocab-0356,river,upe,река,river,川,full,basic-36-prompt-06,basic-36-prompt-01 basic-36-prompt-03 basic-36-prompt-05,Keep,,true,true,active
+vocab-0357,lake,ezers,озеро,lake,湖,full,basic-36-prompt-07,basic-36-prompt-02 basic-36-prompt-04 basic-36-prompt-06,Keep,,true,true,active
+vocab-0358,sea,jūra,море,sea,海,full,basic-36-prompt-08,basic-36-prompt-03 basic-36-prompt-05 basic-36-prompt-07,Keep,,true,true,active
+vocab-0359,beach,pludmale,пляж,beach,浜辺,full,basic-36-prompt-09,basic-36-prompt-04 basic-36-prompt-06 basic-36-prompt-08,Keep,,true,true,active
+vocab-0360,stone,akmens,камень,stone,石,full,basic-36-prompt-10,basic-36-prompt-05 basic-36-prompt-07 basic-36-prompt-09,Keep,,true,true,active
+vocab-0361,dog,suns,собака,dog,犬,full,basic-37-prompt-01,basic-37-prompt-06 basic-37-prompt-08 basic-37-prompt-10,Keep,,true,true,active
+vocab-0362,cat,kaķis,кошка,cat,猫,full,basic-37-prompt-02,basic-37-prompt-01 basic-37-prompt-07 basic-37-prompt-09,Keep,,true,true,active
+vocab-0363,horse,zirgs,лошадь,horse,馬,full,basic-37-prompt-03,basic-37-prompt-02 basic-37-prompt-08 basic-37-prompt-10,Keep,,true,true,active
+vocab-0364,cow,govs,корова,cow,牛,full,basic-37-prompt-04,basic-37-prompt-01 basic-37-prompt-03 basic-37-prompt-09,Keep,,true,true,active
+vocab-0365,pig,cūka,свинья,pig,豚,full,basic-37-prompt-05,basic-37-prompt-02 basic-37-prompt-04 basic-37-prompt-10,Keep,,true,true,active
+vocab-0366,sheep,aita,овца,sheep,羊,full,basic-37-prompt-06,basic-37-prompt-01 basic-37-prompt-03 basic-37-prompt-05,Keep,,true,true,active
+vocab-0367,goat,kaza,коза,goat,ヤギ,full,basic-37-prompt-07,basic-37-prompt-02 basic-37-prompt-04 basic-37-prompt-06,Keep,,true,true,active
+vocab-0368,hen,vista,курица,hen,めんどり,full,basic-37-prompt-08,basic-37-prompt-03 basic-37-prompt-05 basic-37-prompt-07,Keep,,true,true,active
+vocab-0369,duck,pīle,утка,duck,アヒル,full,basic-37-prompt-09,basic-37-prompt-04 basic-37-prompt-06 basic-37-prompt-08,Keep,,true,true,active
+vocab-0370,bird,putns,птица,bird,鳥,full,basic-37-prompt-10,basic-37-prompt-05 basic-37-prompt-07 basic-37-prompt-09,Keep,,true,true,active
+vocab-0371,bus,autobuss,автобус,bus,バス,adults full,basic-38-prompt-01 focused-a05,basic-38-prompt-06 basic-38-prompt-08 basic-38-prompt-10 focused-a07 focused-a08 focused-a09 focused-s47 focused-s48,Keep,,true,true,active
+vocab-0372,tram,tramvajs,трамвай,tram,路面電車,full,basic-38-prompt-02,basic-38-prompt-01 basic-38-prompt-07 basic-38-prompt-09,Keep,,true,true,active
+vocab-0373,trolleybus,trolejbuss,троллейбус,trolleybus,トロリーバス,full,basic-38-prompt-03,basic-38-prompt-02 basic-38-prompt-08 basic-38-prompt-10,Keep,,true,true,active
+vocab-0374,train,vilciens,поезд,train,列車,adults full,basic-38-prompt-04 focused-a06,basic-38-prompt-01 basic-38-prompt-03 basic-38-prompt-09 focused-a08 focused-a09 focused-s48,Keep,,true,true,active
+vocab-0375,car,automašīna,машина,car,車,full,basic-38-prompt-05,basic-38-prompt-02 basic-38-prompt-04 basic-38-prompt-10,Keep,,true,true,active
+vocab-0376,bicycle,velosipēds,велосипед,bicycle,自転車,full,basic-38-prompt-06,basic-38-prompt-01 basic-38-prompt-03 basic-38-prompt-05,Keep,,true,true,active
+vocab-0377,taxi,taksometrs,такси,taxi,タクシー,full,basic-38-prompt-07,basic-38-prompt-02 basic-38-prompt-04 basic-38-prompt-06,Keep,,true,true,active
+vocab-0378,station,stacija,станция,station,駅,adults full,basic-38-prompt-08 focused-a07,basic-38-prompt-03 basic-38-prompt-05 basic-38-prompt-07 focused-a02 focused-a09 focused-s48,Keep,,true,true,active
+vocab-0379,airport,lidosta,аэропорт,airport,空港,full,basic-38-prompt-09,basic-38-prompt-04 basic-38-prompt-06 basic-38-prompt-08,Keep,,true,true,active
+vocab-0380,ticket,biļete,билет,ticket,切符,adults full,basic-38-prompt-10 focused-a08,basic-38-prompt-05 basic-38-prompt-07 basic-38-prompt-09 focused-a02 focused-k01 focused-k10,Keep,,true,true,active
+vocab-0381,road,ceļš,дорога,road,道路,full,basic-39-prompt-01,basic-39-prompt-06 basic-39-prompt-08 basic-39-prompt-10,Keep,,true,true,active
+vocab-0382,bridge,tilts,мост,bridge,橋,full,basic-39-prompt-02,basic-39-prompt-01 basic-39-prompt-07 basic-39-prompt-09,Keep,,true,true,active
+vocab-0383,pedestrian crossing,gājēju pāreja,пешеходный переход,pedestrian crossing,横断歩道,full,basic-39-prompt-03,basic-39-prompt-02 basic-39-prompt-08 basic-39-prompt-10,Keep,,true,true,active
+vocab-0384,traffic lights,luksofors,светофор,traffic lights,信号機,full,basic-39-prompt-04,basic-39-prompt-01 basic-39-prompt-03 basic-39-prompt-09,Keep,,true,true,active
+vocab-0385,pavement,ietve,тротуар,pavement,歩道,full,basic-39-prompt-05,basic-39-prompt-02 basic-39-prompt-04 basic-39-prompt-10,Keep,,true,true,active
+vocab-0386,corner,stūris,угол,corner,角,full,basic-39-prompt-06,basic-39-prompt-01 basic-39-prompt-03 basic-39-prompt-05,Keep,,true,true,active
+vocab-0387,square,laukums,площадь,square,広場,full,basic-39-prompt-07,basic-39-prompt-02 basic-39-prompt-04 basic-39-prompt-06,Keep,,true,true,active
+vocab-0388,centre,centrs,центр,centre,中心,full,basic-39-prompt-08,basic-39-prompt-03 basic-39-prompt-05 basic-39-prompt-07,Keep,,true,true,active
+vocab-0389,address,adrese,адрес,address,住所,full,basic-39-prompt-09,basic-39-prompt-04 basic-39-prompt-06 basic-39-prompt-08,Keep,,true,true,active
+vocab-0390,city map,pilsētas karte,карта города,city map,市街地図,full,basic-39-prompt-10,basic-39-prompt-05 basic-39-prompt-07 basic-39-prompt-09,Keep,,true,true,active
+vocab-0391,schoolbag,skolas soma,школьный рюкзак,schoolbag,通学かばん,full kids,basic-40-prompt-01 focused-k08,basic-40-prompt-06 basic-40-prompt-08 basic-40-prompt-10 focused-a01 focused-a10,Clarify,F059,true,true,active
+vocab-0392,ruler,lineāls,линейка,ruler,定規,full,basic-40-prompt-02,basic-40-prompt-01 basic-40-prompt-07 basic-40-prompt-09,Keep,,true,true,active
+vocab-0393,eraser,dzēšgumija,ластик,eraser,消しゴム,full,basic-40-prompt-03,basic-40-prompt-02 basic-40-prompt-08 basic-40-prompt-10,Keep,,true,true,active
+vocab-0394,scissors,šķēres,ножницы,scissors,はさみ,full,basic-40-prompt-04,basic-40-prompt-01 basic-40-prompt-03 basic-40-prompt-09,Keep,,true,true,active
+vocab-0395,glue,līme,клей,glue,のり,full,basic-40-prompt-05,basic-40-prompt-02 basic-40-prompt-04 basic-40-prompt-10,Keep,,true,true,active
+vocab-0396,paper,papīrs,бумага,paper,紙,full,basic-40-prompt-06,basic-40-prompt-01 basic-40-prompt-03 basic-40-prompt-05,Keep,,true,true,active
+vocab-0397,paint,krāsa,краска,paint,絵の具,full,basic-40-prompt-07,basic-40-prompt-02 basic-40-prompt-04 basic-40-prompt-06,Keep,,true,true,active
+vocab-0398,brush,ota,кисть,brush,筆,full,basic-40-prompt-08,basic-40-prompt-03 basic-40-prompt-05 basic-40-prompt-07,Replace,F044 F076,true,true,active
+vocab-0399,drawing,zīmējums,рисунок,drawing,絵,full,basic-40-prompt-09,basic-40-prompt-04 basic-40-prompt-06 basic-40-prompt-08,Keep,,true,true,active
+vocab-0400,homework,mājasdarbs,домашнее задание,homework,宿題,full,basic-40-prompt-10,basic-40-prompt-05 basic-40-prompt-07 basic-40-prompt-09,Keep,,true,true,active
+vocab-0401,letter,burts,буква,letter,文字,full,basic-41-prompt-01,basic-41-prompt-06 basic-41-prompt-08 basic-41-prompt-10,Clarify,F045 F077,true,true,active
+vocab-0402,word,vārds,слово,word,単語,full,basic-41-prompt-02,basic-41-prompt-01 basic-41-prompt-07 basic-41-prompt-09,Keep,,true,true,active
+vocab-0403,phrase,frāze,фраза,phrase,語句,full,basic-41-prompt-03,basic-41-prompt-08 basic-41-prompt-10,Keep,,true,true,active
+vocab-0404,sentence,teikums,предложение,sentence,文,full,basic-41-prompt-04,basic-41-prompt-01 basic-41-prompt-09,Keep,,true,true,active
+vocab-0405,question,jautājums,вопрос,question,質問,full,basic-41-prompt-05,basic-41-prompt-02 basic-41-prompt-04 basic-41-prompt-10,Keep,,true,true,active
+vocab-0406,answer,atbilde,ответ,answer,答え,full,basic-41-prompt-06,basic-41-prompt-01 basic-41-prompt-03 basic-41-prompt-05,Keep,,true,true,active
+vocab-0407,page,lappuse,страница,page,ページ,full,basic-41-prompt-07,basic-41-prompt-02 basic-41-prompt-04 basic-41-prompt-06,Keep,,true,true,active
+vocab-0408,exercise,uzdevums,упражнение,exercise,練習問題,full,basic-41-prompt-08,basic-41-prompt-03 basic-41-prompt-05 basic-41-prompt-07,Keep,,true,true,active
+vocab-0409,example,piemērs,пример,example,例,full,basic-41-prompt-09,basic-41-prompt-02 basic-41-prompt-04 basic-41-prompt-06 basic-41-prompt-08,Keep,,true,true,active
+vocab-0410,mistake,kļūda,ошибка,mistake,間違い,full,basic-41-prompt-10,basic-41-prompt-03 basic-41-prompt-05 basic-41-prompt-07 basic-41-prompt-09,Keep,,true,true,active
+vocab-0411,to go,iet,идти,to go,行く,full,basic-42-prompt-01,basic-42-prompt-06 basic-42-prompt-08 basic-42-prompt-10,Clarify,F060,true,true,active
+vocab-0412,to come,nākt,приходить,to come,来る,full,basic-42-prompt-02,basic-42-prompt-01 basic-42-prompt-07 basic-42-prompt-09,Keep,,true,true,active
+vocab-0413,to walk,staigāt,гулять,to walk,歩く,full,basic-42-prompt-03,basic-42-prompt-02 basic-42-prompt-08 basic-42-prompt-10,Clarify,F061,true,true,active
+vocab-0414,to run,skriet,бегать,to run,走る,full,basic-42-prompt-04,basic-42-prompt-01 basic-42-prompt-03 basic-42-prompt-09,Keep,,true,true,active
+vocab-0415,to sit,sēdēt,сидеть,to sit,座る,full,basic-42-prompt-05,basic-42-prompt-02 basic-42-prompt-04 basic-42-prompt-10,Keep,,true,true,active
+vocab-0416,to stand,stāvēt,стоять,to stand,立つ,full,basic-42-prompt-06,basic-42-prompt-01 basic-42-prompt-03 basic-42-prompt-05,Keep,,true,true,active
+vocab-0417,to sleep,gulēt,спать,to sleep,寝る,full,basic-42-prompt-07,basic-42-prompt-02 basic-42-prompt-04 basic-42-prompt-06,Keep,,true,true,active
+vocab-0418,to wake up,pamosties,просыпаться,to wake up,起きる,full,basic-42-prompt-08,basic-42-prompt-03 basic-42-prompt-05 basic-42-prompt-07,Keep,,true,true,active
+vocab-0419,to eat,ēst,есть,to eat,食べる,full,basic-42-prompt-09,basic-42-prompt-04 basic-42-prompt-06 basic-42-prompt-08,Keep,,true,true,active
+vocab-0420,to drink,dzert,пить,to drink,飲む,full,basic-42-prompt-10,basic-42-prompt-05 basic-42-prompt-07 basic-42-prompt-09,Keep,,true,true,active
+vocab-0421,to speak a language,runāt valodā,говорить на языке,to speak a language,言語を話す,full,basic-43-prompt-01,basic-43-prompt-06 basic-43-prompt-08 basic-43-prompt-10,Keep,,true,true,active
+vocab-0422,to say a word,pateikt vārdu,сказать слово,to say a word,言葉を言う,full,basic-43-prompt-02,basic-43-prompt-01 basic-43-prompt-07 basic-43-prompt-09,Keep,,true,true,active
+vocab-0423,to ask,jautāt,спрашивать,to ask,尋ねる,full,basic-43-prompt-03,basic-43-prompt-02 basic-43-prompt-08 basic-43-prompt-10,Keep,,true,true,active
+vocab-0424,to answer,atbildēt,отвечать,to answer,答える,full,basic-43-prompt-04,basic-43-prompt-01 basic-43-prompt-03 basic-43-prompt-09,Keep,,true,true,active
+vocab-0425,to listen,klausīties,слушать,to listen,耳を傾ける,full,basic-43-prompt-05,basic-43-prompt-02 basic-43-prompt-04 basic-43-prompt-10,Clarify,F093,true,true,active
+vocab-0426,to hear,dzirdēt,слышать,to hear,聞こえる,full,basic-43-prompt-06,basic-43-prompt-01 basic-43-prompt-03 basic-43-prompt-05,Keep,,true,true,active
+vocab-0427,to read,lasīt,читать,to read,読む,full,basic-43-prompt-07,basic-43-prompt-02 basic-43-prompt-04 basic-43-prompt-06,Keep,,true,true,active
+vocab-0428,to write,rakstīt,писать,to write,書く,full,basic-43-prompt-08,basic-43-prompt-03 basic-43-prompt-05 basic-43-prompt-07,Keep,,true,true,active
+vocab-0429,to learn,mācīties,учиться,to learn,学ぶ,full,basic-43-prompt-09,basic-43-prompt-04 basic-43-prompt-06 basic-43-prompt-08,Keep,,true,true,active
+vocab-0430,to understand,saprast,понимать,to understand,理解する,full,basic-43-prompt-10,basic-43-prompt-05 basic-43-prompt-07 basic-43-prompt-09 basic-51-prompt-04,Keep,,true,true,active
+vocab-0431,to see,redzēt,видеть,to see,見える,full,basic-44-prompt-01,basic-44-prompt-06 basic-44-prompt-08 basic-44-prompt-10,Keep,,true,true,active
+vocab-0432,to look at,skatīties uz,смотреть на,to look at,目を向ける,full,basic-44-prompt-02,basic-44-prompt-01 basic-44-prompt-07 basic-44-prompt-09,Ambiguous choices,F016,true,true,active
+vocab-0433,to watch,vērot,наблюдать,to watch,観る,full,basic-44-prompt-03,basic-44-prompt-02 basic-44-prompt-08 basic-44-prompt-10,Clarify,F046 F062,true,true,active
+vocab-0434,to find,atrast,находить,to find,見つける,full,basic-44-prompt-04,basic-44-prompt-01 basic-44-prompt-03 basic-44-prompt-09,Keep,,true,true,active
+vocab-0435,to search,meklēt,искать,to search,探す,full,basic-44-prompt-05,basic-44-prompt-02 basic-44-prompt-04 basic-44-prompt-10,Keep,F078,true,true,active
+vocab-0436,to take,ņemt,брать,to take,取る,full,basic-44-prompt-06,basic-44-prompt-01 basic-44-prompt-03 basic-44-prompt-05,Keep,,true,true,active
+vocab-0437,to give,dot,давать,to give,与える,full,basic-44-prompt-07,basic-44-prompt-02 basic-44-prompt-04 basic-44-prompt-06,Clarify,F094,true,true,active
+vocab-0438,to bring,atnest,приносить,to bring,持ってくる,full,basic-44-prompt-08,basic-44-prompt-03 basic-44-prompt-05 basic-44-prompt-07,Keep,,true,true,active
+vocab-0439,to buy,pirkt,покупать,to buy,買う,full,basic-44-prompt-09,basic-44-prompt-04 basic-44-prompt-06 basic-44-prompt-08,Keep,,true,true,active
+vocab-0440,to pay,maksāt,платить,to pay,払う,full,basic-44-prompt-10,basic-44-prompt-05 basic-44-prompt-07 basic-44-prompt-09,Keep,,true,true,active
+vocab-0441,to open,atvērt,открывать,to open,開ける,full,basic-45-prompt-01,basic-45-prompt-06 basic-45-prompt-08 basic-45-prompt-10,Keep,,true,true,active
+vocab-0442,to close,aizvērt,закрывать,to close,閉める,full,basic-45-prompt-02,basic-45-prompt-01 basic-45-prompt-07 basic-45-prompt-09,Keep,,true,true,active
+vocab-0443,to start,sākt,начинать,to start,始める,full,basic-45-prompt-03,basic-45-prompt-02 basic-45-prompt-08 basic-45-prompt-10,Keep,,true,true,active
+vocab-0444,to finish,pabeigt,заканчивать,to finish,終える,full,basic-45-prompt-04,basic-45-prompt-01 basic-45-prompt-03 basic-45-prompt-09,Keep,,true,true,active
+vocab-0445,to wait,gaidīt,ждать,to wait,待つ,full,basic-45-prompt-05,basic-45-prompt-02 basic-45-prompt-04 basic-45-prompt-10,Keep,,true,true,active
+vocab-0446,to help,palīdzēt,помогать,to help,助ける,full,basic-45-prompt-06,basic-45-prompt-01 basic-45-prompt-03 basic-45-prompt-05,Keep,,true,true,active
+vocab-0447,to play,spēlēt,играть,to play,遊ぶ,full,basic-45-prompt-07,basic-45-prompt-02 basic-45-prompt-04 basic-45-prompt-06,Keep,,true,true,active
+vocab-0448,to work,strādāt,работать,to work,働く,full,basic-45-prompt-08,basic-45-prompt-03 basic-45-prompt-05 basic-45-prompt-07,Keep,,true,true,active
+vocab-0449,to wash,mazgāt,мыть,to wash,洗う,full,basic-45-prompt-09,basic-45-prompt-04 basic-45-prompt-06 basic-45-prompt-08,Keep,,true,true,active
+vocab-0450,to clean,tīrīt,чистить,to clean,掃除する,full,basic-45-prompt-10,basic-45-prompt-05 basic-45-prompt-07 basic-45-prompt-09,Keep,,true,true,active
+vocab-0451,big,liels,большой,big,大きい,adults full kids,basic-46-prompt-01 focused-s69,basic-46-prompt-06 basic-46-prompt-08 basic-46-prompt-10 focused-s67 focused-s68 focused-s70,Keep,,true,true,active
+vocab-0452,small,mazs,маленький,small,小さい,adults full kids,basic-46-prompt-02 focused-s70,basic-46-prompt-01 basic-46-prompt-07 basic-46-prompt-09 focused-s67 focused-s68 focused-s69,Keep,,true,true,active
+vocab-0453,long,garš,длинный,long,長い,full,basic-46-prompt-03,basic-46-prompt-02 basic-46-prompt-08 basic-46-prompt-10,Keep,,true,true,active
+vocab-0454,short,īss,короткий,short,短い,full,basic-46-prompt-04,basic-46-prompt-01 basic-46-prompt-03 basic-46-prompt-09,Keep,,true,true,active
+vocab-0455,wide,plats,широкий,wide,広い,full,basic-46-prompt-05,basic-46-prompt-02 basic-46-prompt-04 basic-46-prompt-10,Keep,,true,true,active
+vocab-0456,narrow,šaurs,узкий,narrow,狭い,full,basic-46-prompt-06,basic-46-prompt-01 basic-46-prompt-03 basic-46-prompt-05,Keep,,true,true,active
+vocab-0457,high,augsts,высокий,high,高い,full,basic-46-prompt-07,basic-46-prompt-02 basic-46-prompt-04 basic-46-prompt-06,Keep,,true,true,active
+vocab-0458,low,zems,низкий,low,低い,full,basic-46-prompt-08,basic-46-prompt-03 basic-46-prompt-05 basic-46-prompt-07,Keep,,true,true,active
+vocab-0459,heavy,smags,тяжёлый,heavy,重い,full,basic-46-prompt-09,basic-46-prompt-04 basic-46-prompt-06 basic-46-prompt-08,Keep,,true,true,active
+vocab-0460,light,viegls,лёгкий,light,軽い,full,basic-46-prompt-10,basic-46-prompt-05 basic-46-prompt-07 basic-46-prompt-09,Keep,,true,true,active
+vocab-0461,good,labs,хороший,good,良い,adults full kids,basic-47-prompt-01 focused-s67,basic-47-prompt-06 basic-47-prompt-08 basic-47-prompt-10 focused-s68 focused-s69 focused-s70,Keep,,true,true,active
+vocab-0462,bad,slikts,плохой,bad,悪い,adults full kids,basic-47-prompt-02 focused-s68,basic-47-prompt-01 basic-47-prompt-07 basic-47-prompt-09 focused-s67 focused-s69 focused-s70,Keep,,true,true,active
+vocab-0463,new,jauns,новый,new,新しい,full,basic-47-prompt-03,basic-47-prompt-02 basic-47-prompt-08 basic-47-prompt-10,Keep,,true,true,active
+vocab-0464,old,vecs,старый,old,古い,full,basic-47-prompt-04,basic-47-prompt-01 basic-47-prompt-03 basic-47-prompt-09,Keep,,true,true,active
+vocab-0465,clean,tīrs,чистый,clean,きれい,full,basic-47-prompt-05,basic-47-prompt-02 basic-47-prompt-04 basic-47-prompt-10,Keep,,true,true,active
+vocab-0466,dirty,netīrs,грязный,dirty,汚い,full,basic-47-prompt-06,basic-47-prompt-01 basic-47-prompt-03 basic-47-prompt-05,Keep,,true,true,active
+vocab-0467,hot,karsts,горячий,hot,熱い,full,basic-47-prompt-07,basic-47-prompt-02 basic-47-prompt-04 basic-47-prompt-06,Clarify,F087,true,true,active
+vocab-0468,cold,auksts,холодный,cold,冷たい,full,basic-47-prompt-08,basic-47-prompt-03 basic-47-prompt-05 basic-47-prompt-07,Clarify,F088,true,true,active
+vocab-0469,warm,silts,тёплый,warm,暖かい,full,basic-47-prompt-09,basic-47-prompt-04 basic-47-prompt-06 basic-47-prompt-08,Keep,,true,true,active
+vocab-0470,cool,vēss,прохладный,cool,涼しい,full,basic-47-prompt-10,basic-47-prompt-05 basic-47-prompt-07 basic-47-prompt-09,Keep,,true,true,active
+vocab-0471,red,sarkans,красный,red,赤,full,basic-48-prompt-01,basic-48-prompt-06 basic-48-prompt-08 basic-48-prompt-10,Keep,,true,true,active
+vocab-0472,blue,zils,синий,blue,青,full,basic-48-prompt-02,basic-48-prompt-01 basic-48-prompt-07 basic-48-prompt-09,Keep,,true,true,active
+vocab-0473,green,zaļš,зелёный,green,緑,full,basic-48-prompt-03,basic-48-prompt-02 basic-48-prompt-08 basic-48-prompt-10,Keep,,true,true,active
+vocab-0474,yellow,dzeltens,жёлтый,yellow,黄色,full,basic-48-prompt-04,basic-48-prompt-01 basic-48-prompt-03 basic-48-prompt-09,Keep,,true,true,active
+vocab-0475,black,melns,чёрный,black,黒,full,basic-48-prompt-05,basic-48-prompt-02 basic-48-prompt-04 basic-48-prompt-10,Keep,,true,true,active
+vocab-0476,white,balts,белый,white,白,full,basic-48-prompt-06,basic-48-prompt-01 basic-48-prompt-03 basic-48-prompt-05,Keep,,true,true,active
+vocab-0477,grey,pelēks,серый,grey,灰色,full,basic-48-prompt-07,basic-48-prompt-02 basic-48-prompt-04 basic-48-prompt-06,Keep,,true,true,active
+vocab-0478,brown,brūns,коричневый,brown,茶色,full,basic-48-prompt-08,basic-48-prompt-03 basic-48-prompt-05 basic-48-prompt-07,Keep,,true,true,active
+vocab-0479,pink,rozā,розовый,pink,ピンク,full,basic-48-prompt-09,basic-48-prompt-04 basic-48-prompt-06 basic-48-prompt-08,Keep,,true,true,active
+vocab-0480,purple,violets,фиолетовый,purple,紫,full,basic-48-prompt-10,basic-48-prompt-05 basic-48-prompt-07 basic-48-prompt-09,Keep,,true,true,active
+vocab-0481,and,un,и,and,そして,full,basic-49-prompt-01,basic-49-prompt-06 basic-49-prompt-08 basic-49-prompt-10,Keep,,true,true,active
+vocab-0482,or,vai,или,or,または,full,basic-49-prompt-02,basic-49-prompt-01 basic-49-prompt-07 basic-49-prompt-09,Keep,,true,true,active
+vocab-0483,but,bet,но,but,しかし,full,basic-49-prompt-03,basic-49-prompt-02 basic-49-prompt-08 basic-49-prompt-10,Keep,,true,true,active
+vocab-0484,because,jo,потому что,because,なぜなら,full,basic-49-prompt-04,basic-49-prompt-01 basic-49-prompt-03 basic-49-prompt-09,Keep,,true,true,active
+vocab-0485,with me,ar mani,со мной,with me,私と一緒に,full,basic-49-prompt-05,basic-49-prompt-02 basic-49-prompt-04 basic-49-prompt-10,Keep,,true,true,active
+vocab-0486,without me,bez manis,без меня,without me,私なしで,full,basic-49-prompt-06,basic-49-prompt-01 basic-49-prompt-03 basic-49-prompt-05,Keep,,true,true,active
+vocab-0487,for you,tev,для тебя,for you,あなたのために,full,basic-49-prompt-07,basic-49-prompt-02 basic-49-prompt-04 basic-49-prompt-06,Clarify,F047,true,true,active
+vocab-0488,from home,no mājām,из дома,from home,家から,full,basic-49-prompt-08,basic-49-prompt-03 basic-49-prompt-05 basic-49-prompt-07,Keep,,true,true,active
+vocab-0489,to school,uz skolu,в школу,to school,学校へ,full,basic-49-prompt-09,basic-49-prompt-04 basic-49-prompt-06 basic-49-prompt-08,Keep,,true,true,active
+vocab-0490,between us,starp mums,между нами,between us,私たちの間に,full,basic-49-prompt-10,basic-49-prompt-05 basic-49-prompt-07 basic-49-prompt-09,Keep,,true,true,active
+vocab-0491,I,es,я,I,私,full,basic-50-prompt-01,basic-50-prompt-06 basic-50-prompt-08 basic-50-prompt-10,Keep,,true,true,active
+vocab-0492,you,tu,ты,you,あなた,full,basic-50-prompt-02,basic-50-prompt-01 basic-50-prompt-07 basic-50-prompt-09,Clarify,F048 F063 F089,true,true,active
+vocab-0493,he,viņš,он,he,彼,full,basic-50-prompt-03,basic-50-prompt-02 basic-50-prompt-08 basic-50-prompt-10,Keep,,true,true,active
+vocab-0494,she,viņa,она,she,彼女,full,basic-50-prompt-04,basic-50-prompt-01 basic-50-prompt-03 basic-50-prompt-09,Keep,,true,true,active
+vocab-0495,we,mēs,мы,we,私たち,full,basic-50-prompt-05,basic-50-prompt-02 basic-50-prompt-04 basic-50-prompt-10,Keep,,true,true,active
+vocab-0496,they,viņi,они,they,彼ら,full,basic-50-prompt-06,basic-50-prompt-01 basic-50-prompt-03 basic-50-prompt-05,Keep,,true,true,active
+vocab-0497,this,šis,этот,this,これ,full,basic-50-prompt-07,basic-50-prompt-02 basic-50-prompt-04 basic-50-prompt-06,Clarify,F064,true,true,active
+vocab-0498,that,tas,тот,that,それ,full,basic-50-prompt-08,basic-50-prompt-03 basic-50-prompt-05 basic-50-prompt-07,Clarify,F065,true,true,active
+vocab-0499,everything,viss,всё,everything,すべて,full,basic-50-prompt-09,basic-50-prompt-04 basic-50-prompt-06 basic-50-prompt-08,Keep,,true,true,active
+vocab-0500,nothing,nekas,ничего,nothing,何もない,full,basic-50-prompt-10,basic-50-prompt-05 basic-50-prompt-07 basic-50-prompt-09,Keep,,true,true,active
+vocab-0501,I need help,man vajag palīdzību,мне нужна помощь,I need help,助けが必要です,adults full kids,basic-51-prompt-01 focused-s22,basic-51-prompt-02 basic-51-prompt-03 basic-51-prompt-05 basic-51-prompt-06 basic-51-prompt-10 focused-k20 focused-s76 focused-s77,Keep,,true,true,active
+vocab-0502,I need water,man vajag ūdeni,мне нужна вода,I need water,水が必要です,full,basic-51-prompt-02,basic-51-prompt-01 basic-51-prompt-03 basic-51-prompt-08 basic-51-prompt-09 basic-51-prompt-10,Keep,,true,true,active
+vocab-0503,I need a doctor,man vajag ārstu,мне нужен врач,I need a doctor,医者が必要です,adults full kids,basic-51-prompt-03 focused-s77,basic-51-prompt-01 basic-51-prompt-02 basic-51-prompt-05 basic-51-prompt-06 basic-51-prompt-10 focused-a20 focused-s12 focused-s21 focused-s22,Keep,,true,true,active
+vocab-0504,I don't understand,es nesaprotu,я не понимаю,I don't understand,分かりません,adults full kids,basic-51-prompt-04 focused-s13,focused-s29 focused-s43,Keep,,true,true,active
+vocab-0505,please call an ambulance,lūdzu izsauciet neatliekamo palīdzību,пожалуйста вызовите скорую помощь,please call an ambulance,救急車を呼んでください,adults full kids,basic-51-prompt-05 focused-s78,basic-51-prompt-06 focused-k12 focused-s71 focused-s72,Keep,,true,true,active
+vocab-0506,please call the police,lūdzu izsauciet policiju,пожалуйста вызовите полицию,please call the police,警察を呼んでください,adults full kids,basic-51-prompt-06 focused-s79,basic-51-prompt-05 focused-k12,Keep,,true,true,active
+vocab-0507,allergy,alerģija,аллергия,allergy,アレルギー,full,basic-51-prompt-07,,Keep,,true,true,active
+vocab-0508,without milk,bez piena,без молока,without milk,牛乳なしで,full,basic-51-prompt-08,basic-51-prompt-09,Keep,,true,true,active
+vocab-0509,without sugar,bez cukura,без сахара,without sugar,砂糖なしで,full,basic-51-prompt-09,basic-51-prompt-08,Keep,,true,true,active
+vocab-0510,I need medicine,man vajag zāles,мне нужно лекарство,I need medicine,薬が必要です,full,basic-51-prompt-10,basic-51-prompt-01 basic-51-prompt-02 basic-51-prompt-03 basic-51-prompt-04 basic-51-prompt-08 basic-51-prompt-09,Keep,,true,true,active
+focus-s02,Goodbye,Uz tikšanos,До встречи,See you later,じゃあ、また,,,,Retained inactive,F001,false,false,retained inactive
+focus-s07,My name is …,Mani sauc Anna,Меня зовут Анна,My name is Anna,アンナです,adults kids,focused-s07,focused-s18 focused-s26 focused-s37 focused-s73,Keep,,true,true,active
+focus-s08,What is your name?,Kā tevi sauc?,Как тебя зовут?,What is your name?,名前は何ですか,adults kids,focused-s08,focused-k18,Replace,F004,true,true,active
+focus-s09,Where are you from?,No kurienes tu esi?,Откуда ты?,Where are you from?,どこから来ましたか,adults kids,focused-s09,focused-k18 focused-k19 focused-s11,Replace,F005,true,true,active
+focus-s10,I am from …,Es esmu no Latvijas,Я из Латвии,I am from Latvia,ラトビアから来ました,adults kids,focused-s10,focused-s18 focused-s37 focused-s38 focused-s73 focused-s74,Keep,,true,true,active
+focus-s11,How are you?,Kā tev iet?,Как дела?,How are you?,元気ですか,adults kids,focused-s11,focused-k11 focused-k18 focused-k19,Replace,F006,true,true,active
+focus-s12,I am fine,Man iet labi,У меня всё хорошо,I am fine,元気です,adults kids,focused-s12,focused-s37 focused-s38 focused-s73 focused-s74 focused-s75,Keep,,true,true,active
+focus-s14,Please repeat that,"Lūdzu, atkārtojiet","Повторите, пожалуйста",Please repeat that,もう一度お願いします,adults kids,focused-s14,focused-s30 focused-s78 focused-s79,Keep,,true,true,active
+focus-s15,Please speak more slowly,"Lūdzu, runājiet lēnāk","Говорите медленнее, пожалуйста",Please speak more slowly,もっとゆっくり話してください,adults kids,focused-s15,focused-a14 focused-s20 focused-s30 focused-s40 focused-s78 focused-s79,Keep,,true,true,active
+focus-s16,What does … mean?,Ko tas nozīmē?,Что это значит?,What does this mean?,これはどういう意味ですか,adults kids,focused-s16,focused-a11 focused-k11 focused-k19 focused-s11,Keep,,true,true,active
+focus-s17,I don’t know,Es nezinu,Я не знаю,I don’t know,わかりません,adults kids,focused-s17,focused-s42,Keep,F019,true,true,active
+focus-s20,Please show me,"Lūdzu, parādiet man","Покажите мне, пожалуйста",Please show me,見せてください,adults kids,focused-s20,focused-a14 focused-s30 focused-s40 focused-s50 focused-s79,Keep,,true,true,active
+focus-s21,I want …,Es gribu ūdeni,Я хочу воды,I want water,水が欲しいです,adults kids,focused-s21,focused-s75 focused-s76 focused-s77,Keep,,true,true,active
+focus-s23,I have …,Man ir telefons,У меня есть телефон,I have a phone,電話を持っています,adults kids,focused-s23,focused-k20 focused-s77,Human review,F029,true,true,active
+focus-s24,I don’t have …,Man nav telefona,У меня нет телефона,I don’t have a phone,電話を持っていません,adults kids,focused-s24,focused-k13 focused-k20,Human review,F030,true,true,active
+focus-s25,I like …,Man garšo āboli,Я люблю яблоки,I like apples,りんごが好きです,adults kids,focused-s25,focused-k13 focused-k14,Keep,,true,true,active
+focus-s26,I don’t like …,Man negaršo piens,Я не люблю молоко,I don’t like milk,牛乳が好きではありません,adults kids,focused-s26,focused-k13 focused-k14,Keep,,true,true,active
+focus-s27,Can I …?,Vai es varu šeit apsēsties?,Можно здесь сесть?,Can I sit here?,ここに座ってもいいですか,adults kids,focused-s27,focused-a11 focused-a12 focused-a13 focused-s41,Keep,,true,true,active
+focus-s28,Can you help me?,Vai tu vari man palīdzēt?,Можешь мне помочь?,Can you help me?,手伝ってもらえますか,adults kids,focused-s28,focused-a12 focused-a13 focused-k15 focused-s41,Replace,F007,true,true,active
+focus-s29,This one,Šis,Вот этот,This one,これ,adults kids,focused-s29,focused-s13 focused-s17 focused-s42 focused-s43,Keep,F028,true,true,active
+focus-s32,Food,Ēdiens,Еда,Food,食べ物,adults kids,focused-s32,focused-s31 focused-s33 focused-s34,Keep,,true,true,active
+focus-s37,I am hungry,Es gribu ēst,Я хочу есть,I am hungry,お腹がすきました,adults kids,focused-s37,focused-k14 focused-k16,Keep,F031,true,true,active
+focus-s38,I am thirsty,Es gribu dzert,Я хочу пить,I am thirsty,喉が渇きました,adults kids,focused-s38,focused-k16,Keep,,true,true,active
+focus-s39,"More, please","Vēl, lūdzu","Ещё, пожалуйста","More, please",もう少しお願いします,adults kids,focused-s39,focused-a16 focused-s20 focused-s40 focused-s50,Keep,,true,true,active
+focus-s40,"Enough, thank you","Pietiek, paldies","Хватит, спасибо","Enough, thank you",もう十分です,adults kids,focused-s40,focused-a16 focused-s14,Keep,,true,true,active
+focus-s41,Where is …?,Kur ir tualete?,Где туалет?,Where is the toilet?,トイレはどこですか,adults kids,focused-s41,focused-a13 focused-a15 focused-k15 focused-s16,Keep,,true,true,active
+focus-s49,Let’s go,Ejam,Пойдём,Let’s go,行きましょう,adults kids,focused-s49,focused-s14 focused-s15,Keep,,true,true,active
+focus-s50,Please wait,"Lūdzu, uzgaidiet","Подождите, пожалуйста",Please wait,少し待ってください,adults kids,focused-s50,focused-s14 focused-s15 focused-s71 focused-s72,Keep,,true,true,active
+focus-s65,What time is it?,Cik ir pulkstenis?,Который час?,What time is it?,今何時ですか,adults kids,focused-s65,focused-a15 focused-k15 focused-s08 focused-s16,Keep,,true,true,active
+focus-s66,What time shall we meet?,Cikos tiekamies?,Во сколько встретимся?,What time shall we meet?,何時に会いましょうか,adults kids,focused-s66,focused-a15 focused-a17 focused-s08 focused-s09 focused-s16 focused-s27,Keep,,true,true,active
+focus-s71,Help!,Palīgā,Помогите,Help!,助けて,adults kids,focused-s71,focused-s15 focused-s72,Keep,F032,true,true,active
+focus-s72,Stop!,Pārtrauciet,Прекратите,Stop!,やめてください,adults kids,focused-s72,focused-k12 focused-s71,Clarify,F010,true,true,active
+focus-s73,I don’t want that,Es to negribu,Я этого не хочу,I don’t want that,それは欲しくないです,adults kids,focused-s73,focused-k16,Keep,,true,true,active
+focus-s74,I am lost,Es nevaru atrast ceļu,Я не могу найти дорогу,I am lost,道に迷いました,adults kids,focused-s74,focused-s10,Human review,F012,true,true,active
+focus-s75,I am hurt,Es savainojos,У меня травма,I am hurt,けがをしました,adults kids,focused-s75,focused-s10,Clarify,F011,true,true,active
+focus-s76,I feel unwell,Es jūtos slikti,Я плохо себя чувствую,I feel unwell,具合が悪いです,adults kids,focused-s76,focused-s10 focused-s12 focused-s21,Keep,,true,true,active
+focus-k02,Mother,Mamma,Мама,Mum,お母さん,kids,focused-k02,focused-k06 focused-k07 focused-k08,Human review,F020,true,true,active
+focus-k03,Father,Tētis,Папа,Dad,お父さん,kids,focused-k03,focused-k07 focused-k08 focused-k09,Human review,F021,true,true,active
+focus-k11,Can I play?,Vai es varu spēlēt?,Можно поиграть?,Can I play?,遊んでもいいですか,kids,focused-k11,focused-a17 focused-a18 focused-s08 focused-s09 focused-s19 focused-s27 focused-s28,Human review,F035,true,true,active
+focus-k12,Let’s play,Spēlēsim,Давай поиграем,Let’s play,遊ぼう,kids,focused-k12,focused-k17 focused-s39,Clarify,F022,true,true,active
+focus-k13,It is my turn,Mana kārta,Моя очередь,It is my turn,私の番です,kids,focused-k13,focused-a20 focused-s12 focused-s21 focused-s22 focused-s23,Keep,,true,true,active
+focus-k14,It is your turn,Tava kārta,Твоя очередь,It is your turn,あなたの番です,kids,focused-k14,focused-a20 focused-s22 focused-s23 focused-s24,Clarify,F023,true,true,active
+focus-k15,Can I join you?,Vai es varu pievienoties?,Можно с вами?,Can I join you?,一緒に遊んでもいいですか,kids,focused-k15,focused-a17 focused-a18 focused-a19 focused-s09 focused-s19 focused-s27 focused-s28 focused-s65,Clarify,F025,true,true,active
+focus-k16,I need a break,Man vajag pārtraukumu,Мне нужен перерыв,I need a break,少し休みたいです,kids,focused-k16,focused-s07 focused-s23 focused-s24 focused-s25,Keep,,true,true,active
+focus-k17,Wait for me,Pagaidi mani,Подожди меня,Wait for me,待って,kids,focused-k17,focused-s39 focused-s49,Clarify,F024,true,true,active
+focus-k18,Can I borrow …?,Vai varu aizņemties pildspalvu?,Можно взять ручку на время?,Can I borrow a pen?,ペンを借りてもいいですか,kids,focused-k18,focused-a18 focused-a19 focused-s19 focused-s28 focused-s65 focused-s66,Keep,,true,true,active
+focus-k19,How do I do this?,Kā to izdarīt?,Как это сделать?,How do I do this?,これはどうやりますか,kids,focused-k19,focused-a19 focused-s65 focused-s66,Keep,,true,true,active
+focus-k20,I can’t find my …,Es nevaru atrast savu somu,Я не могу найти свой рюкзак,I can’t find my schoolbag,かばんが見つかりません,kids,focused-k20,focused-s07 focused-s24 focused-s25 focused-s26,Clarify,F008,true,true,active
+focus-a03,Card,Maksājumu karte,Банковская карта,Payment card,クレジットカード,adults,focused-a03,focused-a05 focused-a06 focused-a07 focused-s47 focused-s80,Reuse,F009,true,true,active
+focus-a04,Cash,Skaidra nauda,Наличные,Cash,現金,adults,focused-a04,focused-a06 focused-a07 focused-a08 focused-s47,Keep,,true,true,active
+focus-a11,How much does this cost?,Cik tas maksā?,Сколько это стоит?,How much does this cost?,これはいくらですか,adults,focused-a11,focused-s66,Keep,,true,true,active
+focus-a12,Can I try it?,Vai es varu to izmēģināt?,Можно попробовать?,Can I try it?,試してもいいですか,adults,focused-a12,,Keep,F026,true,true,active
+focus-a13,Can I pay by card?,Vai var maksāt ar karti?,Можно оплатить картой?,Can I pay by card?,カードで払えますか,adults,focused-a13,,Keep,,true,true,active
+focus-a14,"The bill, please","Rēķinu, lūdzu","Счёт, пожалуйста","The bill, please",お会計をお願いします,adults,focused-a14,focused-k17 focused-s39 focused-s49,Keep,,true,true,active
+focus-a15,Where is the bus stop?,Kur ir autobusa pietura?,Где автобусная остановка?,Where is the bus stop?,バス停はどこですか,adults,focused-a15,,Keep,,true,true,active
+focus-a16,"One ticket to …, please","Vienu biļeti uz centru, lūdzu","Один билет до центра, пожалуйста","One ticket to the centre, please",中心部までの切符を一枚お願いします,adults,focused-a16,focused-k17 focused-s49 focused-s78,Keep,,true,true,active
+focus-a17,Does this go to …?,Vai tas brauc uz centru?,Это едет до центра?,Does this go to the centre?,これは中心部に行きますか,adults,focused-a17,,Keep,F027,true,true,active
+focus-a18,What time does it leave?,Cikos tas atiet?,Во сколько отправляется?,What time does it leave?,何時に出発しますか,adults,focused-a18,,Keep,,true,true,active
+focus-a19,Where can I buy …?,Kur var nopirkt biļeti?,Где можно купить билет?,Where can I buy a ticket?,切符はどこで買えますか,adults,focused-a19,,Keep,,true,true,active
+focus-a20,I work in …,Es strādāju veikalā,Я работаю в магазине,I work in a shop,店で働いています,adults,focused-a20,focused-s07 focused-s18 focused-s25 focused-s26,Keep,,true,true,active
+focus-s18-lv,I speak a little Latvian,Es mazliet runāju latviski,Я немного говорю по-латышски,I speak a little Latvian,ラトビア語を少し話せます,adults kids,focused-s18,focused-s38 focused-s74 focused-s75 focused-s76,Keep,,true,true,active
+focus-s19-lv,Do you speak Latvian?,Vai jūs runājat latviski?,Вы говорите по-латышски?,Do you speak Latvian?,ラトビア語を話せますか,adults kids,focused-s19,focused-a11 focused-a12 focused-k11 focused-s11 focused-s41,Keep,,true,true,active
+focus-s18-ru,I speak a little Russian,Es mazliet runāju krieviski,Я немного говорю по-русски,I speak a little Russian,ロシア語を少し話せます,adults kids,focused-s18,focused-s38 focused-s74 focused-s75 focused-s76,Keep,,true,true,active
+focus-s19-ru,Do you speak Russian?,Vai jūs runājat krieviski?,Вы говорите по-русски?,Do you speak Russian?,ロシア語を話せますか,adults kids,focused-s19,focused-a11 focused-a12 focused-k11 focused-s11 focused-s41,Keep,,true,true,active
+focus-s18-en,I speak a little English,Es mazliet runāju angliski,Я немного говорю по-английски,I speak a little English,英語を少し話せます,adults kids,focused-s18,focused-s38 focused-s74 focused-s75 focused-s76,Keep,,true,true,active
+focus-s19-en,Do you speak English?,Vai jūs runājat angliski?,Вы говорите по-английски?,Do you speak English?,英語を話せますか,adults kids,focused-s19,focused-a11 focused-a12 focused-k11 focused-s11 focused-s41,Keep,,true,true,active
+focus-s18-ja,I speak a little Japanese,Es mazliet runāju japāniski,Я немного говорю по-японски,I speak a little Japanese,日本語を少し話せます,adults kids,focused-s18,focused-s38 focused-s74 focused-s75 focused-s76,Keep,,true,true,active

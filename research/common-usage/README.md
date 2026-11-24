@@ -1,5 +1,7 @@
 # Common-usage audit — 2026-11-23
 
+**Latest current-source view:** [2026-11-24 reconciliation and proposed F002–F007 batch](2026-11-24-reconciled/README.md). The older audit below is historical; current inventory includes focused courses and released F001/F014/F015 fixes.
+
 **L-011: editorial audit completed; owner decisions and fluent-human review pending. No active translation, recording, binding or application change.**
 
 **Follow-up:** The first owner-approved correction slice (Japanese0001 and six distractor pairs) is tracked in [the current checkpoint](../../docs/WORK_CHECKPOINT.md). This audit remains an unchanged historical snapshot; do not interpret its input hashes or all recommendations as current course state.

@@ -12,7 +12,9 @@ Source098d11a6a909541723a2b9a262881e7f04f856a8, [PR #44](https://github.com/jani
 
 ## Exact next bounded work — L-011
 
-Do not repeat completed F001/F014/F015 or treat the whole audit as implemented. Use existing ownerpolicy/research and heldPR43(headb04732f) shortlist to prepare/apply the next approved common/politely-safe shared defaults(F002–F007),then resolve separate safety/object/meaning and fluent-review decisions. Identify exact IDs/wording/shared-course impacts and synchronize any affected audio/guides;no broad blind rewrite,frequency claims or unreviewed synonym expansion. Preserve all current features and zero saves. [First implementation notes](../research/common-usage/2026-11-24-implementation-01.md). ResearchPR43 remains held/unmerged;do not merge its old checkpoint over this handoff.
+**Research handoff:** [PR #46](https://github.com/janisp123/language-learning-app/pull/46), branch `research/current-audit-f002-f007`, research-data commit `cd85fb4`. Pushed/open, not merged. Local reconciliation/proposal/protocol/whitespace checks and independent review passed; [verification record](../research/common-usage/2026-11-24-reconciled/verification.json). Check PR GitHub results separately. No app release.
+
+**PREPARED, application unchanged:** [Current-source reconciliation and F002–F007 proposal](../research/common-usage/2026-11-24-reconciled/README.md) checks all4970 presentations/2308 audio bindings against main a5a4086. F001/F014/F015 remain live0.5.6. Next bounded action: owner review of ten exact text cells (142 presentations,nine new recordings/one verified reuse); F004 Japanese is deferred separately. No proposed text/audio/guide edits are implemented or published. Keep L-011 current; do not resume L-010 or merge held PR43/21 automatically. Remaining11 confirmed/58 review findings are not automatically approved. Research-only check commands and exact dependency handoff are in the linked package.
 
 ## Latest verified delivery — L-017
 

@@ -1,0 +1,64 @@
+{
+  "retrievalDate": "2026-11-24",
+  "scope": "Research/preparation only; no content/audio/app edits or fluent certification",
+  "findings": [
+    {
+      "key": "F002",
+      "id": "vocab-0004",
+      "language": "ja",
+      "current": "ありがとう",
+      "proposed": "ありがとうございます",
+      "recommendation": "Include as proposed wording for owner approval, with matching Japanese recording/manifest/held-guide dependencies. Do not claim it is implemented.",
+      "evidence": [
+        {
+          "publisher": "The Japan Foundation",
+          "title": "Irodori Japanese for Life in Japan, Starter, Lesson 1",
+          "url": "https://www.irodori.jpf.go.jp/assets/data/starter/pdf/X_L01.pdf",
+          "section": "3. ありがとうございます; exercise 2 お礼を言ったり、謝ったりしましょう (lesson page L1-8; excerpt positioned after L1-7 and before L1-9); transcript L1-12, 01-18",
+          "quote": "どうぞ。 / ありがとうございます。",
+          "englishInstructionQuote": "Say thank you and / or apologize.",
+          "transcriptQuote": "Ａ：ありがとうございます。",
+          "method": "Firecrawl scrape, PDF parser; status 200, 18/18 pages"
+        },
+        {
+          "publisher": "The Japan Foundation",
+          "url": "https://www.irodori.jpf.go.jp/assets/data/starter/pdf/X_L01.pdf",
+          "section": "Japanese life TIPS, L1-18, すみません",
+          "quote": "It may be difficult to understand when to use sumimasen and when to use arigatoo (gozaimasu), but it is not rude to say arigatoo (gozaimasu) instead of sumimasen. So, when you say thanks to someone, it is acceptable to just say arigatoo (gozaimasu) every time."
+        }
+      ],
+      "directEvidence": "Exact ありがとうございます is taught as a beginner thanks expression, including a model practice exchange and transcript. The lesson also teaches (どうも)ありがとう; it does not establish frequency rankings.",
+      "editorialChoice": "Selecting ありがとうございます as the shared default for an unspecified adult addressee follows the owner's polite-safe rule. The retrieved textual excerpts do not explicitly label the two thanks forms with stranger/familiar classifications; do not describe that exact classification as a quotation from this source.",
+      "uncertainty": "No fluent/native review or audio listening performed. Current ありがとう is valid Japanese, not an inherently incorrect translation."
+    },
+    {
+      "key": "F004",
+      "id": "focus-s08",
+      "language": "ja",
+      "current": "名前は何ですか",
+      "proposedInPriorAudit": "お名前は何ですか",
+      "recommendedDisposition": "Defer Japanese cell pending fluent review/owner choice; LV/RU changes may proceed independently when approved. Keep current Japanese wording and clip in the prepared primary batch.",
+      "sourceAttestedAlternative": "お名前は？",
+      "evidence": [
+        {
+          "publisher": "The Japan Foundation",
+          "title": "Irodori Japanese for Life in Japan, Starter, Lesson 3",
+          "url": "https://www.irodori.jpf.go.jp/assets/data/starter/pdf/X_L03.pdf",
+          "section": "Grammar Notes ③ Nは？, L3-15",
+          "quote": "You can add お or ご before a noun to ask more politely. For example, お名前は？ or ご出身は？.",
+          "japaneseQuote": "「お名前は？」「ご出身は？」のように、名詞の前に「お／ご」をつけると、丁寧な言い方になります。",
+          "questionQuote": "お名前は？ / What’s your name?",
+          "contextQuote": "This expression is used to ask about a topic. In this lesson, it is used to ask a person’s name and where they are from.",
+          "method": "Firecrawl scrape, PDF parser; status 200, 20/20 pages"
+        }
+      ],
+      "directEvidence": "The exact shorter form お名前は？ is explicitly taught, translated, and explained as polite. The lesson introduces asking names/countries when meeting for the first time; no direct attestation of お名前は何ですか was found in this retrieved source.",
+      "editorialChoice": "The source supports considering お名前は？; it does not by itself validate the prior audit's expanded proposed sentence or certify adult-facing naturalness across contexts.",
+      "uncertainty": "No claim that current 名前は何ですか is universally wrong, or that お名前は何ですか is invalid. Exact selection remains deferred."
+    }
+  ],
+  "limitations": [
+    "Textual source evidence; no native-speaker signoff, frequency ranking or pronunciation listening.",
+    "Choosing a shared default is an editorial recommendation under owner policy."
+  ]
+}
