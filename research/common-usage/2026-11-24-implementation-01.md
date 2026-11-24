@@ -20,3 +20,7 @@ After the explicit Japanese-context question,Owner chose the existing Full-cours
 No translation or MP3 is rewritten. Full remains unchanged except the two documented distractor lists. Existingfocus-s02 definitions/recordings remain preserved but are no longer selected by active courses. Focused catalog/audio metadata advancefocused-0.1.0→focused-0.1.1. The approved default is not a claim that all Japanese departures useさようなら;the remaining fluent-human review status stays explicit. Existing heldvocab-0002 guide data can be reused later only through verifiedL-010 integration.
 
 Other register,safety/object meanings and fluent-review decisions remain pending. This document does not mark the full audit implemented or merge held research.
+
+## Delivery
+
+Implemented and publicly deployed in0.5.6,PR #44. [Verified live receipt](../../docs/delivery/2026-11-24-first-audit-pause-live.json).63Node/42Python and independent review passed;actual published files match tested source. Remaining findings stay under review.
