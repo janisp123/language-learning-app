@@ -36,3 +36,7 @@ Source is pushed/tested before publication. See checkpoint and subsequent delive
 ## Reading-guide dependency and remaining work
 
 PR21 remains held/unmerged, with no live reading guides; no guide files are present on main to silently mismatch. Before L-010 integration, update held JA0004 segments forありがとうございます, held LV→RU0005 forизвините (existing0266 guide segments can be reused), author missing focused Russian S08/S09/S28 forms, and reconcile the previously stale Japanese hello. RU→EN apology's English target guide remains `sorry`. Only lv-ru/ru-en/en-ja annotation directions are authorized. Retain all remaining L-011 meaning/safety/fluent decisions separately; do not mark the entire audit or F004 Japanese complete.
+
+## Verified delivery
+
+Implemented,pushed,merged and publicly deployed as0.5.7 via [PR47](https://github.com/janisp123/language-learning-app/pull/47). Source/main checks and Pages succeeded;actual app/landing/offline HTTPS downloads match tested bytes. [Exact live receipt](../../docs/delivery/2026-11-24-polite-defaults-live.json). Drive review unchanged. Remaining meaning/fluent decisions and F004 Japanese are separate.

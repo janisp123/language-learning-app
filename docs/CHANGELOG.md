@@ -2,7 +2,7 @@
 
 ## 0.5.7 — approved shared polite defaults (codex,2026-11-24)
 
-Owner-approved F002–F007 ten-cell batch updates Japanese thanks and seven focused LV/RU polite-address forms plus LV/RU apology. Nine scoped recordings authored;Russian apology reuses existingизвините bytes.142 directed course presentations updated through shared IDs;all other translations/audio,question/answer bindings,courses,seven directions,scoring,full correct playback+1000ms,reports,dark default and zero saves preserved. [Exact edits/verification/dependencies](../research/common-usage/2026-11-24-implementation-02.md). Japanese name wording and held guide integration remain separate. Publication status is recorded in the checkpoint/delivery receipt, not implied by this entry.
+Owner-approved F002–F007 ten-cell batch updates Japanese thanks and seven focused LV/RU polite-address forms plus LV/RU apology. Nine scoped recordings authored;Russian apology reuses existingизвините bytes.142 directed course presentations updated through shared IDs;all other translations/audio,question/answer bindings,courses,seven directions,scoring,full correct playback+1000ms,reports,dark default and zero saves preserved. [Exact edits/verification/dependencies](../research/common-usage/2026-11-24-implementation-02.md). Japanese name wording and held guide integration remain separate. Verified64 Node/43 Python,native audio cases and independent review;PR47 merged/deployed with [actual hosted-byte receipt](delivery/2026-11-24-polite-defaults-live.json).
 
 ## 2026-11-24 — L-011 research reconciliation and correction preparation (codex)
 
