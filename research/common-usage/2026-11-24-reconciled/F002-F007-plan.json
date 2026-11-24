@@ -1,0 +1,2899 @@
+{
+  "base": "a5a40869c7af31d63e1230e5260030a6c61516d9",
+  "heldGuideHead": "72e6ab4c106c6ee7c48703af025919c81d5c3b55",
+  "presentationCount": 4970,
+  "audioEntryCount": 2308,
+  "unionChangedPresentations": 142,
+  "byFinding": {
+    "F002": {
+      "unionPresentations": 12,
+      "countsByReplacement": [
+        {
+          "language": "ja",
+          "source": 0,
+          "correct": 3,
+          "wrong": 9
+        }
+      ]
+    },
+    "F003": {
+      "unionPresentations": 54,
+      "countsByReplacement": [
+        {
+          "language": "lv",
+          "source": 6,
+          "correct": 6,
+          "wrong": 18
+        },
+        {
+          "language": "ru",
+          "source": 6,
+          "correct": 6,
+          "wrong": 18
+        }
+      ]
+    },
+    "F004": {
+      "unionPresentations": 16,
+      "countsByReplacement": [
+        {
+          "language": "lv",
+          "source": 4,
+          "correct": 4,
+          "wrong": 2
+        },
+        {
+          "language": "ru",
+          "source": 4,
+          "correct": 4,
+          "wrong": 2
+        }
+      ]
+    },
+    "F005": {
+      "unionPresentations": 28,
+      "countsByReplacement": [
+        {
+          "language": "lv",
+          "source": 4,
+          "correct": 4,
+          "wrong": 8
+        },
+        {
+          "language": "ru",
+          "source": 4,
+          "correct": 4,
+          "wrong": 8
+        }
+      ]
+    },
+    "F006": {
+      "unionPresentations": 14,
+      "countsByReplacement": [
+        {
+          "language": "lv",
+          "source": 4,
+          "correct": 4,
+          "wrong": 6
+        }
+      ]
+    },
+    "F007": {
+      "unionPresentations": 32,
+      "countsByReplacement": [
+        {
+          "language": "lv",
+          "source": 4,
+          "correct": 4,
+          "wrong": 10
+        },
+        {
+          "language": "ru",
+          "source": 4,
+          "correct": 4,
+          "wrong": 10
+        }
+      ]
+    }
+  },
+  "entries": [
+    {
+      "finding": "F002",
+      "id": "vocab-0004",
+      "language": "ja",
+      "current": "ありがとう",
+      "proposed": "ありがとうございます",
+      "sourceFile": "content/languages/ja.json",
+      "sourceKey": "translations.vocab-0004.text",
+      "clip": "audio/ja/vocab-0004.mp3",
+      "sha256": "953e3c2191afbbb9e68be471e0a26632a4e915bbceb417b10cd61f1ec7e558bb",
+      "hashVerified": true,
+      "manifest": "content/audio/manifest.json",
+      "manifestKey": "clips.ja.vocab-0004",
+      "manifestRecord": {
+        "text": "ありがとう",
+        "file": "audio/ja/vocab-0004.mp3",
+        "sha256": "953e3c2191afbbb9e68be471e0a26632a4e915bbceb417b10cd61f1ec7e558bb",
+        "provider": "gtts"
+      },
+      "exactReuseCandidates": [],
+      "affected": {
+        "source": [],
+        "correct": [
+          {
+            "preset": "full",
+            "courseId": "basic-vocabulary-10-17",
+            "lessonId": "basic-01",
+            "promptId": "basic-01-prompt-04",
+            "direction": "en-ja",
+            "conceptId": "vocab-0004",
+            "questionFile": "content/blocks/basic-01.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-en-ja",
+            "lessonId": "shared-01",
+            "promptId": "focused-s03",
+            "direction": "en-ja",
+            "conceptId": "vocab-0004",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-en-ja",
+            "lessonId": "shared-01",
+            "promptId": "focused-s03",
+            "direction": "en-ja",
+            "conceptId": "vocab-0004",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          }
+        ],
+        "wrong": [
+          {
+            "preset": "full",
+            "courseId": "basic-vocabulary-10-17",
+            "lessonId": "basic-01",
+            "promptId": "basic-01-prompt-01",
+            "direction": "en-ja",
+            "conceptId": "vocab-0001",
+            "questionFile": "content/blocks/basic-01.json"
+          },
+          {
+            "preset": "full",
+            "courseId": "basic-vocabulary-10-17",
+            "lessonId": "basic-01",
+            "promptId": "basic-01-prompt-03",
+            "direction": "en-ja",
+            "conceptId": "vocab-0003",
+            "questionFile": "content/blocks/basic-01.json"
+          },
+          {
+            "preset": "full",
+            "courseId": "basic-vocabulary-10-17",
+            "lessonId": "basic-01",
+            "promptId": "basic-01-prompt-09",
+            "direction": "en-ja",
+            "conceptId": "vocab-0009",
+            "questionFile": "content/blocks/basic-01.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-en-ja",
+            "lessonId": "shared-01",
+            "promptId": "focused-s01",
+            "direction": "en-ja",
+            "conceptId": "vocab-0001",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-en-ja",
+            "lessonId": "shared-01",
+            "promptId": "focused-s02",
+            "direction": "en-ja",
+            "conceptId": "vocab-0002",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-en-ja",
+            "lessonId": "shared-01",
+            "promptId": "focused-s06",
+            "direction": "en-ja",
+            "conceptId": "vocab-0007",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-en-ja",
+            "lessonId": "shared-01",
+            "promptId": "focused-s01",
+            "direction": "en-ja",
+            "conceptId": "vocab-0001",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-en-ja",
+            "lessonId": "shared-01",
+            "promptId": "focused-s02",
+            "direction": "en-ja",
+            "conceptId": "vocab-0002",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-en-ja",
+            "lessonId": "shared-01",
+            "promptId": "focused-s06",
+            "direction": "en-ja",
+            "conceptId": "vocab-0007",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          }
+        ]
+      },
+      "counts": {
+        "source": 0,
+        "correct": 3,
+        "wrong": 9
+      },
+      "guide": [
+        {
+          "direction": "lv-ru",
+          "file": "content/readings/lv-ru/basic-01.json",
+          "key": "entries.vocab-0004",
+          "entry": {
+            "text": "спасибо",
+            "segments": [
+              {
+                "text": "спасибо",
+                "reading": "spasibo"
+              }
+            ]
+          },
+          "targetChanged": false,
+          "sourceOnlyChanged": false,
+          "proposedTargetText": "спасибо"
+        },
+        {
+          "direction": "ru-en",
+          "file": "content/readings/ru-en/basic-01.json",
+          "key": "entries.vocab-0004",
+          "entry": {
+            "text": "thank you",
+            "segments": [
+              {
+                "text": "thank you",
+                "reading": "сэнк ю"
+              }
+            ]
+          },
+          "targetChanged": false,
+          "sourceOnlyChanged": false,
+          "proposedTargetText": "thank you"
+        },
+        {
+          "direction": "en-ja",
+          "file": "content/readings/en-ja/basic-01.json",
+          "key": "entries.vocab-0004",
+          "entry": {
+            "text": "ありがとう",
+            "segments": [
+              {
+                "text": "あ",
+                "reading": "a"
+              },
+              {
+                "text": "り",
+                "reading": "ri"
+              },
+              {
+                "text": "が",
+                "reading": "ga"
+              },
+              {
+                "text": "と",
+                "reading": "to"
+              },
+              {
+                "text": "う",
+                "reading": "u"
+              }
+            ]
+          },
+          "targetChanged": true,
+          "sourceOnlyChanged": false,
+          "proposedTargetText": "ありがとうございます"
+        }
+      ],
+      "otherLanguageClips": [
+        {
+          "language": "lv",
+          "manifest": "content/audio/manifest.json",
+          "text": "paldies",
+          "file": "audio/lv/vocab-0004.mp3",
+          "sha256": "32efbeb324b11e24586dbc691dab4c516121e48bf84c99b1b856a65577f9ba09"
+        },
+        {
+          "language": "ru",
+          "manifest": "content/audio/manifest.json",
+          "text": "спасибо",
+          "file": "audio/ru/vocab-0004.mp3",
+          "sha256": "0cc5102554635dba98489e889aa885ac7da2605b2cdd3dab62a0b7d7baeffb56"
+        },
+        {
+          "language": "en",
+          "manifest": "content/audio/manifest.json",
+          "text": "thank you",
+          "file": "audio/en/vocab-0004.mp3",
+          "sha256": "7a36c15ed738fe3b8d2d1b4520400ddd2b1c7bf51631a7ec7eec5308ee54e6c6",
+          "source": "Flite cmu_us_slt; offline synthesis",
+          "provider": "flite-slt"
+        }
+      ],
+      "proposedFormOtherConcepts": [],
+      "unchangedLanguageClipsRetainedNote": "Per-entry list is contextual: omit another clip from retention if another approved entry in this batch changes that same concept/language."
+    },
+    {
+      "finding": "F003",
+      "id": "vocab-0005",
+      "language": "lv",
+      "current": "piedod",
+      "proposed": "piedodiet",
+      "sourceFile": "content/languages/lv.json",
+      "sourceKey": "translations.vocab-0005.text",
+      "clip": "audio/lv/vocab-0005.mp3",
+      "sha256": "673be39a6800bf43dbb662cd35377468267c6128a5e4a4247a7dd878244d4734",
+      "hashVerified": true,
+      "manifest": "content/audio/manifest.json",
+      "manifestKey": "clips.lv.vocab-0005",
+      "manifestRecord": {
+        "text": "piedod",
+        "file": "audio/lv/vocab-0005.mp3",
+        "sha256": "673be39a6800bf43dbb662cd35377468267c6128a5e4a4247a7dd878244d4734"
+      },
+      "exactReuseCandidates": [],
+      "affected": {
+        "source": [
+          {
+            "preset": "full",
+            "courseId": "basic-vocabulary-10-17",
+            "lessonId": "basic-01",
+            "promptId": "basic-01-prompt-05",
+            "direction": "lv-ru",
+            "conceptId": "vocab-0005",
+            "questionFile": "content/blocks/basic-01.json"
+          },
+          {
+            "preset": "full",
+            "courseId": "basic-vocabulary-10-17",
+            "lessonId": "basic-01",
+            "promptId": "basic-01-prompt-05",
+            "direction": "lv-en",
+            "conceptId": "vocab-0005",
+            "questionFile": "content/blocks/basic-01.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-lv-ru",
+            "lessonId": "shared-01",
+            "promptId": "focused-s04",
+            "direction": "lv-ru",
+            "conceptId": "vocab-0005",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-lv-en",
+            "lessonId": "shared-01",
+            "promptId": "focused-s04",
+            "direction": "lv-en",
+            "conceptId": "vocab-0005",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-lv-ru",
+            "lessonId": "shared-01",
+            "promptId": "focused-s04",
+            "direction": "lv-ru",
+            "conceptId": "vocab-0005",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-lv-en",
+            "lessonId": "shared-01",
+            "promptId": "focused-s04",
+            "direction": "lv-en",
+            "conceptId": "vocab-0005",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          }
+        ],
+        "correct": [
+          {
+            "preset": "full",
+            "courseId": "basic-vocabulary-10-17",
+            "lessonId": "basic-01",
+            "promptId": "basic-01-prompt-05",
+            "direction": "ru-lv",
+            "conceptId": "vocab-0005",
+            "questionFile": "content/blocks/basic-01.json"
+          },
+          {
+            "preset": "full",
+            "courseId": "basic-vocabulary-10-17",
+            "lessonId": "basic-01",
+            "promptId": "basic-01-prompt-05",
+            "direction": "en-lv",
+            "conceptId": "vocab-0005",
+            "questionFile": "content/blocks/basic-01.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-ru-lv",
+            "lessonId": "shared-01",
+            "promptId": "focused-s04",
+            "direction": "ru-lv",
+            "conceptId": "vocab-0005",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-en-lv",
+            "lessonId": "shared-01",
+            "promptId": "focused-s04",
+            "direction": "en-lv",
+            "conceptId": "vocab-0005",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-ru-lv",
+            "lessonId": "shared-01",
+            "promptId": "focused-s04",
+            "direction": "ru-lv",
+            "conceptId": "vocab-0005",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-en-lv",
+            "lessonId": "shared-01",
+            "promptId": "focused-s04",
+            "direction": "en-lv",
+            "conceptId": "vocab-0005",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          }
+        ],
+        "wrong": [
+          {
+            "preset": "full",
+            "courseId": "basic-vocabulary-10-17",
+            "lessonId": "basic-01",
+            "promptId": "basic-01-prompt-02",
+            "direction": "ru-lv",
+            "conceptId": "vocab-0002",
+            "questionFile": "content/blocks/basic-01.json"
+          },
+          {
+            "preset": "full",
+            "courseId": "basic-vocabulary-10-17",
+            "lessonId": "basic-01",
+            "promptId": "basic-01-prompt-04",
+            "direction": "ru-lv",
+            "conceptId": "vocab-0004",
+            "questionFile": "content/blocks/basic-01.json"
+          },
+          {
+            "preset": "full",
+            "courseId": "basic-vocabulary-10-17",
+            "lessonId": "basic-01",
+            "promptId": "basic-01-prompt-10",
+            "direction": "ru-lv",
+            "conceptId": "vocab-0010",
+            "questionFile": "content/blocks/basic-01.json"
+          },
+          {
+            "preset": "full",
+            "courseId": "basic-vocabulary-10-17",
+            "lessonId": "basic-01",
+            "promptId": "basic-01-prompt-02",
+            "direction": "en-lv",
+            "conceptId": "vocab-0002",
+            "questionFile": "content/blocks/basic-01.json"
+          },
+          {
+            "preset": "full",
+            "courseId": "basic-vocabulary-10-17",
+            "lessonId": "basic-01",
+            "promptId": "basic-01-prompt-04",
+            "direction": "en-lv",
+            "conceptId": "vocab-0004",
+            "questionFile": "content/blocks/basic-01.json"
+          },
+          {
+            "preset": "full",
+            "courseId": "basic-vocabulary-10-17",
+            "lessonId": "basic-01",
+            "promptId": "basic-01-prompt-10",
+            "direction": "en-lv",
+            "conceptId": "vocab-0010",
+            "questionFile": "content/blocks/basic-01.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-ru-lv",
+            "lessonId": "shared-01",
+            "promptId": "focused-s01",
+            "direction": "ru-lv",
+            "conceptId": "vocab-0001",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-ru-lv",
+            "lessonId": "shared-01",
+            "promptId": "focused-s02",
+            "direction": "ru-lv",
+            "conceptId": "vocab-0002",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-ru-lv",
+            "lessonId": "shared-01",
+            "promptId": "focused-s03",
+            "direction": "ru-lv",
+            "conceptId": "vocab-0004",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-en-lv",
+            "lessonId": "shared-01",
+            "promptId": "focused-s01",
+            "direction": "en-lv",
+            "conceptId": "vocab-0001",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-en-lv",
+            "lessonId": "shared-01",
+            "promptId": "focused-s02",
+            "direction": "en-lv",
+            "conceptId": "vocab-0002",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-en-lv",
+            "lessonId": "shared-01",
+            "promptId": "focused-s03",
+            "direction": "en-lv",
+            "conceptId": "vocab-0004",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-ru-lv",
+            "lessonId": "shared-01",
+            "promptId": "focused-s01",
+            "direction": "ru-lv",
+            "conceptId": "vocab-0001",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-ru-lv",
+            "lessonId": "shared-01",
+            "promptId": "focused-s02",
+            "direction": "ru-lv",
+            "conceptId": "vocab-0002",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-ru-lv",
+            "lessonId": "shared-01",
+            "promptId": "focused-s03",
+            "direction": "ru-lv",
+            "conceptId": "vocab-0004",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-en-lv",
+            "lessonId": "shared-01",
+            "promptId": "focused-s01",
+            "direction": "en-lv",
+            "conceptId": "vocab-0001",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-en-lv",
+            "lessonId": "shared-01",
+            "promptId": "focused-s02",
+            "direction": "en-lv",
+            "conceptId": "vocab-0002",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-en-lv",
+            "lessonId": "shared-01",
+            "promptId": "focused-s03",
+            "direction": "en-lv",
+            "conceptId": "vocab-0004",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          }
+        ]
+      },
+      "counts": {
+        "source": 6,
+        "correct": 6,
+        "wrong": 18
+      },
+      "guide": [
+        {
+          "direction": "lv-ru",
+          "file": "content/readings/lv-ru/basic-01.json",
+          "key": "entries.vocab-0005",
+          "entry": {
+            "text": "извини",
+            "segments": [
+              {
+                "text": "извини",
+                "reading": "izviņi"
+              }
+            ]
+          },
+          "targetChanged": false,
+          "sourceOnlyChanged": true,
+          "proposedTargetText": "извини"
+        },
+        {
+          "direction": "ru-en",
+          "file": "content/readings/ru-en/basic-01.json",
+          "key": "entries.vocab-0005",
+          "entry": {
+            "text": "sorry",
+            "segments": [
+              {
+                "text": "sorry",
+                "reading": "сари"
+              }
+            ]
+          },
+          "targetChanged": false,
+          "sourceOnlyChanged": false,
+          "proposedTargetText": "sorry"
+        },
+        {
+          "direction": "en-ja",
+          "file": "content/readings/en-ja/basic-01.json",
+          "key": "entries.vocab-0005",
+          "entry": {
+            "text": "ごめんなさい",
+            "segments": [
+              {
+                "text": "ご",
+                "reading": "go"
+              },
+              {
+                "text": "め",
+                "reading": "me"
+              },
+              {
+                "text": "ん",
+                "reading": "n"
+              },
+              {
+                "text": "な",
+                "reading": "na"
+              },
+              {
+                "text": "さ",
+                "reading": "sa"
+              },
+              {
+                "text": "い",
+                "reading": "i"
+              }
+            ]
+          },
+          "targetChanged": false,
+          "sourceOnlyChanged": false,
+          "proposedTargetText": "ごめんなさい"
+        }
+      ],
+      "otherLanguageClips": [
+        {
+          "language": "ru",
+          "manifest": "content/audio/manifest.json",
+          "text": "извини",
+          "file": "audio/ru/vocab-0005.mp3",
+          "sha256": "c54e79d100df4b9d3d6e8e58980b44a30a74dc3e765d2ea26544394c24691b72"
+        },
+        {
+          "language": "en",
+          "manifest": "content/audio/manifest.json",
+          "text": "sorry",
+          "file": "audio/en/vocab-0005.mp3",
+          "sha256": "438ca612d9adc4351532577b14a6a7513681bd21e792991d00ec035770537def",
+          "source": "Flite cmu_us_slt; offline synthesis",
+          "provider": "flite-slt"
+        },
+        {
+          "language": "ja",
+          "manifest": "content/audio/manifest.json",
+          "text": "ごめんなさい",
+          "file": "audio/ja/vocab-0005.mp3",
+          "sha256": "af226814b0a522bd39359769ddbe4042583ccdb8e5f7194cd984718d9a692e20",
+          "provider": "gtts"
+        }
+      ],
+      "proposedFormOtherConcepts": [],
+      "unchangedLanguageClipsRetainedNote": "Per-entry list is contextual: omit another clip from retention if another approved entry in this batch changes that same concept/language."
+    },
+    {
+      "finding": "F003",
+      "id": "vocab-0005",
+      "language": "ru",
+      "current": "извини",
+      "proposed": "извините",
+      "sourceFile": "content/languages/ru.json",
+      "sourceKey": "translations.vocab-0005.text",
+      "clip": "audio/ru/vocab-0005.mp3",
+      "sha256": "c54e79d100df4b9d3d6e8e58980b44a30a74dc3e765d2ea26544394c24691b72",
+      "hashVerified": true,
+      "manifest": "content/audio/manifest.json",
+      "manifestKey": "clips.ru.vocab-0005",
+      "manifestRecord": {
+        "text": "извини",
+        "file": "audio/ru/vocab-0005.mp3",
+        "sha256": "c54e79d100df4b9d3d6e8e58980b44a30a74dc3e765d2ea26544394c24691b72"
+      },
+      "exactReuseCandidates": [
+        {
+          "language": "ru",
+          "id": "vocab-0266",
+          "manifest": "content/audio/manifest.json",
+          "text": "извините",
+          "file": "audio/ru/vocab-0266.mp3",
+          "sha256": "e26d883020a7db420919821c4ec575c2a1dfa39991b73432fe7155d4da5ad27a",
+          "hashVerified": true
+        }
+      ],
+      "affected": {
+        "source": [
+          {
+            "preset": "full",
+            "courseId": "basic-vocabulary-10-17",
+            "lessonId": "basic-01",
+            "promptId": "basic-01-prompt-05",
+            "direction": "ru-lv",
+            "conceptId": "vocab-0005",
+            "questionFile": "content/blocks/basic-01.json"
+          },
+          {
+            "preset": "full",
+            "courseId": "basic-vocabulary-10-17",
+            "lessonId": "basic-01",
+            "promptId": "basic-01-prompt-05",
+            "direction": "ru-en",
+            "conceptId": "vocab-0005",
+            "questionFile": "content/blocks/basic-01.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-ru-lv",
+            "lessonId": "shared-01",
+            "promptId": "focused-s04",
+            "direction": "ru-lv",
+            "conceptId": "vocab-0005",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-ru-en",
+            "lessonId": "shared-01",
+            "promptId": "focused-s04",
+            "direction": "ru-en",
+            "conceptId": "vocab-0005",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-ru-lv",
+            "lessonId": "shared-01",
+            "promptId": "focused-s04",
+            "direction": "ru-lv",
+            "conceptId": "vocab-0005",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-ru-en",
+            "lessonId": "shared-01",
+            "promptId": "focused-s04",
+            "direction": "ru-en",
+            "conceptId": "vocab-0005",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          }
+        ],
+        "correct": [
+          {
+            "preset": "full",
+            "courseId": "basic-vocabulary-10-17",
+            "lessonId": "basic-01",
+            "promptId": "basic-01-prompt-05",
+            "direction": "lv-ru",
+            "conceptId": "vocab-0005",
+            "questionFile": "content/blocks/basic-01.json"
+          },
+          {
+            "preset": "full",
+            "courseId": "basic-vocabulary-10-17",
+            "lessonId": "basic-01",
+            "promptId": "basic-01-prompt-05",
+            "direction": "en-ru",
+            "conceptId": "vocab-0005",
+            "questionFile": "content/blocks/basic-01.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-lv-ru",
+            "lessonId": "shared-01",
+            "promptId": "focused-s04",
+            "direction": "lv-ru",
+            "conceptId": "vocab-0005",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-en-ru",
+            "lessonId": "shared-01",
+            "promptId": "focused-s04",
+            "direction": "en-ru",
+            "conceptId": "vocab-0005",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-lv-ru",
+            "lessonId": "shared-01",
+            "promptId": "focused-s04",
+            "direction": "lv-ru",
+            "conceptId": "vocab-0005",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-en-ru",
+            "lessonId": "shared-01",
+            "promptId": "focused-s04",
+            "direction": "en-ru",
+            "conceptId": "vocab-0005",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          }
+        ],
+        "wrong": [
+          {
+            "preset": "full",
+            "courseId": "basic-vocabulary-10-17",
+            "lessonId": "basic-01",
+            "promptId": "basic-01-prompt-02",
+            "direction": "lv-ru",
+            "conceptId": "vocab-0002",
+            "questionFile": "content/blocks/basic-01.json"
+          },
+          {
+            "preset": "full",
+            "courseId": "basic-vocabulary-10-17",
+            "lessonId": "basic-01",
+            "promptId": "basic-01-prompt-04",
+            "direction": "lv-ru",
+            "conceptId": "vocab-0004",
+            "questionFile": "content/blocks/basic-01.json"
+          },
+          {
+            "preset": "full",
+            "courseId": "basic-vocabulary-10-17",
+            "lessonId": "basic-01",
+            "promptId": "basic-01-prompt-10",
+            "direction": "lv-ru",
+            "conceptId": "vocab-0010",
+            "questionFile": "content/blocks/basic-01.json"
+          },
+          {
+            "preset": "full",
+            "courseId": "basic-vocabulary-10-17",
+            "lessonId": "basic-01",
+            "promptId": "basic-01-prompt-02",
+            "direction": "en-ru",
+            "conceptId": "vocab-0002",
+            "questionFile": "content/blocks/basic-01.json"
+          },
+          {
+            "preset": "full",
+            "courseId": "basic-vocabulary-10-17",
+            "lessonId": "basic-01",
+            "promptId": "basic-01-prompt-04",
+            "direction": "en-ru",
+            "conceptId": "vocab-0004",
+            "questionFile": "content/blocks/basic-01.json"
+          },
+          {
+            "preset": "full",
+            "courseId": "basic-vocabulary-10-17",
+            "lessonId": "basic-01",
+            "promptId": "basic-01-prompt-10",
+            "direction": "en-ru",
+            "conceptId": "vocab-0010",
+            "questionFile": "content/blocks/basic-01.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-lv-ru",
+            "lessonId": "shared-01",
+            "promptId": "focused-s01",
+            "direction": "lv-ru",
+            "conceptId": "vocab-0001",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-lv-ru",
+            "lessonId": "shared-01",
+            "promptId": "focused-s02",
+            "direction": "lv-ru",
+            "conceptId": "vocab-0002",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-lv-ru",
+            "lessonId": "shared-01",
+            "promptId": "focused-s03",
+            "direction": "lv-ru",
+            "conceptId": "vocab-0004",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-en-ru",
+            "lessonId": "shared-01",
+            "promptId": "focused-s01",
+            "direction": "en-ru",
+            "conceptId": "vocab-0001",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-en-ru",
+            "lessonId": "shared-01",
+            "promptId": "focused-s02",
+            "direction": "en-ru",
+            "conceptId": "vocab-0002",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-en-ru",
+            "lessonId": "shared-01",
+            "promptId": "focused-s03",
+            "direction": "en-ru",
+            "conceptId": "vocab-0004",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-lv-ru",
+            "lessonId": "shared-01",
+            "promptId": "focused-s01",
+            "direction": "lv-ru",
+            "conceptId": "vocab-0001",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-lv-ru",
+            "lessonId": "shared-01",
+            "promptId": "focused-s02",
+            "direction": "lv-ru",
+            "conceptId": "vocab-0002",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-lv-ru",
+            "lessonId": "shared-01",
+            "promptId": "focused-s03",
+            "direction": "lv-ru",
+            "conceptId": "vocab-0004",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-en-ru",
+            "lessonId": "shared-01",
+            "promptId": "focused-s01",
+            "direction": "en-ru",
+            "conceptId": "vocab-0001",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-en-ru",
+            "lessonId": "shared-01",
+            "promptId": "focused-s02",
+            "direction": "en-ru",
+            "conceptId": "vocab-0002",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-en-ru",
+            "lessonId": "shared-01",
+            "promptId": "focused-s03",
+            "direction": "en-ru",
+            "conceptId": "vocab-0004",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          }
+        ]
+      },
+      "counts": {
+        "source": 6,
+        "correct": 6,
+        "wrong": 18
+      },
+      "guide": [
+        {
+          "direction": "lv-ru",
+          "file": "content/readings/lv-ru/basic-01.json",
+          "key": "entries.vocab-0005",
+          "entry": {
+            "text": "извини",
+            "segments": [
+              {
+                "text": "извини",
+                "reading": "izviņi"
+              }
+            ]
+          },
+          "targetChanged": true,
+          "sourceOnlyChanged": false,
+          "proposedTargetText": "извините"
+        },
+        {
+          "direction": "ru-en",
+          "file": "content/readings/ru-en/basic-01.json",
+          "key": "entries.vocab-0005",
+          "entry": {
+            "text": "sorry",
+            "segments": [
+              {
+                "text": "sorry",
+                "reading": "сари"
+              }
+            ]
+          },
+          "targetChanged": false,
+          "sourceOnlyChanged": true,
+          "proposedTargetText": "sorry"
+        },
+        {
+          "direction": "en-ja",
+          "file": "content/readings/en-ja/basic-01.json",
+          "key": "entries.vocab-0005",
+          "entry": {
+            "text": "ごめんなさい",
+            "segments": [
+              {
+                "text": "ご",
+                "reading": "go"
+              },
+              {
+                "text": "め",
+                "reading": "me"
+              },
+              {
+                "text": "ん",
+                "reading": "n"
+              },
+              {
+                "text": "な",
+                "reading": "na"
+              },
+              {
+                "text": "さ",
+                "reading": "sa"
+              },
+              {
+                "text": "い",
+                "reading": "i"
+              }
+            ]
+          },
+          "targetChanged": false,
+          "sourceOnlyChanged": false,
+          "proposedTargetText": "ごめんなさい"
+        }
+      ],
+      "otherLanguageClips": [
+        {
+          "language": "lv",
+          "manifest": "content/audio/manifest.json",
+          "text": "piedod",
+          "file": "audio/lv/vocab-0005.mp3",
+          "sha256": "673be39a6800bf43dbb662cd35377468267c6128a5e4a4247a7dd878244d4734"
+        },
+        {
+          "language": "en",
+          "manifest": "content/audio/manifest.json",
+          "text": "sorry",
+          "file": "audio/en/vocab-0005.mp3",
+          "sha256": "438ca612d9adc4351532577b14a6a7513681bd21e792991d00ec035770537def",
+          "source": "Flite cmu_us_slt; offline synthesis",
+          "provider": "flite-slt"
+        },
+        {
+          "language": "ja",
+          "manifest": "content/audio/manifest.json",
+          "text": "ごめんなさい",
+          "file": "audio/ja/vocab-0005.mp3",
+          "sha256": "af226814b0a522bd39359769ddbe4042583ccdb8e5f7194cd984718d9a692e20",
+          "provider": "gtts"
+        }
+      ],
+      "proposedFormOtherConcepts": [
+        {
+          "id": "vocab-0266",
+          "text": "извините"
+        }
+      ],
+      "unchangedLanguageClipsRetainedNote": "Per-entry list is contextual: omit another clip from retention if another approved entry in this batch changes that same concept/language."
+    },
+    {
+      "finding": "F004",
+      "id": "focus-s08",
+      "language": "lv",
+      "current": "Kā tevi sauc?",
+      "proposed": "Kā jūs sauc?",
+      "sourceFile": "content/focused/languages/lv.json",
+      "sourceKey": "focus-s08.text",
+      "clip": "audio/lv/focus-s08.mp3",
+      "sha256": "f078fabaafa0c796d1183d7f36394953a2ad27cd93169b48ec179d78e92afd39",
+      "hashVerified": true,
+      "manifest": "content/focused/audio.json",
+      "manifestKey": "clips.lv.focus-s08",
+      "manifestRecord": {
+        "text": "Kā tevi sauc?",
+        "file": "audio/lv/focus-s08.mp3",
+        "sha256": "f078fabaafa0c796d1183d7f36394953a2ad27cd93169b48ec179d78e92afd39",
+        "provider": "gtts"
+      },
+      "exactReuseCandidates": [],
+      "affected": {
+        "source": [
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-lv-ru",
+            "lessonId": "shared-01",
+            "promptId": "focused-s08",
+            "direction": "lv-ru",
+            "conceptId": "focus-s08",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-lv-en",
+            "lessonId": "shared-01",
+            "promptId": "focused-s08",
+            "direction": "lv-en",
+            "conceptId": "focus-s08",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-lv-ru",
+            "lessonId": "shared-01",
+            "promptId": "focused-s08",
+            "direction": "lv-ru",
+            "conceptId": "focus-s08",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-lv-en",
+            "lessonId": "shared-01",
+            "promptId": "focused-s08",
+            "direction": "lv-en",
+            "conceptId": "focus-s08",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          }
+        ],
+        "correct": [
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-ru-lv",
+            "lessonId": "shared-01",
+            "promptId": "focused-s08",
+            "direction": "ru-lv",
+            "conceptId": "focus-s08",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-en-lv",
+            "lessonId": "shared-01",
+            "promptId": "focused-s08",
+            "direction": "en-lv",
+            "conceptId": "focus-s08",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-ru-lv",
+            "lessonId": "shared-01",
+            "promptId": "focused-s08",
+            "direction": "ru-lv",
+            "conceptId": "focus-s08",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-en-lv",
+            "lessonId": "shared-01",
+            "promptId": "focused-s08",
+            "direction": "en-lv",
+            "conceptId": "focus-s08",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          }
+        ],
+        "wrong": [
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-ru-lv",
+            "lessonId": "kids-02",
+            "promptId": "focused-k18",
+            "direction": "ru-lv",
+            "conceptId": "focus-k18",
+            "questionFile": "content/focused/blocks/kids-02.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-en-lv",
+            "lessonId": "kids-02",
+            "promptId": "focused-k18",
+            "direction": "en-lv",
+            "conceptId": "focus-k18",
+            "questionFile": "content/focused/blocks/kids-02.json"
+          }
+        ]
+      },
+      "counts": {
+        "source": 4,
+        "correct": 4,
+        "wrong": 2
+      },
+      "guide": [
+        {
+          "direction": "lv-ru",
+          "status": "absent: held PR21 contains original 510 only; no focused extension guide modules/keys",
+          "targetChanged": false
+        },
+        {
+          "direction": "ru-en",
+          "status": "absent: held PR21 contains original 510 only; no focused extension guide modules/keys",
+          "targetChanged": false
+        },
+        {
+          "direction": "en-ja",
+          "status": "absent: held PR21 contains original 510 only; no focused extension guide modules/keys",
+          "targetChanged": false
+        }
+      ],
+      "otherLanguageClips": [
+        {
+          "language": "ru",
+          "manifest": "content/focused/audio.json",
+          "text": "Как тебя зовут?",
+          "file": "audio/ru/focus-s08.mp3",
+          "sha256": "3a868ba9a908b49c60f6bb4a57e608119e64a385c255fe18bd40b3e44e6abbe8",
+          "provider": "gtts"
+        },
+        {
+          "language": "en",
+          "manifest": "content/focused/audio.json",
+          "text": "What is your name?",
+          "file": "audio/en/focus-s08.mp3",
+          "sha256": "a0ca7dac3d554f511d95634e7995e8d05adac5a4f0140e6ddbab669efe63b0c1",
+          "provider": "flite-slt"
+        },
+        {
+          "language": "ja",
+          "manifest": "content/focused/audio.json",
+          "text": "名前は何ですか",
+          "file": "audio/ja/focus-s08.mp3",
+          "sha256": "7bb7f688a2e0dd6d6fa7053c70cf6e984e4d1f336d6bb66617a0198ecf97ba99",
+          "provider": "gtts"
+        }
+      ],
+      "proposedFormOtherConcepts": [],
+      "unchangedLanguageClipsRetainedNote": "Per-entry list is contextual: omit another clip from retention if another approved entry in this batch changes that same concept/language."
+    },
+    {
+      "finding": "F004",
+      "id": "focus-s08",
+      "language": "ru",
+      "current": "Как тебя зовут?",
+      "proposed": "Как вас зовут?",
+      "sourceFile": "content/focused/languages/ru.json",
+      "sourceKey": "focus-s08.text",
+      "clip": "audio/ru/focus-s08.mp3",
+      "sha256": "3a868ba9a908b49c60f6bb4a57e608119e64a385c255fe18bd40b3e44e6abbe8",
+      "hashVerified": true,
+      "manifest": "content/focused/audio.json",
+      "manifestKey": "clips.ru.focus-s08",
+      "manifestRecord": {
+        "text": "Как тебя зовут?",
+        "file": "audio/ru/focus-s08.mp3",
+        "sha256": "3a868ba9a908b49c60f6bb4a57e608119e64a385c255fe18bd40b3e44e6abbe8",
+        "provider": "gtts"
+      },
+      "exactReuseCandidates": [],
+      "affected": {
+        "source": [
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-ru-lv",
+            "lessonId": "shared-01",
+            "promptId": "focused-s08",
+            "direction": "ru-lv",
+            "conceptId": "focus-s08",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-ru-en",
+            "lessonId": "shared-01",
+            "promptId": "focused-s08",
+            "direction": "ru-en",
+            "conceptId": "focus-s08",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-ru-lv",
+            "lessonId": "shared-01",
+            "promptId": "focused-s08",
+            "direction": "ru-lv",
+            "conceptId": "focus-s08",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-ru-en",
+            "lessonId": "shared-01",
+            "promptId": "focused-s08",
+            "direction": "ru-en",
+            "conceptId": "focus-s08",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          }
+        ],
+        "correct": [
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-lv-ru",
+            "lessonId": "shared-01",
+            "promptId": "focused-s08",
+            "direction": "lv-ru",
+            "conceptId": "focus-s08",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-en-ru",
+            "lessonId": "shared-01",
+            "promptId": "focused-s08",
+            "direction": "en-ru",
+            "conceptId": "focus-s08",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-lv-ru",
+            "lessonId": "shared-01",
+            "promptId": "focused-s08",
+            "direction": "lv-ru",
+            "conceptId": "focus-s08",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-en-ru",
+            "lessonId": "shared-01",
+            "promptId": "focused-s08",
+            "direction": "en-ru",
+            "conceptId": "focus-s08",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          }
+        ],
+        "wrong": [
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-lv-ru",
+            "lessonId": "kids-02",
+            "promptId": "focused-k18",
+            "direction": "lv-ru",
+            "conceptId": "focus-k18",
+            "questionFile": "content/focused/blocks/kids-02.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-en-ru",
+            "lessonId": "kids-02",
+            "promptId": "focused-k18",
+            "direction": "en-ru",
+            "conceptId": "focus-k18",
+            "questionFile": "content/focused/blocks/kids-02.json"
+          }
+        ]
+      },
+      "counts": {
+        "source": 4,
+        "correct": 4,
+        "wrong": 2
+      },
+      "guide": [
+        {
+          "direction": "lv-ru",
+          "status": "absent: held PR21 contains original 510 only; no focused extension guide modules/keys",
+          "targetChanged": true
+        },
+        {
+          "direction": "ru-en",
+          "status": "absent: held PR21 contains original 510 only; no focused extension guide modules/keys",
+          "targetChanged": false
+        },
+        {
+          "direction": "en-ja",
+          "status": "absent: held PR21 contains original 510 only; no focused extension guide modules/keys",
+          "targetChanged": false
+        }
+      ],
+      "otherLanguageClips": [
+        {
+          "language": "lv",
+          "manifest": "content/focused/audio.json",
+          "text": "Kā tevi sauc?",
+          "file": "audio/lv/focus-s08.mp3",
+          "sha256": "f078fabaafa0c796d1183d7f36394953a2ad27cd93169b48ec179d78e92afd39",
+          "provider": "gtts"
+        },
+        {
+          "language": "en",
+          "manifest": "content/focused/audio.json",
+          "text": "What is your name?",
+          "file": "audio/en/focus-s08.mp3",
+          "sha256": "a0ca7dac3d554f511d95634e7995e8d05adac5a4f0140e6ddbab669efe63b0c1",
+          "provider": "flite-slt"
+        },
+        {
+          "language": "ja",
+          "manifest": "content/focused/audio.json",
+          "text": "名前は何ですか",
+          "file": "audio/ja/focus-s08.mp3",
+          "sha256": "7bb7f688a2e0dd6d6fa7053c70cf6e984e4d1f336d6bb66617a0198ecf97ba99",
+          "provider": "gtts"
+        }
+      ],
+      "proposedFormOtherConcepts": [],
+      "unchangedLanguageClipsRetainedNote": "Per-entry list is contextual: omit another clip from retention if another approved entry in this batch changes that same concept/language."
+    },
+    {
+      "finding": "F005",
+      "id": "focus-s09",
+      "language": "lv",
+      "current": "No kurienes tu esi?",
+      "proposed": "No kurienes jūs esat?",
+      "sourceFile": "content/focused/languages/lv.json",
+      "sourceKey": "focus-s09.text",
+      "clip": "audio/lv/focus-s09.mp3",
+      "sha256": "f0bcdcec2241df8572b897e3909a436d904ef37919e112613820f96befe959b8",
+      "hashVerified": true,
+      "manifest": "content/focused/audio.json",
+      "manifestKey": "clips.lv.focus-s09",
+      "manifestRecord": {
+        "text": "No kurienes tu esi?",
+        "file": "audio/lv/focus-s09.mp3",
+        "sha256": "f0bcdcec2241df8572b897e3909a436d904ef37919e112613820f96befe959b8",
+        "provider": "gtts"
+      },
+      "exactReuseCandidates": [],
+      "affected": {
+        "source": [
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-lv-ru",
+            "lessonId": "shared-01",
+            "promptId": "focused-s09",
+            "direction": "lv-ru",
+            "conceptId": "focus-s09",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-lv-en",
+            "lessonId": "shared-01",
+            "promptId": "focused-s09",
+            "direction": "lv-en",
+            "conceptId": "focus-s09",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-lv-ru",
+            "lessonId": "shared-01",
+            "promptId": "focused-s09",
+            "direction": "lv-ru",
+            "conceptId": "focus-s09",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-lv-en",
+            "lessonId": "shared-01",
+            "promptId": "focused-s09",
+            "direction": "lv-en",
+            "conceptId": "focus-s09",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          }
+        ],
+        "correct": [
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-ru-lv",
+            "lessonId": "shared-01",
+            "promptId": "focused-s09",
+            "direction": "ru-lv",
+            "conceptId": "focus-s09",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-en-lv",
+            "lessonId": "shared-01",
+            "promptId": "focused-s09",
+            "direction": "en-lv",
+            "conceptId": "focus-s09",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-ru-lv",
+            "lessonId": "shared-01",
+            "promptId": "focused-s09",
+            "direction": "ru-lv",
+            "conceptId": "focus-s09",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-en-lv",
+            "lessonId": "shared-01",
+            "promptId": "focused-s09",
+            "direction": "en-lv",
+            "conceptId": "focus-s09",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          }
+        ],
+        "wrong": [
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-ru-lv",
+            "lessonId": "shared-02",
+            "promptId": "focused-s11",
+            "direction": "ru-lv",
+            "conceptId": "focus-s11",
+            "questionFile": "content/focused/blocks/shared-02.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-ru-lv",
+            "lessonId": "kids-02",
+            "promptId": "focused-k18",
+            "direction": "ru-lv",
+            "conceptId": "focus-k18",
+            "questionFile": "content/focused/blocks/kids-02.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-ru-lv",
+            "lessonId": "kids-02",
+            "promptId": "focused-k19",
+            "direction": "ru-lv",
+            "conceptId": "focus-k19",
+            "questionFile": "content/focused/blocks/kids-02.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-en-lv",
+            "lessonId": "shared-02",
+            "promptId": "focused-s11",
+            "direction": "en-lv",
+            "conceptId": "focus-s11",
+            "questionFile": "content/focused/blocks/shared-02.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-en-lv",
+            "lessonId": "kids-02",
+            "promptId": "focused-k18",
+            "direction": "en-lv",
+            "conceptId": "focus-k18",
+            "questionFile": "content/focused/blocks/kids-02.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-en-lv",
+            "lessonId": "kids-02",
+            "promptId": "focused-k19",
+            "direction": "en-lv",
+            "conceptId": "focus-k19",
+            "questionFile": "content/focused/blocks/kids-02.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-ru-lv",
+            "lessonId": "shared-02",
+            "promptId": "focused-s11",
+            "direction": "ru-lv",
+            "conceptId": "focus-s11",
+            "questionFile": "content/focused/blocks/shared-02.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-en-lv",
+            "lessonId": "shared-02",
+            "promptId": "focused-s11",
+            "direction": "en-lv",
+            "conceptId": "focus-s11",
+            "questionFile": "content/focused/blocks/shared-02.json"
+          }
+        ]
+      },
+      "counts": {
+        "source": 4,
+        "correct": 4,
+        "wrong": 8
+      },
+      "guide": [
+        {
+          "direction": "lv-ru",
+          "status": "absent: held PR21 contains original 510 only; no focused extension guide modules/keys",
+          "targetChanged": false
+        },
+        {
+          "direction": "ru-en",
+          "status": "absent: held PR21 contains original 510 only; no focused extension guide modules/keys",
+          "targetChanged": false
+        },
+        {
+          "direction": "en-ja",
+          "status": "absent: held PR21 contains original 510 only; no focused extension guide modules/keys",
+          "targetChanged": false
+        }
+      ],
+      "otherLanguageClips": [
+        {
+          "language": "ru",
+          "manifest": "content/focused/audio.json",
+          "text": "Откуда ты?",
+          "file": "audio/ru/focus-s09.mp3",
+          "sha256": "06b3cd2628f81bc2d494b4074e6ab21068a467c109d407a9643155057e719db2",
+          "provider": "gtts"
+        },
+        {
+          "language": "en",
+          "manifest": "content/focused/audio.json",
+          "text": "Where are you from?",
+          "file": "audio/en/focus-s09.mp3",
+          "sha256": "6b080c6adac55dd431f3774b6d1dc7db037a727f86d566d7123029bea3acbe3e",
+          "provider": "flite-slt"
+        },
+        {
+          "language": "ja",
+          "manifest": "content/focused/audio.json",
+          "text": "どこから来ましたか",
+          "file": "audio/ja/focus-s09.mp3",
+          "sha256": "24391365c136ad28c95f41bd65f315451f9d87400f8637a08bc29b2637cb8c1e",
+          "provider": "gtts"
+        }
+      ],
+      "proposedFormOtherConcepts": [],
+      "unchangedLanguageClipsRetainedNote": "Per-entry list is contextual: omit another clip from retention if another approved entry in this batch changes that same concept/language."
+    },
+    {
+      "finding": "F005",
+      "id": "focus-s09",
+      "language": "ru",
+      "current": "Откуда ты?",
+      "proposed": "Откуда вы?",
+      "sourceFile": "content/focused/languages/ru.json",
+      "sourceKey": "focus-s09.text",
+      "clip": "audio/ru/focus-s09.mp3",
+      "sha256": "06b3cd2628f81bc2d494b4074e6ab21068a467c109d407a9643155057e719db2",
+      "hashVerified": true,
+      "manifest": "content/focused/audio.json",
+      "manifestKey": "clips.ru.focus-s09",
+      "manifestRecord": {
+        "text": "Откуда ты?",
+        "file": "audio/ru/focus-s09.mp3",
+        "sha256": "06b3cd2628f81bc2d494b4074e6ab21068a467c109d407a9643155057e719db2",
+        "provider": "gtts"
+      },
+      "exactReuseCandidates": [],
+      "affected": {
+        "source": [
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-ru-lv",
+            "lessonId": "shared-01",
+            "promptId": "focused-s09",
+            "direction": "ru-lv",
+            "conceptId": "focus-s09",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-ru-en",
+            "lessonId": "shared-01",
+            "promptId": "focused-s09",
+            "direction": "ru-en",
+            "conceptId": "focus-s09",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-ru-lv",
+            "lessonId": "shared-01",
+            "promptId": "focused-s09",
+            "direction": "ru-lv",
+            "conceptId": "focus-s09",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-ru-en",
+            "lessonId": "shared-01",
+            "promptId": "focused-s09",
+            "direction": "ru-en",
+            "conceptId": "focus-s09",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          }
+        ],
+        "correct": [
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-lv-ru",
+            "lessonId": "shared-01",
+            "promptId": "focused-s09",
+            "direction": "lv-ru",
+            "conceptId": "focus-s09",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-en-ru",
+            "lessonId": "shared-01",
+            "promptId": "focused-s09",
+            "direction": "en-ru",
+            "conceptId": "focus-s09",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-lv-ru",
+            "lessonId": "shared-01",
+            "promptId": "focused-s09",
+            "direction": "lv-ru",
+            "conceptId": "focus-s09",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-en-ru",
+            "lessonId": "shared-01",
+            "promptId": "focused-s09",
+            "direction": "en-ru",
+            "conceptId": "focus-s09",
+            "questionFile": "content/focused/blocks/shared-01.json"
+          }
+        ],
+        "wrong": [
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-lv-ru",
+            "lessonId": "shared-02",
+            "promptId": "focused-s11",
+            "direction": "lv-ru",
+            "conceptId": "focus-s11",
+            "questionFile": "content/focused/blocks/shared-02.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-lv-ru",
+            "lessonId": "kids-02",
+            "promptId": "focused-k18",
+            "direction": "lv-ru",
+            "conceptId": "focus-k18",
+            "questionFile": "content/focused/blocks/kids-02.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-lv-ru",
+            "lessonId": "kids-02",
+            "promptId": "focused-k19",
+            "direction": "lv-ru",
+            "conceptId": "focus-k19",
+            "questionFile": "content/focused/blocks/kids-02.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-en-ru",
+            "lessonId": "shared-02",
+            "promptId": "focused-s11",
+            "direction": "en-ru",
+            "conceptId": "focus-s11",
+            "questionFile": "content/focused/blocks/shared-02.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-en-ru",
+            "lessonId": "kids-02",
+            "promptId": "focused-k18",
+            "direction": "en-ru",
+            "conceptId": "focus-k18",
+            "questionFile": "content/focused/blocks/kids-02.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-en-ru",
+            "lessonId": "kids-02",
+            "promptId": "focused-k19",
+            "direction": "en-ru",
+            "conceptId": "focus-k19",
+            "questionFile": "content/focused/blocks/kids-02.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-lv-ru",
+            "lessonId": "shared-02",
+            "promptId": "focused-s11",
+            "direction": "lv-ru",
+            "conceptId": "focus-s11",
+            "questionFile": "content/focused/blocks/shared-02.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-en-ru",
+            "lessonId": "shared-02",
+            "promptId": "focused-s11",
+            "direction": "en-ru",
+            "conceptId": "focus-s11",
+            "questionFile": "content/focused/blocks/shared-02.json"
+          }
+        ]
+      },
+      "counts": {
+        "source": 4,
+        "correct": 4,
+        "wrong": 8
+      },
+      "guide": [
+        {
+          "direction": "lv-ru",
+          "status": "absent: held PR21 contains original 510 only; no focused extension guide modules/keys",
+          "targetChanged": true
+        },
+        {
+          "direction": "ru-en",
+          "status": "absent: held PR21 contains original 510 only; no focused extension guide modules/keys",
+          "targetChanged": false
+        },
+        {
+          "direction": "en-ja",
+          "status": "absent: held PR21 contains original 510 only; no focused extension guide modules/keys",
+          "targetChanged": false
+        }
+      ],
+      "otherLanguageClips": [
+        {
+          "language": "lv",
+          "manifest": "content/focused/audio.json",
+          "text": "No kurienes tu esi?",
+          "file": "audio/lv/focus-s09.mp3",
+          "sha256": "f0bcdcec2241df8572b897e3909a436d904ef37919e112613820f96befe959b8",
+          "provider": "gtts"
+        },
+        {
+          "language": "en",
+          "manifest": "content/focused/audio.json",
+          "text": "Where are you from?",
+          "file": "audio/en/focus-s09.mp3",
+          "sha256": "6b080c6adac55dd431f3774b6d1dc7db037a727f86d566d7123029bea3acbe3e",
+          "provider": "flite-slt"
+        },
+        {
+          "language": "ja",
+          "manifest": "content/focused/audio.json",
+          "text": "どこから来ましたか",
+          "file": "audio/ja/focus-s09.mp3",
+          "sha256": "24391365c136ad28c95f41bd65f315451f9d87400f8637a08bc29b2637cb8c1e",
+          "provider": "gtts"
+        }
+      ],
+      "proposedFormOtherConcepts": [],
+      "unchangedLanguageClipsRetainedNote": "Per-entry list is contextual: omit another clip from retention if another approved entry in this batch changes that same concept/language."
+    },
+    {
+      "finding": "F006",
+      "id": "focus-s11",
+      "language": "lv",
+      "current": "Kā tev iet?",
+      "proposed": "Kā jums iet?",
+      "sourceFile": "content/focused/languages/lv.json",
+      "sourceKey": "focus-s11.text",
+      "clip": "audio/lv/focus-s11.mp3",
+      "sha256": "2e0aa6dffbeafe25d54580694a911ca85c1b534804ae3a0bfa26aabcc6331b53",
+      "hashVerified": true,
+      "manifest": "content/focused/audio.json",
+      "manifestKey": "clips.lv.focus-s11",
+      "manifestRecord": {
+        "text": "Kā tev iet?",
+        "file": "audio/lv/focus-s11.mp3",
+        "sha256": "2e0aa6dffbeafe25d54580694a911ca85c1b534804ae3a0bfa26aabcc6331b53",
+        "provider": "gtts"
+      },
+      "exactReuseCandidates": [],
+      "affected": {
+        "source": [
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-lv-ru",
+            "lessonId": "shared-02",
+            "promptId": "focused-s11",
+            "direction": "lv-ru",
+            "conceptId": "focus-s11",
+            "questionFile": "content/focused/blocks/shared-02.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-lv-en",
+            "lessonId": "shared-02",
+            "promptId": "focused-s11",
+            "direction": "lv-en",
+            "conceptId": "focus-s11",
+            "questionFile": "content/focused/blocks/shared-02.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-lv-ru",
+            "lessonId": "shared-02",
+            "promptId": "focused-s11",
+            "direction": "lv-ru",
+            "conceptId": "focus-s11",
+            "questionFile": "content/focused/blocks/shared-02.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-lv-en",
+            "lessonId": "shared-02",
+            "promptId": "focused-s11",
+            "direction": "lv-en",
+            "conceptId": "focus-s11",
+            "questionFile": "content/focused/blocks/shared-02.json"
+          }
+        ],
+        "correct": [
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-ru-lv",
+            "lessonId": "shared-02",
+            "promptId": "focused-s11",
+            "direction": "ru-lv",
+            "conceptId": "focus-s11",
+            "questionFile": "content/focused/blocks/shared-02.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-en-lv",
+            "lessonId": "shared-02",
+            "promptId": "focused-s11",
+            "direction": "en-lv",
+            "conceptId": "focus-s11",
+            "questionFile": "content/focused/blocks/shared-02.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-ru-lv",
+            "lessonId": "shared-02",
+            "promptId": "focused-s11",
+            "direction": "ru-lv",
+            "conceptId": "focus-s11",
+            "questionFile": "content/focused/blocks/shared-02.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-en-lv",
+            "lessonId": "shared-02",
+            "promptId": "focused-s11",
+            "direction": "en-lv",
+            "conceptId": "focus-s11",
+            "questionFile": "content/focused/blocks/shared-02.json"
+          }
+        ],
+        "wrong": [
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-ru-lv",
+            "lessonId": "kids-02",
+            "promptId": "focused-k11",
+            "direction": "ru-lv",
+            "conceptId": "focus-k11",
+            "questionFile": "content/focused/blocks/kids-02.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-ru-lv",
+            "lessonId": "kids-02",
+            "promptId": "focused-k18",
+            "direction": "ru-lv",
+            "conceptId": "focus-k18",
+            "questionFile": "content/focused/blocks/kids-02.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-ru-lv",
+            "lessonId": "kids-02",
+            "promptId": "focused-k19",
+            "direction": "ru-lv",
+            "conceptId": "focus-k19",
+            "questionFile": "content/focused/blocks/kids-02.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-en-lv",
+            "lessonId": "kids-02",
+            "promptId": "focused-k11",
+            "direction": "en-lv",
+            "conceptId": "focus-k11",
+            "questionFile": "content/focused/blocks/kids-02.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-en-lv",
+            "lessonId": "kids-02",
+            "promptId": "focused-k18",
+            "direction": "en-lv",
+            "conceptId": "focus-k18",
+            "questionFile": "content/focused/blocks/kids-02.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-en-lv",
+            "lessonId": "kids-02",
+            "promptId": "focused-k19",
+            "direction": "en-lv",
+            "conceptId": "focus-k19",
+            "questionFile": "content/focused/blocks/kids-02.json"
+          }
+        ]
+      },
+      "counts": {
+        "source": 4,
+        "correct": 4,
+        "wrong": 6
+      },
+      "guide": [
+        {
+          "direction": "lv-ru",
+          "status": "absent: held PR21 contains original 510 only; no focused extension guide modules/keys",
+          "targetChanged": false
+        },
+        {
+          "direction": "ru-en",
+          "status": "absent: held PR21 contains original 510 only; no focused extension guide modules/keys",
+          "targetChanged": false
+        },
+        {
+          "direction": "en-ja",
+          "status": "absent: held PR21 contains original 510 only; no focused extension guide modules/keys",
+          "targetChanged": false
+        }
+      ],
+      "otherLanguageClips": [
+        {
+          "language": "ru",
+          "manifest": "content/focused/audio.json",
+          "text": "Как дела?",
+          "file": "audio/ru/focus-s11.mp3",
+          "sha256": "9d09f9df8ae6221df293a53e7726085b7e7c10abbd27f978107f85e46394bfc7",
+          "provider": "gtts"
+        },
+        {
+          "language": "en",
+          "manifest": "content/focused/audio.json",
+          "text": "How are you?",
+          "file": "audio/en/focus-s11.mp3",
+          "sha256": "3e20ea5c87fe93f9a96d77291365801e95b42cfea51115b19950276ac78767cc",
+          "provider": "flite-slt"
+        },
+        {
+          "language": "ja",
+          "manifest": "content/focused/audio.json",
+          "text": "元気ですか",
+          "file": "audio/ja/focus-s11.mp3",
+          "sha256": "651554a5421f7ef336fef86d2658340617adfd33a453bc2105fab0e7c4f5b37e",
+          "provider": "gtts"
+        }
+      ],
+      "proposedFormOtherConcepts": [],
+      "unchangedLanguageClipsRetainedNote": "Per-entry list is contextual: omit another clip from retention if another approved entry in this batch changes that same concept/language."
+    },
+    {
+      "finding": "F007",
+      "id": "focus-s28",
+      "language": "lv",
+      "current": "Vai tu vari man palīdzēt?",
+      "proposed": "Vai jūs varat man palīdzēt?",
+      "sourceFile": "content/focused/languages/lv.json",
+      "sourceKey": "focus-s28.text",
+      "clip": "audio/lv/focus-s28.mp3",
+      "sha256": "ed57493987ec6d16e9bb6dd409fa6d7324ddc7331daa83c679d23e07e33da0da",
+      "hashVerified": true,
+      "manifest": "content/focused/audio.json",
+      "manifestKey": "clips.lv.focus-s28",
+      "manifestRecord": {
+        "text": "Vai tu vari man palīdzēt?",
+        "file": "audio/lv/focus-s28.mp3",
+        "sha256": "ed57493987ec6d16e9bb6dd409fa6d7324ddc7331daa83c679d23e07e33da0da",
+        "provider": "gtts"
+      },
+      "exactReuseCandidates": [],
+      "affected": {
+        "source": [
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-lv-ru",
+            "lessonId": "shared-03",
+            "promptId": "focused-s28",
+            "direction": "lv-ru",
+            "conceptId": "focus-s28",
+            "questionFile": "content/focused/blocks/shared-03.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-lv-en",
+            "lessonId": "shared-03",
+            "promptId": "focused-s28",
+            "direction": "lv-en",
+            "conceptId": "focus-s28",
+            "questionFile": "content/focused/blocks/shared-03.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-lv-ru",
+            "lessonId": "shared-03",
+            "promptId": "focused-s28",
+            "direction": "lv-ru",
+            "conceptId": "focus-s28",
+            "questionFile": "content/focused/blocks/shared-03.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-lv-en",
+            "lessonId": "shared-03",
+            "promptId": "focused-s28",
+            "direction": "lv-en",
+            "conceptId": "focus-s28",
+            "questionFile": "content/focused/blocks/shared-03.json"
+          }
+        ],
+        "correct": [
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-ru-lv",
+            "lessonId": "shared-03",
+            "promptId": "focused-s28",
+            "direction": "ru-lv",
+            "conceptId": "focus-s28",
+            "questionFile": "content/focused/blocks/shared-03.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-en-lv",
+            "lessonId": "shared-03",
+            "promptId": "focused-s28",
+            "direction": "en-lv",
+            "conceptId": "focus-s28",
+            "questionFile": "content/focused/blocks/shared-03.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-ru-lv",
+            "lessonId": "shared-03",
+            "promptId": "focused-s28",
+            "direction": "ru-lv",
+            "conceptId": "focus-s28",
+            "questionFile": "content/focused/blocks/shared-03.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-en-lv",
+            "lessonId": "shared-03",
+            "promptId": "focused-s28",
+            "direction": "en-lv",
+            "conceptId": "focus-s28",
+            "questionFile": "content/focused/blocks/shared-03.json"
+          }
+        ],
+        "wrong": [
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-ru-lv",
+            "lessonId": "shared-05",
+            "promptId": "focused-s41",
+            "direction": "ru-lv",
+            "conceptId": "focus-s41",
+            "questionFile": "content/focused/blocks/shared-05.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-ru-lv",
+            "lessonId": "kids-02",
+            "promptId": "focused-k15",
+            "direction": "ru-lv",
+            "conceptId": "focus-k15",
+            "questionFile": "content/focused/blocks/kids-02.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-en-lv",
+            "lessonId": "shared-05",
+            "promptId": "focused-s41",
+            "direction": "en-lv",
+            "conceptId": "focus-s41",
+            "questionFile": "content/focused/blocks/shared-05.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-en-lv",
+            "lessonId": "kids-02",
+            "promptId": "focused-k15",
+            "direction": "en-lv",
+            "conceptId": "focus-k15",
+            "questionFile": "content/focused/blocks/kids-02.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-ru-lv",
+            "lessonId": "shared-05",
+            "promptId": "focused-s41",
+            "direction": "ru-lv",
+            "conceptId": "focus-s41",
+            "questionFile": "content/focused/blocks/shared-05.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-ru-lv",
+            "lessonId": "adults-02",
+            "promptId": "focused-a12",
+            "direction": "ru-lv",
+            "conceptId": "focus-a12",
+            "questionFile": "content/focused/blocks/adults-02.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-ru-lv",
+            "lessonId": "adults-02",
+            "promptId": "focused-a13",
+            "direction": "ru-lv",
+            "conceptId": "focus-a13",
+            "questionFile": "content/focused/blocks/adults-02.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-en-lv",
+            "lessonId": "shared-05",
+            "promptId": "focused-s41",
+            "direction": "en-lv",
+            "conceptId": "focus-s41",
+            "questionFile": "content/focused/blocks/shared-05.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-en-lv",
+            "lessonId": "adults-02",
+            "promptId": "focused-a12",
+            "direction": "en-lv",
+            "conceptId": "focus-a12",
+            "questionFile": "content/focused/blocks/adults-02.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-en-lv",
+            "lessonId": "adults-02",
+            "promptId": "focused-a13",
+            "direction": "en-lv",
+            "conceptId": "focus-a13",
+            "questionFile": "content/focused/blocks/adults-02.json"
+          }
+        ]
+      },
+      "counts": {
+        "source": 4,
+        "correct": 4,
+        "wrong": 10
+      },
+      "guide": [
+        {
+          "direction": "lv-ru",
+          "status": "absent: held PR21 contains original 510 only; no focused extension guide modules/keys",
+          "targetChanged": false
+        },
+        {
+          "direction": "ru-en",
+          "status": "absent: held PR21 contains original 510 only; no focused extension guide modules/keys",
+          "targetChanged": false
+        },
+        {
+          "direction": "en-ja",
+          "status": "absent: held PR21 contains original 510 only; no focused extension guide modules/keys",
+          "targetChanged": false
+        }
+      ],
+      "otherLanguageClips": [
+        {
+          "language": "ru",
+          "manifest": "content/focused/audio.json",
+          "text": "Можешь мне помочь?",
+          "file": "audio/ru/focus-s28.mp3",
+          "sha256": "39b2bc8ed784a0ac6238955b45fb7afec8ad38a1b2ce9fa92130daf5bdaa8aa3",
+          "provider": "gtts"
+        },
+        {
+          "language": "en",
+          "manifest": "content/focused/audio.json",
+          "text": "Can you help me?",
+          "file": "audio/en/focus-s28.mp3",
+          "sha256": "974c3864c1776183648bed6c6c38c460c104b09f4456715b794c17c1feecd52b",
+          "provider": "flite-slt"
+        },
+        {
+          "language": "ja",
+          "manifest": "content/focused/audio.json",
+          "text": "手伝ってもらえますか",
+          "file": "audio/ja/focus-s28.mp3",
+          "sha256": "1ac49901073f36c32552fdc3ed6327b95dcf8fe55a4ed3ba9fde5626faa881d5",
+          "provider": "gtts"
+        }
+      ],
+      "proposedFormOtherConcepts": [],
+      "unchangedLanguageClipsRetainedNote": "Per-entry list is contextual: omit another clip from retention if another approved entry in this batch changes that same concept/language."
+    },
+    {
+      "finding": "F007",
+      "id": "focus-s28",
+      "language": "ru",
+      "current": "Можешь мне помочь?",
+      "proposed": "Вы можете мне помочь?",
+      "sourceFile": "content/focused/languages/ru.json",
+      "sourceKey": "focus-s28.text",
+      "clip": "audio/ru/focus-s28.mp3",
+      "sha256": "39b2bc8ed784a0ac6238955b45fb7afec8ad38a1b2ce9fa92130daf5bdaa8aa3",
+      "hashVerified": true,
+      "manifest": "content/focused/audio.json",
+      "manifestKey": "clips.ru.focus-s28",
+      "manifestRecord": {
+        "text": "Можешь мне помочь?",
+        "file": "audio/ru/focus-s28.mp3",
+        "sha256": "39b2bc8ed784a0ac6238955b45fb7afec8ad38a1b2ce9fa92130daf5bdaa8aa3",
+        "provider": "gtts"
+      },
+      "exactReuseCandidates": [],
+      "affected": {
+        "source": [
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-ru-lv",
+            "lessonId": "shared-03",
+            "promptId": "focused-s28",
+            "direction": "ru-lv",
+            "conceptId": "focus-s28",
+            "questionFile": "content/focused/blocks/shared-03.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-ru-en",
+            "lessonId": "shared-03",
+            "promptId": "focused-s28",
+            "direction": "ru-en",
+            "conceptId": "focus-s28",
+            "questionFile": "content/focused/blocks/shared-03.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-ru-lv",
+            "lessonId": "shared-03",
+            "promptId": "focused-s28",
+            "direction": "ru-lv",
+            "conceptId": "focus-s28",
+            "questionFile": "content/focused/blocks/shared-03.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-ru-en",
+            "lessonId": "shared-03",
+            "promptId": "focused-s28",
+            "direction": "ru-en",
+            "conceptId": "focus-s28",
+            "questionFile": "content/focused/blocks/shared-03.json"
+          }
+        ],
+        "correct": [
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-lv-ru",
+            "lessonId": "shared-03",
+            "promptId": "focused-s28",
+            "direction": "lv-ru",
+            "conceptId": "focus-s28",
+            "questionFile": "content/focused/blocks/shared-03.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-en-ru",
+            "lessonId": "shared-03",
+            "promptId": "focused-s28",
+            "direction": "en-ru",
+            "conceptId": "focus-s28",
+            "questionFile": "content/focused/blocks/shared-03.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-lv-ru",
+            "lessonId": "shared-03",
+            "promptId": "focused-s28",
+            "direction": "lv-ru",
+            "conceptId": "focus-s28",
+            "questionFile": "content/focused/blocks/shared-03.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-en-ru",
+            "lessonId": "shared-03",
+            "promptId": "focused-s28",
+            "direction": "en-ru",
+            "conceptId": "focus-s28",
+            "questionFile": "content/focused/blocks/shared-03.json"
+          }
+        ],
+        "wrong": [
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-lv-ru",
+            "lessonId": "shared-05",
+            "promptId": "focused-s41",
+            "direction": "lv-ru",
+            "conceptId": "focus-s41",
+            "questionFile": "content/focused/blocks/shared-05.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-lv-ru",
+            "lessonId": "kids-02",
+            "promptId": "focused-k15",
+            "direction": "lv-ru",
+            "conceptId": "focus-k15",
+            "questionFile": "content/focused/blocks/kids-02.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-en-ru",
+            "lessonId": "shared-05",
+            "promptId": "focused-s41",
+            "direction": "en-ru",
+            "conceptId": "focus-s41",
+            "questionFile": "content/focused/blocks/shared-05.json"
+          },
+          {
+            "preset": "kids",
+            "courseId": "focused-kids-en-ru",
+            "lessonId": "kids-02",
+            "promptId": "focused-k15",
+            "direction": "en-ru",
+            "conceptId": "focus-k15",
+            "questionFile": "content/focused/blocks/kids-02.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-lv-ru",
+            "lessonId": "shared-05",
+            "promptId": "focused-s41",
+            "direction": "lv-ru",
+            "conceptId": "focus-s41",
+            "questionFile": "content/focused/blocks/shared-05.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-lv-ru",
+            "lessonId": "adults-02",
+            "promptId": "focused-a12",
+            "direction": "lv-ru",
+            "conceptId": "focus-a12",
+            "questionFile": "content/focused/blocks/adults-02.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-lv-ru",
+            "lessonId": "adults-02",
+            "promptId": "focused-a13",
+            "direction": "lv-ru",
+            "conceptId": "focus-a13",
+            "questionFile": "content/focused/blocks/adults-02.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-en-ru",
+            "lessonId": "shared-05",
+            "promptId": "focused-s41",
+            "direction": "en-ru",
+            "conceptId": "focus-s41",
+            "questionFile": "content/focused/blocks/shared-05.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-en-ru",
+            "lessonId": "adults-02",
+            "promptId": "focused-a12",
+            "direction": "en-ru",
+            "conceptId": "focus-a12",
+            "questionFile": "content/focused/blocks/adults-02.json"
+          },
+          {
+            "preset": "adults",
+            "courseId": "focused-adults-en-ru",
+            "lessonId": "adults-02",
+            "promptId": "focused-a13",
+            "direction": "en-ru",
+            "conceptId": "focus-a13",
+            "questionFile": "content/focused/blocks/adults-02.json"
+          }
+        ]
+      },
+      "counts": {
+        "source": 4,
+        "correct": 4,
+        "wrong": 10
+      },
+      "guide": [
+        {
+          "direction": "lv-ru",
+          "status": "absent: held PR21 contains original 510 only; no focused extension guide modules/keys",
+          "targetChanged": true
+        },
+        {
+          "direction": "ru-en",
+          "status": "absent: held PR21 contains original 510 only; no focused extension guide modules/keys",
+          "targetChanged": false
+        },
+        {
+          "direction": "en-ja",
+          "status": "absent: held PR21 contains original 510 only; no focused extension guide modules/keys",
+          "targetChanged": false
+        }
+      ],
+      "otherLanguageClips": [
+        {
+          "language": "lv",
+          "manifest": "content/focused/audio.json",
+          "text": "Vai tu vari man palīdzēt?",
+          "file": "audio/lv/focus-s28.mp3",
+          "sha256": "ed57493987ec6d16e9bb6dd409fa6d7324ddc7331daa83c679d23e07e33da0da",
+          "provider": "gtts"
+        },
+        {
+          "language": "en",
+          "manifest": "content/focused/audio.json",
+          "text": "Can you help me?",
+          "file": "audio/en/focus-s28.mp3",
+          "sha256": "974c3864c1776183648bed6c6c38c460c104b09f4456715b794c17c1feecd52b",
+          "provider": "flite-slt"
+        },
+        {
+          "language": "ja",
+          "manifest": "content/focused/audio.json",
+          "text": "手伝ってもらえますか",
+          "file": "audio/ja/focus-s28.mp3",
+          "sha256": "1ac49901073f36c32552fdc3ed6327b95dcf8fe55a4ed3ba9fde5626faa881d5",
+          "provider": "gtts"
+        }
+      ],
+      "proposedFormOtherConcepts": [],
+      "unchangedLanguageClipsRetainedNote": "Per-entry list is contextual: omit another clip from retention if another approved entry in this batch changes that same concept/language."
+    }
+  ],
+  "simulation": {
+    "replacementCount": 10,
+    "targetOptionCollisionCount": 0,
+    "targetOptionCollisions": []
+  },
+  "unchangedClipsForAffectedConcepts": [
+    {
+      "language": "ru",
+      "id": "vocab-0004",
+      "manifest": "content/audio/manifest.json",
+      "text": "спасибо",
+      "file": "audio/ru/vocab-0004.mp3",
+      "sha256": "0cc5102554635dba98489e889aa885ac7da2605b2cdd3dab62a0b7d7baeffb56"
+    },
+    {
+      "language": "lv",
+      "id": "vocab-0004",
+      "manifest": "content/audio/manifest.json",
+      "text": "paldies",
+      "file": "audio/lv/vocab-0004.mp3",
+      "sha256": "32efbeb324b11e24586dbc691dab4c516121e48bf84c99b1b856a65577f9ba09"
+    },
+    {
+      "language": "en",
+      "id": "vocab-0004",
+      "manifest": "content/audio/manifest.json",
+      "text": "thank you",
+      "file": "audio/en/vocab-0004.mp3",
+      "sha256": "7a36c15ed738fe3b8d2d1b4520400ddd2b1c7bf51631a7ec7eec5308ee54e6c6",
+      "source": "Flite cmu_us_slt; offline synthesis",
+      "provider": "flite-slt"
+    },
+    {
+      "language": "en",
+      "id": "vocab-0005",
+      "manifest": "content/audio/manifest.json",
+      "text": "sorry",
+      "file": "audio/en/vocab-0005.mp3",
+      "sha256": "438ca612d9adc4351532577b14a6a7513681bd21e792991d00ec035770537def",
+      "source": "Flite cmu_us_slt; offline synthesis",
+      "provider": "flite-slt"
+    },
+    {
+      "language": "ja",
+      "id": "vocab-0005",
+      "manifest": "content/audio/manifest.json",
+      "text": "ごめんなさい",
+      "file": "audio/ja/vocab-0005.mp3",
+      "sha256": "af226814b0a522bd39359769ddbe4042583ccdb8e5f7194cd984718d9a692e20",
+      "provider": "gtts"
+    },
+    {
+      "language": "ru",
+      "id": "focus-s11",
+      "manifest": "content/focused/audio.json",
+      "text": "Как дела?",
+      "file": "audio/ru/focus-s11.mp3",
+      "sha256": "9d09f9df8ae6221df293a53e7726085b7e7c10abbd27f978107f85e46394bfc7",
+      "provider": "gtts"
+    },
+    {
+      "language": "en",
+      "id": "focus-s08",
+      "manifest": "content/focused/audio.json",
+      "text": "What is your name?",
+      "file": "audio/en/focus-s08.mp3",
+      "sha256": "a0ca7dac3d554f511d95634e7995e8d05adac5a4f0140e6ddbab669efe63b0c1",
+      "provider": "flite-slt"
+    },
+    {
+      "language": "en",
+      "id": "focus-s09",
+      "manifest": "content/focused/audio.json",
+      "text": "Where are you from?",
+      "file": "audio/en/focus-s09.mp3",
+      "sha256": "6b080c6adac55dd431f3774b6d1dc7db037a727f86d566d7123029bea3acbe3e",
+      "provider": "flite-slt"
+    },
+    {
+      "language": "en",
+      "id": "focus-s11",
+      "manifest": "content/focused/audio.json",
+      "text": "How are you?",
+      "file": "audio/en/focus-s11.mp3",
+      "sha256": "3e20ea5c87fe93f9a96d77291365801e95b42cfea51115b19950276ac78767cc",
+      "provider": "flite-slt"
+    },
+    {
+      "language": "en",
+      "id": "focus-s28",
+      "manifest": "content/focused/audio.json",
+      "text": "Can you help me?",
+      "file": "audio/en/focus-s28.mp3",
+      "sha256": "974c3864c1776183648bed6c6c38c460c104b09f4456715b794c17c1feecd52b",
+      "provider": "flite-slt"
+    },
+    {
+      "language": "ja",
+      "id": "focus-s08",
+      "manifest": "content/focused/audio.json",
+      "text": "名前は何ですか",
+      "file": "audio/ja/focus-s08.mp3",
+      "sha256": "7bb7f688a2e0dd6d6fa7053c70cf6e984e4d1f336d6bb66617a0198ecf97ba99",
+      "provider": "gtts"
+    },
+    {
+      "language": "ja",
+      "id": "focus-s09",
+      "manifest": "content/focused/audio.json",
+      "text": "どこから来ましたか",
+      "file": "audio/ja/focus-s09.mp3",
+      "sha256": "24391365c136ad28c95f41bd65f315451f9d87400f8637a08bc29b2637cb8c1e",
+      "provider": "gtts"
+    },
+    {
+      "language": "ja",
+      "id": "focus-s11",
+      "manifest": "content/focused/audio.json",
+      "text": "元気ですか",
+      "file": "audio/ja/focus-s11.mp3",
+      "sha256": "651554a5421f7ef336fef86d2658340617adfd33a453bc2105fab0e7c4f5b37e",
+      "provider": "gtts"
+    },
+    {
+      "language": "ja",
+      "id": "focus-s28",
+      "manifest": "content/focused/audio.json",
+      "text": "手伝ってもらえますか",
+      "file": "audio/ja/focus-s28.mp3",
+      "sha256": "1ac49901073f36c32552fdc3ed6327b95dcf8fe55a4ed3ba9fde5626faa881d5",
+      "provider": "gtts"
+    }
+  ],
+  "metadataDependencies": [
+    {
+      "files": [
+        "content/languages/ja.json",
+        "content/languages/lv.json",
+        "content/languages/ru.json",
+        "content/audio/manifest.json",
+        "content/catalog.json"
+      ],
+      "scope": "F002/F003 original-bank edits; audio manifest text/file/hash must match revised source; choose deliberate content/audio revision together"
+    },
+    {
+      "files": [
+        "content/focused/languages/lv.json",
+        "content/focused/languages/ru.json",
+        "content/focused/audio.json",
+        "content/focused/catalog.json"
+      ],
+      "scope": "F004-F007 focused-only edits; advance focused content/audio revision together"
+    },
+    {
+      "files": [
+        "tests/fixtures/vocabulary-0.4-lock.json",
+        "tests/test_basic_vocabulary.py"
+      ],
+      "scope": "Keep historical lock digest unchanged; add explicit approved translation reversals/exceptions for F003 LV/RU in test payload, analogous existing distractor exceptions; Japanese not in old lock languages"
+    },
+    {
+      "files": [
+        "tests/fixtures/usage-correction-baseline.json",
+        "tests/test_usage_corrections.py"
+      ],
+      "scope": "Keep historical translation/audio baseline hashes unchanged; explicit approved exceptions for F002 JA/vocab-0004 and F003 LV/RU/vocab-0005; protect every other translation and clip"
+    },
+    {
+      "files": [
+        "tests/fixtures/original-content-lock.json",
+        "archive/course-0.3"
+      ],
+      "scope": "Unchanged archive lock; original archive need not change"
+    },
+    {
+      "files": [
+        "tools/audio_loader.py",
+        "tools/content_loader.py",
+        "tools/focused_loader.py"
+      ],
+      "scope": "Existing identity/text/hash/version equality and all-language unique-answer validation must pass; do not bypass"
+    },
+    {
+      "files": [
+        "content/readings/en-ja/basic-01.json",
+        "content/readings/lv-ru/basic-01.json"
+      ],
+      "scope": "Held PR21 only: change F002 JA target toありがとうございます with matching segments/reading, F003 RU target toизвините with matching segments/reading; no guides live on current main"
+    },
+    {
+      "files": [
+        "content/readings/ru-en/basic-01.json"
+      ],
+      "scope": "Held PR21 F003 RU source-only change does not change its English sorry guide. Preserve original correct English target spelling/segments. No focused guide coverage exists in held PR21."
+    }
+  ],
+  "apologyAttentionContext": {
+    "vocab-0005": {
+      "lv": {
+        "conceptId": "vocab-0005",
+        "meaning": "sorry",
+        "text": "piedod"
+      },
+      "ru": {
+        "conceptId": "vocab-0005",
+        "meaning": "sorry",
+        "text": "извини"
+      },
+      "en": {
+        "conceptId": "vocab-0005",
+        "meaning": "sorry",
+        "text": "sorry"
+      },
+      "ja": {
+        "conceptId": "vocab-0005",
+        "meaning": "sorry",
+        "text": "ごめんなさい"
+      }
+    },
+    "vocab-0266": {
+      "lv": {
+        "conceptId": "vocab-0266",
+        "meaning": "excuse me",
+        "text": "atvainojiet"
+      },
+      "ru": {
+        "conceptId": "vocab-0266",
+        "meaning": "excuse me",
+        "text": "извините"
+      },
+      "en": {
+        "conceptId": "vocab-0266",
+        "meaning": "excuse me",
+        "text": "excuse me"
+      },
+      "ja": {
+        "conceptId": "vocab-0266",
+        "meaning": "excuse me",
+        "text": "すみません"
+      }
+    }
+  },
+  "existingGuideReuse": {
+    "file": "content/readings/lv-ru/basic-27.json",
+    "key": "entries.vocab-0266",
+    "entry": {
+      "text": "извините",
+      "segments": [
+        {
+          "text": "извините",
+          "reading": "izviņite"
+        }
+      ]
+    },
+    "forFinding": "F003",
+    "language": "ru"
+  },
+  "status": "PROPOSED: owner wording approval required; no application changes",
+  "deferred": {
+    "finding": "F004",
+    "id": "focus-s08",
+    "language": "ja",
+    "current": "名前は何ですか",
+    "priorProposal": "お名前は何ですか",
+    "sourceAttestedAlternative": "お名前は？",
+    "decision": "Keep current Japanese in primary batch; select wording separately with owner/fluent review."
+  }
+}
