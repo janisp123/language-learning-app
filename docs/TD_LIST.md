@@ -122,7 +122,7 @@ For each task: fetch current remote `main:docs/TD_LIST.md` first; then check `AG
 
 
 ### L-019 — Show remaining units and congratulate course completion
-- **Status:** TODO — explicit owner implementation request, 2026-11-25.
+- **Status:** PARTIAL — source implementation and regression test authored by chat, 2026-11-25; standalone rebuild, CI and publication pending. Do not merge until generated output matches source and tests pass.
 - **Added by:** chat
 - **Requested by:** Owner
 - **Implemented by:** Not yet

@@ -8,7 +8,7 @@ const root=path.join(__dirname,'..');
 const E=require('../core/engine.js');
 const {course,locales,html:builtHtml}=require('./runtime.cjs');
 // Bundle mounts exercise real audio sequencing; app-only mounts intentionally exercise audio-unavailable fallback.
-function mount(data=course,bundle=null,initialDirection='lv-ru'){
+function mount(data=course,bundle=null,initialDirection='lv-ru',preset=null){
   const elements=new Map();
   const timers=new Map();let now=0;let timerId=0;
   let document;
@@ -32,10 +32,14 @@ function mount(data=course,bundle=null,initialDirection='lv-ru'){
   elements.get('direction').value=initialDirection;
   elements.get('direction').options=[...html.matchAll(/<option id="(direction-[^"]+)" value="([^"]+)"[^>]*>/g)].map(match=>{const option=elements.get(match[1]);option.value=match[2];return option;});
   elements.get('course-data').textContent=bundle ? html.match(/id="course-data">([\s\S]*?)<\/script>/)[1] : JSON.stringify(data);
-  if(elements.has('ui-data'))elements.get('ui-data').textContent=bundle ? html.match(/id="ui-data">([\s\S]*?)<\/script>/)[1] : JSON.stringify(locales);
+  if(elements.has('ui-data'))elements.get('ui-data').textContent=bundle ? html.match(/id="ui-data">([\s\S]*?)<\/script>/)[1] : JSON.stringify(Object.fromEntries(['lv','ru','en'].map(lang=>[lang,require('../content/languages/'+lang+'.json').ui])));
+  if(preset!==null) {
+    elements.get('focused-data').textContent=html.match(/id="focused-data">([\s\S]*?)<\/script>/)[1];
+    elements.get('course-selection').value=preset;
+  }
   if(elements.has('audio-data'))elements.get('audio-data').textContent=html.match(/id="audio-data">([\s\S]*?)<\/script>/)[1];
   document={documentElement:{lang:'en',dataset:{theme:'light'}},title:'',getElementById:id=>elements.get(id),createElement:()=>new Element(),createTextNode:text=>String(text),activeElement:null};
-  const context=vm.createContext({document,LanguageEngine:E,
+  const context=vm.createContext({document,LanguageEngine:E,LanguageCourseSelection:require('../core/course-selection.js'),
     setTimeout:(callback,delay)=>{const id=++timerId;timers.set(id,{callback,at:now+delay});return id;},
     clearTimeout:id=>timers.delete(id)
   });
@@ -144,7 +148,7 @@ test('all interface text follows source language on direction selection, practic
   assert.match($('feedback').textContent,/Неверно/);assert.equal($('feedback').children[0].lang,'lv');$.tick(500);
   $('restart').click();
   for(const lesson of course.lessons)for(const prompt of lesson.prompts){choose($,prompt.phraseId);$.tick(1000);}
-  assert.equal($('finished').hidden,false);assert.equal($('finished-title').textContent,'Вы прошли все уроки.');
+  assert.equal($('finished').hidden,false);assert.equal($('finished-title').textContent,'Поздравляем!');
   assert.equal($('again').textContent,'Снова начать с урока 1');
   $('choose').click();$('direction').value='lv-ru';$('direction').handlers.change();
   assert.equal($.language(),'lv');assert.equal($('start').textContent,'Sākt mācīties');
@@ -304,4 +308,44 @@ test('correct-answer playback error and stall recover after one second without c
   for(let i=0;i<8;i++)await Promise.resolve();assert.ok($('question-audio-error').textContent);
   $.tick(999);assert.equal($('progress').value,0);$.tick(1);assert.equal($('progress').value,1);
  }
+});
+
+test('unit completion feedback counts remaining units and congratulates all 21 preset/direction combinations',()=>{
+  const S=require('../core/course-selection.js');
+  const focused=JSON.parse(builtHtml.match(/id="focused-data">([\s\S]*?)<\/script>/)[1]);
+  const expected={
+    en:{remaining:'Units remaining: ',total:'Total units completed: ',title:'Congratulations!'},
+    lv:{remaining:'Atlikušās nodarbības: ',total:'Pabeigtās nodarbības: ',title:'Apsveicam!'},
+    ru:{remaining:'Осталось уроков: ',total:'Пройдено уроков: ',title:'Поздравляем!'}
+  };
+  for(const direction of course.directions)for(const preset of ['kids','adults','full']){
+    const $=mount(course,null,direction,preset);
+    $('course-selection').value=preset; $('course-selection').handlers.change();
+    $('start').click();
+    const active=E.validateCourse(preset==='full'?course:S.select(course,focused,preset,direction));
+    const total=active.lessons.length;
+    assert.equal(total,preset==='full'?51:10);
+    const lang=expected[direction.split('-')[0]];
+    for(let i=0;i<total;i++){
+      for(let j=0;j<active.lessons[i].prompts.length;j++){
+        choose($,active.lessons[i].prompts[j].correctAnswerId);
+        if(j===9&&i<total-1)assert.ok($('feedback').textContent.includes(lang.remaining+(total-i-1)+'.'));
+        else assert.ok(!$('feedback').textContent.includes(lang.remaining));
+        $.tick(1000);
+      }
+      if(i<total-1)assert.ok($('feedback').textContent.includes(lang.remaining+(total-i-1)+'.'));
+    }
+    assert.equal($('finished').hidden,false);
+    assert.equal($('finished-title').textContent,lang.title);
+    assert.ok($('finished-intro').textContent.includes(lang.total+total+'.'));
+    $('again').click();
+    assert.equal($('finished').hidden,true);
+    assert.equal($('feedback').textContent,'');
+    assert.equal($('progress').value,0);
+    // A wrong answer after restart never inherits a completion message.
+    const first=active.lessons[0].prompts[0].correctAnswerId;
+    choose($,answerButtons($).find(x=>x.dataset.optionId!==first).dataset.optionId);
+    assert.ok(!$('feedback').textContent.includes(lang.remaining));
+    $.tick(500);
+  }
 });

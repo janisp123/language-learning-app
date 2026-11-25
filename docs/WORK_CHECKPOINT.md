@@ -2,6 +2,8 @@
 
 Current task: L-011
 
+**Separate L-019 UI slice (2026-11-25, chat): PARTIAL.** Owner requested and confirmed implementation of remaining-unit feedback and final congratulations. Source and 21-combination regression test authored on PR50; no engine/course/audio changes. Next: rebuild committed standalone from source, reconcile release version/badges, run protocol/Node/Python checks and real browser checks, then checked merge/publication/readback. Container Git DNS failed; generated output and full test results are not available in this session. L-011 remains the current audit pointer.
+
 **Presentation follow-up:** [PR49](https://github.com/janisp123/language-learning-app/pull/49) refreshes README/guides/screenshot and corrects the three visible build badges to0.5.7. Vocabulary/audio/behavior are unchanged. This presentation revision produces26,201,258 app bytes,SHA256486cb3bb7a5b0c4b6544f251e06fab5162c8ca72b0dbbbd16d9962ce1cfac9ad;actual checked merge,Pages and hosted-readback results are recorded in PR49. The initial0.5.7 receipt below retains the earlier pre-badge-correction artifact hash as historical evidence.
 
 ## Latest verified delivery — L-011 shared polite defaults
