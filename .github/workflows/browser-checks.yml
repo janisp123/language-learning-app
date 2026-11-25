@@ -8,7 +8,7 @@ permissions:
   contents: read
 jobs:
   verify:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -17,7 +17,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Install real-browser regression test dependencies
+        run: |
+          npm install --no-save --package-lock=false --ignore-scripts playwright@1.56.1
+          npx playwright install --with-deps chromium
       - run: npm test
+        env:
+          REQUIRE_COMPLETION_BROWSER: '1'
       - run: python -m unittest discover -s tests -p 'test_*.py' -v
       - name: Verify tested build is reproducible from canonical sources
         run: |

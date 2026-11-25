@@ -1,3 +1,7 @@
+## 0.5.9 — visible unit-completion announcement (chat, pending checks)
+
+Owner reported completion feedback not visible on mobile in0.5.8. Move it from below answer choices to a prominent sticky status banner that remains visible through the next prompt until the learner answers. No extra click, delay, engine or audio changes. Add required Chromium phone-viewport checks to PR and Pages CI. PR50's0.5.8 CI and Pages passed; independent hosted readback was not performed.
+
 ## 2026-11-25 — L-020 CI-owned offline HTML (chat, pending verification)
 
 Owner approved replacing the manually committed portable HTML with automatic canonical build before Node tests. CI independently rebuilds for byte equality and uploads the tested artifact; Pages stages the exact tested HTML to both public routes after successful checks. Tracked generated copy retired without rewriting history. Version0.5.8 includes L-019. PR50 checks and deployment remain pending.

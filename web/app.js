@@ -90,7 +90,13 @@
         : legacyCourse;
     }
 
+    function clearUnitCompletion() {
+      $('unit-completion').hidden = true;
+      $('unit-completion-text').textContent = '';
+    }
+
     function cancelAdvance() {
+      clearUnitCompletion();
       reports?.reset();
       audio?.reset();
       $('correction-status').textContent = '';
@@ -144,6 +150,7 @@
     }
     function select(id) {
       if (pending) return;
+      clearUnitCompletion();
       pending = E.answer(course, state, shown, id);
       for (const row of $('choices').children) {
         const [button, speaker] = row.children;
@@ -159,11 +166,14 @@
         const translation = document.createElement('span'); translation.lang = shown.target; translation.textContent = pending.feedback.correctText;
         feedback.append(translation, document.createTextNode(t(pending.restarted ? 'reset' : 'back')));
       } else if (pending.completed) feedback.textContent = t('completed');
-      else if (pending.lessonChanged) feedback.textContent = t('nextLesson', {
-        n:pending.state.lessonIndex, remaining:course.lessons.length - pending.state.lessonIndex,
-        title:(messages.focusedLessons?.[course.lessons[pending.state.lessonIndex].id] || messages.lessons[course.lessons[pending.state.lessonIndex].id])
-      });
-      else feedback.textContent = t('correct');
+      else if (pending.lessonChanged) {
+        $('unit-completion').hidden = false;
+        $('unit-completion-text').textContent = t('nextLesson', {
+          n:pending.state.lessonIndex, remaining:course.lessons.length - pending.state.lessonIndex,
+          title:(messages.focusedLessons?.[course.lessons[pending.state.lessonIndex].id] || messages.lessons[course.lessons[pending.state.lessonIndex].id])
+        });
+        feedback.textContent = t('correct');
+      } else feedback.textContent = t('correct');
       const ticket = ++generation;
       function advance() {
         if (ticket !== generation || !pending) return;

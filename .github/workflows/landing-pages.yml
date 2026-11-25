@@ -27,7 +27,7 @@ concurrency:
 jobs:
   build:
     if: github.ref == 'refs/heads/main'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     permissions:
       contents: read
       pages: read
@@ -39,7 +39,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Install real-browser regression test dependencies
+        run: |
+          npm install --no-save --package-lock=false --ignore-scripts playwright@1.56.1
+          npx playwright install --with-deps chromium
       - run: npm test
+        env:
+          REQUIRE_COMPLETION_BROWSER: '1'
       - run: python -m unittest discover -s tests -p 'test_*.py' -v
       - name: Read owner-enabled Pages configuration
         uses: actions/configure-pages@v5
