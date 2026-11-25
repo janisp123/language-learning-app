@@ -329,11 +329,19 @@ test('unit completion feedback counts remaining units and congratulates all 21 p
     for(let i=0;i<total;i++){
       for(let j=0;j<active.lessons[i].prompts.length;j++){
         choose($,active.lessons[i].prompts[j].correctAnswerId);
-        if(j===9&&i<total-1)assert.ok($('feedback').textContent.includes(lang.remaining+(total-i-1)+'.'));
-        else assert.ok(!$('feedback').textContent.includes(lang.remaining));
+        if(j===9&&i<total-1){
+          assert.equal($('unit-completion').hidden,false);
+          assert.ok($('unit-completion-text').textContent.includes(lang.remaining+(total-i-1)+'.'));
+        }else{
+          assert.equal($('unit-completion').hidden,true);
+          assert.equal($('unit-completion-text').textContent,'');
+        }
         $.tick(1000);
       }
-      if(i<total-1)assert.ok($('feedback').textContent.includes(lang.remaining+(total-i-1)+'.'));
+      if(i<total-1){
+        assert.equal($('unit-completion').hidden,false);
+        assert.ok($('unit-completion-text').textContent.includes(lang.remaining+(total-i-1)+'.'));
+      }
     }
     assert.equal($('finished').hidden,false);
     assert.equal($('finished-title').textContent,lang.title);
@@ -345,7 +353,8 @@ test('unit completion feedback counts remaining units and congratulates all 21 p
     // A wrong answer after restart never inherits a completion message.
     const first=active.lessons[0].prompts[0].correctAnswerId;
     choose($,answerButtons($).find(x=>x.dataset.optionId!==first).dataset.optionId);
-    assert.ok(!$('feedback').textContent.includes(lang.remaining));
+    assert.equal($('unit-completion').hidden,true);
+    assert.equal($('unit-completion-text').textContent,'');
     $.tick(500);
   }
 });

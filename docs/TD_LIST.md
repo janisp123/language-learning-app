@@ -122,7 +122,7 @@ For each task: fetch current remote `main:docs/TD_LIST.md` first; then check `AG
 
 
 ### L-019 — Show remaining units and congratulate course completion
-- **Status:** PARTIAL — source and regression test authored by chat; owner also approved CI-owned generation (L-020). PR50 awaiting verified checks and publication.
+- **Status:** PARTIAL — PR50 merged/deployed 0.5.8 with automated DOM checks, but owner reports message not visible on mobile; 0.5.9 sticky-banner repair and required real browser test pending checked integration.
 - **Added by:** chat
 - **Requested by:** Owner
 - **Implemented by:** Not yet
