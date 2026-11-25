@@ -11,6 +11,8 @@ on:
       - 'web/**'
       - 'tools/**'
       - 'package.json'
+      - 'tests/**'
+      - '.github/workflows/browser-checks.yml'
       - 'docs/discovery-preview/**'
       - 'docs/delivery/**'
       - '.github/workflows/landing-pages.yml'
@@ -44,7 +46,13 @@ jobs:
         with:
           enablement: false
       - name: Stage the landing page and browser test build only
-        run: python tools/build_site.py --output dist/landing
+        run: |
+          python tools/build_browser.py --output dist/rebuilt.html
+          cmp dist/language-learning-test.html dist/rebuilt.html
+          python tools/build_site.py --output dist/landing --tested-app dist/language-learning-test.html
+          cmp dist/language-learning-test.html dist/landing/learn/index.html
+          cmp dist/language-learning-test.html dist/landing/language-learning-test.html
+          sha256sum dist/language-learning-test.html
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist/landing

@@ -1,3 +1,11 @@
+## 2026-11-25 — L-020 CI-owned offline HTML (chat, pending verification)
+
+Owner approved replacing the manually committed portable HTML with automatic canonical build before Node tests. CI independently rebuilds for byte equality and uploads the tested artifact; Pages stages the exact tested HTML to both public routes after successful checks. Tracked generated copy retired without rewriting history. Version0.5.8 includes L-019. PR50 checks and deployment remain pending.
+
+## 2026-11-25 — L-019 unit completion feedback (chat, source-only, pending verification)
+
+Owner-requested remaining-unit count after each completed lesson, plus localized final congratulations and total completed. Source UI uses selected course length and next lesson index; no scoring, vocabulary, audio or learner-storage changes. Added regression coverage for all three presets and seven directions. PR50 remains unmerged: CI verification and release readback pending.
+
 ## 2026-11-23 — Correction listening publicly deployed/read back (codex)
 
 ## 2026-11-24 — Current-release documentation refresh (codex)

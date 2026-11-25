@@ -121,6 +121,22 @@ For each task: fetch current remote `main:docs/TD_LIST.md` first; then check `AG
 
 
 
+### L-019 — Show remaining units and congratulate course completion
+- **Status:** PARTIAL — source and regression test authored by chat; owner also approved CI-owned generation (L-020). PR50 awaiting verified checks and publication.
+- **Added by:** chat
+- **Requested by:** Owner
+- **Implemented by:** Not yet
+- **Goal:** After each successfully completed non-final lesson, display how many units remain until the end of the selected course. On completing the last lesson, show a clear, encouraging congratulations message on the existing finished screen with the total number of units completed.
+- **Implementation:** Reuse existing `pending.lessonChanged` feedback and `pending.completed` / finished screen in `web/app.js`. Calculate remaining units as `course.lessons.length - pending.state.lessonIndex` on non-final transitions (next lesson index is zero-based). Keep next-lesson feedback visible and add the remaining count; for the final transition show congratulations and the selected course's completed total. Use localized LV/RU/EN text and number-neutral labels that remain grammatical for every count; update `content/ui-contract.json` and source language UI modules as necessary. Reuse existing finish controls, without extra dialogs, buttons, badges, reward sounds or persistence. No hardcoded counts (currently Basic Kids/Adults: 10 each, Full: 51).
+- **Acceptance:** First and penultimate unit completion display 9/1 remaining in both Basic courses and 50/1 in Full; final completion shows congratulations and 10/51 units completed respectively. Wrong answers, third-mistake reset, restart and direction/preset changes must not display stale completion messages. Preserve ten consecutive correct answers, existing feedback/audio timing (actual correct playback plus 1000 ms), wrong-answer correction sequence, all content/recordings/options, report panel and zero saves. Verify all seven directions and three presets, locale contract, desktop/mobile/light/dark, keyboard/accessibility and generated standalone/Pages parity. Use checked PR and standing publication authorization; document results and archive task only after verified integration. L-011 remains the existing checkpoint pointer; this request is an isolated UI slice, not authorization to change audit findings or merge held reading guides.
+
+### L-020 — Generate and verify offline HTML automatically in CI
+- **Status:** PARTIAL — workflow/source/test migration committed on PR50; checks and release readback pending.
+- **Added by:** chat
+- **Requested by:** Owner (2026-11-25)
+- **Implemented by:** Not yet (verification pending)
+- **Acceptance:** A source-only change builds from a clean checkout, runs all Node/Python/protocol checks against fresh canonical output, verifies deterministic bytes, uploads a verified CI artifact, and publishes identical online/offline HTML only after successful main checks. Remove the generated 26 MB file from current tracking (historical commits unchanged); no manual generated-file edits or commits. Preserve content/audio/engine/privacy, public offline link and held PR boundaries. This supersedes the former committed-download parity rule.
+
 ## Out of scope for v1 (not backlog tasks)
 
 Languages/directions beyond the approved Latvian/Russian/English set and English → Japanese, additional age-specific paths beyond the delivered Kids/Adults courses, user accounts, cloud sync, servers, leaderboards, monetization, AI tutors, advanced pronunciation scoring, Apple App Store. These need an explicit new owner decision, not automatic addition.

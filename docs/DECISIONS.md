@@ -54,3 +54,8 @@ Owner explicitly requested starting the common-usage implementation and shorteni
 ## 2026-11-24 — Owner approved ten shared polite-default cells
 
 After reviewing PR46 preparation and being told implementation/audio/publication were next, Owner instructed “Make the change already.” This authorizes the exact ten F002–F007 cells in [the approved table](../research/common-usage/2026-11-24-reconciled/F002-F007-wording.csv), matching nine new recordings and existing Russian извините clip reuse, checked integration and live publication under standing authorization. Keep Japanese F004 名前は何ですか unchanged pending a separate selection. Keep apology and attention as distinct meanings/IDs even when Russian wording matches. No approval of unrelated remaining findings or held reading-guide integration is implied. See [implementation notes](../research/common-usage/2026-11-24-implementation-02.md).
+
+
+## CI-owned offline HTML — 2026-11-25 (Owner)
+
+Owner explicitly approved replacing the manual committed-download rule with automatic generation by GitHub Actions. `npm test` builds the canonical portable HTML into ignored `dist/` before testing. CI validates reproducibility and uploads the verified artifact. Authorized Pages deployment must run the checks and stage the exact tested bytes for online/offline use, with equality checks before publication. No agent needs to commit generated HTML. Existing history, checks, privacy and release verification remain intact; held PRs must reconcile against the current pipeline before integration. This supersedes older committed-download instructions, not their historical evidence.

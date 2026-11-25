@@ -30,7 +30,7 @@ This is a hosting-configuration blocker, not a missing webpage or unsynchronized
 
 Codex should refresh main and inspect the existing publication run, then rerun only its failed jobs if it is still the relevant run. Avoid duplicate deployments. If GitHub requires an environment approval or reports another configuration error, identify that exact requirement.
 
-Read the actual `page_url`/deployment result before reporting a live address. Verify the landing page, Learn action, language/direction selection and pronunciation. Download the hosted `learn/index.html` and compare its exact bytes with the tested canonical build and committed download,then save a delivery receipt linked from [WORK_CHECKPOINT.md](../WORK_CHECKPOINT.md). Do not use an older Drive artifact as the website baseline. If replacing Drive separately,push verified source first,then upload and download back for exact equality. Record the successful run, public URL, exact source and readback evidence there. Physical-phone and fluent pronunciation checks remain separate.
+Read the actual `page_url`/deployment result before reporting a live address. Verify the landing page, Learn action, language/direction selection and pronunciation. Download the hosted `learn/index.html` and compare its exact bytes with the tested canonical build / CI artifact and the hosted offline download,then save a delivery receipt linked from [WORK_CHECKPOINT.md](../WORK_CHECKPOINT.md). Do not use an older Drive artifact as the website baseline. If replacing Drive separately,push verified source first,then upload and download back for exact equality. Record the successful run, public URL, exact source and readback evidence there. Physical-phone and fluent pronunciation checks remain separate.
 
 ## Where future edits belong
 
@@ -54,4 +54,4 @@ The **Publish language app website** workflow runs after relevant approved chang
 - `learn/index.html`: complete self-contained browser app with 2,040 pronunciation clips for 510 items across LV/RU/EN/JA.
 - `language-learning-test.html`: identical app bytes retained for technical parity checks.
 
-The public download action points to the default Drive folder. Only staged public files enter the artifact. Learning state remains in browser memory. Preserve the established Drive delivery/readback process when a requested app change also updates the review download; a website deployment does not by itself prove Drive was refreshed.
+The public offline download points to the same Pages deployment's generated `language-learning-test.html`. Only staged public files enter the artifact. Learning state remains in browser memory. Preserve the established Drive delivery/readback process when a requested app change also updates the review download; a website deployment does not by itself prove Drive was refreshed.

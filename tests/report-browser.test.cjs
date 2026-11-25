@@ -2,7 +2,7 @@ const {test}=require('node:test');const assert=require('node:assert/strict');con
 test('flag/copy preserves exact item identity across presets, languages, navigation, clipboard failure and reload',{
  skip:!chromium||!fs.existsSync('/usr/bin/chromium')?'Optional Chromium unavailable':false
 },async()=>{
- const server=http.createServer((_q,res)=>{res.setHeader('Content-Type','text/html; charset=utf-8');res.end(fs.readFileSync('downloads/language-learning-test.html'));});await new Promise(r=>server.listen(0,'127.0.0.1',r));
+ const server=http.createServer((_q,res)=>{res.setHeader('Content-Type','text/html; charset=utf-8');res.end(fs.readFileSync('dist/language-learning-test.html'));});await new Promise(r=>server.listen(0,'127.0.0.1',r));
  const browser=await chromium.launch({executablePath:'/usr/bin/chromium',headless:true,args:['--no-sandbox']});
  try{
   const context=await browser.newContext({viewport:{width:390,height:900},permissions:['clipboard-read','clipboard-write']});const page=await context.newPage();const errors=[];page.on('pageerror',e=>errors.push(String(e)));

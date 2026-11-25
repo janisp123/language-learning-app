@@ -1,9 +1,10 @@
 {
   "name": "language-learning-test-build",
-  "version": "0.5.7",
+  "version": "0.5.8",
   "private": true,
   "description": "Portable browser test build for Latvian, Russian and English practice",
   "scripts": {
+    "pretest": "npm run build",
     "test": "node --test --test-isolation=none tests/*.test.cjs",
     "build": "python tools/build_browser.py"
   },

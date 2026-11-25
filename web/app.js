@@ -159,7 +159,10 @@
         const translation = document.createElement('span'); translation.lang = shown.target; translation.textContent = pending.feedback.correctText;
         feedback.append(translation, document.createTextNode(t(pending.restarted ? 'reset' : 'back')));
       } else if (pending.completed) feedback.textContent = t('completed');
-      else if (pending.lessonChanged) feedback.textContent = t('nextLesson', {title:(messages.focusedLessons?.[course.lessons[pending.state.lessonIndex].id] || messages.lessons[course.lessons[pending.state.lessonIndex].id])});
+      else if (pending.lessonChanged) feedback.textContent = t('nextLesson', {
+        n:pending.state.lessonIndex, remaining:course.lessons.length - pending.state.lessonIndex,
+        title:(messages.focusedLessons?.[course.lessons[pending.state.lessonIndex].id] || messages.lessons[course.lessons[pending.state.lessonIndex].id])
+      });
       else feedback.textContent = t('correct');
       const ticket = ++generation;
       function advance() {
@@ -167,7 +170,11 @@
         advanceTimer = null;
         $('correction-status').textContent = '';
         state = pending.state; pending = null;
-        if (state.phase === 'complete') { audio?.reset(); screen('finished'); $('finished-title').focus(); }
+        if (state.phase === 'complete') {
+          audio?.reset();
+          $('finished-intro').textContent = t('finishedSummary', {total:course.lessons.length});
+          screen('finished'); $('finished-title').focus();
+        }
         else render(false);
       }
       if (pending.feedback.correct) {
