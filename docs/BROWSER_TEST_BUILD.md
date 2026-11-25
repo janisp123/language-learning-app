@@ -24,7 +24,7 @@ python -m unittest discover -s tests -p 'test_*.py' -v
 python tools/build_browser.py
 ```
 
-Copy the fresh generated `dist/language-learning-test.html` to the committed download only after verification. Never edit generated HTML directly. Follow [AGENTS](../AGENTS.md) and the [release checklist](RELEASE_CHECKLIST.md). Current snapshots supersede the dated initial-build notes below.
+`npm test` builds the fresh `dist/language-learning-test.html` automatically. Never edit or commit generated HTML; CI verifies deterministic output and uploads the tested artifact. Follow [AGENTS](../AGENTS.md) and the [release checklist](RELEASE_CHECKLIST.md). Current snapshots supersede the dated initial-build notes below.
 
 ---
 
@@ -34,7 +34,7 @@ Implemented by Codex on 2026-11-16 at the owner's explicit request for a testabl
 
 ## Start testing
 
-Download `downloads/language-learning-test.html` and open that file in a browser. No server, network, account or installation is needed. GitHub's source viewer and raw HTML view do not run the app; save/download the actual `.html` file first. On phones that do not open local HTML, use a desktop browser or the hosted route after authorized Pages deployment.
+Download the [published offline HTML](https://janisp123.github.io/language-learning-app/language-learning-test.html), download the verified workflow artifact, or run `npm run build` and open `dist/language-learning-test.html` in a browser. No server, network, account or installation is needed. GitHub's source viewer and raw HTML view do not run the app; save/download the actual `.html` file first. On phones that do not open local HTML, use a desktop browser or the hosted route after authorized Pages deployment.
 
 Choose any of the six directions between Latvian, Russian and English, or English → Japanese, then Start practice. Japanese answers use script only with the English interface. Tap one of four choices. Choices lock and feedback appears immediately; after 500 ms the app automatically registers the transition and displays the next prompt, lesson or completion screen. No Continue button is used. Restart returns to lesson one. Change direction opens the direction selector and discards the current session. Reopening/refreshing starts over; nothing is saved. Ten consecutive correct selections complete a lesson; the first two mistakes in a block move one prompt backward and reset the run. The third cumulative mistake restarts lesson one/question one and clears both counters. Correct answers do not clear mistakes; block completion or restart does. Direction is preserved on automatic restart, and stale answers are rejected. Completing the final block (currently block 51) ends the session with an explicit restart action.
 
@@ -54,7 +54,7 @@ Each `content/languages/<code>.json` module contains its translations and separa
 - `core/engine.js`: dependency-free pure JavaScript engine shared by unit tests and the browser. No DOM or persistence. It handles validation, direction, shuffle, cursor, consecutive count and stale answer rejection.
 - `web/`: semantic HTML template, CSS and DOM event handling. No framework, network requests or storage.
 - `tools/build_browser.py`: standard-library build that embeds the canonical data, engine and UI into one HTML file. Inline JSON escapes HTML-sensitive characters; interface text uses `textContent`.
-- `downloads/language-learning-test.html`: generated copy for immediate download. Never edit it directly; CI compares it with a fresh canonical build.
+- `dist/language-learning-test.html`: generated test/download artifact, ignored by Git. CI compares it against an independent fresh canonical build.
 - `tests/`: deterministic engine/content tests, a minimal DOM event fixture for UI wiring, and packaging/privacy checks. The DOM fixture is not a real browser and cannot establish rendering/accessibility behavior.
 
 Use plain JavaScript and a standard-library Python packager: ordinary builds require no dependency installation. The unmerged platform proposal in PR #3 requires reconciliation with later decisions. All platforms must save zero learner state; Android is not implemented. Build 0.4.6 bundles 1,530 clips for all 510 items. Only optional audio authoring uses gTTS/Flite; see AUDIO_MODULES.md.
@@ -65,13 +65,13 @@ python -m unittest discover -s tests -p 'test_*.py' -v
 python tools/build_browser.py
 ```
 
-Tooling: Node 24+, Python 3.12+. Tests use Node's built-in runner with process isolation disabled for this execution environment; no downloaded test framework. Build output is deterministic and has no external runtime assets. To refresh the committed download after source changes, copy the built file to `downloads/language-learning-test.html` and verify equality.
+Tooling: Node 24+, Python 3.12+. Tests use Node's built-in runner with process isolation disabled for this execution environment; no downloaded test framework. Build output is deterministic and has no external runtime assets. Every `npm test` invocation builds from source before tests read the generated file. The old committed download is historical and no longer maintained.
 
 The original combined sources were replaced by validated modules. The earlier 100-item draft remains under `archive/course-0.3/`. Unchanged baseline digests protect it and the original 500 vocabulary items; practical-core tests separately pin the ten new translations and approved catalog order. The catalog enables LV/RU/EN and 51 blocks. See [the curriculum guide](VOCABULARY_500.md) and [module guide](CONTENT_MODULES.md). Runtime schema 2 still requires explicit correct-answer identity.
 
 ## GitHub delivery
 
-The ordinary checks workflow validates the app, rebuilds it, compares the download and uploads a test artifact without deploying. The manual Pages workflow separately packages the landing page, `learn/index.html` and `language-learning-test.html`, then publishes only after authorized dispatch on main with Pages already owner-enabled. A merged source file is not proof of a running site. Read the actual deployment URL and verify it before claiming a test URL is live.
+The ordinary checks workflow builds the app before testing, checks reproducibility and uploads the verified artifact without deploying. The Pages workflow on main (or authorized manual dispatch) independently builds and runs the checks, then copies that exact tested HTML to `learn/index.html` and `language-learning-test.html`, verifies byte parity, and deploys only on success. A merged source file is not proof of a running site. Read the actual deployment URL and verify it before claiming a test URL is live.
 
 ## Suggested first test
 

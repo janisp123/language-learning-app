@@ -9,7 +9,7 @@
 - [ ] Close/reload starts at lesson 1; no saved browser progress, analytics, cookies, IndexedDB or server calls.
 - [ ] Mobile layouts, large touch targets, readable language/audio, keyboard behavior and screen-reader basics checked.
 - [ ] No fake Google Play link; landing page accurately says what is currently available.
-- [ ] Deployed site readback matches verified source/version; direct navigation and HTTPS verified.
+- [ ] CI generates the canonical offline HTML before tests, verifies deterministic output and stages identical tested bytes for online/offline Pages routes. Deployed site readback matches verified CI artifact/source/version; direct navigation and HTTPS verified. Do not commit generated HTML.
 
 ## Before building/publishing Android
 - [ ] Android and browser agree on the same test cases and canonical lesson IDs/translations.
