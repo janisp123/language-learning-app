@@ -1,7 +1,7 @@
 const {test}=require('node:test');const assert=require('node:assert/strict');const fs=require('node:fs');const http=require('node:http');
 let chromium;try{({chromium}=require('playwright'));}catch{}
 test('dark mode carries into learning without saving a preference and survives learning actions',{skip:!chromium||!fs.existsSync('/usr/bin/chromium')?'Optional Chromium verification unavailable':false},async()=>{
- const server=http.createServer((req,res)=>{res.setHeader('Content-Type','text/html; charset=utf-8');res.end(fs.readFileSync(req.url.startsWith('/learn/')?'downloads/language-learning-test.html':'docs/discovery-preview/index.html'));});
+ const server=http.createServer((req,res)=>{res.setHeader('Content-Type','text/html; charset=utf-8');res.end(fs.readFileSync(req.url.startsWith('/learn/')?'dist/language-learning-test.html':'docs/discovery-preview/index.html'));});
  await new Promise(r=>server.listen(0,'127.0.0.1',r));const base='http://127.0.0.1:'+server.address().port;const browser=await chromium.launch({executablePath:'/usr/bin/chromium',headless:true,args:['--no-sandbox']});
  try{
  const page=await browser.newPage({viewport:{width:320,height:900},isMobile:true,hasTouch:true});const errors=[];page.on('pageerror',e=>errors.push(String(e)));

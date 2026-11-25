@@ -19,9 +19,11 @@ jobs:
           python-version: '3.12'
       - run: npm test
       - run: python -m unittest discover -s tests -p 'test_*.py' -v
-      - run: python tools/build_browser.py
-      - name: Verify committed download matches canonical sources
-        run: cmp dist/language-learning-test.html downloads/language-learning-test.html
+      - name: Verify tested build is reproducible from canonical sources
+        run: |
+          python tools/build_browser.py --output dist/rebuilt.html
+          cmp dist/language-learning-test.html dist/rebuilt.html
+          sha256sum dist/language-learning-test.html
       - uses: actions/upload-artifact@v4
         with:
           name: language-learning-test

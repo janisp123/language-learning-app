@@ -94,7 +94,7 @@ test('standalone prompt speaker and wrong-answer correction preserve grading and
   }
 });
 test('standalone speaker covers every question in all allowed directions with correct source binding',async()=>{
-  const html=fs.readFileSync(path.join(root,'downloads/language-learning-test.html'),'utf8');
+  const html=fs.readFileSync(path.join(root,'dist/language-learning-test.html'),'utf8');
   const pack=JSON.parse(html.match(/id="audio-data">([\s\S]*?)<\/script>/)[1]);
   const bank=new Map(course.phrases.map(p=>[p.id,p]));
   for(const direction of course.directions){
@@ -168,8 +168,8 @@ test('invalid embedded content produces a visible error and disables start',()=>
   const ru=mount({},null,'ru-lv');assert.equal(ru.language(),'ru');assert.match(ru('error').textContent,/Не удалось/);
   const en=mount({},null,'en-lv');assert.equal(en.language(),'en');assert.match(en('error').textContent,/could not be loaded/);
 });
-test('committed standalone HTML executes its embedded data, engine and UI',async()=>{
-  const html=fs.readFileSync(path.join(root,'downloads/language-learning-test.html'),'utf8');
+test('fresh standalone HTML executes its embedded data, engine and UI',async()=>{
+  const html=fs.readFileSync(path.join(root,'dist/language-learning-test.html'),'utf8');
   const $=mount(undefined,html);assert.equal($('error').hidden,true);
   $('start').click();assert.equal($('question').textContent,course.phrases[0].lv);
   choose($,course.lessons[0].prompts[0].phraseId);$.tick(499);assert.equal($('progress').value,0);await finishCorrect($);

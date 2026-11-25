@@ -7,7 +7,7 @@ let chromium;try{({chromium}=require('playwright'));}catch{}
 test('correct submissions play fully in every course/direction and wait one additional second',{
  skip:!chromium||!fs.existsSync('/usr/bin/chromium')?'Optional Chromium unavailable':false
 },async()=>{
- const server=http.createServer((_req,res)=>{res.setHeader('Content-Type','text/html; charset=utf-8');res.end(fs.readFileSync('downloads/language-learning-test.html'));});
+ const server=http.createServer((_req,res)=>{res.setHeader('Content-Type','text/html; charset=utf-8');res.end(fs.readFileSync('dist/language-learning-test.html'));});
  await new Promise(r=>server.listen(0,'127.0.0.1',r));
  const browser=await chromium.launch({executablePath:'/usr/bin/chromium',headless:true,args:['--no-sandbox']});
  try{

@@ -62,5 +62,11 @@ class BuildTests(unittest.TestCase):
             self.assertEqual((output/'learn/index.html').read_bytes(),(output/'language-learning-test.html').read_bytes())
             self.assertTrue('href="learn/"' in (output/'index.html').read_text())
             with self.assertRaises(FileExistsError): build_site(ROOT, output)
+            tested = Path(tmp)/'tested.html'
+            tested.write_bytes((output/'learn/index.html').read_bytes())
+            staged = Path(tmp)/'staged'
+            build_site(ROOT, staged, tested)
+            self.assertEqual((staged/'learn/index.html').read_bytes(), tested.read_bytes())
+            self.assertEqual((staged/'language-learning-test.html').read_bytes(), tested.read_bytes())
 
 if __name__=='__main__': unittest.main()

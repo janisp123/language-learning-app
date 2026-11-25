@@ -2,7 +2,7 @@ const {test}=require('node:test');const assert=require('node:assert/strict');con
 test('Basic goodbye uses canonical Latvian/Russian text, existing audio and stable report IDs',{
  skip:!chromium||!fs.existsSync('/usr/bin/chromium')?'Optional Chromium unavailable':false
 },async()=>{
- const server=http.createServer((_q,res)=>{res.setHeader('Content-Type','text/html; charset=utf-8');res.end(fs.readFileSync('downloads/language-learning-test.html'));});await new Promise(r=>server.listen(0,'127.0.0.1',r));const browser=await chromium.launch({executablePath:'/usr/bin/chromium',headless:true,args:['--no-sandbox']});
+ const server=http.createServer((_q,res)=>{res.setHeader('Content-Type','text/html; charset=utf-8');res.end(fs.readFileSync('dist/language-learning-test.html'));});await new Promise(r=>server.listen(0,'127.0.0.1',r));const browser=await chromium.launch({executablePath:'/usr/bin/chromium',headless:true,args:['--no-sandbox']});
  try{
   const page=await browser.newPage({viewport:{width:390,height:900}});await page.goto('http://127.0.0.1:'+server.address().port);await page.click('#start');await page.locator('[data-option-id="vocab-0001"]').click();await page.waitForFunction(()=>document.getElementById('progress').value===1);
   assert.equal(await page.locator('#question').innerText(),'uz redzēšanos');assert.equal(await page.locator('[data-option-id="vocab-0002"]').innerText(),'до свидания');assert.ok(!(await page.locator('.choice').allTextContents()).includes('До встречи'));

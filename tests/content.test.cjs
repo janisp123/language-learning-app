@@ -2,7 +2,7 @@ const test=require('node:test');
 const assert=require('node:assert/strict');
 const fs=require('node:fs');
 const path=require('node:path');
-const file=path.join(__dirname,'../downloads/language-learning-test.html');
+const file=path.join(__dirname,'../dist/language-learning-test.html');
 test('modular course has a compiled downloadable runtime',()=>assert.ok(fs.existsSync(file),'course is not built'));
 if(fs.existsSync(file)){
   const {course}=require('./runtime.cjs');

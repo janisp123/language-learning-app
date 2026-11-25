@@ -22,7 +22,7 @@ test('all presets reuse the canonical goodbye in all seven directions with uncha
  const E=require('../core/engine.js'),S=require('../core/course-selection.js');
  const [legacy,focused]=JSON.parse(cp.execFileSync('python',['-c',"import sys,json;from pathlib import Path;sys.path.insert(0,'tools');from content_loader import load_content;from focused_loader import load_focused_content;c,_=load_content(Path('.'));print(json.dumps([c,load_focused_content(Path('.'),c)]))"],{encoding:'utf8'}));
  const expected={lv:'uz redzēšanos',ru:'до свидания',en:'goodbye',ja:'さようなら'};
- const html=fs.readFileSync('downloads/language-learning-test.html','utf8');const clips=JSON.parse(html.match(/id="audio-data">([\s\S]*?)<\/script>/)[1]).clips;
+ const html=fs.readFileSync('dist/language-learning-test.html','utf8');const clips=JSON.parse(html.match(/id="audio-data">([\s\S]*?)<\/script>/)[1]).clips;
  for(const preset of ['kids','adults','full'])for(const direction of legacy.directions){
   const course=E.validateCourse(preset==='full'?legacy:S.select(legacy,focused,preset,direction));
   const q=E.question(course,{...E.start(course,direction),promptIndex:1});
